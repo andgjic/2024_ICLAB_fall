@@ -1,0 +1,49 @@
+# ///////////////////////////////////////////////////////////////////////////////////
+# // 
+# //              Synchronous Dual Port SRAM Compiler 
+# // 
+# //                    UMC 0.18um Generic Logic Process 
+# //    __________________________________________________________________________
+# // 
+# // 
+# //        (C) Copyright 2002-2009 Faraday Technology Corp. All Rights Reserved.
+# // 
+# //      This source code is an unpublished work belongs to Faraday Technology
+# //      Corp.  It is considered a trade secret and is not to be divulged or
+# //      used by parties who have not received written authorization from
+# //      Faraday Technology Corp.
+# // 
+# //      Faraday's home page can be found at:
+# //      http://www.faraday-tech.com/
+# //     
+# // ________________________________________________________________________________
+# // 
+# //       Module Name       :  SJMA180_128X32X1BM1  
+# //       Word              :  128                  
+# //       Bit               :  32                   
+# //       Byte              :  1                    
+# //       Mux               :  1                    
+# //       Power Ring Type   :  port                 
+# //       Power Ring Width  :  2 (um)               
+# //       Output Loading    :  0.05 (pf)            
+# //       Input Data Slew   :  0.02 (ns)            
+# //       Input Clock Slew  :  0.02 (ns)            
+# // 
+# // ________________________________________________________________________________
+# // 
+# //       Library          : FSA0M_A
+# //       Memaker          : 200901.2.1
+# //       Date             : 2024/01/08 18:24:22
+# // 
+# // ________________________________________________________________________________
+# // 
+# //       Library          : FSA0M_A
+# //       Memaker          : 200901.2.1
+# //       Date             : 2024/01/08 18:24:23
+# //
+# ///////////////////////////////////////////////////////////////////////////////////
+tfgDefineMem -module "SJMA180_128X32X1BM1" -array_name "Memory" -banks * -addr_range 127 0
+tfgDefineMemWrite -module "SJMA180_128X32X1BM1" -array_name "Memory" -clk "@(posedge CKA)" -cond "CSA && ~WEAN" -addr "`<->A" -data "`<->DIA"
+tfgDefineMemRead -module "SJMA180_128X32X1BM1" -array_name "Memory" -clk "@(posedge CKA)" -cond "CSA && WEAN" -addr "`<->A" -noe "OEA" -out "`<->DOA"
+tfgDefineMemWrite -module "SJMA180_128X32X1BM1" -array_name "Memory" -clk "@(posedge CKB)" -cond "CSB && ~WEBN" -addr "`<->B" -data "`<->DIB"
+tfgDefineMemRead -module "SJMA180_128X32X1BM1" -array_name "Memory" -clk "@(posedge CKB)" -cond "CSB && WEBN" -addr "`<->B" -noe "OEB" -out "`<->DOB"

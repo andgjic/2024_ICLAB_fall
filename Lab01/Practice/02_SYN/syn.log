@@ -1,0 +1,469 @@
+
+                           Design Compiler Graphical 
+                                 DC Ultra (TM)
+                                  DFTMAX (TM)
+                              Power Compiler (TM)
+                                 DesignWare (R)
+                                 DC Expert (TM)
+                               Design Vision (TM)
+                               HDL Compiler (TM)
+                               VHDL Compiler (TM)
+                                  DFT Compiler
+                               Design Compiler(R)
+
+                 Version T-2022.03 for linux64 - Feb 22, 2022 
+
+                    Copyright (c) 1988 - 2022 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+Initializing...
+#======================================================
+#
+# Synopsys Synthesis Scripts (Design Vision dctcl mode)
+#
+#======================================================
+#======================================================
+#  Set Libraries
+#======================================================
+set search_path {./../01_RTL \
+                   ~iclabta01/umc018/Synthesis\
+                /RAID2/COURSE/iclab/iclabTA01/UMC018_CBDK/CIC/SynopsysDC/db/ \
+                 /RAID2/cad/umc018/Synthesis/}
+./../01_RTL  ~iclabta01/umc018/Synthesis /RAID2/COURSE/iclab/iclabTA01/UMC018_CBDK/CIC/SynopsysDC/db/  /RAID2/cad/umc018/Synthesis/
+#/usr/syn/libraries/syn/ \
+                   #/usr/syn/dw/ }
+set synthetic_library {dw_foundation.sldb}
+dw_foundation.sldb
+# set link_library {* dw_foundation.sldb standard.sldb slow.db}
+set target_library {slow.db}
+slow.db
+#======================================================
+#  Global Parameters
+#======================================================
+set DESIGN "CORE"
+CORE
+set MAX_Delay 30
+30
+#======================================================
+#  Read RTL Code
+#======================================================
+read_sverilog $DESIGN\.v
+Loading db file '/usr/cad/synopsys/synthesis/2022.03/libraries/syn/gtech.db'
+Loading db file '/usr/cad/synopsys/synthesis/2022.03/libraries/syn/standard.sldb'
+  Loading link library 'gtech'
+Loading sverilog file '/RAID2/COURSE/BackUp/2023_Spring/iclab/iclabta01/Lab01/Practice/01_RTL/CORE.v'
+Detecting input file type automatically (-rtl or -netlist).
+Reading with Presto HDL Compiler (equivalent to -rtl option).
+Running PRESTO HDLC
+Loading db file '/usr/cad/synopsys/synthesis/2022.03/libraries/syn/dw_foundation.sldb'
+Warning: Can't read link_library file 'your_library.db'. (UID-3)
+Warning: The following synthetic libraries should be added to 
+	the list of link libraries: 
+	'dw_foundation.sldb'. (UISN-26)
+Compiling source file /RAID2/COURSE/BackUp/2023_Spring/iclab/iclabta01/Lab01/Practice/01_RTL/CORE.v
+Presto compilation completed successfully.
+Current design is now '/RAID2/COURSE/BackUp/2023_Spring/iclab/iclabta01/Lab01/Practice/01_RTL/CORE.db:CORE'
+Loaded 3 designs.
+Current design is 'CORE'.
+CORE HA FA
+current_design $DESIGN
+Current design is 'CORE'.
+{CORE}
+#======================================================
+#  Global Setting
+#======================================================
+#set_operating_conditions -max slow -min fast
+#======================================================
+#  Set Design Constraints
+#======================================================
+set_max_delay $MAX_Delay -from [all_inputs] -to [all_outputs]
+Warning: Can't read link_library file 'your_library.db'. (UID-3)
+1
+#======================================================
+#  Optimization
+#======================================================
+uniquify
+1
+set_fix_multiple_port_nets -all -buffer_constants
+1
+compile_ultra
+Warning: Can't read link_library file 'your_library.db'. (UID-3)
+Warning: The following synthetic libraries should be added to 
+	the list of link libraries: 
+	'dw_foundation.sldb'. (UISN-26)
+Information: Performing power optimization. (PWR-850)
+Loading db file '/RAID2/cad/umc018/Synthesis/slow.db'
+Alib files are up-to-date.
+Warning: Can't read link_library file 'your_library.db'. (UID-3)
+Warning: The following synthetic libraries should be added to 
+	the list of link libraries: 
+	'dw_foundation.sldb'. (UISN-26)
+Information: Evaluating DesignWare library utilization. (UISN-27)
+
+============================================================================
+| DesignWare Building Block Library  |         Version         | Available |
+============================================================================
+| Basic DW Building Blocks           | S-2021.06-DWBB_202106.0 |     *     |
+| Licensed DW Building Blocks        | S-2021.06-DWBB_202106.0 |     *     |
+============================================================================
+
+====================================================================================================
+| Flow Information                                                                                 |
+----------------------------------------------------------------------------------------------------
+| Flow         | Design Compiler WLM                                                               |
+| Comand line  | compile_ultra                                                                     |
+====================================================================================================
+| Design Information                                      | Value                                  |
+====================================================================================================
+| Number of Scenarios                                     | 0                                      |
+| Leaf Cell Count                                         | 8                                      |
+| Number of User Hierarchies                              | 0                                      |
+| Sequential Cell Count                                   | 0                                      |
+| Macro Count                                             | 0                                      |
+| Number of Power Domains                                 | 0                                      |
+| Number of Path Groups                                   | 1                                      |
+| Number of VT class                                      | 0                                      |
+| Number of Clocks                                        | 0                                      |
+| Number of Dont Touch cells                              | 4                                      |
+| Number of Dont Touch nets                               | 0                                      |
+| Number of size only cells                               | 0                                      |
+| Design with UPF Data                                    | false                                  |
+----------------------------------------------------------------------------------------------------
+| Variables                                               | Value                                  |
+----------------------------------------------------------------------------------------------------
+| set_fix_multiple_port_nets                              | -all -buffer_constants                 |
+====================================================================================================
+Information: Sequential output inversion is enabled.  SVF file must be used for formal verification. (OPT-1208)
+
+Information: There are 2 potential problems in your design. Please run 'check_design' for more information. (LINT-99)
+
+  Simplifying Design 'CORE'
+
+Warning: Can't read link_library file 'your_library.db'. (UID-3)
+Loaded alib file './alib-52/slow.db.alib'
+Warning: Can't read link_library file 'your_library.db'. (UID-3)
+Warning: Can't read link_library file 'your_library.db'. (UID-3)
+Warning: Can't read link_library file 'your_library.db'. (UID-3)
+  Building model 'DW01_NAND2'
+Information: Ungrouping 0 of 1 hierarchies before Pass 1 (OPT-775)
+Information: State dependent leakage is now switched from on to off.
+
+  Beginning Pass 1 Mapping
+  ------------------------
+  Processing 'CORE'
+Warning: Can't read link_library file 'your_library.db'. (UID-3)
+Information: Added key list 'DesignWare' to design 'CORE'. (DDB-72)
+Warning: Can't read link_library file 'your_library.db'. (UID-3)
+Warning: Can't read link_library file 'your_library.db'. (UID-3)
+
+  Updating timing information
+Information: Updating design information... (UID-85)
+Information: The library cell 'HOLDX1' in the library 'slow' is not characterized for internal power. (PWR-536)
+Information: The target library(s) contains cell(s), other than black boxes, that are not characterized for internal power. (PWR-24)
+
+  Beginning Mapping Optimizations  (Ultra High effort)
+  -------------------------------
+Information: There is no timing violation in design CORE. Delay-based auto_ungroup will not be performed. (OPT-780)
+
+                                  TOTAL                                                
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER  
+  --------- --------- --------- --------- --------- ------------------------- ---------
+    0:00:01     365.9      0.00       0.0       0.0                           35685.3555
+    0:00:01     365.9      0.00       0.0       0.0                           35685.3555
+
+  Beginning Constant Register Removal
+  -----------------------------------
+    0:00:01     365.9      0.00       0.0       0.0                           35685.3555
+    0:00:01     365.9      0.00       0.0       0.0                           35685.3555
+
+  Beginning Global Optimizations
+  ------------------------------
+  Numerical Synthesis (Phase 1)
+  Numerical Synthesis (Phase 2)
+  Global Optimization (Phase 1)
+  Global Optimization (Phase 2)
+  Global Optimization (Phase 3)
+  Global Optimization (Phase 4)
+  Global Optimization (Phase 5)
+  Global Optimization (Phase 6)
+  Global Optimization (Phase 7)
+  Global Optimization (Phase 8)
+  Global Optimization (Phase 9)
+  Global Optimization (Phase 10)
+  Global Optimization (Phase 11)
+  Global Optimization (Phase 12)
+  Global Optimization (Phase 13)
+  Global Optimization (Phase 14)
+  Global Optimization (Phase 15)
+  Global Optimization (Phase 16)
+  Global Optimization (Phase 17)
+  Global Optimization (Phase 18)
+  Global Optimization (Phase 19)
+  Global Optimization (Phase 20)
+  Global Optimization (Phase 21)
+  Global Optimization (Phase 22)
+  Global Optimization (Phase 23)
+  Global Optimization (Phase 24)
+  Global Optimization (Phase 25)
+  Global Optimization (Phase 26)
+  Global Optimization (Phase 27)
+  Global Optimization (Phase 28)
+
+  Beginning Isolate Ports
+  -----------------------
+
+  Beginning Delay Optimization
+  ----------------------------
+    0:00:01     365.9      0.00       0.0       0.0                           31988.9902
+    0:00:01     365.9      0.00       0.0       0.0                           31988.9902
+    0:00:01     365.9      0.00       0.0       0.0                           31988.9902
+    0:00:01     365.9      0.00       0.0       0.0                           31988.9902
+    0:00:01     365.9      0.00       0.0       0.0                           31988.9902
+    0:00:01     365.9      0.00       0.0       0.0                           31988.9902
+
+  Beginning WLM Backend Optimization
+  --------------------------------------
+    0:00:01     365.9      0.00       0.0       0.0                           31988.9902
+    0:00:01     365.9      0.00       0.0       0.0                           31988.9902
+    0:00:01     365.9      0.00       0.0       0.0                           31988.9902
+    0:00:01     365.9      0.00       0.0       0.0                           27878.8203
+    0:00:01     365.9      0.00       0.0       0.0                           27878.8203
+    0:00:01     365.9      0.00       0.0       0.0                           27878.8203
+    0:00:01     365.9      0.00       0.0       0.0                           27878.8203
+    0:00:01     365.9      0.00       0.0       0.0                           27878.8203
+    0:00:01     365.9      0.00       0.0       0.0                           27878.8203
+    0:00:01     365.9      0.00       0.0       0.0                           27878.8203
+    0:00:01     365.9      0.00       0.0       0.0                           27878.8203
+    0:00:01     365.9      0.00       0.0       0.0                           27878.8203
+    0:00:01     365.9      0.00       0.0       0.0                           27878.8203
+    0:00:01     365.9      0.00       0.0       0.0                           27878.8203
+    0:00:01     365.9      0.00       0.0       0.0                           27878.8203
+    0:00:01     365.9      0.00       0.0       0.0                           27878.8203
+    0:00:01     365.9      0.00       0.0       0.0                           27878.8203
+    0:00:01     365.9      0.00       0.0       0.0                           27878.8203
+    0:00:01     365.9      0.00       0.0       0.0                           27878.8203
+    0:00:01     365.9      0.00       0.0       0.0                           27878.8203
+    0:00:01     365.9      0.00       0.0       0.0                           27878.8203
+    0:00:01     365.9      0.00       0.0       0.0                           27878.8203
+    0:00:02     365.9      0.00       0.0       0.0                           27878.8203
+    0:00:02     365.9      0.00       0.0       0.0                           27878.8203
+
+
+  Beginning Leakage Power Optimization  (max_leakage_power 0)
+  ------------------------------------
+
+                                  TOTAL                                                
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER  
+  --------- --------- --------- --------- --------- ------------------------- ---------
+    0:00:02     365.9      0.00       0.0       0.0                           27878.8203
+  Global Optimization (Phase 29)
+  Global Optimization (Phase 30)
+  Global Optimization (Phase 31)
+  Global Optimization (Phase 32)
+  Global Optimization (Phase 33)
+  Global Optimization (Phase 34)
+  Global Optimization (Phase 35)
+  Global Optimization (Phase 36)
+  Global Optimization (Phase 37)
+  Global Optimization (Phase 38)
+  Global Optimization (Phase 39)
+    0:00:02     372.6      0.00       0.0       0.0                           27457.5371
+    0:00:02     372.6      0.00       0.0       0.0                           27457.5371
+    0:00:02     372.6      0.00       0.0       0.0                           27457.5371
+    0:00:02     365.9      0.00       0.0       0.0                           27878.8203
+    0:00:02     365.9      0.00       0.0       0.0                           27878.8203
+    0:00:02     365.9      0.00       0.0       0.0                           27878.8203
+    0:00:02     365.9      0.00       0.0       0.0                           27878.8203
+    0:00:02     365.9      0.00       0.0       0.0                           27878.8203
+    0:00:02     365.9      0.00       0.0       0.0                           27878.8203
+    0:00:02     365.9      0.00       0.0       0.0                           27878.8203
+    0:00:02     365.9      0.00       0.0       0.0                           27878.8203
+    0:00:02     365.9      0.00       0.0       0.0                           27878.8203
+    0:00:02     365.9      0.00       0.0       0.0                           27878.8203
+    0:00:02     365.9      0.00       0.0       0.0                           27878.8203
+    0:00:02     365.9      0.00       0.0       0.0                           27878.8203
+    0:00:02     365.9      0.00       0.0       0.0                           27878.8203
+    0:00:02     365.9      0.00       0.0       0.0                           27878.8203
+    0:00:02     365.9      0.00       0.0       0.0                           27878.8203
+    0:00:02     365.9      0.00       0.0       0.0                           27878.8203
+    0:00:02     365.9      0.00       0.0       0.0                           27878.8203
+    0:00:02     365.9      0.00       0.0       0.0                           27878.8203
+    0:00:02     365.9      0.00       0.0       0.0                           27878.8203
+
+                                  TOTAL                                                
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER  
+  --------- --------- --------- --------- --------- ------------------------- ---------
+    0:00:02     365.9      0.00       0.0       0.0                           27878.8203
+    0:00:02     365.9      0.00       0.0       0.0                           27878.8203
+    0:00:02     365.9      0.00       0.0       0.0                           27878.8203
+    0:00:02     365.9      0.00       0.0       0.0                           27878.8203
+    0:00:02     365.9      0.00       0.0       0.0                           27878.8203
+    0:00:02     369.2      0.00       0.0       0.0                           27668.1777
+    0:00:02     369.2      0.00       0.0       0.0                           27668.1777
+    0:00:02     369.2      0.00       0.0       0.0                           27668.1777
+    0:00:02     369.2      0.00       0.0       0.0                           27668.1777
+    0:00:02     369.2      0.00       0.0       0.0                           27668.1777
+    0:00:02     369.2      0.00       0.0       0.0                           27668.1777
+Loading db file '/RAID2/cad/umc018/Synthesis/slow.db'
+
+
+Note: Symbol # after min delay cost means estimated hold TNS across all active scenarios 
+
+
+  Optimization Complete
+  ---------------------
+Warning: Can't read link_library file 'your_library.db'. (UID-3)
+Warning: Unable to resolve reference 'NOR2XL' in 'CORE'. (LINK-5)
+Warning: Unable to resolve reference 'NOR2X1' in 'CORE'. (LINK-5)
+Warning: Unable to resolve reference 'INVXL' in 'CORE'. (LINK-5)
+Warning: Unable to resolve reference 'AND2XL' in 'CORE'. (LINK-5)
+Warning: Unable to resolve reference 'AOI22XL' in 'CORE'. (LINK-5)
+Warning: Unable to resolve reference 'MXI2XL' in 'CORE'. (LINK-5)
+Warning: Unable to resolve reference 'XOR2XL' in 'CORE'. (LINK-5)
+Warning: Unable to resolve reference 'OAI2BB1XL' in 'CORE'. (LINK-5)
+Warning: Unable to resolve reference 'OAI211XL' in 'CORE'. (LINK-5)
+Warning: Unable to resolve reference 'AOI222XL' in 'CORE'. (LINK-5)
+Warning: Unable to resolve reference 'NOR2BXL' in 'CORE'. (LINK-5)
+Warning: Unable to resolve reference 'NAND2XL' in 'CORE'. (LINK-5)
+Warning: Unable to resolve reference 'OAI21XL' in 'CORE'. (LINK-5)
+Information: State dependent leakage is now switched from off to on.
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: There is no defined clock in the design. (PWR-80)
+1
+#======================================================
+#  Output Reports 
+#======================================================
+report_timing >  Report/$DESIGN\.timing
+report_area >  Report/$DESIGN\.area
+report_resource >  Report/$DESIGN\.resource
+#======================================================
+#  Change Naming Rule
+#======================================================
+set bus_inference_style "%s\[%d\]"
+%s[%d]
+set bus_naming_style "%s\[%d\]"
+%s[%d]
+set hdlout_internal_busses true
+true
+change_names -hierarchy -rule verilog
+1
+define_name_rules name_rule -allowed "a-z A-Z 0-9 _" -max_length 255 -type cell
+1
+define_name_rules name_rule -allowed "a-z A-Z 0-9 _[]" -max_length 255 -type net
+1
+define_name_rules name_rule -map {{"\\*cell\\*" "cell"}}
+1
+change_names -hierarchy -rules name_rule
+1
+#======================================================
+#  Output Results
+#======================================================
+set verilogout_higher_designs_first true
+true
+write -format verilog -output Netlist/$DESIGN\_SYN.v -hierarchy
+Writing verilog file '/RAID2/COURSE/BackUp/2023_Spring/iclab/iclabta01/Lab01/Practice/02_SYN/Netlist/CORE_SYN.v'.
+1
+write_sdf -version 2.1 -context verilog -load_delay cell Netlist/$DESIGN\_SYN.sdf
+Information: Writing timing information to file '/RAID2/COURSE/BackUp/2023_Spring/iclab/iclabta01/Lab01/Practice/02_SYN/Netlist/CORE_SYN.sdf'. (WT-3)
+1
+#======================================================
+#  Finish and Quit
+#======================================================
+report_area
+ 
+****************************************
+Report : area
+Design : CORE
+Version: T-2022.03
+Date   : Fri Feb 23 23:47:27 2024
+****************************************
+
+Library(s) Used:
+
+    slow (File: /RAID2/cad/umc018/Synthesis/slow.db)
+
+Number of ports:                           11
+Number of nets:                            29
+Number of cells:                           22
+Number of combinational cells:             22
+Number of sequential cells:                 0
+Number of macros/black boxes:               0
+Number of buf/inv:                          5
+Number of references:                      13
+
+Combinational area:                369.230406
+Buf/Inv area:                       49.896002
+Noncombinational area:               0.000000
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:                   369.230406
+Total area:                 undefined
+1
+report_timing 
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : CORE
+Version: T-2022.03
+Date   : Fri Feb 23 23:47:27 2024
+****************************************
+
+Operating Conditions: slow   Library: slow
+Wire Load Model Mode: top
+
+  Startpoint: in_n1[0] (input port)
+  Endpoint: out_n[2] (output port)
+  Path Group: default
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  in_n1[0] (in)                            0.00       0.00 f
+  U27/Y (AND2XL)                           0.24       0.24 f
+  U37/Y (AOI222XL)                         0.50       0.73 r
+  U23/Y (NOR2XL)                           0.16       0.89 f
+  U38/Y (NOR2BXL)                          0.26       1.15 r
+  U39/Y (XOR2XL)                           0.41       1.56 r
+  U40/Y (MXI2XL)                           0.17       1.73 f
+  out_n[2] (out)                           0.00       1.73 f
+  data arrival time                                   1.73
+
+  max_delay                               30.00      30.00
+  output external delay                    0.00      30.00
+  data required time                                 30.00
+  -----------------------------------------------------------
+  data required time                                 30.00
+  data arrival time                                  -1.73
+  -----------------------------------------------------------
+  slack (MET)                                        28.27
+
+
+1
+exit
+
+Memory usage for this session 187 Mbytes.
+Memory usage for this session including child processes 187 Mbytes.
+CPU usage for this session 3 seconds ( 0.00 hours ).
+Elapsed time for this session 6 seconds ( 0.00 hours ).
+
+Thank you...

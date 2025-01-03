@@ -1,0 +1,77 @@
+# TclPro::Compiler::Include
+
+if {[catch {package require tbcload 1.4} err] == 1} {
+    error "The TclPro ByteCode Loader is not available or does not support the correct version"
+}
+tbcload::bceval {
+TclPro ByteCode 2 0 1.4 8.4
+1 0 8 3 0 0 8 0 3 1 1 -1 -1
+8
+w0E<!:V>#!
+1
+z
+1
+(!
+3
+x
+13
+i@|RAt;o98y4oRA>v
+x
+10
++owP73kye9l;#
+x
+2924
+u!V<++olRAr'6x?r^oRA|WC?+pgpgClcreD7r5-E;H8:+KyD<Fg(+Y?8W5DFLdV<+LdV<+Ld
+V<+LdV<+LdV<+w`7d0``J!46dV<+!6*+En55DFpC+Y?mC97A#'8lBrbnh/T:KoAZ1::+Mn%s
+F(=?<@m|J^F8=VE+LdV<+LdV<+LdV<+LdV<+w`7d04GK9wLdV<+4;QcEs0^Z?8W5DFLdV<+L
+dV<+LdV<+LdV<+ho8s+#'g!,QvV<+GH8`F'p<JDj-DTA;/;EFdUfRA#'8lBKeV<+fOoZ3Uv@
+GC3vM&,QvV<+3J`SAaR54Bp&BfD%_KZ?8W5DFLdV<+LdV<+fOoZ3:l|)=QvV<+7nvlBtu`aE
+p:,SA4JlcEBS3m-.9BfD!G'7A#Nt!HygggCr'L;@26sJDDj84wLdV<+3Tb@Ggc/bEf=+Y?,H
+X/DcXKV@6>d#HLdV<+fVC?+6+GJ0Q1::+JS)!Ft'wx?/'rTA%URQB*aIQBkt!Y?sd|Z?+RMT
+AvM&d0%E>>+QvV<+A^^iC(?K^F/30bE%QKbE'3OeDl-m*EuoNaE.V#D+:7CK0046!46dV<+1
+EcSA)dreD%_KZ?+IDTA.!=iCcdPr@gki:@T6rZ3&vfh/a@K9wLdV<+3Tb@G,r|,Ev'0CF*BK
+(Ft0H8As8TCF_pggC|WC?+>%5J0Q1::+@NncB?PMEF%QKbE'3OeDl-m*EiX|mA&kbD+LdV<+
+&q='25+GJ0Q1::+F/g|DFG;`F'URQB*aIQBkt!Y?sd|Z?lN!iCLdV<+&q='25+GJ0Q1::+@N
+ncB?PMEF%QKbE'3OeDl-m*EuoNaE.V#D+LdV<+&q='25+GJ0Q1::+F/g|DFG;`F'URQB*aIQ
+Bkt!Y?sd|Z?+RMTALdV<+&q='25+GJ0g`W<+um74wLdV<+|(j:@,+^Z?3/2`FwFIlB^YN:@G
+eV<+LdV<+!D`H09U^b1'K>>+QvV<++olRAu/siCvI<JD0F^Z?sR'Z?!b1E+LdV<+fOoZ3%%5
+J0;=GJ0a@K9wLdV<+|(j:@,+^Z?@5--E0^m*Ef+ap@3WY<+LdV<+!D`H0046!46dV<+qK>nA
+.)QDFrGYxGa-IIDEaVE+LdV<+LdV<+fVC?+Ppbi/a@K9wLdV<+|(j:@,+^Z?r!-x?-RIID1'
+nlB?QY<+LdV<+vM&d0E!2K0'K>>+QvV<++olRAu/siCgki:@>MMEFhsf;@;eV<+LdV<+fOoZ
+3&(5J0Q1::+;!<0Anly^Fo=ap@iOjY?jdLLCYk*Y?3'rTAIeV<+/Deh/a@K9wLdV<+|(j:@,
++^Z?jdLLCYk*Y?3'rTAg.oRA6f5DFjWC?+%E>>+;H8:+B`OEC(fTfD&ot)Fs&=JD`6*+EfOo
+Z3%%5J0QvV<+,c^Y?,CHr@v:UZ?/LDTA`6*+EfVC?+@9rv46dV<+'Bm*E!YfRA4E,@Gl7+Y?
+7+ME+vM&d0opK9wLdV<+wB>cEvjJ(Fg(fRA!XNaE.V#D+0Jnh/a1::+B`OEC(fTfD&ot)F`*
+7hC_ki:@T6rZ3&(5J0QvV<+,c^Y?,CHr@v:UZ?+RMTAsH-<@6f5DF3+uD+/Deh/a1::+B`OE
+C(fTfD&ot)F_pggC)ZbcE#0elB26sJD!D`H0opK9wLdV<+wB>cEvjJ(Fv4MTA0.:Z?+RMTA!
+D`H0opK9wLdV<+wB>cEvjJ(Fv4MTA0.:Z?lN!iC!D`H0opK9wLdV<+wB>cEvjJ(F!LNeDn?N
+aE.V#D+/Deh/a1::+B`OEC(fTfD&ot)Fou<iCWki:@T6rZ3%%5J0QvV<+,c^Y?,CHr@v:UZ?
+!@!eD>Jd#H%Zo(FVWC?+@9rv46dV<+'Bm*E!YfRA/mNaE%lL&G'x6x?lN!iC!D`H0opK9wLd
+V<+wB>cEvjJ(Fu3.lB*|:`Fp:+Y?0*|CFejUkBK*rZ3&(5J0QvV<+,c^Y?,CHr@v:UZ?pR'Z
+?<u5)Fqo3mBlOFY??aqE+vM&d0opK9wLdV<+wB>cEvjJ(F!I<JD1<9KDiEm*E5H0bEvM&d0o
+pK9w6dV<++f/CFnj9Z?sR'Z?!b1E+fVC?+@9rv46dV<++f/CFnj9Z?/LDTA`6*+EfVC?+@9r
+v46dV<++f/CFnj9Z?/LDTA!BK(FfVC?+@9rv46dV<++f/CFnj9Z?mZ!iC%Zo(FVWC?+5+GJ0
+MNd)2i1::+B`OECrfR.Dd(fRAj@|mA&kbD+/Deh/A3EA3V)f#46dV<++f/CFnj9Z?+RMTAsH
+-<@6f5DF3+uD+/Deh/a1::+B`OECrfR.Dcki:@#j/CF,EG)F-<XeD_WC?+@9rv46dV<++f/C
+Fnj9Z?92_`FvRxlBT!rZ3%%5J0QvV<+,c^Y?.0B,E#NfCFvM|mA&kbD+/Deh/a1::+B`OECr
+fR.DsKNeDn?NaE.V#D+/Deh/a1::+B`OECrfR.DsKNeDb(|mA&kbD+/Deh/a1::+B`OECrfR
+.Ds-DTA%!iTA4*OaE.V#D+/Deh/a1::+B`OECrfR.Ds-DTA%!iTA(h|mA&kbD+/Deh/a1::+
+B`OECrfR.Dr3.lB*|:`Fp:+Y?0*|CFejUkBK*rZ3%%5J0HTW`2)4L9wLdV<+p9VTA!7q-DsK
+m*E1xMTAp6-8AtjUgCHlY<+/Deh/A3EA3V)f#46dV<++f/CFnj9Z?(gVTA%4hgC-GhAGSHrZ
+3%%5J0E<m)2&.L9w6dV<+-#fwG&+^Z?sR'Z?!b1E+fVC?+@9rv46dV<+-#fwG&+^Z?/LDTA`
+6*+EfVC?+@9rv46dV<+-#fwG&+^Z?/LDTA!BK(FfVC?+@9rv46dV<+-#fwG&+^Z?mZ!iC%Zo
+(FVWC?+9dH_2SZE`2+4L9wLdV<+'K#gDo=ap@iOjY?lN!iCs(dK/C?E`2SZE`2i1::+B`OEC
+(K=iC&RxlB#U/CF,EG)F-<XeD_WC?+@9rv46dV<+-#fwG&+^Z?lN!iCsH-<@6f5DF3+uD+/D
+eh/a1::+B`OEC(K=iC#4MTA0.:Z?+RMTA!D`H0opK9wLdV<+'K#gD*wj'F686-E_pggC|WC?
++@9rv46dV<+-#fwG&+^Z?t0H8A%Zo(FVWC?+@9rv46dV<+-#fwG&+^Z?t0H8A_pggC|WC?+@
+9rv46dV<+-#fwG&+^Z?!@!eD>Jd#H%Zo(FVWC?+@9rv46dV<+-#fwG&+^Z?!@!eD>Jd#H_pg
+gC|WC?+@9rv46dV<+-#fwG&+^Z?pR'Z?<u5)Fqo3mBlOFY?mw2PBs(dK/C?E`2SZE`2i1::+
+B`OEC(K=iC!4.lB*|:`Fp:+Y?0*|CFocreDhPoZ3vkeh/SZE`2X/f#46dV<+-#fwG&+^Z?(g
+VTA%4hgC-GhAGSHrZ3.!*A3JH!E2)1L9w6dV<+7;X/D(fTfD&ot)FLdV<+fOoZ3&(5J0QvV<
++?x-fDr9VTA,30bE4JlcE<eV<+8:6)2opK9wLdV<+!_sY?=lPDFo1#D+LdV<+fVC?+Iie#4u
+!V<+AjQ,Ew3BCFj7=Y?q<Z8A-<XeD*g)%<D,vi9Em<@wLdV<+LdV<+,CHr@8UME+0Jnh/71G
+J0Q1::+LdV<+KyD<FtK2TA4&_`FS!rZ3snk>+QvV<+LdV<+G6!gDum54BVWC?+.u1?+QvV<+
+LdV<+HE`cEjT/CF;M#D+j.S9G@J;EFcQ&(FvZbcE.Bk<+QvV<+>wO@w
+0
+0
+}

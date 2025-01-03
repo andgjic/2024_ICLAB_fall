@@ -1,0 +1,302 @@
+wvOpenFile -win $_nWave1 -mul \
+           {/RAID2/COURSE/iclab/iclab131/Lab08/EXERCISE/01_RTL/SA_CG.fsdb} {/RAID2/COURSE/iclab/iclab131/Lab08/EXERCISE/01_RTL/signal.rc} 
+wvResizeWindow -win $_nWave1 24 85 1504 725
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollUp -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollUp -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollUp -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollUp -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 2
+wvScrollUp -win $_nWave1 2
+wvScrollDown -win $_nWave1 0
+wvScrollUp -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 2
+wvScrollDown -win $_nWave1 2
+wvScrollDown -win $_nWave1 2
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 2
+wvScrollDown -win $_nWave1 2
+wvScrollDown -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 2
+wvScrollUp -win $_nWave1 2
+wvScrollUp -win $_nWave1 5
+wvScrollUp -win $_nWave1 2
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 3
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 1
+wvScrollUp -win $_nWave1 2
+wvScrollUp -win $_nWave1 9
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 2
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 2
+wvScrollDown -win $_nWave1 0
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvZoomOut -win $_nWave1
+wvScrollDown -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvSelectGroup -win $_nWave1 {MatMul_1}
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 1
+wvSelectGroup -win $_nWave1 {MatMul_1}
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 2
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvSetCursor -win $_nWave1 1305098.684211 -snap {("Output" 1)}
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomOut -win $_nWave1
+wvScrollDown -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvDisplayGridCount -win $_nWave1 -off
+wvGetSignalClose -win $_nWave1
+wvReloadFile -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvDisplayGridCount -win $_nWave1 -off
+wvGetSignalClose -win $_nWave1
+wvReloadFile -win $_nWave1
+wvZoomOut -win $_nWave1
+wvScrollUp -win $_nWave1 3
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollUp -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollUp -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollUp -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollUp -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollUp -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollUp -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollUp -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollUp -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollUp -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollUp -win $_nWave1 2
+wvScrollDown -win $_nWave1 0
+wvScrollUp -win $_nWave1 2
+wvScrollDown -win $_nWave1 0
+wvScrollUp -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollUp -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 1

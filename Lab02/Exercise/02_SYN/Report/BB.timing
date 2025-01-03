@@ -1,0 +1,130 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 3
+Design : BB
+Version: T-2022.03
+Date   : Sun Sep 22 20:30:32 2024
+****************************************
+
+Operating Conditions: slow   Library: slow
+Wire Load Model Mode: top
+
+  Startpoint: action[1] (input port clocked by clk)
+  Endpoint: score_reg[1][2]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     5.00       5.00 r
+  action[1] (in)                           0.00       5.00 r
+  U172/Y (INVXL)                           0.22       5.22 f
+  U120/Y (NOR2X1)                          0.22       5.45 r
+  U171/Y (INVXL)                           0.13       5.58 f
+  U107/Y (NOR2XL)                          0.26       5.84 r
+  U150/Y (AOI22XL)                         0.16       5.99 f
+  U148/CO (ADDFXL)                         1.26       7.25 f
+  U164/CO (ADDFXL)                         1.04       8.28 f
+  U109/Y (NOR2XL)                          0.25       8.54 r
+  U163/Y (AOI21XL)                         0.12       8.66 f
+  U185/Y (AOI2BB2XL)                       0.19       8.84 r
+  U184/Y (OAI22XL)                         0.16       9.00 f
+  score_reg[1][2]/D (DFFRHQXL)             0.00       9.00 f
+  data arrival time                                   9.00
+
+  clock clk (rise edge)                   10.00      10.00
+  clock network delay (ideal)              0.00      10.00
+  clock uncertainty                       -0.10       9.90
+  score_reg[1][2]/CK (DFFRHQXL)            0.00       9.90 r
+  library setup time                      -0.28       9.62
+  data required time                                  9.62
+  -----------------------------------------------------------
+  data required time                                  9.62
+  data arrival time                                  -9.00
+  -----------------------------------------------------------
+  slack (MET)                                         0.62
+
+
+  Startpoint: action[1] (input port clocked by clk)
+  Endpoint: score_reg[0][3]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     5.00       5.00 r
+  action[1] (in)                           0.00       5.00 r
+  U172/Y (INVXL)                           0.22       5.22 f
+  U120/Y (NOR2X1)                          0.22       5.45 r
+  U171/Y (INVXL)                           0.13       5.58 f
+  U107/Y (NOR2XL)                          0.26       5.84 r
+  U150/Y (AOI22XL)                         0.16       5.99 f
+  U148/CO (ADDFXL)                         1.26       7.25 f
+  U164/CO (ADDFXL)                         1.04       8.28 f
+  U109/Y (NOR2XL)                          0.25       8.54 r
+  U183/Y (OAI2BB2XL)                       0.24       8.78 r
+  U182/Y (OAI22XL)                         0.15       8.94 f
+  score_reg[0][3]/D (DFFRHQXL)             0.00       8.94 f
+  data arrival time                                   8.94
+
+  clock clk (rise edge)                   10.00      10.00
+  clock network delay (ideal)              0.00      10.00
+  clock uncertainty                       -0.10       9.90
+  score_reg[0][3]/CK (DFFRHQXL)            0.00       9.90 r
+  library setup time                      -0.28       9.62
+  data required time                                  9.62
+  -----------------------------------------------------------
+  data required time                                  9.62
+  data arrival time                                  -8.94
+  -----------------------------------------------------------
+  slack (MET)                                         0.68
+
+
+  Startpoint: action[1] (input port clocked by clk)
+  Endpoint: score_reg[0][2]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  input external delay                     5.00       5.00 r
+  action[1] (in)                           0.00       5.00 r
+  U172/Y (INVXL)                           0.22       5.22 f
+  U120/Y (NOR2X1)                          0.22       5.45 r
+  U171/Y (INVXL)                           0.13       5.58 f
+  U107/Y (NOR2XL)                          0.26       5.84 r
+  U150/Y (AOI22XL)                         0.16       5.99 f
+  U148/CO (ADDFXL)                         1.26       7.25 f
+  U164/CO (ADDFXL)                         1.04       8.28 f
+  U109/Y (NOR2XL)                          0.25       8.54 r
+  U163/Y (AOI21XL)                         0.12       8.66 f
+  U187/Y (OAI2BB2XL)                       0.24       8.89 f
+  score_reg[0][2]/D (DFFRHQXL)             0.00       8.89 f
+  data arrival time                                   8.89
+
+  clock clk (rise edge)                   10.00      10.00
+  clock network delay (ideal)              0.00      10.00
+  clock uncertainty                       -0.10       9.90
+  score_reg[0][2]/CK (DFFRHQXL)            0.00       9.90 r
+  library setup time                      -0.28       9.62
+  data required time                                  9.62
+  -----------------------------------------------------------
+  data required time                                  9.62
+  data arrival time                                  -8.89
+  -----------------------------------------------------------
+  slack (MET)                                         0.73
+
+
+1

@@ -1,0 +1,156 @@
+///////////////////////////////////////////////////////////////////////////////////
+// 
+//              Synchronous Dual Port SRAM Compiler 
+// 
+//                    UMC 0.18um Generic Logic Process 
+//    __________________________________________________________________________
+// 
+// 
+//        (C) Copyright 2002-2009 Faraday Technology Corp. All Rights Reserved.
+// 
+//      This source code is an unpublished work belongs to Faraday Technology
+//      Corp.  It is considered a trade secret and is not to be divulged or
+//      used by parties who have not received written authorization from
+//      Faraday Technology Corp.
+// 
+//      Faraday's home page can be found at:
+//      http://www.faraday-tech.com/
+//     
+// ________________________________________________________________________________
+// 
+//       Module Name       :  SJMA180_128X32X1BM1  
+//       Word              :  128                  
+//       Bit               :  32                   
+//       Byte              :  1                    
+//       Mux               :  1                    
+//       Power Ring Type   :  port                 
+//       Power Ring Width  :  2 (um)               
+//       Output Loading    :  0.05 (pf)            
+//       Input Data Slew   :  0.02 (ns)            
+//       Input Clock Slew  :  0.02 (ns)            
+// 
+// ________________________________________________________________________________
+// 
+//       Library          : FSA0M_A
+//       Memaker          : 200901.2.1
+//       Date             : 2024/01/08 18:24:22
+// 
+// ________________________________________________________________________________
+// 
+//       Library          : FSA0M_A
+//       Memaker          : 200901.2.1
+//       Date             : 2024/01/08 18:24:23
+//
+///////////////////////////////////////////////////////////////////////////////////
+
+model SJMA180_128X32X1BM1 (
+    A6, A5, A4, A3, A2, A1, A0,
+    B6, B5, B4, B3, B2, B1, B0,
+    DIA31, DIA30, DIA29, DIA28, DIA27, DIA26, DIA25, DIA24, DIA23, DIA22, DIA21, DIA20, DIA19, DIA18, DIA17, DIA16, DIA15, DIA14, DIA13, DIA12, DIA11, DIA10, DIA9, DIA8, DIA7, DIA6, DIA5, DIA4, DIA3, DIA2, DIA1, DIA0,
+    DIB31, DIB30, DIB29, DIB28, DIB27, DIB26, DIB25, DIB24, DIB23, DIB22, DIB21, DIB20, DIB19, DIB18, DIB17, DIB16, DIB15, DIB14, DIB13, DIB12, DIB11, DIB10, DIB9, DIB8, DIB7, DIB6, DIB5, DIB4, DIB3, DIB2, DIB1, DIB0,
+    DOA31, DOA30, DOA29, DOA28, DOA27, DOA26, DOA25, DOA24, DOA23, DOA22, DOA21, DOA20, DOA19, DOA18, DOA17, DOA16, DOA15, DOA14, DOA13, DOA12, DOA11, DOA10, DOA9, DOA8, DOA7, DOA6, DOA5, DOA4, DOA3, DOA2, DOA1, DOA0,
+    DOB31, DOB30, DOB29, DOB28, DOB27, DOB26, DOB25, DOB24, DOB23, DOB22, DOB21, DOB20, DOB19, DOB18, DOB17, DOB16, DOB15, DOB14, DOB13, DOB12, DOB11, DOB10, DOB9, DOB8, DOB7, DOB6, DOB5, DOB4, DOB3, DOB2, DOB1, DOB0,
+    WEAN,
+    WEBN,
+    CKA, CKB, CSA, CSB, OEA, OEB) (
+
+    bist_definition (
+        data_out      DOA(DOA31, DOA30, DOA29, DOA28, DOA27, DOA26, DOA25, DOA24, DOA23, DOA22, DOA21, DOA20, DOA19, DOA18, DOA17, DOA16, DOA15, DOA14, DOA13, DOA12, DOA11, DOA10, DOA9, DOA8, DOA7, DOA6, DOA5, DOA4, DOA3, DOA2, DOA1, DOA0);
+        data_out      DOB(DOB31, DOB30, DOB29, DOB28, DOB27, DOB26, DOB25, DOB24, DOB23, DOB22, DOB21, DOB20, DOB19, DOB18, DOB17, DOB16, DOB15, DOB14, DOB13, DOB12, DOB11, DOB10, DOB9, DOB8, DOB7, DOB6, DOB5, DOB4, DOB3, DOB2, DOB1, DOB0);
+        data_in       DIA(DIA31, DIA30, DIA29, DIA28, DIA27, DIA26, DIA25, DIA24, DIA23, DIA22, DIA21, DIA20, DIA19, DIA18, DIA17, DIA16, DIA15, DIA14, DIA13, DIA12, DIA11, DIA10, DIA9, DIA8, DIA7, DIA6, DIA5, DIA4, DIA3, DIA2, DIA1, DIA0);
+        data_in       DIB(DIB31, DIB30, DIB29, DIB28, DIB27, DIB26, DIB25, DIB24, DIB23, DIB22, DIB21, DIB20, DIB19, DIB18, DIB17, DIB16, DIB15, DIB14, DIB13, DIB12, DIB11, DIB10, DIB9, DIB8, DIB7, DIB6, DIB5, DIB4, DIB3, DIB2, DIB1, DIB0);
+        address       A (A6, A5, A4, A3, A2, A1, A0);
+        address       B (B6, B5, B4, B3, B2, B1, B0);
+        output_enable OEA low;
+        output_enable OEB low;
+        write_enable  WEAN low;
+        write_enable  WEBN low;
+        chip_enable   CSA high;
+        chip_enable   CSB high;
+        clock         CKA high;
+        clock         CKB high;
+        tech          = FSA0M_A;
+        vendor        = "Faraday Technology Inc.";
+        version       = "200901.2.1";
+        min_address   = 0;
+        max_address   = 127;
+        data_size     = 32;
+        top_column    = 1;
+        top_word      = 1;
+
+        descrambling_definition (
+            address (
+                DSC_A0 = A0;
+                DSC_A1 = A1;
+                DSC_A2 = A2;
+                DSC_A3 = A3;
+                DSC_A4 = A4;
+                DSC_A5 = A5;
+                DSC_A6 = A6;
+            )
+            data_in (	    
+                DSC_DIA0 = DIA0;
+                DSC_DIA1 = DIA1;
+                DSC_DIA2 = DIA2;
+                DSC_DIA3 = DIA3;
+                DSC_DIA4 = DIA4;
+                DSC_DIA5 = DIA5;
+                DSC_DIA6 = DIA6;
+                DSC_DIA7 = DIA7;
+                DSC_DIA8 = DIA8;
+                DSC_DIA9 = DIA9;
+                DSC_DIA10 = DIA10;
+                DSC_DIA11 = DIA11;
+                DSC_DIA12 = DIA12;
+                DSC_DIA13 = DIA13;
+                DSC_DIA14 = DIA14;
+                DSC_DIA15 = DIA15;
+                DSC_DIA16 = DIA16;
+                DSC_DIA17 = DIA17;
+                DSC_DIA18 = DIA18;
+                DSC_DIA19 = DIA19;
+                DSC_DIA20 = DIA20;
+                DSC_DIA21 = DIA21;
+                DSC_DIA22 = DIA22;
+                DSC_DIA23 = DIA23;
+                DSC_DIA24 = DIA24;
+                DSC_DIA25 = DIA25;
+                DSC_DIA26 = DIA26;
+                DSC_DIA27 = DIA27;
+                DSC_DIA28 = DIA28;
+                DSC_DIA29 = DIA29;
+                DSC_DIA30 = DIA30;
+                DSC_DIA31 = DIA31;
+            )
+        )
+
+        read_write_port(
+            read_cycle(
+                assert CSA;
+                change A;
+                expect DOA move;
+            )
+            write_cycle(
+               assert CSA;
+               change A;
+               change DIA;
+               assert WEAN;
+               wait;
+            )
+        )
+        read_write_port(
+            read_cycle(
+                assert CSB;
+                change B;
+                expect DOB move;
+            )
+            write_cycle(
+               assert CSB;
+               change B;
+               change DIB;
+               assert WEBN;
+               wait;
+            )
+        )
+    )
+)

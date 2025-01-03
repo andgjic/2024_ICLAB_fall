@@ -1,0 +1,11 @@
+* The organization, structure, and layout of this file are copyrights
+* and confidential and proprietary trade secrets of Cadence Design Systems,
+* subject to the terms and conditions of the license agreement in effect
+* between you and Cadence Design Systems, Inc.
+Library Name             : stdcells
+Custom Label             : 
+Library Major Version    : 4
+Application Name         : voltus
+Application Version      : 20.15-s105_1
+Date Created             : 2024-Dec-05 01:40:41 (2024-Dec-04 17:40:41 GMT)
+Date Modified            : 2024-Dec-05 01:40:43 (2024-Dec-04 17:40:43 GMT)

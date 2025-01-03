@@ -1,0 +1,44 @@
+Command: vcs -timescale=1ns/1fs -j8 -sverilog +v2k -full64 -Mupdate -R -debug_access+all \
+-y /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ +libext+.sv -f filelist.f -o simv \
+-l vcs.log -P /usr/cad/synopsys/verdi/2019.06//share/PLI/VCS/linux64/novas.tab /usr/cad/synopsys/verdi/2019.06//share/PLI/VCS/linux64/pli.a \
++define+RTL +define+NONE +notimingchecks
+*** Using c compiler gcc instead of cc ...
+                         Chronologic VCS (TM)
+         Version T-2022.06_Full64 -- Mon Nov 25 12:59:48 2024
+
+                    Copyright (c) 1991 - 2022 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Parsing design file 'TESTBED.sv'
+Parsing included file 'Usertype.sv'.
+Back to file 'TESTBED.sv'.
+Parsing included file 'INF.sv'.
+Back to file 'TESTBED.sv'.
+Parsing included file 'PATTERN.sv'.
+Parsing included file 'Usertype.sv'.
+Back to file 'PATTERN.sv'.
+Back to file 'TESTBED.sv'.
+Parsing included file '../00_TESTBED/pseudo_DRAM.svpp'.
+
+Error-[UCC] Unexpected character
+  The character code '\012' is illegal in the context. 
+  The file may be corrupted, or it is not ASCII.
+  "../00_TESTBED/pseudo_DRAM.svpp", 1: token is '\n'
+  //pragma protect begin_protected
+                                  ^
+
+1 error
+CPU time: .234 seconds to compile

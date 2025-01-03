@@ -1,0 +1,79 @@
+Magic 271485
+Revision Verdi_P-2019.06
+
+; Window Layout <x> <y> <width> <height> <signalwidth> <valuewidth>
+viewPort 248 126 1276 554 181 65
+
+; File list:
+; openDirFile [-d delimiter] [-s time_offset] [-rf auto_bus_rule_file] path_name file_name
+openDirFile -d / "" "/RAID2/COURSE/iclab/iclab131/Lab01/Exercise/01_RTL/SSC.fsdb"
+
+; file time scale:
+; fileTimeScale ### s|ms|us|ns|ps
+
+; signal spacing:
+signalSpacing 5
+
+; windowTimeUnit is used for zoom, cursor & marker
+; waveform viewport range
+zoom 99990.000000 111100.000000
+cursor 10000.000000
+marker 0.000000
+
+; user define markers
+; userMarker time_pos marker_name color linestyle
+; visible top row signal index
+top 0
+; marker line index
+markerPos 10
+
+; event list
+; addEvent event_name event_expression
+; curEvent event_name
+
+
+
+COMPLEX_EVENT_BEGIN
+
+
+COMPLEX_EVENT_END
+
+
+
+; toolbar current search type
+; curSTATUS search_type
+curSTATUS ByChange
+
+
+addGroup "G1"
+activeDirFile "" "/RAID2/COURSE/iclab/iclab131/Lab01/Exercise/01_RTL/SSC.fsdb"
+addSignal -h 15 /TESTBED/card_num[63:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope input_money[8:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope out_change[8:0]
+addSignal -h 15 -holdScope out_valid
+addSignal -h 15 -holdScope price[31:0]
+addSignal -h 15 -holdScope snack_num[31:0]
+addGroup "G2"
+addSignal -h 15 -UNSIGNED -UDEC /TESTBED/DUT_SSC/total[7:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope total_sort[7:0]
+addSignal -h 15 -holdScope buy[7:0]
+addGroup "G3"
+
+; getSignalForm Scope Hierarchy Status
+; active file of getSignalForm
+activeDirFile "" "/RAID2/COURSE/iclab/iclab131/Lab01/Exercise/01_RTL/SSC.fsdb"
+
+GETSIGNALFORM_SCOPE_HIERARCHY_BEGIN
+getSignalForm close
+
+"/TESTBED"
+"/TESTBED/DUT_SSC"
+
+SCOPE_LIST_BEGIN
+"/TESTBED"
+"/TESTBED/DUT_SSC"
+SCOPE_LIST_END
+
+GETSIGNALFORM_SCOPE_HIERARCHY_END
+
+

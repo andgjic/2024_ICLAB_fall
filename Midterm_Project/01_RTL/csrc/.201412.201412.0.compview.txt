@@ -1,0 +1,9 @@
+{"vcs1":{"timestamp_begin":1729745202.167024121, "rt":1.42, "ut":0.30, "st":0.23}}
+{"vcselab":{"timestamp_begin":1729745203.669433011, "rt":1.24, "ut":0.28, "st":0.18}}
+{"link":{"timestamp_begin":1729745204.991142866, "rt":0.31, "ut":0.10, "st":0.17}}
+{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1729745201.490972007}
+{"VCS_COMP_START_TIME": 1729745201.490972007}
+{"VCS_COMP_END_TIME": 1729745206.544267927}
+{"VCS_USER_OPTIONS": "-timescale=1ns/1fs -j4 -sverilog +v2k -full64 -Mupdate -R -debug_access+all -y /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ +libext+.v -f filelist.f -o simv -l vcs.log -P /usr/cad/synopsys/verdi/2019.06//share/PLI/VCS/linux64/novas.tab /usr/cad/synopsys/verdi/2019.06//share/PLI/VCS/linux64/pli.a +define+RTL +define+SAMPLE +notimingchecks"}
+{"vcs1": {"peak_mem": 329904}}
+{"stitch_vcselab": {"peak_mem": 215160}}

@@ -1,0 +1,6 @@
+define VIEW_MAP ( $VIEW_MAP \
+, .svpp => svpp \
+)
+define VIEW_MAP ( $VIEW_MAP \
+, .svpp => svpp \
+)

@@ -1,0 +1,101 @@
+
+                                 PrimeTime (R)
+
+              Version P-2019.03-SP5-1 for linux64 - Dec 13, 2019 
+
+                    Copyright (c) 1988 - 2019 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+#======================================================
+#
+# PrimeTime  Scripts (dctcl mode)
+#
+#======================================================
+#======================================================
+#  1. Set the Power Analysis Mode
+#======================================================
+set power_enable_analysis true
+Information: Checked out license 'PrimePower' (PT-019)
+true
+set power_analysis_mode time_based
+time_based
+set power_report_leakage_breakdowns true
+true
+set power_clock_network_include_register_clock_pin_power false
+false
+#======================================================
+#  2. Read and link the design
+#======================================================
+set search_path         " ./                         ./File/ 			../01_RTL                                             ~iclabTA01/UMC018_CBDK/CIC/SynopsysDC/db/                            ~iclabTA01/UMC018_CBDK/CIC/Sdb/                                  /usr/cad/synopsys/synthesis/cur/libraries/syn/                         /usr/cad/synopsys/synthesis/cur/dw "
+ ./                         ./File/    ../01_RTL                                             ~iclabTA01/UMC018_CBDK/CIC/SynopsysDC/db/                            ~iclabTA01/UMC018_CBDK/CIC/Sdb/                                  /usr/cad/synopsys/synthesis/cur/libraries/syn/                         /usr/cad/synopsys/synthesis/cur/dw 
+set target_library      " fsa0m_a_generic_core_ss1p62v125c.db                         fsa0m_a_generic_core_ff1p98vm40c.db                         fsa0m_a_t33_generic_io_ss1p62v125c.db                         fsa0m_a_t33_generic_io_tt1p8v25c.db" 
+ fsa0m_a_generic_core_ss1p62v125c.db                         fsa0m_a_generic_core_ff1p98vm40c.db                         fsa0m_a_t33_generic_io_ss1p62v125c.db                         fsa0m_a_t33_generic_io_tt1p8v25c.db
+set link_library        " * $target_library dw_foundation.sldb standard.sldb "
+ *  fsa0m_a_generic_core_ss1p62v125c.db                         fsa0m_a_generic_core_ff1p98vm40c.db                         fsa0m_a_t33_generic_io_ss1p62v125c.db                         fsa0m_a_t33_generic_io_tt1p8v25c.db dw_foundation.sldb standard.sldb 
+set synthetic_library   " dw_foundation.sldb "
+ dw_foundation.sldb 
+set DESIGN "SA"
+SA
+read_verilog $DESIGN\_SYN.v
+1
+current_design $DESIGN
+Information: current_design won't return any data before link (DES-071)
+link
+Loading verilog file '/RAID2/COURSE/iclab/iclab131/Lab08/EXERCISE/04_PTPX/SA_SYN.v'
+Loading db file '/RAID2/COURSE/iclab/iclabTA01/UMC018_CBDK/CIC/SynopsysDC/db/fsa0m_a_generic_core_ss1p62v125c.db'
+Loading db file '/RAID2/COURSE/iclab/iclabTA01/UMC018_CBDK/CIC/SynopsysDC/db/fsa0m_a_generic_core_ff1p98vm40c.db'
+Loading db file '/RAID2/COURSE/iclab/iclabTA01/UMC018_CBDK/CIC/SynopsysDC/db/fsa0m_a_t33_generic_io_ss1p62v125c.db'
+Loading db file '/RAID2/COURSE/iclab/iclabTA01/UMC018_CBDK/CIC/SynopsysDC/db/fsa0m_a_t33_generic_io_tt1p8v25c.db'
+Loading db file '/usr/cad/synopsys/synthesis/cur/libraries/syn/dw_foundation.sldb'
+Loading db file '/usr/cad/synopsys/synthesis/cur/libraries/syn/standard.sldb'
+Linking design SA...
+Information: Removing 1 unneeded designs..... (LNK-034)
+Information: 284 (74.35%) library cells are unused in library fsa0m_a_generic_core_ss1p62v125c..... (LNK-045)
+Information: 382 (100.00%) library cells are unused in library fsa0m_a_generic_core_ff1p98vm40c..... (LNK-045)
+Information: 6 (100.00%) library cells are unused in library fsa0m_a_t33_generic_io_ss1p62v125c..... (LNK-045)
+Information: 6 (100.00%) library cells are unused in library fsa0m_a_t33_generic_io_tt1p8v25c..... (LNK-045)
+Information: 1004 (100.00%) library cells are unused in library dw_foundation.sldb..... (LNK-045)
+Information: 178 (100.00%) library cells are unused in library standard.sldb..... (LNK-045)
+Information: total 1860 library cells are unused (LNK-046)
+Design 'SA' was successfully linked.
+Information: There are 40926 leaf cells, ports, hiers and 46073 nets in the design (LNK-047)
+1
+#======================================================
+#  3. Set transition time / annotate parasitics
+#======================================================
+set_input_transition .1 [all_inputs]
+1
+read_sdc $DESIGN\_SYN.sdc
+
+Reading SDC version 2.1...
+Warning: Setting input delay on clock port (clk) relative to a clock (clk) defined at the same port. Command is ignored. (UITE-489)
+1
+1
+read_sdf -load_delay net $DESIGN\_SYN.sdf
+
+****************************************
+Report : read_sdf /RAID2/COURSE/iclab/iclab131/Lab08/EXERCISE/04_PTPX/SA_SYN.sdf
+	-load_delay net
+	-analysis_type on_chip_variation
+	-min_type sdf_min
+	-max_type sdf_max
+Design : SA
+Version: P-2019.03-SP5-1
+Date   : Tue Nov 12 15:16:34 2024
+****************************************
+
+        0 error(s)
+        Number of annotated cell delay arcs :    688770
+        Number of annotated net delay arcs  :    117504
+        Number of annotated timing checks   :     36328
+        Number of annotated constraints     :     18163
+        TEMPERATURE: 125.00 (min)  125.00 (max)
+        VOLTAGE    : 1.62 (min)  1.62 (max)
+        PROCESS    : WCCOM (min)  WCCOM (max)
+1
+#======================================================
+#  4. Read Switching Activity File
+#======================================================
+read_vcd -strip_path TESTBED/I_$DESIGN $DESIGN\_SYN_CG.fsdb

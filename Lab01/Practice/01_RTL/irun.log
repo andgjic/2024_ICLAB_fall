@@ -1,0 +1,58 @@
+irun(64): 15.20-s084: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+TOOL:	irun(64)	15.20-s084: Started on Feb 22, 2024 at 17:34:41 CST
+irun
+	TESTBED.v
+	-define RTL
+	-debug
+Recompiling... reason: file './TESTBED.v' is newer than expected.
+	expected: Thu Feb 22 17:33:05 2024
+	actual:   Thu Feb 22 17:34:40 2024
+file: TESTBED.v
+	module worklib.TESTBED:v
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		TESTBED
+    $fsdbDumpfile("CORE.fsdb");
+                |
+ncelab: *W,MISSYST (./TESTBED.v,39|16): Unrecognized system task or function: $fsdbDumpfile (did not match built-in or user-defined names) [2.7.4(IEEE Std 1364-2001)].
+If item was defined in a shared-object library, the problem could be:
+libvpi.so: cannot open shared object file: No such file or directory or file is not valid ELFCLASS64 library.
+libpli.so: cannot open shared object file: No such file or directory or file is not valid ELFCLASS64 library..
+    $fsdbDumpvars(0,"+mda");
+                |
+ncelab: *W,MISSYST (./TESTBED.v,40|16): Unrecognized system task or function: $fsdbDumpvars (did not match built-in or user-defined names) [2.7.4(IEEE Std 1364-2001)].
+FA FA_1(.a(a_1), .b(b_1), .c_in(0), .sum(sum_1), .c_out(c_out_1));
+                                |
+ncelab: *W,CUVMPW (./CORE.v,31|32): port sizes differ in port connection (32/1).
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.TESTBED:v <0x48958d1c>
+			streams:   1, words:   765
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                  Instances  Unique
+		Modules:                 12       5
+		Primitives:              15       3
+		Registers:               12      12
+		Scalar wires:            10       -
+		Vectored wires:           4       -
+		Always blocks:            1       1
+		Initial blocks:           3       3
+		Cont. assignments:        3      10
+		Pseudo assignments:       1       1
+		Simulation timescale:  10ps
+	Writing initial simulation snapshot: worklib.TESTBED:v
+Loading snapshot worklib.TESTBED:v .................... Done
+    $fsdbDumpfile("CORE.fsdb");
+                |
+ncsim: *E,MSSYSTF (./TESTBED.v,39|16): User Defined system task or function ($fsdbDumpfile) registered during elaboration and used within the simulation has not been registered during simulation.
+    $fsdbDumpvars(0,"+mda");
+                |
+ncsim: *E,MSSYSTF (./TESTBED.v,40|16): User Defined system task or function ($fsdbDumpvars) registered during elaboration and used within the simulation has not been registered during simulation.
+    $fsdbDumpvars();
+                |
+ncsim: *E,MSSYSTF (./TESTBED.v,41|16): User Defined system task or function ($fsdbDumpvars) registered during elaboration and used within the simulation has not been registered during simulation.
+TOOL:	irun(64)	15.20-s084: Exiting on Feb 22, 2024 at 17:34:42 CST  (total: 00:00:01)

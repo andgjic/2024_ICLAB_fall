@@ -1,0 +1,688 @@
+
+Cadence Innovus(TM) Implementation System.
+Copyright 2020 Cadence Design Systems, Inc. All rights reserved worldwide.
+
+Version:	v20.15-s105_1, built Tue Jul 27 14:15:35 PDT 2021
+Options:	
+Date:		Fri Dec  6 15:41:45 2024
+Host:		ee23 (x86_64 w/Linux 3.10.0-1160.88.1.el7.x86_64) (64cores*256cpus*AMD EPYC 7763 64-Core Processor 512KB)
+OS:		CentOS Linux release 7.9.2009 (Core)
+
+License:
+		invs	Innovus Implementation System	20.1	checkout succeeded
+		8 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+Change the soft stacksize limit to 0.2%RAM (2063 mbytes). Set global soft_stack_size_limit to change the value.
+
+**INFO:  MMMC transition support version v31-84 
+
+<CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+<CMD> suppressMessage ENCEXT-2799
+<CMD> getVersion
+[INFO] Loading Pegasus 21.21 fill procedures
+<CMD> win
+<CMD> set init_design_uniquify 1
+<CMD> setDesignMode -process 180
+##  Process: 180           (User Set)               
+##     Node: (not set)                           
+
+##  Check design process and node:  
+##  Design tech node is not set.
+
+Applying the recommended capacitance filtering threshold values for 180nm process node: total_c_th=5, relative_c_th=0.03 and coupling_c_th=3.
+	These values will be used by all post-route extraction engines, including TQuantus, IQuantus and Quantus QRC extraction.
+	For postRoute effortLevel low extraction, the coupling_c_th value will be used only when the -capFilterMode parameter of the setExtractRCMode command is set to relAndCoup or relOrCoup. Default value of -capFilterMode parameter in postRoute extraction effortLevel low is relOnly.
+	The accuracy mode for postRoute effortLevel low extraction will be set to 'standard'.
+	Default value for EffortLevel(-effortLevel option of the setExtractRCMode) in postRoute extraction mode is 'low'.
+<CMD> suppressMessage TECHLIB 1318
+<CMD> suppressMessage ENCEXT-2799
+<CMD> encMessage warning 0
+Suppress "**WARN ..." messages.
+<CMD> encMessage debug 0
+<CMD> encMessage info 0
+RC_Corner
+**WARN: (IMPLF-119):	LAYER 'metal1' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-119):	LAYER 'metal2' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-119):	LAYER 'metal3' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-119):	LAYER 'metal4' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-119):	LAYER 'metal5' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-119):	LAYER 'metal6' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-58):	MACRO 'AN2' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-58):	MACRO 'AN2B1' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-58):	MACRO 'AN2B1P' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-58):	MACRO 'AN2B1S' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-58):	MACRO 'AN2B1T' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-58):	MACRO 'AN2P' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-58):	MACRO 'AN2S' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-58):	MACRO 'AN2T' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-58):	MACRO 'AN3' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-58):	MACRO 'AN3B1' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-58):	MACRO 'AN3B1P' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-58):	MACRO 'AN3B1S' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-58):	MACRO 'AN3B1T' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-58):	MACRO 'AN3B2' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-58):	MACRO 'AN3B2P' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-58):	MACRO 'AN3B2S' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-58):	MACRO 'AN3B2T' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-58):	MACRO 'AN3P' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-58):	MACRO 'AN3S' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-58):	MACRO 'AN3T' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (EMS-27):	Message (IMPLF-58) has exceeded the current message display limit of 20.
+To increase the message display limit, refer to the product command reference manual.
+**WARN: (IMPLF-119):	LAYER 'metal1' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-119):	LAYER 'metal2' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-119):	LAYER 'metal3' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-119):	LAYER 'metal4' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-119):	LAYER 'metal5' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-119):	LAYER 'metal6' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-61):	392 duplicated MACRO definitions have been found in the LEF file(s). Their content except DENSITY and PIN ANTENNA* data, and certain properties, have been ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-200):	Pin 'IO' in macro 'ZMA2GSD' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-200):	Pin 'IO' in macro 'ZMA2GSC' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-200):	Pin 'I' in macro 'XMD' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-200):	Pin 'I' in macro 'XMC' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-200):	Pin 'GNDO' in macro 'GNDIOD' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-200):	Pin 'GNDO' in macro 'GNDIOC' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-200):	Pin 'A' in macro 'ANTENNA' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Loading view definition file from /RAID2/COURSE/iclab/iclab131/Lab12/Exercise/05_APR/CHIP.inn.dat/viewDefinition.tcl
+**WARN: (TECHLIB-302):	No function defined for cell 'ANTENNA'. The cell will only be used for analysis. (File /RAID2/COURSE/iclab/iclab131/Lab12/Exercise/05_APR/LIB/fsa0m_a_generic_core_ss1p62v125c.lib)
+**WARN: (TECHLIB-302):	No function defined for cell 'ANTENNA'. The cell will only be used for analysis. (File /RAID2/COURSE/iclab/iclab131/Lab12/Exercise/05_APR/LIB/fsa0m_a_generic_core_ff1p98vm40c.lib)
+*** End library_loading (cpu=0.02min, real=0.03min, mem=22.9M, fe_cpu=0.34min, fe_real=1.85min, fe_mem=941.7M) ***
+**WARN: (IMPVL-159):	Pin 'GND' of cell 'XOR4T' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VCC' of cell 'XOR4T' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'GND' of cell 'XOR4S' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VCC' of cell 'XOR4S' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'GND' of cell 'XOR4P' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VCC' of cell 'XOR4P' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'GND' of cell 'XOR4' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VCC' of cell 'XOR4' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'GND' of cell 'XOR3T' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VCC' of cell 'XOR3T' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'GND' of cell 'XOR3S' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VCC' of cell 'XOR3S' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'GND' of cell 'XOR3P' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VCC' of cell 'XOR3P' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'GND' of cell 'XOR3' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VCC' of cell 'XOR3' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'GND' of cell 'XOR2HT' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VCC' of cell 'XOR2HT' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'GND' of cell 'XOR2HS' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VCC' of cell 'XOR2HS' is defined in LEF but not in the timing library.
+**WARN: (EMS-27):	Message (IMPVL-159) has exceeded the current message display limit of 20.
+To increase the message display limit, refer to the product command reference manual.
+*** Netlist is unique.
+**WARN: (IMPFP-3961):	The techSite 'iocore_f' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+**WARN: (IMPFP-3961):	The techSite 'iocore_e' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+**WARN: (IMPFP-3961):	The techSite 'iocore_ds' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+**WARN: (IMPFP-3961):	The techSite 'iocore_cs' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+**WARN: (IMPFP-3961):	The techSite 'iocore_d' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+**WARN: (IMPFP-3961):	The techSite 'iocore_c' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+**WARN: (IMPFP-3961):	The techSite 'iocore_b' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+**WARN: (IMPFP-3961):	The techSite 'iocore_a' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+Loading preference file /RAID2/COURSE/iclab/iclab131/Lab12/Exercise/05_APR/CHIP.inn.dat/gui.pref.tcl ...
+**WARN: (IMPOPT-3602):	The specified path group name reg2reg is not defined.
+**WARN: (IMPTCM-77):	Option "-drouteStartIteration" for command setNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+**WARN: (IMPSYC-2):	Timing information is not defined for cell VCCKD; Check the timing library (.lib) file and make sure the timing information exists for the cell and you can run the checkTimingLibrary command to verify if the timing library has complete information after the design is loaded.
+**WARN: (IMPSYC-2):	Timing information is not defined for cell VCC3IOD; Check the timing library (.lib) file and make sure the timing information exists for the cell and you can run the checkTimingLibrary command to verify if the timing library has complete information after the design is loaded.
+**WARN: (IMPSYC-2):	Timing information is not defined for cell GNDKD; Check the timing library (.lib) file and make sure the timing information exists for the cell and you can run the checkTimingLibrary command to verify if the timing library has complete information after the design is loaded.
+**WARN: (IMPSYC-2):	Timing information is not defined for cell GNDIOD; Check the timing library (.lib) file and make sure the timing information exists for the cell and you can run the checkTimingLibrary command to verify if the timing library has complete information after the design is loaded.
+Loading place ...
+**WARN: (IMPEXT-6202):	In addition to the technology file, the capacitance table file is specified for all the RC corners. If the technology file  is already specified for all the RC corners, the capacitance table file is not required for preRoute and postRoute extraction. In a new session, the capacitance table files can be removed from the create_rc_corner command to enable the technology file to be used for preRoute and postRoute (effort level medium/high/signoff) extraction engines.
+'set_default_switching_activity' finished successfully.
+Delay_Corner_min Delay_Corner_max
+**WARN: (IMPESI-3505):	setDelayCalMode -eng_copyNetPropToNewNet true (default=false) will be obsoleted along with its sgs2set equivalent.  This parameter will continue to be supported in the current release, but will be removed in the next major release of the software.
+**WARN: (IMPCTE-107):	The following globals have been obsoleted since version 20.15-s105_1. They will be removed in the next release. 
+timing_enable_default_delay_arc
+<CMD> zoomBox -314.01100 466.71200 3059.37000 3486.60800
+<CMD> setDrawView place
+<CMD> zoomBox -724.48500 90.12300 3244.19900 3642.94200
+<CMD> zoomBox -724.48500 1511.25100 3244.19900 5064.07000
+<CMD> zoomBox -724.48500 2577.09700 3244.19900 6129.91600
+<CMD> zoomBox -1665.09700 1644.37200 3827.89100 6561.76900
+<CMD> zoomBox -2966.98200 353.40400 4635.76900 7159.48900
+<CMD> zoomBox -4768.89900 -1433.40200 5753.94000 7986.78500
+<CMD> zoomBox -3833.68700 -1094.43900 5110.72600 6912.72000
+<CMD> zoomBox -3038.75700 -806.32000 4563.99400 5999.76500
+<CMD> zoomBox -1788.72900 -353.25300 3704.25800 4564.14300
+<CMD> zoomBox -885.58400 -25.91200 3083.10000 3526.90700
+<CMD> zoomBox 238.38400 381.46500 2310.06300 2236.06000
+<CMD> zoomBox -9.44300 131.74700 2427.82700 2313.62400
+<CMD> zoomBox -644.01600 -507.67000 2729.37000 2512.23100
+<CMD> zoomIn
+<CMD> zoomIn
+<CMD> zoomIn
+<CMD> zoomBox 994.37700 968.87200 1084.64700 1049.68300
+<CMD> zoomBox 999.91200 977.66500 1076.64200 1046.35500
+<CMD> zoomBox 1008.61600 991.49200 1064.05400 1041.12100
+<CMD> zoomBox 1012.01500 996.89200 1059.13800 1039.07700
+<CMD> zoomBox 1012.01500 992.67300 1059.13800 1034.85800
+<CMD> zoomBox 1012.01500 980.01600 1059.13800 1022.20100
+<CMD> zoomBox 1012.01500 971.57800 1059.13800 1013.76300
+<CMD> zoomOut
+<CMD> zoomOut
+<CMD> zoomOut
+<CMD> zoomIn
+<CMD> zoomIn
+<CMD> zoomIn
+<CMD> zoomIn
+<CMD> zoomIn
+<CMD> zoomIn
+<CMD> zoomOut
+<CMD> zoomOut
+<CMD> zoomOut
+<CMD> zoomOut
+<CMD> zoomOut
+<CMD> zoomBox 859.78900 876.23900 1166.15400 1150.50100
+<CMD> zoomBox 885.96400 929.25000 1107.31300 1127.40500
+<CMD> zoomBox 843.14100 842.52600 1203.57300 1165.19000
+<CMD> zoomBox 823.55600 802.86500 1247.59500 1182.47000
+<CMD> zoomBox 800.51600 756.20400 1299.38600 1202.79900
+<CMD> zoomBox 773.41000 701.31000 1360.31600 1226.71600
+<CMD> zoomBox 704.00500 560.75000 1516.33200 1287.95600
+<CMD> zoomBox 704.00500 778.91300 1516.33200 1506.11900
+<CMD> zoomBox 607.94200 584.36600 1732.27100 1590.88000
+<CMD> zoomBox 479.45200 311.18500 2035.61700 1704.28500
+<CMD> zoomBox 479.45200 729.11500 2035.61700 2122.21500
+<CMD> zoomBox 188.51700 110.56400 2722.47300 2378.99600
+<CMD> zoomBox -285.22100 -896.64300 3840.90400 2797.12000
+<CMD> zoomBox -101.06700 -505.11500 3406.14000 2634.58400
+<CMD> zoomBox 55.46400 -172.31600 3036.59000 2496.42800
+<CMD> zoomBox 188.51500 110.56300 2722.47300 2378.99600
+<CMD> zoomBox 188.51500 564.24900 2722.47300 2832.68200
+<CMD> zoomBox 188.51500 1244.77800 2722.47300 3513.21100
+<CMD> zoomBox 188.51500 1698.46400 2722.47300 3966.89700
+<CMD> zoomBox 405.92500 2102.35500 2236.71100 3741.29900
+<CMD> zoomBox 490.83300 2260.09100 2047.00100 3653.19400
+<CMD> zoomBox 490.83200 2260.09100 2047.00100 3653.19400
+<CMD> zoomBox 551.83000 2310.52000 1874.57400 3494.65800
+<CMD> zoomBox 685.21100 2420.79000 1497.54100 3147.99900
+<CMD> zoomBox 744.11800 2469.49100 1331.02600 2994.89900
+<CMD> zoomBox 803.29900 2518.41800 1163.73400 2841.08400
+<CMD> zoomBox 839.64400 2548.46400 1060.99700 2746.62200
+<CMD> fit
+<CMD> fit
+<CMD> getIoFlowFlag
+<CMD> redirect -quiet {set honorDomain [getAnalysisMode -honorClockDomains]} > /dev/null
+<CMD> timeDesign -postRoute -pathReports -drvReports -slackReports -numPaths 50 -prefix CHIP_postRoute -outDir timingReports
+*** timeDesign #1 [begin] : totSession cpu/real = 0:00:44.5/0:08:55.3 (0.1), mem = 1990.9M
+ Reset EOS DB
+Ignoring AAE DB Resetting ...
+Extraction called for design 'CHIP' of instances=29950 and nets=1345 using extraction engine 'postRoute' at effort level 'high' .
+Integrated QRC (IQuantus) Extraction in Multi-Corner mode called for design 'CHIP'. Number of corners is 1.
+No IQuantus parasitic data in Innovus. Going for full-chip extraction.
+ Min pitch recieved = 2240 
+IQuantus Extraction invoked in single CPU mode. Commands setDistributeHost/setMultiCpuUsage can be used to activate multiCPU extraction.
+
+IQuantus Extraction engine initialization using 1 tech files:
+	/RAID2/COURSE/iclab/iclab131/Lab12/Exercise/05_APR/CHIP.inn.dat/libs/mmmc/RC_Corner/icecaps.tch at temperature 25C . 
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+INFO (EXTIQUANTUS-101) : 
+  Integrated Quantus - 64-bit Parasitic Extractor - Version 20.1.1-s460
+-------------------------------------------------------------------------
+               Copyright 2021 Cadence Design Systems, Inc.
+
+
+INFO (EXTIQUANTUS-103) : Starting at 2024-Dec-06 15:50:46 (2024-Dec-06 07:50:46 GMT).
+
+INFO (EXTIQUANTUS-104) : Starting extraction session...
+
+INFO (EXTIQUANTUS-159) : Loading technology data from file:
+ 
+/RAID2/COURSE/iclab/iclab131/Lab12/Exercise/05_APR/CHIP.inn.dat/libs/mmmc/RC_Corner/icecaps.tch
+
+INFO (EXTIQUANTUS-289) : Loading RCgen extraction models from file:
+ 
+/RAID2/COURSE/iclab/iclab131/Lab12/Exercise/05_APR/CHIP.inn.dat/libs/mmmc/RC_Corner/icecaps.tch
+
+INFO (EXTIQUANTUS-345) : Checking Command/Tech/License Files. 
+
+INFO (EXTIQUANTUS-105) : Starting design extraction....
+Reading layer map file '/RAID2/COURSE/iclab/iclab131/Lab12/Exercise/05_APR/CHIP.inn.dat/libs/misc/lefdef.layermap.cmd'.
+**WARN: (IMPEXT-1241):	No poly layer found in the layermap file, '/RAID2/COURSE/iclab/iclab131/Lab12/Exercise/05_APR/CHIP.inn.dat/libs/misc/lefdef.layermap.cmd'.
+Type 'man IMPEXT-1241' for more detail.
+**WARN: (IMPEXT-1242):	No cut layer found between poly layer and first metal layer in layermap file '/RAID2/COURSE/iclab/iclab131/Lab12/Exercise/05_APR/CHIP.inn.dat/libs/misc/lefdef.layermap.cmd'.
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+IQuantus Extraction engine initialized successfully.
+
+Dumping IQuantus extraction options in file 'extLogDir/IQuantus_06-Dec-2024_15:50:46_127344_nEakWL/extr.CHIP.extraction_options.log'.
+Initialization for IQuantus Fullchip Extraction DONE (CPU Time: 0:00:00.8  Real Time: 0:00:01.0  MEM: 2075.816M)
+
+Geometry processing of Gray and Metal fill STARTED.................... DONE (CPU Time: 0:00:00.1  Real Time: 0:00:00.0  MEM: 2094.836M)
+Geometry processing of nets STARTED.................... DONE (NETS: 1255  Geometries: 37005  CPU Time: 0:00:00.1  Real Time: 0:00:01.0  MEM: 2178.789M)
+
+Extraction of Geometries STARTED.
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+INFO (EXTIQUANTUS-282) : Checking Command/Tech Files. 
+
+INFO (EXTIQUANTUS-277) : Manufacturing Data Information :- 
+  DEF/GDS file 
+    does NOT contain MetalFill data. 
+  Techfile  
+    does NOT contain WEE data.     
+    does NOT contain Erosion data t=f( density ) 
+    does NOT contain R(w) data.    
+    does NOT contain R(w, s) data.  
+    does NOT contain TC(w) data.    
+    does     contain T/B enlargement data. 
+    does     contain Floating Metal Fill models. 
+
+INFO (EXTIQUANTUS-287) : Capacitance Models Information :- 
+ ICECAPS models are not available. 
+ RCgen   models are     available. 
+ This IQuantus session uses RCgen models.
+
+INFO (EXTIQUANTUS-286) : RCs effects computed for this session include :- 
+ MetalFill        : OFF 
+ WEE Effects      : n/a 
+ Erosion Effects  : n/a t=f( density ) 
+ T/B Enlargements : ON 
+ R(w) Effects     : n/a 
+ R(w,s) Effects   : n/a 
+ TC(w) Effects     : n/a 
+Some effects indicate n/a because of non-availability of relevantinput data
+(or) requested to be off (and/or) usage of older Icecaps models.
+
+INFO (EXTHPY-103) : Extracting capacitance values.
+
+INFO (EXTHPY-104) :    0%
+
+INFO (EXTHPY-104) :    1%
+
+INFO (EXTHPY-104) :    2%
+
+INFO (EXTHPY-104) :    3%
+
+INFO (EXTHPY-104) :    4%
+
+INFO (EXTHPY-104) :    5%
+
+INFO (EXTHPY-104) :    6%
+
+INFO (EXTHPY-104) :    7%
+
+INFO (EXTHPY-104) :    8%
+
+INFO (EXTHPY-104) :    9%
+
+INFO (EXTHPY-104) :    10%
+
+INFO (EXTHPY-104) :    11%
+
+INFO (EXTHPY-104) :    12%
+
+INFO (EXTHPY-104) :    13%
+
+INFO (EXTHPY-104) :    14%
+
+INFO (EXTHPY-104) :    15%
+
+INFO (EXTHPY-104) :    16%
+
+INFO (EXTHPY-104) :    17%
+
+INFO (EXTHPY-104) :    18%
+
+INFO (EXTHPY-104) :    19%
+
+INFO (EXTHPY-104) :    20%
+
+INFO (EXTHPY-104) :    21%
+
+INFO (EXTHPY-104) :    22%
+
+INFO (EXTHPY-104) :    23%
+
+INFO (EXTHPY-104) :    24%
+
+INFO (EXTHPY-104) :    25%
+
+INFO (EXTHPY-104) :    26%
+
+INFO (EXTHPY-104) :    27%
+
+INFO (EXTHPY-104) :    28%
+
+INFO (EXTHPY-104) :    29%
+
+INFO (EXTHPY-104) :    30%
+
+INFO (EXTHPY-104) :    31%
+
+INFO (EXTHPY-104) :    32%
+
+INFO (EXTHPY-104) :    33%
+
+INFO (EXTHPY-104) :    34%
+
+INFO (EXTHPY-104) :    35%
+
+INFO (EXTHPY-104) :    36%
+
+INFO (EXTHPY-104) :    37%
+
+INFO (EXTHPY-104) :    38%
+
+INFO (EXTHPY-104) :    39%
+
+INFO (EXTHPY-104) :    40%
+
+INFO (EXTHPY-104) :    41%
+
+INFO (EXTHPY-104) :    42%
+
+INFO (EXTHPY-104) :    43%
+
+INFO (EXTHPY-104) :    44%
+
+INFO (EXTHPY-104) :    45%
+
+INFO (EXTHPY-104) :    46%
+
+INFO (EXTHPY-104) :    47%
+
+INFO (EXTHPY-104) :    48%
+
+INFO (EXTHPY-104) :    49%
+
+INFO (EXTHPY-104) :    50%
+
+INFO (EXTHPY-104) :    51%
+
+INFO (EXTHPY-104) :    52%
+
+INFO (EXTHPY-104) :    53%
+
+INFO (EXTHPY-104) :    54%
+
+INFO (EXTHPY-104) :    55%
+
+INFO (EXTHPY-104) :    56%
+
+INFO (EXTHPY-104) :    57%
+
+INFO (EXTHPY-104) :    58%
+
+INFO (EXTHPY-104) :    59%
+
+INFO (EXTHPY-104) :    60%
+
+INFO (EXTHPY-104) :    61%
+
+INFO (EXTHPY-104) :    62%
+
+INFO (EXTHPY-104) :    63%
+
+INFO (EXTHPY-104) :    64%
+
+INFO (EXTHPY-104) :    65%
+
+INFO (EXTHPY-104) :    66%
+
+INFO (EXTHPY-104) :    67%
+
+INFO (EXTHPY-104) :    68%
+
+INFO (EXTHPY-104) :    69%
+
+INFO (EXTHPY-104) :    70%
+
+INFO (EXTHPY-104) :    71%
+
+INFO (EXTHPY-104) :    72%
+
+INFO (EXTHPY-104) :    73%
+
+INFO (EXTHPY-104) :    74%
+
+INFO (EXTHPY-104) :    75%
+
+INFO (EXTHPY-104) :    76%
+
+INFO (EXTHPY-104) :    77%
+
+INFO (EXTHPY-104) :    78%
+
+INFO (EXTHPY-104) :    79%
+
+INFO (EXTHPY-104) :    80%
+
+INFO (EXTHPY-104) :    81%
+
+INFO (EXTHPY-104) :    82%
+
+INFO (EXTHPY-104) :    83%
+
+INFO (EXTHPY-104) :    84%
+
+INFO (EXTHPY-104) :    85%
+
+INFO (EXTHPY-104) :    86%
+
+INFO (EXTHPY-104) :    87%
+
+INFO (EXTHPY-104) :    88%
+
+INFO (EXTHPY-104) :    89%
+
+INFO (EXTHPY-104) :    90%
+
+INFO (EXTHPY-104) :    91%
+
+INFO (EXTHPY-104) :    92%
+
+INFO (EXTHPY-104) :    93%
+
+INFO (EXTHPY-104) :    94%
+
+INFO (EXTHPY-104) :    95%
+
+INFO (EXTHPY-104) :    96%
+
+INFO (EXTHPY-104) :    97%
+
+INFO (EXTHPY-104) :    98%
+
+INFO (EXTHPY-104) :    99%
+
+INFO (EXTHPY-104) :    100%
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Extraction of Geometries DONE (NETS: 1255  CPU Time: 0:00:03.1  Real Time: 0:00:03.0  MEM: 2255.328M)
+
+Parasitic Network Creation STARTED
+....................
+Number of Extracted Resistors     : 29599
+Number of Extracted Ground Caps   : 30889
+Number of Extracted Coupling Caps : 13702
+Parasitic Network Creation DONE (Nets: 1255  CPU Time: 0:00:00.1  Real Time: 0:00:00.0  MEM: 2279.340M)
+
+IQuantus Extraction engine is being closed... 
+IQuantus Fullchip Extraction DONE (CPU Time: 0:00:05.0  Real Time: 0:00:06.0  MEM: 2279.336M)
+Starting delay calculation for Setup views
+AAE_INFO: resetNetProps viewIdx 0 
+Starting SI iteration 1 using Infinite Timing Windows
+#################################################################################
+# Design Stage: PostRoute
+# Design Name: CHIP
+# Design Mode: 180nm
+# Analysis Mode: MMMC OCV 
+# Parasitics Mode: SPEF/RCDB 
+# Signoff Settings: SI On 
+#################################################################################
+AAE_INFO: 1 threads acquired from CTE.
+Start delay calculation (fullDC) (1 T). (MEM=2279.34)
+AAE_INFO: Number of noise libraries( CDBs ) loaded = 2
+AAE_INFO: Cdb files are: 
+ 	/RAID2/COURSE/iclab/iclab131/Lab12/Exercise/05_APR/CHIP.inn.dat/libs/mmmc/u18_ss.cdb
+	/RAID2/COURSE/iclab/iclab131/Lab12/Exercise/05_APR/CHIP.inn.dat/libs/mmmc/u18_ff.cdb
+ 
+**WARN: (IMPESI-3086):	The cell 'XMD' does not have characterized noise model(s) for 'fsa0m_a_t33_generic_io_ss1p62v125c, fsa0m_a_t33_generic_io_ff1p98vm40c' lib(s). Missing noise information could compromise the accuracy of analysis.
+Type 'man IMPESI-3086' for more detail.
+**WARN: (IMPESI-3086):	The cell 'YA2GSD' does not have characterized noise model(s) for 'fsa0m_a_t33_generic_io_ss1p62v125c, fsa0m_a_t33_generic_io_ff1p98vm40c' lib(s). Missing noise information could compromise the accuracy of analysis.
+Type 'man IMPESI-3086' for more detail.
+Total number of fetched objects 1358
+AAE_INFO-618: Total number of nets in the design is 1345,  100.0 percent of the nets selected for SI analysis
+End delay calculation. (MEM=2305.09 CPU=0:00:00.5 REAL=0:00:00.0)
+End delay calculation (fullDC). (MEM=2268.47 CPU=0:00:01.2 REAL=0:00:01.0)
+Loading CTE timing window with TwFlowType 0...(CPU = 0:00:00.0, REAL = 0:00:00.0, MEM = 2268.5M)
+Add other clocks and setupCteToAAEClockMapping during iter 1
+Loading CTE timing window is completed (CPU = 0:00:00.0, REAL = 0:00:00.0, MEM = 2268.5M)
+Starting SI iteration 2
+Start delay calculation (fullDC) (1 T). (MEM=2118.59)
+Glitch Analysis: View av_func_mode_max -- Total Number of Nets Skipped = 0. 
+Glitch Analysis: View av_func_mode_max -- Total Number of Nets Analyzed = 1358. 
+Total number of fetched objects 1358
+AAE_INFO-618: Total number of nets in the design is 1345,  0.4 percent of the nets selected for SI analysis
+End delay calculation. (MEM=2118.74 CPU=0:00:00.0 REAL=0:00:00.0)
+End delay calculation (fullDC). (MEM=2118.74 CPU=0:00:00.0 REAL=0:00:00.0)
+*** Done Building Timing Graph (cpu=0:00:01.5 real=0:00:01.0 totSessionCpu=0:00:51.0 mem=2118.7M)
+
+------------------------------------------------------------------
+          timeDesign Summary
+------------------------------------------------------------------
+
+Setup views included:
+ av_func_mode_max 
+
++--------------------+---------+---------+---------+
+|     Setup mode     |   all   | reg2reg | default |
++--------------------+---------+---------+---------+
+|           WNS (ns):| 14.010  | 31.077  | 14.010  |
+|           TNS (ns):|  0.000  |  0.000  |  0.000  |
+|    Violating Paths:|    0    |    0    |    0    |
+|          All Paths:|   595   |   247   |   366   |
++--------------------+---------+---------+---------+
+
++----------------+-------------------------------+------------------+
+|                |              Real             |       Total      |
+|    DRVs        +------------------+------------+------------------|
+|                |  Nr nets(terms)  | Worst Vio  |  Nr nets(terms)  |
++----------------+------------------+------------+------------------+
+|   max_cap      |      0 (0)       |   0.000    |      0 (0)       |
+|   max_tran     |      0 (0)       |   0.000    |      0 (0)       |
+|   max_fanout   |      0 (0)       |     0      |      0 (0)       |
+|   max_length   |      0 (0)       |     0      |      0 (0)       |
++----------------+------------------+------------+------------------+
+
+Density: 0.748%
+       (126.299% with Fillers)
+Total number of glitch violations: 0
+------------------------------------------------------------------
+Reported timing to dir timingReports
+Total CPU time: 6.87 sec
+Total Real time: 11.0 sec
+Total Memory Usage: 2140.59375 Mbytes
+Reset AAE Options
+*** timeDesign #1 [finish] : cpu/real = 0:00:06.9/0:00:10.2 (0.7), totSession cpu/real = 0:00:51.3/0:09:05.4 (0.1), mem = 2140.6M
+<CMD> selectVia 1504.8400 181.3200 1508.8400 190.3200 3 VCC
+<CMD> redirect -quiet {set honorDomain [getAnalysisMode -honorClockDomains]} > /dev/null
+<CMD> timeDesign -postRoute -hold -pathReports -slackReports -numPaths 50 -prefix CHIP_postRoute -outDir timingReports
+*** timeDesign #2 [begin] : totSession cpu/real = 0:00:53.1/0:09:43.4 (0.1), mem = 2146.7M
+ Reset EOS DB
+Ignoring AAE DB Resetting ...
+Extraction called for design 'CHIP' of instances=29950 and nets=1345 using extraction engine 'postRoute' at effort level 'high' .
+Integrated QRC (IQuantus) Extraction in Multi-Corner mode called for design 'CHIP'. Number of corners is 1.
+No changed net or region found. No need to perform incremental extraction.
+Starting delay calculation for Hold views
+AAE_INFO: resetNetProps viewIdx 1 
+Starting SI iteration 1 using Infinite Timing Windows
+#################################################################################
+# Design Stage: PostRoute
+# Design Name: CHIP
+# Design Mode: 180nm
+# Analysis Mode: MMMC OCV 
+# Parasitics Mode: SPEF/RCDB 
+# Signoff Settings: SI On 
+#################################################################################
+AAE_INFO: 1 threads acquired from CTE.
+Start delay calculation (fullDC) (1 T). (MEM=2118.75)
+*** Calculating scaling factor for lib_min libraries using the default operating condition of each library.
+Total number of fetched objects 1358
+AAE_INFO-618: Total number of nets in the design is 1345,  100.0 percent of the nets selected for SI analysis
+End delay calculation. (MEM=2162.79 CPU=0:00:00.4 REAL=0:00:01.0)
+End delay calculation (fullDC). (MEM=2162.79 CPU=0:00:00.5 REAL=0:00:01.0)
+Loading CTE timing window with TwFlowType 0...(CPU = 0:00:00.0, REAL = 0:00:00.0, MEM = 2162.8M)
+Add other clocks and setupCteToAAEClockMapping during iter 1
+Loading CTE timing window is completed (CPU = 0:00:00.0, REAL = 0:00:00.0, MEM = 2162.8M)
+Starting SI iteration 2
+Start delay calculation (fullDC) (1 T). (MEM=2127.91)
+Glitch Analysis: View av_func_mode_min -- Total Number of Nets Skipped = 0. 
+Glitch Analysis: View av_func_mode_min -- Total Number of Nets Analyzed = 1358. 
+Total number of fetched objects 1358
+AAE_INFO-618: Total number of nets in the design is 1345,  0.0 percent of the nets selected for SI analysis
+End delay calculation. (MEM=2167.07 CPU=0:00:00.0 REAL=0:00:00.0)
+End delay calculation (fullDC). (MEM=2167.07 CPU=0:00:00.0 REAL=0:00:00.0)
+*** Done Building Timing Graph (cpu=0:00:00.7 real=0:00:01.0 totSessionCpu=0:00:54.0 mem=2167.1M)
+
+------------------------------------------------------------------
+          timeDesign Summary
+------------------------------------------------------------------
+
+Hold views included:
+ av_func_mode_min 
+
++--------------------+---------+---------+---------+
+|     Hold mode      |   all   | reg2reg | default |
++--------------------+---------+---------+---------+
+|           WNS (ns):|  0.239  |  0.239  | 19.699  |
+|           TNS (ns):|  0.000  |  0.000  |  0.000  |
+|    Violating Paths:|    0    |    0    |    0    |
+|          All Paths:|   595   |   247   |   366   |
++--------------------+---------+---------+---------+
+
+Density: 0.748%
+       (126.299% with Fillers)
+------------------------------------------------------------------
+Reported timing to dir timingReports
+Total CPU time: 1.04 sec
+Total Real time: 1.0 sec
+Total Memory Usage: 2100.335938 Mbytes
+Reset AAE Options
+*** timeDesign #2 [finish] : cpu/real = 0:00:01.0/0:00:01.5 (0.7), totSession cpu/real = 0:00:54.1/0:09:44.9 (0.1), mem = 2100.3M
+<CMD> deselectAll
+<CMD> selectVia 1500.5600 190.6000 1504.5600 199.6000 3 GND
+
+--------------------------------------------------------------------------------
+Exiting Innovus on Fri Dec  6 15:53:17 2024
+  Total CPU time:     0:01:05
+  Total real time:    0:11:33
+  Peak memory (main): 1491.64MB
+
+
+*** Memory Usage v#1 (Current mem = 2104.430M, initial mem = 284.375M) ***
+*** Message Summary: 1199 warning(s), 0 error(s)
+
+--- Ending "Innovus" (totcpu=0:00:59.0, real=0:11:32, mem=2104.4M) ---

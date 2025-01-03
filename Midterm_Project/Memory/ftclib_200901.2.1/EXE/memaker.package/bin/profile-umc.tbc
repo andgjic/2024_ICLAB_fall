@@ -1,0 +1,42 @@
+#set SETUP(lef)  "./SHHD130_96X3X1BM1.lef"
+#set SETUP(dest) "./dd.lef"
+#set SETUP(profile) umc
+# TclPro::Compiler::Include
+
+if {[catch {package require tbcload 1.4} err] == 1} {
+    error "The TclPro ByteCode Loader is not available or does not support the correct version"
+}
+tbcload::bceval {
+TclPro ByteCode 2 0 1.4 8.4
+1 0 11 4 0 0 8 0 4 1 1 -1 -1
+11
+w0E<!(H&s!+-!!
+1
+z
+1
++!
+4
+x
+9
+njkSAt=sp@1v
+x
+4
+uKhgC
+x
+11
+Pj.P9)N0bE@@u,
+x
+533
+6dV<+*Q*+EtsY8A._0(<_Ov%E(:DkBS)WhBRDV=+qpd=wLdV<+%6|,EwAoC+cC)E<'770D>R
+<cEvjJ(Fh<n(FZbXQH_bSh/NN<:+JS)!Fn0p|;`IUf::?6r@Jh5DF<lU=+)QUV6hAs!H%Mj6
+wLdV<+91VE+cC)E<'770D)KI;@jfal9<8V=+<#V<+LdV<+4PiSA?91l0Im487GvV<+LdV<+4
+PiSA@BL21Im487HvV<+LdV<+4PiSAAKgM1Im487IvV<+LdV<+4PiSABT-i1Im487JvV<+LdV
+<+4PiSAC|H/2Im487KvV<+LdV<+4PiSADfcJ2Im487LvV<+LdV<+4PiSAEo)f2Im487MvV<+
+LdV<+4PiSAF#E,3Im487NvV<+LdV<+4PiSAG,`G3Im487OvV<+LdV<+4PiSA?91l0Ym487We
+9:+LdV<+Mn%sF,*Y<+-MiZ<ph9:+LdV<+Mn%sF>AR>+-MiZ<qk9:+LdV<+Mn%sF?Gx>+-MiZ
+<rn9:+LdV<+Mn%sF@Md>+-MiZ<sq9:+LdV<+Mn%sFASm>+-MiZ<tt9:+LdV<+Mn%sFBY!?+-
+MiZ<uv::+LdV<+Mn%sFC_*?+-MiZ<!&::+LdV<+Mn%sFDe3?+-MiZ<v)::+LdV<+Mn%sFEk<
+?+-MiZ<#,::+TX93I+!
+0
+0
+}

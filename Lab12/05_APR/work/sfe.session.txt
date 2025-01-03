@@ -1,0 +1,31 @@
+run_status {
+  sfe_preparation: SUCCESS
+  sfe_zx: SUCCESS
+}
+extraction_config {
+  zx_config {
+    zx_multinet_extraction: true
+    cluster_via_size: 25
+    cluster_via1_maximum: true
+    enable_binary_inst_pgdb: true
+    pgdb_name: "TopLevelPGDB"
+    load_optimized_views: true
+    extr_temperature: "25"
+    eqpotential_region_width: "0"
+    eqpotential_region_length: "0"
+    gray_data: "NONE"
+  }
+  layout_file_md5: "5013810745393214133732741487249211112"
+  extracted_nets_md5: "15713818729154320751562262442166424044142"
+  library_name: "./work/lib_merged"
+  use_cellid: true
+  label_ports_md5: "8615323012320822839772392491261572921024124"
+  hierachy_char: "/"
+  enable_metal_fill_effects: true
+  extraction_mode: "early"
+  inst_id_type_size: 8
+  use_gds_label: "NONE"
+  enable_def_hier_report: true
+  via_rule_check: true
+  treat_unconnected_power_as_signal: true
+}

@@ -1,0 +1,183 @@
+Magic 271485
+Revision Verdi_P-2019.06
+
+; Window Layout <x> <y> <width> <height> <signalwidth> <valuewidth>
+viewPort 1589 77 1442 750 236 229
+
+; File list:
+; openDirFile [-d delimiter] [-s time_offset] [-rf auto_bus_rule_file] path_name file_name
+openDirFile -d / "" "/RAID2/COURSE/iclab/iclab131/Lab09/Exercise/01_RTL/Program.fsdb"
+
+; file time scale:
+; fileTimeScale ### s|ms|us|ns|ps
+
+; signal spacing:
+signalSpacing 5
+
+; windowTimeUnit is used for zoom, cursor & marker
+; waveform viewport range
+zoom 14532000.000000 15210600.000000
+cursor 15005000.000000
+marker 0.000000
+
+; user define markers
+; userMarker time_pos marker_name color linestyle
+; visible top row signal index
+top 5
+; marker line index
+markerPos 64
+
+; event list
+; addEvent event_name event_expression
+; curEvent event_name
+
+
+
+COMPLEX_EVENT_BEGIN
+
+
+COMPLEX_EVENT_END
+
+
+
+; toolbar current search type
+; curSTATUS search_type
+curSTATUS ByChange
+
+
+addGroup "Input"
+activeDirFile "" "/RAID2/COURSE/iclab/iclab131/Lab09/Exercise/01_RTL/Program.fsdb"
+addSignal -h 15 /TESTBED/dut_p/clk
+addSignal -h 15 /TESTBED/dut_p/inf/rst_n
+addSignal -h 15 -holdScope sel_action_valid
+addSignal -h 15 -holdScope formula_valid
+addSignal -h 15 -holdScope mode_valid
+addSignal -h 15 -holdScope date_valid
+addSignal -h 15 -holdScope data_no_valid
+addSignal -h 15 -holdScope index_valid
+addSignal -h 15 -UNSIGNED -HEX -holdScope D
+addGroup "PATTERN" -e FALSE
+addGroup "Design"
+addSignal -h 15 -UNSIGNED /TESTBED/dut_p/n_s[2:0]
+addSignal -h 15 -UNSIGNED -holdScope c_s[2:0]
+addSignal -h 15 -holdScope in_finish_flag
+addSubGroup "Input"
+addSignal -h 15 -UNSIGNED /TESTBED/dut_p/act[1:0]
+addSignal -h 15 -UNSIGNED -holdScope formula[2:0]
+addSignal -h 15 -UNSIGNED -holdScope mode[1:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope month_day
+endSubGroup "Input"
+addSignal -h 15 -UNSIGNED -UDEC /TESTBED/dut_p/data_number[7:0]
+addSignal -h 15 -holdScope cnt_index[2:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope index_ABCD[0:3]
+addGroup "AXI signal"
+addSubGroup "Read"
+addSignal -h 15 /TESTBED/dut_p/inf/AR_ADDR[16:0]
+addSignal -h 15 -holdScope AR_VALID
+addSignal -c ID_ORANGE6 -ls solid -lw 1 -h 15 -holdScope AR_READY
+addSignal -h 15 -holdScope R_READY
+addSignal -c ID_ORANGE6 -ls solid -lw 1 -h 15 -holdScope R_VALID
+addSignal -c ID_ORANGE6 -ls solid -lw 1 -h 15 -holdScope R_DATA[63:0]
+addSignal -c ID_ORANGE6 -ls solid -lw 1 -h 15 -holdScope R_RESP[1:0]
+endSubGroup "Read"
+addSubGroup "Write"
+addSignal -h 15 /TESTBED/inf/AW_ADDR[16:0]
+addSignal -h 15 -holdScope AW_VALID
+addSignal -c ID_ORANGE6 -ls solid -lw 1 -h 15 -holdScope AW_READY
+addSignal -h 15 -holdScope W_DATA[63:0]
+addSignal -h 15 -holdScope W_VALID
+addSignal -c ID_ORANGE6 -ls solid -lw 1 -h 15 -holdScope W_READY
+endSubGroup "Write"
+addSubGroup "Response"
+addSignal -h 15 /TESTBED/inf/B_READY
+addSignal -c ID_ORANGE6 -ls solid -lw 1 -h 15 -holdScope B_RESP[1:0]
+addSignal -c ID_ORANGE6 -ls solid -lw 1 -h 15 -holdScope B_VALID
+endSubGroup "Response"
+addGroup "Calculate"
+addSignal -h 15 -UNSIGNED -UDEC /TESTBED/dut_p/month_d[3:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope day_d[4:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope index_A_d[11:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope index_B_d[11:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope index_C_d[11:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope index_D_d[11:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope g_index_A[11:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope g_index_B[11:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope g_index_C[11:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope g_index_D[11:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope formula_result[11:0]
+addSignal -h 15 -UNSIGNED -holdScope warning[1:0]
+addGroup "SORT"
+addSignal -h 15 -UNSIGNED -UDEC /TESTBED/dut_p/g_min1[11:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope g_min2[11:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope g_min3[11:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope g_min4[11:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope min1[11:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope min2[11:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope min3[11:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope min4[11:0]
+addGroup "Update" -e FALSE
+addSignal -h 15 -2COMP -UDEC /TESTBED/dut_p/index_A_signed[11:0]
+addSignal -h 15 -2COMP -UDEC -holdScope index_B_signed[11:0]
+addSignal -h 15 -2COMP -UDEC -holdScope index_C_signed[11:0]
+addSignal -h 15 -2COMP -UDEC -holdScope index_D_signed[11:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope var_A[11:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope var_B[11:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope var_C[11:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope var_D[11:0]
+addGroup "Output"
+addSignal -h 15 /TESTBED/dut_p/inf/out_valid
+addSignal -h 15 -holdScope complete
+addSignal -h 15 -UNSIGNED -holdScope warn_msg[1:0]
+addGroup "G10"
+
+; getSignalForm Scope Hierarchy Status
+; active file of getSignalForm
+activeDirFile "" "/RAID2/COURSE/iclab/iclab131/Lab09/Exercise/01_RTL/Program.fsdb"
+
+GETSIGNALFORM_SCOPE_HIERARCHY_BEGIN
+getSignalForm close
+
+"/TESTBED"
+"/TESTBED/dut_p"
+"/TESTBED/dut_p/inf"
+"/TESTBED/test_p"
+
+SCOPE_LIST_BEGIN
+"/TESTBED"
+"/TESTBED/dut_p"
+"/TESTBED/dut_p/inf"
+"/TESTBED/inf"
+"/TESTBED/test_p"
+"/TESTBED/dram_r"
+"/TESTBED/test_p/inf"
+"/TESTBED/inf/DRAM"
+"/_$novas_unit__1"
+"/TESTBED/dut_p/Finite_state_machine"
+SCOPE_LIST_END
+
+GETSIGNALFORM_SCOPE_HIERARCHY_END
+
+
+
+FILTER_SIGNAL_BEGIN
+
+"*"
+
+FILTER_STRING_LIST_BEGIN
+FILTER_STRING_LIST_END
+
+FILTER_TYPE_LIST_BEGIN
+"All"
+"Input"
+"Output"
+"Inout"
+"Net"
+"Register"
+"Buffer"
+"Linkage"
+"ClassTransaction"
+"Property"
+"Others"
+FILTER_TYPE_LIST_END
+
+FILTER_SIGNAL_END

@@ -1,0 +1,39 @@
+
+#################################################################################
+# 
+# Memory Generator (Memaker) Installation Guideline
+#
+# Purpose:
+#  The installation guideline will help you to install memory generator (memaker).
+#  After extracting the compressed file, please follow the below instruction to
+#  install the memory generator.
+#
+###################################################################################
+
+Installation stage:
+
+1. Extract the compressed file
+   Please change directory to the hierarchy where the memory generator is to be installed.
+   >gzip -d FSF0L_Memaker_200901.2.1.tar.gz ; tar xvf FSF0L_Memaker_200901.2.1.tar
+
+2. Setup your ITC environment in memaker.env
+   Please edit your ITC environment as your install path.
+   Please refer the header of "memaker.env" to get more detailed information.
+   >vi memaker.env
+   >source memaker.env
+
+3. Save your license file
+   >cp memaker.dat $ITC/flexlm/license/.
+
+4. Launch your license server.  
+   Please refer to Memaker User Manual to know the license launch instructions in details.
+   You can find this manual from $ITC/EXE/memaker.package/doc/Memaker_UserGuide_200901.2.1.pdf
+
+5. Setup your display environment (optional)
+   The memory generator is performed by GUI (Graphic User Interface). So, 
+   before using memory generator, please setup your display environment. 
+
+6. Execute memory generator
+   >memaker
+
+

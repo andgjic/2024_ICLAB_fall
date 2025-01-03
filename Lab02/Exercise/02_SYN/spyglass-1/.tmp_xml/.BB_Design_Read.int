@@ -1,0 +1,5 @@
+INPUT@@/RAID2/COURSE/iclab/iclab131/Lab02/Exercise/02_SYN/spyglass-1/Design_Read/spyglass_reports@@/RAID2/COURSE/iclab/iclab131/Lab02/Exercise/02_SYN/spyglass-1/html_reports/data_files/@@BB@@Design_Read@@
+COPY@@/RAID2/COURSE/iclab/iclab131/Lab02/Exercise/02_SYN/spyglass-1/Design_Read/spyglass_reports/moresimple.rpt@@data_files/BB_Design_Read_moresimple.rpt@@
+COPY@@/RAID2/COURSE/iclab/iclab131/Lab02/Exercise/02_SYN/spyglass-1/Design_Read/spyglass_reports/no_msg_reporting_rules.rpt@@data_files/BB_Design_Read_no_msg_reporting_rules.rpt@@
+PROCESS@@SpyGlass
+COPY@@/RAID2/COURSE/iclab/iclab131/Lab02/Exercise/02_SYN/spyglass-1/Design_Read/spyglass.log@@data_files/BB_Design_Read_spyglass.log@@

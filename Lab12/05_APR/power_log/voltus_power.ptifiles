@@ -1,0 +1,8 @@
+GND	power_log/static_GND.ptiavg
+VCC	power_log/static_VCC.ptiavg
+default_ground_rail	power_log/static_default_ground_rail.ptiavg
+default_power_rail	power_log/static_default_power_rail.ptiavg
+GND	power_log/static_GND.ptiavg
+VCC	power_log/static_VCC.ptiavg
+default_ground_rail	power_log/static_default_ground_rail.ptiavg
+default_power_rail	power_log/static_default_power_rail.ptiavg

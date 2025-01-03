@@ -1,0 +1,8 @@
+s1(25Nov2024:13:00:53):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define NONE -define RTL 
+s2(25Nov2024:13:01:32):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define NONE -define RTL 
+s3(25Nov2024:13:01:52):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define NONE -define RTL 
+s4(25Nov2024:13:02:19):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define NONE -define RTL 
+s5(25Nov2024:13:04:49):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define NONE -define RTL 
+s6(25Nov2024:13:06:02):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define NONE -define RTL 
+s7(25Nov2024:13:07:02):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define NONE -define RTL 
+s8(25Nov2024:13:09:55):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define NONE -define RTL 

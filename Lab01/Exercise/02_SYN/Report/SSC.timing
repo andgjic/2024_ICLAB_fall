@@ -1,0 +1,228 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 3
+Design : SSC
+Version: T-2022.03
+Date   : Tue Sep 24 01:52:33 2024
+****************************************
+
+Operating Conditions: slow   Library: slow
+Wire Load Model Mode: top
+
+  Startpoint: snack_num[16]
+              (input port)
+  Endpoint: out_change[2]
+            (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  SSC                umc18_wl10            slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  snack_num[16] (in)                       0.00       0.00 r
+  U1300/Y (INVX2)                          0.13       0.13 f
+  U1252/Y (NOR2XL)                         1.38       1.51 r
+  U3122/Y (INVXL)                          1.18       2.69 f
+  U2926/Y (AND2XL)                         0.57       3.25 f
+  U1371/Y (AOI21XL)                        0.36       3.61 r
+  U1362/Y (OAI21XL)                        0.23       3.84 f
+  U1357/Y (AOI21XL)                        0.39       4.23 r
+  U1596/Y (OAI21X1)                        0.19       4.42 f
+  U1342/Y (AOI21X1)                        0.44       4.86 r
+  U3019/Y (OAI21X4)                        0.22       5.07 f
+  U2000/Y (NAND2X2)                        0.25       5.33 r
+  U2392/Y (OAI21X1)                        0.27       5.60 f
+  U1978/Y (XOR2X1)                         0.41       6.01 f
+  U1975/Y (AND2X2)                         0.30       6.31 f
+  U1967/CO (ADDFX2)                        0.53       6.84 f
+  U1105/Y (NOR2X1)                         0.75       7.59 r
+  U1952/Y (INVX2)                          0.32       7.91 f
+  U1935/Y (NAND2X1)                        0.45       8.36 r
+  U1933/Y (NOR2X1)                         0.27       8.62 f
+  U2384/Y (NAND2BX2)                       0.34       8.96 f
+  U1092/Y (NOR2BX2)                        0.66       9.62 r
+  U2441/Y (AOI22XL)                        0.32       9.95 f
+  U1853/Y (OAI211X1)                       0.44      10.39 r
+  U2448/Y (XOR2X1)                         0.72      11.11 r
+  U3145/Y (NAND2BX1)                       0.31      11.42 r
+  U1845/S (ADDFHX2)                        0.47      11.89 r
+  U1313/S (ADDFX2)                         0.65      12.54 f
+  U1311/S (ADDFX2)                         0.66      13.20 f
+  U1429/S (ADDFX2)                         0.66      13.86 f
+  U1426/S (ADDFX2)                         0.70      14.56 f
+  U1272/CO (ADDFX1)                        0.59      15.15 f
+  U1423/CO (ADDFX2)                        0.41      15.56 f
+  U1422/CO (ADDFX2)                        0.41      15.97 f
+  U1826/CO (ADDFX2)                        0.41      16.38 f
+  U1420/CO (ADDFX2)                        0.41      16.79 f
+  U1818/CO (ADDFX2)                        0.41      17.20 f
+  U3259/S (ADDFX2)                         0.51      17.71 r
+  U1416/Y (INVX2)                          0.10      17.81 f
+  U2370/Y (AOI21X2)                        0.34      18.15 r
+  U3263/Y (AOI222X2)                       0.32      18.47 f
+  U1044/Y (NOR2X2)                         0.71      19.18 r
+  U3269/Y (AOI21X1)                        0.23      19.41 f
+  U3275/Y (AOI32X4)                        0.58      20.00 r
+  out_change[2] (out)                      0.00      20.00 r
+  data arrival time                                  20.00
+
+  max_delay                               20.00      20.00
+  output external delay                    0.00      20.00
+  data required time                                 20.00
+  -----------------------------------------------------------
+  data required time                                 20.00
+  data arrival time                                 -20.00
+  -----------------------------------------------------------
+  slack (MET)                                         0.00
+
+
+  Startpoint: snack_num[16]
+              (input port)
+  Endpoint: out_change[1]
+            (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  SSC                umc18_wl10            slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  snack_num[16] (in)                       0.00       0.00 r
+  U1300/Y (INVX2)                          0.13       0.13 f
+  U1252/Y (NOR2XL)                         1.38       1.51 r
+  U3122/Y (INVXL)                          1.18       2.69 f
+  U2926/Y (AND2XL)                         0.57       3.25 f
+  U1371/Y (AOI21XL)                        0.36       3.61 r
+  U1362/Y (OAI21XL)                        0.23       3.84 f
+  U1357/Y (AOI21XL)                        0.39       4.23 r
+  U1596/Y (OAI21X1)                        0.19       4.42 f
+  U1342/Y (AOI21X1)                        0.44       4.86 r
+  U3019/Y (OAI21X4)                        0.22       5.07 f
+  U2000/Y (NAND2X2)                        0.25       5.33 r
+  U2392/Y (OAI21X1)                        0.27       5.60 f
+  U1978/Y (XOR2X1)                         0.41       6.01 f
+  U1975/Y (AND2X2)                         0.30       6.31 f
+  U1967/CO (ADDFX2)                        0.53       6.84 f
+  U1105/Y (NOR2X1)                         0.75       7.59 r
+  U1952/Y (INVX2)                          0.32       7.91 f
+  U1935/Y (NAND2X1)                        0.45       8.36 r
+  U1933/Y (NOR2X1)                         0.27       8.62 f
+  U2384/Y (NAND2BX2)                       0.34       8.96 f
+  U1092/Y (NOR2BX2)                        0.66       9.62 r
+  U2441/Y (AOI22XL)                        0.32       9.95 f
+  U1853/Y (OAI211X1)                       0.44      10.39 r
+  U2448/Y (XOR2X1)                         0.72      11.11 r
+  U3145/Y (NAND2BX1)                       0.31      11.42 r
+  U1845/S (ADDFHX2)                        0.47      11.89 r
+  U1313/S (ADDFX2)                         0.65      12.54 f
+  U1311/S (ADDFX2)                         0.66      13.20 f
+  U1429/S (ADDFX2)                         0.66      13.86 f
+  U1426/S (ADDFX2)                         0.70      14.56 f
+  U1272/CO (ADDFX1)                        0.59      15.15 f
+  U1423/CO (ADDFX2)                        0.41      15.56 f
+  U1422/CO (ADDFX2)                        0.41      15.97 f
+  U1826/CO (ADDFX2)                        0.41      16.38 f
+  U1420/CO (ADDFX2)                        0.41      16.79 f
+  U1818/CO (ADDFX2)                        0.41      17.20 f
+  U3259/S (ADDFX2)                         0.51      17.71 r
+  U1416/Y (INVX2)                          0.10      17.81 f
+  U2370/Y (AOI21X2)                        0.34      18.15 r
+  U3263/Y (AOI222X2)                       0.32      18.47 f
+  U1044/Y (NOR2X2)                         0.71      19.18 r
+  U3305/Y (AOI21X1)                        0.23      19.41 f
+  U2393/Y (AOI32X4)                        0.58      20.00 r
+  out_change[1] (out)                      0.00      20.00 r
+  data arrival time                                  20.00
+
+  max_delay                               20.00      20.00
+  output external delay                    0.00      20.00
+  data required time                                 20.00
+  -----------------------------------------------------------
+  data required time                                 20.00
+  data arrival time                                 -20.00
+  -----------------------------------------------------------
+  slack (MET)                                         0.00
+
+
+  Startpoint: snack_num[16]
+              (input port)
+  Endpoint: out_change[0]
+            (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  SSC                umc18_wl10            slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  snack_num[16] (in)                       0.00       0.00 r
+  U1300/Y (INVX2)                          0.13       0.13 f
+  U1252/Y (NOR2XL)                         1.38       1.51 r
+  U3122/Y (INVXL)                          1.18       2.69 f
+  U2926/Y (AND2XL)                         0.57       3.25 f
+  U1371/Y (AOI21XL)                        0.36       3.61 r
+  U1362/Y (OAI21XL)                        0.23       3.84 f
+  U1357/Y (AOI21XL)                        0.39       4.23 r
+  U1596/Y (OAI21X1)                        0.19       4.42 f
+  U1342/Y (AOI21X1)                        0.44       4.86 r
+  U3019/Y (OAI21X4)                        0.22       5.07 f
+  U2000/Y (NAND2X2)                        0.25       5.33 r
+  U2392/Y (OAI21X1)                        0.27       5.60 f
+  U1978/Y (XOR2X1)                         0.41       6.01 f
+  U1975/Y (AND2X2)                         0.30       6.31 f
+  U1967/CO (ADDFX2)                        0.53       6.84 f
+  U1105/Y (NOR2X1)                         0.75       7.59 r
+  U1952/Y (INVX2)                          0.32       7.91 f
+  U1935/Y (NAND2X1)                        0.45       8.36 r
+  U1933/Y (NOR2X1)                         0.27       8.62 f
+  U2384/Y (NAND2BX2)                       0.34       8.96 f
+  U1092/Y (NOR2BX2)                        0.66       9.62 r
+  U2441/Y (AOI22XL)                        0.32       9.95 f
+  U1853/Y (OAI211X1)                       0.44      10.39 r
+  U2448/Y (XOR2X1)                         0.72      11.11 r
+  U3145/Y (NAND2BX1)                       0.31      11.42 r
+  U1845/S (ADDFHX2)                        0.47      11.89 r
+  U1313/S (ADDFX2)                         0.65      12.54 f
+  U1311/S (ADDFX2)                         0.66      13.20 f
+  U1429/S (ADDFX2)                         0.66      13.86 f
+  U1426/S (ADDFX2)                         0.70      14.56 f
+  U1272/CO (ADDFX1)                        0.59      15.15 f
+  U1423/CO (ADDFX2)                        0.41      15.56 f
+  U1422/CO (ADDFX2)                        0.41      15.97 f
+  U1826/CO (ADDFX2)                        0.41      16.38 f
+  U1420/CO (ADDFX2)                        0.41      16.79 f
+  U1818/CO (ADDFX2)                        0.41      17.20 f
+  U3259/S (ADDFX2)                         0.51      17.71 r
+  U1416/Y (INVX2)                          0.10      17.81 f
+  U2370/Y (AOI21X2)                        0.34      18.15 r
+  U3263/Y (AOI222X2)                       0.32      18.47 f
+  U1044/Y (NOR2X2)                         0.71      19.18 r
+  U3291/Y (AOI21X1)                        0.23      19.41 f
+  U2395/Y (AOI32X4)                        0.58      20.00 r
+  out_change[0] (out)                      0.00      20.00 r
+  data arrival time                                  20.00
+
+  max_delay                               20.00      20.00
+  output external delay                    0.00      20.00
+  data required time                                 20.00
+  -----------------------------------------------------------
+  data required time                                 20.00
+  data arrival time                                 -20.00
+  -----------------------------------------------------------
+  slack (MET)                                         0.00
+
+
+1

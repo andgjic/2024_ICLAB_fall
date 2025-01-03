@@ -1,0 +1,117 @@
+///////////////////////////////////////////////////////////////////////////////////
+// 
+//              Synchronous High Speed Single Port SRAM Compiler 
+// 
+//                    UMC 0.18um GenericII Logic Process
+//    __________________________________________________________________________
+// 
+// 
+//        (C) Copyright 2002-2009 Faraday Technology Corp. All Rights Reserved.
+// 
+//      This source code is an unpublished work belongs to Faraday Technology
+//      Corp.  It is considered a trade secret and is not to be divulged or
+//      used by parties who have not received written authorization from
+//      Faraday Technology Corp.
+// 
+//      Faraday's home page can be found at:
+//      http://www.faraday-tech.com/
+//     
+// ________________________________________________________________________________
+// 
+//       Module Name       :  Memory_16_512  
+//       Word              :  512            
+//       Bit               :  16             
+//       Byte              :  1              
+//       Mux               :  1              
+//       Power Ring Type   :  port           
+//       Power Ring Width  :  2 (um)         
+//       Output Loading    :  0.05 (pf)      
+//       Input Data Slew   :  0.02 (ns)      
+//       Input Clock Slew  :  0.02 (ns)      
+// 
+// ________________________________________________________________________________
+// 
+//       Library          : FSA0M_A
+//       Memaker          : 200901.2.1
+//       Date             : 2024/10/27 12:07:58
+// 
+// ________________________________________________________________________________
+// 
+//       Library          : FSA0M_A
+//       Memaker          : 200901.2.1
+//       Date             : 2024/10/27 12:08:00
+//
+///////////////////////////////////////////////////////////////////////////////////
+
+model Memory_16_512 (
+    A8, A7, A6, A5, A4, A3, A2, A1, A0,
+    DI15, DI14, DI13, DI12, DI11, DI10, DI9, DI8, DI7, DI6, DI5, DI4, DI3, DI2, DI1, DI0,
+    DO15, DO14, DO13, DO12, DO11, DO10, DO9, DO8, DO7, DO6, DO5, DO4, DO3, DO2, DO1, DO0,
+    WEB,
+    CK, CS, OE) (
+
+    bist_definition (
+        data_out      DO(DO15, DO14, DO13, DO12, DO11, DO10, DO9, DO8, DO7, DO6, DO5, DO4, DO3, DO2, DO1, DO0);
+        data_in       DI(DI15, DI14, DI13, DI12, DI11, DI10, DI9, DI8, DI7, DI6, DI5, DI4, DI3, DI2, DI1, DI0);
+        address       A (A8, A7, A6, A5, A4, A3, A2, A1, A0);
+        output_enable OE low;
+        write_enable  WEB low;
+        chip_enable   CS high;
+
+        clock         CK high;
+        tech          = FSA0M_A;
+        vendor        = "Faraday Technology Inc.";
+        version       = "200901.2.1";
+        min_address   = 0;
+        max_address   = 511;
+        data_size     = 16;
+        top_column    = 8;
+        top_word      = 1;
+
+        descrambling_definition (
+            address (
+                DSC_A0 = A0;
+                DSC_A1 = A1;
+                DSC_A2 = A2;
+                DSC_A3 = A3;
+                DSC_A4 = A4;
+                DSC_A5 = A5;
+                DSC_A6 = A6;
+                DSC_A7 = A7;
+                DSC_A8 = A8;
+            )
+            data_in (
+                DSC_DI0 = DI0;
+                DSC_DI1 = DI1;
+                DSC_DI2 = DI2;
+                DSC_DI3 = DI3;
+                DSC_DI4 = DI4;
+                DSC_DI5 = DI5;
+                DSC_DI6 = DI6;
+                DSC_DI7 = DI7;
+                DSC_DI8 = DI8;
+                DSC_DI9 = DI9;
+                DSC_DI10 = DI10;
+                DSC_DI11 = DI11;
+                DSC_DI12 = DI12;
+                DSC_DI13 = DI13;
+                DSC_DI14 = DI14;
+                DSC_DI15 = DI15;
+            )
+        )
+        read_write_port(
+            read_cycle(
+                assert CS;
+                change A;
+                expect DO move;
+            )
+            write_cycle(
+                assert CS;
+                change A;
+                change DI;
+                assert WEB;
+                wait;
+            )
+        )
+    )
+)

@@ -1,0 +1,61 @@
+2024-11-12 00:15:20.079745 (230911) main____ INFO    ----------------------------------------
+2024-11-12 00:15:20.079831 (230911) main____ INFO    Jasper version info
+2024-11-12 00:15:20.079839 (230911) main____ INFO      tool      : Jasper 2023.09
+2024-11-12 00:15:20.079845 (230911) main____ INFO      version   : 2023.09p001 64 bits
+2024-11-12 00:15:20.079849 (230911) main____ INFO      build date: 2023.10.25 14:35:20 UTC
+2024-11-12 00:15:20.079852 (230911) main____ INFO    ----------------------------------------
+2024-11-12 00:15:20.079856 (230911) main____ INFO    Runtime info:
+2024-11-12 00:15:20.079860 (230911) main____ INFO      platform  : Linux 3.10.0-1160.88.1.el7.x86_64 x86_64
+2024-11-12 00:15:20.079867 (230911) main____ INFO      hostname  : ee25
+2024-11-12 00:15:20.079870 (230911) main____ INFO      pid       : 230911
+2024-11-12 00:15:20.079874 (230911) main____ INFO      arguments : '-style' 'windows' '-sec' 'jg_sec_run2.tcl'
+2024-11-12 00:15:20.079879 (230911) main____ INFO      locale    : ANSI_X3.4-1968
+2024-11-12 00:15:20.079882 (230911) main____ INFO    ----------------------------------------
+2024-11-12 00:15:20.079885 (230911) main____ INFO    System resource limits info:
+2024-11-12 00:15:20.079890 (230911) main____ INFO      virtual memory: unlimited
+2024-11-12 00:15:20.079893 (230911) main____ INFO      cpu time      : unlimited
+2024-11-12 00:15:20.079901 (230911) main____ INFO      processes     : 4096
+2024-11-12 00:15:20.079912 (230911) main____ INFO      stack size    : 8388608 B
+2024-11-12 00:15:20.079917 (230911) main____ INFO      core file size: 0 B
+2024-11-12 00:15:20.079920 (230911) main____ INFO      open files    : 1024
+2024-11-12 00:15:20.079924 (230911) main____ INFO      file size     : 10737418240 B
+2024-11-12 00:15:20.079927 (230911) main____ INFO    ----------------------------------------
+2024-11-12 00:15:20.079931 (230911) main____ INFO    Memory statistics:
+2024-11-12 00:15:20.079934 (230911) main____ INFO      total physical memory  : 1056530580 kB
+2024-11-12 00:15:20.079937 (230911) main____ INFO      free physical memory   : 731404360 kB
+2024-11-12 00:15:20.079940 (230911) main____ INFO      committed address space: 191546424 kB
+2024-11-12 00:15:20.079943 (230911) main____ INFO    ----------------------------------------
+2024-11-12 00:15:20.080596 (230911) main____ INFO    Important environment variables:
+2024-11-12 00:15:20.080612 (230911) main____ INFO      CDS_AUTO_64BIT     : 'ALL'
+2024-11-12 00:15:20.080617 (230911) main____ INFO      CDS_LOAD_ENV       : 'CSF'
+2024-11-12 00:15:20.080622 (230911) main____ INFO      CDS_Netlisting_Mode: 'Analog'
+2024-11-12 00:15:20.080627 (230911) main____ INFO      DISPLAY            : 'localhost:37.0'
+2024-11-12 00:15:20.080632 (230911) main____ INFO      JASPER_INSTALL_DIR : '/usr/cad/cadence/JASPER/jasper_2023.09p001'
+2024-11-12 00:15:20.080643 (230911) main____ INFO      JASPER_KERNEL_CHECK: '1'
+2024-11-12 00:15:20.080648 (230911) main____ INFO      JASPER_OS_CHECK    : '1'
+2024-11-12 00:15:20.080655 (230911) main____ INFO      LM_LICENSE_FILE    : '26585@lshc:5280@lshc:1717@lshc:5280@lstc:26585@lstc:1717@lstc'
+2024-11-12 00:15:20.080659 (230911) main____ INFO    ----------------------------------------
+2024-11-12 00:15:20.082076 (230911) lic_core INFO    Initializing license system ...
+2024-11-12 00:15:20.087128 (230911) lic_core INFO    ... license system initialized.
+2024-11-12 00:15:20.108845 (230911) lic__man INFO    Claim 'main' for <ui>.
+2024-11-12 00:15:20.108922 (230911) lic_core INFO    (1) checking out 'jasper_interactive' ...
+2024-11-12 00:15:20.174554 (230911) lic_core INFO    ... (1) checkout succeeded
+2024-11-12 00:15:20.174696 (230911) lic__man INFO    Claim 'sec' for <ui>.
+2024-11-12 00:15:20.174732 (230911) lic_core INFO    (2) checking out 'jasper_sec' ...
+2024-11-12 00:15:20.244883 (230911) lic_core INFO    ... (2) checkout failed (error: -5) ("FLEXnet ERROR(-5, 0, 0): No such feature exists.")
+2024-11-12 00:15:20.244951 (230911) lic_core INFO    (3) checking out 'jasper_fao' ...
+2024-11-12 00:15:20.305396 (230911) lic_core INFO    ... (3) checkout succeeded
+2024-11-12 00:15:20.306276 (230911) main____ INFO    Tool inactivity delay is 480000 ms.
+2024-11-12 00:15:20.812507 (230911) lic__man INFO    Claim 'sec' for <ui>.
+2024-11-12 00:15:21.345929 (230911) lic__man INFO    Unclaim 'sec' for <ui>.
+2024-11-12 00:15:21.345976 (230911) lic__man INFO    Claim 'sec' for <ui>.
+2024-11-12 00:15:21.371348 (230911) session_ INFO    Starting analysis session with session id 'session_0' (launcher: <local>) ...
+2024-11-12 00:15:21.373966 (230911) session_ INFO    Analysis session with session id 'session_0' started (pid: 231548)
+2024-11-12 00:15:23.040842 (230911) session_ INFO    Analysis session 'session_0' connected to the console (host: 127.0.0.1:49608)
+2024-11-12 00:15:23.623963 (230911) main____ INFO    Releasing console memory by request of analysis session 'session_0'.
+2024-11-12 00:15:23.625251 (230911) lic__man INFO    Unclaim everything for 'session_0'.
+2024-11-12 00:15:23.625923 (230911) lic__man INFO    Claim 'sec' for 'session_0'.
+2024-11-12 00:15:24.180658 (230911) lic__man INFO    Unclaim everything for 'session_0'.
+2024-11-12 00:15:24.379349 (230911) lic__man INFO    Claim 'sec' for 'session_0'.
+2024-11-12 00:15:25.511384 (230911) lic__man INFO    Claim 'sec' for 'session_0'.
+2024-11-12 00:15:25.511451 (230911) lic__man INFO    Claim 'sec' for 'session_0/prove-1'.

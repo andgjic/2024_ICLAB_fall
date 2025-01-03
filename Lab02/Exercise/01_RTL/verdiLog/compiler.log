@@ -1,0 +1,13 @@
+*design* DebussyLib (btIdent Verdi_P-2019.06)
+Command arguments:
+    +define+verilog
+    -sv
+    -f filelist.f
+        TESTBED.v
+    +define+RTL
+    +v2k
+
+Highest level modules:
+TESTBED
+
+Total	0 error(s),   0 warning(s)

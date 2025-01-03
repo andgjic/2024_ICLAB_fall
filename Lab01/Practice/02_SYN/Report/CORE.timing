@@ -1,0 +1,45 @@
+Warning: Can't read link_library file 'your_library.db'. (UID-3)
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : CORE
+Version: T-2022.03
+Date   : Fri Feb 23 23:47:27 2024
+****************************************
+
+Operating Conditions: slow   Library: slow
+Wire Load Model Mode: top
+
+  Startpoint: in_n1[0] (input port)
+  Endpoint: out_n[2] (output port)
+  Path Group: default
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  in_n1[0] (in)                            0.00       0.00 f
+  U27/Y (AND2XL)                           0.24       0.24 f
+  U37/Y (AOI222XL)                         0.50       0.73 r
+  U23/Y (NOR2XL)                           0.16       0.89 f
+  U38/Y (NOR2BXL)                          0.26       1.15 r
+  U39/Y (XOR2XL)                           0.41       1.56 r
+  U40/Y (MXI2XL)                           0.17       1.73 f
+  out_n[2] (out)                           0.00       1.73 f
+  data arrival time                                   1.73
+
+  max_delay                               30.00      30.00
+  output external delay                    0.00      30.00
+  data required time                                 30.00
+  -----------------------------------------------------------
+  data required time                                 30.00
+  data arrival time                                  -1.73
+  -----------------------------------------------------------
+  slack (MET)                                        28.27
+
+
+1

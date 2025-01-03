@@ -1,0 +1,9 @@
+{"vcs1":{"timestamp_begin":1732850160.932053662, "rt":4.46, "ut":3.34, "st":0.53}}
+{"vcselab":{"timestamp_begin":1732850165.486958930, "rt":1.35, "ut":0.69, "st":0.08}}
+{"link":{"timestamp_begin":1732850166.920714705, "rt":0.50, "ut":0.44, "st":0.35}}
+{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1732850160.240990227}
+{"VCS_COMP_START_TIME": 1732850160.240990227}
+{"VCS_COMP_END_TIME": 1732850272.280561807}
+{"VCS_USER_OPTIONS": "-timescale=1ns/1fs -j8 -sverilog +v2k -full64 -Mupdate -R -debug_access+all -f filelist.f -o simv -l vcs.log -P /usr/cad/synopsys/verdi/2019.06//share/PLI/VCS/linux64/novas.tab /usr/cad/synopsys/verdi/2019.06//share/PLI/VCS/linux64/pli.a -v /RAID2/COURSE/iclab/iclabTA01/UMC018_CBDK/CIC/Verilog/fsa0m_a_generic_core_30.lib.src -v /RAID2/COURSE/iclab/iclabTA01/UMC018_CBDK/CIC/Verilog/fsa0m_a_t33_generic_io_30.lib.src +define+POST +neg_tchk"}
+{"vcs1": {"peak_mem": 391516}}
+{"stitch_vcselab": {"peak_mem": 242596}}

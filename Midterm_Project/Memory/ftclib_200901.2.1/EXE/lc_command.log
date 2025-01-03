@@ -1,0 +1,9 @@
+#@ # 
+#@ # Running lc_shell Version T-2022.03 for linux64 -- Feb 22, 2022
+#@ # Date:   Mon Oct 28 14:00:36 2024
+#@ # Run by: iclab131@ee23
+#@ 
+
+read_lib DPSRAM_32_256_WC.lib
+write_lib DPSRAM_32_256_WC -output DPSRAM_32_256_WC.db
+exit

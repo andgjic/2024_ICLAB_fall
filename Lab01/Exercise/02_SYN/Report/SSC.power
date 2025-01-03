@@ -1,0 +1,59 @@
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : SSC
+Version: T-2022.03
+Date   : Tue Sep 24 01:52:34 2024
+****************************************
+
+
+Library(s) Used:
+
+    slow (File: /RAID2/COURSE/iclab/iclabTA01/umc018/Synthesis/slow.db)
+
+
+Operating Conditions: slow   Library: slow
+Wire Load Model Mode: top
+
+Design        Wire Load Model            Library
+------------------------------------------------
+SSC                    umc18_wl10        slow
+
+
+Global Operating Voltage = 1.62 
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+Attributes
+----------
+i - Including register clock pin internal power
+
+
+  Cell Internal Power  =  16.0691 mW   (38%)
+  Net Switching Power  =  25.9853 mW   (62%)
+                         ---------
+Total Dynamic Power    =  42.0544 mW  (100%)
+
+Cell Leakage Power     =   4.1989 uW
+
+Information: report_power power group summary does not include estimated clock tree power. (PWR-789)
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network      0.0000            0.0000            0.0000            0.0000  (   0.00%)  i
+register           0.0000            0.0000            0.0000            0.0000  (   0.00%)
+sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
+combinational     16.0691           25.9853        4.1989e+06           42.0586  ( 100.00%)
+--------------------------------------------------------------------------------------------------
+Total             16.0691 mW        25.9853 mW     4.1989e+06 pW        42.0586 mW
+1

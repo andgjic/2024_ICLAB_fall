@@ -1,0 +1,25 @@
+
+REDUCED
+
+CSUBSTRATE
+NSD_C*
+PSD_C*
+PLY_C*
+DIFFCONT*2
+PLYCONT*2
+ME1_C"metal1*2
+VIA1"via*	2
+	ME2_C"metal2*
+2
+
+VIA2"via2*2	
+ME3_C"metal3*2
+
+VIA3"via3*2
+ME4_C"metal4*2
+VIA4"via4*2
+ME5_C"metal5*2
+MMCTP_C*
+VIA5"via5*2
+VIATP*2
+ME6_C"metal62

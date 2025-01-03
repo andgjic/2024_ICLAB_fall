@@ -1,0 +1,2211 @@
+
+Cadence Innovus(TM) Implementation System.
+Copyright 2020 Cadence Design Systems, Inc. All rights reserved worldwide.
+
+Version:	v20.15-s105_1, built Tue Jul 27 14:15:35 PDT 2021
+Options:	
+Date:		Thu Dec  5 13:25:03 2024
+Host:		ee28 (x86_64 w/Linux 3.10.0-1160.88.1.el7.x86_64) (64cores*256cpus*AMD EPYC 7713 64-Core Processor 512KB)
+OS:		CentOS Linux release 7.9.2009 (Core)
+
+License:
+		invs	Innovus Implementation System	20.1	checkout succeeded
+		8 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+Change the soft stacksize limit to 0.2%RAM (2063 mbytes). Set global soft_stack_size_limit to change the value.
+
+**INFO:  MMMC transition support version v31-84 
+
+<CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+<CMD> suppressMessage ENCEXT-2799
+<CMD> getVersion
+[INFO] Loading Pegasus 21.21 fill procedures
+<CMD> win
+<CMD> encMessage warning 0
+Suppress "**WARN ..." messages.
+<CMD> encMessage debug 0
+<CMD> encMessage info 0
+RC_Corner
+**WARN: (IMPLF-119):	LAYER 'metal1' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-119):	LAYER 'metal2' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-119):	LAYER 'metal3' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-119):	LAYER 'metal4' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-119):	LAYER 'metal5' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-119):	LAYER 'metal6' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-58):	MACRO 'AN2' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-58):	MACRO 'AN2B1' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-58):	MACRO 'AN2B1P' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-58):	MACRO 'AN2B1S' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-58):	MACRO 'AN2B1T' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-58):	MACRO 'AN2P' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-58):	MACRO 'AN2S' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-58):	MACRO 'AN2T' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-58):	MACRO 'AN3' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-58):	MACRO 'AN3B1' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-58):	MACRO 'AN3B1P' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-58):	MACRO 'AN3B1S' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-58):	MACRO 'AN3B1T' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-58):	MACRO 'AN3B2' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-58):	MACRO 'AN3B2P' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-58):	MACRO 'AN3B2S' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-58):	MACRO 'AN3B2T' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-58):	MACRO 'AN3P' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-58):	MACRO 'AN3S' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-58):	MACRO 'AN3T' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (EMS-27):	Message (IMPLF-58) has exceeded the current message display limit of 20.
+To increase the message display limit, refer to the product command reference manual.
+**WARN: (IMPLF-119):	LAYER 'metal1' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-119):	LAYER 'metal2' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-119):	LAYER 'metal3' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-119):	LAYER 'metal4' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-119):	LAYER 'metal5' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-119):	LAYER 'metal6' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-61):	392 duplicated MACRO definitions have been found in the LEF file(s). Their content except DENSITY and PIN ANTENNA* data, and certain properties, have been ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-200):	Pin 'IO' in macro 'ZMA2GSD' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-200):	Pin 'IO' in macro 'ZMA2GSC' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-200):	Pin 'I' in macro 'XMD' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-200):	Pin 'I' in macro 'XMC' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-200):	Pin 'GNDO' in macro 'GNDIOD' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-200):	Pin 'GNDO' in macro 'GNDIOC' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-200):	Pin 'A' in macro 'ANTENNA' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+Loading view definition file from /RAID2/COURSE/iclab/iclab131/Lab12/Exercise/05_APR/CHIP.inn.dat/viewDefinition.tcl
+**WARN: (TECHLIB-302):	No function defined for cell 'ANTENNA'. The cell will only be used for analysis. (File /RAID2/COURSE/iclab/iclab131/Lab12/Exercise/05_APR/LIB/fsa0m_a_generic_core_ss1p62v125c.lib)
+**WARN: (TECHLIB-302):	No function defined for cell 'ANTENNA'. The cell will only be used for analysis. (File /RAID2/COURSE/iclab/iclab131/Lab12/Exercise/05_APR/LIB/fsa0m_a_generic_core_ff1p98vm40c.lib)
+*** End library_loading (cpu=0.02min, real=0.02min, mem=22.9M, fe_cpu=1.17min, fe_real=17.77min, fe_mem=938.5M) ***
+**WARN: (IMPVL-159):	Pin 'GND' of cell 'XOR4T' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VCC' of cell 'XOR4T' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'GND' of cell 'XOR4S' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VCC' of cell 'XOR4S' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'GND' of cell 'XOR4P' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VCC' of cell 'XOR4P' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'GND' of cell 'XOR4' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VCC' of cell 'XOR4' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'GND' of cell 'XOR3T' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VCC' of cell 'XOR3T' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'GND' of cell 'XOR3S' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VCC' of cell 'XOR3S' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'GND' of cell 'XOR3P' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VCC' of cell 'XOR3P' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'GND' of cell 'XOR3' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VCC' of cell 'XOR3' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'GND' of cell 'XOR2HT' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VCC' of cell 'XOR2HT' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'GND' of cell 'XOR2HS' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VCC' of cell 'XOR2HS' is defined in LEF but not in the timing library.
+**WARN: (EMS-27):	Message (IMPVL-159) has exceeded the current message display limit of 20.
+To increase the message display limit, refer to the product command reference manual.
+*** Netlist is unique.
+**WARN: (IMPFP-3961):	The techSite 'iocore_f' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+**WARN: (IMPFP-3961):	The techSite 'iocore_e' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+**WARN: (IMPFP-3961):	The techSite 'iocore_ds' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+**WARN: (IMPFP-3961):	The techSite 'iocore_cs' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+**WARN: (IMPFP-3961):	The techSite 'iocore_d' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+**WARN: (IMPFP-3961):	The techSite 'iocore_c' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+**WARN: (IMPFP-3961):	The techSite 'iocore_b' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+**WARN: (IMPFP-3961):	The techSite 'iocore_a' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+Loading preference file /RAID2/COURSE/iclab/iclab131/Lab12/Exercise/05_APR/CHIP.inn.dat/gui.pref.tcl ...
+**WARN: (IMPOPT-3602):	The specified path group name reg2reg is not defined.
+**WARN: (IMPTCM-77):	Option "-drouteStartIteration" for command setNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+**WARN: (IMPSYC-2):	Timing information is not defined for cell VCCKD; Check the timing library (.lib) file and make sure the timing information exists for the cell and you can run the checkTimingLibrary command to verify if the timing library has complete information after the design is loaded.
+**WARN: (IMPSYC-2):	Timing information is not defined for cell VCC3IOD; Check the timing library (.lib) file and make sure the timing information exists for the cell and you can run the checkTimingLibrary command to verify if the timing library has complete information after the design is loaded.
+**WARN: (IMPSYC-2):	Timing information is not defined for cell GNDKD; Check the timing library (.lib) file and make sure the timing information exists for the cell and you can run the checkTimingLibrary command to verify if the timing library has complete information after the design is loaded.
+**WARN: (IMPSYC-2):	Timing information is not defined for cell GNDIOD; Check the timing library (.lib) file and make sure the timing information exists for the cell and you can run the checkTimingLibrary command to verify if the timing library has complete information after the design is loaded.
+Loading place ...
+**WARN: (IMPEXT-6202):	In addition to the technology file, the capacitance table file is specified for all the RC corners. If the technology file  is already specified for all the RC corners, the capacitance table file is not required for preRoute and postRoute extraction. In a new session, the capacitance table files can be removed from the create_rc_corner command to enable the technology file to be used for preRoute and postRoute (effort level medium/high/signoff) extraction engines.
+'set_default_switching_activity' finished successfully.
+Delay_Corner_min Delay_Corner_max
+**WARN: (IMPESI-3505):	setDelayCalMode -eng_copyNetPropToNewNet true (default=false) will be obsoleted along with its sgs2set equivalent.  This parameter will continue to be supported in the current release, but will be removed in the next major release of the software.
+**WARN: (IMPCTE-107):	The following globals have been obsoleted since version 20.15-s105_1. They will be removed in the next release. 
+timing_enable_default_delay_arc
+<CMD> setDrawView place
+<CMD> zoomBox 321.11400 607.58300 2978.37000 2789.45800
+<CMD> zoomBox 497.24800 931.81700 2755.91600 2786.41100
+<CMD> zoomBox 638.67400 1187.73000 2558.54200 2764.13500
+<CMD> zoomBox 833.52900 1683.56200 2012.57000 2651.67400
+<CMD> zoomBox 884.31200 2034.87100 1608.39100 2629.41300
+<CMD> zoomBox 921.01400 2118.07300 1536.48100 2623.43400
+<CMD> zoomBox 978.72700 2248.90800 1423.40300 2614.03200
+<CMD> zoomBox 1034.61100 2369.33400 1307.69900 2593.56700
+<CMD> zoomBox 1068.93000 2443.29100 1236.64100 2580.99900
+<CMD> zoomBox 1095.94400 2485.04900 1198.94000 2569.61900
+<CMD> uiSetTool ruler
+<CMD> zoomBox 1102.13300 2494.16700 1189.68000 2566.05200
+<CMD> zoomBox 1107.39400 2501.91800 1181.80900 2563.02000
+<CMD> zoomBox 1115.66700 2514.10600 1169.43200 2558.25200
+<CMD> zoomBox 1123.97800 2526.35000 1156.99700 2553.46200
+<CMD> zoomBox 1123.97800 2529.06100 1156.99700 2556.17300
+<CMD> zoomBox 1123.97800 2531.77200 1156.99700 2558.88400
+<CMD> zoomBox 1123.97800 2529.06100 1156.99700 2556.17300
+<CMD> zoomBox 1123.97800 2526.35000 1156.99700 2553.46200
+<CMD> zoomBox 1120.75300 2523.32100 1159.59900 2555.21700
+<CMD> zoomBox 1116.95900 2519.75700 1162.66000 2557.28200
+<CMD> zoomBox 1112.55600 2515.58900 1166.32200 2559.73600
+<CMD> zoomBox 1107.40600 2510.70000 1170.66000 2562.63800
+<CMD> zoomBox 1101.34600 2504.94800 1175.76300 2566.05200
+<CMD> zoomBox 1094.21700 2498.18100 1181.76700 2570.06800
+<CMD> zoomBox 1085.83100 2490.22000 1188.83100 2574.79300
+<CMD> zoomBox 1075.96500 2480.85300 1197.14100 2580.35100
+<CMD> zoomBox 1064.35700 2469.83400 1206.91700 2586.89000
+<CMD> zoomBox 1050.70100 2456.87000 1218.41900 2594.58300
+<CMD> zoomBox 1063.81800 2469.71700 1206.37900 2586.77400
+<CMD> zoomBox 1075.03300 2481.71600 1196.21000 2581.21500
+<CMD> zoomBox 1092.66800 2500.63800 1180.21900 2572.52600
+<CMD> zoomBox 1099.55600 2508.02700 1173.97400 2569.13200
+<CMD> zoomBox 1114.61500 2524.18400 1160.31900 2561.71200
+<CMD> zoomBox 1118.21000 2528.04200 1157.05900 2559.94100
+<CMD> zoomBox 1121.26600 2531.32100 1154.28800 2558.43500
+<CMD> zoomBox 1123.86400 2534.10800 1151.93300 2557.15500
+<CMD> zoomBox 1126.07200 2536.47600 1149.93100 2556.06700
+<CMD> zoomBox 1127.94800 2538.49500 1148.22900 2555.14800
+<CMD> uiSetTool select
+<CMD> selectWire 153.3600 2545.3600 2592.0000 2554.3600 3 GND
+<CMD> deselectAll
+<CMD> selectWire 153.3600 2545.3600 2592.0000 2554.3600 3 GND
+<CMD> zoomBox 1126.18500 2536.61200 1150.04600 2556.20400
+<CMD> zoomBox 1127.83200 2538.70700 1148.11400 2555.36100
+<CMD> zoomBox 1129.20800 2540.54300 1146.44900 2554.70000
+<CMD> zoomBox 1127.92400 2538.71500 1148.20800 2555.37000
+<CMD> zoomBox 1126.41300 2536.56300 1150.27700 2556.15800
+<CMD> zoomBox 1124.63500 2534.03200 1152.71100 2557.08500
+<CMD> zoomBox 1124.63500 2531.72700 1152.71100 2554.78000
+<CMD> zoomBox 1124.63500 2529.42200 1152.71100 2552.47500
+<CMD> zoomBox 1126.76600 2530.46400 1150.63100 2550.06000
+<CMD> zoomBox 1128.57700 2531.35000 1148.86300 2548.00700
+<CMD> zoomBox 1129.43800 2532.54600 1146.68100 2546.70400
+<CMD> zoomBox 1130.16900 2533.56200 1144.82600 2545.59700
+<CMD> zoomBox 1130.16900 2532.35800 1144.82600 2544.39300
+<CMD> zoomBox 1130.16900 2531.15400 1144.82600 2543.18900
+<CMD> zoomBox 1130.79000 2532.01800 1143.24900 2542.24800
+<CMD> zoomBox 1132.14800 2533.36500 1141.15100 2540.75700
+<CMD> zoomBox 1132.67800 2533.89100 1140.33100 2540.17500
+<CMD> zoomBox 1133.12900 2534.33900 1139.63400 2539.68000
+<CMD> zoomBox 1131.52300 2532.74400 1142.11600 2541.44200
+<CMD> zoomBox 1130.78800 2532.01500 1143.25100 2542.24800
+<CMD> zoomBox 1130.78800 2534.06100 1143.25100 2544.29400
+<CMD> zoomBox 1130.78800 2536.10700 1143.25100 2546.34000
+<CMD> zoomBox 1130.78800 2539.17600 1143.25100 2549.40900
+<CMD> zoomBox 1130.78800 2541.22200 1143.25100 2551.45500
+<CMD> zoomBox 1130.78800 2542.24500 1143.25100 2552.47800
+<CMD> zoomBox 1130.78800 2543.26800 1143.25100 2553.50100
+<CMD> zoomBox 1130.78800 2544.29100 1143.25100 2554.52400
+<CMD> zoomBox 1130.78800 2545.31400 1143.25100 2555.54700
+<CMD> zoomBox 1130.78800 2546.33700 1143.25100 2556.57000
+<CMD> deselectAll
+<CMD> selectWire 153.3600 2545.3600 2592.0000 2554.3600 3 GND
+<CMD> uiSetTool ruler
+<CMD> zoomBox 1131.61400 2547.34200 1142.20800 2556.04100
+<CMD> zoomBox 1132.31600 2548.19700 1141.32100 2555.59100
+<CMD> zoomBox 1132.91300 2548.92400 1140.56700 2555.20900
+<CMD> zoomBox 1131.62300 2547.66100 1142.21700 2556.36000
+<CMD> zoomBox 1129.83700 2545.91300 1144.50000 2557.95300
+<CMD> zoomBox 1128.59000 2545.24000 1145.84100 2559.40500
+<CMD> zoomBox 1127.12800 2544.46200 1147.42400 2561.12700
+<CMD> zoomBox 1125.41300 2543.79400 1149.29100 2563.40000
+<CMD> zoomBox 1123.39600 2543.00800 1151.48800 2566.07400
+<CMD> zoomBox 1120.74200 2542.24200 1153.79200 2569.37900
+<CMD> zoomBox 1113.73600 2538.57300 1159.47900 2576.13300
+<CMD> zoomBox 1109.30400 2536.43800 1163.12000 2580.62600
+<CMD> zoomBox 1104.09100 2534.27400 1167.40400 2586.26000
+<CMD> zoomBox 1090.74200 2528.73300 1178.37300 2600.68700
+<CMD> zoomBox 1071.57000 2521.52800 1192.85800 2621.11800
+<CMD> zoomBox 1071.57000 2511.56900 1192.85800 2611.15900
+<CMD> zoomBox 1071.57000 2501.61000 1192.85800 2601.20000
+<CMD> zoomBox 1071.57000 2491.65100 1192.85800 2591.24100
+<CMD> zoomBox 1071.57000 2481.69200 1192.85800 2581.28200
+<CMD> zoomBox 1058.80600 2476.81500 1201.49800 2593.98000
+<CMD> zoomBox 1043.78900 2471.07800 1211.66300 2608.91900
+<CMD> zoomBox 1058.80500 2476.81500 1201.49800 2593.98000
+<CMD> zoomBox 1038.36000 2467.80500 1206.23400 2605.64600
+<CMD> zoomBox 985.91100 2444.98500 1218.26200 2635.76900
+<CMD> zoomBox 913.31500 2413.46300 1234.91000 2677.52500
+<CMD> fit
+<CMD> zoomBox 52.53000 112.42100 3178.71300 2679.33300
+<CMD> zoomBox 493.49300 324.65700 3150.75000 2506.53300
+<CMD> zoomBox 868.31200 505.05800 3126.98100 2359.65300
+<CMD> zoomBox 1437.01900 789.17800 3068.90800 2129.12400
+<CMD> zoomBox 1804.21200 995.46500 2983.25300 1963.57700
+<CMD> zoomBox 1937.52900 1076.32100 2939.71500 1899.21700
+<CMD> zoomBox 2102.52100 1207.71900 2826.60100 1802.26200
+<CMD> zoomBox 2221.72900 1302.65500 2744.87700 1732.21200
+<CMD> zoomBox 2307.85600 1371.24500 2685.83100 1681.60100
+<CMD> zoomBox 2403.08200 1433.46600 2635.20700 1624.06400
+<CMD> zoomBox 2425.81500 1448.31900 2623.12200 1610.32800
+<CMD> zoomBox 2445.13800 1460.94400 2612.84900 1598.65200
+<CMD> zoomBox 2471.18200 1474.67800 2592.35500 1574.17300
+<CMD> zoomBox 2487.27500 1489.48500 2574.82300 1561.37100
+<CMD> zoomBox 2507.30200 1507.91200 2553.00400 1545.43800
+<CMD> zoomBox 2515.39100 1515.70400 2543.45900 1538.75100
+<CMD> zoomBox 2520.34300 1520.50600 2537.58100 1534.66000
+<CMD> zoomBox 2518.17100 1519.18500 2538.45100 1535.83700
+<CMD> zoomBox 2515.61600 1517.63100 2539.47400 1537.22100
+<CMD> zoomBox 2512.61000 1515.80300 2540.67800 1538.85000
+<CMD> zoomBox 2509.07200 1513.65200 2542.09400 1540.76600
+<CMD> zoomBox 2504.91100 1511.12100 2543.76000 1543.02000
+<CMD> zoomBox 2500.01600 1508.14400 2545.72000 1545.67200
+<CMD> zoomBox 2496.89500 1504.77700 2550.66500 1548.92800
+<CMD> zoomBox 2496.02400 1500.46800 2559.28300 1552.41000
+<CMD> zoomBox 2495.23800 1495.38100 2569.66100 1556.49000
+<CMD> zoomBox 2482.74700 1491.50500 2570.30400 1563.39800
+<CMD> zoomBox 2467.81500 1486.09400 2570.82400 1570.67500
+<CMD> zoomBox 2450.24800 1479.72900 2571.43500 1579.23600
+<CMD> zoomBox 2430.10500 1472.24100 2572.67800 1589.30800
+<CMD> zoomBox 2391.08600 1454.62600 2588.41900 1616.65600
+<CMD> zoomBox 2350.17600 1429.94000 2623.30200 1654.20400
+<CMD> zoomBox 2324.16000 1414.24200 2645.48500 1678.08200
+<CMD> fit
+<CMD> zoomBox -172.69700 -111.96200 2953.48600 2454.95000
+<CMD> zoomBox 275.65100 -90.73900 2534.32000 1763.85600
+<CMD> zoomBox 912.39700 -27.72800 1914.58200 795.16700
+<CMD> zoomBox 1104.57200 11.29800 1720.04000 516.65900
+<CMD> zoomBox 1148.47400 40.51900 1671.62100 470.07500
+<CMD> zoomBox 1183.87000 64.39600 1628.54500 429.51900
+<CMD> zoomBox 1210.99900 83.36600 1588.97300 393.72100
+<CMD> zoomBox 1229.72400 99.05700 1551.00200 362.85900
+<CMD> zoomBox 1244.90400 112.32100 1517.99000 336.55200
+<CMD> zoomBox 1269.12200 134.33700 1466.42700 296.34400
+<CMD> zoomBox 1307.65400 159.94700 1428.82500 259.44100
+<CMD> zoomBox 1334.46400 180.68000 1408.87800 241.78100
+<CMD> zoomBox 1345.38900 190.46800 1399.15300 234.61400
+<CMD> zoomBox 1353.28200 197.54000 1392.12700 229.43600
+<CMD> zoomBox 1358.85300 202.94600 1386.91900 225.99100
+<CMD> zoomBox 1361.05400 204.23300 1384.91100 223.82200
+<CMD> zoomBox 1362.91400 205.33200 1383.19300 221.98300
+<CMD> zoomBox 1364.44900 206.23900 1381.68600 220.39200
+<CMD> zoomBox 1363.16500 204.78300 1383.44400 221.43400
+<CMD> zoomBox 1359.87700 201.05500 1387.94500 224.10200
+<CMD> zoomBox 1357.82400 198.60900 1390.84600 225.72300
+<CMD> zoomBox 1355.24000 194.53700 1394.08900 226.43600
+<CMD> zoomBox 1352.37800 193.57300 1398.08300 231.10100
+<CMD> zoomBox 1345.39900 192.83500 1408.65900 244.77800
+<CMD> zoomBox 1341.02900 192.47600 1415.45300 253.58600
+<CMD> zoomBox 1335.90800 192.07400 1423.46600 263.96800
+<CMD> zoomBox 1329.88300 191.60100 1432.89300 276.18300
+<CMD> zoomBox 1322.79400 191.04500 1443.98300 290.55300
+<CMD> zoomBox 1314.45500 190.39000 1457.03100 307.45900
+<CMD> zoomBox 1290.34000 166.69300 1487.67700 328.72700
+<CMD> zoomBox 1275.75000 151.51700 1507.91100 342.14500
+<CMD> zoomBox 1259.46100 133.47500 1532.59300 357.74400
+<CMD> zoomBox 1191.49500 57.90000 1636.24600 423.08500
+<CMD> fit
+<CMD> zoomBox -394.55000 101.45500 2731.63300 2668.36700
+<CMD> zoomBox -332.88700 302.93600 2324.36900 2484.81100
+<CMD> zoomBox -199.84200 623.14700 1720.02600 2199.55200
+<CMD> zoomBox -54.84900 941.45200 1124.19200 1909.56400
+<CMD> zoomBox 9.68600 1082.03100 861.54400 1781.49200
+<CMD> zoomBox 64.62600 1187.93600 680.09400 1693.29700
+<CMD> zoomBox 119.82300 1294.33400 497.79800 1604.69000
+<CMD> zoomBox 153.72000 1359.67600 385.84500 1550.27400
+<CMD> zoomBox 174.53800 1399.80500 317.09200 1516.85600
+<CMD> zoomBox 186.65000 1424.61800 274.19500 1496.50100
+<CMD> zoomBox 194.08800 1439.85500 247.85200 1484.00100
+<CMD> zoomBox 198.14800 1446.60700 236.99300 1478.50300
+<CMD> zoomBox 202.61600 1453.07000 226.47300 1472.65900
+<CMD> zoomBox 205.36000 1457.04000 220.01100 1469.07000
+<CMD> zoomBox 201.63400 1454.78500 221.91300 1471.43600
+<CMD> zoomBox 199.26400 1453.35100 223.12200 1472.94100
+<CMD> zoomBox 198.63200 1449.73600 231.65400 1476.85000
+<CMD> zoomBox 198.34700 1447.45500 237.19600 1479.35400
+<CMD> zoomBox 198.12700 1444.69800 243.83200 1482.22600
+<CMD> zoomBox 197.74500 1441.40500 251.51500 1485.55600
+<CMD> zoomBox 197.29500 1437.53100 260.55400 1489.47300
+<CMD> zoomBox 196.14200 1427.61100 283.69900 1499.50400
+<CMD> zoomBox 195.41000 1421.30300 298.41800 1505.88300
+<CMD> zoomBox 171.30500 1405.81600 313.87700 1522.88200
+<CMD> zoomBox 153.83900 1397.50600 321.57100 1535.23100
+<CMD> zoomBox 169.26500 1406.93100 311.83800 1523.99800
+<CMD> zoomBox 182.37800 1414.94200 303.56500 1514.44900
+<CMD> zoomBox 193.52400 1421.75200 296.53300 1506.33300
+<CMD> zoomBox 194.98800 1427.09100 282.54600 1498.98500
+<CMD> zoomBox 196.63500 1432.49300 271.05900 1493.60300
+<CMD> zoomBox 200.99300 1441.77800 254.76400 1485.92900
+<CMD> zoomBox 204.09600 1447.89100 242.94600 1479.79100
+<CMD> zoomBox 207.30400 1453.87400 231.16400 1473.46500
+<CMD> zoomBox 209.38000 1457.52500 224.03300 1469.55700
+<CMD> zoomBox 211.34300 1459.08600 221.93000 1467.77900
+<CMD> zoomBox 210.54900 1458.37500 223.00400 1468.60200
+<CMD> zoomBox 211.52300 1459.08900 222.11000 1467.78200
+<CMD> zoomBox 212.40200 1459.71800 221.40100 1467.10700
+<CMD> zoomBox 213.14900 1460.25200 220.79800 1466.53300
+<CMD> zoomBox 213.90800 1460.72400 220.41000 1466.06300
+<CMD> zoomBox 214.55300 1461.12500 220.08000 1465.66300
+<CMD> zoomBox 215.10200 1461.46500 219.80000 1465.32300
+<CMD> zoomBox 214.65300 1461.20200 220.18200 1465.74200
+<CMD> zoomBox 213.84100 1460.49700 221.49400 1466.78100
+<CMD> zoomBox 213.25200 1459.51300 223.84500 1468.21100
+<CMD> zoomBox 212.45600 1458.14400 227.11800 1470.18300
+<CMD> zoomBox 211.35400 1456.24900 231.64700 1472.91200
+<CMD> zoomBox 211.02000 1453.62700 239.10800 1476.69000
+<CMD> zoomBox 210.83800 1451.96000 243.88300 1479.09300
+<CMD> zoomBox 210.62300 1449.99800 249.50000 1481.92000
+<CMD> zoomBox 205.57700 1447.70000 251.31500 1485.25600
+<CMD> zoomBox 198.01000 1445.07100 251.82100 1489.25500
+<CMD> zoomBox 189.45800 1442.00700 252.76500 1493.98800
+<CMD> zoomBox 179.39700 1438.40300 253.87500 1499.55700
+<CMD> zoomBox 171.21700 1429.74300 274.30100 1514.38500
+<CMD> zoomBox 163.83000 1417.87600 306.50800 1535.02900
+<CMD> zoomBox 159.17200 1410.33000 327.02800 1548.15700
+<CMD> zoomBox 153.69100 1401.45200 351.17000 1563.60200
+<CMD> zoomBox 159.17100 1410.32900 327.02900 1548.15700
+<CMD> zoomBox 163.82900 1417.87400 306.50900 1535.02900
+<CMD> zoomBox 167.78800 1424.28800 289.06700 1523.87000
+<CMD> fit
+<CMD> zoomBox 28.91000 108.20400 3155.09300 2675.11600
+<CMD> zoomBox 452.66500 332.62900 3109.92200 2514.50500
+<CMD> zoomBox 1119.02100 687.79300 3038.88900 2264.19800
+<CMD> zoomBox 1767.38800 1044.61300 2946.42700 2012.72300
+<CMD> zoomBox 2115.91300 1255.39600 2839.99200 1849.93800
+<CMD> zoomBox 2191.31000 1307.04400 2806.77700 1812.40500
+<CMD> zoomBox 2332.97200 1384.16900 2710.94700 1694.52500
+<CMD> zoomBox 2389.41200 1424.26400 2662.50000 1648.49700
+<CMD> zoomBox 2457.67200 1473.76200 2600.22700 1590.81400
+<CMD> zoomBox 2494.80200 1499.70500 2569.21700 1560.80700
+<CMD> zoomBox 2514.48900 1512.81200 2553.33500 1544.70800
+<CMD> zoomBox 2524.76600 1519.65400 2545.04400 1536.30400
+<CMD> zoomBox 2530.13100 1523.22400 2540.71700 1531.91600
+<CMD> zoomBox 2532.39200 1524.72900 2538.89300 1530.06700
+<CMD> zoomBox 2533.88400 1525.97500 2537.87700 1529.25400
+<CMD> zoomBox 2534.57100 1526.54800 2537.45600 1528.91700
+<CMD> zoomBox 2533.97300 1525.96500 2537.96600 1529.24400
+<CMD> zoomBox 2532.97500 1525.19300 2538.50300 1529.73200
+<CMD> zoomBox 2532.38700 1524.69900 2538.89100 1530.03900
+<CMD> zoomBox 2532.98200 1525.20500 2538.51100 1529.74500
+<CMD> zoomBox 2533.48800 1525.63600 2538.18800 1529.49500
+<CMD> zoomBox 2534.59400 1526.57900 2537.48000 1528.94900
+<CMD> zoomBox 2535.08100 1526.99500 2537.16700 1528.70800
+<CMD> zoomBox 2535.57100 1527.41300 2536.85300 1528.46600
+<CMD> zoomBox 2535.45000 1527.28700 2536.95900 1528.52600
+<CMD> zoomBox 2535.31400 1527.14400 2537.09000 1528.60200
+<CMD> zoomBox 2535.19600 1526.97800 2537.28600 1528.69400
+<CMD> zoomBox 2534.90700 1526.84400 2537.36600 1528.86300
+<CMD> zoomBox 2534.23900 1526.49200 2537.64200 1529.28600
+<CMD> zoomBox 2533.61200 1525.96800 2538.32300 1529.83600
+<CMD> zoomBox 2533.21300 1525.63500 2538.75600 1530.18600
+<CMD> zoomBox 2532.74500 1525.24300 2539.26600 1530.59700
+<CMD> zoomBox 2531.82900 1524.24600 2540.85500 1531.65700
+<CMD> zoomBox 2531.24000 1522.86200 2543.73300 1533.12000
+<CMD> zoomBox 2530.58000 1521.00200 2547.87200 1535.20000
+<CMD> zoomBox 2529.67500 1518.43100 2553.61000 1538.08400
+<CMD> zoomBox 2518.45100 1511.87700 2557.42700 1543.88000
+<CMD> zoomBox 2498.79200 1500.94200 2562.25800 1553.05400
+<CMD> zoomBox 2466.77900 1483.13600 2570.12400 1567.99300
+<CMD> zoomBox 2460.08600 1476.05300 2581.66900 1575.88500
+<CMD> zoomBox 2454.01700 1467.58900 2597.05500 1585.03800
+<CMD> fit
+<CMD> redirect -quiet {set honorDomain [getAnalysisMode -honorClockDomains]} > /dev/null
+<CMD> timeDesign -postRoute -pathReports -drvReports -slackReports -numPaths 50 -prefix CHIP_postRoute -outDir timingReports
+*** timeDesign #1 [begin] : totSession cpu/real = 0:02:07.0/0:28:35.3 (0.1), mem = 1939.3M
+ Reset EOS DB
+Ignoring AAE DB Resetting ...
+Extraction called for design 'CHIP' of instances=29950 and nets=1345 using extraction engine 'postRoute' at effort level 'high' .
+Integrated QRC (IQuantus) Extraction in Multi-Corner mode called for design 'CHIP'. Number of corners is 1.
+No IQuantus parasitic data in Innovus. Going for full-chip extraction.
+ Min pitch recieved = 2240 
+IQuantus Extraction invoked in single CPU mode. Commands setDistributeHost/setMultiCpuUsage can be used to activate multiCPU extraction.
+
+IQuantus Extraction engine initialization using 1 tech files:
+	/RAID2/COURSE/iclab/iclab131/Lab12/Exercise/05_APR/CHIP.inn.dat/libs/mmmc/RC_Corner/icecaps.tch at temperature 25C . 
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+INFO (EXTIQUANTUS-101) : 
+  Integrated Quantus - 64-bit Parasitic Extractor - Version 20.1.1-s460
+-------------------------------------------------------------------------
+               Copyright 2021 Cadence Design Systems, Inc.
+
+
+INFO (EXTIQUANTUS-103) : Starting at 2024-Dec-05 13:53:41 (2024-Dec-05 05:53:41 GMT).
+
+INFO (EXTIQUANTUS-104) : Starting extraction session...
+
+INFO (EXTIQUANTUS-159) : Loading technology data from file:
+ 
+/RAID2/COURSE/iclab/iclab131/Lab12/Exercise/05_APR/CHIP.inn.dat/libs/mmmc/RC_Corner/icecaps.tch
+
+INFO (EXTIQUANTUS-289) : Loading RCgen extraction models from file:
+ 
+/RAID2/COURSE/iclab/iclab131/Lab12/Exercise/05_APR/CHIP.inn.dat/libs/mmmc/RC_Corner/icecaps.tch
+
+INFO (EXTIQUANTUS-345) : Checking Command/Tech/License Files. 
+
+INFO (EXTIQUANTUS-105) : Starting design extraction....
+Reading layer map file '/RAID2/COURSE/iclab/iclab131/Lab12/Exercise/05_APR/CHIP.inn.dat/libs/misc/lefdef.layermap.cmd'.
+**WARN: (IMPEXT-1241):	No poly layer found in the layermap file, '/RAID2/COURSE/iclab/iclab131/Lab12/Exercise/05_APR/CHIP.inn.dat/libs/misc/lefdef.layermap.cmd'.
+Type 'man IMPEXT-1241' for more detail.
+**WARN: (IMPEXT-1242):	No cut layer found between poly layer and first metal layer in layermap file '/RAID2/COURSE/iclab/iclab131/Lab12/Exercise/05_APR/CHIP.inn.dat/libs/misc/lefdef.layermap.cmd'.
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+IQuantus Extraction engine initialized successfully.
+
+Dumping IQuantus extraction options in file 'extLogDir/IQuantus_05-Dec-2024_13:53:41_7897_Zan6o7/extr.CHIP.extraction_options.log'.
+Initialization for IQuantus Fullchip Extraction DONE (CPU Time: 0:00:00.9  Real Time: 0:00:01.0  MEM: 2027.191M)
+
+Geometry processing of Gray and Metal fill STARTED.................... DONE (CPU Time: 0:00:00.1  Real Time: 0:00:00.0  MEM: 2046.211M)
+Geometry processing of nets STARTED.................... DONE (NETS: 1255  Geometries: 37005  CPU Time: 0:00:00.2  Real Time: 0:00:01.0  MEM: 2130.164M)
+
+Extraction of Geometries STARTED.
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+INFO (EXTIQUANTUS-282) : Checking Command/Tech Files. 
+
+INFO (EXTIQUANTUS-277) : Manufacturing Data Information :- 
+  DEF/GDS file 
+    does NOT contain MetalFill data. 
+  Techfile  
+    does NOT contain WEE data.     
+    does NOT contain Erosion data t=f( density ) 
+    does NOT contain R(w) data.    
+    does NOT contain R(w, s) data.  
+    does NOT contain TC(w) data.    
+    does     contain T/B enlargement data. 
+    does     contain Floating Metal Fill models. 
+
+INFO (EXTIQUANTUS-287) : Capacitance Models Information :- 
+ ICECAPS models are not available. 
+ RCgen   models are     available. 
+ This IQuantus session uses RCgen models.
+
+INFO (EXTIQUANTUS-286) : RCs effects computed for this session include :- 
+ MetalFill        : OFF 
+ WEE Effects      : n/a 
+ Erosion Effects  : n/a t=f( density ) 
+ T/B Enlargements : ON 
+ R(w) Effects     : n/a 
+ R(w,s) Effects   : n/a 
+ TC(w) Effects     : n/a 
+Some effects indicate n/a because of non-availability of relevantinput data
+(or) requested to be off (and/or) usage of older Icecaps models.
+
+INFO (EXTHPY-103) : Extracting capacitance values.
+
+INFO (EXTHPY-104) :    0%
+
+INFO (EXTHPY-104) :    1%
+
+INFO (EXTHPY-104) :    2%
+
+INFO (EXTHPY-104) :    3%
+
+INFO (EXTHPY-104) :    4%
+
+INFO (EXTHPY-104) :    5%
+
+INFO (EXTHPY-104) :    6%
+
+INFO (EXTHPY-104) :    7%
+
+INFO (EXTHPY-104) :    8%
+
+INFO (EXTHPY-104) :    9%
+
+INFO (EXTHPY-104) :    10%
+
+INFO (EXTHPY-104) :    11%
+
+INFO (EXTHPY-104) :    12%
+
+INFO (EXTHPY-104) :    13%
+
+INFO (EXTHPY-104) :    14%
+
+INFO (EXTHPY-104) :    15%
+
+INFO (EXTHPY-104) :    16%
+
+INFO (EXTHPY-104) :    17%
+
+INFO (EXTHPY-104) :    18%
+
+INFO (EXTHPY-104) :    19%
+
+INFO (EXTHPY-104) :    20%
+
+INFO (EXTHPY-104) :    21%
+
+INFO (EXTHPY-104) :    22%
+
+INFO (EXTHPY-104) :    23%
+
+INFO (EXTHPY-104) :    24%
+
+INFO (EXTHPY-104) :    25%
+
+INFO (EXTHPY-104) :    26%
+
+INFO (EXTHPY-104) :    27%
+
+INFO (EXTHPY-104) :    28%
+
+INFO (EXTHPY-104) :    29%
+
+INFO (EXTHPY-104) :    30%
+
+INFO (EXTHPY-104) :    31%
+
+INFO (EXTHPY-104) :    32%
+
+INFO (EXTHPY-104) :    33%
+
+INFO (EXTHPY-104) :    34%
+
+INFO (EXTHPY-104) :    35%
+
+INFO (EXTHPY-104) :    36%
+
+INFO (EXTHPY-104) :    37%
+
+INFO (EXTHPY-104) :    38%
+
+INFO (EXTHPY-104) :    39%
+
+INFO (EXTHPY-104) :    40%
+
+INFO (EXTHPY-104) :    41%
+
+INFO (EXTHPY-104) :    42%
+
+INFO (EXTHPY-104) :    43%
+
+INFO (EXTHPY-104) :    44%
+
+INFO (EXTHPY-104) :    45%
+
+INFO (EXTHPY-104) :    46%
+
+INFO (EXTHPY-104) :    47%
+
+INFO (EXTHPY-104) :    48%
+
+INFO (EXTHPY-104) :    49%
+
+INFO (EXTHPY-104) :    50%
+
+INFO (EXTHPY-104) :    51%
+
+INFO (EXTHPY-104) :    52%
+
+INFO (EXTHPY-104) :    53%
+
+INFO (EXTHPY-104) :    54%
+
+INFO (EXTHPY-104) :    55%
+
+INFO (EXTHPY-104) :    56%
+
+INFO (EXTHPY-104) :    57%
+
+INFO (EXTHPY-104) :    58%
+
+INFO (EXTHPY-104) :    59%
+
+INFO (EXTHPY-104) :    60%
+
+INFO (EXTHPY-104) :    61%
+
+INFO (EXTHPY-104) :    62%
+
+INFO (EXTHPY-104) :    63%
+
+INFO (EXTHPY-104) :    64%
+
+INFO (EXTHPY-104) :    65%
+
+INFO (EXTHPY-104) :    66%
+
+INFO (EXTHPY-104) :    67%
+
+INFO (EXTHPY-104) :    68%
+
+INFO (EXTHPY-104) :    69%
+
+INFO (EXTHPY-104) :    70%
+
+INFO (EXTHPY-104) :    71%
+
+INFO (EXTHPY-104) :    72%
+
+INFO (EXTHPY-104) :    73%
+
+INFO (EXTHPY-104) :    74%
+
+INFO (EXTHPY-104) :    75%
+
+INFO (EXTHPY-104) :    76%
+
+INFO (EXTHPY-104) :    77%
+
+INFO (EXTHPY-104) :    78%
+
+INFO (EXTHPY-104) :    79%
+
+INFO (EXTHPY-104) :    80%
+
+INFO (EXTHPY-104) :    81%
+
+INFO (EXTHPY-104) :    82%
+
+INFO (EXTHPY-104) :    83%
+
+INFO (EXTHPY-104) :    84%
+
+INFO (EXTHPY-104) :    85%
+
+INFO (EXTHPY-104) :    86%
+
+INFO (EXTHPY-104) :    87%
+
+INFO (EXTHPY-104) :    88%
+
+INFO (EXTHPY-104) :    89%
+
+INFO (EXTHPY-104) :    90%
+
+INFO (EXTHPY-104) :    91%
+
+INFO (EXTHPY-104) :    92%
+
+INFO (EXTHPY-104) :    93%
+
+INFO (EXTHPY-104) :    94%
+
+INFO (EXTHPY-104) :    95%
+
+INFO (EXTHPY-104) :    96%
+
+INFO (EXTHPY-104) :    97%
+
+INFO (EXTHPY-104) :    98%
+
+INFO (EXTHPY-104) :    99%
+
+INFO (EXTHPY-104) :    100%
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Extraction of Geometries DONE (NETS: 1255  CPU Time: 0:00:03.1  Real Time: 0:00:03.0  MEM: 2206.703M)
+
+Parasitic Network Creation STARTED
+....................
+Number of Extracted Resistors     : 29599
+Number of Extracted Ground Caps   : 30889
+Number of Extracted Coupling Caps : 13702
+Parasitic Network Creation DONE (Nets: 1255  CPU Time: 0:00:00.1  Real Time: 0:00:00.0  MEM: 2230.715M)
+
+IQuantus Extraction engine is being closed... 
+IQuantus Fullchip Extraction DONE (CPU Time: 0:00:05.3  Real Time: 0:00:06.0  MEM: 2230.711M)
+Starting delay calculation for Setup views
+AAE_INFO: resetNetProps viewIdx 0 
+Starting SI iteration 1 using Infinite Timing Windows
+#################################################################################
+# Design Stage: PostRoute
+# Design Name: CHIP
+# Design Mode: 180nm
+# Analysis Mode: MMMC OCV 
+# Parasitics Mode: SPEF/RCDB 
+# Signoff Settings: SI On 
+#################################################################################
+AAE_INFO: 1 threads acquired from CTE.
+Start delay calculation (fullDC) (1 T). (MEM=2230.71)
+AAE_INFO: Number of noise libraries( CDBs ) loaded = 2
+AAE_INFO: Cdb files are: 
+ 	/RAID2/COURSE/iclab/iclab131/Lab12/Exercise/05_APR/CHIP.inn.dat/libs/mmmc/u18_ss.cdb
+	/RAID2/COURSE/iclab/iclab131/Lab12/Exercise/05_APR/CHIP.inn.dat/libs/mmmc/u18_ff.cdb
+ 
+**WARN: (IMPESI-3086):	The cell 'XMD' does not have characterized noise model(s) for 'fsa0m_a_t33_generic_io_ss1p62v125c, fsa0m_a_t33_generic_io_ff1p98vm40c' lib(s). Missing noise information could compromise the accuracy of analysis.
+Type 'man IMPESI-3086' for more detail.
+**WARN: (IMPESI-3086):	The cell 'YA2GSD' does not have characterized noise model(s) for 'fsa0m_a_t33_generic_io_ss1p62v125c, fsa0m_a_t33_generic_io_ff1p98vm40c' lib(s). Missing noise information could compromise the accuracy of analysis.
+Type 'man IMPESI-3086' for more detail.
+Total number of fetched objects 1358
+AAE_INFO-618: Total number of nets in the design is 1345,  100.0 percent of the nets selected for SI analysis
+End delay calculation. (MEM=2256.46 CPU=0:00:00.4 REAL=0:00:00.0)
+End delay calculation (fullDC). (MEM=2219.84 CPU=0:00:01.2 REAL=0:00:01.0)
+Loading CTE timing window with TwFlowType 0...(CPU = 0:00:00.0, REAL = 0:00:00.0, MEM = 2219.8M)
+Add other clocks and setupCteToAAEClockMapping during iter 1
+Loading CTE timing window is completed (CPU = 0:00:00.0, REAL = 0:00:00.0, MEM = 2219.8M)
+Starting SI iteration 2
+Start delay calculation (fullDC) (1 T). (MEM=2067.96)
+Glitch Analysis: View av_func_mode_max -- Total Number of Nets Skipped = 0. 
+Glitch Analysis: View av_func_mode_max -- Total Number of Nets Analyzed = 1358. 
+Total number of fetched objects 1358
+AAE_INFO-618: Total number of nets in the design is 1345,  0.4 percent of the nets selected for SI analysis
+End delay calculation. (MEM=2106.12 CPU=0:00:00.0 REAL=0:00:00.0)
+End delay calculation (fullDC). (MEM=2106.12 CPU=0:00:00.0 REAL=0:00:00.0)
+*** Done Building Timing Graph (cpu=0:00:01.6 real=0:00:02.0 totSessionCpu=0:02:14 mem=2106.1M)
+
+------------------------------------------------------------------
+          timeDesign Summary
+------------------------------------------------------------------
+
+Setup views included:
+ av_func_mode_max 
+
++--------------------+---------+---------+---------+
+|     Setup mode     |   all   | reg2reg | default |
++--------------------+---------+---------+---------+
+|           WNS (ns):| 14.010  | 31.077  | 14.010  |
+|           TNS (ns):|  0.000  |  0.000  |  0.000  |
+|    Violating Paths:|    0    |    0    |    0    |
+|          All Paths:|   595   |   247   |   366   |
++--------------------+---------+---------+---------+
+
++----------------+-------------------------------+------------------+
+|                |              Real             |       Total      |
+|    DRVs        +------------------+------------+------------------|
+|                |  Nr nets(terms)  | Worst Vio  |  Nr nets(terms)  |
++----------------+------------------+------------+------------------+
+|   max_cap      |      0 (0)       |   0.000    |      0 (0)       |
+|   max_tran     |      0 (0)       |   0.000    |      0 (0)       |
+|   max_fanout   |      0 (0)       |     0      |      0 (0)       |
+|   max_length   |      0 (0)       |     0      |      0 (0)       |
++----------------+------------------+------------+------------------+
+
+Density: 0.748%
+       (126.299% with Fillers)
+Total number of glitch violations: 0
+------------------------------------------------------------------
+Reported timing to dir timingReports
+Total CPU time: 7.31 sec
+Total Real time: 10.0 sec
+Total Memory Usage: 2089.96875 Mbytes
+Reset AAE Options
+*** timeDesign #1 [finish] : cpu/real = 0:00:07.3/0:00:10.1 (0.7), totSession cpu/real = 0:02:14.3/0:28:45.3 (0.1), mem = 2090.0M
+<CMD> redirect -quiet {set honorDomain [getAnalysisMode -honorClockDomains]} > /dev/null
+<CMD> timeDesign -postRoute -hold -pathReports -slackReports -numPaths 50 -prefix CHIP_postRoute -outDir timingReports
+*** timeDesign #2 [begin] : totSession cpu/real = 0:02:20.2/0:30:18.6 (0.1), mem = 2090.0M
+ Reset EOS DB
+Ignoring AAE DB Resetting ...
+Extraction called for design 'CHIP' of instances=29950 and nets=1345 using extraction engine 'postRoute' at effort level 'high' .
+Integrated QRC (IQuantus) Extraction in Multi-Corner mode called for design 'CHIP'. Number of corners is 1.
+No changed net or region found. No need to perform incremental extraction.
+Starting delay calculation for Hold views
+AAE_INFO: resetNetProps viewIdx 1 
+Starting SI iteration 1 using Infinite Timing Windows
+#################################################################################
+# Design Stage: PostRoute
+# Design Name: CHIP
+# Design Mode: 180nm
+# Analysis Mode: MMMC OCV 
+# Parasitics Mode: SPEF/RCDB 
+# Signoff Settings: SI On 
+#################################################################################
+AAE_INFO: 1 threads acquired from CTE.
+Start delay calculation (fullDC) (1 T). (MEM=2068.98)
+*** Calculating scaling factor for lib_min libraries using the default operating condition of each library.
+Total number of fetched objects 1358
+AAE_INFO-618: Total number of nets in the design is 1345,  100.0 percent of the nets selected for SI analysis
+End delay calculation. (MEM=2113.02 CPU=0:00:00.4 REAL=0:00:00.0)
+End delay calculation (fullDC). (MEM=2113.02 CPU=0:00:00.5 REAL=0:00:00.0)
+Loading CTE timing window with TwFlowType 0...(CPU = 0:00:00.0, REAL = 0:00:00.0, MEM = 2113.0M)
+Add other clocks and setupCteToAAEClockMapping during iter 1
+Loading CTE timing window is completed (CPU = 0:00:00.0, REAL = 0:00:00.0, MEM = 2113.0M)
+Starting SI iteration 2
+Start delay calculation (fullDC) (1 T). (MEM=2076.14)
+Glitch Analysis: View av_func_mode_min -- Total Number of Nets Skipped = 0. 
+Glitch Analysis: View av_func_mode_min -- Total Number of Nets Analyzed = 1358. 
+Total number of fetched objects 1358
+AAE_INFO-618: Total number of nets in the design is 1345,  0.0 percent of the nets selected for SI analysis
+End delay calculation. (MEM=2114.3 CPU=0:00:00.0 REAL=0:00:00.0)
+End delay calculation (fullDC). (MEM=2114.3 CPU=0:00:00.0 REAL=0:00:00.0)
+*** Done Building Timing Graph (cpu=0:00:00.7 real=0:00:01.0 totSessionCpu=0:02:21 mem=2114.3M)
+
+------------------------------------------------------------------
+          timeDesign Summary
+------------------------------------------------------------------
+
+Hold views included:
+ av_func_mode_min 
+
++--------------------+---------+---------+---------+
+|     Hold mode      |   all   | reg2reg | default |
++--------------------+---------+---------+---------+
+|           WNS (ns):|  0.239  |  0.239  | 19.699  |
+|           TNS (ns):|  0.000  |  0.000  |  0.000  |
+|    Violating Paths:|    0    |    0    |    0    |
+|          All Paths:|   595   |   247   |   366   |
++--------------------+---------+---------+---------+
+
+Density: 0.748%
+       (126.299% with Fillers)
+------------------------------------------------------------------
+Reported timing to dir timingReports
+Total CPU time: 1.19 sec
+Total Real time: 2.0 sec
+Total Memory Usage: 2047.5625 Mbytes
+Reset AAE Options
+*** timeDesign #2 [finish] : cpu/real = 0:00:01.2/0:00:01.8 (0.6), totSession cpu/real = 0:02:21.4/0:30:20.4 (0.1), mem = 2047.6M
+<CMD> getMultiCpuUsage -localCpu
+<CMD> get_verify_drc_mode -disable_rules -quiet
+<CMD> get_verify_drc_mode -quiet -area
+<CMD> get_verify_drc_mode -quiet -layer_range
+<CMD> get_verify_drc_mode -check_ndr_spacing -quiet
+<CMD> get_verify_drc_mode -check_only -quiet
+<CMD> get_verify_drc_mode -check_same_via_cell -quiet
+<CMD> get_verify_drc_mode -exclude_pg_net -quiet
+<CMD> get_verify_drc_mode -ignore_trial_route -quiet
+<CMD> get_verify_drc_mode -max_wrong_way_halo -quiet
+<CMD> get_verify_drc_mode -use_min_spacing_on_block_obs -quiet
+<CMD> get_verify_drc_mode -limit -quiet
+<CMD> set_verify_drc_mode -disable_rules {} -check_ndr_spacing auto -check_only default -check_same_via_cell false -exclude_pg_net false -ignore_trial_route false -ignore_cell_blockage false -use_min_spacing_on_block_obs auto -report CHIP.drc.rpt -limit 1000
+<CMD> verify_drc
+#-check_ndr_spacing auto                 # enums={true false auto}, default=auto,  user setting
+#-report CHIP.drc.rpt                    # string, default="", user setting
+ *** Starting Verify DRC (MEM: 2049.6) ***
+
+  VERIFY DRC ...... Starting Verification
+  VERIFY DRC ...... Initializing
+  VERIFY DRC ...... Deleting Existing Violations
+  VERIFY DRC ...... Creating Sub-Areas
+  VERIFY DRC ...... Using new threading
+
+  Verification Complete : 0 Viols.
+
+ *** End Verify DRC (CPU: 0:00:00.6  ELAPSED TIME: 0.00  MEM: 15.0M) ***
+
+<CMD> set_verify_drc_mode -area {0 0 0 0}
+<CMD> verifyConnectivity -type all -error 1000 -warning 50
+VERIFY_CONNECTIVITY use new engine.
+
+******** Start: VERIFY CONNECTIVITY ********
+Start Time: Thu Dec  5 13:57:02 2024
+
+Design Name: CHIP
+Database Units: 1000
+Design Boundary: (0.0000, 0.0000) (2745.3600, 2745.3600)
+Error Limit = 1000; Warning Limit = 50
+Check all nets
+
+Begin Summary 
+  Found no problems or warnings.
+End Summary
+
+End Time: Thu Dec  5 13:57:03 2024
+Time Elapsed: 0:00:01.0
+
+******** End: VERIFY CONNECTIVITY ********
+  Verification Complete : 0 Viols.  0 Wrngs.
+  (CPU Time: 0:00:00.2  MEM: 12.000M)
+
+<CMD> set_power_analysis_mode -reset
+<CMD> set_power_analysis_mode -method static -corner max -create_binary_db true -write_static_currents true -honor_negative_energy true -ignore_control_signals true
+<CMD> set_power_output_dir -reset
+<CMD> set_power_output_dir power_log
+<CMD> set_default_switching_activity -reset
+<CMD> set_default_switching_activity -input_activity 0.2 -period 10.0
+** INFO:  (VOLTUS_POWR-3229): Using user defined default frequency 100MHz for power calculation.
+
+'set_default_switching_activity' finished successfully.
+<CMD> read_activity_file -reset
+<CMD> read_activity_file -format FSDB -fsdb_scope TESTBED/u_CHIP -start 0 -end 1000 -fsdb_block {} ../06_POST/CHIP_POST.fsdb
+** WARN:  (VOLTUS_POWR-2013):   Incorrect command usage for read_activity_file. Option '-fsdb_scope' is obsolete, use '-scope' instead.
+
+** WARN:  (VOLTUS_POWR-2013):   Incorrect command usage for read_activity_file. Option '-fsdb_block' is obsolete, use '-block' instead.
+
+#################################################################################
+# Design Stage: PostRoute
+# Design Name: CHIP
+# Design Mode: 180nm
+# Analysis Mode: MMMC OCV 
+# Parasitics Mode: SPEF/RCDB 
+# Signoff Settings: SI On 
+#################################################################################
+clk(25MHz) ** INFO:  (VOLTUS_POWR-2159): Using FSDB reader version: Verdi_P-2019.06
+
+** INFO:  (VOLTUS_POWR-3141): FSDB: Parsing file: ../06_POST/CHIP_POST.fsdb
+
+** INFO:  (VOLTUS_POWR-3337): FSDB: Provided scope name: TESTBED/u_CHIP
+
+
+Starting Reading FSDB Signal Names
+2024-Dec-05 14:01:45 (2024-Dec-05 06:01:45 GMT)
+** INFO:  (VOLTUS_POWR-3338): FSDB: Scope found.
+
+
+Finished Reading FSDB Signal Names
+2024-Dec-05 14:01:45 (2024-Dec-05 06:01:45 GMT)
+
+Starting Reading FSDB toggles
+2024-Dec-05 14:01:45 (2024-Dec-05 06:01:45 GMT)
+** INFO:  (VOLTUS_POWR-3335): FSDB: Duration: {0ns 4.46142e+06ns}
+
+** INFO:  (VOLTUS_POWR-3336): FSDB: Reading window: {0ns 1000ns}
+
+
+Finished Reading FSDB toggles
+2024-Dec-05 14:01:45 (2024-Dec-05 06:01:45 GMT)
+
+  Filename (activity)                    : ../06_POST/CHIP_POST.fsdb
+  Names in file that matched to design   : 1431/1431
+  Annotation coverage for this file
+   (Unique nets matched/Total nets)       : 1343/1343 = 100%
+
+
+  Total annotation coverage for all files of type FSDB: 1343/1343 = 100%
+  Percent of FSDB annotated nets with zero toggles: 0/1343 = 0%
+
+'read_activity_file' finished successfully.
+<CMD> set_power -reset
+<CMD> set_powerup_analysis -reset
+<CMD> set_dynamic_power_simulation -reset
+<CMD> report_power -rail_analysis_format VS -outfile power_log/CHIP.rpt
+
+Power Net Detected:
+        Voltage	    Name
+             0V	    GND
+          1.62V	    VCC
+Using Power View: av_func_mode_max.
+AAE_INFO: resetNetProps viewIdx 0 
+Starting SI iteration 1 using Infinite Timing Windows
+#################################################################################
+# Design Stage: PostRoute
+# Design Name: CHIP
+# Design Mode: 180nm
+# Analysis Mode: MMMC OCV 
+# Parasitics Mode: SPEF/RCDB 
+# Signoff Settings: SI On 
+#################################################################################
+AAE_INFO: 1 threads acquired from CTE.
+Start delay calculation (fullDC) (1 T). (MEM=2439.13)
+*** Calculating scaling factor for lib_max libraries using the default operating condition of each library.
+Total number of fetched objects 1358
+AAE_INFO-618: Total number of nets in the design is 1345,  100.0 percent of the nets selected for SI analysis
+End delay calculation. (MEM=2414.71 CPU=0:00:00.4 REAL=0:00:01.0)
+End delay calculation (fullDC). (MEM=2414.71 CPU=0:00:00.5 REAL=0:00:01.0)
+Loading CTE timing window with TwFlowType 0...(CPU = 0:00:00.0, REAL = 0:00:00.0, MEM = 2414.7M)
+Add other clocks and setupCteToAAEClockMapping during iter 1
+Loading CTE timing window is completed (CPU = 0:00:00.0, REAL = 0:00:00.0, MEM = 2414.7M)
+Starting SI iteration 2
+Start delay calculation (fullDC) (1 T). (MEM=2270.83)
+Glitch Analysis: View av_func_mode_max -- Total Number of Nets Skipped = 0. 
+Glitch Analysis: View av_func_mode_max -- Total Number of Nets Analyzed = 1358. 
+Total number of fetched objects 1358
+AAE_INFO-618: Total number of nets in the design is 1345,  0.4 percent of the nets selected for SI analysis
+End delay calculation. (MEM=2310 CPU=0:00:00.0 REAL=0:00:00.0)
+End delay calculation (fullDC). (MEM=2310 CPU=0:00:00.0 REAL=0:00:00.0)
+
+Begin Power Analysis
+
+             0V	    GND
+          1.62V	    VCC
+Begin Processing Timing Library for Power Calculation
+
+Begin Processing Timing Library for Power Calculation
+
+
+
+Begin Processing Power Net/Grid for Power Calculation
+
+Ended Processing Power Net/Grid for Power Calculation: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=1448.12MB/3491.53MB/1596.32MB)
+
+Begin Processing Timing Window Data for Power Calculation
+
+Ended Processing Timing Window Data for Power Calculation: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=1448.14MB/3491.53MB/1596.32MB)
+
+Begin Processing User Attributes
+
+Ended Processing User Attributes: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=1448.16MB/3491.53MB/1596.32MB)
+
+Begin Processing Signal Activity
+
+
+Starting Levelizing
+2024-Dec-05 14:01:57 (2024-Dec-05 06:01:57 GMT)
+2024-Dec-05 14:01:57 (2024-Dec-05 06:01:57 GMT): 10%
+2024-Dec-05 14:01:57 (2024-Dec-05 06:01:57 GMT): 20%
+2024-Dec-05 14:01:57 (2024-Dec-05 06:01:57 GMT): 30%
+2024-Dec-05 14:01:57 (2024-Dec-05 06:01:57 GMT): 40%
+2024-Dec-05 14:01:57 (2024-Dec-05 06:01:57 GMT): 50%
+2024-Dec-05 14:01:57 (2024-Dec-05 06:01:57 GMT): 60%
+2024-Dec-05 14:01:57 (2024-Dec-05 06:01:57 GMT): 70%
+2024-Dec-05 14:01:57 (2024-Dec-05 06:01:57 GMT): 80%
+2024-Dec-05 14:01:57 (2024-Dec-05 06:01:57 GMT): 90%
+
+Finished Levelizing
+2024-Dec-05 14:01:57 (2024-Dec-05 06:01:57 GMT)
+
+Starting Activity Propagation
+2024-Dec-05 14:01:57 (2024-Dec-05 06:01:57 GMT)
+
+Finished Activity Propagation
+2024-Dec-05 14:01:57 (2024-Dec-05 06:01:57 GMT)
+
+Activity annotation summary:
+        Primary Inputs : 9/9 = 100%
+          Flop outputs : 259/259 = 100%
+  Memory/Macro outputs : 0/0 = 0%
+      Tristate outputs : 0/0 = 0%
+            Total Nets : 1343/1343 = 100%
+
+Ended Processing Signal Activity: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=1448.38MB/3491.53MB/1596.32MB)
+
+Begin Power Computation
+
+      ----------------------------------------------------------
+      # of cell(s) missing both power/leakage table: 0
+      # of cell(s) missing power table: 0
+      # of cell(s) missing leakage table: 0
+      # of MSMV cell(s) missing power_level: 0
+      ----------------------------------------------------------
+
+
+
+Starting Calculating power
+2024-Dec-05 14:01:57 (2024-Dec-05 06:01:57 GMT)
+ ... Calculating switching power
+  instance O_TVALID is not connected to any rail
+  instance O_SVALID is not connected to any rail
+  instance O_FAIL is not connected to any rail
+  instance O_SCORE3 is not connected to any rail
+  instance O_SCORE2 is not connected to any rail
+  only first five unconnected instances are listed...
+2024-Dec-05 14:01:57 (2024-Dec-05 06:01:57 GMT): 10%
+2024-Dec-05 14:01:57 (2024-Dec-05 06:01:57 GMT): 20%
+2024-Dec-05 14:01:57 (2024-Dec-05 06:01:57 GMT): 30%
+2024-Dec-05 14:01:57 (2024-Dec-05 06:01:57 GMT): 40%
+2024-Dec-05 14:01:57 (2024-Dec-05 06:01:57 GMT): 50%
+ ... Calculating internal and leakage power
+2024-Dec-05 14:01:57 (2024-Dec-05 06:01:57 GMT): 60%
+2024-Dec-05 14:01:57 (2024-Dec-05 06:01:57 GMT): 70%
+2024-Dec-05 14:01:57 (2024-Dec-05 06:01:57 GMT): 80%
+2024-Dec-05 14:01:57 (2024-Dec-05 06:01:57 GMT): 90%
+
+Finished Calculating power
+2024-Dec-05 14:01:57 (2024-Dec-05 06:01:57 GMT)
+Ended Power Computation: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=1448.96MB/3491.53MB/1596.32MB)
+
+Begin Processing User Attributes
+
+Ended Processing User Attributes: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=1448.96MB/3491.53MB/1596.32MB)
+
+Ended Power Analysis: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=1449.04MB/3491.53MB/1596.32MB)
+
+Begin Boundary Leakage Calculation
+Ended Boundary Leakage Calculation: (cpu=0:00:00, real=0:00:00,
+mem(process/total/peak)=1449.06MB/3491.53MB/1596.32MB)
+Begin Static Power Report Generation
+  16 instances have no static power
+** WARN:  (VOLTUS_POWR-2152): Instance VDDP0 (VCC3IOD) has no static power. 
+
+** WARN:  (VOLTUS_POWR-2152): Instance GNDP0 (GNDIOD) has no static power. 
+
+** WARN:  (VOLTUS_POWR-2152): Instance VDDP1 (VCC3IOD) has no static power. 
+
+** WARN:  (VOLTUS_POWR-2152): Instance GNDP1 (GNDIOD) has no static power. 
+
+** WARN:  (VOLTUS_POWR-2152): Instance VDDP2 (VCC3IOD) has no static power. 
+
+** WARN:  (VOLTUS_POWR-2152): Instance GNDP2 (GNDIOD) has no static power. 
+
+** WARN:  (VOLTUS_POWR-2152): Instance VDDP3 (VCC3IOD) has no static power. 
+
+** WARN:  (VOLTUS_POWR-2152): Instance GNDP3 (GNDIOD) has no static power. 
+
+** WARN:  (VOLTUS_POWR-2152): Instance VDDC0 (VCCKD) has no static power. 
+
+** WARN:  (VOLTUS_POWR-2152): Instance GNDC0 (GNDKD) has no static power. 
+
+** WARN:  (VOLTUS_POWR-2152): Instance VDDC1 (VCCKD) has no static power. 
+
+** WARN:  (VOLTUS_POWR-2152): Instance GNDC1 (GNDKD) has no static power. 
+
+** WARN:  (VOLTUS_POWR-2152): Instance VDDC2 (VCCKD) has no static power. 
+
+** WARN:  (VOLTUS_POWR-2152): Instance GNDC2 (GNDKD) has no static power. 
+
+** WARN:  (VOLTUS_POWR-2152): Instance VDDC3 (VCCKD) has no static power. 
+
+** WARN:  (VOLTUS_POWR-2152): Instance GNDC3 (GNDKD) has no static power. 
+
+*
+
+
+
+Total Power
+-----------------------------------------------------------------------------------------
+Total Internal Power:        1.12227319 	   45.6641%
+Total Switching Power:       1.32520354 	   53.9211%
+Total Leakage Power:         0.01019562 	    0.4148%
+Total Power:                 2.45767235
+-----------------------------------------------------------------------------------------
+** WARN:  (VOLTUS_POWR-2041): There are some instances in the design which are not connected to any power or ground nets.
+These instances will be added to default power/ground rail uti files.
+Use 'itaputil list <uti-file>' command to get the list of instances.
+
+** WARN:  (VOLTUS_POWR-3424): Cell BUF1 has no power pin defined in LEF/PGV.
+
+** WARN:  (VOLTUS_POWR-3424): Cell XMD has no power pin defined in LEF/PGV.
+
+** WARN:  (VOLTUS_POWR-3424): Cell INV2 has no power pin defined in LEF/PGV.
+
+** WARN:  (VOLTUS_POWR-3424): Cell OA222S has no power pin defined in LEF/PGV.
+
+** WARN:  (VOLTUS_POWR-3424): Cell AOI13HS has no power pin defined in LEF/PGV.
+
+** WARN:  (VOLTUS_POWR-3424): Cell GNDIOD has no power pin defined in LEF/PGV.
+
+** WARN:  (VOLTUS_POWR-3424): Cell YA2GSD has no power pin defined in LEF/PGV.
+
+** WARN:  (VOLTUS_POWR-3424): Cell INV4CK has no power pin defined in LEF/PGV.
+
+** WARN:  (VOLTUS_POWR-3424): Cell OAI12HS has no power pin defined in LEF/PGV.
+
+** WARN:  (VOLTUS_POWR-3424): Cell VCCKD has no power pin defined in LEF/PGV.
+
+** WARN:  (VOLTUS_POWR-3424): Cell NR3 has no power pin defined in LEF/PGV.
+
+** WARN:  (VOLTUS_POWR-3424): Cell ND2S has no power pin defined in LEF/PGV.
+
+** WARN:  (VOLTUS_POWR-3424): Cell QDFFRBS has no power pin defined in LEF/PGV.
+
+** WARN:  (VOLTUS_POWR-3424): Cell OR2S has no power pin defined in LEF/PGV.
+
+** WARN:  (VOLTUS_POWR-3424): Cell NR2 has no power pin defined in LEF/PGV.
+
+** WARN:  (VOLTUS_POWR-3424): Cell OR3S has no power pin defined in LEF/PGV.
+
+** WARN:  (VOLTUS_POWR-3424): Cell OA13S has no power pin defined in LEF/PGV.
+
+** WARN:  (VOLTUS_POWR-3424): Cell OAI112HS has no power pin defined in LEF/PGV.
+
+** WARN:  (VOLTUS_POWR-3424): Cell VCC3IOD has no power pin defined in LEF/PGV.
+
+** WARN:  (VOLTUS_POWR-3424): Cell MOAI1S has no power pin defined in LEF/PGV.
+
+** WARN:  (EMS-27): Message (VOLTUS_POWR-3424) has exceeded the current message display limit of 20.
+To increase the message display limit, refer to the product command reference manual.
+
+Ended Static Power Report Generation: (cpu=0:00:00, real=0:00:00,
+mem(process/total/peak)=1449.61MB/3491.53MB/1596.32MB)
+
+Begin Creating Binary Database
+Ended Creating Binary Database: (cpu=0:00:00, real=0:00:00,
+mem(process/total/peak)=1967.24MB/4261.95MB/1967.25MB)
+
+Output file is power_log/CHIP.rpt.
+<CMD> set_rail_analysis_mode -method static -power_switch_eco false -accuracy xd -power_grid_library {power_log/techonly.cl power_log/stdcells.cl} -process_techgen_em_rules false -enable_rlrp_analysis false -vsrc_search_distance 50 -ignore_shorts false -enable_manufacturing_effects false -report_via_current_direction false
+<CMD> setDrawView place
+<CMD> create_power_pads -net VCC -auto_fetch
+<CMD> setDrawView place
+<CMD> set_pg_nets -net VCC -voltage 1.8 -threshold 1.7
+<CMD> set_pg_nets -net GND -voltage 0 -threshold 0.1
+<CMD> set_rail_analysis_domain -name PD -pwrnets { VCC} -gndnets { GND}
+<CMD> set_power_data -reset
+<CMD> set_power_data -format current -scale 1 {power_log/static_VCC.ptiavg power_log/static_GND.ptiavg}
+<CMD> set_power_pads -reset
+<CMD> set_power_pads -net VCC -format xy -file power_log/CHIP_VCC.pp
+<CMD> set_power_pads -net GND -format xy -file power_log/CHIP_GND.pp
+<CMD> set_package -reset
+<CMD> set_package -spice {} -mapping {}
+<CMD> set_net_group -reset
+<CMD> set_advanced_rail_options -reset
+<CMD> analyze_rail -type domain -results_directory power_log PD
+-process 180                            # int, default=90, min=2, max=250, user setting
+This command "analyze_rail -type domain -results_directory power_log ..." required an extra checkout of license vtsxl.
+Additional license(s) checked out: 1 'Voltus_Power_Integrity_XL' license(s)
+
+
+Started Rail Analysis at 14:10:13 12/05/2024
+
+
+Multi-CPU Configuration:
+	#CPU: 1
+	Mode: local
+	Host: ee28
+
+
+
+Running OCI  extraction for /tmp/innovus_temp_7897_ee28_iclab131_l987cK/eps_out_7897.def.gz ...
+
+Extraction option setup as:
+setenv gray_data NONE
+setenv enable_cluster_overhang_via false
+setenv enable_dfm_mask_conflict_shape false
+Begin Preparing Data for Parasitic Extraction
+Extracting following DFM effects:
+MetalFill        : n/a
+WEE Effects      : n/a
+Erosion Effects  : n/a
+T/B Enlargements : ON
+R(w) Effects     : n/a
+R(w,s) Effects   : n/a
+R(sw,st) Effects : n/a
+TC(w) Effects    : n/a
+Some effects indicate n/a because of non-availability of relevant input data (or) requested to be off.
+Ended Preparing Data for Parasitic Extraction: (cpu=0:00:01, real=0:00:01, mem(process/total/peak)=18.77MB/6697.21MB/2063.41MB)
+
+Extraction option setup as:
+setenv gray_data NONE
+setenv enable_cluster_overhang_via false
+setenv enable_dfm_mask_conflict_shape false
+Begin Parasitic Extraction
+Extracting Progress:
+    0% at 14:10:16 12/05/2024
+  100% at 14:10:22 12/05/2024
+Ended Parasitic Extraction: (cpu=0:00:02, real=0:00:05, mem(process/total/peak)=9.74MB/5898.79MB/2063.41MB)
+
+
+Analyze Rail Settings:
+	Temp directory: /tmp/innovus_temp_7897_ee28_iclab131_l987cK
+	Output directory: power_log
+	Run directory: power_log/PD_25C_avg_2/
+
+
+Invoking: "/usr/cad/cadence/INNOVUS/INNOVUS_20.15.000/tools.lnx86/ssvtools/bin/64bit/voltus_rail_smg -cmd power_log/PD_25C_avg_2/voltus_rail_smg.GND.cmd -l power_log/PD_25C_avg_2/voltus_rail_smg.GND.log" ...
+Begin Merging power grid
+Tech reference temperature: 25
+Target temperature: 25
+
+Grid Statistics of Net GND:
+- NODE
+  Total node: 34451
+    Top Level grid node: 34319
+      Top level interface node: 29422
+    Missing interface node: 132
+    Cell internal node: 0
+- ELEM
+  Total element: 42570
+    Top Level grid element: 42570
+    Cell internal element: 0
+- INST
+  Instance logically connected: 29414
+    Tech: 0
+    StdCell: 29410
+    Macro:
+      Early: 4
+      IR: 0
+      EM: 0
+    Current Region:  0
+  Dropped instance due to missing/incomplete cell library: 0
+- TAP
+  Total tap: 29554
+
+Ended Merging power grid: (cpu=0:00:01, real=0:00:00, mem(process/total/peak)=29.65MB/7977.14MB/2063.41MB)
+Invoking: "/usr/cad/cadence/INNOVUS/INNOVUS_20.15.000/tools.lnx86/ssvtools/bin/64bit/voltus_rail_smg -cmd power_log/PD_25C_avg_2/voltus_rail_smg.VCC.cmd -l power_log/PD_25C_avg_2/voltus_rail_smg.VCC.log" ...
+Begin Merging power grid
+Tech reference temperature: 25
+Target temperature: 25
+
+Grid Statistics of Net VCC:
+- NODE
+  Total node: 34173
+    Top Level grid node: 34041
+      Top level interface node: 29422
+    Missing interface node: 132
+    Cell internal node: 0
+- ELEM
+  Total element: 42052
+    Top Level grid element: 42052
+    Cell internal element: 0
+- INST
+  Instance logically connected: 29414
+    Tech: 0
+    StdCell: 29410
+    Macro:
+      Early: 4
+      IR: 0
+      EM: 0
+    Current Region:  0
+  Dropped instance due to missing/incomplete cell library: 0
+- TAP
+  Total tap: 29554
+
+Ended Merging power grid: (cpu=0:00:01, real=0:00:00, mem(process/total/peak)=28.16MB/7977.14MB/2063.41MB)
+
+Begin Preparing Data for Rail Analysis
+
+Net GND
+  Power Pin Location File: /RAID2/COURSE/iclab/iclab131/Lab12/Exercise/05_APR/power_log/CHIP_GND.pp
+  # Voltage Source Added/Total (%): 96/96 (100.00%)
+
+  Power Database: power_log/static_GND.ptiavg
+  # Current Taps Matched/Total (%): 1237/1237 (100.00%)
+  # Instances Matched: 1237
+
+Net VCC
+  Power Pin Location File: /RAID2/COURSE/iclab/iclab131/Lab12/Exercise/05_APR/power_log/CHIP_VCC.pp
+  # Voltage Source Added/Total (%): 96/96 (100.00%)
+
+  Power Database: power_log/static_VCC.ptiavg
+  # Current Taps Matched/Total (%): 1237/1237 (100.00%)
+  # Instances Matched: 1237
+
+Begin PowerGrid Integrity Analysis
+
+Begin Redistribute Disconnected Cap
+Ended Redistribute Disconnected Cap: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=117.89MB/6617.01MB/2063.41MB)
+
+Ended PowerGrid Integrity Analysis: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=118.91MB/6617.01MB/2063.41MB)
+
+Ended Preparing Data for Rail Analysis: (cpu=0:00:01, real=0:00:00, mem(process/total/peak)=116.17MB/6617.01MB/2063.41MB)
+
+
+Begin Steady-State Analysis
+Ended Steady-State Analysis: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=147.09MB/12809.88MB/2063.41MB)
+
+
+Begin Report Generation
+
+
+Net GND:
+
+
+Begin Preparing Database for Report Generation
+
+Circuit profile:
+                                                      Current    Voltage
+Layer Name                       Nodes   Resistors    Sources    Sources
+----- --------------------  ----------  ----------  ---------  ---------
+0     ME6_C                         24           0         24         16
+1     ME5_C                         24           0         24         16
+2     ME4_C                         24           0         24         16
+3     ME3_C                       1206        1138         24         16
+4     VIA2                           0        1182          0          0
+5     ME2_C                       8619        8556         24         16
+6     VIA1                           0        7377          0          0
+7     ME1_C                      24554       24317      17114         16
+                            ----------  ----------  ---------  ---------
+8     Circuit total              34452       42570      17234         96
+
+Note: 48 current sources are disconnected.
+Ended Preparing Database for Report Generation: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=343.50MB/13067.08MB/2063.41MB)
+
+Initializing Report Generation: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=343.64MB/13067.08MB/2063.41MB)
+
+Begin IR Drop (Linear) Report Generation
+  Voltage: 0
+  Threshold: 0.1
+  Minimum, Average, Maximum IR Drop: 0.000V, 52.087uV, 0.186mV
+    Range 1(   0.163mV  -     0.186mV ):        93 (  0.27%)
+    Range 2(   0.140mV  -     0.163mV ):      1930 (  5.61%)
+    Range 3(   0.116mV  -     0.140mV ):      1690 (  4.91%)
+    Range 4(  93.079uV  -     0.116mV ):      1099 (  3.19%)
+    Range 5(  69.809uV  -    93.079uV ):      2879 (  8.37%)
+    Range 6(  46.539uV  -    69.809uV ):      8777 ( 25.51%)
+    Range 7(  23.270uV  -    46.539uV ):      8982 ( 26.11%)
+    Range 8(    0.000V  -    23.270uV ):      8953 ( 26.02%)
+*** Note : 48 disconnected nodes are excluded from the report.
+    Layer with maximum IR Drop:  ME1_C
+      ME6_C: 0 [0 - 0]
+      ME5_C: 0 [0 - 0]
+      ME4_C: 0 [0 - 0]
+      ME3_C: 0.00014689 [0 - 0.00014689]
+      ME2_C: 0.00015104 [0 - 0.00015104]
+      ME1_C: 0.00018616 [0 - 0.00018616]
+  IR Report: power_log/PD_25C_avg_2/Reports/GND/GND.main.rpt
+  GIF plot: power_log/PD_25C_avg_2/Reports/GND/ir_linear.gif
+Ended IR Drop (Linear) Report Generation: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=381.37MB/13067.08MB/2063.41MB)
+
+
+Begin IR Drop (Limit) Report Generation
+  Voltage: 0
+  Threshold: 0.1
+  Minimum, Average, Maximum IR Drop: 0.000V, 52.087uV, 0.186mV
+    Range 1( 100.000mV  -      0.100V ):         0 (  0.00%)
+    Range 2(  91.667mV  -   100.000mV ):         0 (  0.00%)
+    Range 3(  83.333mV  -    91.667mV ):         0 (  0.00%)
+    Range 4(  75.000mV  -    83.333mV ):         0 (  0.00%)
+    Range 5(  66.667mV  -    75.000mV ):         0 (  0.00%)
+    Range 6(  58.333mV  -    66.667mV ):         0 (  0.00%)
+    Range 7(  50.000mV  -    58.333mV ):         0 (  0.00%)
+    Range 8(  -1.000uV  -    50.000mV ):     34403 (100.00%)
+*** Note : 48 disconnected nodes are excluded from the report.
+    Layer with maximum IR Drop:  ME1_C
+      ME6_C: 0 [0 - 0]
+      ME5_C: 0 [0 - 0]
+      ME4_C: 0 [0 - 0]
+      ME3_C: 0.00014689 [0 - 0.00014689]
+      ME2_C: 0.00015104 [0 - 0.00015104]
+      ME1_C: 0.00018616 [0 - 0.00018616]
+  IR Report: power_log/PD_25C_avg_2/Reports/GND/GND.main.rpt
+  GIF plot: power_log/PD_25C_avg_2/Reports/GND/ir_limit.gif
+Ended IR Drop (Limit) Report Generation: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=383.73MB/13067.08MB/2063.41MB)
+
+
+Begin Tap Current Report Generation
+  Minimum, Average, Maximum Tap Current: -10.177uA, -17.254nA, 0.000A
+  Total Current: -0.297mA
+    Range 1(  -1.000GA  -    -1.000mA ):         0 (  0.00%)
+    Range 2(  -1.000mA  -  -100.000uA ):         0 (  0.00%)
+    Range 3(-100.000uA  -   -10.000uA ):         2 (  0.01%)
+    Range 4( -10.000uA  -    -1.000uA ):        23 (  0.13%)
+    Range 5(  -1.000uA  -  -100.000nA ):       355 (  2.07%)
+    Range 6(-100.000nA  -   -10.000nA ):       554 (  3.22%)
+    Range 7( -10.000nA  -    -1.000nA ):       258 (  1.50%)
+    Range 8(  -1.000nA  -      0.000A ):     15994 ( 93.06%)
+*** Note: 48 disconnected taps (0.000A) are excluded from the report.
+  GIF plot: power_log/PD_25C_avg_2/Reports/GND/tc.gif
+Ended Tap Current Report Generation: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=383.85MB/13067.08MB/2063.41MB)
+
+
+Begin Instance Based IR Drop Report Generation
+  Minimum, Average, Maximum Instance Based IR Drop: 0.000V, 64.529uV, 0.186mV
+    Range 1( 100.000mV  -      0.100V ):         0 (  0.00%)
+    Range 2(  91.667mV  -   100.000mV ):         0 (  0.00%)
+    Range 3(  83.333mV  -    91.667mV ):         0 (  0.00%)
+    Range 4(  75.000mV  -    83.333mV ):         0 (  0.00%)
+    Range 5(  66.667mV  -    75.000mV ):         0 (  0.00%)
+    Range 6(  58.333mV  -    66.667mV ):         0 (  0.00%)
+    Range 7(  50.000mV  -    58.333mV ):         0 (  0.00%)
+    Range 8(  -1.000uV  -    50.000mV ):     17186 (100.00%)
+*** Note : 48 disconnected nodes are excluded from the report.
+  GIF plot: power_log/PD_25C_avg_2/Reports/GND/iv.gif
+Ended Instance Based IR Drop Report Generation: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=384.27MB/13067.08MB/2063.41MB)
+
+
+Begin Effective Instance Voltage Report Generation
+Ended Effective Instance Voltage Report Generation: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=384.30MB/13067.08MB/2063.41MB)
+
+
+Begin Voltage Source Current Report Generation
+  Minimum, Average, Maximum Voltage Source Current: 0.000A, 3.089uA, 38.550uA
+  Total Current: 0.297mA
+    Range 1(  33.732uA  -    38.554uA ):         3 (  3.12%)
+    Range 2(  28.913uA  -    33.732uA ):         3 (  3.12%)
+    Range 3(  24.094uA  -    28.913uA ):         1 (  1.04%)
+    Range 4(  19.275uA  -    24.094uA ):         2 (  2.08%)
+    Range 5(  14.456uA  -    19.275uA ):         0 (  0.00%)
+    Range 6(   9.638uA  -    14.456uA ):         1 (  1.04%)
+    Range 7(   4.819uA  -     9.638uA ):         2 (  2.08%)
+    Range 8(    0.000A  -     4.819uA ):        84 ( 87.50%)
+  GIF plot: power_log/PD_25C_avg_2/Reports/GND/vc.gif
+Ended Voltage Source Current Report Generation: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=385.69MB/13067.08MB/2063.41MB)
+
+
+Begin Resistor Current Report Generation
+  Minimum, Average, Maximum Resistor Current: 0.000A, 1.019uA, 38.550uA
+    Range 1(   1.000mA  -     1.000GA ):         0 (  0.00%)
+    Range 2( 100.000uA  -     1.000mA ):         0 (  0.00%)
+    Range 3(  10.000uA  -   100.000uA ):       394 (  0.93%)
+    Range 4(   1.000uA  -    10.000uA ):     10027 ( 23.55%)
+    Range 5(   0.100uA  -     1.000uA ):     19158 ( 45.00%)
+    Range 6(  10.000nA  -     0.100uA ):     11182 ( 26.27%)
+    Range 7(   1.000nA  -    10.000nA ):      1586 (  3.73%)
+    Range 8(    0.000A  -     1.000nA ):       223 (  0.52%)
+  GIF plot: power_log/PD_25C_avg_2/Reports/GND/rc.gif
+Ended Resistor Current Report Generation: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=468.02MB/13067.08MB/2063.41MB)
+
+
+Begin Resistor Voltage Report Generation
+  Minimum, Average, Maximum Resistor Voltage: 0.000V, 0.541uV, 19.438uV
+    Range 1(  17.008uV  -    19.440uV ):         2 (  0.00%)
+    Range 2(  14.579uV  -    17.008uV ):         3 (  0.01%)
+    Range 3(  12.149uV  -    14.579uV ):         7 (  0.02%)
+    Range 4(   9.719uV  -    12.149uV ):        16 (  0.04%)
+    Range 5(   7.289uV  -     9.719uV ):        36 (  0.08%)
+    Range 6(   4.860uV  -     7.289uV ):       200 (  0.47%)
+    Range 7(   2.430uV  -     4.860uV ):      1136 (  2.67%)
+    Range 8(    0.000V  -     2.430uV ):     41170 ( 96.71%)
+  GIF plot: power_log/PD_25C_avg_2/Reports/GND/rv.gif
+Ended Resistor Voltage Report Generation: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=470.53MB/13067.08MB/2063.41MB)
+
+
+Begin Power Gate I/Idsat Report Generation
+  No data found.
+Ended Power Gate I/Idsat Report Generation: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=470.54MB/13067.08MB/2063.41MB)
+
+
+Begin Power Gate Voltage Report Generation
+  No data found.
+Ended Power Gate Voltage Report Generation: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=470.57MB/13067.08MB/2063.41MB)
+
+
+Begin Voltage Across Vias and Contacts Report Generation
+Ended Voltage Across Vias and Contacts Report Generation: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=470.59MB/13067.08MB/2063.41MB)
+
+
+Begin Weak Grid Connectivity Report
+Ended Weak Grid Connectivity Report: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=470.61MB/13067.08MB/2063.41MB)
+
+
+Begin Grid Integrity Report Generation
+  # Missing Cell Power-Grid Views: 0
+  # Physically Disconnected Instances: 0
+  # Instances with Floating Power Pins: 0
+  # Disconnected Wire Segments: 48
+  # Weakly Connected Metal Segments: 84
+  # Dropped Voltage Sources: 0
+Ended Grid Integrity Report Generation: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=470.70MB/13067.08MB/2063.41MB)
+
+
+
+Net VCC:
+
+
+Begin Preparing Database for Report Generation
+
+Circuit profile:
+                                                      Current    Voltage
+Layer Name                       Nodes   Resistors    Sources    Sources
+----- --------------------  ----------  ----------  ---------  ---------
+0     ME6_C                         24           0         24         16
+1     ME5_C                         24           0         24         16
+2     ME4_C                         24           0         24         16
+3     ME3_C                       1192        1122         24         16
+4     VIA2                           0        1168          0          0
+5     ME2_C                       8378        8308         24         16
+6     VIA1                           0        7164          0          0
+7     ME1_C                      24531       24290      17175         16
+                            ----------  ----------  ---------  ---------
+8     Circuit total              34174       42052      17295         96
+
+Note: 48 current sources are disconnected.
+Ended Preparing Database for Report Generation: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=470.82MB/13067.08MB/2063.41MB)
+
+Initializing Report Generation: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=470.83MB/13067.08MB/2063.41MB)
+
+Begin IR Drop (Linear) Report Generation
+  Voltage: 1.8
+  Threshold: 1.7
+  Minimum, Average, Maximum IR Drop: 1.800V, 1.800V, 1.800V
+    Range 1(    1.800V  -      1.800V ):        98 (  0.29%)
+    Range 2(    1.800V  -      1.800V ):      1512 (  4.43%)
+    Range 3(    1.800V  -      1.800V ):      2254 (  6.61%)
+    Range 4(    1.800V  -      1.800V ):      1105 (  3.24%)
+    Range 5(    1.800V  -      1.800V ):      3107 (  9.10%)
+    Range 6(    1.800V  -      1.800V ):      8783 ( 25.74%)
+    Range 7(    1.800V  -      1.800V ):      8802 ( 25.79%)
+    Range 8(    1.800V  -      1.800V ):      8464 ( 24.80%)
+*** Note : 48 disconnected nodes are excluded from the report.
+    Layer with maximum IR Drop:  ME1_C
+      ME6_C: 0 [1.8 - 1.8]
+      ME5_C: 0 [1.8 - 1.8]
+      ME4_C: 0 [1.8 - 1.8]
+      ME3_C: 0.00015044 [1.7998 - 1.8]
+      ME2_C: 0.00015652 [1.7998 - 1.8]
+      ME1_C: 0.00019586 [1.7998 - 1.8]
+  IR Report: power_log/PD_25C_avg_2/Reports/VCC/VCC.main.rpt
+  GIF plot: power_log/PD_25C_avg_2/Reports/VCC/ir_linear.gif
+Ended IR Drop (Linear) Report Generation: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=501.68MB/13067.08MB/2063.41MB)
+
+
+Begin IR Drop (Limit) Report Generation
+  Voltage: 1.8
+  Threshold: 1.7
+  Minimum, Average, Maximum IR Drop: 1.800V, 1.800V, 1.800V
+    Range 1(    1.700V  -      1.700V ):         0 (  0.00%)
+    Range 2(    1.700V  -      1.708V ):         0 (  0.00%)
+    Range 3(    1.708V  -      1.717V ):         0 (  0.00%)
+    Range 4(    1.717V  -      1.725V ):         0 (  0.00%)
+    Range 5(    1.725V  -      1.733V ):         0 (  0.00%)
+    Range 6(    1.733V  -      1.742V ):         0 (  0.00%)
+    Range 7(    1.742V  -      1.750V ):         0 (  0.00%)
+    Range 8(    1.750V  -      1.800V ):     34125 (100.00%)
+*** Note : 48 disconnected nodes are excluded from the report.
+    Layer with maximum IR Drop:  ME1_C
+      ME6_C: 0 [1.8 - 1.8]
+      ME5_C: 0 [1.8 - 1.8]
+      ME4_C: 0 [1.8 - 1.8]
+      ME3_C: 0.00015044 [1.7998 - 1.8]
+      ME2_C: 0.00015652 [1.7998 - 1.8]
+      ME1_C: 0.00019586 [1.7998 - 1.8]
+  IR Report: power_log/PD_25C_avg_2/Reports/VCC/VCC.main.rpt
+  GIF plot: power_log/PD_25C_avg_2/Reports/VCC/ir_limit.gif
+Ended IR Drop (Limit) Report Generation: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=504.08MB/13067.08MB/2063.41MB)
+
+
+Begin Tap Current Report Generation
+  Minimum, Average, Maximum Tap Current: 0.000A, 17.193nA, 10.177uA
+  Total Current: 0.297mA
+    Range 1(   1.000mA  -     1.000GA ):         0 (  0.00%)
+    Range 2( 100.000uA  -     1.000mA ):         0 (  0.00%)
+    Range 3(  10.000uA  -   100.000uA ):         2 (  0.01%)
+    Range 4(   1.000uA  -    10.000uA ):        23 (  0.13%)
+    Range 5( 100.000nA  -     1.000uA ):       356 (  2.06%)
+    Range 6(  10.000nA  -   100.000nA ):       559 (  3.24%)
+    Range 7(   1.000nA  -    10.000nA ):       264 (  1.53%)
+    Range 8(    0.000A  -     1.000nA ):     16043 ( 93.02%)
+*** Note: 48 disconnected taps (0.000A) are excluded from the report.
+  GIF plot: power_log/PD_25C_avg_2/Reports/VCC/tc.gif
+Ended Tap Current Report Generation: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=504.33MB/13067.08MB/2063.41MB)
+
+
+Begin Instance Based IR Drop Report Generation
+  Minimum, Average, Maximum Instance Based IR Drop: 1.800V, 1.800V, 1.800V
+    Range 1(    1.700V  -      1.700V ):         0 (  0.00%)
+    Range 2(    1.700V  -      1.708V ):         0 (  0.00%)
+    Range 3(    1.708V  -      1.717V ):         0 (  0.00%)
+    Range 4(    1.717V  -      1.725V ):         0 (  0.00%)
+    Range 5(    1.725V  -      1.733V ):         0 (  0.00%)
+    Range 6(    1.733V  -      1.742V ):         0 (  0.00%)
+    Range 7(    1.742V  -      1.750V ):         0 (  0.00%)
+    Range 8(    1.750V  -      1.800V ):     17247 (100.00%)
+*** Note : 48 disconnected nodes are excluded from the report.
+  GIF plot: power_log/PD_25C_avg_2/Reports/VCC/iv.gif
+Ended Instance Based IR Drop Report Generation: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=504.37MB/13067.08MB/2063.41MB)
+
+
+Begin Effective Instance Voltage Report Generation
+
+ Avg EIV:
+  Minimum, Average, Maximum Effective Instance Voltage: 1.800V, 1.800V, 1.800V
+    Range 1(    1.799V  -      1.800V ):        78 (  0.27%)
+    Range 2(    1.800V  -      1.800V ):      1635 (  5.56%)
+    Range 3(    1.800V  -      1.800V ):      2027 (  6.89%)
+    Range 4(    1.800V  -      1.800V ):       914 (  3.11%)
+    Range 5(    1.800V  -      1.800V ):      2651 (  9.01%)
+    Range 6(    1.800V  -      1.800V ):      7376 ( 25.08%)
+    Range 7(    1.800V  -      1.800V ):      7343 ( 24.97%)
+    Range 8(    1.800V  -      1.800V ):      7386 ( 25.11%)
+  GIF plot: power_log/PD_25C_avg_2/Reports/VCC_GND.avg_div.gif
+  GIF Limit plot: power_log/PD_25C_avg_2/Reports/VCC_GND.avg_limit_div.gif
+  **** Note: Histogram and gif file are generated based on elapsed EIV results.
+Ended Effective Instance Voltage Report Generation: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=520.91MB/13067.08MB/2063.41MB)
+
+
+Begin Voltage Source Current Report Generation
+  Minimum, Average, Maximum Voltage Source Current: -40.212uA, -3.087uA, 0.000A
+  Total Current: -0.296mA
+    Range 1( -40.216uA  -   -35.186uA ):         3 (  3.12%)
+    Range 2( -35.186uA  -   -30.159uA ):         1 (  1.04%)
+    Range 3( -30.159uA  -   -25.133uA ):         3 (  3.12%)
+    Range 4( -25.133uA  -   -20.106uA ):         0 (  0.00%)
+    Range 5( -20.106uA  -   -15.080uA ):         2 (  2.08%)
+    Range 6( -15.080uA  -   -10.053uA ):         1 (  1.04%)
+    Range 7( -10.053uA  -    -5.027uA ):         2 (  2.08%)
+    Range 8(  -5.027uA  -      0.000A ):        84 ( 87.50%)
+  GIF plot: power_log/PD_25C_avg_2/Reports/VCC/vc.gif
+Ended Voltage Source Current Report Generation: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=520.94MB/13067.08MB/2063.41MB)
+
+
+Begin Resistor Current Report Generation
+  Minimum, Average, Maximum Resistor Current: 0.000A, 1.074uA, 0.136mA
+    Range 1(   1.000mA  -     1.000GA ):         0 (  0.00%)
+    Range 2( 100.000uA  -     1.000mA ):         1 (  0.00%)
+    Range 3(  10.000uA  -   100.000uA ):       481 (  1.14%)
+    Range 4(   1.000uA  -    10.000uA ):      9887 ( 23.51%)
+    Range 5(   0.100uA  -     1.000uA ):     18264 ( 43.43%)
+    Range 6(  10.000nA  -     0.100uA ):      3362 (  7.99%)
+    Range 7(   1.000nA  -    10.000nA ):         0 (  0.00%)
+    Range 8(    0.000A  -     1.000nA ):     10057 ( 23.92%)
+  GIF plot: power_log/PD_25C_avg_2/Reports/VCC/rc.gif
+Ended Resistor Current Report Generation: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=593.75MB/13067.08MB/2071.81MB)
+
+
+Begin Resistor Voltage Report Generation
+  Minimum, Average, Maximum Resistor Voltage: 0.000V, 0.561uV, 19.312uV
+    Range 1(  16.898uV  -    19.314uV ):         4 (  0.01%)
+    Range 2(  14.484uV  -    16.898uV ):         2 (  0.00%)
+    Range 3(  12.070uV  -    14.484uV ):         7 (  0.02%)
+    Range 4(   9.656uV  -    12.070uV ):        16 (  0.04%)
+    Range 5(   7.242uV  -     9.656uV ):        39 (  0.09%)
+    Range 6(   4.828uV  -     7.242uV ):       199 (  0.47%)
+    Range 7(   2.414uV  -     4.828uV ):      1087 (  2.58%)
+    Range 8(    0.000V  -     2.414uV ):     40698 ( 96.78%)
+  GIF plot: power_log/PD_25C_avg_2/Reports/VCC/rv.gif
+Ended Resistor Voltage Report Generation: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=596.07MB/13067.08MB/2074.12MB)
+
+
+Begin Power Gate I/Idsat Report Generation
+  No data found.
+Ended Power Gate I/Idsat Report Generation: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=596.07MB/13067.08MB/2074.12MB)
+
+
+Begin Power Gate Voltage Report Generation
+  No data found.
+Ended Power Gate Voltage Report Generation: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=596.07MB/13067.08MB/2074.12MB)
+
+
+Begin Voltage Across Vias and Contacts Report Generation
+Ended Voltage Across Vias and Contacts Report Generation: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=596.07MB/13067.08MB/2074.12MB)
+
+
+Begin Weak Grid Connectivity Report
+Ended Weak Grid Connectivity Report: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=596.07MB/13067.08MB/2074.12MB)
+
+
+Begin Grid Integrity Report Generation
+  # Missing Cell Power-Grid Views: 0
+  # Physically Disconnected Instances: 0
+  # Instances with Floating Power Pins: 0
+  # Disconnected Wire Segments: 48
+  # Weakly Connected Metal Segments: 86
+  # Dropped Voltage Sources: 0
+Ended Grid Integrity Report Generation: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=596.07MB/13067.08MB/2074.12MB)
+
+Ended Report Generation: (cpu=0:00:09, real=0:00:11, mem(process/total/peak)=596.07MB/13067.08MB/2074.14MB)
+
+
+Rail Analysis Statistics:
+Warning messages:      0
+Error messages:        0
+
+Rail Analysis completed successfully.
+
+Finished Rail Analysis at 14:10:36 12/05/2024 (cpu=0:00:16, real=0:00:23, peak mem=2074.20MB)
+Current Innovus resource usage: (total cpu=0:03:30, real=0:45:34, mem=2074.20MB)
+<CMD> setLayerPreference powerNet -color {#0000FF #0010DE #0020BD #00319C #00417B #00525A #006239 #007318 #088300 #299400 #4AA400 #6AB400 #8BC500 #ACD500 #CDE600 #EEF600 #FFF900 #FFED00 #FFE200 #FFD600 #FFCB00 #FFBF00 #FFB400 #FFA800 #FF9500 #FF8000 #FF6A00 #FF5500 #FF4000 #FF2A00 #FF1500 #FF0000}
+<CMD> set_power_rail_display -plot none
+<CMD> setLayerPreference powerNet -color {#0000ff #0010de #0020bd #00319c #00417b #00525a #006239 #007318 #088300 #299400 #4aa400 #6ab400 #8bc500 #acd500 #cde600 #eef600 #fff900 #ffed00 #ffe200 #ffd600 #ffcb00 #ffbf00 #ffb400 #ffa800 #ff9500 #ff8000 #ff6a00 #ff5500 #ff4000 #ff2a00 #ff1500 #ff0000}
+<CMD> set_power_rail_display -enable_voltage_sources 0
+<CMD> set_power_rail_display -enable_percentage_range 0
+<CMD> fit
+<CMD> set_power_rail_display -plot none
+<CMD> setLayerPreference powerNet -color {#0000ff #0010de #0020bd #00319c #00417b #00525a #006239 #007318 #088300 #299400 #4aa400 #6ab400 #8bc500 #acd500 #cde600 #eef600 #fff900 #ffed00 #ffe200 #ffd600 #ffcb00 #ffbf00 #ffb400 #ffa800 #ff9500 #ff8000 #ff6a00 #ff5500 #ff4000 #ff2a00 #ff1500 #ff0000}
+<CMD> ::read_power_rail_results -power_db power_log/power.db -rail_directory power_log/PD_25C_avg_1 -instance_voltage_window { timing  whole  } -instance_voltage_method {  worst  best  avg  worstavg worstslidingavg bestslidingavg }
+avg best bestslidingavg worst worstavg worstslidingavg 
+timing whole 
+
+Begin Loading State Directory in Local GUI mode
+
+
+Begin Initializing Design.
+
+No Nets are Specified, will Load All the Nets Automatically.
+Nets Number: 2.
+Icf Flow Enabled   :  0
+Loading CellIdMap Sucessfully.
+is multi-die design:  0
+start creating net:GND  die: 
+start creating net:VCC  die: 
+
+Ended Initializing Design.: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=2073.79MB/4336.57MB/2074.20MB)
+
+
+Begin Building Rail DB.
+
+
+34452 Nodes Loaded for GND.
+42570 Elements Loaded for GND.
+
+
+34174 Nodes Loaded for VCC.
+42052 Elements Loaded for VCC.
+
+
+Total Nodes Number: 68625.
+Total Elements Number: 84622.
+
+
+Ended Building Rail DB.: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=2085.21MB/4336.57MB/2085.21MB)
+
+
+Begin Building Instance DB
+
+Loading Instances from PGDB.
+
+29414 Instances Loaded for GND.
+
+
+29414 Instances Loaded for VCC.
+
+
+Total Instances Number: 29418.
+
+Begin Building Pin Map.
+
+Pin Name List: 2 Pins Loaded.
+
+
+End Building Pin Map.
+
+Ended Building Instance DB: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=2085.67MB/4336.57MB/2085.67MB)
+
+
+Begin Loading Plots in Multi-Thread Mode
+
+Begin Initializing ir Plot
+Ended Initializing ir Plot: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=2086.27MB/4336.57MB/2086.30MB)
+Ended Initializing ir Plot: (cpu=00:00:00:000, real=00:00:00:000, pid=7897, tid=49163)
+
+Begin Initializing rc Plot
+Ended Initializing rc Plot: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=2086.59MB/4336.57MB/2086.68MB)
+Ended Initializing rc Plot: (cpu=00:00:00:000, real=00:00:00:000, pid=7897, tid=49163)
+
+Begin Initializing tc Plot
+Ended Initializing tc Plot: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=2086.93MB/4336.57MB/2086.94MB)
+Ended Initializing tc Plot: (cpu=00:00:00:000, real=00:00:00:000, pid=7897, tid=49163)
+
+Begin Initializing cap Plot
+Ended Initializing cap Plot: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=2087.20MB/4336.57MB/2087.21MB)
+Ended Initializing cap Plot: (cpu=00:00:00:000, real=00:00:00:000, pid=7897, tid=49163)
+
+Begin Initializing Voltage Source Vu and Vc Plots
+Ended Initializing Voltage Source Vu and Vc Plots: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=2087.22MB/4336.57MB/2087.23MB)
+Ended Initializing Voltage Source Vu and Vc Plots: (cpu=00:00:00:000, real=00:00:00:000, pid=7897, tid=49163)
+
+Begin Initializing unc Plot
+Ended Initializing unc Plot: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=2087.53MB/4336.57MB/2087.54MB)
+Ended Initializing unc Plot: (cpu=00:00:00:000, real=00:00:00:000, pid=7897, tid=49163)
+
+Begin Initializing ivdn Plot.
+
+Begin Initializing ivdd Plot.
+
+Begin Initializing ipc Plot.
+
+Begin Initializing ipceiv Plot.
+
+Begin Initializing thermal Plot.
+
+Begin Loading ir Plot for GND.
+68625 Nodes of ir Loaded for GND
+Ended Loading ir Plot for GND.: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=2087.82MB/4336.57MB/2087.88MB)Ended Loading ir Plot for GND.: (cpu=00:00:00:001, real=00:00:00:004, pid=7897, tid=49163)
+
+Begin Loading ir Plot for VCC.
+68625 Nodes of ir Loaded for VCC
+Ended Loading ir Plot for VCC.: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=2087.89MB/4336.57MB/2087.90MB)Ended Loading ir Plot for VCC.: (cpu=00:00:00:001, real=00:00:00:003, pid=7897, tid=49163)
+
+Begin Loading rc Plot for GND.
+0 Elements of rc Loaded for GND
+Ended Loading rc Plot for GND.: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=2088.15MB/4336.57MB/2088.24MB)Ended Loading rc Plot for GND.: (cpu=00:00:00:002, real=00:00:00:004, pid=7897, tid=49163)
+
+Begin Loading rc Plot for VCC.
+0 Elements of rc Loaded for VCC
+Ended Loading rc Plot for VCC.: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=2088.24MB/4336.57MB/2088.24MB)Ended Loading rc Plot for VCC.: (cpu=00:00:00:001, real=00:00:00:003, pid=7897, tid=49163)
+
+Begin Loading tc Plot for GND.
+17187 Nodes of tc Loaded for GND
+Ended Loading tc Plot for GND.: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=2088.24MB/4336.57MB/2088.38MB)Ended Loading tc Plot for GND.: (cpu=00:00:00:001, real=00:00:00:002, pid=7897, tid=49163)
+
+Begin Loading tc Plot for VCC.
+17248 Nodes of tc Loaded for VCC
+Ended Loading tc Plot for VCC.: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=2088.38MB/4336.57MB/2088.38MB)Ended Loading tc Plot for VCC.: (cpu=00:00:00:001, real=00:00:00:002, pid=7897, tid=49163)
+
+Begin Loading cap Plot for GND.
+34452 Nodes of cap Loaded for GND
+Ended Loading cap Plot for GND.: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=2088.38MB/4336.57MB/2088.39MB)Ended Loading cap Plot for GND.: (cpu=00:00:00:000, real=00:00:00:000, pid=7897, tid=49163)
+
+Begin Loading cap Plot for VCC.
+34174 Nodes of cap Loaded for VCC
+Ended Loading cap Plot for VCC.: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=2088.39MB/4336.57MB/2088.39MB)Ended Loading cap Plot for VCC.: (cpu=00:00:00:000, real=00:00:00:000, pid=7897, tid=49163)
+
+Begin Loading Voltage Source, Vu and Vc for All Nets.
+96 Nodes of vsrcs Loaded for GND
+96 Nodes of vc Loaded for GND
+96 Nodes of vsrcs Loaded for VCC
+96 Nodes of vc Loaded for VCC
+Ended Loading Voltage Source, Vu and Vc for All Nets.: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=2088.39MB/4336.57MB/2088.40MB)
+Ended Loading Voltage Source, Vu and Vc for All Nets.: (cpu=00:00:00:001, real=00:00:00:005, pid=7897, tid=49163)
+
+Begin Loading unc for All Nets.
+48 Nodes of unc Loaded for GND
+48 Nodes of unc Loaded for VCC
+Ended Loading unc for All Nets.: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=2088.40MB/4336.57MB/2088.40MB)
+
+Ended Loading unc for All Nets.: (cpu=00:00:00:000, real=00:00:00:000, pid=7897, tid=49163)
+
+bestslidingavg is not valid method type 
+worstslidingavg is not valid method type 
+bestslidingavg is not valid method type 
+worstslidingavg is not valid method type 
+bestslidingavg is not valid method type 
+worstslidingavg is not valid method type 
+bestslidingavg is not valid method type 
+worstslidingavg is not valid method type 
+
+Begin Initializing InstPeak DB.
+
+0 Instances Loaded by Names without CellIDMap for Instance Peak Current.
+
+Ended Initializing InstPeak DB.: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=2091.94MB/4336.57MB/2091.94MB)
+
+Ended Initializing InstPeak DB.: (cpu=00:00:00:000, real=00:00:00:000, pid=7897, tid=49163)
+
+Begin Initializing IVDN DB.
+
+0 Instances Loaded by Names without CellIDMap for IVDN.
+
+Ended Initializing IVDN DB.: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=2088.43MB/4336.57MB/2088.61MB)
+
+Ended Initializing IVDN DB.: (cpu=00:00:00:001, real=00:00:00:003, pid=7897, tid=49163)
+29414 Instance Based Instances Voltage Net Loaded for GND (Avg, timing)
+29414 Instance Based Instances Voltage Net Loaded for GND (Worst, timing)
+29414 Instance Based Instances Voltage Net Loaded for GND (Avg, whole)
+29414 Instance Based Instances Voltage Net Loaded for GND (Worst, whole)
+29414 Instance Based Instances Voltage Net Loaded for VCC (Avg, timing)
+29414 Instance Based Instances Voltage Net Loaded for VCC (Worst, timing)
+29414 Instance Based Instances Voltage Net Loaded for VCC (Avg, whole)
+29414 Instance Based Instances Voltage Net Loaded for VCC (Worst, whole)
+
+
+
+
+Begin Initializing IVDD DB.
+
+0 Instances Loaded by Names without CellIDMap for IVDD.
+
+Ended Initializing IVDD DB.: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=2090.16MB/4336.57MB/2090.18MB)
+
+Ended Initializing IVDD DB.: (cpu=00:00:00:000, real=00:00:00:001, pid=7897, tid=49163)
+29410 Instance Based Instances Voltage Domain Loaded for VCC and GND (Avg, timing)
+29410 Instance Based Instances Voltage Domain Loaded for VCC and GND (Worst, timing)
+29410 Instance Based Instances Voltage Domain Loaded for VCC and GND (WorstAvg, timing)
+29410 Instance Based Instances Voltage Domain Loaded for VCC and GND (Avg, whole)
+29410 Instance Based Instances Voltage Domain Loaded for VCC and GND (Worst, whole)
+Ended Loading ivdd and ivdn for All Nets.: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=2091.94MB/4336.57MB/2091.95MB)
+Ended Loading ivdd and ivdn for All Nets.: (cpu=00:00:00:054, real=00:00:00:071, pid=7897, tid=49163)
+
+[Warning] Can not get instance peak current and instance switch data under path: power_log/PD_25C_avg_1/Reports/ResultDB/info.json
+[Error] No IVDD Nets Pairs for creating Mcyc.
+Begin Loading EIV Window instance switch and peak current for All Nets.
+Begin Initializing McycDB.
+
+
+
+
+Ended Loading EIV Window instance switch and peak current for All Nets.: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=2091.98MB/4336.57MB/2091.99MB)
+Ended Loading EIV Window instance switch and peak current for All Nets.: (cpu=00:00:00:000, real=00:00:00:000, pid=7897, tid=49163)
+
+Thermal file not found, so no thermal data
+Ended Loading ir Plot percentage data.: (cpu=00:00:00:001, real=00:00:00:001, pid=7897, tid=49163)
+
+
+Ended Loading Plots in Multi-Thread Mode: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=2091.99MB/4336.57MB/2092.06MB)
+
+
+Begin Loading power.db in main thread.
+
+
+Begin Power Analysis
+
+             0V	    GND
+          1.62V	    VCC
+Begin Restoring Power Databases
+Begin Restoring Binary Database : power_log/power.db
+** INFO:  (VOLTUS_POWR-3042): Load clock data from database: total of '1' clocks
+
+clk(23MHz) ** INFO:  (VOLTUS_POWR-3043): Load rail data from database: total of '1' rails
+
+** INFO:  (VOLTUS_POWR-3044): Load net data from database: total of '1343' nets
+
+** INFO:  (VOLTUS_POWR-3045): Load instance data from database: total of '1325' instances
+
+Ended Restoring Binary Database : power_log/power.db: (cpu=0:00:00,
+real=0:00:00, mem(process/total/peak)=2349.76MB/4851.78MB/2349.80MB)
+
+** INFO:  (VOLTUS_POWR-3229): Using user defined default frequency 100MHz for power calculation.
+
+'set_default_switching_activity' finished successfully.
+'read_activity_file' finished successfully.
+
+Ended Loading power.db in main thread.: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=1548.21MB/4851.78MB/2349.80MB)
+
+
+Begin Loading power plots in Multi-Thread mode.
+
+[Warning] Cannot get decap instances successfully.
+**WARN: (IMPCTE-291):	FILLER_T_7_19 is a physical only instance and is ignored. This indicates that the instance is physical only (e.g. a filler/decap cell) and is in the database, but not in timing graph since physical cells do not have timing information. Verify the instance is a physical only cell to confirm that this warning can be ignored.
+Type 'man IMPCTE-291' for more detail.
+**WARN: (IMPCTE-291):	FILLER_T_7_20 is a physical only instance and is ignored. This indicates that the instance is physical only (e.g. a filler/decap cell) and is in the database, but not in timing graph since physical cells do not have timing information. Verify the instance is a physical only cell to confirm that this warning can be ignored.
+Type 'man IMPCTE-291' for more detail.
+**WARN: (IMPCTE-291):	FILLER_T_7_21 is a physical only instance and is ignored. This indicates that the instance is physical only (e.g. a filler/decap cell) and is in the database, but not in timing graph since physical cells do not have timing information. Verify the instance is a physical only cell to confirm that this warning can be ignored.
+Type 'man IMPCTE-291' for more detail.
+**WARN: (IMPCTE-291):	FILLER_T_7_22 is a physical only instance and is ignored. This indicates that the instance is physical only (e.g. a filler/decap cell) and is in the database, but not in timing graph since physical cells do not have timing information. Verify the instance is a physical only cell to confirm that this warning can be ignored.
+Type 'man IMPCTE-291' for more detail.
+**WARN: (IMPCTE-291):	FILLER_T_7_74 is a physical only instance and is ignored. This indicates that the instance is physical only (e.g. a filler/decap cell) and is in the database, but not in timing graph since physical cells do not have timing information. Verify the instance is a physical only cell to confirm that this warning can be ignored.
+Type 'man IMPCTE-291' for more detail.
+**WARN: (IMPCTE-291):	FILLER_T_7_75 is a physical only instance and is ignored. This indicates that the instance is physical only (e.g. a filler/decap cell) and is in the database, but not in timing graph since physical cells do not have timing information. Verify the instance is a physical only cell to confirm that this warning can be ignored.
+Type 'man IMPCTE-291' for more detail.
+**WARN: (IMPCTE-291):	FILLER_T_7_76 is a physical only instance and is ignored. This indicates that the instance is physical only (e.g. a filler/decap cell) and is in the database, but not in timing graph since physical cells do not have timing information. Verify the instance is a physical only cell to confirm that this warning can be ignored.
+Type 'man IMPCTE-291' for more detail.
+**WARN: (IMPCTE-291):	FILLER_T_7_77 is a physical only instance and is ignored. This indicates that the instance is physical only (e.g. a filler/decap cell) and is in the database, but not in timing graph since physical cells do not have timing information. Verify the instance is a physical only cell to confirm that this warning can be ignored.
+Type 'man IMPCTE-291' for more detail.
+**WARN: (IMPCTE-291):	FILLER_T_7_78 is a physical only instance and is ignored. This indicates that the instance is physical only (e.g. a filler/decap cell) and is in the database, but not in timing graph since physical cells do not have timing information. Verify the instance is a physical only cell to confirm that this warning can be ignored.
+Type 'man IMPCTE-291' for more detail.
+**WARN: (IMPCTE-291):	FILLER_T_7_79 is a physical only instance and is ignored. This indicates that the instance is physical only (e.g. a filler/decap cell) and is in the database, but not in timing graph since physical cells do not have timing information. Verify the instance is a physical only cell to confirm that this warning can be ignored.
+Type 'man IMPCTE-291' for more detail.
+**WARN: (IMPCTE-291):	FILLER_T_7_80 is a physical only instance and is ignored. This indicates that the instance is physical only (e.g. a filler/decap cell) and is in the database, but not in timing graph since physical cells do not have timing information. Verify the instance is a physical only cell to confirm that this warning can be ignored.
+Type 'man IMPCTE-291' for more detail.
+**WARN: (IMPCTE-291):	FILLER_T_7_132 is a physical only instance and is ignored. This indicates that the instance is physical only (e.g. a filler/decap cell) and is in the database, but not in timing graph since physical cells do not have timing information. Verify the instance is a physical only cell to confirm that this warning can be ignored.
+Type 'man IMPCTE-291' for more detail.
+**WARN: (IMPCTE-291):	FILLER_T_7_133 is a physical only instance and is ignored. This indicates that the instance is physical only (e.g. a filler/decap cell) and is in the database, but not in timing graph since physical cells do not have timing information. Verify the instance is a physical only cell to confirm that this warning can be ignored.
+Type 'man IMPCTE-291' for more detail.
+**WARN: (IMPCTE-291):	FILLER_T_7_134 is a physical only instance and is ignored. This indicates that the instance is physical only (e.g. a filler/decap cell) and is in the database, but not in timing graph since physical cells do not have timing information. Verify the instance is a physical only cell to confirm that this warning can be ignored.
+Type 'man IMPCTE-291' for more detail.
+**WARN: (IMPCTE-291):	FILLER_T_7_135 is a physical only instance and is ignored. This indicates that the instance is physical only (e.g. a filler/decap cell) and is in the database, but not in timing graph since physical cells do not have timing information. Verify the instance is a physical only cell to confirm that this warning can be ignored.
+Type 'man IMPCTE-291' for more detail.
+**WARN: (IMPCTE-291):	FILLER_T_7_136 is a physical only instance and is ignored. This indicates that the instance is physical only (e.g. a filler/decap cell) and is in the database, but not in timing graph since physical cells do not have timing information. Verify the instance is a physical only cell to confirm that this warning can be ignored.
+Type 'man IMPCTE-291' for more detail.
+**WARN: (IMPCTE-291):	FILLER_T_7_137 is a physical only instance and is ignored. This indicates that the instance is physical only (e.g. a filler/decap cell) and is in the database, but not in timing graph since physical cells do not have timing information. Verify the instance is a physical only cell to confirm that this warning can be ignored.
+Type 'man IMPCTE-291' for more detail.
+**WARN: (IMPCTE-291):	FILLER_T_7_138 is a physical only instance and is ignored. This indicates that the instance is physical only (e.g. a filler/decap cell) and is in the database, but not in timing graph since physical cells do not have timing information. Verify the instance is a physical only cell to confirm that this warning can be ignored.
+Type 'man IMPCTE-291' for more detail.
+**WARN: (IMPCTE-291):	FILLER_T_7_190 is a physical only instance and is ignored. This indicates that the instance is physical only (e.g. a filler/decap cell) and is in the database, but not in timing graph since physical cells do not have timing information. Verify the instance is a physical only cell to confirm that this warning can be ignored.
+Type 'man IMPCTE-291' for more detail.
+**WARN: (IMPCTE-291):	FILLER_T_7_191 is a physical only instance and is ignored. This indicates that the instance is physical only (e.g. a filler/decap cell) and is in the database, but not in timing graph since physical cells do not have timing information. Verify the instance is a physical only cell to confirm that this warning can be ignored.
+Type 'man IMPCTE-291' for more detail.
+**WARN: (EMS-27):	Message (IMPCTE-291) has exceeded the current message display limit of 20.
+To increase the message display limit, refer to the product command reference manual.
+Ended Loading ip Plot.: (cpu=00:00:00:022, real=00:00:00:022, pid=7897, tid=49163)
+
+Ended Loading ip_i Plot.: (cpu=00:00:00:011, real=00:00:00:011, pid=7897, tid=49163)
+
+Ended Loading ip_s Plot.: (cpu=00:00:00:011, real=00:00:00:011, pid=7897, tid=49163)
+
+Ended Loading ip_l Plot.: (cpu=00:00:00:011, real=00:00:00:011, pid=7897, tid=49163)
+
+Ended Loading ipd Plot.: (cpu=00:00:00:011, real=00:00:00:011, pid=7897, tid=49163)
+
+Ended Loading ipd_i Plot.: (cpu=00:00:00:011, real=00:00:00:011, pid=7897, tid=49163)
+
+Ended Loading ipd_s Plot.: (cpu=00:00:00:011, real=00:00:00:011, pid=7897, tid=49163)
+
+Ended Loading ipd_l Plot.: (cpu=00:00:00:011, real=00:00:00:011, pid=7897, tid=49163)
+
+Ended Loading freq Plot.: (cpu=00:00:00:013, real=00:00:00:013, pid=7897, tid=49163)
+
+Ended Loading slack Plot.: (cpu=00:00:00:011, real=00:00:00:011, pid=7897, tid=49163)
+
+Ended Loading td Plot.: (cpu=00:00:00:011, real=00:00:00:011, pid=7897, tid=49163)
+
+Ended Loading load Plot.: (cpu=00:00:00:011, real=00:00:00:011, pid=7897, tid=49163)
+
+Ended Loading ip_clk Plot.: (cpu=00:00:00:010, real=00:00:00:010, pid=7897, tid=49163)
+
+Ended Loading ip_tr Plot.: (cpu=00:00:00:011, real=00:00:00:011, pid=7897, tid=49163)
+
+Ended Loading activity Plot.: (cpu=00:00:00:023, real=00:00:00:023, pid=7897, tid=7897)
+
+
+Ended Loading power plots in Multi-Thread mode.: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=1549.69MB/4108.78MB/2349.80MB)
+
+
+Begin reading tpd data from DB
+
+
+Ended reading tpd data from DB: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=1549.88MB/4108.78MB/2349.80MB)
+
+calculate sorted Tile based Power Density for reporting
+
+Begin Building query for Plots in Multi-Thread Mode
+
+
+Begin Initializing Node Based Data Query
+
+
+Ended Initializing Node Based Data Query: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=1549.93MB/4108.78MB/2349.80MB)
+
+
+Begin Build Node Based Data Query
+
+
+Ended Build Node Based Data Query: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=1549.93MB/4108.78MB/2349.80MB)
+
+
+Begin Set Query for ir
+
+
+Ended Set Query for ir: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=1549.96MB/4108.78MB/2349.80MB)
+
+
+Begin Initializing Element Based Data Query
+
+
+Ended Initializing Element Based Data Query: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=1549.97MB/4108.78MB/2349.80MB)
+
+
+Begin Build Element Based Data Query
+
+
+Ended Build Element Based Data Query: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=1549.98MB/4108.78MB/2349.80MB)
+
+
+Begin Set Query for rc
+
+
+Ended Set Query for rc: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=1549.98MB/4108.78MB/2349.80MB)
+
+
+Begin Initializing Sparse Node Based Data Query
+
+
+Begin Set Query for vc
+
+
+Ended Set Query for vc: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=1549.99MB/4108.78MB/2349.80MB)
+
+
+Begin Set Query for tc
+
+
+Ended Set Query for tc: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=1549.99MB/4108.78MB/2349.80MB)
+
+
+Begin Set Query for unc
+
+
+Ended Set Query for unc: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=1549.99MB/4108.78MB/2349.80MB)
+
+
+Begin Set Query for cap
+
+
+Ended Set Query for cap: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=1549.99MB/4108.78MB/2349.80MB)
+
+
+Ended Building query for Plots in Multi-Thread Mode: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=1549.99MB/4108.78MB/2349.80MB)
+
+
+Begin Preparing Data for Renders
+
+Instances Number: 29418.
+Instances Number: 29418.
+
+Begin Generating Image cache for plots
+
+
+Ended Generating Image cache for plots: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=1596.97MB/4108.78MB/2349.80MB)
+
+
+Ended Preparing Data for Renders: (cpu=0:00:00, real=0:00:00, mem(process/total/peak)=1597.05MB/4108.78MB/2349.80MB)
+
+
+Ended Loading State Directory in Local GUI mode: (cpu=0:00:01, real=0:00:01, mem(process/total/peak)=1597.05MB/4108.78MB/2349.80MB)
+
+<CMD> set_power_rail_display -plot ir
+<CMD> setLayerPreference powerNet -color {#0000ff #0010de #0020bd #00319c #00417b #00525a #006239 #007318 #088300 #299400 #4aa400 #6ab400 #8bc500 #acd500 #cde600 #eef600 #fff900 #ffed00 #ffe200 #ffd600 #ffcb00 #ffbf00 #ffb400 #ffa800 #ff9500 #ff8000 #ff6a00 #ff5500 #ff4000 #ff2a00 #ff1500 #ff0000}
+<CMD> set_power_rail_display -enable_result_browser 1
+<CMD> set_power_rail_display -range_min 0 -range_max 0.195860862732 -advance_mode false -filter_min 0
+<CMD> setLayerPreference powerNet -color {#0000ff #0010de #0020bd #00319c #00417b #00525a #006239 #007318 #088300 #299400 #4aa400 #6ab400 #8bc500 #acd500 #cde600 #eef600 #fff900 #ffed00 #ffe200 #ffd600 #ffcb00 #ffbf00 #ffb400 #ffa800 #ff9500 #ff8000 #ff6a00 #ff5500 #ff4000 #ff2a00 #ff1500 #ff0000}
+<CMD> setLayerPreference powerNet -color {#0000ff #0010de #0020bd #00319c #00417b #00525a #006239 #007318 #088300 #299400 #4aa400 #6ab400 #8bc500 #acd500 #cde600 #eef600 #fff900 #ffed00 #ffe200 #ffd600 #ffcb00 #ffbf00 #ffb400 #ffa800 #ff9500 #ff8000 #ff6a00 #ff5500 #ff4000 #ff2a00 #ff1500 #ff0000}
+<CMD> set_power_rail_display -range_min 0 -range_max 0.195860862732 -advance_mode false -filter_max 0.195860862732 -filter_min 0
+<CMD> setLayerPreference powerNet -color {#0000ff #0010de #0020bd #00319c #00417b #00525a #006239 #007318 #088300 #299400 #4aa400 #6ab400 #8bc500 #acd500 #cde600 #eef600 #fff900 #ffed00 #ffe200 #ffd600 #ffcb00 #ffbf00 #ffb400 #ffa800 #ff9500 #ff8000 #ff6a00 #ff5500 #ff4000 #ff2a00 #ff1500 #ff0000}
+<CMD> setLayerPreference powerNet -color {#0000ff #0010de #0020bd #00319c #00417b #00525a #006239 #007318 #088300 #299400 #4aa400 #6ab400 #8bc500 #acd500 #cde600 #eef600 #fff900 #ffed00 #ffe200 #ffd600 #ffcb00 #ffbf00 #ffb400 #ffa800 #ff9500 #ff8000 #ff6a00 #ff5500 #ff4000 #ff2a00 #ff1500 #ff0000}
+<CMD> set_power_rail_display -enable_result_browser 0
+<CMD> set_power_rail_display -enable_result_browser 1
+<CMD> set_power_rail_display -enable_result_browser 0
+<CMD> set_power_rail_display -range_min 0 -range_max 0.195860862732 -advance_mode false -filter_min 0
+<CMD> setLayerPreference powerNet -color {#0000ff #0010de #0020bd #00319c #00417b #00525a #006239 #007318 #088300 #299400 #4aa400 #6ab400 #8bc500 #acd500 #cde600 #eef600 #fff900 #ffed00 #ffe200 #ffd600 #ffcb00 #ffbf00 #ffb400 #ffa800 #ff9500 #ff8000 #ff6a00 #ff5500 #ff4000 #ff2a00 #ff1500 #ff0000}
+<CMD> setLayerPreference powerNet -color {#0000ff #0010de #0020bd #00319c #00417b #00525a #006239 #007318 #088300 #299400 #4aa400 #6ab400 #8bc500 #acd500 #cde600 #eef600 #fff900 #ffed00 #ffe200 #ffd600 #ffcb00 #ffbf00 #ffb400 #ffa800 #ff9500 #ff8000 #ff6a00 #ff5500 #ff4000 #ff2a00 #ff1500 #ff0000}
+<CMD> set_power_rail_display -range_min 0 -range_max 0.195860862732 -advance_mode false
+<CMD> setLayerPreference powerNet -color {#0000ff #0010de #0020bd #00319c #00417b #00525a #006239 #007318 #088300 #299400 #4aa400 #6ab400 #8bc500 #acd500 #cde600 #eef600 #fff900 #ffed00 #ffe200 #ffd600 #ffcb00 #ffbf00 #ffb400 #ffa800 #ff9500 #ff8000 #ff6a00 #ff5500 #ff4000 #ff2a00 #ff1500 #ff0000}
+<CMD> setLayerPreference powerNet -color {#0000ff #0010de #0020bd #00319c #00417b #00525a #006239 #007318 #088300 #299400 #4aa400 #6ab400 #8bc500 #acd500 #cde600 #eef600 #fff900 #ffed00 #ffe200 #ffd600 #ffcb00 #ffbf00 #ffb400 #ffa800 #ff9500 #ff8000 #ff6a00 #ff5500 #ff4000 #ff2a00 #ff1500 #ff0000}
+
+--------------------------------------------------------------------------------
+Exiting Innovus on Thu Dec  5 14:39:26 2024
+  Total CPU time:     0:05:25
+  Total real time:    1:14:24
+  Peak memory (main): 2349.80MB
+
+
+*** Memory Usage v#1 (Current mem = 2928.914M, initial mem = 284.375M) ***
+*** Message Summary: 423794 warning(s), 0 error(s)
+
+--- Ending "Innovus" (totcpu=0:05:19, real=1:14:23, mem=2928.9M) ---

@@ -1,0 +1,50 @@
+* The organization, structure, and layout of this file are copyrights and
+* confidential and proprietary trade secrets of Cadence Design Systems, Inc.,
+* subject to the terms and conditions of the license agreement in effect
+* between you and Cadence Design Systems, Inc. This file and its information
+* may not be disclosed, sold, or otherwise transferred to any third party
+* without the express written consent of Cadence Design Systems, Inc. Export
+* of any or all of this file in violation of any statute or regulation is
+* strictly prohibited.
+* 
+
+FORMAT: 11.0
+PROJECT: none
+NET: VCC 
+CREATOR: QX
+
+CREATED: 2024-Dec-05 14:10:21 (2024-Dec-05 06:10:21 GMT)
+
+LAYOUT_XMIN: -10
+LAYOUT_YMIN: -10
+LAYOUT_XMAX: 2745380
+LAYOUT_YMAX: 2745380
+
+NODES: 34042
+NODE_FILE: TopLevelPGDB_part_0_1.mnode
+RESISTORS: 42052
+INDUCTORS: 0
+
+LAYERS: 5
+LAYER: ME3_C M 1122 TopLevelPGDB_part_0_1.ml08
+LAYER: VIA2 V 1168 TopLevelPGDB_part_0_1.ml09
+LAYER: ME2_C M 8308 TopLevelPGDB_part_0_1.ml10
+LAYER: VIA1 V 7164 TopLevelPGDB_part_0_1.ml11
+LAYER: ME1_C M 24290 TopLevelPGDB_part_0_1.ml12
+
+CUT_LAYER: none
+GRID_CAP: false
+DIFF_CAP: false
+NUM_PINS: 0
+PINS: TopLevelPGDB_part_0_1.bmpin
+NUM_INSTANCE_TAPS: 29422
+INSTANCES: TopLevelPGDB_part_0_1.bminst
+I_LOADS:
+NODE_MAP:
+RESISTOR_MAP:
+TILE_FILE: TopLevelPGDB_part_0_1.mtile
+OUTPUT_WLT: drawn
+LAYOUT_SCALE_FACTOR: 1
+TEMPERATURE: 25
+BINARY_INST: true
+MICRON_UNITS: 1000

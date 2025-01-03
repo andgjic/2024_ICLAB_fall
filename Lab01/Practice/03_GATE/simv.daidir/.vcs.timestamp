@@ -1,0 +1,158 @@
+1        
+0 CORE_SYN.sdf_c
+46
++define+GATE
++itf+/usr/cad/synopsys/vcs/2022.06/linux64/lib/vcsdp_lite.tab
++neg_tchk
++v2k
++vcsd1
++vpi
+-Mamsrun=
+-Masflags=
+-Mcc=gcc
+-Mcfl= -pipe -fPIC -O -I/usr/cad/synopsys/vcs/2022.06/include
+-Mcplusplus=g++
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mexternalobj=
+-Mldflags= -rdynamic
+-Mobjects= /usr/cad/synopsys/vcs/2022.06/linux64/lib/libvirsim.so /usr/cad/synopsys/vcs/2022.06/linux64/lib/liberrorinf.so /usr/cad/synopsys/vcs/2022.06/linux64/lib/libsnpsmalloc.so /usr/cad/synopsys/vcs/2022.06/linux64/lib/libvfs.so /usr/cad/synopsys/verdi/2019.06//share/PLI/VCS/linux64/pli.a
+-Mout=simv
+-Msaverestoreobj=/usr/cad/synopsys/vcs/2022.06/linux64/lib/vcs_save_restore_new.o
+-Msyslibs=/usr/cad/synopsys/verdi/2019.06//share/PLI/VCS/LINUX64/pli.a -ldl -lm
+-Mupdate
+-Mvcsaceobjs=
+-Mxcflags= -pipe -fPIC -I/usr/cad/synopsys/vcs/2022.06/include
+-Mxllcflags=
+-P
+-P
+-Xcmopt=0x2
+-Xvcs_run_simv=1
+-debug_access+all
+-f filelist.f
+-fsdb
+-full64
+-gen_obj
+-l
+-o simv
+-picarchive
+-sverilog
+-timescale=1ns/1fs
+-v
+/usr/cad/synopsys/vcs/2022.06/linux64/bin/vcs1
+vcs.log
+simv
+/usr/cad/synopsys/verdi/2019.06//share/PLI/VCS/linux64/novas.tab
+/usr/cad/synopsys/verdi/2019.06//share/PLI/VCS/LINUX64/verdi.tab
+filelist.f
+/RAID2/COURSE/BackUp/2023_Spring/iclab/iclabta01/umc018/Verilog/umc18_neg.v
+82
+mraarch=linux_64
+installdir=/RAID2/cad/synopsys/hspice/2020.03-sp2-2/hspice
+XLOCALEDIR=/usr/cad/synopsys/icc2/2021.06-sp5//etc/locale
+XDG_SESSION_ID=514460
+XDG_RUNTIME_DIR=/run/user/11139
+VSCODE_IPC_HOOK_CLI=/run/user/11139/vscode-ipc-db90b3b1-39ae-4746-8e49-a1a8f047f84a.sock
+VSCODE_GIT_IPC_HANDLE=/run/user/11139/vscode-git-3844e157af.sock
+VSCODE_GIT_ASKPASS_NODE=/RAID2/COURSE/BackUp/2023_Spring/iclab/iclabta01/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/node
+VSCODE_GIT_ASKPASS_MAIN=/RAID2/COURSE/BackUp/2023_Spring/iclab/iclabta01/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/extensions/git/dist/askpass-main.js
+VSCODE_GIT_ASKPASS_EXTRA_ARGS=
+VMR_MODE_FLAG=64
+VERDI_HOME=/usr/cad/synopsys/verdi/2019.06/
+VENDOR=unknown
+VC_STATIC_HOME=/usr/cad/synopsys/vc_formal/cur/
+VCS_PATHMAP_PRELOAD_DONE=1
+VCS_MX_HOME_INTERNAL=1
+VCS_MODE_FLAG=64
+VCS_LOG_FILE=vcs.log
+VCS_HOME=/usr/cad/synopsys/vcs/2022.06
+VCS_EXEC_DONE=1
+VCS_DEPTH=0
+VCS_CC=gcc
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH=linux64
+UNAME=/bin/uname
+TOOL_HOME=/usr/cad/synopsys/vcs/2022.06/linux64
+TMIARCH=RH_64
+TERM_PROGRAM_VERSION=1.86.1
+TERM_PROGRAM=vscode
+SYN_MAN_DIR=/usr/cad/synopsys/star-rcxt/2019.12-sp5-3//starrc/man
+SYNOPSYS_NCX_ROOT=/usr/cad/synopsys/star-rcxt/2019.12-sp5-3/
+SYNOPSYS_LC_ROOT=/cad/synopsys/lc/cur
+SYNOPSYS=/usr/cad/synopsys/synthesis/cur/
+SSH_CONNECTION=140.113.212.114 60949 140.113.201.33 415
+SSH_CLIENT=140.113.212.114 60949 415
+SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass
+SPAPI_AHDL_INCLUDE=/RAID2/cad/synopsys/hspice/2020.03-sp2-2/hspice/include
+SNPS_VCS_CLANG_PATH=/usr/cad/synopsys/vcs/2022.06/linux64/clang
+SNPS_PLATFORM=linux64
+SNPS_INTERNAL_VCS_LINUX_OS=linux
+SNPS_64=1
+SHLIB_PATH=/usr/cad/synopsys/verdi/2019.06//etc/lib/libstdc++/LINUX64/:/usr/cad/synopsys/verdi/2019.06//share/PLI/lib/LINUX64/:/usr/cad/synopsys/verdi/2019.06//share/PLI/VCS/LINUX64/:
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+POWERVIEW_64=1
+OVA_UUM=0
+OSTYPE=linux
+MGLS_LICENSE_FILE=1717@lshc
+MGC_TMPDIR=/tmp
+MGC_LOCATION_MAP=NO_MAP
+MGC_HOME=/usr/cad/mentor/calibre/aoi_cal_2019.2_26.18/
+MFLAGS=
+MAKE_TERMOUT=/dev/pts/10
+MAKE_TERMERR=/dev/pts/10
+MAKELEVEL=1
+MAKEFLAGS=
+Laker_TCL_ToolBox=1
+Laker_TCL_L3=1
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+LC_ALL=C
+JGOLD_dir=/RAID2/eda/jasper_2021.03/
+ICV_HOME_DIR=/usr/cad/synopsys/icvalidator/2021.06-sp2/
+HSP_SIGMA_AMP=/RAID2/cad/synopsys/hspice/2020.03-sp2-2/hspice/linux64/python/Omega/Omega
+HSP_HOME=/RAID2/cad/synopsys/hspice/2020.03-sp2-2/hspice
+HSP_GCC_VERSION=7.3.0
+HSP_GCC=/RAID2/cad/synopsys/hspice/2020.03-sp2-2/hspice/GNU/linux64/gcc/bin/gcc -m64 
+HOSTTYPE=x86_64-linux
+GROUP=windows415
+GIT_ASKPASS=/RAID2/COURSE/BackUp/2023_Spring/iclab/iclabta01/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/extensions/git/dist/askpass.sh
+FINEWAVE_64=1
+FINESIM_64=1
+DEBUGINFOD_URLS=https://debuginfod.centos.org/
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/11139/bus
+COLORTERM=truecolor
+CMIARCH=RH_64
+CDS_Netlisting_Mode=Analog
+CDS_LOAD_ENV=CSF
+CDS_AUTO_64BIT=ALL
+CDSHOME=/usr/cad/cadence/IC/IC_06.18.250
+CDPL_HOME=/RAID2/cad/synopsys/hspice/2020.03-sp2-2/hspice/cdpl
+CALIBRE_HOME=/usr/cad/mentor/calibre/aoi_cal_2019.2_26.18/
+ARCH=linux64
+0
+0
+10
+1708703247 CORE_SYN.sdf
+1708703247 ../02_SYN/Netlist/CORE_SYN.sdf
+1690227684 /RAID2/COURSE/BackUp/2023_Spring/iclab/iclabta01/umc018/Verilog/umc18_neg.v
+1708703247 CORE_SYN.v
+1708703247 ../02_SYN/Netlist/CORE_SYN.v
+1708592788 PATTERN.v
+1708592788 ../00_TESTBED/PATTERN.v
+1690227684 /RAID2/COURSE/BackUp/2023_Spring/iclab/iclabta01/umc018/Verilog/umc18_neg.v
+1708594480 TESTBED.v
+1708594480 ../00_TESTBED/TESTBED.v
+1708594563 filelist.f
+1708594563 ../00_TESTBED/filelist.f
+1661464871 /usr/cad/synopsys/verdi/2019.06//share/PLI/VCS/LINUX64/verdi.tab
+1661464871 /usr/cad/synopsys/verdi/2019.06//share/PLI/VCS/linux64/novas.tab
+1654052745 /usr/cad/synopsys/vcs/2022.06/linux64/lib/vcsdp_lite.tab
+5
+1654054205 /usr/cad/synopsys/vcs/2022.06/linux64/lib/libvirsim.so
+1654053585 /usr/cad/synopsys/vcs/2022.06/linux64/lib/liberrorinf.so
+1654053489 /usr/cad/synopsys/vcs/2022.06/linux64/lib/libsnpsmalloc.so
+1654053565 /usr/cad/synopsys/vcs/2022.06/linux64/lib/libvfs.so
+1661464871 /usr/cad/synopsys/verdi/2019.06//share/PLI/VCS/linux64/pli.a
+1708703308 simv.daidir
+-1 partitionlib

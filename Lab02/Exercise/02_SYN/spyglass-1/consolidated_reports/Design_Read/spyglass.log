@@ -1,0 +1,288 @@
+SpyGlass run started at 10:25:26 AM on Sep 20 2024 
+
+SpyGlass Predictive Analyzer(R) - Version SpyGlass_vU-2023.03
+Synopsys TestMAX(TM)
+SpyGlass Fault Analysis
+Last compiled on Feb 28 2023
+
+All Rights Reserved. Use, disclosure or duplication
+without prior written permission of Synopsys Inc. is prohibited.
+Technical support: email spyglass_support@synopsys.com.
+
+
+Running SpyGlass 64-bit Executable: /RAID2/cad/synopsys/spyglass/2023.03/SPYGLASS_HOME/obj/check.Linux4
+
+RULE-CHECKING IN MIXED MODE
+Loading Policy: spyglass (Version: SpyGlass_vU-2023.03) from path: /RAID2/cad/synopsys/spyglass/2023.03/SPYGLASS_HOME/policies/spyglass
+Loading Shared library libspyglassrules-Linux4.spyso from /RAID2/cad/synopsys/spyglass/2023.03/SPYGLASS_HOME/lib/libspyglassrules-Linux4.spyso 
+Loading Shared library libsdcInitRules-Linux4.spyso from /RAID2/cad/synopsys/spyglass/2023.03/SPYGLASS_HOME/lib/libsdcInitRules-Linux4.spyso 
+Loading Shared library librmerules-Linux4.spyso from /RAID2/cad/synopsys/spyglass/2023.03/SPYGLASS_HOME/lib/librmerules-Linux4.spyso 
+##build_id : U-2023.03
+##system   : Linux ee23 3.10.0-1160.88.1.el7.x86_64 #1 SMP Tue Mar 7 15:41:52 UTC 2023 x86_64
+##cwd      : /RAID2/COURSE/iclab/iclab131/Lab02/Exercise/02_SYN
+##lang     : Verilog+VHDL
+##args     : -mSpyGlass::Compatibility::v2_7_3 \
+             -mSpyGlass::Compatibility::v2_7_3 \
+             -mSpyGlass::Compatibility::v2_7_3 \
+             -nl \
+             -lib WORK ./spyglass-1/WORK \
+             -wdir './spyglass-1/Design_Read' \
+             -mixed \
+             -policy='none' \
+             -batch \
+             --goal_info 'Design_Read@' \
+             -templatedir '/RAID2/cad/synopsys/spyglass/2023.03/SPYGLASS_HOME/auxi/policy_data/spyglass/design_read' \
+             -projectwdir './spyglass-1' \
+             --template_info 'Design_Read' \
+             -64bit  \
+             ../01_RTL/BB.v
+
+##verbosity level   : 2
+##exact cmdline arg : -batch -project spyglass-1.prj -designread  -64bit
+##spyglass_run.csh begins :
+;	cd /RAID2/COURSE/iclab/iclab131/Lab02/Exercise/02_SYN
+;	setenv SPYGLASS_LD_PRELOAD /RAID2/cad/synopsys/spyglass/2023.03/SPYGLASS_HOME/lib/libreplacemalloc.so
+;	setenv SPYGLASS_DW_PATH /RAID2/cad/synopsys/spyglass/2023.03/SPYGLASS_HOME/dw_support
+;	/RAID2/cad/synopsys/spyglass/2023.03/SPYGLASS_HOME/bin/spyglass  -batch -project spyglass-1.prj -designread  -64bit
+##spyglass_run.csh ends
+##files    : ../01_RTL/BB.v 
+
+
+INFO [76]    Using './spyglass-1/WORK/64' as the Work Directory for 64bit precompiled dump.
+Checking Rule ZeroSizeFile (Rule 1 of total 123) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PrecompileLibCheck01 (Rule 2 of total 123) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PrecompileLibCheck02 (Rule 3 of total 123) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PrecompileLibCheck03 (Rule 4 of total 123) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule PrecompileLibCheck04 (Rule 5 of total 123) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule AbstractInterface (Rule 6 of total 123) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule ReportObsoleteRules (Rule 7 of total 123) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule ReportDeprecatedRules (Rule 8 of total 123) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_assume_path01 (Rule 9 of total 123) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_sdcschema02 (Rule 10 of total 123) .... done (Time = 0.00s, Memory = 32.0K)
+Checking Rule SGDC_clock05 (Rule 11 of total 123) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_clock09 (Rule 12 of total 123) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_force_ta05 (Rule 13 of total 123) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_require_path03 (Rule 14 of total 123) .... done (Time = 0.00s, Memory = 8.0K)
+Checking Rule SGDC_require_value03 (Rule 15 of total 123) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_voltagedomain05 (Rule 16 of total 123) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_voltagedomain06 (Rule 17 of total 123) .... done (Time = 0.00s, Memory = 8.0K)
+Checking Rule SGDC_voltagedomain07 (Rule 18 of total 123) .... done (Time = 0.00s, Memory = 8.0K)
+Checking Rule SGDC_powerdomainoutputs02 (Rule 19 of total 123) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_supply01 (Rule 20 of total 123) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive01 (Rule 21 of total 123) .... done (Time = 0.00s, Memory = 8.0K)
+Checking Rule SGDC_waive02 (Rule 22 of total 123) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive03 (Rule 23 of total 123) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive04 (Rule 24 of total 123) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive05 (Rule 25 of total 123) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive06 (Rule 26 of total 123) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive07 (Rule 27 of total 123) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive08 (Rule 28 of total 123) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive09 (Rule 29 of total 123) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive10 (Rule 30 of total 123) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive11 (Rule 31 of total 123) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive12 (Rule 32 of total 123) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive13 (Rule 33 of total 123) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive21 (Rule 34 of total 123) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive22 (Rule 35 of total 123) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive30 (Rule 36 of total 123) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive32 (Rule 37 of total 123) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive33 (Rule 38 of total 123) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive36 (Rule 39 of total 123) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive38 (Rule 40 of total 123) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_fifo01 (Rule 41 of total 123) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_libgroup01 (Rule 42 of total 123) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_libgroup02 (Rule 43 of total 123) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_libgroup04 (Rule 44 of total 123) .... done (Time = 0.00s, Memory = 8.0K)
+Checking Rule SGDC_power_data01 (Rule 45 of total 123) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_ungroup01 (Rule 46 of total 123) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port06 (Rule 47 of total 123) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_abstract_port14 (Rule 48 of total 123) .... done (Time = 0.00s, Memory = 8.0K)
+Checking Rule SGDC_abstract_port15 (Rule 49 of total 123) .... done (Time = 0.00s, Memory = 8.0K)
+Checking Rule SGDC_abstract_port18 (Rule 50 of total 123) .... done (Time = 0.00s, Memory = 8.0K)
+Checking Rule sdc_init_rule (Rule 51 of total 123) .... done (Time = 0.00s, Memory = 80.0K)
+Checking Rule CMD_ignorelibs01 (Rule 52 of total 123) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule ReportRuleNotRun (Rule 53 of total 123) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule ReportStopSummary (Rule 54 of total 123) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule ReportIgnoreSummary (Rule 55 of total 123) .... done (Time = 0.00s, Memory = 0.0K)
+##SGDEBUG [BENCHMARK_ABSOLUTE]: Analysis started: 1 sec, 0.99 sec, 572028 KB, 2322644 KB
+##SGDEBUG [BENCHMARK_INCR]: Analysis started: 1 sec, 0.99 sec, 572028 KB, 2322644 KB
+ Analyzing source file "../01_RTL/BB.v" ....
+##SGDEBUG [BENCHMARK_ABSOLUTE]: Analysis finished: 1 sec, 1.01 sec, 572052 KB, 2322644 KB
+##SGDEBUG [BENCHMARK_INCR]: Analysis finished: 0 sec, 0.02 sec, 24 KB, 0 KB
+##SGDEBUG [BENCHMARK_ABSOLUTE]: Elaboration started: 1 sec, 1.01 sec, 572052 KB, 2322644 KB
+##SGDEBUG [BENCHMARK_INCR]: Elaboration started: 0 sec, 0.00 sec, 0 KB, 0 KB
+ Elaborating Top Verilog Design Unit 'BB' .....
+ done
+##SGDEBUG [BENCHMARK_ABSOLUTE]: Elaboration finished: 1 sec, 1.01 sec, 637756 KB, 2388196 KB
+##SGDEBUG [BENCHMARK_INCR]: Elaboration finished: 0 sec, 0.00 sec, 65704 KB, 65552 KB
+##SGDEBUG [BENCHMARK_ABSOLUTE]: RTL Semantic Checker started: 1 sec, 1.01 sec, 637756 KB, 2388196 KB
+##SGDEBUG [BENCHMARK_INCR]: RTL Semantic Checker started: 0 sec, 0.00 sec, 0 KB, 0 KB
+##SGDEBUG [BENCHMARK_ABSOLUTE]: RTL Semantic Checker finished: 1 sec, 1.01 sec, 637764 KB, 2388196 KB
+##SGDEBUG [BENCHMARK_INCR]: RTL Semantic Checker finished: 0 sec, 0.00 sec, 8 KB, 0 KB
+Checking Rule ElabSummary (Rule 56 of total 123) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule ReportCheckDataSummary (Rule 57 of total 123) .... done (Time = 0.00s, Memory = 0.0K)
+ Reading waiver file "./spyglass-1/Design_Read/spyglass_spysch/constraint/spg_autogenerated_waivers.sgdc" ...
+ Generating SGDC file "./spyglass-1/Design_Read/spyglass_spysch/constraint/pragma2Constraint.sgdc" from pragmas in HDL source files ....
+ Generating WAIVER file "./spyglass-1/Design_Read/spyglass_spysch/waiver/pragma2Waiver.swl" from pragmas in HDL source files ....
+Checking Rule SGDC_waive37 (Rule 58 of total 123) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule DetectTopDesignUnits (Rule 59 of total 123) Detected 1 top level design units: 
+     BB
+ .... done (Time = 0.00s, Memory = 0.0K)
+Performing semantic checks on SGDC contents
+..... SGDC semantic checks completed. (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_testmode03 (Rule 60 of total 123) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule ReportObsoletePragmas (Rule 61 of total 123) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule GenerateConfMap (Rule 62 of total 123) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule HdlLibDuCheck (Rule 63 of total 123) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule RtlDesignInfo (Rule 64 of total 123)
+##SGDEBUG [BENCHMARK_DATA]: Number of RTL Design Units = 1
+##SGDEBUG: RTL statistics for Verilog design units:
+##SGDEBUG[BENCHMARK_DATA]: RTL Ports = 10 28 5
+##SGDEBUG[BENCHMARK_DATA]: RTL Insts = 0
+##SGDEBUG[BENCHMARK_DATA]: RTL Nets = 8 24 8
+##SGDEBUG[BENCHMARK_DATA]: RTL Terms = 0 0 0
+
+##SGDEBUG: NOTE: Following estimated data is applicable for structural designs only.
+##SGDEBUG:     In case of RTL designs, this data may differ significantly from the actual figure.
+##SGDEBUG[BENCHMARK_DATA]: Estimated Flat Insts = 1
+##SGDEBUG[BENCHMARK_DATA]: Estimated Flat Nets = 0
+##SGDEBUG[BENCHMARK_DATA]: Estimated Flat Terms = 28
+##SGDEBUG[BENCHMARK_DATA]: Estimated Flat Paths = 0
+ .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule CheckCelldefine (Rule 65 of total 123) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive23 (Rule 66 of total 123) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive26 (Rule 67 of total 123) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive27 (Rule 68 of total 123) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive29 (Rule 69 of total 123) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive24 (Rule 70 of total 123) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive25 (Rule 71 of total 123) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive31 (Rule 72 of total 123) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule SGDC_waive35 (Rule 73 of total 123) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule checkCMD_mthresh (Rule 74 of total 123) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule AnalyzeBBox (Rule 75 of total 123) .... done (Time = 0.00s, Memory = 0.0K)
+Checking Rule ReportCheckDataSummary (Rule 57 of total 123) .... done (Time = 0.00s, Memory = 0.0K)
+
+Generating data for Console...
+##SGDEBUG [PEAK_VMSIZE_END_RULE]: 2388196 KB for entire run at 'Elaboration finished' stage
+##SGDEBUG [PEAK_SWAP_MEMORY_END_RULE]: 0 KB for entire run
+##SGDEBUG [VMPEAK_MEMORY]: 2388220 KB for entire run
+##SGDEBUG [PEAK_RSS_MEMORY]: 393012 KB for entire run
+##SGDEBUG [BENCHMARK_ABSOLUTE]: Rule checking finished: 1 sec, 1.91 sec, 638620 KB, 2388188 KB
+##SGDEBUG [BENCHMARK_INCR]: Rule checking finished: 0 sec, 0.90 sec, 856 KB, -8 KB
+
+
+=====================================================================================
+							Rule Parameter Table
+=====================================================================================
+
+	PARAMETER-NAME                                     VALUE                DEFAULT VALUE
+-------------------------------------------------------------------------------------
+	-allow_clock_on_output_port                        no                   no
+	-check_clock_group_violations                      no                   no
+	-debug_proc                                        no                   no
+	-force_genclk_for_txv                              no                   no
+	-library_gen_clock_naming                          yes                  yes
+	-netlist_clock_polarity                            yes                  yes
+	-populate_comboelements_for_minmax_in_fromto       no                   no
+	-post_clock_group_population                       no                   no
+	-preserve_path                                     no                   no
+	-pt                                                no                   yes
+	-show_all_sdc_violations                           no                   no
+	-show_sdc_progress                                 no                   no
+	-suppress_sdc_violation_in_abstract                no                   no
+	-tc_cache_empty_collections                        no                   no
+	-tc_disable_caching                                no                   no
+	-tc_disable_ignored_command_dump                   yes                  yes
+	-tc_enable_sdc_393                                 no                   no
+	-tc_ignored_commands                               unspecified          unspecified
+	-tc_stop_parsing_ignored_commands                  yes                  yes
+	-truncate_through                                  yes                  yes
+	-write_sdc                                         no                   no
+=====================================================================================
+
+
+
+=====================================================================================
+                               Rule Status Table
+
+ RULE-NAME                      POLICY-NAME     ENABLED VIOL-CNT RULE-TYPE   ERROR-MSG         
+=====================================================================================
+ ElabSummary                    SpyGlass        Yes            1 SETUP          -               
+ DetectTopDesignUnits           SpyGlass        Yes            1 RTLALLDULIST   -               
+-------------------------------------------------------------------------------------
+Note: VSDU type of rules (as seen in the above table) are not run on
+      unsynthesized modules reported by 'ErrorAnalyzeBBox/InfoAnalyzeBBox' messages
+      (Please see messages starting with keyword 'UnsynthesizedDU')
+
+##status : SpyGlass Rule Checking Complete.
+
+---------------------------------------------------------------------------------------------
+Results Summary:
+---------------------------------------------------------------------------------------------
+   Goal Run           :      Design_Read
+   Command-line read  :      0 error,      0 warning,      0 information message 
+   Design Read        :      0 error,      0 warning,      2 information messages
+      Found 1 top module:
+         BB   (file: ../01_RTL/BB.v)
+
+   Blackbox Resolution:      0 error,      0 warning,      0 information message 
+   SGDC Checks        :      0 error,      0 warning,      0 information message 
+   -------------------------------------------------------------------------------------
+   Total              :      0 error,      0 warning,      2 information messages
+
+  Total Number of Generated Messages     :         2 (0 error, 0 warning, 2 Infos)
+  Number of Reported Messages            :         2 (0 error, 0 warning, 2 Infos)
+
+---------------------------------------------------------------------------------------------
+
+
+
+SpyGlass Rule Checking Complete.
+
+Generating moresimple report from './spyglass-1/Design_Read/spyglass.vdb' to './spyglass-1/Design_Read/spyglass_reports/moresimple.rpt' ....
+
+Generating runsummary report from './spyglass-1/Design_Read/spyglass.vdb' ....
+
+Generating no_msg_reporting_rules report from './spyglass-1/Design_Read/spyglass.vdb' to './spyglass-1/Design_Read/spyglass_reports/no_msg_reporting_rules.rpt' ....
+
+Policy specific data (reports) are present in the directory './spyglass-1/Design_Read/spyglass_reports'.
+
+SpyGlass critical reports for the current run are present in directory './spyglass-1/consolidated_reports/Design_Read/'.
+
+
+---------------------------------------------------------------------------------------------------
+Results Summary:
+---------------------------------------------------------------------------------------------------
+   Goal Run           :      Design_Read
+   Top Module         :      BB
+---------------------------------------------------------------------------------------------------
+   Reports Directory: 
+   /RAID2/COURSE/iclab/iclab131/Lab02/Exercise/02_SYN/spyglass-1/consolidated_reports/Design_Read/ 
+
+   SpyGlass LogFile: 
+    /RAID2/COURSE/iclab/iclab131/Lab02/Exercise/02_SYN/spyglass-1/Design_Read/spyglass.log 
+
+   Standard Reports: 
+     moresimple.rpt          no_msg_reporting_rules.rpt       
+
+   HTML report:
+     <Not Available>
+  
+
+   Technology Reports:  
+     <Not Available>
+   
+   
+---------------------------------------------------------------------------------------------------
+   Goal Violation Summary:
+       Waived   Messages:                      0 Errors,      0 Warnings,      0 Infos
+       Reported Messages:         0 Fatals,    0 Errors,      0 Warnings,      2 Infos
+---------------------------------------------------------------------------------------------------
+   
+---------------------------------------------------------------------------------------------------
+ 
+SpyGlass Exit Code 0 (Rule-checking completed without errors or warnings)
+SpyGlass total run-time is 00:03:33 (213 secs)
+SpyGlass total goal run-time is 00:00:03 (3 secs)
+SpyGlass total cpu-time is 1 secs
+SpyGlass run completed at 10:28:59 AM on Sep 20 2024

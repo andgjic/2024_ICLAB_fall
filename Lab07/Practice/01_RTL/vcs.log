@@ -1,0 +1,40 @@
+Command: vcs -timescale=1ns/1fs -j8 -sverilog +v2k -full64 -Mupdate -R -debug_access+all \
+-y /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ +libext+.v -f filelist.f -o simv -l \
+vcs.log -P /usr/cad/synopsys/verdi/2019.06//share/PLI/VCS/linux64/novas.tab /usr/cad/synopsys/verdi/2019.06//share/PLI/VCS/linux64/pli.a \
++define+RTL +define+CYCLE_TIME_clk3=20.8 +notimingchecks
+*** Using c compiler gcc instead of cc ...
+                         Chronologic VCS (TM)
+         Version T-2022.06_Full64 -- Tue Apr  2 20:14:36 2024
+
+                    Copyright (c) 1991 - 2022 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Parsing design file 'TESTBED.v'
+Parsing included file 'PATTERN.v'.
+Parsing included file 'CONV.v'.
+Parsing included file 'synchronizer.v'.
+Back to file 'CONV.v'.
+Parsing included file 'syn_XOR.v'.
+Back to file 'CONV.v'.
+
+Error-[SE] Syntax error
+  Following verilog source has syntax error :
+  "CONV.v", 63: token is 'end'
+  	end 
+             ^
+
+1 error
+CPU time: .169 seconds to compile

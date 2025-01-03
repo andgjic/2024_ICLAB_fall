@@ -1,0 +1,9 @@
+#@ # 
+#@ # Running lc_shell Version T-2022.03 for linux64 -- Feb 22, 2022
+#@ # Date:   Wed Oct  9 21:08:13 2024
+#@ # Run by: iclab131@ee23
+#@ 
+
+read_lib MEM_gray_max_WC.lib
+write_lib MEM_gray_max_WC -output MEM_gray_max_WC.db
+exit

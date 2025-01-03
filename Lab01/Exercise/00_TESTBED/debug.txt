@@ -1,0 +1,3989 @@
+Pattern: 0
+card num: X
+Money you have: 91
+Total price
+26 70 55 169 18 54 63 5  
+Sorted price
+169 70 63 55 54 26 18 5 
+
+Pattern: 1
+card num: O
+Money you have: 23
+Total price
+4 45 96 90 40 154 98 45  
+Sorted price
+154 98 96 90 45 45 40 4 
+
+Pattern: 2
+card num: O
+Money you have: 83
+
+
+
+
+Total price
+33 39 63 182 13 26 104 52  
+Sorted price
+182 104 63 52 39 33 26 13 
+
+Pattern: 3
+card num: X
+Money you have: 398
+Total price
+99 8 16 22 88 18 60 14  
+Sorted price
+99 88 60 22 18 16 14 8 
+
+Pattern: 4
+card num: X
+Money you have: 493
+Total price
+84 11 156 135 22 84 64 40  
+Sorted price
+156 135 84 84 64 40 22 11 
+
+Pattern: 5
+card num: X
+Money you have: 61
+Total price
+90 18 35 64 42 6 78 96  
+Sorted price
+96 90 78 64 42 35 18 6 
+
+Pattern: 6
+card num: X
+Money you have: 401
+Total price
+96 90 168 75 12 30 130 140  
+Sorted price
+168 140 130 96 90 75 30 12 
+
+Pattern: 7
+card num: O
+Money you have: 506
+Total price
+32 14 14 32 48 99 18 45  
+Sorted price
+99 48 45 32 32 18 14 14 
+
+Pattern: 8
+card num: O
+Money you have: 411
+Total price
+135 105 182 3 96 156 24 140  
+Sorted price
+182 156 140 135 105 96 24 3 
+
+Pattern: 9
+card num: O
+Money you have: 124
+Total price
+2 126 168 56 98 8 25 14  
+Sorted price
+168 126 98 56 25 14 8 2 
+
+Pattern: 10
+card num: X
+Money you have: 41
+Total price
+120 144 84 20 20 28 2 180  
+Sorted price
+180 144 120 84 28 20 20 2 
+
+Pattern: 11
+card num: X
+Money you have: 423
+Total price
+14 120 70 196 121 72 210 30  
+Sorted price
+210 196 121 120 72 70 30 14 
+
+Pattern: 12
+card num: O
+Money you have: 440
+Total price
+33 165 72 80 20 14 14 120  
+Sorted price
+165 120 80 72 33 20 14 14 
+
+Pattern: 13
+card num: X
+Money you have: 83
+Total price
+150 55 6 40 32 70 21 90  
+Sorted price
+150 90 70 55 40 32 21 6 
+
+Pattern: 14
+card num: O
+Money you have: 70
+Total price
+4 105 110 75 99 20 8 35  
+Sorted price
+110 105 99 75 35 20 8 4 
+
+Pattern: 15
+card num: X
+Money you have: 19
+Total price
+32 36 2 15 6 45 52 60  
+Sorted price
+60 52 45 36 32 15 6 2 
+
+Pattern: 16
+card num: X
+Money you have: 75
+Total price
+30 91 60 90 90 110 10 16  
+Sorted price
+110 91 90 90 60 30 16 10 
+
+Pattern: 17
+card num: X
+Money you have: 446
+Total price
+24 70 14 105 84 24 20 10  
+Sorted price
+105 84 70 24 24 20 14 10 
+
+Pattern: 18
+card num: O
+Money you have: 92
+Total price
+30 39 36 88 10 12 196 126  
+Sorted price
+196 126 88 39 36 30 12 10 
+
+Pattern: 19
+card num: O
+Money you have: 92
+Total price
+60 44 140 45 65 110 40 44  
+Sorted price
+140 110 65 60 45 44 44 40 
+
+Pattern: 20
+card num: O
+Money you have: 499
+Total price
+15 7 165 70 60 66 63 84  
+Sorted price
+165 84 70 66 63 60 15 7 
+
+Pattern: 21
+card num: X
+Money you have: 489
+Total price
+24 10 26 126 40 13 9 70  
+Sorted price
+126 70 40 26 24 13 10 9 
+
+Pattern: 22
+card num: O
+Money you have: 331
+Total price
+36 150 4 196 105 6 54 24  
+Sorted price
+196 150 105 54 36 24 6 4 
+
+Pattern: 23
+card num: O
+Money you have: 131
+Total price
+36 135 42 121 80 91 169 35  
+Sorted price
+169 135 121 91 80 42 36 35 
+
+Pattern: 24
+card num: X
+Money you have: 277
+Total price
+81 55 210 16 36 14 154 70  
+Sorted price
+210 154 81 70 55 36 16 14 
+
+Pattern: 25
+card num: O
+Money you have: 491
+Total price
+6 154 54 40 156 40 45 12  
+Sorted price
+156 154 54 45 40 40 12 6 
+
+Pattern: 26
+card num: X
+Money you have: 326
+Total price
+156 104 66 33 120 110 72 72  
+Sorted price
+156 120 110 104 72 72 66 33 
+
+Pattern: 27
+card num: O
+Money you have: 359
+Total price
+30 44 42 80 90 126 5 54  
+Sorted price
+126 90 80 54 44 42 30 5 
+
+Pattern: 28
+card num: O
+Money you have: 209
+Total price
+8 112 48 156 120 108 12 28  
+Sorted price
+156 120 112 108 48 28 12 8 
+
+Pattern: 29
+card num: X
+Money you have: 469
+Total price
+36 26 18 16 100 168 84 110  
+Sorted price
+168 110 100 84 36 26 18 16 
+
+Pattern: 30
+card num: X
+Money you have: 20
+Total price
+42 210 144 144 45 10 156 12  
+Sorted price
+210 156 144 144 45 42 12 10 
+
+Pattern: 31
+card num: X
+Money you have: 456
+Total price
+14 75 108 72 96 55 20 45  
+Sorted price
+108 96 75 72 55 45 20 14 
+
+Pattern: 32
+card num: O
+Money you have: 348
+Total price
+120 28 28 2 98 126 28 143  
+Sorted price
+143 126 120 98 28 28 28 2 
+
+Pattern: 33
+card num: X
+Money you have: 487
+Total price
+8 150 96 156 24 90 4 36  
+Sorted price
+156 150 96 90 36 24 8 4 
+
+Pattern: 34
+card num: O
+Money you have: 103
+Total price
+98 121 18 16 28 10 35 30  
+Sorted price
+121 98 35 30 28 18 16 10 
+
+Pattern: 35
+card num: X
+Money you have: 103
+Total price
+35 77 45 8 64 126 90 36  
+Sorted price
+126 90 77 64 45 36 35 8 
+
+Pattern: 36
+card num: O
+Money you have: 296
+Total price
+20 150 84 90 48 48 15 18  
+Sorted price
+150 90 84 48 48 20 18 15 
+
+Pattern: 37
+card num: O
+Money you have: 317
+Total price
+12 195 90 70 10 26 112 24  
+Sorted price
+195 112 90 70 26 24 12 10 
+
+Pattern: 38
+card num: X
+Money you have: 122
+Total price
+25 225 27 24 81 180 77 154  
+Sorted price
+225 180 154 81 77 27 25 24 
+
+Pattern: 39
+card num: X
+Money you have: 403
+Total price
+30 70 16 30 9 24 60 1  
+Sorted price
+70 60 30 30 24 16 9 1 
+
+Pattern: 40
+card num: O
+Money you have: 334
+Total price
+30 8 143 45 18 91 28 12  
+Sorted price
+143 91 45 30 28 18 12 8 
+
+Pattern: 41
+card num: O
+Money you have: 232
+Total price
+169 60 12 15 169 75 110 70  
+Sorted price
+169 169 110 75 70 60 15 12 
+
+Pattern: 42
+card num: X
+Money you have: 244
+Total price
+24 12 55 16 154 8 48 6  
+Sorted price
+154 55 48 24 16 12 8 6 
+
+Pattern: 43
+card num: O
+Money you have: 237
+Total price
+40 65 42 104 4 210 18 154  
+Sorted price
+210 154 104 65 42 40 18 4 
+
+Pattern: 44
+card num: X
+Money you have: 359
+Total price
+55 135 66 18 21 180 180 18  
+Sorted price
+180 180 135 66 55 21 18 18 
+
+Pattern: 45
+card num: O
+Money you have: 452
+Total price
+16 70 5 45 112 130 9 48  
+Sorted price
+130 112 70 48 45 16 9 5 
+
+Pattern: 46
+card num: O
+Money you have: 66
+Total price
+6 33 10 20 32 100 16 75  
+Sorted price
+100 75 33 32 20 16 10 6 
+
+Pattern: 47
+card num: X
+Money you have: 436
+Total price
+180 195 52 88 70 22 135 48  
+Sorted price
+195 180 135 88 70 52 48 22 
+
+Pattern: 48
+card num: X
+Money you have: 302
+Total price
+16 84 36 24 56 110 72 56  
+Sorted price
+110 84 72 56 56 36 24 16 
+
+Pattern: 49
+card num: X
+Money you have: 11
+Total price
+9 6 6 18 72 20 27 90  
+Sorted price
+90 72 27 20 18 9 6 6 
+
+Pattern: 50
+card num: O
+Money you have: 259
+Total price
+143 91 28 10 35 21 44 1  
+Sorted price
+143 91 44 35 28 21 10 1 
+
+Pattern: 51
+card num: X
+Money you have: 99
+Total price
+11 77 72 28 21 35 156 108  
+Sorted price
+156 108 77 72 35 28 21 11 
+
+Pattern: 52
+card num: O
+Money you have: 458
+Total price
+55 16 30 156 55 24 98 24  
+Sorted price
+156 98 55 55 30 24 24 16 
+
+Pattern: 53
+card num: X
+Money you have: 425
+Total price
+2 72 16 54 42 126 39 36  
+Sorted price
+126 72 54 42 39 36 16 2 
+
+Pattern: 54
+card num: X
+Money you have: 351
+Total price
+49 7 165 42 121 154 39 70  
+Sorted price
+165 154 121 70 49 42 39 7 
+
+Pattern: 55
+card num: O
+Money you have: 86
+Total price
+27 40 16 154 117 105 33 45  
+Sorted price
+154 117 105 45 40 33 27 16 
+
+Pattern: 56
+card num: X
+Money you have: 356
+Total price
+21 154 45 65 16 88 88 78  
+Sorted price
+154 88 88 78 65 45 21 16 
+
+Pattern: 57
+card num: X
+Money you have: 121
+Total price
+60 168 70 24 28 84 30 120  
+Sorted price
+168 120 84 70 60 30 28 24 
+
+Pattern: 58
+card num: X
+Money you have: 144
+Total price
+40 24 98 78 13 10 15 8  
+Sorted price
+98 78 40 24 15 13 10 8 
+
+Pattern: 59
+card num: O
+Money you have: 312
+Total price
+24 120 7 9 45 156 18 30  
+Sorted price
+156 120 45 30 24 18 9 7 
+
+Pattern: 60
+card num: O
+Money you have: 354
+Total price
+84 130 55 99 32 6 36 81  
+Sorted price
+130 99 84 81 55 36 32 6 
+
+Pattern: 61
+card num: O
+Money you have: 325
+Total price
+96 26 20 56 36 84 24 24  
+Sorted price
+96 84 56 36 26 24 24 20 
+
+Pattern: 62
+card num: X
+Money you have: 20
+Total price
+88 120 49 104 22 195 84 24  
+Sorted price
+195 120 104 88 84 49 24 22 
+
+Pattern: 63
+card num: O
+Money you have: 505
+Total price
+100 132 13 90 81 5 84 120  
+Sorted price
+132 120 100 90 84 81 13 5 
+
+Pattern: 64
+card num: O
+Money you have: 510
+Total price
+54 36 60 42 15 48 72 112  
+Sorted price
+112 72 60 54 48 42 36 15 
+
+Pattern: 65
+card num: X
+Money you have: 147
+Total price
+168 9 90 28 28 18 3 44  
+Sorted price
+168 90 44 28 28 18 9 3 
+
+Pattern: 66
+card num: O
+Money you have: 236
+Total price
+30 99 195 84 90 60 182 30  
+Sorted price
+195 182 99 90 84 60 30 30 
+
+Pattern: 67
+card num: O
+Money you have: 6
+Total price
+110 20 11 14 12 56 120 66  
+Sorted price
+120 110 66 56 20 14 12 11 
+
+Pattern: 68
+card num: X
+Money you have: 274
+Total price
+18 36 169 154 27 75 140 18  
+Sorted price
+169 154 140 75 36 27 18 18 
+
+Pattern: 69
+card num: X
+Money you have: 194
+Total price
+42 156 165 98 77 75 24 24  
+Sorted price
+165 156 98 77 75 42 24 24 
+
+Pattern: 70
+card num: X
+Money you have: 235
+Total price
+45 165 32 10 96 42 27 66  
+Sorted price
+165 96 66 45 42 32 27 10 
+
+Pattern: 71
+card num: O
+Money you have: 348
+Total price
+8 130 24 8 150 20 108 54  
+Sorted price
+150 130 108 54 24 20 8 8 
+
+Pattern: 72
+card num: O
+Money you have: 351
+Total price
+54 182 42 36 70 12 55 24  
+Sorted price
+182 70 55 54 42 36 24 12 
+
+Pattern: 73
+card num: O
+Money you have: 386
+Total price
+195 60 81 4 16 35 12 36  
+Sorted price
+195 81 60 36 35 16 12 4 
+
+Pattern: 74
+card num: X
+Money you have: 101
+Total price
+210 18 30 7 7 55 33 39  
+Sorted price
+210 55 39 33 30 18 7 7 
+
+Pattern: 75
+card num: O
+Money you have: 210
+Total price
+110 45 70 10 8 36 15 66  
+Sorted price
+110 70 66 45 36 15 10 8 
+
+Pattern: 76
+card num: X
+Money you have: 221
+Total price
+24 195 24 80 40 24 99 63  
+Sorted price
+195 99 80 63 40 24 24 24 
+
+Pattern: 77
+card num: O
+Money you have: 153
+Total price
+12 8 96 210 132 135 48 56  
+Sorted price
+210 135 132 96 56 48 12 8 
+
+Pattern: 78
+card num: O
+Money you have: 414
+Total price
+70 132 3 5 7 132 8 120  
+Sorted price
+132 132 120 70 8 7 5 3 
+
+Pattern: 79
+card num: O
+Money you have: 451
+Total price
+56 104 15 24 132 13 154 12  
+Sorted price
+154 132 104 56 24 15 13 12 
+
+Pattern: 80
+card num: O
+Money you have: 270
+Total price
+112 30 180 120 18 70 80 48  
+Sorted price
+180 120 112 80 70 48 30 18 
+
+Pattern: 81
+card num: X
+Money you have: 349
+Total price
+77 81 84 42 112 108 52 33  
+Sorted price
+112 108 84 81 77 52 42 33 
+
+Pattern: 82
+card num: O
+Money you have: 451
+Total price
+12 10 42 20 8 98 36 18  
+Sorted price
+98 42 36 20 18 12 10 8 
+
+Pattern: 83
+card num: X
+Money you have: 353
+Total price
+8 55 10 81 108 12 28 150  
+Sorted price
+150 108 81 55 28 12 10 8 
+
+Pattern: 84
+card num: O
+Money you have: 244
+Total price
+20 24 13 11 52 84 130 70  
+Sorted price
+130 84 70 52 24 20 13 11 
+
+Pattern: 85
+card num: O
+Money you have: 488
+Total price
+154 91 60 42 168 88 88 30  
+Sorted price
+168 154 91 88 88 60 42 30 
+
+Pattern: 86
+card num: X
+Money you have: 10
+Total price
+48 120 48 32 20 91 100 42  
+Sorted price
+120 100 91 48 48 42 32 20 
+
+Pattern: 87
+card num: X
+Money you have: 98
+Total price
+120 78 24 48 28 144 165 143  
+Sorted price
+165 144 143 120 78 48 28 24 
+
+Pattern: 88
+card num: O
+Money you have: 383
+Total price
+15 120 165 28 135 15 30 48  
+Sorted price
+165 135 120 48 30 28 15 15 
+
+Pattern: 89
+card num: O
+Money you have: 212
+Total price
+24 28 18 26 24 150 35 112  
+Sorted price
+150 112 35 28 26 24 24 18 
+
+Pattern: 90
+card num: O
+Money you have: 180
+Total price
+39 30 81 144 18 27 14 3  
+Sorted price
+144 81 39 30 27 18 14 3 
+
+Pattern: 91
+card num: O
+Money you have: 113
+Total price
+42 130 96 55 21 32 154 49  
+Sorted price
+154 130 96 55 49 42 32 21 
+
+Pattern: 92
+card num: O
+Money you have: 441
+Total price
+99 72 30 16 56 12 78 42  
+Sorted price
+99 78 72 56 42 30 16 12 
+
+Pattern: 93
+card num: X
+Money you have: 454
+Total price
+4 20 120 195 22 13 50 39  
+Sorted price
+195 120 50 39 22 20 13 4 
+
+Pattern: 94
+card num: O
+Money you have: 130
+Total price
+18 60 24 72 28 80 30 14  
+Sorted price
+80 72 60 30 28 24 18 14 
+
+Pattern: 95
+card num: X
+Money you have: 448
+Total price
+52 24 4 24 54 20 195 165  
+Sorted price
+195 165 54 52 24 24 20 4 
+
+Pattern: 96
+card num: X
+Money you have: 485
+Total price
+99 63 182 20 28 45 49 27  
+Sorted price
+182 99 63 49 45 28 27 20 
+
+Pattern: 97
+card num: O
+Money you have: 416
+Total price
+40 99 24 24 112 28 10 13  
+Sorted price
+112 99 40 28 24 24 13 10 
+
+Pattern: 98
+card num: X
+Money you have: 349
+Total price
+56 132 24 3 60 5 60 70  
+Sorted price
+132 70 60 60 56 24 5 3 
+
+Pattern: 99
+card num: X
+Money you have: 186
+Total price
+26 7 3 36 110 60 45 11  
+Sorted price
+110 60 45 36 26 11 7 3 
+
+Pattern: 100
+card num: X
+Money you have: 123
+Total price
+36 78 156 77 110 165 54 70  
+Sorted price
+165 156 110 78 77 70 54 36 
+
+Pattern: 101
+card num: O
+Money you have: 389
+Total price
+180 90 90 21 180 3 91 22  
+Sorted price
+180 180 91 90 90 22 21 3 
+
+Pattern: 102
+card num: X
+Money you have: 117
+Total price
+27 6 20 28 60 105 135 48  
+Sorted price
+135 105 60 48 28 27 20 6 
+
+Pattern: 103
+card num: O
+Money you have: 449
+Total price
+121 84 20 63 50 54 195 11  
+Sorted price
+195 121 84 63 54 50 20 11 
+
+Pattern: 104
+card num: O
+Money you have: 194
+Total price
+108 6 84 4 44 126 8 7  
+Sorted price
+126 108 84 44 8 7 6 4 
+
+Pattern: 105
+card num: O
+Money you have: 177
+Total price
+9 144 42 33 20 24 96 104  
+Sorted price
+144 104 96 42 33 24 20 9 
+
+Pattern: 106
+card num: O
+Money you have: 251
+Total price
+117 168 143 20 18 3 33 60  
+Sorted price
+168 143 117 60 33 20 18 3 
+
+Pattern: 107
+card num: O
+Money you have: 419
+Total price
+104 63 4 60 80 84 98 21  
+Sorted price
+104 98 84 80 63 60 21 4 
+
+Pattern: 108
+card num: X
+Money you have: 332
+Total price
+10 49 210 52 104 15 126 154  
+Sorted price
+210 154 126 104 52 49 15 10 
+
+Pattern: 109
+card num: X
+Money you have: 180
+Total price
+40 8 140 14 8 40 52 42  
+Sorted price
+140 52 42 40 40 14 8 8 
+
+Pattern: 110
+card num: X
+Money you have: 313
+Total price
+98 12 195 140 195 135 7 120  
+Sorted price
+195 195 140 135 120 98 12 7 
+
+Pattern: 111
+card num: X
+Money you have: 87
+Total price
+4 60 36 45 72 30 117 75  
+Sorted price
+117 75 72 60 45 36 30 4 
+
+Pattern: 112
+card num: X
+Money you have: 153
+Total price
+4 12 6 52 13 42 63 84  
+Sorted price
+84 63 52 42 13 12 6 4 
+
+Pattern: 113
+card num: X
+Money you have: 205
+Total price
+182 14 14 42 52 9 60 15  
+Sorted price
+182 60 52 42 15 14 14 9 
+
+Pattern: 114
+card num: O
+Money you have: 251
+Total price
+56 70 182 35 120 65 50 168  
+Sorted price
+182 168 120 70 65 56 50 35 
+
+Pattern: 115
+card num: X
+Money you have: 215
+Total price
+70 2 18 11 22 132 18 50  
+Sorted price
+132 70 50 22 18 18 11 2 
+
+Pattern: 116
+card num: X
+Money you have: 92
+Total price
+60 40 6 195 28 30 14 9  
+Sorted price
+195 60 40 30 28 14 9 6 
+
+Pattern: 117
+card num: X
+Money you have: 329
+Total price
+117 84 108 3 28 56 22 42  
+Sorted price
+117 108 84 56 42 28 22 3 
+
+Pattern: 118
+card num: X
+Money you have: 155
+Total price
+75 84 24 64 150 12 108 3  
+Sorted price
+150 108 84 75 64 24 12 3 
+
+Pattern: 119
+card num: X
+Money you have: 369
+Total price
+135 165 28 80 120 24 26 15  
+Sorted price
+165 135 120 80 28 26 24 15 
+
+Pattern: 120
+card num: X
+Money you have: 322
+Total price
+24 11 169 65 143 7 48 12  
+Sorted price
+169 143 65 48 24 12 11 7 
+
+Pattern: 121
+card num: X
+Money you have: 406
+Total price
+40 7 10 20 60 48 165 99  
+Sorted price
+165 99 60 48 40 20 10 7 
+
+Pattern: 122
+card num: O
+Money you have: 473
+Total price
+4 20 42 2 90 9 30 18  
+Sorted price
+90 42 30 20 18 9 4 2 
+
+Pattern: 123
+card num: X
+Money you have: 28
+Total price
+36 56 20 88 40 72 90 48  
+Sorted price
+90 88 72 56 48 40 36 20 
+
+Pattern: 124
+card num: O
+Money you have: 165
+Total price
+70 15 60 13 24 9 10 18  
+Sorted price
+70 60 24 18 15 13 10 9 
+
+Pattern: 125
+card num: X
+Money you have: 149
+Total price
+18 12 24 60 30 3 44 80  
+Sorted price
+80 60 44 30 24 18 12 3 
+
+Pattern: 126
+card num: X
+Money you have: 352
+Total price
+196 45 12 14 96 70 12 45  
+Sorted price
+196 96 70 45 45 14 12 12 
+
+Pattern: 127
+card num: O
+Money you have: 93
+Total price
+5 54 110 45 60 8 75 154  
+Sorted price
+154 110 75 60 54 45 8 5 
+
+Pattern: 128
+card num: O
+Money you have: 106
+Total price
+143 45 36 15 132 60 48 56  
+Sorted price
+143 132 60 56 48 45 36 15 
+
+Pattern: 129
+card num: O
+Money you have: 228
+Total price
+50 8 156 98 6 120 30 130  
+Sorted price
+156 130 120 98 50 30 8 6 
+
+Pattern: 130
+card num: X
+Money you have: 467
+Total price
+165 72 48 99 75 143 15 72  
+Sorted price
+165 143 99 75 72 72 48 15 
+
+Pattern: 131
+card num: O
+Money you have: 305
+Total price
+98 182 132 156 91 5 21 9  
+Sorted price
+182 156 132 98 91 21 9 5 
+
+Pattern: 132
+card num: X
+Money you have: 283
+Total price
+130 126 169 99 35 70 45 84  
+Sorted price
+169 130 126 99 84 70 45 35 
+
+Pattern: 133
+card num: O
+Money you have: 42
+Total price
+126 54 11 70 156 24 60 28  
+Sorted price
+156 126 70 60 54 28 24 11 
+
+Pattern: 134
+card num: X
+Money you have: 455
+Total price
+63 75 14 143 60 56 13 65  
+Sorted price
+143 75 65 63 60 56 14 13 
+
+Pattern: 135
+card num: O
+Money you have: 333
+Total price
+126 126 30 12 24 196 126 112  
+Sorted price
+196 126 126 126 112 30 24 12 
+
+Pattern: 136
+card num: X
+Money you have: 199
+Total price
+126 72 11 182 15 9 100 225  
+Sorted price
+225 182 126 100 72 15 11 9 
+
+Pattern: 137
+card num: O
+Money you have: 488
+Total price
+104 210 96 8 104 165 144 120  
+Sorted price
+210 165 144 120 104 104 96 8 
+
+Pattern: 138
+card num: O
+Money you have: 36
+Total price
+10 65 28 8 195 35 72 75  
+Sorted price
+195 75 72 65 35 28 10 8 
+
+Pattern: 139
+card num: X
+Money you have: 477
+Total price
+150 30 64 70 30 55 12 75  
+Sorted price
+150 75 70 64 55 30 30 12 
+
+Pattern: 140
+card num: O
+Money you have: 459
+Total price
+105 33 28 36 18 14 5 105  
+Sorted price
+105 105 36 33 28 18 14 5 
+
+Pattern: 141
+card num: O
+Money you have: 423
+Total price
+66 39 14 36 48 72 210 36  
+Sorted price
+210 72 66 48 39 36 36 14 
+
+Pattern: 142
+card num: O
+Money you have: 480
+Total price
+18 14 30 24 3 60 112 56  
+Sorted price
+112 60 56 30 24 18 14 3 
+
+Pattern: 143
+card num: X
+Money you have: 310
+Total price
+21 9 10 165 40 63 27 3  
+Sorted price
+165 63 40 27 21 10 9 3 
+
+Pattern: 144
+card num: X
+Money you have: 129
+Total price
+10 56 72 60 104 168 12 24  
+Sorted price
+168 104 72 60 56 24 12 10 
+
+Pattern: 145
+card num: X
+Money you have: 200
+Total price
+12 108 30 110 11 80 52 44  
+Sorted price
+110 108 80 52 44 30 12 11 
+
+Pattern: 146
+card num: O
+Money you have: 45
+Total price
+30 143 130 42 21 84 121 84  
+Sorted price
+143 130 121 84 84 42 30 21 
+
+Pattern: 147
+card num: O
+Money you have: 122
+Total price
+28 90 52 65 45 5 50 63  
+Sorted price
+90 65 63 52 50 45 28 5 
+
+Pattern: 148
+card num: O
+Money you have: 396
+Total price
+45 20 18 42 156 15 30 132  
+Sorted price
+156 132 45 42 30 20 18 15 
+
+Pattern: 149
+card num: X
+Money you have: 287
+Total price
+143 30 90 48 63 55 121 32  
+Sorted price
+143 121 90 63 55 48 32 30 
+
+Pattern: 150
+card num: O
+Money you have: 332
+Total price
+150 144 50 56 50 77 210 182  
+Sorted price
+210 182 150 144 77 56 50 50 
+
+Pattern: 151
+card num: X
+Money you have: 359
+Total price
+13 18 140 9 135 126 6 5  
+Sorted price
+140 135 126 18 13 9 6 5 
+
+Pattern: 152
+card num: X
+Money you have: 148
+Total price
+30 35 210 27 40 135 11 90  
+Sorted price
+210 135 90 40 35 30 27 11 
+
+Pattern: 153
+card num: O
+Money you have: 500
+Total price
+77 15 24 11 52 70 20 112  
+Sorted price
+112 77 70 52 24 20 15 11 
+
+Pattern: 154
+card num: O
+Money you have: 453
+Total price
+96 55 2 8 10 35 45 42  
+Sorted price
+96 55 45 42 35 10 8 2 
+
+Pattern: 155
+card num: X
+Money you have: 390
+Total price
+156 16 78 77 54 48 40 84  
+Sorted price
+156 84 78 77 54 48 40 16 
+
+Pattern: 156
+card num: X
+Money you have: 221
+Total price
+30 4 78 8 91 80 108 100  
+Sorted price
+108 100 91 80 78 30 8 4 
+
+Pattern: 157
+card num: O
+Money you have: 269
+Total price
+45 120 16 13 150 156 105 12  
+Sorted price
+156 150 120 105 45 16 13 12 
+
+Pattern: 158
+card num: X
+Money you have: 264
+Total price
+42 21 12 140 55 120 20 182  
+Sorted price
+182 140 120 55 42 21 20 12 
+
+Pattern: 159
+card num: O
+Money you have: 465
+Total price
+28 8 75 45 81 2 182 36  
+Sorted price
+182 81 75 45 36 28 8 2 
+
+Pattern: 160
+card num: X
+Money you have: 77
+Total price
+84 22 4 2 108 33 88 16  
+Sorted price
+108 88 84 33 22 16 4 2 
+
+Pattern: 161
+card num: X
+Money you have: 336
+Total price
+44 3 12 28 28 36 24 9  
+Sorted price
+44 36 28 28 24 12 9 3 
+
+Pattern: 162
+card num: O
+Money you have: 76
+Total price
+66 24 10 24 32 18 48 4  
+Sorted price
+66 48 32 24 24 18 10 4 
+
+Pattern: 163
+card num: X
+Money you have: 290
+Total price
+77 12 12 24 196 28 9 24  
+Sorted price
+196 77 28 24 24 12 12 9 
+
+Pattern: 164
+card num: O
+Money you have: 505
+Total price
+39 54 75 40 30 11 36 13  
+Sorted price
+75 54 40 39 36 30 13 11 
+
+Pattern: 165
+card num: X
+Money you have: 158
+Total price
+18 120 54 66 12 24 39 96  
+Sorted price
+120 96 66 54 39 24 18 12 
+
+Pattern: 166
+card num: X
+Money you have: 229
+Total price
+30 5 48 18 144 44 28 180  
+Sorted price
+180 144 48 44 30 28 18 5 
+
+Pattern: 167
+card num: O
+Money you have: 224
+Total price
+112 32 26 54 14 56 22 182  
+Sorted price
+182 112 56 54 32 26 22 14 
+
+Pattern: 168
+card num: O
+Money you have: 454
+Total price
+18 36 154 22 80 30 130 75  
+Sorted price
+154 130 80 75 36 30 22 18 
+
+Pattern: 169
+card num: O
+Money you have: 241
+Total price
+14 36 135 70 70 25 7 36  
+Sorted price
+135 70 70 36 36 25 14 7 
+
+Pattern: 170
+card num: O
+Money you have: 262
+Total price
+44 168 168 20 9 121 24 40  
+Sorted price
+168 168 121 44 40 24 20 9 
+
+Pattern: 171
+card num: O
+Money you have: 427
+Total price
+44 104 48 24 27 21 156 88  
+Sorted price
+156 104 88 48 44 27 24 21 
+
+Pattern: 172
+card num: O
+Money you have: 46
+Total price
+39 165 88 144 168 56 54 72  
+Sorted price
+168 165 144 88 72 56 54 39 
+
+Pattern: 173
+card num: X
+Money you have: 341
+Total price
+1 195 154 36 72 33 18 126  
+Sorted price
+195 154 126 72 36 33 18 1 
+
+Pattern: 174
+card num: O
+Money you have: 285
+Total price
+165 20 4 9 21 80 196 15  
+Sorted price
+196 165 80 21 20 15 9 4 
+
+Pattern: 175
+card num: X
+Money you have: 154
+Total price
+72 20 65 15 24 24 91 60  
+Sorted price
+91 72 65 60 24 24 20 15 
+
+Pattern: 176
+card num: O
+Money you have: 313
+Total price
+117 42 36 75 24 140 10 143  
+Sorted price
+143 140 117 75 42 36 24 10 
+
+Pattern: 177
+card num: O
+Money you have: 27
+Total price
+14 27 40 27 28 112 100 132  
+Sorted price
+132 112 100 40 28 27 27 14 
+
+Pattern: 178
+card num: O
+Money you have: 169
+Total price
+96 27 16 20 81 24 48 24  
+Sorted price
+96 81 48 27 24 24 20 16 
+
+Pattern: 179
+card num: X
+Money you have: 374
+Total price
+156 35 105 63 150 27 4 70  
+Sorted price
+156 150 105 70 63 35 27 4 
+
+Pattern: 180
+card num: X
+Money you have: 479
+Total price
+49 66 96 28 120 99 120 84  
+Sorted price
+120 120 99 96 84 66 49 28 
+
+Pattern: 181
+card num: X
+Money you have: 187
+Total price
+40 42 75 40 28 22 16 54  
+Sorted price
+75 54 42 40 40 28 22 16 
+
+Pattern: 182
+card num: O
+Money you have: 327
+Total price
+195 16 18 225 135 98 8 24  
+Sorted price
+225 195 135 98 24 18 16 8 
+
+Pattern: 183
+card num: X
+Money you have: 345
+Total price
+36 72 105 72 45 2 72 90  
+Sorted price
+105 90 72 72 72 45 36 2 
+
+Pattern: 184
+card num: X
+Money you have: 385
+Total price
+35 15 20 154 4 4 70 16  
+Sorted price
+154 70 35 20 16 15 4 4 
+
+Pattern: 185
+card num: X
+Money you have: 40
+Total price
+110 24 13 2 56 90 143 16  
+Sorted price
+143 110 90 56 24 16 13 2 
+
+Pattern: 186
+card num: O
+Money you have: 144
+Total price
+44 11 45 108 55 28 182 12  
+Sorted price
+182 108 55 45 44 28 12 11 
+
+Pattern: 187
+card num: O
+Money you have: 279
+Total price
+132 9 104 140 84 13 84 55  
+Sorted price
+140 132 104 84 84 55 13 9 
+
+Pattern: 188
+card num: O
+Money you have: 498
+Total price
+56 60 30 50 55 27 18 26  
+Sorted price
+60 56 55 50 30 27 26 18 
+
+Pattern: 189
+card num: X
+Money you have: 344
+Total price
+88 15 210 48 90 60 126 28  
+Sorted price
+210 126 90 88 60 48 28 15 
+
+Pattern: 190
+card num: O
+Money you have: 356
+Total price
+32 45 182 140 110 55 30 48  
+Sorted price
+182 140 110 55 48 45 32 30 
+
+Pattern: 191
+card num: O
+Money you have: 255
+Total price
+75 33 20 195 54 40 195 98  
+Sorted price
+195 195 98 75 54 40 33 20 
+
+Pattern: 192
+card num: X
+Money you have: 106
+Total price
+21 45 132 4 180 144 13 55  
+Sorted price
+180 144 132 55 45 21 13 4 
+
+Pattern: 193
+card num: X
+Money you have: 146
+Total price
+12 20 35 54 40 8 77 120  
+Sorted price
+120 77 54 40 35 20 12 8 
+
+Pattern: 194
+card num: X
+Money you have: 250
+Total price
+77 5 14 21 90 14 5 80  
+Sorted price
+90 80 77 21 14 14 5 5 
+
+Pattern: 195
+card num: X
+Money you have: 356
+Total price
+48 96 16 72 120 90 154 15  
+Sorted price
+154 120 96 90 72 48 16 15 
+
+Pattern: 196
+card num: O
+Money you have: 160
+Total price
+11 132 25 5 18 169 112 54  
+Sorted price
+169 132 112 54 25 18 11 5 
+
+Pattern: 197
+card num: O
+Money you have: 338
+Total price
+120 65 48 90 168 112 96 100  
+Sorted price
+168 120 112 100 96 90 65 48 
+
+Pattern: 198
+card num: X
+Money you have: 170
+Total price
+168 25 36 75 33 36 14 45  
+Sorted price
+168 75 45 36 36 33 25 14 
+
+Pattern: 199
+card num: X
+Money you have: 301
+Total price
+36 117 140 7 22 99 110 14  
+Sorted price
+140 117 110 99 36 22 14 7 
+
+Pattern: 200
+card num: X
+Money you have: 261
+Total price
+140 88 117 30 96 112 54 156  
+Sorted price
+156 140 117 112 96 88 54 30 
+
+Pattern: 201
+card num: X
+Money you have: 436
+Total price
+81 150 90 150 28 40 180 15  
+Sorted price
+180 150 150 90 81 40 28 15 
+
+Pattern: 202
+card num: X
+Money you have: 180
+Total price
+143 110 26 168 156 132 77 30  
+Sorted price
+168 156 143 132 110 77 30 26 
+
+Pattern: 203
+card num: O
+Money you have: 467
+Total price
+42 42 65 9 60 18 12 72  
+Sorted price
+72 65 60 42 42 18 12 9 
+
+Pattern: 204
+card num: O
+Money you have: 32
+Total price
+182 16 14 9 40 70 7 135  
+Sorted price
+182 135 70 40 16 14 9 7 
+
+Pattern: 205
+card num: X
+Money you have: 76
+Total price
+196 40 120 12 14 81 156 105  
+Sorted price
+196 156 120 105 81 40 14 12 
+
+Pattern: 206
+card num: O
+Money you have: 41
+Total price
+84 30 70 45 36 112 26 48  
+Sorted price
+112 84 70 48 45 36 30 26 
+
+Pattern: 207
+card num: O
+Money you have: 292
+Total price
+18 44 70 196 27 14 130 60  
+Sorted price
+196 130 70 60 44 27 18 14 
+
+Pattern: 208
+card num: X
+Money you have: 428
+Total price
+28 182 90 54 28 60 49 4  
+Sorted price
+182 90 60 54 49 28 28 4 
+
+Pattern: 209
+card num: X
+Money you have: 461
+Total price
+30 7 35 1 108 196 12 98  
+Sorted price
+196 108 98 35 30 12 7 1 
+
+Pattern: 210
+card num: O
+Money you have: 486
+Total price
+2 104 4 15 70 65 12 16  
+Sorted price
+104 70 65 16 15 12 4 2 
+
+Pattern: 211
+card num: O
+Money you have: 72
+Total price
+11 144 36 65 20 105 21 3  
+Sorted price
+144 105 65 36 21 20 11 3 
+
+Pattern: 212
+card num: O
+Money you have: 214
+Total price
+143 195 5 24 20 24 90 60  
+Sorted price
+195 143 90 60 24 24 20 5 
+
+Pattern: 213
+card num: O
+Money you have: 86
+Total price
+195 8 32 10 32 12 72 18  
+Sorted price
+195 72 32 32 18 12 10 8 
+
+Pattern: 214
+card num: X
+Money you have: 423
+Total price
+30 135 66 20 30 72 168 36  
+Sorted price
+168 135 72 66 36 30 30 20 
+
+Pattern: 215
+card num: X
+Money you have: 182
+Total price
+32 120 77 210 11 143 50 110  
+Sorted price
+210 143 120 110 77 50 32 11 
+
+Pattern: 216
+card num: O
+Money you have: 131
+Total price
+110 168 126 18 27 42 72 143  
+Sorted price
+168 143 126 110 72 42 27 18 
+
+Pattern: 217
+card num: X
+Money you have: 250
+Total price
+66 12 1 66 72 70 99 24  
+Sorted price
+99 72 70 66 66 24 12 1 
+
+Pattern: 218
+card num: O
+Money you have: 364
+Total price
+14 25 10 54 77 80 55 48  
+Sorted price
+80 77 55 54 48 25 14 10 
+
+Pattern: 219
+card num: O
+Money you have: 437
+Total price
+32 36 165 120 11 52 50 15  
+Sorted price
+165 120 52 50 36 32 15 11 
+
+Pattern: 220
+card num: X
+Money you have: 423
+Total price
+45 30 42 104 2 60 108 91  
+Sorted price
+108 104 91 60 45 42 30 2 
+
+Pattern: 221
+card num: O
+Money you have: 86
+Total price
+36 7 8 144 91 120 210 225  
+Sorted price
+225 210 144 120 91 36 8 7 
+
+Pattern: 222
+card num: O
+Money you have: 13
+Total price
+27 40 72 6 105 64 72 42  
+Sorted price
+105 72 72 64 42 40 27 6 
+
+Pattern: 223
+card num: X
+Money you have: 458
+Total price
+105 150 24 88 14 196 100 24  
+Sorted price
+196 150 105 100 88 24 24 14 
+
+Pattern: 224
+card num: O
+Money you have: 39
+Total price
+36 1 4 54 14 28 1 30  
+Sorted price
+54 36 30 28 14 4 1 1 
+
+Pattern: 225
+card num: O
+Money you have: 426
+Total price
+90 196 7 65 56 180 20 14  
+Sorted price
+196 180 90 65 56 20 14 7 
+
+Pattern: 226
+card num: X
+Money you have: 12
+Total price
+8 143 14 150 48 91 90 135  
+Sorted price
+150 143 135 91 90 48 14 8 
+
+Pattern: 227
+card num: O
+Money you have: 99
+Total price
+165 80 6 120 6 7 84 16  
+Sorted price
+165 120 84 80 16 7 6 6 
+
+Pattern: 228
+card num: O
+Money you have: 77
+Total price
+14 70 26 48 36 96 7 126  
+Sorted price
+126 96 70 48 36 26 14 7 
+
+Pattern: 229
+card num: O
+Money you have: 432
+Total price
+75 65 26 24 49 154 120 104  
+Sorted price
+154 120 104 75 65 49 26 24 
+
+Pattern: 230
+card num: X
+Money you have: 350
+Total price
+150 143 78 70 150 56 36 3  
+Sorted price
+150 150 143 78 70 56 36 3 
+
+Pattern: 231
+card num: O
+Money you have: 65
+Total price
+72 40 15 20 81 154 165 88  
+Sorted price
+165 154 88 81 72 40 20 15 
+
+Pattern: 232
+card num: X
+Money you have: 474
+Total price
+72 143 3 108 7 30 91 72  
+Sorted price
+143 108 91 72 72 30 7 3 
+
+Pattern: 233
+card num: X
+Money you have: 92
+Total price
+91 143 78 56 120 150 16 90  
+Sorted price
+150 143 120 91 90 78 56 16 
+
+Pattern: 234
+card num: O
+Money you have: 118
+Total price
+165 48 195 88 7 60 40 10  
+Sorted price
+195 165 88 60 48 40 10 7 
+
+Pattern: 235
+card num: O
+Money you have: 474
+Total price
+40 132 55 88 35 56 6 168  
+Sorted price
+168 132 88 56 55 40 35 6 
+
+Pattern: 236
+card num: X
+Money you have: 47
+Total price
+180 45 182 6 78 72 132 120  
+Sorted price
+182 180 132 120 78 72 45 6 
+
+Pattern: 237
+card num: X
+Money you have: 154
+Total price
+39 6 30 15 28 6 24 42  
+Sorted price
+42 39 30 28 24 15 6 6 
+
+Pattern: 238
+card num: O
+Money you have: 184
+Total price
+60 70 165 63 132 33 88 77  
+Sorted price
+165 132 88 77 70 63 60 33 
+
+Pattern: 239
+card num: X
+Money you have: 491
+Total price
+3 40 33 12 35 60 84 12  
+Sorted price
+84 60 40 35 33 12 12 3 
+
+Pattern: 240
+card num: O
+Money you have: 202
+Total price
+6 150 70 4 120 26 6 54  
+Sorted price
+150 120 70 54 26 6 6 4 
+
+Pattern: 241
+card num: X
+Money you have: 460
+Total price
+14 5 28 20 20 70 4 18  
+Sorted price
+70 28 20 20 18 14 5 4 
+
+Pattern: 242
+card num: O
+Money you have: 72
+Total price
+42 154 44 48 80 8 112 144  
+Sorted price
+154 144 112 80 48 44 42 8 
+
+Pattern: 243
+card num: X
+Money you have: 172
+Total price
+80 105 10 42 88 66 72 100  
+Sorted price
+105 100 88 80 72 66 42 10 
+
+Pattern: 244
+card num: X
+Money you have: 26
+Total price
+154 130 9 70 65 40 12 30  
+Sorted price
+154 130 70 65 40 30 12 9 
+
+Pattern: 245
+card num: X
+Money you have: 418
+Total price
+18 8 154 80 13 30 120 182  
+Sorted price
+182 154 120 80 30 18 13 8 
+
+Pattern: 246
+card num: O
+Money you have: 243
+Total price
+196 39 72 72 132 8 33 22  
+Sorted price
+196 132 72 72 39 33 22 8 
+
+Pattern: 247
+card num: O
+Money you have: 324
+Total price
+30 60 90 22 12 182 9 44  
+Sorted price
+182 90 60 44 30 22 12 9 
+
+Pattern: 248
+card num: O
+Money you have: 297
+Total price
+126 140 98 28 10 60 25 165  
+Sorted price
+165 140 126 98 60 28 25 10 
+
+Pattern: 249
+card num: X
+Money you have: 19
+Total price
+84 154 210 49 121 75 81 15  
+Sorted price
+210 154 121 84 81 75 49 15 
+
+Pattern: 250
+card num: X
+Money you have: 497
+Total price
+98 4 24 70 60 70 3 7  
+Sorted price
+98 70 70 60 24 7 4 3 
+
+Pattern: 251
+card num: X
+Money you have: 337
+Total price
+150 30 72 14 50 120 20 11  
+Sorted price
+150 120 72 50 30 20 14 11 
+
+Pattern: 252
+card num: X
+Money you have: 19
+Total price
+168 180 195 24 16 25 169 16  
+Sorted price
+195 180 169 168 25 24 16 16 
+
+Pattern: 253
+card num: X
+Money you have: 130
+Total price
+50 30 12 24 20 5 42 10  
+Sorted price
+50 42 30 24 20 12 10 5 
+
+Pattern: 254
+card num: X
+Money you have: 323
+Total price
+112 28 180 120 132 40 24 30  
+Sorted price
+180 132 120 112 40 30 28 24 
+
+Pattern: 255
+card num: X
+Money you have: 263
+Total price
+24 84 24 96 195 225 195 45  
+Sorted price
+225 195 195 96 84 45 24 24 
+
+Pattern: 256
+card num: X
+Money you have: 166
+Total price
+12 39 13 9 18 40 10 6  
+Sorted price
+40 39 18 13 12 10 9 6 
+
+Pattern: 257
+card num: O
+Money you have: 498
+Total price
+104 40 210 24 120 126 180 126  
+Sorted price
+210 180 126 126 120 104 40 24 
+
+Pattern: 258
+card num: O
+Money you have: 15
+Total price
+90 12 40 14 25 104 18 36  
+Sorted price
+104 90 40 36 25 18 14 12 
+
+Pattern: 259
+card num: O
+Money you have: 32
+Total price
+24 210 117 45 165 63 180 56  
+Sorted price
+210 180 165 117 63 56 45 24 
+
+Pattern: 260
+card num: X
+Money you have: 131
+Total price
+140 56 33 26 10 117 30 65  
+Sorted price
+140 117 65 56 33 30 26 10 
+
+Pattern: 261
+card num: X
+Money you have: 4
+Total price
+42 8 16 9 75 52 56 52  
+Sorted price
+75 56 52 52 42 16 9 8 
+
+Pattern: 262
+card num: X
+Money you have: 422
+Total price
+156 3 84 130 132 40 4 30  
+Sorted price
+156 132 130 84 40 30 4 3 
+
+Pattern: 263
+card num: O
+Money you have: 372
+Total price
+120 90 27 49 24 88 135 110  
+Sorted price
+135 120 110 90 88 49 27 24 
+
+Pattern: 264
+card num: X
+Money you have: 79
+Total price
+156 6 126 100 42 10 36 48  
+Sorted price
+156 126 100 48 42 36 10 6 
+
+Pattern: 265
+card num: O
+Money you have: 246
+Total price
+210 28 144 165 120 14 99 42  
+Sorted price
+210 165 144 120 99 42 28 14 
+
+Pattern: 266
+card num: O
+Money you have: 57
+Total price
+45 120 11 28 22 5 30 3  
+Sorted price
+120 45 30 28 22 11 5 3 
+
+Pattern: 267
+card num: X
+Money you have: 389
+Total price
+10 32 56 21 88 24 135 22  
+Sorted price
+135 88 56 32 24 22 21 10 
+
+Pattern: 268
+card num: O
+Money you have: 302
+Total price
+165 144 60 16 120 25 24 9  
+Sorted price
+165 144 120 60 25 24 16 9 
+
+Pattern: 269
+card num: O
+Money you have: 2
+Total price
+45 21 88 56 6 3 70 150  
+Sorted price
+150 88 70 56 45 21 6 3 
+
+Pattern: 270
+card num: X
+Money you have: 486
+Total price
+6 6 105 78 4 80 130 88  
+Sorted price
+130 105 88 80 78 6 6 4 
+
+Pattern: 271
+card num: X
+Money you have: 316
+Total price
+12 132 50 70 8 16 13 20  
+Sorted price
+132 70 50 20 16 13 12 8 
+
+Pattern: 272
+card num: X
+Money you have: 200
+Total price
+180 44 8 10 6 56 65 168  
+Sorted price
+180 168 65 56 44 10 8 6 
+
+Pattern: 273
+card num: X
+Money you have: 102
+Total price
+150 20 104 91 10 5 42 22  
+Sorted price
+150 104 91 42 22 20 10 5 
+
+Pattern: 274
+card num: X
+Money you have: 69
+Total price
+24 60 65 169 22 56 6 108  
+Sorted price
+169 108 65 60 56 24 22 6 
+
+Pattern: 275
+card num: O
+Money you have: 502
+Total price
+9 15 77 6 168 7 16 104  
+Sorted price
+168 104 77 16 15 9 7 6 
+
+Pattern: 276
+card num: O
+Money you have: 218
+Total price
+42 3 99 56 1 60 8 96  
+Sorted price
+99 96 60 56 42 8 3 1 
+
+Pattern: 277
+card num: X
+Money you have: 116
+Total price
+80 168 12 3 60 30 55 24  
+Sorted price
+168 80 60 55 30 24 12 3 
+
+Pattern: 278
+card num: X
+Money you have: 479
+Total price
+98 210 180 8 72 50 36 108  
+Sorted price
+210 180 108 98 72 50 36 8 
+
+Pattern: 279
+card num: X
+Money you have: 296
+Total price
+77 10 91 20 55 24 24 75  
+Sorted price
+91 77 75 55 24 24 20 10 
+
+Pattern: 280
+card num: O
+Money you have: 405
+Total price
+50 28 36 16 14 16 84 50  
+Sorted price
+84 50 50 36 28 16 16 14 
+
+Pattern: 281
+card num: O
+Money you have: 92
+Total price
+77 15 88 80 48 39 108 52  
+Sorted price
+108 88 80 77 52 48 39 15 
+
+Pattern: 282
+card num: O
+Money you have: 373
+Total price
+20 104 2 39 78 88 88 126  
+Sorted price
+126 104 88 88 78 39 20 2 
+
+Pattern: 283
+card num: X
+Money you have: 460
+Total price
+112 10 196 135 13 18 48 99  
+Sorted price
+196 135 112 99 48 18 13 10 
+
+Pattern: 284
+card num: X
+Money you have: 306
+Total price
+20 5 108 24 15 8 28 88  
+Sorted price
+108 88 28 24 20 15 8 5 
+
+Pattern: 285
+card num: O
+Money you have: 157
+Total price
+28 3 10 26 11 130 195 84  
+Sorted price
+195 130 84 28 26 11 10 3 
+
+Pattern: 286
+card num: X
+Money you have: 157
+Total price
+36 104 75 27 22 88 40 12  
+Sorted price
+104 88 75 40 36 27 22 12 
+
+Pattern: 287
+card num: O
+Money you have: 206
+Total price
+117 50 84 156 28 49 48 36  
+Sorted price
+156 117 84 50 49 48 36 28 
+
+Pattern: 288
+card num: O
+Money you have: 478
+Total price
+8 150 14 126 60 50 88 72  
+Sorted price
+150 126 88 72 60 50 14 8 
+
+Pattern: 289
+card num: X
+Money you have: 217
+Total price
+30 35 65 45 132 143 112 108  
+Sorted price
+143 132 112 108 65 45 35 30 
+
+Pattern: 290
+card num: X
+Money you have: 302
+Total price
+36 20 8 32 5 5 24 22  
+Sorted price
+36 32 24 22 20 8 5 5 
+
+Pattern: 291
+card num: X
+Money you have: 425
+Total price
+36 16 32 56 12 99 12 48  
+Sorted price
+99 56 48 36 32 16 12 12 
+
+Pattern: 292
+card num: O
+Money you have: 241
+Total price
+210 66 40 10 3 22 32 15  
+Sorted price
+210 66 40 32 22 15 10 3 
+
+Pattern: 293
+card num: X
+Money you have: 69
+Total price
+98 2 56 98 117 18 10 108  
+Sorted price
+117 108 98 98 56 18 10 2 
+
+Pattern: 294
+card num: O
+Money you have: 366
+Total price
+27 26 63 6 60 105 140 24  
+Sorted price
+140 105 63 60 27 26 24 6 
+
+Pattern: 295
+card num: O
+Money you have: 360
+Total price
+132 99 14 12 65 4 27 143  
+Sorted price
+143 132 99 65 27 14 12 4 
+
+Pattern: 296
+card num: X
+Money you have: 395
+Total price
+54 40 63 156 112 88 77 8  
+Sorted price
+156 112 88 77 63 54 40 8 
+
+Pattern: 297
+card num: O
+Money you have: 10
+Total price
+15 10 84 7 63 42 24 210  
+Sorted price
+210 84 63 42 24 15 10 7 
+
+Pattern: 298
+card num: O
+Money you have: 392
+Total price
+210 48 6 48 180 120 196 45  
+Sorted price
+210 196 180 120 48 48 45 6 
+
+Pattern: 299
+card num: O
+Money you have: 80
+Total price
+121 28 91 100 15 30 78 154  
+Sorted price
+154 121 100 91 78 30 28 15 
+
+Pattern: 300
+card num: X
+Money you have: 472
+Total price
+28 30 10 140 12 48 33 126  
+Sorted price
+140 126 48 33 30 28 12 10 
+
+Pattern: 301
+card num: X
+Money you have: 348
+Total price
+7 75 15 168 50 18 5 117  
+Sorted price
+168 117 75 50 18 15 7 5 
+
+Pattern: 302
+card num: X
+Money you have: 356
+Total price
+110 140 130 24 16 60 120 90  
+Sorted price
+140 130 120 110 90 60 24 16 
+
+Pattern: 303
+card num: X
+Money you have: 431
+Total price
+45 195 6 30 90 18 154 33  
+Sorted price
+195 154 90 45 33 30 18 6 
+
+Pattern: 304
+card num: O
+Money you have: 141
+Total price
+126 18 70 112 130 13 56 26  
+Sorted price
+130 126 112 70 56 26 18 13 
+
+Pattern: 305
+card num: X
+Money you have: 2
+Total price
+60 36 210 105 40 98 42 50  
+Sorted price
+210 105 98 60 50 42 40 36 
+
+Pattern: 306
+card num: O
+Money you have: 159
+Total price
+18 42 9 8 72 12 28 30  
+Sorted price
+72 42 30 28 18 12 9 8 
+
+Pattern: 307
+card num: O
+Money you have: 501
+Total price
+81 33 56 9 60 6 72 12  
+Sorted price
+81 72 60 56 33 12 9 6 
+
+Pattern: 308
+card num: X
+Money you have: 462
+Total price
+15 112 70 8 12 9 32 40  
+Sorted price
+112 70 40 32 15 12 9 8 
+
+Pattern: 309
+card num: X
+Money you have: 117
+Total price
+80 44 56 84 32 66 9 63  
+Sorted price
+84 80 66 63 56 44 32 9 
+
+Pattern: 310
+card num: O
+Money you have: 64
+Total price
+6 63 24 168 12 150 70 55  
+Sorted price
+168 150 70 63 55 24 12 6 
+
+Pattern: 311
+card num: X
+Money you have: 239
+Total price
+108 182 64 182 2 130 26 40  
+Sorted price
+182 182 130 108 64 40 26 2 
+
+Pattern: 312
+card num: X
+Money you have: 454
+Total price
+30 42 104 24 8 24 84 70  
+Sorted price
+104 84 70 42 30 24 24 8 
+
+Pattern: 313
+card num: X
+Money you have: 312
+Total price
+90 105 10 42 42 44 210 44  
+Sorted price
+210 105 90 44 44 42 42 10 
+
+Pattern: 314
+card num: O
+Money you have: 131
+Total price
+77 75 4 75 30 48 12 21  
+Sorted price
+77 75 75 48 30 21 12 4 
+
+Pattern: 315
+card num: O
+Money you have: 400
+Total price
+49 90 50 48 77 60 4 8  
+Sorted price
+90 77 60 50 49 48 8 4 
+
+Pattern: 316
+card num: O
+Money you have: 381
+Total price
+78 99 117 24 9 65 30 84  
+Sorted price
+117 99 84 78 65 30 24 9 
+
+Pattern: 317
+card num: O
+Money you have: 153
+Total price
+6 5 55 3 81 126 9 60  
+Sorted price
+126 81 60 55 9 6 5 3 
+
+Pattern: 318
+card num: X
+Money you have: 428
+Total price
+180 182 21 20 143 42 14 56  
+Sorted price
+182 180 143 56 42 21 20 14 
+
+Pattern: 319
+card num: O
+Money you have: 450
+Total price
+10 10 105 6 143 126 42 24  
+Sorted price
+143 126 105 42 24 10 10 6 
+
+Pattern: 320
+card num: X
+Money you have: 484
+Total price
+210 28 4 2 70 140 156 60  
+Sorted price
+210 156 140 70 60 28 4 2 
+
+Pattern: 321
+card num: X
+Money you have: 34
+Total price
+90 98 112 26 45 135 22 12  
+Sorted price
+135 112 98 90 45 26 22 12 
+
+Pattern: 322
+card num: X
+Money you have: 367
+Total price
+60 20 50 42 8 33 10 14  
+Sorted price
+60 50 42 33 20 14 10 8 
+
+Pattern: 323
+card num: O
+Money you have: 354
+Total price
+77 117 26 56 5 165 1 1  
+Sorted price
+165 117 77 56 26 5 1 1 
+
+Pattern: 324
+card num: X
+Money you have: 216
+Total price
+36 84 21 39 24 196 40 16  
+Sorted price
+196 84 40 39 36 24 21 16 
+
+Pattern: 325
+card num: O
+Money you have: 143
+Total price
+35 27 56 88 84 80 18 45  
+Sorted price
+88 84 80 56 45 35 27 18 
+
+Pattern: 326
+card num: X
+Money you have: 288
+Total price
+40 26 135 26 6 10 182 70  
+Sorted price
+182 135 70 40 26 26 10 6 
+
+Pattern: 327
+card num: O
+Money you have: 364
+Total price
+4 10 28 18 5 10 30 88  
+Sorted price
+88 30 28 18 10 10 5 4 
+
+Pattern: 328
+card num: O
+Money you have: 420
+Total price
+154 20 90 104 84 121 154 21  
+Sorted price
+154 154 121 104 90 84 21 20 
+
+Pattern: 329
+card num: X
+Money you have: 449
+Total price
+210 105 84 96 210 210 9 39  
+Sorted price
+210 210 210 105 96 84 39 9 
+
+Pattern: 330
+card num: X
+Money you have: 215
+Total price
+1 7 8 65 72 30 21 168  
+Sorted price
+168 72 65 30 21 8 7 1 
+
+Pattern: 331
+card num: X
+Money you have: 74
+Total price
+117 72 182 130 105 104 30 10  
+Sorted price
+182 130 117 105 104 72 30 10 
+
+Pattern: 332
+card num: O
+Money you have: 344
+Total price
+40 48 70 45 6 52 30 70  
+Sorted price
+70 70 52 48 45 40 30 6 
+
+Pattern: 333
+card num: O
+Money you have: 5
+Total price
+28 22 44 14 120 14 77 54  
+Sorted price
+120 77 54 44 28 22 14 14 
+
+Pattern: 334
+card num: X
+Money you have: 82
+Total price
+44 50 15 96 13 42 15 65  
+Sorted price
+96 65 50 44 42 15 15 13 
+
+Pattern: 335
+card num: O
+Money you have: 98
+Total price
+96 12 135 135 104 195 8 6  
+Sorted price
+195 135 135 104 96 12 8 6 
+
+Pattern: 336
+card num: O
+Money you have: 363
+Total price
+120 91 84 104 40 130 72 70  
+Sorted price
+130 120 104 91 84 72 70 40 
+
+Pattern: 337
+card num: O
+Money you have: 319
+Total price
+154 20 78 30 110 27 55 22  
+Sorted price
+154 110 78 55 30 27 22 20 
+
+Pattern: 338
+card num: O
+Money you have: 332
+Total price
+90 154 63 140 24 140 4 30  
+Sorted price
+154 140 140 90 63 30 24 4 
+
+Pattern: 339
+card num: O
+Money you have: 33
+Total price
+66 20 10 117 26 132 16 21  
+Sorted price
+132 117 66 26 21 20 16 10 
+
+Pattern: 340
+card num: O
+Money you have: 317
+Total price
+44 20 44 30 12 16 22 117  
+Sorted price
+117 44 44 30 22 20 16 12 
+
+Pattern: 341
+card num: O
+Money you have: 32
+Total price
+225 24 36 60 9 182 120 56  
+Sorted price
+225 182 120 60 56 36 24 9 
+
+Pattern: 342
+card num: O
+Money you have: 180
+Total price
+12 40 117 13 77 16 42 150  
+Sorted price
+150 117 77 42 40 16 13 12 
+
+Pattern: 343
+card num: X
+Money you have: 115
+Total price
+15 84 48 2 11 65 40 22  
+Sorted price
+84 65 48 40 22 15 11 2 
+
+Pattern: 344
+card num: X
+Money you have: 116
+Total price
+72 42 91 90 72 66 52 143  
+Sorted price
+143 91 90 72 72 66 52 42 
+
+Pattern: 345
+card num: X
+Money you have: 141
+Total price
+20 150 1 5 84 84 3 20  
+Sorted price
+150 84 84 20 20 5 3 1 
+
+Pattern: 346
+card num: O
+Money you have: 24
+Total price
+50 8 75 7 56 4 65 210  
+Sorted price
+210 75 65 56 50 8 7 4 
+
+Pattern: 347
+card num: X
+Money you have: 199
+Total price
+70 18 8 132 48 70 36 105  
+Sorted price
+132 105 70 70 48 36 18 8 
+
+Pattern: 348
+card num: X
+Money you have: 449
+Total price
+42 33 28 75 80 36 72 30  
+Sorted price
+80 75 72 42 36 33 30 28 
+
+Pattern: 349
+card num: X
+Money you have: 440
+Total price
+27 195 30 90 78 7 48 26  
+Sorted price
+195 90 78 48 30 27 26 7 
+
+Pattern: 350
+card num: O
+Money you have: 170
+Total price
+40 13 13 91 77 52 55 91  
+Sorted price
+91 91 77 55 52 40 13 13 
+
+Pattern: 351
+card num: X
+Money you have: 20
+Total price
+11 117 32 21 48 104 40 96  
+Sorted price
+117 104 96 48 40 32 21 11 
+
+Pattern: 352
+card num: O
+Money you have: 365
+Total price
+32 75 13 135 110 6 12 15  
+Sorted price
+135 110 75 32 15 13 12 6 
+
+Pattern: 353
+card num: X
+Money you have: 458
+Total price
+10 60 40 9 27 70 110 80  
+Sorted price
+110 80 70 60 40 27 10 9 
+
+Pattern: 354
+card num: O
+Money you have: 285
+Total price
+39 8 48 39 50 80 11 108  
+Sorted price
+108 80 50 48 39 39 11 8 
+
+Pattern: 355
+card num: O
+Money you have: 385
+Total price
+4 99 36 120 15 117 168 150  
+Sorted price
+168 150 120 117 99 36 15 4 
+
+Pattern: 356
+card num: X
+Money you have: 454
+Total price
+6 3 18 3 66 36 60 3  
+Sorted price
+66 60 36 18 6 3 3 3 
+
+Pattern: 357
+card num: O
+Money you have: 174
+Total price
+65 10 64 91 18 14 11 126  
+Sorted price
+126 91 65 64 18 14 11 10 
+
+Pattern: 358
+card num: O
+Money you have: 221
+Total price
+15 84 66 16 24 60 48 56  
+Sorted price
+84 66 60 56 48 24 16 15 
+
+Pattern: 359
+card num: X
+Money you have: 416
+Total price
+22 11 195 64 169 35 9 60  
+Sorted price
+195 169 64 60 35 22 11 9 
+
+Pattern: 360
+card num: X
+Money you have: 99
+Total price
+36 30 120 126 22 20 30 126  
+Sorted price
+126 126 120 36 30 30 22 20 
+
+Pattern: 361
+card num: O
+Money you have: 145
+Total price
+20 156 14 4 4 28 150 66  
+Sorted price
+156 150 66 28 20 14 4 4 
+
+Pattern: 362
+card num: O
+Money you have: 208
+Total price
+91 60 10 6 96 14 90 40  
+Sorted price
+96 91 90 60 40 14 10 6 
+
+Pattern: 363
+card num: X
+Money you have: 475
+Total price
+8 65 35 84 120 91 110 44  
+Sorted price
+120 110 91 84 65 44 35 8 
+
+Pattern: 364
+card num: X
+Money you have: 441
+Total price
+126 120 126 180 21 110 60 6  
+Sorted price
+180 126 126 120 110 60 21 6 
+
+Pattern: 365
+card num: O
+Money you have: 116
+Total price
+8 28 140 182 45 24 169 60  
+Sorted price
+182 169 140 60 45 28 24 8 
+
+Pattern: 366
+card num: O
+Money you have: 255
+Total price
+39 39 25 182 105 70 77 80  
+Sorted price
+182 105 80 77 70 39 39 25 
+
+Pattern: 367
+card num: X
+Money you have: 174
+Total price
+126 195 26 98 44 14 49 55  
+Sorted price
+195 126 98 55 49 44 26 14 
+
+Pattern: 368
+card num: X
+Money you have: 425
+Total price
+22 12 26 10 30 96 7 40  
+Sorted price
+96 40 30 26 22 12 10 7 
+
+Pattern: 369
+card num: X
+Money you have: 212
+Total price
+8 60 16 70 55 45 72 20  
+Sorted price
+72 70 60 55 45 20 16 8 
+
+Pattern: 370
+card num: O
+Money you have: 500
+Total price
+3 20 39 24 121 40 180 132  
+Sorted price
+180 132 121 40 39 24 20 3 
+
+Pattern: 371
+card num: X
+Money you have: 185
+Total price
+100 14 104 10 33 90 78 8  
+Sorted price
+104 100 90 78 33 14 10 8 
+
+Pattern: 372
+card num: O
+Money you have: 499
+Total price
+54 182 11 140 33 10 132 12  
+Sorted price
+182 140 132 54 33 12 11 10 
+
+Pattern: 373
+card num: X
+Money you have: 122
+Total price
+6 90 42 48 32 150 26 165  
+Sorted price
+165 150 90 48 42 32 26 6 
+
+Pattern: 374
+card num: O
+Money you have: 203
+Total price
+4 24 12 2 24 72 21 30  
+Sorted price
+72 30 24 24 21 12 4 2 
+
+Pattern: 375
+card num: X
+Money you have: 351
+Total price
+36 28 120 75 20 135 70 104  
+Sorted price
+135 120 104 75 70 36 28 20 
+
+Pattern: 376
+card num: X
+Money you have: 138
+Total price
+8 168 78 72 10 96 39 64  
+Sorted price
+168 96 78 72 64 39 10 8 
+
+Pattern: 377
+card num: O
+Money you have: 455
+Total price
+63 156 84 32 50 3 12 60  
+Sorted price
+156 84 63 60 50 32 12 3 
+
+Pattern: 378
+card num: X
+Money you have: 228
+Total price
+3 70 110 130 135 12 63 112  
+Sorted price
+135 130 112 110 70 63 12 3 
+
+Pattern: 379
+card num: X
+Money you have: 325
+Total price
+108 65 36 24 3 60 105 56  
+Sorted price
+108 105 65 60 56 36 24 3 
+
+Pattern: 380
+card num: O
+Money you have: 435
+Total price
+70 36 24 18 33 36 30 9  
+Sorted price
+70 36 36 33 30 24 18 9 
+
+Pattern: 381
+card num: O
+Money you have: 488
+Total price
+30 11 7 2 10 165 66 104  
+Sorted price
+165 104 66 30 11 10 7 2 
+
+Pattern: 382
+card num: X
+Money you have: 28
+Total price
+84 10 8 14 168 110 156 15  
+Sorted price
+168 156 110 84 15 14 10 8 
+
+Pattern: 383
+card num: O
+Money you have: 53
+Total price
+81 65 15 24 180 20 45 64  
+Sorted price
+180 81 65 64 45 24 20 15 
+
+Pattern: 384
+card num: O
+Money you have: 73
+Total price
+8 22 196 144 45 56 80 30  
+Sorted price
+196 144 80 56 45 30 22 8 
+
+Pattern: 385
+card num: O
+Money you have: 303
+Total price
+48 28 42 6 77 50 8 42  
+Sorted price
+77 50 48 42 42 28 8 6 
+
+Pattern: 386
+card num: O
+Money you have: 207
+Total price
+15 20 20 7 49 150 98 18  
+Sorted price
+150 98 49 20 20 18 15 7 
+
+Pattern: 387
+card num: O
+Money you have: 187
+Total price
+70 75 104 165 60 72 135 78  
+Sorted price
+165 135 104 78 75 72 70 60 
+
+Pattern: 388
+card num: X
+Money you have: 284
+Total price
+180 50 14 195 14 9 42 20  
+Sorted price
+195 180 50 42 20 14 14 9 
+
+Pattern: 389
+card num: X
+Money you have: 490
+Total price
+56 63 18 48 16 8 90 72  
+Sorted price
+90 72 63 56 48 18 16 8 
+
+Pattern: 390
+card num: O
+Money you have: 385
+Total price
+98 168 24 26 8 143 22 56  
+Sorted price
+168 143 98 56 26 24 22 8 
+
+Pattern: 391
+card num: O
+Money you have: 66
+Total price
+6 42 140 66 13 150 15 42  
+Sorted price
+150 140 66 42 42 15 13 6 
+
+Pattern: 392
+card num: X
+Money you have: 111
+Total price
+150 15 117 45 7 10 98 80  
+Sorted price
+150 117 98 80 45 15 10 7 
+
+Pattern: 393
+card num: O
+Money you have: 386
+Total price
+72 20 112 140 66 16 12 56  
+Sorted price
+140 112 72 66 56 20 16 12 
+
+Pattern: 394
+card num: O
+Money you have: 267
+Total price
+9 2 77 45 28 195 81 7  
+Sorted price
+195 81 77 45 28 9 7 2 
+
+Pattern: 395
+card num: O
+Money you have: 166
+Total price
+8 150 39 14 9 143 44 105  
+Sorted price
+150 143 105 44 39 14 9 8 
+
+Pattern: 396
+card num: O
+Money you have: 495
+Total price
+48 154 117 3 14 18 5 150  
+Sorted price
+154 150 117 48 18 14 5 3 
+
+Pattern: 397
+card num: O
+Money you have: 307
+Total price
+8 42 28 72 130 169 169 5  
+Sorted price
+169 169 130 72 42 28 8 5 
+
+Pattern: 398
+card num: X
+Money you have: 87
+Total price
+6 169 14 108 4 24 144 44  
+Sorted price
+169 144 108 44 24 14 6 4 
+
+Pattern: 399
+card num: X
+Money you have: 269
+Total price
+84 6 50 60 30 130 40 16  
+Sorted price
+130 84 60 50 40 30 16 6 
+
+Pattern: 400
+card num: X
+Money you have: 446
+Total price
+6 64 14 10 60 35 16 168  
+Sorted price
+168 64 60 35 16 14 10 6 
+
+Pattern: 401
+card num: X
+Money you have: 206
+Total price
+30 132 22 32 11 33 80 91  
+Sorted price
+132 91 80 33 32 30 22 11 
+
+Pattern: 402
+card num: O
+Money you have: 449
+Total price
+45 132 10 165 56 28 45 40  
+Sorted price
+165 132 56 45 45 40 28 10 
+
+Pattern: 403
+card num: X
+Money you have: 407
+Total price
+12 14 16 15 35 22 77 96  
+Sorted price
+96 77 35 22 16 15 14 12 
+
+Pattern: 404
+card num: X
+Money you have: 50
+Total price
+52 9 98 150 50 26 84 132  
+Sorted price
+150 132 98 84 52 50 26 9 
+
+Pattern: 405
+card num: X
+Money you have: 8
+Total price
+110 33 126 13 84 72 9 1  
+Sorted price
+126 110 84 72 33 13 9 1 
+
+Pattern: 406
+card num: O
+Money you have: 20
+Total price
+81 12 11 30 54 60 16 90  
+Sorted price
+90 81 60 54 30 16 12 11 
+
+Pattern: 407
+card num: O
+Money you have: 468
+Total price
+117 20 44 16 30 4 91 154  
+Sorted price
+154 117 91 44 30 20 16 4 
+
+Pattern: 408
+card num: X
+Money you have: 184
+Total price
+10 39 3 35 52 35 75 126  
+Sorted price
+126 75 52 39 35 35 10 3 
+
+Pattern: 409
+card num: X
+Money you have: 322
+Total price
+5 2 77 9 15 72 16 48  
+Sorted price
+77 72 48 16 15 9 5 2 
+
+Pattern: 410
+card num: O
+Money you have: 353
+Total price
+140 16 30 44 16 36 70 18  
+Sorted price
+140 70 44 36 30 18 16 16 
+
+Pattern: 411
+card num: O
+Money you have: 368
+Total price
+22 30 24 6 105 60 56 108  
+Sorted price
+108 105 60 56 30 24 22 6 
+
+Pattern: 412
+card num: O
+Money you have: 361
+Total price
+28 15 154 156 50 88 117 154  
+Sorted price
+156 154 154 117 88 50 28 15 
+
+Pattern: 413
+card num: X
+Money you have: 485
+Total price
+130 27 30 60 20 130 140 180  
+Sorted price
+180 140 130 130 60 30 27 20 
+
+Pattern: 414
+card num: X
+Money you have: 375
+Total price
+3 55 156 54 12 156 45 54  
+Sorted price
+156 156 55 54 54 45 12 3 
+
+Pattern: 415
+card num: O
+Money you have: 408
+Total price
+182 105 8 52 20 42 96 80  
+Sorted price
+182 105 96 80 52 42 20 8 
+
+Pattern: 416
+card num: X
+Money you have: 85
+Total price
+98 180 72 13 45 45 12 105  
+Sorted price
+180 105 98 72 45 45 13 12 
+
+Pattern: 417
+card num: X
+Money you have: 38
+Total price
+8 4 2 120 55 10 108 55  
+Sorted price
+120 108 55 55 10 8 4 2 
+
+Pattern: 418
+card num: X
+Money you have: 469
+Total price
+33 52 28 36 48 40 42 30  
+Sorted price
+52 48 42 40 36 33 30 28 
+
+Pattern: 419
+card num: X
+Money you have: 338
+Total price
+25 21 3 12 168 4 28 70  
+Sorted price
+168 70 28 25 21 12 4 3 
+
+Pattern: 420
+card num: O
+Money you have: 144
+Total price
+100 40 20 20 72 4 110 110  
+Sorted price
+110 110 100 72 40 20 20 4 
+
+Pattern: 421
+card num: X
+Money you have: 413
+Total price
+45 13 72 154 44 108 7 45  
+Sorted price
+154 108 72 45 45 44 13 7 
+
+Pattern: 422
+card num: X
+Money you have: 445
+Total price
+70 45 117 15 99 40 8 3  
+Sorted price
+117 99 70 45 40 15 8 3 
+
+Pattern: 423
+card num: O
+Money you have: 451
+Total price
+30 77 90 20 165 112 11 84  
+Sorted price
+165 112 90 84 77 30 20 11 
+
+Pattern: 424
+card num: X
+Money you have: 419
+Total price
+81 110 100 60 135 42 5 1  
+Sorted price
+135 110 100 81 60 42 5 1 
+
+Pattern: 425
+card num: O
+Money you have: 275
+Total price
+104 10 4 70 168 4 65 42  
+Sorted price
+168 104 70 65 42 10 4 4 
+
+Pattern: 426
+card num: O
+Money you have: 455
+Total price
+5 130 49 9 16 117 27 36  
+Sorted price
+130 117 49 36 27 16 9 5 
+
+Pattern: 427
+card num: X
+Money you have: 108
+Total price
+50 110 36 39 3 168 48 60  
+Sorted price
+168 110 60 50 48 39 36 3 
+
+Pattern: 428
+card num: X
+Money you have: 104
+Total price
+120 42 66 30 21 6 48 135  
+Sorted price
+135 120 66 48 42 30 21 6 
+
+Pattern: 429
+card num: O
+Money you have: 132
+Total price
+110 98 108 180 112 10 72 90  
+Sorted price
+180 112 110 108 98 90 72 10 
+
+Pattern: 430
+card num: X
+Money you have: 313
+Total price
+65 24 120 48 132 50 27 5  
+Sorted price
+132 120 65 50 48 27 24 5 
+
+Pattern: 431
+card num: O
+Money you have: 453
+Total price
+180 66 78 50 15 60 14 56  
+Sorted price
+180 78 66 60 56 50 15 14 
+
+Pattern: 432
+card num: O
+Money you have: 349
+Total price
+99 60 182 169 135 117 50 12  
+Sorted price
+182 169 135 117 99 60 50 12 
+
+Pattern: 433
+card num: X
+Money you have: 126
+Total price
+44 49 90 14 169 49 30 70  
+Sorted price
+169 90 70 49 49 44 30 14 
+
+Pattern: 434
+card num: O
+Money you have: 95
+Total price
+20 6 80 110 18 49 24 99  
+Sorted price
+110 99 80 49 24 20 18 6 
+
+Pattern: 435
+card num: O
+Money you have: 330
+Total price
+130 7 64 14 14 195 98 63  
+Sorted price
+195 130 98 64 63 14 14 7 
+
+Pattern: 436
+card num: O
+Money you have: 313
+Total price
+72 11 84 6 30 24 80 70  
+Sorted price
+84 80 72 70 30 24 11 6 
+
+Pattern: 437
+card num: X
+Money you have: 493
+Total price
+196 6 84 7 20 52 66 90  
+Sorted price
+196 90 84 66 52 20 7 6 
+
+Pattern: 438
+card num: O
+Money you have: 223
+Total price
+88 81 132 52 80 60 135 156  
+Sorted price
+156 135 132 88 81 80 60 52 
+
+Pattern: 439
+card num: X
+Money you have: 443
+Total price
+26 24 10 96 154 12 27 42  
+Sorted price
+154 96 42 27 26 24 12 10 
+
+Pattern: 440
+card num: X
+Money you have: 64
+Total price
+110 6 28 135 99 104 24 36  
+Sorted price
+135 110 104 99 36 28 24 6 
+
+Pattern: 441
+card num: X
+Money you have: 341
+Total price
+8 50 126 78 120 98 130 130  
+Sorted price
+130 130 126 120 98 78 50 8 
+
+Pattern: 442
+card num: X
+Money you have: 294
+Total price
+56 60 18 143 15 30 120 84  
+Sorted price
+143 120 84 60 56 30 18 15 
+
+Pattern: 443
+card num: O
+Money you have: 503
+Total price
+4 96 22 6 15 105 72 140  
+Sorted price
+140 105 96 72 22 15 6 4 
+
+Pattern: 444
+card num: O
+Money you have: 26
+Total price
+100 10 45 28 65 7 32 12  
+Sorted price
+100 65 45 32 28 12 10 7 
+
+Pattern: 445
+card num: X
+Money you have: 214
+Total price
+196 135 154 64 48 15 156 180  
+Sorted price
+196 180 156 154 135 64 48 15 
+
+Pattern: 446
+card num: X
+Money you have: 156
+Total price
+20 165 39 39 8 110 104 126  
+Sorted price
+165 126 110 104 39 39 20 8 
+
+Pattern: 447
+card num: X
+Money you have: 410
+Total price
+143 20 45 36 91 14 27 140  
+Sorted price
+143 140 91 45 36 27 20 14 
+
+Pattern: 448
+card num: O
+Money you have: 416
+Total price
+4 20 7 140 143 20 60 40  
+Sorted price
+143 140 60 40 20 20 7 4 
+
+Pattern: 449
+card num: X
+Money you have: 131
+Total price
+78 15 26 6 121 70 132 14  
+Sorted price
+132 121 78 70 26 15 14 6 
+
+Pattern: 450
+card num: O
+Money you have: 357
+Total price
+64 112 154 32 105 78 65 64  
+Sorted price
+154 112 105 78 65 64 64 32 
+
+Pattern: 451
+card num: O
+Money you have: 470
+Total price
+6 50 112 15 30 40 12 60  
+Sorted price
+112 60 50 40 30 15 12 6 
+
+Pattern: 452
+card num: O
+Money you have: 185
+Total price
+54 90 12 156 24 36 30 91  
+Sorted price
+156 91 90 54 36 30 24 12 
+
+Pattern: 453
+card num: X
+Money you have: 483
+Total price
+132 84 225 169 195 48 2 80  
+Sorted price
+225 195 169 132 84 80 48 2 
+
+Pattern: 454
+card num: X
+Money you have: 267
+Total price
+45 91 33 60 25 64 48 105  
+Sorted price
+105 91 64 60 48 45 33 25 
+
+Pattern: 455
+card num: X
+Money you have: 363
+Total price
+8 24 24 33 2 156 10 126  
+Sorted price
+156 126 33 24 24 10 8 2 
+
+Pattern: 456
+card num: X
+Money you have: 252
+Total price
+126 48 30 63 60 28 42 50  
+Sorted price
+126 63 60 50 48 42 30 28 
+
+Pattern: 457
+card num: O
+Money you have: 94
+Total price
+91 36 24 36 1 99 98 96  
+Sorted price
+99 98 96 91 36 36 24 1 
+
+Pattern: 458
+card num: X
+Money you have: 342
+Total price
+70 66 132 10 78 30 13 90  
+Sorted price
+132 90 78 70 66 30 13 10 
+
+Pattern: 459
+card num: X
+Money you have: 475
+Total price
+10 54 9 154 105 168 10 60  
+Sorted price
+168 154 105 60 54 10 10 9 
+
+Pattern: 460
+card num: X
+Money you have: 257
+Total price
+165 70 15 42 117 104 52 72  
+Sorted price
+165 117 104 72 70 52 42 15 
+
+Pattern: 461
+card num: O
+Money you have: 485
+Total price
+36 126 15 18 60 13 156 10  
+Sorted price
+156 126 60 36 18 15 13 10 
+
+Pattern: 462
+card num: O
+Money you have: 97
+Total price
+98 75 135 20 12 36 13 70  
+Sorted price
+135 98 75 70 36 20 13 12 
+
+Pattern: 463
+card num: X
+Money you have: 308
+Total price
+48 40 48 36 182 77 56 80  
+Sorted price
+182 80 77 56 48 48 40 36 
+
+Pattern: 464
+card num: O
+Money you have: 5
+Total price
+180 120 14 12 70 90 130 16  
+Sorted price
+180 130 120 90 70 16 14 12 
+
+Pattern: 465
+card num: O
+Money you have: 318
+Total price
+13 6 36 55 16 225 132 70  
+Sorted price
+225 132 70 55 36 16 13 6 
+
+Pattern: 466
+card num: O
+Money you have: 39
+Total price
+150 81 16 63 6 39 13 5  
+Sorted price
+150 81 63 39 16 13 6 5 
+
+Pattern: 467
+card num: O
+Money you have: 297
+Total price
+28 40 91 4 24 154 48 117  
+Sorted price
+154 117 91 48 40 28 24 4 
+
+Pattern: 468
+card num: X
+Money you have: 87
+Total price
+84 42 6 72 132 11 14 50  
+Sorted price
+132 84 72 50 42 14 11 6 
+
+Pattern: 469
+card num: O
+Money you have: 229
+Total price
+52 165 1 140 24 154 165 108  
+Sorted price
+165 165 154 140 108 52 24 1 
+
+Pattern: 470
+card num: X
+Money you have: 36
+Total price
+15 72 70 169 10 20 11 180  
+Sorted price
+180 169 72 70 20 15 11 10 
+
+Pattern: 471
+card num: O
+Money you have: 307
+Total price
+18 10 21 24 54 30 165 32  
+Sorted price
+165 54 32 30 24 21 18 10 
+
+Pattern: 472
+card num: O
+Money you have: 93
+Total price
+24 42 88 120 90 65 168 112  
+Sorted price
+168 120 112 90 88 65 42 24 
+
+Pattern: 473
+card num: O
+Money you have: 136
+Total price
+20 84 44 42 18 4 4 80  
+Sorted price
+84 80 44 42 20 18 4 4 
+
+Pattern: 474
+card num: X
+Money you have: 193
+Total price
+60 12 28 72 90 26 195 28  
+Sorted price
+195 90 72 60 28 28 26 12 
+
+Pattern: 475
+card num: X
+Money you have: 359
+Total price
+104 110 8 42 55 42 84 35  
+Sorted price
+110 104 84 55 42 42 35 8 
+
+Pattern: 476
+card num: X
+Money you have: 110
+Total price
+52 66 33 55 48 65 48 30  
+Sorted price
+66 65 55 52 48 48 33 30 
+
+Pattern: 477
+card num: X
+Money you have: 257
+Total price
+6 36 45 5 84 14 40 4  
+Sorted price
+84 45 40 36 14 6 5 4 
+
+Pattern: 478
+card num: X
+Money you have: 268
+Total price
+81 110 45 7 9 39 12 28  
+Sorted price
+110 81 45 39 28 12 9 7 
+
+Pattern: 479
+card num: O
+Money you have: 10
+Total price
+12 7 65 14 72 7 120 96  
+Sorted price
+120 96 72 65 14 12 7 7 
+
+Pattern: 480
+card num: X
+Money you have: 297
+Total price
+20 77 100 15 66 63 28 3  
+Sorted price
+100 77 66 63 28 20 15 3 
+
+Pattern: 481
+card num: X
+Money you have: 285
+Total price
+126 2 45 35 60 24 130 72  
+Sorted price
+130 126 72 60 45 35 24 2 
+
+Pattern: 482
+card num: O
+Money you have: 46
+Total price
+168 78 60 54 24 156 33 7  
+Sorted price
+168 156 78 60 54 33 24 7 
+
+Pattern: 483
+card num: X
+Money you have: 175
+Total price
+104 16 117 14 60 15 84 27  
+Sorted price
+117 104 84 60 27 16 15 14 
+
+Pattern: 484
+card num: O
+Money you have: 45
+Total price
+72 88 60 96 90 2 14 165  
+Sorted price
+165 96 90 88 72 60 14 2 
+
+Pattern: 485
+card num: X
+Money you have: 372
+Total price
+40 56 28 121 130 117 117 32  
+Sorted price
+130 121 117 117 56 40 32 28 
+
+Pattern: 486
+card num: X
+Money you have: 344
+Total price
+4 16 9 70 135 98 66 15  
+Sorted price
+135 98 70 66 16 15 9 4 
+
+Pattern: 487
+card num: X
+Money you have: 154
+Total price
+30 22 70 88 36 24 40 20  
+Sorted price
+88 70 40 36 30 24 22 20 
+
+Pattern: 488
+card num: O
+Money you have: 494
+Total price
+15 110 56 27 56 98 63 52  
+Sorted price
+110 98 63 56 56 52 27 15 
+
+Pattern: 489
+card num: X
+Money you have: 272
+Total price
+3 195 30 112 5 3 15 180  
+Sorted price
+195 180 112 30 15 5 3 3 
+
+Pattern: 490
+card num: O
+Money you have: 484
+Total price
+105 8 96 72 60 63 56 18  
+Sorted price
+105 96 72 63 60 56 18 8 
+
+Pattern: 491
+card num: O
+Money you have: 233
+Total price
+1 2 195 30 70 48 28 24  
+Sorted price
+195 70 48 30 28 24 2 1 
+
+Pattern: 492
+card num: X
+Money you have: 343
+Total price
+20 65 180 36 70 90 60 10  
+Sorted price
+180 90 70 65 60 36 20 10 
+
+Pattern: 493
+card num: O
+Money you have: 231
+Total price
+169 150 6 42 180 20 49 25  
+Sorted price
+180 169 150 49 42 25 20 6 
+
+Pattern: 494
+card num: X
+Money you have: 342
+Total price
+56 28 154 22 50 78 120 33  
+Sorted price
+154 120 78 56 50 33 28 22 
+
+Pattern: 495
+card num: O
+Money you have: 195
+Total price
+182 91 25 3 168 70 156 14  
+Sorted price
+182 168 156 91 70 25 14 3 
+
+Pattern: 496
+card num: O
+Money you have: 489
+Total price
+195 9 5 48 60 56 130 30  
+Sorted price
+195 130 60 56 48 30 9 5 
+
+Pattern: 497
+card num: O
+Money you have: 320
+Total price
+14 35 66 98 52 60 14 60  
+Sorted price
+98 66 60 60 52 35 14 14 
+
+Pat

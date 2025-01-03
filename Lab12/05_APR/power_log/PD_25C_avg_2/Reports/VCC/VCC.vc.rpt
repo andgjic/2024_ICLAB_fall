@@ -1,0 +1,112 @@
+Voltage source current:
+      Range  Source       Source        Location    Layer
+      Index  Current      Name          (um)
+      -----  --------     -------------------------------
+         3   -2.8733e-05A   VCCvsrc12   2606.61, 744.51  ME1_C
+         5   -1.9318e-05A   VCCvsrc72   138.75, 744.51  ME1_C
+         3   -2.7867e-05A   VCCvsrc18   2606.61, 764.15  ME1_C
+         5   -1.9251e-05A   VCCvsrc66   138.75, 764.15  ME1_C
+         1   -4.0212e-05A   VCCvsrc24   2606.61, 783.79  ME1_C
+         3   -2.8133e-05A   VCCvsrc60   138.75, 783.79  ME1_C
+         1   -3.5572e-05A   VCCvsrc47   744.51, 2606.61  ME2_C
+         2   -3.0886e-05A   VCCvsrc41   764.15, 2606.61  ME2_C
+         1   -3.9058e-05A   VCCvsrc35   783.79, 2606.61  ME2_C
+         7   -8.5931e-06A   VCCvsrc83   744.51, 138.75  ME2_C
+         7   -8.0158e-06A   VCCvsrc89   764.15, 138.75  ME2_C
+         6   -1.0747e-05A   VCCvsrc95   783.79, 138.75  ME2_C
+         8   -0.0000e+00A   VCCvsrc96   783.79, 137.62  ME1_C
+         8   -0.0000e+00A   VCCvsrc90   764.15, 137.62  ME1_C
+         8   -0.0000e+00A   VCCvsrc84   744.51, 137.62  ME1_C
+         8   -0.0000e+00A   VCCvsrc78   764.15, 1.50  ME1_C
+         8   -0.0000e+00A   VCCvsrc77   764.15, 1.50  ME2_C
+         8   -0.0000e+00A   VCCvsrc94   783.79, 137.62  ME3_C
+         8   -0.0000e+00A   VCCvsrc88   764.15, 137.62  ME3_C
+         8   -0.0000e+00A   VCCvsrc82   744.51, 137.62  ME3_C
+         8   -0.0000e+00A   VCCvsrc76   764.15, 1.50  ME3_C
+         8   -0.0000e+00A   VCCvsrc93   783.79, 137.62  ME4_C
+         8   -0.0000e+00A   VCCvsrc87   764.15, 137.62  ME4_C
+         8   -0.0000e+00A   VCCvsrc81   744.51, 137.62  ME4_C
+         8   -0.0000e+00A   VCCvsrc75   764.15, 1.50  ME4_C
+         8   -0.0000e+00A   VCCvsrc92   783.79, 137.62  ME5_C
+         8   -0.0000e+00A   VCCvsrc86   764.15, 137.62  ME5_C
+         8   -0.0000e+00A   VCCvsrc80   744.51, 137.62  ME5_C
+         8   -0.0000e+00A   VCCvsrc74   764.15, 1.50  ME5_C
+         8   -0.0000e+00A   VCCvsrc91   783.79, 137.62  ME6_C
+         8   -0.0000e+00A   VCCvsrc85   764.15, 137.62  ME6_C
+         8   -0.0000e+00A   VCCvsrc79   744.51, 137.62  ME6_C
+         8   -0.0000e+00A   VCCvsrc73   764.15, 1.50  ME6_C
+         8   -0.0000e+00A   VCCvsrc54   1.50, 764.15  ME1_C
+         8   -0.0000e+00A   VCCvsrc71   137.62, 744.51  ME2_C
+         8   -0.0000e+00A   VCCvsrc65   137.62, 764.15  ME2_C
+         8   -0.0000e+00A   VCCvsrc59   137.62, 783.79  ME2_C
+         8   -0.0000e+00A   VCCvsrc53   1.50, 764.15  ME2_C
+         8   -0.0000e+00A   VCCvsrc70   137.62, 744.51  ME3_C
+         8   -0.0000e+00A   VCCvsrc64   137.62, 764.15  ME3_C
+         8   -0.0000e+00A   VCCvsrc58   137.62, 783.79  ME3_C
+         8   -0.0000e+00A   VCCvsrc52   1.50, 764.15  ME3_C
+         8   -0.0000e+00A   VCCvsrc69   137.62, 744.51  ME4_C
+         8   -0.0000e+00A   VCCvsrc63   137.62, 764.15  ME4_C
+         8   -0.0000e+00A   VCCvsrc57   137.62, 783.79  ME4_C
+         8   -0.0000e+00A   VCCvsrc51   1.50, 764.15  ME4_C
+         8   -0.0000e+00A   VCCvsrc68   137.62, 744.51  ME5_C
+         8   -0.0000e+00A   VCCvsrc62   137.62, 764.15  ME5_C
+         8   -0.0000e+00A   VCCvsrc56   137.62, 783.79  ME5_C
+         8   -0.0000e+00A   VCCvsrc50   1.50, 764.15  ME5_C
+         8   -0.0000e+00A   VCCvsrc67   137.62, 744.51  ME6_C
+         8   -0.0000e+00A   VCCvsrc61   137.62, 764.15  ME6_C
+         8   -0.0000e+00A   VCCvsrc55   137.62, 783.79  ME6_C
+         8   -0.0000e+00A   VCCvsrc49   1.50, 764.15  ME6_C
+         8   -0.0000e+00A   VCCvsrc48   744.51, 2607.74  ME1_C
+         8   -0.0000e+00A   VCCvsrc42   764.15, 2607.74  ME1_C
+         8   -0.0000e+00A   VCCvsrc36   783.79, 2607.74  ME1_C
+         8   -0.0000e+00A   VCCvsrc30   764.15, 2743.86  ME1_C
+         8   -0.0000e+00A   VCCvsrc29   764.15, 2743.86  ME2_C
+         8   -0.0000e+00A   VCCvsrc46   744.51, 2607.74  ME3_C
+         8   -0.0000e+00A   VCCvsrc40   764.15, 2607.74  ME3_C
+         8   -0.0000e+00A   VCCvsrc34   783.79, 2607.74  ME3_C
+         8   -0.0000e+00A   VCCvsrc28   764.15, 2743.86  ME3_C
+         8   -0.0000e+00A   VCCvsrc45   744.51, 2607.74  ME4_C
+         8   -0.0000e+00A   VCCvsrc39   764.15, 2607.74  ME4_C
+         8   -0.0000e+00A   VCCvsrc33   783.79, 2607.74  ME4_C
+         8   -0.0000e+00A   VCCvsrc27   764.15, 2743.86  ME4_C
+         8   -0.0000e+00A   VCCvsrc44   744.51, 2607.74  ME5_C
+         8   -0.0000e+00A   VCCvsrc38   764.15, 2607.74  ME5_C
+         8   -0.0000e+00A   VCCvsrc32   783.79, 2607.74  ME5_C
+         8   -0.0000e+00A   VCCvsrc26   764.15, 2743.86  ME5_C
+         8   -0.0000e+00A   VCCvsrc43   744.51, 2607.74  ME6_C
+         8   -0.0000e+00A   VCCvsrc37   764.15, 2607.74  ME6_C
+         8   -0.0000e+00A   VCCvsrc31   783.79, 2607.74  ME6_C
+         8   -0.0000e+00A   VCCvsrc25   764.15, 2743.86  ME6_C
+         8   -0.0000e+00A   VCCvsrc6   2743.86, 764.15  ME1_C
+         8   -0.0000e+00A   VCCvsrc23   2607.74, 783.79  ME2_C
+         8   -0.0000e+00A   VCCvsrc17   2607.74, 764.15  ME2_C
+         8   -0.0000e+00A   VCCvsrc11   2607.74, 744.51  ME2_C
+         8   -0.0000e+00A   VCCvsrc5   2743.86, 764.15  ME2_C
+         8   -0.0000e+00A   VCCvsrc22   2607.74, 783.79  ME3_C
+         8   -0.0000e+00A   VCCvsrc16   2607.74, 764.15  ME3_C
+         8   -0.0000e+00A   VCCvsrc10   2607.74, 744.51  ME3_C
+         8   -0.0000e+00A   VCCvsrc4   2743.86, 764.15  ME3_C
+         8   -0.0000e+00A   VCCvsrc21   2607.74, 783.79  ME4_C
+         8   -0.0000e+00A   VCCvsrc15   2607.74, 764.15  ME4_C
+         8   -0.0000e+00A   VCCvsrc9   2607.74, 744.51  ME4_C
+         8   -0.0000e+00A   VCCvsrc3   2743.86, 764.15  ME4_C
+         8   -0.0000e+00A   VCCvsrc20   2607.74, 783.79  ME5_C
+         8   -0.0000e+00A   VCCvsrc14   2607.74, 764.15  ME5_C
+         8   -0.0000e+00A   VCCvsrc8   2607.74, 744.51  ME5_C
+         8   -0.0000e+00A   VCCvsrc2   2743.86, 764.15  ME5_C
+         8   -0.0000e+00A   VCCvsrc19   2607.74, 783.79  ME6_C
+         8   -0.0000e+00A   VCCvsrc13   2607.74, 764.15  ME6_C
+         8   -0.0000e+00A   VCCvsrc7   2607.74, 744.51  ME6_C
+         8   -0.0000e+00A   VCCvsrc1   2743.86, 764.15  ME6_C
+*
+* Data filtering results for voltage source current:
+  Minimum, Average, Maximum Voltage Source Current: -40.212uA, -3.087uA, 0.000A
+  Total Current: -0.296mA
+    Range 1( -40.216uA  -   -35.186uA ):         3 (  3.12%)
+    Range 2( -35.186uA  -   -30.159uA ):         1 (  1.04%)
+    Range 3( -30.159uA  -   -25.133uA ):         3 (  3.12%)
+    Range 4( -25.133uA  -   -20.106uA ):         0 (  0.00%)
+    Range 5( -20.106uA  -   -15.080uA ):         2 (  2.08%)
+    Range 6( -15.080uA  -   -10.053uA ):         1 (  1.04%)
+    Range 7( -10.053uA  -    -5.027uA ):         2 (  2.08%)
+    Range 8(  -5.027uA  -      0.000A ):        84 ( 87.50%)

@@ -1,0 +1,3 @@
+make vcs_rtl
+#make irun_rtl
+#make xrun_rtl

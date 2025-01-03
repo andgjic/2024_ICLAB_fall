@@ -1,0 +1,656 @@
+
+Cadence Innovus(TM) Implementation System.
+Copyright 2020 Cadence Design Systems, Inc. All rights reserved worldwide.
+
+Version:	v20.15-s105_1, built Tue Jul 27 14:15:35 PDT 2021
+Options:	
+Date:		Thu Nov 28 21:38:07 2024
+Host:		ee28 (x86_64 w/Linux 3.10.0-1160.88.1.el7.x86_64) (64cores*256cpus*AMD EPYC 7713 64-Core Processor 512KB)
+OS:		CentOS Linux release 7.9.2009 (Core)
+
+License:
+		invs	Innovus Implementation System	20.1	checkout succeeded
+		8 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+Change the soft stacksize limit to 0.2%RAM (2063 mbytes). Set global soft_stack_size_limit to change the value.
+
+**INFO:  MMMC transition support version v31-84 
+
+<CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+<CMD> suppressMessage ENCEXT-2799
+<CMD> getVersion
+[INFO] Loading Pegasus 21.21 fill procedures
+<CMD> win
+<CMD> encMessage warning 0
+Suppress "**WARN ..." messages.
+<CMD> encMessage debug 0
+<CMD> encMessage info 0
+RC_Corner
+**WARN: (IMPLF-119):	LAYER 'metal1' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-119):	LAYER 'metal2' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-119):	LAYER 'metal3' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-119):	LAYER 'metal4' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-119):	LAYER 'metal5' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-119):	LAYER 'metal6' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-58):	MACRO 'AN2' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-58):	MACRO 'AN2B1' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-58):	MACRO 'AN2B1P' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-58):	MACRO 'AN2B1S' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-58):	MACRO 'AN2B1T' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-58):	MACRO 'AN2P' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-58):	MACRO 'AN2S' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-58):	MACRO 'AN2T' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-58):	MACRO 'AN3' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-58):	MACRO 'AN3B1' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-58):	MACRO 'AN3B1P' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-58):	MACRO 'AN3B1S' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-58):	MACRO 'AN3B1T' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-58):	MACRO 'AN3B2' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-58):	MACRO 'AN3B2P' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-58):	MACRO 'AN3B2S' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-58):	MACRO 'AN3B2T' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-58):	MACRO 'AN3P' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-58):	MACRO 'AN3S' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-58):	MACRO 'AN3T' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (EMS-27):	Message (IMPLF-58) has exceeded the current message display limit of 20.
+To increase the message display limit, refer to the product command reference manual.
+**WARN: (IMPLF-119):	LAYER 'metal1' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-119):	LAYER 'metal2' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-119):	LAYER 'metal3' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-119):	LAYER 'metal4' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-119):	LAYER 'metal5' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-119):	LAYER 'metal6' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-61):	392 duplicated MACRO definitions have been found in the LEF file(s). Their content except DENSITY and PIN ANTENNA* data, and certain properties, have been ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-201):	Pin 'DO7' in macro 'MEM_gray_max' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-200):	Pin 'DI7' in macro 'MEM_gray_max' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-201):	Pin 'DO6' in macro 'MEM_gray_max' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-200):	Pin 'DI6' in macro 'MEM_gray_max' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-201):	Pin 'DO5' in macro 'MEM_gray_max' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-200):	Pin 'DI5' in macro 'MEM_gray_max' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-201):	Pin 'DO4' in macro 'MEM_gray_max' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-200):	Pin 'DI4' in macro 'MEM_gray_max' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-200):	Pin 'A1' in macro 'MEM_gray_max' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-200):	Pin 'WEB' in macro 'MEM_gray_max' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-200):	Pin 'OE' in macro 'MEM_gray_max' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-200):	Pin 'CS' in macro 'MEM_gray_max' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-200):	Pin 'A2' in macro 'MEM_gray_max' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-200):	Pin 'CK' in macro 'MEM_gray_max' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-200):	Pin 'A0' in macro 'MEM_gray_max' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-200):	Pin 'A3' in macro 'MEM_gray_max' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-200):	Pin 'A4' in macro 'MEM_gray_max' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-200):	Pin 'A5' in macro 'MEM_gray_max' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-200):	Pin 'A6' in macro 'MEM_gray_max' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-200):	Pin 'A7' in macro 'MEM_gray_max' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-201):	Pin 'DO3' in macro 'MEM_gray_max' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-200):	Pin 'DI3' in macro 'MEM_gray_max' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-201):	Pin 'DO2' in macro 'MEM_gray_max' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-200):	Pin 'DI2' in macro 'MEM_gray_max' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-201):	Pin 'DO1' in macro 'MEM_gray_max' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-200):	Pin 'DI1' in macro 'MEM_gray_max' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-201):	Pin 'DO0' in macro 'MEM_gray_max' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-200):	Pin 'DI0' in macro 'MEM_gray_max' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (EMS-27):	Message (IMPLF-200) has exceeded the current message display limit of 20.
+To increase the message display limit, refer to the product command reference manual.
+Loading view definition file from /RAID2/COURSE/iclab/iclab131/Lab11/05_APR/CHIP.inn.dat/viewDefinition.tcl
+**WARN: (TECHLIB-302):	No function defined for cell 'ANTENNA'. The cell will only be used for analysis. (File /RAID2/COURSE/BackUp/2023_Spring/iclab/iclabta01/UMC018_CBDK/orig_lib/fsa0m_a/2009Q2v2.0/GENERIC_CORE/FrontEnd/synopsys/fsa0m_a_generic_core_ss1p62v125c.lib)
+**WARN: (TECHLIB-302):	No function defined for cell 'ANTENNA'. The cell will only be used for analysis. (File /RAID2/COURSE/BackUp/2023_Spring/iclab/iclabta01/UMC018_CBDK/orig_lib/fsa0m_a/2009Q2v2.0/GENERIC_CORE/FrontEnd/synopsys/fsa0m_a_generic_core_ff1p98vm40c.lib)
+*** End library_loading (cpu=0.03min, real=0.02min, mem=17.9M, fe_cpu=0.29min, fe_real=0.55min, fe_mem=933.1M) ***
+**WARN: (IMPVL-159):	Pin 'GND' of cell 'XOR4T' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VCC' of cell 'XOR4T' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'GND' of cell 'XOR4S' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VCC' of cell 'XOR4S' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'GND' of cell 'XOR4P' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VCC' of cell 'XOR4P' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'GND' of cell 'XOR4' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VCC' of cell 'XOR4' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'GND' of cell 'XOR3T' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VCC' of cell 'XOR3T' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'GND' of cell 'XOR3S' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VCC' of cell 'XOR3S' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'GND' of cell 'XOR3P' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VCC' of cell 'XOR3P' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'GND' of cell 'XOR3' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VCC' of cell 'XOR3' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'GND' of cell 'XOR2HT' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VCC' of cell 'XOR2HT' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'GND' of cell 'XOR2HS' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VCC' of cell 'XOR2HS' is defined in LEF but not in the timing library.
+**WARN: (EMS-27):	Message (IMPVL-159) has exceeded the current message display limit of 20.
+To increase the message display limit, refer to the product command reference manual.
+*** Netlist is unique.
+**WARN: (IMPFP-3961):	The techSite 'iocore_f' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+**WARN: (IMPFP-3961):	The techSite 'iocore_e' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+**WARN: (IMPFP-3961):	The techSite 'iocore_ds' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+**WARN: (IMPFP-3961):	The techSite 'iocore_cs' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+**WARN: (IMPFP-3961):	The techSite 'iocore_d' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+**WARN: (IMPFP-3961):	The techSite 'iocore_c' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+**WARN: (IMPFP-3961):	The techSite 'iocore_b' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+**WARN: (IMPFP-3961):	The techSite 'iocore_a' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+Loading preference file /RAID2/COURSE/iclab/iclab131/Lab11/05_APR/CHIP.inn.dat/gui.pref.tcl ...
+**WARN: (IMPOPT-3602):	The specified path group name reg2reg is not defined.
+**WARN: (IMPTCM-77):	Option "-drouteStartIteration" for command setNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+**WARN: (IMPSYC-2):	Timing information is not defined for cell VCCKD; Check the timing library (.lib) file and make sure the timing information exists for the cell and you can run the checkTimingLibrary command to verify if the timing library has complete information after the design is loaded.
+**WARN: (IMPSYC-2):	Timing information is not defined for cell VCC3IOD; Check the timing library (.lib) file and make sure the timing information exists for the cell and you can run the checkTimingLibrary command to verify if the timing library has complete information after the design is loaded.
+**WARN: (IMPSYC-2):	Timing information is not defined for cell GNDKD; Check the timing library (.lib) file and make sure the timing information exists for the cell and you can run the checkTimingLibrary command to verify if the timing library has complete information after the design is loaded.
+**WARN: (IMPSYC-2):	Timing information is not defined for cell GNDIOD; Check the timing library (.lib) file and make sure the timing information exists for the cell and you can run the checkTimingLibrary command to verify if the timing library has complete information after the design is loaded.
+**WARN: (IMPFP-3961):	The techSite 'iocore_f' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+**WARN: (IMPFP-3961):	The techSite 'iocore_e' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+**WARN: (IMPFP-3961):	The techSite 'iocore_ds' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+**WARN: (IMPFP-3961):	The techSite 'iocore_cs' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+**WARN: (IMPFP-3961):	The techSite 'iocore_d' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+**WARN: (IMPFP-3961):	The techSite 'iocore_c' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+**WARN: (IMPFP-3961):	The techSite 'iocore_b' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+**WARN: (IMPFP-3961):	The techSite 'iocore_a' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+Loading place ...
+**WARN: (IMPEXT-6202):	In addition to the technology file, the capacitance table file is specified for all the RC corners. If the technology file  is already specified for all the RC corners, the capacitance table file is not required for preRoute and postRoute extraction. In a new session, the capacitance table files can be removed from the create_rc_corner command to enable the technology file to be used for preRoute and postRoute (effort level medium/high/signoff) extraction engines.
+'set_default_switching_activity' finished successfully.
+Delay_Corner_min Delay_Corner_max
+**WARN: (IMPESI-3505):	setDelayCalMode -eng_copyNetPropToNewNet true (default=false) will be obsoleted along with its sgs2set equivalent.  This parameter will continue to be supported in the current release, but will be removed in the next major release of the software.
+**WARN: (IMPCTE-107):	The following globals have been obsoleted since version 20.15-s105_1. They will be removed in the next release. 
+timing_enable_default_delay_arc
+<CMD> setDrawView ameba
+<CMD> setDrawView place
+<CMD> setDrawView fplan
+<CMD> zoomBox -392.24000 -276.06900 2197.38300 1570.20400
+<CMD> zoomBox -374.08900 -67.58600 1827.09100 1501.74700
+<CMD> zoomBox -294.74200 86.70200 1576.26200 1420.63500
+<CMD> setDrawView ameba
+<CMD> setDrawView place
+<CMD> setDrawView ameba
+<CMD> setDrawView place
+<CMD> setDrawView place
+<CMD> setDrawView fplan
+<CMD> zoomBox -79.66400 213.72400 1510.69000 1347.56800
+<CMD> zoomBox 52.51200 311.82100 1404.31300 1275.58800
+<CMD> set sprCreateIeRingOffset 1.0
+<CMD> set sprCreateIeRingThreshold 1.0
+<CMD> set sprCreateIeRingJogDistance 1.0
+<CMD> set sprCreateIeRingLayers {}
+<CMD> set sprCreateIeRingOffset 1.0
+<CMD> set sprCreateIeRingThreshold 1.0
+<CMD> set sprCreateIeRingJogDistance 1.0
+<CMD> set sprCreateIeRingLayers {}
+<CMD> set sprCreateIeStripeWidth 10.0
+<CMD> set sprCreateIeStripeThreshold 1.0
+<CMD> set sprCreateIeStripeWidth 10.0
+<CMD> set sprCreateIeStripeThreshold 1.0
+<CMD> set sprCreateIeRingOffset 1.0
+<CMD> set sprCreateIeRingThreshold 1.0
+<CMD> set sprCreateIeRingJogDistance 1.0
+<CMD> set sprCreateIeRingLayers {}
+<CMD> set sprCreateIeStripeWidth 10.0
+<CMD> set sprCreateIeStripeThreshold 1.0
+<CMD> zoomBox 138.06000 401.70000 1287.09100 1220.90200
+<CMD> zoomBox 240.92100 465.90100 1217.59700 1162.22300
+<CMD> zoomBox 309.57500 538.85800 1139.75000 1130.73200
+<CMD> zoomBox 392.20400 612.51000 1097.85300 1115.60300
+<CMD> zoomBox 527.83400 719.76300 1037.66600 1083.24800
+<CMD> zoomBox 570.92000 761.93100 1004.27800 1070.89400
+<CMD> zoomBox 607.19600 797.77400 975.55100 1060.39300
+<CMD> zoomBox 685.51900 874.92500 911.73500 1036.20600
+<CMD> zoomBox 733.41800 921.65900 872.34300 1020.70600
+<CMD> zoomBox 762.83300 950.36000 848.15200 1011.18800
+<CMD> zoomBox 769.85600 957.21200 842.37700 1008.91600
+<CMD> uiSetTool ruler
+<CMD> zoomBox 775.54900 961.52600 837.19200 1005.47400
+<CMD> zoomBox 780.38800 965.19200 832.78500 1002.54800
+<CMD> zoomBox 790.96900 973.20800 823.14800 996.15000
+<CMD> zoomBox 799.01700 979.30600 815.81600 991.28300
+<CMD> zoomBox 793.60400 975.44300 820.96100 994.94700
+<CMD> zoomBox 784.79100 969.15500 829.33800 1000.91500
+<CMD> zoomBox 763.87600 954.23300 849.21600 1015.07600
+<CMD> zoomBox 723.81200 925.64600 887.29700 1042.20300
+<CMD> zoomBox 712.29400 916.28600 904.63000 1053.41200
+<CMD> zoomBox 701.01000 904.91100 927.28800 1066.23600
+<CMD> zoomBox 672.24200 875.72300 985.43100 1099.01100
+<CMD> zoomBox 667.51900 858.23500 1035.97700 1120.92700
+<CMD> zoomBox 662.22300 837.83400 1095.70300 1146.88400
+<CMD> zoomBox 655.99300 813.83300 1165.97000 1177.42100
+<CMD> zoomBox 588.82600 789.20100 1188.79900 1216.95200
+<CMD> zoomBox 509.80700 760.36400 1215.65700 1263.60000
+<CMD> zoomBox 416.84300 726.43700 1247.25500 1318.48000
+<CMD> zoomBox 307.47300 686.91500 1284.43000 1383.43700
+<CMD> zoomBox 179.26200 640.64900 1328.62400 1460.08700
+<CMD> zoomBox 28.42700 586.21800 1380.61800 1550.26300
+<CMD> zoomBox -147.11500 522.18200 1443.69800 1656.35300
+<CMD> zoomBox -351.38600 446.47000 1520.15900 1780.78900
+<CMD> zoomBox -591.70500 357.39800 1610.11300 1927.18500
+<CMD> zoomBox -874.43300 252.60700 1715.94100 2099.41600
+<CMD> zoomBox -651.36400 343.39100 1550.45500 1913.17900
+<CMD> zoomBox -223.90500 518.77900 1366.90900 1652.95100
+<CMD> zoomBox 84.93300 645.49700 1234.29700 1464.93700
+<CMD> zoomBox 477.12200 852.34200 1077.09800 1280.09500
+<CMD> zoomBox 648.27300 949.97900 961.46500 1173.26900
+<CMD> zoomBox 737.93100 995.00600 901.42100 1111.56600
+<CMD> zoomBox 761.79500 1006.39200 879.91800 1090.60800
+<CMD> zoomBox 769.41200 1011.62000 869.81700 1083.20400
+<CMD> zoomBox 784.56800 1023.51700 846.23000 1067.47900
+<CMD> zoomBox 788.17400 1026.40600 840.58700 1063.77400
+<CMD> zoomBox 791.45900 1029.22900 836.01100 1060.99200
+<CMD> zoomBox 794.51900 1031.62900 832.38900 1058.62800
+<CMD> zoomBox 797.12000 1033.66800 829.31000 1056.61800
+<CMD> zoomBox 791.45700 1029.22700 836.01200 1060.99300
+<CMD> zoomBox 777.43000 1019.33200 849.98200 1071.05800
+<CMD> zoomBox 756.01400 1010.74000 856.43200 1082.33300
+<CMD> zoomBox 792.15700 1025.60700 844.57700 1062.98000
+<CMD> zoomBox 804.10900 1033.06000 836.30200 1056.01200
+<CMD> zoomBox 802.43300 1030.42800 840.30700 1057.43000
+<CMD> zoomBox 800.45200 1027.38400 845.01000 1059.15200
+<CMD> zoomBox 798.20500 1024.14000 850.62700 1061.51400
+<CMD> zoomBox 795.58600 1020.42200 857.25900 1064.39200
+<CMD> zoomBox 792.50500 1016.04800 865.06300 1067.77800
+<CMD> zoomBox 789.06900 1011.12400 874.43100 1071.98300
+<CMD> zoomBox 787.66100 1008.26800 888.08700 1079.86700
+<CMD> zoomBox 768.40100 1000.49100 907.39900 1099.59000
+<CMD> zoomBox 749.04600 995.28400 912.57300 1111.87100
+<CMD> zoomBox 726.27500 989.15800 918.66000 1126.31900
+<CMD> zoomBox 630.54300 963.49600 943.81200 1186.84100
+<CMD> zoomBox 472.67300 922.16200 982.77900 1285.84200
+<CMD> zoomBox 215.48800 854.97800 1046.11100 1447.17100
+<CMD> zoomBox -40.50200 788.10600 1109.15000 1607.75100
+<CMD> zoomBox -203.29300 745.58000 1149.23800 1709.86800
+<CMD> zoomBox -394.81300 695.54900 1196.40100 1830.00600
+<CMD> zoomBox -885.65100 567.44100 1316.72300 2137.62500
+<CMD> zoomBox -1572.30600 414.97600 1475.96400 2588.24200
+<CMD> zoomBox -2008.97100 318.01900 1577.23000 2874.80300
+<CMD> zoomBox -3127.07400 69.75500 1836.52600 3608.55700
+<CMD> fit
+<CMD> zoomBox -152.71100 14.26600 1728.80200 1355.69200
+<CMD> zoomBox 44.35700 145.01700 1643.64500 1285.23000
+<CMD> zoomBox 211.54600 256.15600 1570.94000 1225.33700
+<CMD> zoomBox 456.40000 424.22400 1438.56300 1124.45800
+<CMD> zoomBox 547.86300 473.39800 1382.70200 1068.59700
+<CMD> zoomBox 691.68900 550.41500 1294.86000 980.44600
+<CMD> zoomBox 779.96000 606.50700 1215.75100 917.20400
+<CMD> zoomBox 814.43300 628.41200 1184.85600 892.50500
+<CMD> zoomBox 889.81300 676.31100 1117.30000 838.49800
+<CMD> zoomBox 924.11600 697.97100 1088.47500 815.15100
+<CMD> zoomBox 948.90000 713.62000 1067.65000 798.28300
+<CMD> zoomBox 968.03800 725.14600 1053.83600 786.31600
+<CMD> zoomBox 987.92800 737.30100 1040.62000 774.86800
+<CMD> zoomBox 996.71200 742.66900 1034.78300 769.81200
+<CMD> zoomBox 999.84600 744.78900 1032.20600 767.86000
+<CMD> zoomBox 1004.18600 748.20500 1027.56600 764.87400
+<CMD> zoomBox 1005.88000 749.53900 1025.75400 763.70800
+<CMD> zoomBox 1004.18500 748.20500 1027.56600 764.87400
+<CMD> zoomBox 1002.19100 746.63500 1029.69800 766.24600
+<CMD> zoomBox 999.84500 744.78800 1032.20600 767.86000
+<CMD> zoomBox 990.01700 737.05100 1042.71200 774.62000
+<CMD> zoomBox 974.01400 724.45200 1059.82000 785.62700
+<CMD> zoomBox 947.95700 703.93600 1087.67800 803.55000
+<CMD> zoomBox 905.52500 670.52900 1133.03900 832.73500
+<CMD> zoomBox 856.64100 650.92800 1171.53900 875.43500
+<CMD> zoomBox 745.95400 606.28200 1258.71400 971.85500
+<CMD> zoomBox 483.29200 499.08500 1465.58300 1199.41000
+<CMD> zoomBox 272.23600 412.44600 1631.80900 1381.75400
+<CMD> zoomBox -67.06500 206.34500 2146.77400 1784.70300
+<CMD> zoomBox -173.47100 138.01600 2431.04500 1994.90700
+<CMD> setDrawView ameba
+<CMD> zoomBox 120.84100 267.68500 2002.60400 1609.28900
+<CMD> zoomBox 418.52800 409.99900 1574.16600 1233.91200
+<CMD> zoomBox 647.89100 526.52500 1251.14100 956.61200
+<CMD> zoomBox 767.61900 587.35000 1082.52000 811.85900
+<CMD> zoomBox 817.42500 614.11800 1010.81400 751.99500
+<CMD> zoomBox 767.49200 587.09600 1082.39400 811.60600
+<CMD> setDrawView fplan
+<CMD> zoomBox 716.66800 561.79500 1087.14200 825.92500
+<CMD> zoomBox 512.35400 458.85400 1115.61000 888.94600
+<CMD> zoomBox 249.90000 278.69400 1232.20200 979.02700
+<CMD> zoomBox -172.01500 -14.66800 1427.50100 1125.70800
+<CMD> zoomBox -591.97000 -306.66800 1621.89400 1271.70800
+<CMD> fit
+<CMD> zoomBox -143.40200 52.38900 1738.11200 1393.81600
+<CMD> zoomBox 394.57600 323.80200 1550.06200 1147.60600
+<CMD> zoomBox 523.00600 389.52100 1505.16900 1089.75500
+<CMD> zoomBox 631.38400 446.95600 1466.22300 1042.15500
+<CMD> zoomBox 721.33300 499.45400 1430.94600 1005.37300
+<CMD> zoomBox 851.99800 581.21800 1364.69400 946.74500
+<CMD> zoomBox 983.65900 663.27600 1298.52000 887.75600
+<CMD> zoomBox 1044.08600 699.43800 1271.57300 861.62500
+<CMD> zoomBox 1087.74400 725.56500 1252.10400 842.74600
+<CMD> zoomBox 1119.28500 744.44200 1238.03700 829.10600
+<CMD> zoomBox 1150.97500 763.40700 1223.90400 815.40200
+<CMD> zoomBox 1170.43700 775.05400 1215.22400 806.98500
+<CMD> zoomBox 1175.08300 777.83500 1213.15200 804.97600
+<CMD> zoomBox 1179.03200 780.19800 1211.39100 803.26800
+<CMD> zoomBox 1182.38900 782.20600 1209.89400 801.81600
+<CMD> fit
+<CMD> zoomBox -128.32900 50.17300 1753.18400 1391.59900
+<CMD> zoomBox 47.63900 162.08400 1646.92500 1302.29600
+<CMD> zoomBox 285.83400 329.17600 1441.31800 1152.97900
+<CMD> zoomBox 444.65800 453.75200 1279.49600 1048.95000
+<CMD> zoomBox 597.55500 585.02700 1110.25100 950.55400
+<CMD> zoomBox 668.78600 665.56700 1039.20900 929.66000
+<CMD> zoomBox 699.42400 694.72100 1014.28300 919.20000
+<CMD> zoomBox 725.52900 719.43900 993.15900 910.24600
+<CMD> zoomBox 766.67700 757.31500 960.04100 895.17400
+<CMD> zoomBox 807.81800 794.96900 926.56900 879.63300
+<CMD> zoomBox 832.08700 816.61100 905.01600 868.60600
+<CMD> zoomBox 842.57100 825.90600 895.26200 863.47200
+<CMD> uiSetTool ruler
+<CMD> zoomBox 835.30900 822.76500 897.29800 866.96000
+<CMD> zoomBox 816.81800 814.77400 902.61900 875.94600
+<CMD> zoomBox 775.50200 795.62800 915.21600 895.23700
+<CMD> zoomBox 738.03200 770.83900 931.40700 908.70600
+<CMD> zoomBox 653.51400 714.54700 968.39400 939.04100
+<CMD> fit
+<CMD> zoomBox -135.42200 106.02900 1746.09100 1447.45500
+<CMD> zoomBox 264.01000 381.37900 1623.40300 1350.55900
+<CMD> zoomBox 552.36800 584.56600 1534.53000 1284.79900
+<CMD> zoomBox 760.51000 737.39800 1470.12200 1243.31600
+<CMD> zoomBox 949.88000 892.03900 1385.67200 1202.73700
+<CMD> zoomBox 989.93900 926.68700 1360.36200 1190.78000
+<CMD> zoomBox 1023.54300 955.98900 1338.40400 1180.46900
+<CMD> zoomBox 1084.67000 1001.83400 1312.15700 1164.02100
+<CMD> zoomBox 1052.51100 982.64600 1320.14300 1173.45400
+<CMD> zoomBox 1013.66800 960.51300 1328.52900 1184.99300
+<CMD> zoomBox 1058.94200 989.01400 1326.57400 1179.82200
+<CMD> zoomBox 1097.31800 1013.13300 1324.80500 1175.32000
+<CMD> zoomBox 1126.11100 1034.04400 1319.47500 1171.90300
+<CMD> zoomBox 1149.42300 1051.70100 1313.78300 1168.88200
+<CMD> zoomBox 1169.20400 1066.71100 1308.91100 1166.31500
+<CMD> zoomBox 1187.55800 1077.20200 1306.30900 1161.86600
+<CMD> zoomBox 1169.20300 1066.71000 1308.91100 1166.31500
+<CMD> zoomBox 1147.60900 1054.36600 1311.97200 1171.54900
+<CMD> zoomBox 1122.20500 1039.84400 1315.57300 1177.70600
+<CMD> zoomBox 1057.65300 1000.92000 1325.29100 1191.73300
+<CMD> zoomBox 1092.54500 1021.98400 1320.03900 1184.17600
+<CMD> zoomBox 1016.60100 976.37100 1331.47200 1200.85800
+<CMD> zoomBox 968.30500 947.36400 1338.74200 1211.46700
+<CMD> zoomBox 911.48600 913.23800 1347.29500 1223.94800
+<CMD> zoomBox 844.64100 873.08900 1357.35800 1238.63100
+<CMD> zoomBox 757.66500 830.20500 1360.86100 1260.25400
+<CMD> zoomBox 655.90900 779.89500 1365.55100 1285.83500
+<CMD> zoomBox 397.17500 651.07400 1379.38000 1351.33800
+<CMD> zoomBox 232.63800 569.15300 1388.17400 1392.99300
+<CMD> zoomBox 38.79200 476.04200 1398.24700 1445.26600
+<CMD> fit
+<CMD> zoomBox -133.20600 94.50200 1748.30800 1435.92900
+<CMD> zoomBox 32.96400 253.13700 1632.25200 1393.35000
+<CMD> zoomBox -139.99000 94.12400 1741.52600 1435.55200
+<CMD> zoomBox -415.28000 20.09200 1798.26900 1598.24300
+<CMD> zoomBox -736.54300 -63.35400 1867.63300 1793.29500
+<CMD> zoomBox -440.31400 -47.70800 1773.23600 1530.44400
+<CMD> zoomBox -191.62200 -36.18200 1689.89500 1305.24700
+<CMD> zoomBox 7.70800 -11.69000 1606.99800 1128.52500
+<CMD> zoomBox 321.15400 26.82300 1476.64200 850.62900
+<CMD> zoomBox 521.93300 55.73700 1356.77300 650.93700
+<CMD> zoomBox 601.85000 66.43700 1311.46400 572.35700
+<CMD> zoomBox 666.93700 75.24800 1270.10900 505.28000
+<CMD> zoomBox 721.29500 82.49600 1233.99100 448.02300
+<CMD> zoomBox 767.08800 88.65600 1202.88000 399.35400
+<CMD> zoomBox 805.48800 93.80500 1175.91200 357.89900
+<CMD> zoomBox 838.12800 98.18200 1152.98900 322.66200
+<CMD> zoomBox 767.08500 88.65500 1202.88000 399.35500
+<CMD> zoomBox 667.91000 74.74500 1271.08800 504.78100
+<CMD> zoomBox 590.03200 60.96000 1299.65300 566.88500
+<CMD> zoomBox 385.52400 24.57100 1367.70000 724.81400
+<CMD> zoomBox 230.48000 11.84400 1385.98100 835.65900
+<CMD> zoomBox 389.68900 15.77800 1371.86500 716.02100
+<CMD> zoomBox 230.48000 11.61300 1385.98100 835.42800
+<CMD> zoomBox 230.48000 93.99500 1385.98100 917.81000
+<CMD> zoomBox 230.48000 176.37700 1385.98100 1000.19200
+<CMD> zoomBox 400.10200 233.53500 1382.27800 933.77800
+<CMD> zoomBox 544.87100 280.93900 1379.72100 876.14600
+<CMD> zoomBox 772.52100 355.17200 1375.70000 785.20900
+<CMD> zoomBox 861.42700 384.16300 1374.13000 749.69500
+<CMD> zoomBox 1053.98400 446.50000 1368.84700 670.98200
+<CMD> zoomBox 1053.98400 424.05200 1368.84700 648.53400
+<CMD> zoomBox 1053.98400 401.60400 1368.84700 626.08600
+<CMD> zoomBox 1053.98400 334.26000 1368.84700 558.74200
+<CMD> zoomBox 1053.98400 289.36400 1368.84700 513.84600
+<CMD> zoomBox 1053.98400 266.91600 1368.84700 491.39800
+<CMD> zoomBox 1053.98400 244.46800 1368.84700 468.95000
+<CMD> zoomBox 1053.98400 222.02000 1368.84700 446.50200
+<CMD> zoomBox 1053.98400 132.22800 1368.84700 356.71000
+<CMD> zoomBox 1053.98400 154.67600 1368.84700 379.15800
+<CMD> zoomBox 1053.98400 109.78000 1368.84700 334.26200
+<CMD> zoomBox 1053.98400 87.33200 1368.84700 311.81400
+<CMD> zoomBox 1007.76600 70.49200 1378.19400 334.58900
+<CMD> zoomBox 953.39200 50.68000 1389.19100 361.38300
+<CMD> zoomBox 889.42300 27.37200 1402.12800 392.90500
+<CMD> zoomBox 814.16600 -0.04900 1417.34800 429.99000
+<CMD> zoomBox 814.16600 -43.05300 1417.34800 386.98600
+<CMD> zoomBox 726.76500 -72.04400 1436.39100 433.88400
+<CMD> zoomBox 726.76500 -122.63700 1436.39100 383.29100
+<CMD> zoomBox 893.51300 -55.37000 934.25200 -60.10700
+<CMD> fit
+<CMD> zoomBox -150.05100 136.61700 1731.46200 1478.04300
+<CMD> zoomBox 53.42300 313.71500 1652.71100 1453.92800
+<CMD> zoomBox 227.33700 463.28800 1586.73200 1432.46900
+<CMD> zoomBox 380.60900 586.88600 1536.09500 1410.69000
+<CMD> zoomBox 510.89000 691.94400 1493.05400 1392.17800
+<CMD> zoomBox 724.49100 854.60100 1434.10400 1360.52000
+<CMD> zoomBox 879.08000 972.12000 1391.77600 1337.64700
+<CMD> zoomBox 986.97100 1058.16700 1357.39500 1322.26100
+<CMD> zoomBox 1024.95300 1092.66200 1339.81400 1317.14200
+<CMD> zoomBox 1057.23800 1121.98300 1324.87000 1312.79100
+<CMD> zoomBox 1108.00600 1168.09000 1301.37000 1305.94900
+<CMD> zoomBox 1057.23800 1121.98200 1324.87000 1312.79000
+<CMD> zoomBox 1024.95300 1092.66100 1339.81400 1317.14100
+<CMD> zoomBox 986.97100 1058.16500 1357.39600 1322.26000
+<CMD> zoomBox 944.11800 1018.45500 1379.91300 1329.15500
+<CMD> zoomBox 973.09300 1057.81600 1343.51900 1321.91100
+<CMD> zoomBox 944.11800 1018.45500 1379.91300 1329.15500
+<CMD> zoomBox 910.23500 972.14700 1422.93500 1337.67700
+<CMD> zoomBox 870.37200 917.66800 1473.54900 1347.70300
+<CMD> zoomBox 823.47500 853.57400 1533.09500 1359.49800
+<CMD> zoomBox 768.30100 778.17000 1603.14900 1373.37500
+<CMD> zoomBox 830.66400 837.52300 1540.28500 1343.44800
+<CMD> zoomBox 897.03100 887.12100 1500.20900 1317.15700
+<CMD> zoomBox 953.44200 929.27900 1466.14400 1294.81000
+<CMD> zoomBox 1001.39200 965.11300 1437.18900 1275.81500
+<CMD> zoomBox 1042.49800 995.48500 1412.92600 1259.58200
+<CMD> zoomBox 997.72400 966.16000 1433.52300 1276.86300
+<CMD> zoomBox 947.61700 931.96800 1460.32200 1297.50100
+<CMD> zoomBox 900.50600 891.98400 1503.68800 1322.02300
+<CMD> zoomBox 862.70300 844.80200 1572.32900 1350.73000
+<CMD> zoomBox 819.23300 789.46000 1654.08700 1384.67000
+<CMD> zoomBox 768.09000 724.35300 1750.27200 1424.60000
+<CMD> zoomBox 644.69400 558.14500 2004.11600 1527.34600
+<CMD> zoomBox 484.09600 327.40400 2365.64900 1668.85800
+<CMD> fit
+<CMD> zoomBox -324.71100 50.17300 1556.80200 1391.59900
+<CMD> zoomBox -271.20500 151.53400 1328.08100 1291.74600
+<CMD> zoomBox -225.72600 237.69000 1133.66800 1206.87100
+<CMD> zoomBox -141.61800 378.20700 840.54500 1078.44100
+<CMD> zoomBox -108.77000 433.08500 726.06900 1028.28400
+<CMD> zoomBox -80.84900 479.73100 628.76400 985.65000
+<CMD> zoomBox -36.94300 553.08200 475.75200 918.60800
+<CMD> zoomBox -57.11600 519.38000 546.05500 949.41100
+<CMD> zoomBox -80.99100 479.30400 628.62200 985.22300
+<CMD> zoomBox -111.75400 430.31700 723.08500 1025.51600
+<CMD> zoomBox -146.56900 374.84900 835.59500 1075.08300
+<CMD> zoomBox -198.40400 298.71600 957.08300 1122.52100
+<CMD> zoomBox -338.24100 88.96100 1261.04900 1229.17600
+<CMD> zoomBox -452.03700 -86.25400 1429.48200 1255.17600
+<CMD> zoomBox -583.69800 -287.07000 1629.85400 1291.08300
+<CMD> zoomBox -430.75900 -245.40000 1450.76000 1096.03000
+<CMD> zoomBox -319.22400 -198.67600 1280.06700 941.53900
+<CMD> zoomBox -224.42000 -163.12500 1134.97800 806.05900
+<CMD> zoomBox -127.50300 -133.45100 1027.98700 690.35600
+<CMD> zoomBox -28.23000 -102.67500 953.93700 597.56200
+<CMD> zoomBox 127.87600 -54.27900 837.49300 451.64300
+<CMD> zoomBox 284.71000 -5.65600 720.50500 305.04400
+<CMD> zoomBox 353.97600 15.81800 668.83800 240.29900
+<CMD> zoomBox 381.02700 24.20400 648.66000 215.01300
+<CMD> zoomBox 353.97500 15.81700 668.83800 240.29900
+<CMD> zoomBox 322.15000 5.95100 692.57700 270.04700
+<CMD> zoomBox 240.86500 -19.31300 753.56700 346.21800
+<CMD> zoomBox 187.95600 -35.74200 791.13500 394.29500
+<CMD> zoomBox 125.42500 -55.07000 835.04800 450.85600
+<CMD> zoomBox 51.86000 -77.80900 886.71100 517.39900
+<CMD> zoomBox -34.68800 -104.56000 947.49100 595.68500
+<CMD> zoomBox -256.29600 -173.05700 1103.12100 796.14000
+<CMD> zoomBox -455.19600 -213.41400 1144.11800 926.81800
+<CMD> zoomBox -235.79800 -182.66600 1123.61900 786.53100
+<CMD> zoomBox -43.04800 -148.63600 1112.45700 675.18200
+<CMD> zoomBox 260.48000 -91.69800 1095.33300 503.51100
+<CMD> zoomBox 351.76700 -70.79900 1061.39300 435.12900
+<CMD> fit
+<CMD> zoomBox -269.29900 146.81200 1612.21500 1488.23900
+<CMD> zoomBox -152.49100 319.76600 1446.79700 1459.97900
+<CMD> zoomBox -37.82900 466.45600 1321.56600 1435.63700
+<CMD> zoomBox 12.53600 597.94900 1168.02200 1421.75300
+<CMD> zoomBox 60.05500 806.86100 894.89400 1402.06000
+<CMD> zoomBox 78.61300 888.45000 788.22600 1394.36900
+<CMD> zoomBox 94.38700 957.80000 697.55900 1387.83200
+<CMD> zoomBox 118.96700 1066.62900 554.76100 1377.32900
+<CMD> zoomBox 128.56600 1109.13200 498.99200 1373.22700
+<CMD> setDrawView place
+<CMD> zoomBox 174.18900 1134.65100 489.05100 1359.13200
+<CMD> zoomBox 209.81600 1157.35100 477.44900 1348.16000
+<CMD> zoomBox 265.54200 1193.34400 458.90700 1331.20400
+<CMD> zoomBox 283.43200 1208.09800 447.79300 1325.27900
+<CMD> zoomBox 298.63900 1220.63900 438.34600 1320.24300
+<CMD> zoomBox 283.43200 1208.09800 447.79300 1325.27900
+<CMD> zoomBox 265.54100 1193.34400 458.90700 1331.20400
+<CMD> zoomBox 244.49300 1175.98600 471.98200 1338.17400
+<CMD> zoomBox 219.73100 1155.56500 487.36500 1346.37500
+<CMD> zoomBox 190.85000 1131.54000 505.71500 1356.02300
+<CMD> zoomBox 156.87300 1103.27500 527.30300 1367.37300
+<CMD> zoomBox 116.98800 1070.02200 552.78800 1380.72600
+<CMD> zoomBox 68.72900 1031.41500 581.43500 1396.94900
+<CMD> zoomBox -16.43300 1007.37600 586.75000 1437.41600
+<CMD> zoomBox 67.03800 1031.29400 579.74400 1396.82800
+<CMD> zoomBox -9.91000 1004.35600 593.27300 1434.39600
+<CMD> zoomBox -98.87500 973.65900 610.75300 1479.58900
+<CMD> zoomBox -202.87000 937.54500 631.98700 1532.75700
+<CMD> zoomBox -325.02100 894.86100 657.16500 1595.11100
+<CMD> fit
+<CMD> zoomBox -202.36000 124.64800 1679.15300 1466.07400
+<CMD> zoomBox -44.10300 297.97800 1555.18500 1438.19100
+<CMD> zoomBox 95.22000 458.44000 1454.61600 1427.62200
+<CMD> zoomBox 213.64500 593.74400 1369.13200 1417.54900
+<CMD> zoomBox 311.52900 700.65300 1293.69400 1400.88800
+<CMD> zoomBox 394.53400 791.32900 1229.37500 1386.52900
+<CMD> zoomBox 463.75100 866.39800 1173.36600 1372.31800
+<CMD> zoomBox 572.59300 984.44300 1085.29100 1349.97100
+<CMD> zoomBox 614.48500 1031.46900 1050.27800 1342.16800
+<CMD> zoomBox 562.32500 986.80500 1075.02300 1352.33300
+<CMD> zoomBox 623.00700 1030.54500 1058.80000 1341.24400
+<CMD> zoomBox 495.52400 938.69700 1098.69900 1368.73100
+<CMD> zoomBox 414.52000 880.28900 1124.13700 1386.21100
+<CMD> zoomBox 319.22000 811.57300 1154.06500 1406.77600
+<CMD> zoomBox 207.10300 730.73100 1189.27400 1430.97000
+<CMD> zoomBox 75.20100 635.85300 1230.69600 1459.66400
+<CMD> zoomBox -79.97800 524.23300 1279.42800 1493.42200
+<CMD> zoomBox -477.32400 238.42300 1404.20800 1579.86200
+<CMD> zoomBox -780.54400 98.33800 1433.02300 1676.50200
+<CMD> zoomBox -455.60200 169.26700 1425.93000 1510.70600
+<CMD> zoomBox -178.27100 226.16500 1421.03100 1366.38800
+<CMD> zoomBox 58.42100 271.00500 1417.82800 1240.19500
+<CMD> zoomBox 259.61000 308.57400 1415.10600 1132.38600
+<CMD> zoomBox 575.97800 367.65100 1410.82500 962.85600
+<CMD> zoomBox 796.82100 413.11900 1399.99900 843.15500
+<CMD> zoomBox 883.06900 430.87600 1395.77100 796.40700
+<CMD> zoomBox 1011.28700 464.68700 1381.71500 728.78400
+<CMD> zoomBox 1103.92400 489.11500 1371.55900 679.92600
+<CMD> zoomBox 1061.99000 478.01600 1376.85600 702.50000
+<CMD> zoomBox 1012.65700 464.95900 1383.08800 729.05800
+<CMD> zoomBox 954.61700 449.59800 1390.41900 760.30300
+<CMD> zoomBox 905.94700 433.27100 1418.65600 798.80700
+<CMD> zoomBox 781.32500 391.46700 1490.95800 897.40000
+<CMD> zoomBox 703.74600 365.71800 1538.60900 960.93400
+<CMD> zoomBox 511.62700 303.51300 1667.14700 1127.34200
+<CMD> zoomBox 392.92500 266.75900 1752.36100 1235.97000
+<CMD> zoomBox 94.29600 181.73000 1975.87000 1523.19900
+<CMD> zoomBox -93.66900 134.73900 2119.94700 1712.93800
+<CMD> zoomBox -313.76200 80.49800 2290.49300 1937.20300
+<CMD> zoomBox -572.08100 17.29900 2491.74900 2201.65800
+<CMD> zoomBox -875.98600 -57.05400 2728.52000 2512.78100
+<CMD> zoomBox -600.95600 -39.72900 2462.87400 2144.63000
+<CMD> zoomBox -363.49900 -24.39000 2240.75700 1832.31600
+<CMD> zoomBox -161.66100 -11.35100 2051.95700 1566.84900
+<CMD> zoomBox 9.90200 -0.26800 1891.47700 1341.20200
+<CMD> zoomBox 155.73000 9.15200 1755.06900 1149.40200
+<CMD> zoomBox 385.04400 23.96500 1540.56700 847.79600
+<CMD> zoomBox 461.17900 33.91600 1443.37300 734.17200
+<CMD> zoomBox 518.41900 43.35700 1353.28400 638.57500
+<CMD> zoomBox 461.17700 33.91500 1443.37300 734.17200
+<CMD> zoomBox 393.83500 22.80700 1549.36000 846.63900
+<CMD> zoomBox 314.61000 9.73900 1674.05100 978.95300
+<CMD> zoomBox 407.44800 21.99000 1562.97300 845.82200
+<CMD> zoomBox 486.35900 32.86600 1468.55600 733.12400
+<CMD> zoomBox 610.61500 50.97100 1320.25300 556.90800
+<CMD> zoomBox 661.49200 60.77700 1264.68500 490.82400
+<CMD> zoomBox 741.72100 76.42100 1177.52800 387.13000
+<CMD> zoomBox 773.05300 82.53000 1143.49000 346.63300
+<CMD> zoomBox 799.68600 88.02000 1114.55700 312.50700
+<CMD> zoomBox 840.51600 98.16800 1068.01100 260.36100
+<CMD> zoomBox 841.60900 105.86800 1034.98000 243.73200
+<CMD> zoomBox 842.53800 112.45100 1006.90400 229.63600
+<CMD> zoomBox 843.55800 118.04600 983.27000 217.65400
+<CMD> zoomBox 844.45300 122.77400 963.20900 207.44100
+<CMD> zoomBox 847.49500 132.73500 920.42700 184.73200
+<CMD> zoomBox 849.14300 136.91000 901.83700 174.47800
+<CMD> zoomBox 849.78700 138.53500 894.57700 170.46800
+<CMD> zoomBox 849.14300 136.93100 901.83700 174.49900
+<CMD> zoomBox 847.49400 132.83800 920.42800 184.83600
+<CMD> zoomBox 846.46300 130.24200 932.26800 191.41700
+<CMD> zoomBox 845.24900 127.18900 946.19700 199.16000
+<CMD> zoomBox 842.14300 119.37300 981.86300 218.98600
+<CMD> zoomBox 831.58500 108.91400 1024.96900 246.78700
+<CMD> zoomBox 818.96400 104.31200 1046.47500 266.51600
+<CMD> zoomBox 786.28800 92.77100 1101.18200 317.27500
+<CMD> zoomBox 765.36600 85.79600 1135.83000 349.91900
+<CMD> zoomBox 740.75100 77.59100 1176.59200 388.32400
+<CMD> zoomBox 711.79300 68.34900 1224.54700 433.91700
+<CMD> zoomBox 637.64500 44.68400 1347.33900 550.66100
+<CMD> zoomBox 534.28900 11.20200 1516.56600 711.51700
+<CMD> zoomBox 468.56200 -10.09000 1624.18200 813.81000
+<CMD> zoomBox 389.33000 -31.87200 1748.88300 937.42200
+<CMD> zoomBox 296.11600 -57.49800 1895.59000 1082.84800
+<CMD> zoomBox 186.45200 -87.64600 2068.18700 1253.93800
+<CMD> zoomBox 57.43600 -123.11400 2271.24200 1455.22000
+<CMD> zoomBox 268.02800 30.72900 2149.76300 1372.31300
+<CMD> zoomBox 447.03100 160.74200 2046.50600 1301.08900
+<CMD> zoomBox 593.73800 266.44800 1953.29200 1235.74300
+<CMD> zoomBox 473.29700 253.31500 2072.77200 1393.66200
+<CMD> zoomBox 342.52900 237.48700 2224.26500 1579.07200
+<CMD> zoomBox 240.11400 207.33800 2453.92200 1785.67400
+<CMD> zoomBox 227.59500 150.48400 2832.07600 2007.35000
+<CMD> zoomBox 214.09500 83.59800 3278.19000 2268.14600
+<CMD> fit
+<CMD> zoomBox -146.94800 30.66800 1734.56500 1372.09400
+<CMD> zoomBox 61.80200 119.97100 1661.08800 1260.18300
+<CMD> zoomBox 292.08500 185.62900 1651.47900 1154.81000
+<CMD> zoomBox 479.38700 241.16600 1634.87200 1064.97000
+<CMD> zoomBox 737.53100 331.06700 1572.37000 926.26600
+<CMD> zoomBox 893.42000 400.66000 1496.59100 830.69100
+<CMD> setDrawView ameba
+<CMD> setDrawView fplan
+<CMD> zoomBox 805.87900 341.82500 1515.49200 847.74400
+<CMD> fit

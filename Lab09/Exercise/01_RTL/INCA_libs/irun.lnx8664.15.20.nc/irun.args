@@ -1,0 +1,16 @@
+//
+// File created by:  irun
+// Do not modify this file
+//
+-f
+filelist.f
+-incdir
+/usr/cad/synopsys/synthesis/cur/dw/sim_ver/
+-loadpli1
+debpli:novas_pli_boot
+-debug
+-notimingchecks
+-define
+NONE
+-define
+RTL

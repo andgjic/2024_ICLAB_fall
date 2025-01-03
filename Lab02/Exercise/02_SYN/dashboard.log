@@ -1,0 +1,20 @@
+SpyGlass Predictive Analyzer(R) - SpyGlass_vU-2023.03
+All Rights Reserved. Use, disclosure or duplication 
+without prior written permission of Synopsys Inc. is prohibited.
+Technical support: email spyglass_support@synopsys.com 
+
+Creating 'dashboard' reports using config file '/tmp/config_26626'
+##cwd         : /RAID2/COURSE/iclab/iclab131/Lab02/Exercise/02_SYN
+##system      : Linux ee23 3.10.0-1160.88.1.el7.x86_64 #1 SMP Tue Mar 7 15:41:52 UTC 2023 x86_64 x86_64 x86_64 GNU/Linux
+##Date & Time : Fri Sep 20 10:29:02 2024
+Checkout 'dashboard' license at Fri Sep 20 10:29:01 2024 
+Checkout 'dashboard' license completed at Fri Sep 20 10:29:02 2024 
+Generating Dashboard report started at Fri Sep 20 10:29:02 2024 
+No or invalid 'SUCCESS_CRITERIA_FILE_PATH' set in Config file.The report will use some of the SpyGlass default set values but it may be incomplete. 
+INFO: No data found to create the report. 
+Checkin 'dashboard' license at Fri Sep 20 10:29:02 2024 
+----------------------------------------------------------------
+Report 'dashboard' creation failed.
+----------------------------------------------------------------
+
+SpyGlass Exit Code 7

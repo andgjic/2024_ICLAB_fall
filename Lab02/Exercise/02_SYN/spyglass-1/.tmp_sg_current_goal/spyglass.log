@@ -1,0 +1,16 @@
+SpyGlass run started at 10:25:26 AM on Sep 20 2024 
+
+SpyGlass Predictive Analyzer(R) - Version SpyGlass_vU-2023.03
+Synopsys TestMAX(TM)
+SpyGlass Fault Analysis
+Last compiled on Feb 28 2023
+
+All Rights Reserved. Use, disclosure or duplication
+without prior written permission of Synopsys Inc. is prohibited.
+Technical support: email spyglass_support@synopsys.com.
+
+Loading Policy: spyglass (Version: SpyGlass_vU-2023.03) from path: /RAID2/cad/synopsys/spyglass/2023.03/SPYGLASS_HOME/policies/spyglass
+Loading Shared library libspyglassrules-Linux4.spyso from /RAID2/cad/synopsys/spyglass/2023.03/SPYGLASS_HOME/lib/libspyglassrules-Linux4.spyso 
+Loading Shared library libsdcInitRules-Linux4.spyso from /RAID2/cad/synopsys/spyglass/2023.03/SPYGLASS_HOME/lib/libsdcInitRules-Linux4.spyso 
+Loading Shared library librmerules-Linux4.spyso from /RAID2/cad/synopsys/spyglass/2023.03/SPYGLASS_HOME/lib/librmerules-Linux4.spyso 
+6 {Rule-checking terminated due to FATAL errors - design syntax error}../01_RTL/BB.v ../01_RTL/TESTBED.v ../01_RTL/PATTERN.v../01_RTL/BB.v ../01_RTL/TESTBED.v../01_RTL/BB.v ../01_RTL/TESTBED.v../01_RTL/BB.v0 {Rule-checking completed without errors or warnings}

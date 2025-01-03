@@ -1,0 +1,91 @@
+///////////////////////////////////////////////////////////////////////////////////
+// 
+//              Synchronous Dual Port SRAM Compiler 
+// 
+//                    UMC 0.18um Generic Logic Process 
+//    __________________________________________________________________________
+// 
+// 
+//        (C) Copyright 2002-2009 Faraday Technology Corp. All Rights Reserved.
+// 
+//      This source code is an unpublished work belongs to Faraday Technology
+//      Corp.  It is considered a trade secret and is not to be divulged or
+//      used by parties who have not received written authorization from
+//      Faraday Technology Corp.
+// 
+//      Faraday's home page can be found at:
+//      http://www.faraday-tech.com/
+//     
+// ________________________________________________________________________________
+// 
+//       Module Name       :  SJMA180_128X32X1BM1  
+//       Word              :  128                  
+//       Bit               :  32                   
+//       Byte              :  1                    
+//       Mux               :  1                    
+//       Power Ring Type   :  port                 
+//       Power Ring Width  :  2 (um)               
+//       Output Loading    :  0.05 (pf)            
+//       Input Data Slew   :  0.02 (ns)            
+//       Input Clock Slew  :  0.02 (ns)            
+// 
+// ________________________________________________________________________________
+// 
+//       Library          : FSA0M_A
+//       Memaker          : 200901.2.1
+//       Date             : 2024/01/08 18:24:22
+// 
+// ________________________________________________________________________________
+// 
+//       Library          : FSA0M_A
+//       Memaker          : 200901.2.1
+//       Date             : 2024/01/08 18:24:23
+//
+///////////////////////////////////////////////////////////////////////////////////
+
+model SJMA180_128X32X1BM1 (
+    A0, A1, A2, A3, A4, A5, A6,
+    B0, B1, B2, B3, B4, B5, B6,
+    DIA0, DIA1, DIA2, DIA3, DIA4, DIA5, DIA6, DIA7, DIA8, DIA9, DIA10, DIA11, DIA12, DIA13, DIA14, DIA15, DIA16, DIA17, DIA18, DIA19, DIA20, DIA21, DIA22, DIA23, DIA24, DIA25, DIA26, DIA27, DIA28, DIA29, DIA30, DIA31,
+    DIB0, DIB1, DIB2, DIB3, DIB4, DIB5, DIB6, DIB7, DIB8, DIB9, DIB10, DIB11, DIB12, DIB13, DIB14, DIB15, DIB16, DIB17, DIB18, DIB19, DIB20, DIB21, DIB22, DIB23, DIB24, DIB25, DIB26, DIB27, DIB28, DIB29, DIB30, DIB31,
+    DOA0, DOA1, DOA2, DOA3, DOA4, DOA5, DOA6, DOA7, DOA8, DOA9, DOA10, DOA11, DOA12, DOA13, DOA14, DOA15, DOA16, DOA17, DOA18, DOA19, DOA20, DOA21, DOA22, DOA23, DOA24, DOA25, DOA26, DOA27, DOA28, DOA29, DOA30, DOA31,
+    DOB0, DOB1, DOB2, DOB3, DOB4, DOB5, DOB6, DOB7, DOB8, DOB9, DOB10, DOB11, DOB12, DOB13, DOB14, DOB15, DOB16, DOB17, DOB18, DOB19, DOB20, DOB21, DOB22, DOB23, DOB24, DOB25, DOB26, DOB27, DOB28, DOB29, DOB30, DOB31,
+    WEAN,
+    WEBN,
+    CKA, CKB, CSA, CSB, OEA, OEB) (
+
+    input (WEAN, WEBN) ()
+    input (CKA, CKB, CSA, CSB, OEA, OEB) ()
+    input (A0, A1, A2, A3, A4, A5, A6) ()
+    input (B0, B1, B2, B3, B4, B5, B6) ()
+    input (DIA0, DIA1, DIA2, DIA3, DIA4, DIA5, DIA6, DIA7, DIA8, DIA9, DIA10, DIA11, DIA12, DIA13, DIA14, DIA15, DIA16, DIA17, DIA18, DIA19, DIA20, DIA21, DIA22, DIA23, DIA24, DIA25, DIA26, DIA27, DIA28, DIA29, DIA30, DIA31) ()
+    input (DIB0, DIB1, DIB2, DIB3, DIB4, DIB5, DIB6, DIB7, DIB8, DIB9, DIB10, DIB11, DIB12, DIB13, DIB14, DIB15, DIB16, DIB17, DIB18, DIB19, DIB20, DIB21, DIB22, DIB23, DIB24, DIB25, DIB26, DIB27, DIB28, DIB29, DIB30, DIB31) ()
+
+    intern(WEA)(primitive = _inv (WEAN, WEA);)
+    intern(WEB)(primitive = _inv (WEBN, WEB);)
+    intern(WEACS)(primitive = _and (WEA,CSA,WEACS);)
+    intern(WEBCS)(primitive = _and (WEB,CSB,WEBCS);)
+    intern(A_WEN)(primitive = _and (WEA,CSA,A_WEN);)
+    intern(A_REN)(primitive = _and (WEAN,CSA,A_REN);)
+    intern(B_WEN)(primitive = _and (WEB,CSB,B_WEN);)
+    intern(B_REN)(primitive = _and (WEBN,CSB,B_REN);)
+
+
+    output (DOA0, DOA1, DOA2, DOA3, DOA4, DOA5, DOA6, DOA7, DOA8, DOA9, DOA10, DOA11, DOA12, DOA13, DOA14, DOA15, DOA16, DOA17, DOA18, DOA19, DOA20, DOA21, DOA22, DOA23, DOA24, DOA25, DOA26, DOA27, DOA28, DOA29, DOA30, DOA31, DOB0, DOB1, DOB2, DOB3, DOB4, DOB5, DOB6, DOB7, DOB8, DOB9, DOB10, DOB11, DOB12, DOB13, DOB14, DOB15, DOB16, DOB17, DOB18, DOB19, DOB20, DOB21, DOB22, DOB23, DOB24, DOB25, DOB26, DOB27, DOB28, DOB29, DOB30, DOB31) (
+        data_size = 32;
+        address_size = 7;
+        min_address = 0;
+        max_address = 127;
+        edge_trigger = WR;
+        read_write_conflict = XX;
+        read_read_conflict = R;
+        write_contention = false;
+        overwrite = false;
+        primitive = _cram(, ,
+            _write{H,H,H} (CKA, WEACS, A0, A1, A2, A3, A4, A5, A6, DIA0, DIA1, DIA2, DIA3, DIA4, DIA5, DIA6, DIA7, DIA8, DIA9, DIA10, DIA11, DIA12, DIA13, DIA14, DIA15, DIA16, DIA17, DIA18, DIA19, DIA20, DIA21, DIA22, DIA23, DIA24, DIA25, DIA26, DIA27, DIA28, DIA29, DIA30, DIA31),
+            _read{Z,H,H,H} (OEA, CKA, A_REN, A0, A1, A2, A3, A4, A5, A6, DOA0, DOA1, DOA2, DOA3, DOA4, DOA5, DOA6, DOA7, DOA8, DOA9, DOA10, DOA11, DOA12, DOA13, DOA14, DOA15, DOA16, DOA17, DOA18, DOA19, DOA20, DOA21, DOA22, DOA23, DOA24, DOA25, DOA26, DOA27, DOA28, DOA29, DOA30, DOA31),
+            _write{H,H,H} (CKB, WEBCS, B0, B1, B2, B3, B4, B5, B6, DIB0, DIB1, DIB2, DIB3, DIB4, DIB5, DIB6, DIB7, DIB8, DIB9, DIB10, DIB11, DIB12, DIB13, DIB14, DIB15, DIB16, DIB17, DIB18, DIB19, DIB20, DIB21, DIB22, DIB23, DIB24, DIB25, DIB26, DIB27, DIB28, DIB29, DIB30, DIB31),
+            _read{Z,H,H,H} (OEB, CKB, B_REN, B0, B1, B2, B3, B4, B5, B6, DOB0, DOB1, DOB2, DOB3, DOB4, DOB5, DOB6, DOB7, DOB8, DOB9, DOB10, DOB11, DOB12, DOB13, DOB14, DOB15, DOB16, DOB17, DOB18, DOB19, DOB20, DOB21, DOB22, DOB23, DOB24, DOB25, DOB26, DOB27, DOB28, DOB29, DOB30, DOB31)
+        );
+    )
+)

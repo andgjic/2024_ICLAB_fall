@@ -1,0 +1,132 @@
+
+module TMIP_DP_OP_1886J1_126_7119_J15_0 ( I1, I2, I3, O1 );
+  input [7:0] I1;
+  input [7:0] I2;
+  input [7:0] I3;
+  output [9:0] O1;
+  wire   n1, n2, n3, n4, n5, n6, n7, n8, n9, n10, n11, n12, n13, n14, n15, n16,
+         n17, n18, n19, n20, n21, n22, n23, n24, n25, n26, n27, n28, n29, n30,
+         n31, n32, n33, n34, n35, n36, n37, n38, n39, n40, n41, n42, n43, n44,
+         n45, n46, n47, n48, n49, n50, n51, n52, n53, n54, n55, n56, n57, n58,
+         n59, n60, n61, n62, n63, n64, n65, n66, n67, n68, n69, n70, n71, n72,
+         n73, n74, n75, n76, n77, n82, n83, n84, n85, n86, n87, n88, n89, n90,
+         n91, n92, n93, n94, n95, n96, n97, n98, n99, n100, n101, n102, n103,
+         n104, n105, n106, n107, n108, n109, n110, n111, n112, n113, n114,
+         n115;
+  assign O1[0] = n82;
+  assign O1[1] = n83;
+  assign O1[2] = n84;
+  assign O1[3] = n85;
+  assign O1[4] = n86;
+  assign O1[5] = n87;
+  assign O1[6] = n88;
+  assign O1[7] = n89;
+  assign O1[8] = n90;
+  assign O1[9] = n91;
+  assign n92 = I3[0];
+  assign n93 = I3[1];
+  assign n94 = I3[2];
+  assign n95 = I3[3];
+  assign n96 = I3[4];
+  assign n97 = I3[5];
+  assign n98 = I3[6];
+  assign n99 = I3[7];
+  assign n100 = I2[0];
+  assign n101 = I2[1];
+  assign n102 = I2[2];
+  assign n103 = I2[3];
+  assign n104 = I2[4];
+  assign n105 = I2[5];
+  assign n106 = I2[6];
+  assign n107 = I2[7];
+  assign n108 = I1[0];
+  assign n109 = I1[1];
+  assign n110 = I1[2];
+  assign n111 = I1[3];
+  assign n112 = I1[4];
+  assign n113 = I1[5];
+  assign n114 = I1[6];
+  assign n115 = I1[7];
+
+  BUF12CK U1 ( .O(n1), .I(n35) );
+  BUF4 U2 ( .O(n91), .I(n10) );
+  XNR2HT U3 ( .I1(n17), .I2(n18), .O(n90) );
+  OAI12HT U4 ( .B1(n1), .B2(n11), .A1(n12), .O(n10) );
+  ND2F U5 ( .I1(n28), .I2(n13), .O(n11) );
+  AOI12HT U6 ( .B1(n29), .B2(n13), .A1(n14), .O(n12) );
+  NR2F U7 ( .I1(n15), .I2(n23), .O(n13) );
+  NR2F U8 ( .I1(n15), .I2(n24), .O(n14) );
+  INV4CK U9 ( .O(n15), .I(n16) );
+  INV4CK U10 ( .O(n16), .I(n17) );
+  INV12 U11 ( .O(n17), .I(n64) );
+  XNR2HT U12 ( .I1(n2), .I2(n25), .O(n89) );
+  OAI12HT U13 ( .B1(n1), .B2(n19), .A1(n20), .O(n18) );
+  ND2F U14 ( .I1(n28), .I2(n21), .O(n19) );
+  AOI12HT U15 ( .B1(n29), .B2(n21), .A1(n22), .O(n20) );
+  INV4CK U16 ( .O(n21), .I(n23) );
+  INV4CK U17 ( .O(n22), .I(n24) );
+  ND2F U18 ( .I1(n56), .I2(n24), .O(n2) );
+  INV12 U19 ( .O(n56), .I(n23) );
+  NR2F U20 ( .I1(n66), .I2(n65), .O(n23) );
+  ND2F U21 ( .I1(n65), .I2(n66), .O(n24) );
+  XNR2HT U22 ( .I1(n3), .I2(n32), .O(n88) );
+  OAI12HT U23 ( .B1(n1), .B2(n26), .A1(n27), .O(n25) );
+  INV4CK U24 ( .O(n26), .I(n28) );
+  INV4CK U25 ( .O(n27), .I(n29) );
+  NR2F U26 ( .I1(n30), .I2(n33), .O(n28) );
+  OAI12HT U27 ( .B1(n30), .B2(n34), .A1(n31), .O(n29) );
+  ND2F U28 ( .I1(n57), .I2(n31), .O(n3) );
+  INV12 U29 ( .O(n57), .I(n30) );
+  NR2F U30 ( .I1(n68), .I2(n67), .O(n30) );
+  ND2F U31 ( .I1(n67), .I2(n68), .O(n31) );
+  XOR2HT U32 ( .I1(n4), .I2(n1), .O(n87) );
+  OAI12HT U33 ( .B1(n1), .B2(n33), .A1(n34), .O(n32) );
+  ND2F U34 ( .I1(n58), .I2(n34), .O(n4) );
+  INV12 U35 ( .O(n58), .I(n33) );
+  NR2F U36 ( .I1(n70), .I2(n69), .O(n33) );
+  ND2F U37 ( .I1(n69), .I2(n70), .O(n34) );
+  XNR2HT U38 ( .I1(n5), .I2(n40), .O(n86) );
+  AOI12HT U39 ( .B1(n36), .B2(n44), .A1(n37), .O(n35) );
+  NR2F U40 ( .I1(n41), .I2(n38), .O(n36) );
+  OAI12HT U41 ( .B1(n38), .B2(n42), .A1(n39), .O(n37) );
+  ND2F U42 ( .I1(n59), .I2(n39), .O(n5) );
+  INV12 U43 ( .O(n59), .I(n38) );
+  NR2F U44 ( .I1(n72), .I2(n71), .O(n38) );
+  ND2F U45 ( .I1(n71), .I2(n72), .O(n39) );
+  XOR2HT U46 ( .I1(n6), .I2(n43), .O(n85) );
+  OAI12HT U47 ( .B1(n43), .B2(n41), .A1(n42), .O(n40) );
+  ND2F U48 ( .I1(n60), .I2(n42), .O(n6) );
+  INV12 U49 ( .O(n60), .I(n41) );
+  NR2F U50 ( .I1(n74), .I2(n73), .O(n41) );
+  ND2F U51 ( .I1(n73), .I2(n74), .O(n42) );
+  XOR2HT U52 ( .I1(n47), .I2(n7), .O(n84) );
+  INV4CK U53 ( .O(n43), .I(n44) );
+  OAI12HT U54 ( .B1(n45), .B2(n47), .A1(n46), .O(n44) );
+  ND2F U55 ( .I1(n61), .I2(n46), .O(n7) );
+  INV12 U56 ( .O(n61), .I(n45) );
+  NR2F U57 ( .I1(n76), .I2(n75), .O(n45) );
+  ND2F U58 ( .I1(n75), .I2(n76), .O(n46) );
+  XNR2HT U59 ( .I1(n52), .I2(n8), .O(n83) );
+  AOI12HT U60 ( .B1(n48), .B2(n52), .A1(n49), .O(n47) );
+  INV4CK U61 ( .O(n48), .I(n50) );
+  INV4CK U62 ( .O(n49), .I(n51) );
+  ND2F U63 ( .I1(n62), .I2(n51), .O(n8) );
+  INV12 U64 ( .O(n62), .I(n50) );
+  NR2F U65 ( .I1(n101), .I2(n77), .O(n50) );
+  ND2F U66 ( .I1(n77), .I2(n101), .O(n51) );
+  XNR2HT U67 ( .I1(n100), .I2(n9), .O(n82) );
+  OAI12HT U68 ( .B1(n53), .B2(n55), .A1(n54), .O(n52) );
+  ND2F U69 ( .I1(n63), .I2(n54), .O(n9) );
+  INV12 U70 ( .O(n63), .I(n53) );
+  NR2F U71 ( .I1(n92), .I2(n108), .O(n53) );
+  ND2F U72 ( .I1(n108), .I2(n92), .O(n54) );
+  INV4CK U73 ( .O(n55), .I(n100) );
+  FA1 U74 ( .A(n107), .B(n99), .CI(n115), .CO(n64), .S(n65) );
+  FA1 U75 ( .A(n98), .B(n114), .CI(n106), .CO(n66), .S(n67) );
+  FA1 U76 ( .A(n97), .B(n113), .CI(n105), .CO(n68), .S(n69) );
+  FA1 U77 ( .A(n96), .B(n112), .CI(n104), .CO(n70), .S(n71) );
+  FA1 U78 ( .A(n95), .B(n111), .CI(n103), .CO(n72), .S(n73) );
+  FA1 U79 ( .A(n94), .B(n110), .CI(n102), .CO(n74), .S(n75) );
+  HA1 U80 ( .A(n93), .B(n109), .C(n76), .S(n77) );
+endmodule
+

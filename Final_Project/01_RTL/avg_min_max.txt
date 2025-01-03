@@ -1,0 +1,6 @@
+[          Max R/G/B ] : 14 / 14 / 14
+[          Min R/G/B ] : 0  / 0  / 0 
+[                Max ] : 14        
+[                Min ] : 0         
+[                Avg ] : 7         
+[           Your Avg ] : 2         

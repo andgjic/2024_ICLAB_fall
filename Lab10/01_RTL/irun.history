@@ -1,0 +1,432 @@
+s1(21Nov2024:01:21:52):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_1_1 
+s2(21Nov2024:01:23:37):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_1_1 
+s3(21Nov2024:01:23:38):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_1_2 
+s4(21Nov2024:01:23:39):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_1_3 
+s5(21Nov2024:01:23:40):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_1_4 
+s6(21Nov2024:01:23:41):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_2_1 
+s7(21Nov2024:01:23:43):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_2_2 
+s8(21Nov2024:01:23:44):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_2_3 
+s9(21Nov2024:01:23:45):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_2_4 
+s10(21Nov2024:01:23:46):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_3_1 
+s11(21Nov2024:01:23:47):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_3_2 
+s12(21Nov2024:01:23:48):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_4_1 
+s13(21Nov2024:01:23:50):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_4_2 
+s14(21Nov2024:01:23:51):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_4_3 
+s15(21Nov2024:01:23:52):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_4_4 
+s16(21Nov2024:01:23:53):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_5_1 
+s17(21Nov2024:01:23:54):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_5_2 
+s18(21Nov2024:01:23:55):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_5_3 
+s19(21Nov2024:01:23:57):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_5_4 
+s20(21Nov2024:01:23:58):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_6_1 
+s21(21Nov2024:01:23:59):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_7_1 
+s22(21Nov2024:01:24:00):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_8_1 
+s23(21Nov2024:01:24:01):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_8_2 
+s24(21Nov2024:01:24:02):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_8_3 
+s25(21Nov2024:01:24:03):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_8_4 
+s26(21Nov2024:01:24:05):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_8_5 
+s27(21Nov2024:01:24:06):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_8_6 
+s28(21Nov2024:01:24:07):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_9_1 
+s29(21Nov2024:01:24:35):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_1_1 
+s30(21Nov2024:01:24:36):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_1_2 
+s31(21Nov2024:01:24:38):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_1_3 
+s32(21Nov2024:01:24:39):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_1_4 
+s33(21Nov2024:01:24:40):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_2_1 
+s34(21Nov2024:01:24:50):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_1_1 
+s35(21Nov2024:01:24:52):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_1_2 
+s36(21Nov2024:01:24:53):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_1_3 
+s37(21Nov2024:01:24:54):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_1_4 
+s38(21Nov2024:01:24:55):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_2_1 
+s39(21Nov2024:01:24:56):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_2_2 
+s40(21Nov2024:01:24:57):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_2_3 
+s41(21Nov2024:01:24:58):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_2_4 
+s42(21Nov2024:01:24:59):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_3_1 
+s43(21Nov2024:01:25:01):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_3_2 
+s44(21Nov2024:01:25:02):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_4_1 
+s45(21Nov2024:01:25:03):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_4_2 
+s46(21Nov2024:01:25:04):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_4_3 
+s47(21Nov2024:01:25:05):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_4_4 
+s48(21Nov2024:01:25:06):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_5_1 
+s49(21Nov2024:01:25:07):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_5_2 
+s50(21Nov2024:01:25:08):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_5_3 
+s51(21Nov2024:01:25:09):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_5_4 
+s52(21Nov2024:01:25:11):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_6_1 
+s53(21Nov2024:01:25:12):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_7_1 
+s54(21Nov2024:01:25:13):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_8_1 
+s55(21Nov2024:01:25:14):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_8_2 
+s56(21Nov2024:01:25:15):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_8_3 
+s57(21Nov2024:01:25:16):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_8_4 
+s58(21Nov2024:01:25:18):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_8_5 
+s59(21Nov2024:01:25:19):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_8_6 
+s60(21Nov2024:01:25:20):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_9_1 
+s61(21Nov2024:01:25:31):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_1_1 
+s62(21Nov2024:01:25:32):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_1_2 
+s63(21Nov2024:01:25:33):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_1_3 
+s64(21Nov2024:01:25:34):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_1_4 
+s65(21Nov2024:01:25:36):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_2_1 
+s66(21Nov2024:01:25:37):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_2_2 
+s67(21Nov2024:01:25:38):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_2_3 
+s68(21Nov2024:01:25:39):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_2_4 
+s69(21Nov2024:01:25:40):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_3_1 
+s70(21Nov2024:01:25:41):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_3_2 
+s71(21Nov2024:01:25:42):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_4_1 
+s72(21Nov2024:01:25:44):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_4_2 
+s73(21Nov2024:01:25:45):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_4_3 
+s74(21Nov2024:01:25:46):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_4_4 
+s75(21Nov2024:01:25:47):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_5_1 
+s76(21Nov2024:01:25:48):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_5_2 
+s77(21Nov2024:01:25:49):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_5_3 
+s78(21Nov2024:01:25:50):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_5_4 
+s79(21Nov2024:01:25:52):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_6_1 
+s80(21Nov2024:01:25:53):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_7_1 
+s81(21Nov2024:01:25:54):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_8_1 
+s82(21Nov2024:01:25:55):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_8_2 
+s83(21Nov2024:01:25:57):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_8_3 
+s84(21Nov2024:01:25:58):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_8_4 
+s85(21Nov2024:01:25:59):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_8_5 
+s86(21Nov2024:01:26:00):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_8_6 
+s87(21Nov2024:01:26:01):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_9_1 
+s88(21Nov2024:10:34:45):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s89(21Nov2024:10:35:46):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s90(21Nov2024:10:36:03):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s91(21Nov2024:10:36:34):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define CORRECT 
+s92(21Nov2024:10:36:53):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s93(21Nov2024:10:38:50):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define CORRECT 
+s94(21Nov2024:10:39:02):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define CORRECT 
+s95(21Nov2024:10:39:26):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s96(21Nov2024:10:43:57):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define CORRECT 
+s97(21Nov2024:10:44:44):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s98(21Nov2024:10:45:43):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s99(21Nov2024:10:45:59):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s100(21Nov2024:10:47:27):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s101(21Nov2024:10:47:50):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s102(21Nov2024:10:48:00):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define CORRECT 
+s103(21Nov2024:10:48:48):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_1_1 
+s104(21Nov2024:10:48:50):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_1_2 
+s105(21Nov2024:10:48:51):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_1_3 
+s106(21Nov2024:10:48:52):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_1_4 
+s107(21Nov2024:10:48:53):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_2_1 
+s108(21Nov2024:10:48:54):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_2_2 
+s109(21Nov2024:10:48:55):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_2_3 
+s110(21Nov2024:10:48:56):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_2_4 
+s111(21Nov2024:10:48:57):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_3_1 
+s112(21Nov2024:10:48:58):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_3_2 
+s113(21Nov2024:10:49:00):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_4_1 
+s114(21Nov2024:10:49:01):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_4_2 
+s115(21Nov2024:10:49:02):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_4_3 
+s116(21Nov2024:10:49:04):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_4_4 
+s117(21Nov2024:10:49:05):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_5_1 
+s118(21Nov2024:10:49:06):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_5_2 
+s119(21Nov2024:10:49:07):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_5_3 
+s120(21Nov2024:10:49:08):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_5_4 
+s121(21Nov2024:10:49:09):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_6_1 
+s122(21Nov2024:10:49:10):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_7_1 
+s123(21Nov2024:10:49:11):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_8_1 
+s124(21Nov2024:10:49:12):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_8_2 
+s125(21Nov2024:10:49:14):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_8_3 
+s126(21Nov2024:10:49:15):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_8_4 
+s127(21Nov2024:10:49:16):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_8_5 
+s128(21Nov2024:10:49:17):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_8_6 
+s129(21Nov2024:10:49:19):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_9_1 
+s130(21Nov2024:10:50:11):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s131(21Nov2024:11:02:10):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s132(21Nov2024:11:42:37):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define CORRECT 
+s133(21Nov2024:11:43:39):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define CORRECT 
+s134(21Nov2024:11:48:54):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define CORRECT 
+s135(21Nov2024:11:49:12):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define CORRECT 
+s136(21Nov2024:11:49:37):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define CORRECT 
+s137(21Nov2024:11:51:29):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define CORRECT 
+s138(21Nov2024:11:51:46):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define CORRECT 
+s139(21Nov2024:11:52:30):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define CORRECT 
+s140(21Nov2024:11:54:19):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define CORRECT 
+s141(21Nov2024:11:56:27):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s142(21Nov2024:11:56:57):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s143(21Nov2024:12:01:08):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s144(21Nov2024:12:04:32):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s145(21Nov2024:12:05:41):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s146(21Nov2024:12:10:30):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s147(21Nov2024:12:28:22):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s148(21Nov2024:12:29:18):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s149(21Nov2024:12:33:57):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s150(21Nov2024:12:36:44):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s151(21Nov2024:12:38:08):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s152(21Nov2024:12:40:21):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s153(21Nov2024:12:41:18):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define CORRECT 
+s154(21Nov2024:12:44:11):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s155(21Nov2024:12:45:31):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s156(21Nov2024:12:59:07):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s157(21Nov2024:13:00:06):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s158(21Nov2024:13:02:51):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s159(21Nov2024:13:03:03):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s160(21Nov2024:13:03:19):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s161(21Nov2024:13:07:46):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s162(21Nov2024:13:08:48):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s163(21Nov2024:13:09:27):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s164(21Nov2024:13:10:12):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s165(21Nov2024:14:03:29):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s166(21Nov2024:14:04:54):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s167(21Nov2024:14:07:34):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s168(21Nov2024:14:17:56):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s169(21Nov2024:14:18:57):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s170(21Nov2024:14:24:23):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s171(21Nov2024:14:25:07):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s172(21Nov2024:14:25:57):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s173(21Nov2024:14:35:42):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s174(21Nov2024:14:38:39):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s175(21Nov2024:14:49:26):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s176(21Nov2024:14:49:38):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s177(21Nov2024:14:53:43):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s178(21Nov2024:14:55:00):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s179(21Nov2024:14:56:59):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s180(21Nov2024:14:58:00):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s181(21Nov2024:14:58:25):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s182(21Nov2024:14:58:39):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s183(21Nov2024:15:24:35):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s184(21Nov2024:15:32:08):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s185(21Nov2024:15:35:34):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s186(21Nov2024:15:36:28):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s187(21Nov2024:16:13:47):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s188(21Nov2024:16:17:16):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s189(21Nov2024:16:33:04):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s190(21Nov2024:16:36:21):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s191(21Nov2024:16:53:01):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s192(21Nov2024:16:53:41):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s193(21Nov2024:16:55:08):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s194(21Nov2024:17:04:26):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s195(21Nov2024:17:06:39):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s196(21Nov2024:17:07:32):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s197(21Nov2024:17:07:35):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s198(21Nov2024:17:09:02):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s199(21Nov2024:17:10:02):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s200(21Nov2024:17:10:59):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s201(21Nov2024:17:12:09):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s202(21Nov2024:17:12:47):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s203(21Nov2024:20:12:53):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s204(21Nov2024:20:13:19):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define FAIL_1 -coverage U -covoverwrite 
+s205(21Nov2024:20:13:32):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define FAIL_2 -coverage U -covoverwrite 
+s206(21Nov2024:20:13:37):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define FAIL_3 -coverage U -covoverwrite 
+s207(21Nov2024:20:13:42):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define FAIL_4 -coverage U -covoverwrite 
+s208(21Nov2024:20:14:19):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define CORRECT 
+s209(21Nov2024:20:14:32):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_1_1 
+s210(21Nov2024:20:14:37):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_1_2 
+s211(21Nov2024:20:14:42):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_1_3 
+s212(21Nov2024:20:14:45):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_1_4 
+s213(21Nov2024:20:14:52):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_2_1 
+s214(21Nov2024:20:14:57):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_2_2 
+s215(21Nov2024:20:15:01):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_2_3 
+s216(21Nov2024:20:15:04):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_2_4 
+s217(21Nov2024:20:15:10):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_3_1 
+s218(21Nov2024:20:15:14):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_3_2 
+s219(21Nov2024:20:15:23):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_4_1 
+s220(21Nov2024:20:15:27):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_4_2 
+s221(21Nov2024:20:15:29):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_4_3 
+s222(21Nov2024:20:15:32):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_4_4 
+s223(21Nov2024:20:15:38):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_5_1 
+s224(21Nov2024:20:15:42):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_5_2 
+s225(21Nov2024:20:15:46):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_5_3 
+s226(21Nov2024:20:15:49):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_5_4 
+s227(21Nov2024:20:15:57):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_6_1 
+s228(21Nov2024:20:16:06):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_7_1 
+s229(21Nov2024:20:16:13):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_8_1 
+s230(21Nov2024:20:16:17):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_8_2 
+s231(21Nov2024:20:16:21):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_8_3 
+s232(21Nov2024:20:16:23):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_8_4 
+s233(21Nov2024:20:16:26):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_8_5 
+s234(21Nov2024:20:16:31):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_8_6 
+s235(21Nov2024:20:16:37):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_9_1 
+s236(21Nov2024:20:16:42):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define CORRECT 
+s237(21Nov2024:20:23:12):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s238(21Nov2024:20:27:22):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s239(21Nov2024:20:30:10):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s240(21Nov2024:20:38:01):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s241(21Nov2024:20:40:22):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s242(21Nov2024:20:43:58):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s243(21Nov2024:20:44:07):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s244(21Nov2024:20:46:52):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s245(21Nov2024:20:49:56):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s246(21Nov2024:20:52:43):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s247(21Nov2024:20:56:08):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s248(21Nov2024:20:56:25):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s249(21Nov2024:21:15:19):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s250(21Nov2024:21:19:19):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s251(21Nov2024:21:32:10):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s252(21Nov2024:21:40:14):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define CORRECT 
+s253(21Nov2024:21:40:25):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_1_1 
+s254(21Nov2024:21:40:26):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_1_2 
+s255(21Nov2024:21:40:27):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_1_3 
+s256(21Nov2024:21:40:29):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_1_4 
+s257(21Nov2024:21:40:30):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_2_1 
+s258(21Nov2024:21:40:31):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_2_2 
+s259(21Nov2024:21:40:33):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_2_3 
+s260(21Nov2024:21:40:34):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_2_4 
+s261(21Nov2024:21:40:35):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_3_1 
+s262(21Nov2024:21:40:37):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_3_2 
+s263(21Nov2024:21:40:38):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_4_1 
+s264(21Nov2024:21:40:39):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_4_2 
+s265(21Nov2024:21:40:40):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_4_3 
+s266(21Nov2024:21:40:42):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_4_4 
+s267(21Nov2024:21:40:43):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_5_1 
+s268(21Nov2024:21:40:44):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_5_2 
+s269(21Nov2024:21:40:45):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_5_3 
+s270(21Nov2024:21:40:47):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_5_4 
+s271(21Nov2024:21:40:48):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_6_1 
+s272(21Nov2024:21:40:49):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_7_1 
+s273(21Nov2024:21:40:51):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_8_1 
+s274(21Nov2024:21:40:52):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_8_2 
+s275(21Nov2024:21:40:54):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_8_3 
+s276(21Nov2024:21:40:55):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_8_4 
+s277(21Nov2024:21:40:56):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_8_5 
+s278(21Nov2024:21:40:58):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_8_6 
+s279(21Nov2024:21:40:59):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_9_1 
+s280(21Nov2024:21:41:42):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_1_1 
+s281(21Nov2024:21:41:57):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define CORRECT 
+s282(21Nov2024:21:45:34):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define CORRECT 
+s283(21Nov2024:21:46:21):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define CORRECT 
+s284(21Nov2024:21:46:42):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define CORRECT 
+s285(21Nov2024:21:46:59):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define CORRECT 
+s286(21Nov2024:21:47:38):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define CORRECT 
+s287(21Nov2024:21:48:32):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define CORRECT 
+s288(21Nov2024:21:49:28):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define CORRECT 
+s289(21Nov2024:21:49:51):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define CORRECT 
+s290(21Nov2024:21:49:56):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define CORRECT 
+s291(21Nov2024:21:50:13):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define CORRECT 
+s292(21Nov2024:21:50:27):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define CORRECT 
+s293(21Nov2024:21:50:37):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define CORRECT 
+s294(21Nov2024:21:52:49):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s295(21Nov2024:21:53:55):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s296(21Nov2024:21:58:55):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define CORRECT 
+s297(21Nov2024:21:58:59):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s298(21Nov2024:22:00:22):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s299(21Nov2024:22:02:46):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_1_1 
+s300(21Nov2024:22:02:47):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_1_2 
+s301(21Nov2024:22:02:49):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_1_3 
+s302(21Nov2024:22:02:50):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_1_4 
+s303(21Nov2024:22:02:51):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_2_1 
+s304(21Nov2024:22:02:52):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_2_2 
+s305(21Nov2024:22:02:53):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_2_3 
+s306(21Nov2024:22:02:55):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_2_4 
+s307(21Nov2024:22:02:56):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_3_1 
+s308(21Nov2024:22:02:57):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_3_2 
+s309(21Nov2024:22:02:58):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_4_1 
+s310(21Nov2024:22:02:59):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_4_2 
+s311(21Nov2024:22:03:01):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_4_3 
+s312(21Nov2024:22:03:02):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_4_4 
+s313(21Nov2024:22:03:03):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_5_1 
+s314(21Nov2024:22:03:04):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_5_2 
+s315(21Nov2024:22:03:06):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_5_3 
+s316(21Nov2024:22:03:07):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_5_4 
+s317(21Nov2024:22:03:08):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_6_1 
+s318(21Nov2024:22:03:09):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_7_1 
+s319(21Nov2024:22:03:10):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_8_1 
+s320(21Nov2024:22:03:11):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_8_2 
+s321(21Nov2024:22:03:13):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_8_3 
+s322(21Nov2024:22:03:14):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_8_4 
+s323(21Nov2024:22:03:15):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_8_5 
+s324(21Nov2024:22:03:16):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_8_6 
+s325(21Nov2024:22:03:17):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_9_1 
+s326(21Nov2024:22:03:18):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define CORRECT 
+s327(21Nov2024:22:03:55):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define CORRECT 
+s328(22Nov2024:12:59:45):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define FAIL_1 -coverage U -covoverwrite 
+s329(22Nov2024:12:59:50):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define FAIL_2 -coverage U -covoverwrite 
+s330(22Nov2024:12:59:59):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define FAIL_3 -coverage U -covoverwrite 
+s331(22Nov2024:13:00:06):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define FAIL_4 -coverage U -covoverwrite 
+s332(22Nov2024:13:00:15):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s333(22Nov2024:13:01:03):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_1_1 
+s334(22Nov2024:13:01:08):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_1_2 
+s335(22Nov2024:13:01:24):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_1_3 
+s336(22Nov2024:13:01:31):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_1_4 
+s337(22Nov2024:13:01:41):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_2_1 
+s338(22Nov2024:13:01:45):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_2_2 
+s339(22Nov2024:13:01:50):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_2_3 
+s340(22Nov2024:13:01:54):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_2_4 
+s341(22Nov2024:13:05:04):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s342(22Nov2024:13:09:08):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s343(22Nov2024:13:09:23):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define FAIL_1 -coverage U -covoverwrite 
+s344(22Nov2024:13:09:28):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define FAIL_2 -coverage U -covoverwrite 
+s345(22Nov2024:13:09:32):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define FAIL_3 -coverage U -covoverwrite 
+s346(22Nov2024:13:09:35):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define FAIL_4 -coverage U -covoverwrite 
+s347(22Nov2024:13:09:50):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_1_1 
+s348(22Nov2024:13:09:51):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_1_2 
+s349(22Nov2024:13:09:52):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_1_3 
+s350(22Nov2024:13:09:53):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_1_4 
+s351(22Nov2024:13:09:55):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_2_1 
+s352(22Nov2024:13:09:56):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_2_2 
+s353(22Nov2024:13:09:57):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_2_3 
+s354(22Nov2024:13:09:58):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_2_4 
+s355(22Nov2024:13:09:59):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_3_1 
+s356(22Nov2024:13:10:00):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_3_2 
+s357(22Nov2024:13:10:02):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_4_1 
+s358(22Nov2024:13:10:03):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_4_2 
+s359(22Nov2024:13:10:04):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_4_3 
+s360(22Nov2024:13:10:06):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_4_4 
+s361(22Nov2024:13:10:07):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_5_1 
+s362(22Nov2024:13:10:09):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_5_2 
+s363(22Nov2024:13:10:10):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_5_3 
+s364(22Nov2024:13:10:11):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_5_4 
+s365(22Nov2024:13:10:12):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_6_1 
+s366(22Nov2024:13:10:13):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_7_1 
+s367(22Nov2024:13:10:15):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_8_1 
+s368(22Nov2024:13:10:16):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_8_2 
+s369(22Nov2024:13:10:18):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_8_3 
+s370(22Nov2024:13:10:19):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_8_4 
+s371(22Nov2024:13:10:20):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_8_5 
+s372(22Nov2024:13:10:21):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_8_6 
+s373(22Nov2024:13:10:22):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_9_1 
+s374(22Nov2024:13:10:23):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define CORRECT 
+s375(22Nov2024:13:11:17):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s376(24Nov2024:12:23:43):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define CORRECT 
+s377(24Nov2024:12:25:39):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define CORRECT 
+s378(24Nov2024:12:26:10):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define CORRECT 
+s379(24Nov2024:12:27:52):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define CORRECT 
+s380(24Nov2024:12:49:08):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define CORRECT 
+s381(24Nov2024:12:49:28):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define CORRECT 
+s382(24Nov2024:12:49:37):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define CORRECT 
+s383(24Nov2024:12:49:49):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define CORRECT 
+s384(24Nov2024:12:50:00):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define CORRECT 
+s385(24Nov2024:12:50:18):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define CORRECT 
+s386(24Nov2024:12:50:27):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define CORRECT 
+s387(24Nov2024:12:50:38):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define CORRECT 
+s388(24Nov2024:15:27:55):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s389(24Nov2024:15:28:28):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define FAIL_1 -coverage U -covoverwrite 
+s390(24Nov2024:15:28:36):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define FAIL_2 -coverage U -covoverwrite 
+s391(24Nov2024:15:28:41):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define FAIL_3 -coverage U -covoverwrite 
+s392(24Nov2024:15:28:45):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define FAIL_4 -coverage U -covoverwrite 
+s393(24Nov2024:15:29:02):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s394(24Nov2024:15:30:28):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define CORRECT 
+s395(24Nov2024:15:30:40):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_1_1 
+s396(24Nov2024:15:33:00):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_1_2 
+s397(24Nov2024:15:33:09):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_1_3 
+s398(24Nov2024:15:33:19):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_1_4 
+s399(24Nov2024:15:33:25):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_2_1 
+s400(24Nov2024:15:34:50):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_2_2 
+s401(24Nov2024:15:34:55):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_2_3 
+s402(24Nov2024:15:35:14):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_2_4 
+s403(24Nov2024:15:35:34):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_3_1 
+s404(24Nov2024:15:36:19):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_3_2 
+s405(24Nov2024:15:36:52):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_4_1 
+s406(24Nov2024:15:37:04):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_4_2 
+s407(24Nov2024:15:37:18):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_4_3 
+s408(24Nov2024:15:37:25):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_4_4 
+s409(24Nov2024:15:37:41):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_5_1 
+s410(24Nov2024:15:37:59):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_5_2 
+s411(24Nov2024:15:38:06):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_5_3 
+s412(24Nov2024:15:38:10):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_5_4 
+s413(24Nov2024:15:38:20):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_6_1 
+s414(24Nov2024:15:38:27):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_7_1 
+s415(24Nov2024:15:38:52):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_8_1 
+s416(24Nov2024:15:39:08):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_8_2 
+s417(24Nov2024:15:39:18):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_8_3 
+s418(24Nov2024:15:39:35):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_8_4 
+s419(24Nov2024:15:39:40):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_8_5 
+s420(24Nov2024:15:39:52):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_8_6 
+s421(24Nov2024:15:39:58):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define SPEC_9_1 
+s422(24Nov2024:15:40:34):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define CORRECT 
+s423(24Nov2024:22:25:05):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s424(24Nov2024:22:25:30):  irun -f filelist.f -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define CORRECT 
+s425(24Nov2024:22:25:33):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s426(24Nov2024:22:25:55):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s427(24Nov2024:22:26:34):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s428(24Nov2024:22:27:37):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s429(24Nov2024:22:50:34):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s430(24Nov2024:22:51:34):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s431(24Nov2024:22:51:54):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 
+s432(24Nov2024:22:52:19):  irun -f filelist.f -define COV -loadpli1 debpli:novas_pli_boot -notimingchecks -debug -define CORRECT -coverage U -covoverwrite 

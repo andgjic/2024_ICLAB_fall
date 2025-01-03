@@ -1,0 +1,97 @@
+///////////////////////////////////////////////////////////////////////////////////
+// 
+//              Synchronous High Speed Single Port SRAM Compiler 
+// 
+//                    UMC 0.18um GenericII Logic Process
+//    __________________________________________________________________________
+// 
+// 
+//        (C) Copyright 2002-2009 Faraday Technology Corp. All Rights Reserved.
+// 
+//      This source code is an unpublished work belongs to Faraday Technology
+//      Corp.  It is considered a trade secret and is not to be divulged or
+//      used by parties who have not received written authorization from
+//      Faraday Technology Corp.
+// 
+//      Faraday's home page can be found at:
+//      http://www.faraday-tech.com/
+//     
+// ________________________________________________________________________________
+// 
+//       Module Name       :  MEM_gray_max  
+//       Word              :  256           
+//       Bit               :  8             
+//       Byte              :  1             
+//       Mux               :  1             
+//       Power Ring Type   :  port          
+//       Power Ring Width  :  2 (um)        
+//       Output Loading    :  0.05 (pf)     
+//       Input Data Slew   :  0.02 (ns)     
+//       Input Clock Slew  :  0.02 (ns)     
+// 
+// ________________________________________________________________________________
+// 
+//       Library          : FSA0M_A
+//       Memaker          : 200901.2.1
+//       Date             : 2024/10/09 21:07:14
+// 
+// ________________________________________________________________________________
+// 
+//
+//       Library          : FSA0M_A
+//       Memaker          : 200901.2.1
+//       Date             : 2024/10/09 21:07:15
+//
+///////////////////////////////////////////////////////////////////////////////////
+
+module MEM_gray_max ( 
+                     A7,A6,A5,A4,A3,A2,A1,A0, 
+                     DO0, DO1, DO2, DO3, DO4, DO5, DO6, DO7,
+                     DI0, DI1, DI2, DI3, DI4, DI5, DI6, DI7,
+                     WEB,CK,CS,OE);
+                           
+   parameter  AddressSize     = 8;
+   parameter  Bits            = 8;
+   parameter  Words           = 256;
+   parameter  Bytes           = 1;
+   parameter  AddressRepSize  = 7;
+   parameter  DVSize          = 0; 
+ 
+   input  CK, CS, OE;
+   input  WEB;
+   input  A7,A6,A5,A4,A3,A2,A1,A0;
+   input  DI0,DI1,DI2,DI3,DI4,DI5,DI6,DI7; 
+   output DO0,DO1,DO2,DO3,DO4,DO5,DO6,DO7;
+
+   reg [Bits-1:0] mem [0:Words-1] ; 
+   reg [Bits-1:0] DO  ;     
+  
+   wire [AddressSize-1:0] A = { A7,A6,A5,A4,A3,A2,A1,A0 }; 
+   wire [Bits-1:0] DI = { DI7,DI6,DI5,DI4,DI3,DI2,DI1,DI0 }; 
+   wire DO7 = DO[7] ;     
+   wire DO6 = DO[6] ;     
+   wire DO5 = DO[5] ;     
+   wire DO4 = DO[4] ;     
+   wire DO3 = DO[3] ;     
+   wire DO2 = DO[2] ;     
+   wire DO1 = DO[1] ;     
+   wire DO0 = DO[0] ;     
+
+   reg [Bits-1:0] data_reg ;     
+
+   wire write_en;
+
+
+   and u1  (write_en, !WEB, CS); 
+
+   always @ (posedge CK) 
+         if (write_en) mem[A] = DI;    
+
+   always @ (posedge CK) 
+         if (CS) data_reg = mem[A];    
+
+   always @ (OE or data_reg)  
+      if (OE) DO = data_reg;
+       else    DO = 8'hZ; 
+                             
+endmodule

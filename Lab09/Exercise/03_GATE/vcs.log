@@ -1,0 +1,1458 @@
+Command: vcs -timescale=1ns/1fs -j8 -sverilog +v2k -full64 -Mupdate -R -debug_access+all \
+-f filelist.f -o simv -l vcs.log -P /usr/cad/synopsys/verdi/2019.06//share/PLI/VCS/linux64/novas.tab \
+/usr/cad/synopsys/verdi/2019.06//share/PLI/VCS/linux64/pli.a -v /RAID2/COURSE/iclab/iclabTA01/UMC018_CBDK/CIC/Verilog/fsa0m_a_generic_core_30.lib.src \
++define+GATE +neg_tchk +nowarnNTCDSN
+*** Using c compiler gcc instead of cc ...
+                         Chronologic VCS (TM)
+         Version T-2022.06_Full64 -- Mon Nov 25 10:40:19 2024
+
+                    Copyright (c) 1991 - 2022 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Parsing design file 'TESTBED.sv'
+Parsing included file 'Usertype.sv'.
+Back to file 'TESTBED.sv'.
+Parsing included file 'INF.sv'.
+Back to file 'TESTBED.sv'.
+Parsing included file 'PATTERN.sv'.
+Parsing included file 'Usertype.sv'.
+Back to file 'PATTERN.sv'.
+Back to file 'TESTBED.sv'.
+Parsing included file '../00_TESTBED/pseudo_DRAM.svp'.
+Parsing included file 'Usertype.sv'.
+Back to file '../00_TESTBED/pseudo_DRAM.svp'.
+Back to file 'TESTBED.sv'.
+Parsing included file 'Program_SYN.v'.
+Back to file 'TESTBED.sv'.
+Parsing included file 'Program_Wrapper.sv'.
+Back to file 'TESTBED.sv'.
+
+Warning-[TMR] Text macro redefined
+TESTBED.sv, 24
+  Text macro (CYCLE_TIME) is redefined. The last definition will override 
+  previous ones.
+  Location of previous definition: PATTERN.sv, 5.
+  Previous value: 5.5
+
+Parsing library file '/RAID2/COURSE/iclab/iclabTA01/UMC018_CBDK/CIC/Verilog/fsa0m_a_generic_core_30.lib.src'
+Top Level Modules:
+       TESTBED
+TimeScale is 10 ps / 1 ps
+
+Warning-[TFIPC] Too few instance port connections
+Program_SYN.v, 697
+Program, "DFFS ascend_2_O2_reg_2_( .D (ascend_2_sort[26]),  .CK (clk),  .Q (g_min3[2]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+Program_SYN.v, 752
+Program, "DFFS ascend_1_O3_reg_10_( .D (n4162),  .CK (clk),  .QB (min4[10]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+Program_SYN.v, 753
+Program, "DFFS ascend_2_O2_reg_0_( .D (ascend_2_sort[24]),  .CK (clk),  .Q (g_min3[0]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+Program_SYN.v, 754
+Program, "DFFS formula_result_reg_1_( .D (N615),  .CK (clk),  .Q (formula_result[1]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+Program_SYN.v, 755
+Program, "DFFS ascend_2_O1_reg_1_( .D (ascend_2_sort[13]),  .CK (clk),  .Q (g_min2[1]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+Program_SYN.v, 758
+Program, "DFFS ascend_2_O1_reg_4_( .D (ascend_2_sort[16]),  .CK (clk),  .Q (g_min2[4]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+Program_SYN.v, 759
+Program, "DFFS ascend_2_O1_reg_3_( .D (ascend_2_sort[15]),  .CK (clk),  .Q (g_min2[3]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+Program_SYN.v, 760
+Program, "DFFS ascend_2_O2_reg_1_( .D (ascend_2_sort[25]),  .CK (clk),  .Q (g_min3[1]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+Program_SYN.v, 761
+Program, "DFFS ascend_2_O0_reg_0_( .D (ascend_2_sort[0]),  .CK (clk),  .Q (g_min1[0]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+Program_SYN.v, 762
+Program, "DFFS ascend_2_O2_reg_4_( .D (ascend_2_sort[28]),  .CK (clk),  .Q (g_min3[4]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+Program_SYN.v, 763
+Program, "DFFS ascend_2_O2_reg_3_( .D (ascend_2_sort[27]),  .CK (clk),  .Q (g_min3[3]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+Program_SYN.v, 764
+Program, "DFFS ascend_2_O1_reg_10_( .D (ascend_2_sort[22]),  .CK (clk),  .Q (g_min2[10]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+Program_SYN.v, 766
+Program, "DFFS ascend_2_O1_reg_7_( .D (ascend_2_sort[19]),  .CK (clk),  .Q (g_min2[7]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+Program_SYN.v, 767
+Program, "DFFS ascend_2_O1_reg_8_( .D (ascend_2_sort[20]),  .CK (clk),  .Q (g_min2[8]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+Program_SYN.v, 768
+Program, "DFFS ascend_2_O1_reg_11_( .D (ascend_2_sort[23]),  .CK (clk),  .Q (g_min2[11]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+Program_SYN.v, 770
+Program, "DFFS ascend_2_O1_reg_0_( .D (ascend_2_sort[12]),  .CK (clk),  .Q (g_min2[0]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+Program_SYN.v, 771
+Program, "DFFS formula_result_reg_0_( .D (N614),  .CK (clk),  .Q (formula_result[0]));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+Program_SYN.v, 3194
+Program, "FA1S U3678( .A (n2747),  .B (dram_data_4),  .CI (n2746),  .CO (n2748));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+Program_SYN.v, 3195
+Program, "FA1S U3679( .A (dram_data[32]),  .B (n2749),  .CI (n2748),  .CO (n2751));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[ENUMASSIGN] Illegal assignment to enum variable
+PATTERN.sv, 526
+PATTERN, "inf.D.d_act[0] = 'x;"
+  Only expressions of the enum type can be assigned to an enum variable. 
+  The type logic [0:0] is incompatible with the enum 'Action'
+  Expression: 'x
+  Use the static cast operator to convert the expression to enum type.
+
+
+Warning-[ENUMASSIGN] Illegal assignment to enum variable
+PATTERN.sv, 533
+PATTERN, "inf.D.d_formula[0] = ($urandom % 8);"
+  Only expressions of the enum type can be assigned to an enum variable. 
+  The type bit [31:0] is incompatible with the enum 'Formula_Type'
+  Expression: ($urandom % 8)
+  Use the static cast operator to convert the expression to enum type.
+
+
+Warning-[ENUMASSIGN] Illegal assignment to enum variable
+PATTERN.sv, 541
+PATTERN, "inf.D.d_formula[0] = 'x;"
+  Only expressions of the enum type can be assigned to an enum variable. 
+  The type logic [0:0] is incompatible with the enum 'Formula_Type'
+  Expression: 'x
+  Use the static cast operator to convert the expression to enum type.
+
+
+Warning-[ENUMASSIGN] Illegal assignment to enum variable
+PATTERN.sv, 548
+PATTERN, "inf.D.d_mode[0] = MODE[($urandom % 3)];"
+  Only expressions of the enum type can be assigned to an enum variable. 
+  The type integer is incompatible with the enum 'Mode'
+  Expression: MODE[($urandom % 3)]
+  Use the static cast operator to convert the expression to enum type.
+
+
+Warning-[ENUMASSIGN] Illegal assignment to enum variable
+PATTERN.sv, 556
+PATTERN, "inf.D.d_mode[0] = 'x;"
+  Only expressions of the enum type can be assigned to an enum variable. 
+  The type logic [0:0] is incompatible with the enum 'Mode'
+  Expression: 'x
+  Use the static cast operator to convert the expression to enum type.
+
+
+   ***   $sdf_annotate() version 1.2R
+   ***    SDF file: "Program_SYN.sdf"
+   ***    Annotation scope: TESTBED.dut_p.Program
+   ***    No MTM selection argument specified
+   ***    No SCALE FACTORS argument specified
+   ***    No SCALE TYPE argument specified
+   ***    MTM selection defaulted to "TOOL_CONTROL":
+               (+typdelays compiled, TYPICAL delays selected)
+   ***    SCALE FACTORS defaulted to "1.0:1.0:1.0":
+   ***    SCALE TYPE defaulted to: "FROM_MTM"
+   ***    Turnoff delay: "FROM_FILE"
+   ***    Approximation (mipd) policy: "MAXIMUM"
+
+   ***    SDF annotation begin: Mon Nov 25 10:40:20 2024
+
+
+SDF Info: +pulse_r/100, +pulse_e/100 in effect
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+Program_SYN.sdf, 47887
+module: QDFFRBS, "instance: TESTBED.dut_p.Program.inf_complete_reg"
+  SDF Warning: Cannot find timing check $hold(posedge CK,posedge RB,...)
+      
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+Program_SYN.sdf, 47908
+module: QDFFRBS, "instance: TESTBED.dut_p.Program.inf_W_VALID_reg"
+  SDF Warning: Cannot find timing check $hold(posedge CK,posedge RB,...)
+      
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+Program_SYN.sdf, 47929
+module: QDFFRBS, "instance: TESTBED.dut_p.Program.inf_W_DATA_reg_34_"
+  SDF Warning: Cannot find timing check $hold(posedge CK,posedge RB,...)
+      
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+Program_SYN.sdf, 47950
+module: QDFFRBS, "instance: TESTBED.dut_p.Program.inf_W_DATA_reg_33_"
+  SDF Warning: Cannot find timing check $hold(posedge CK,posedge RB,...)
+      
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+Program_SYN.sdf, 47971
+module: QDFFRBS, "instance: TESTBED.dut_p.Program.inf_W_DATA_reg_32_"
+  SDF Warning: Cannot find timing check $hold(posedge CK,posedge RB,...)
+      
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+Program_SYN.sdf, 47992
+module: QDFFRBS, "instance: TESTBED.dut_p.Program.inf_W_DATA_reg_4_"
+  SDF Warning: Cannot find timing check $hold(posedge CK,posedge RB,...)
+      
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+Program_SYN.sdf, 48013
+module: QDFFRBS, "instance: TESTBED.dut_p.Program.inf_W_DATA_reg_3_"
+  SDF Warning: Cannot find timing check $hold(posedge CK,posedge RB,...)
+      
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+Program_SYN.sdf, 48034
+module: QDFFRBS, "instance: TESTBED.dut_p.Program.inf_out_valid_reg"
+  SDF Warning: Cannot find timing check $hold(posedge CK,posedge RB,...)
+      
+
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+Program_SYN.sdf, 48055
+module: QDFFRBS, "instance: TESTBED.dut_p.Program.inf_AR_ADDR_reg_10_"
+  SDF Warning: Cannot find timing check $hold(posedge CK,posedge RB,...)
+      
+
+All future warnings not reported; use +sdfverbose to report them.
+
+Warning-[SDFCOM_CFTC] Cannot find timing check 
+Program_SYN.sdf, 48076
+module: QDFFRBS, "instance: TESTBED.dut_p.Program.inf_AR_ADDR_reg_9_"
+  SDF Warning: Cannot find timing check $hold(posedge CK,posedge RB,...)
+      
+
+
+          Total errors: 0
+          Total warnings: 90
+   ***    SDF annotation completed: Mon Nov 25 10:40:20 2024
+
+
+
+Warning-[DRTZ] Detect delay value roundoff to 0
+  Delay from design or SDF file roundoff to 0 based on timescale
+  Please use switch -diag timescale to dump detailed information.
+
+Notice: Ports coerced to inout, use -notice for details
+Starting vcs inline pass...
+
+Note-[VCS_PARAL] Parallel code-gen enabled
+  VCS is running with parallel code generation(-j)...
+
+114 modules and 2 UDPs read.
+recompiling module TESTBED
+recompiling module pseudo_DRAM
+Both modules done.
+	However, due to incremental compilation, only 2 modules need to be compiled. 
+make[1]: Entering directory `/RAID2/COURSE/iclab/iclab131/Lab09/Exercise/03_GATE/csrc' \
+
+rm -f _cuarc*.so _csrc*.so pre_vcsobj_*.so share_vcsobj_*.so
+ld -shared  -Bsymbolic   -o .//../simv.daidir//_cuarc0.so objs/amcQw_d.o 
+rm -f _cuarc0.so
+if [ -x ../simv ]; then chmod a-x ../simv; fi
+g++  -o ../simv      -rdynamic  -Wl,-rpath='$ORIGIN'/simv.daidir -Wl,-rpath=./simv.daidir \
+-Wl,-rpath=/usr/cad/synopsys/vcs/2022.06/linux64/lib -L/usr/cad/synopsys/vcs/2022.06/linux64/lib \
+-Wl,-rpath-link=./  /usr/lib64/libnuma.so.1     _211541_archive_1.so _211731_archive_1.so \
+_211732_archive_1.so _prev_archive_1.so _cuarc0.so objs/udps/qndjy.o objs/udps/Sbaqa.o \
+SIM_l.o      rmapats_mop.o rmapats.o rmar.o rmar_nd.o  rmar_llvm_0_1.o rmar_llvm_0_0.o \
+-lvirsim -lerrorinf -lsnpsmalloc -lvfs /usr/cad/synopsys/verdi/2019.06//share/PLI/VCS/linux64/pli.a \
+-lvcsnew -lsimprofile -luclinative /usr/cad/synopsys/vcs/2022.06/linux64/lib/vcs_tls.o \
+-Wl,-whole-archive  -lvcsucli    -Wl,-no-whole-archive        _vcs_pli_stub_.o   \
+/usr/cad/synopsys/vcs/2022.06/linux64/lib/vcs_save_restore_new.o /usr/cad/synopsys/verdi/2019.06//share/PLI/VCS/LINUX64/pli.a \
+-ldl -lm  -lc -lpthread -ldl 
+../simv up to date
+make[1]: Leaving directory `/RAID2/COURSE/iclab/iclab131/Lab09/Exercise/03_GATE/csrc' \
+
+Command: /RAID2/COURSE/iclab/iclab131/Lab09/Exercise/03_GATE/./simv +v2k -a vcs.log +define+GATE +neg_tchk +nowarnNTCDSN
+Chronologic VCS simulator copyright 1991-2022
+Contains Synopsys proprietary information.
+Compiler version T-2022.06_Full64; Runtime version T-2022.06_Full64;  Nov 25 10:40 2024
+Doing SDF annotation ...... Done
+*Verdi* Loading libsscore_vcs201906.so
+FSDB Dumper for VCS, Release Verdi_P-2019.06, Linux x86_64/64bit, 05/26/2019
+(C) 1996 - 2019 by Synopsys, Inc.
+***********************************************************************
+*  ERROR -                                                            *
+*  The simulator version is newer than the FSDB dumper version which  *
+*  may cause abnormal behavior, please contact Synopsys support for   *
+*  assistance.                                                        *
+***********************************************************************
+*Verdi* FSDB WARNING: The FSDB file already exists. Overwriting the FSDB file may crash the programs that are using this file.
+*Verdi* : Create FSDB file 'Program_SYN.fsdb'
+*Verdi* : Begin traversing the scopes, layer (0).
+*Verdi* : Enable +all dumping.
+*Verdi* : End of traversing.
+[Info] Start to read dram.dat
+DRAM data position = ../00_TESTBED/DRAM/dram.dat
+[Info] Finish to read dram.dat
+[1;34mPASS PATTERN NO.   0 [1;32mCycles:   6 | [1;33mDRAM address: 226, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO.   1 [1;32mCycles:   7 | [1;33mDRAM address: 247, MODE: Update [1;0m
+[1;34mPASS PATTERN NO.   2 [1;32mCycles:   7 | [1;33mDRAM address: 207, MODE: Update [1;0m
+[1;34mPASS PATTERN NO.   3 [1;32mCycles:   7 | [1;33mDRAM address: 122, MODE: Update [1;0m
+[1;34mPASS PATTERN NO.   4 [1;32mCycles:   7 | [1;33mDRAM address:  49, MODE: Update [1;0m
+[1;34mPASS PATTERN NO.   5 [1;32mCycles:   6 | [1;33mDRAM address: 162, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO.   6 [1;32mCycles:   7 | [1;33mDRAM address: 193, MODE: Update [1;0m
+[1;34mPASS PATTERN NO.   7 [1;32mCycles:   3 | [1;33mDRAM address: 140, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO.   8 [1;32mCycles:   3 | [1;33mDRAM address: 230, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO.   9 [1;32mCycles:   7 | [1;33mDRAM address: 141, MODE: Update [1;0m
+[1;34mPASS PATTERN NO.  10 [1;32mCycles:   3 | [1;33mDRAM address:  12, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO.  11 [1;32mCycles:   3 | [1;33mDRAM address: 123, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO.  12 [1;32mCycles:   7 | [1;33mDRAM address: 240, MODE: Update [1;0m
+[1;34mPASS PATTERN NO.  13 [1;32mCycles:   7 | [1;33mDRAM address: 137, MODE: Update [1;0m
+[1;34mPASS PATTERN NO.  14 [1;32mCycles:   7 | [1;33mDRAM address: 102, MODE: Update [1;0m
+[1;34mPASS PATTERN NO.  15 [1;32mCycles:   7 | [1;33mDRAM address: 160, MODE: Update [1;0m
+[1;34mPASS PATTERN NO.  16 [1;32mCycles:   3 | [1;33mDRAM address:  80, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO.  17 [1;32mCycles:   3 | [1;33mDRAM address:  31, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO.  18 [1;32mCycles:   3 | [1;33mDRAM address: 107, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO.  19 [1;32mCycles:   6 | [1;33mDRAM address: 135, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO.  20 [1;32mCycles:   6 | [1;33mDRAM address: 205, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO.  21 [1;32mCycles:   8 | [1;33mDRAM address:  24, MODE: Update [1;0m
+[1;34mPASS PATTERN NO.  22 [1;32mCycles:   7 | [1;33mDRAM address: 240, MODE: Update [1;0m
+[1;34mPASS PATTERN NO.  23 [1;32mCycles:   6 | [1;33mDRAM address: 216, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO.  24 [1;32mCycles:   6 | [1;33mDRAM address:   1, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO.  25 [1;32mCycles:   7 | [1;33mDRAM address: 226, MODE: Update [1;0m
+[1;34mPASS PATTERN NO.  26 [1;32mCycles:   7 | [1;33mDRAM address: 155, MODE: Update [1;0m
+[1;34mPASS PATTERN NO.  27 [1;32mCycles:   3 | [1;33mDRAM address: 202, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO.  28 [1;32mCycles:   6 | [1;33mDRAM address: 100, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO.  29 [1;32mCycles:   6 | [1;33mDRAM address: 146, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO.  30 [1;32mCycles:   7 | [1;33mDRAM address: 218, MODE: Update [1;0m
+[1;34mPASS PATTERN NO.  31 [1;32mCycles:   3 | [1;33mDRAM address:  39, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO.  32 [1;32mCycles:   3 | [1;33mDRAM address:  91, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO.  33 [1;32mCycles:   3 | [1;33mDRAM address: 181, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO.  34 [1;32mCycles:   3 | [1;33mDRAM address: 123, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO.  35 [1;32mCycles:   3 | [1;33mDRAM address:  23, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO.  36 [1;32mCycles:   7 | [1;33mDRAM address:  59, MODE: Update [1;0m
+[1;34mPASS PATTERN NO.  37 [1;32mCycles:   6 | [1;33mDRAM address:  58, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO.  38 [1;32mCycles:   7 | [1;33mDRAM address:  34, MODE: Update [1;0m
+[1;34mPASS PATTERN NO.  39 [1;32mCycles:   6 | [1;33mDRAM address: 236, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO.  40 [1;32mCycles:   7 | [1;33mDRAM address: 157, MODE: Update [1;0m
+[1;34mPASS PATTERN NO.  41 [1;32mCycles:   3 | [1;33mDRAM address: 121, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO.  42 [1;32mCycles:   3 | [1;33mDRAM address: 205, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO.  43 [1;32mCycles:   3 | [1;33mDRAM address:  98, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO.  44 [1;32mCycles:   3 | [1;33mDRAM address:  41, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO.  45 [1;32mCycles:   7 | [1;33mDRAM address: 222, MODE: Update [1;0m
+[1;34mPASS PATTERN NO.  46 [1;32mCycles:   4 | [1;33mDRAM address:  93, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO.  47 [1;32mCycles:   6 | [1;33mDRAM address: 156, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO.  48 [1;32mCycles:   6 | [1;33mDRAM address:  41, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO.  49 [1;32mCycles:   6 | [1;33mDRAM address:  33, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO.  50 [1;32mCycles:   3 | [1;33mDRAM address: 217, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO.  51 [1;32mCycles:   3 | [1;33mDRAM address: 114, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO.  52 [1;32mCycles:   6 | [1;33mDRAM address:  95, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO.  53 [1;32mCycles:   6 | [1;33mDRAM address: 117, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO.  54 [1;32mCycles:   7 | [1;33mDRAM address: 117, MODE: Update [1;0m
+[1;34mPASS PATTERN NO.  55 [1;32mCycles:   3 | [1;33mDRAM address:  80, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO.  56 [1;32mCycles:   6 | [1;33mDRAM address: 249, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO.  57 [1;32mCycles:   3 | [1;33mDRAM address: 127, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO.  58 [1;32mCycles:   6 | [1;33mDRAM address:  50, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO.  59 [1;32mCycles:   8 | [1;33mDRAM address:  59, MODE: Update [1;0m
+[1;34mPASS PATTERN NO.  60 [1;32mCycles:   7 | [1;33mDRAM address:  87, MODE: Update [1;0m
+[1;34mPASS PATTERN NO.  61 [1;32mCycles:   3 | [1;33mDRAM address: 140, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO.  62 [1;32mCycles:   3 | [1;33mDRAM address:  27, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO.  63 [1;32mCycles:   3 | [1;33mDRAM address: 134, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO.  64 [1;32mCycles:   6 | [1;33mDRAM address: 241, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO.  65 [1;32mCycles:   6 | [1;33mDRAM address:  58, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO.  66 [1;32mCycles:   7 | [1;33mDRAM address:  15, MODE: Update [1;0m
+[1;34mPASS PATTERN NO.  67 [1;32mCycles:   6 | [1;33mDRAM address: 248, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO.  68 [1;32mCycles:   4 | [1;33mDRAM address:  70, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO.  69 [1;32mCycles:   7 | [1;33mDRAM address: 123, MODE: Update [1;0m
+[1;34mPASS PATTERN NO.  70 [1;32mCycles:   7 | [1;33mDRAM address: 113, MODE: Update [1;0m
+[1;34mPASS PATTERN NO.  71 [1;32mCycles:   3 | [1;33mDRAM address: 145, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO.  72 [1;32mCycles:   6 | [1;33mDRAM address: 138, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO.  73 [1;32mCycles:   7 | [1;33mDRAM address: 132, MODE: Update [1;0m
+[1;34mPASS PATTERN NO.  74 [1;32mCycles:   7 | [1;33mDRAM address: 177, MODE: Update [1;0m
+[1;34mPASS PATTERN NO.  75 [1;32mCycles:   4 | [1;33mDRAM address: 181, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO.  76 [1;32mCycles:   6 | [1;33mDRAM address: 249, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO.  77 [1;32mCycles:   7 | [1;33mDRAM address: 244, MODE: Update [1;0m
+[1;34mPASS PATTERN NO.  78 [1;32mCycles:   7 | [1;33mDRAM address:  84, MODE: Update [1;0m
+[1;34mPASS PATTERN NO.  79 [1;32mCycles:   3 | [1;33mDRAM address: 202, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO.  80 [1;32mCycles:   7 | [1;33mDRAM address:  50, MODE: Update [1;0m
+[1;34mPASS PATTERN NO.  81 [1;32mCycles:   3 | [1;33mDRAM address: 188, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO.  82 [1;32mCycles:   3 | [1;33mDRAM address: 238, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO.  83 [1;32mCycles:   6 | [1;33mDRAM address: 255, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO.  84 [1;32mCycles:   6 | [1;33mDRAM address: 224, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO.  85 [1;32mCycles:   6 | [1;33mDRAM address: 216, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO.  86 [1;32mCycles:   7 | [1;33mDRAM address: 164, MODE: Update [1;0m
+[1;34mPASS PATTERN NO.  87 [1;32mCycles:   6 | [1;33mDRAM address: 100, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO.  88 [1;32mCycles:   6 | [1;33mDRAM address: 107, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO.  89 [1;32mCycles:   7 | [1;33mDRAM address: 236, MODE: Update [1;0m
+[1;34mPASS PATTERN NO.  90 [1;32mCycles:   6 | [1;33mDRAM address: 179, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO.  91 [1;32mCycles:   6 | [1;33mDRAM address: 129, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO.  92 [1;32mCycles:   3 | [1;33mDRAM address: 170, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO.  93 [1;32mCycles:   3 | [1;33mDRAM address:   3, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO.  94 [1;32mCycles:   6 | [1;33mDRAM address:  25, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO.  95 [1;32mCycles:   6 | [1;33mDRAM address:  65, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO.  96 [1;32mCycles:   3 | [1;33mDRAM address:  69, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO.  97 [1;32mCycles:   6 | [1;33mDRAM address: 224, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO.  98 [1;32mCycles:   3 | [1;33mDRAM address:   4, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO.  99 [1;32mCycles:   7 | [1;33mDRAM address: 139, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 100 [1;32mCycles:   4 | [1;33mDRAM address: 241, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 101 [1;32mCycles:   3 | [1;33mDRAM address:  67, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 102 [1;32mCycles:   6 | [1;33mDRAM address: 158, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 103 [1;32mCycles:   3 | [1;33mDRAM address: 229, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 104 [1;32mCycles:   4 | [1;33mDRAM address: 112, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 105 [1;32mCycles:   3 | [1;33mDRAM address: 131, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 106 [1;32mCycles:   3 | [1;33mDRAM address: 113, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 107 [1;32mCycles:   4 | [1;33mDRAM address: 109, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 108 [1;32mCycles:   7 | [1;33mDRAM address:   1, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 109 [1;32mCycles:   7 | [1;33mDRAM address:   9, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 110 [1;32mCycles:   7 | [1;33mDRAM address: 215, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 111 [1;32mCycles:   7 | [1;33mDRAM address: 232, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 112 [1;32mCycles:   7 | [1;33mDRAM address:  78, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 113 [1;32mCycles:   6 | [1;33mDRAM address: 251, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 114 [1;32mCycles:   7 | [1;33mDRAM address: 224, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 115 [1;32mCycles:   7 | [1;33mDRAM address: 122, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 116 [1;32mCycles:   3 | [1;33mDRAM address:  57, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 117 [1;32mCycles:   7 | [1;33mDRAM address: 146, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 118 [1;32mCycles:   3 | [1;33mDRAM address:  32, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 119 [1;32mCycles:   3 | [1;33mDRAM address:  26, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 120 [1;32mCycles:   3 | [1;33mDRAM address: 112, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 121 [1;32mCycles:   3 | [1;33mDRAM address: 154, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 122 [1;32mCycles:   6 | [1;33mDRAM address:  13, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 123 [1;32mCycles:   6 | [1;33mDRAM address: 177, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 124 [1;32mCycles:   8 | [1;33mDRAM address:  31, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 125 [1;32mCycles:   7 | [1;33mDRAM address: 213, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 126 [1;32mCycles:   3 | [1;33mDRAM address: 226, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 127 [1;32mCycles:   7 | [1;33mDRAM address:  32, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 128 [1;32mCycles:   6 | [1;33mDRAM address: 177, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 129 [1;32mCycles:   7 | [1;33mDRAM address:  97, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 130 [1;32mCycles:   3 | [1;33mDRAM address: 116, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 131 [1;32mCycles:   7 | [1;33mDRAM address: 191, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 132 [1;32mCycles:   7 | [1;33mDRAM address:  14, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 133 [1;32mCycles:   7 | [1;33mDRAM address:  33, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 134 [1;32mCycles:   7 | [1;33mDRAM address: 214, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 135 [1;32mCycles:   7 | [1;33mDRAM address: 156, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 136 [1;32mCycles:   6 | [1;33mDRAM address:  14, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 137 [1;32mCycles:   6 | [1;33mDRAM address:  85, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 138 [1;32mCycles:   3 | [1;33mDRAM address: 144, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 139 [1;32mCycles:   6 | [1;33mDRAM address:  41, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 140 [1;32mCycles:   6 | [1;33mDRAM address:  49, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 141 [1;32mCycles:   7 | [1;33mDRAM address:  14, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 142 [1;32mCycles:   6 | [1;33mDRAM address: 172, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 143 [1;32mCycles:   6 | [1;33mDRAM address:  79, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 144 [1;32mCycles:   7 | [1;33mDRAM address: 172, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 145 [1;32mCycles:   7 | [1;33mDRAM address: 140, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 146 [1;32mCycles:   6 | [1;33mDRAM address: 198, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 147 [1;32mCycles:   8 | [1;33mDRAM address:  14, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 148 [1;32mCycles:   3 | [1;33mDRAM address: 215, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 149 [1;32mCycles:   7 | [1;33mDRAM address:  50, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 150 [1;32mCycles:   6 | [1;33mDRAM address: 218, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 151 [1;32mCycles:   6 | [1;33mDRAM address: 112, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 152 [1;32mCycles:   7 | [1;33mDRAM address: 153, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 153 [1;32mCycles:   7 | [1;33mDRAM address: 133, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 154 [1;32mCycles:   3 | [1;33mDRAM address: 186, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 155 [1;32mCycles:   3 | [1;33mDRAM address: 139, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 156 [1;32mCycles:   7 | [1;33mDRAM address:  17, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 157 [1;32mCycles:   7 | [1;33mDRAM address: 192, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 158 [1;32mCycles:   7 | [1;33mDRAM address:  81, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 159 [1;32mCycles:   6 | [1;33mDRAM address: 203, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 160 [1;32mCycles:   7 | [1;33mDRAM address:  23, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 161 [1;32mCycles:   3 | [1;33mDRAM address: 147, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 162 [1;32mCycles:   7 | [1;33mDRAM address:  23, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 163 [1;32mCycles:   6 | [1;33mDRAM address:   3, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 164 [1;32mCycles:   3 | [1;33mDRAM address: 224, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 165 [1;32mCycles:   3 | [1;33mDRAM address:  16, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 166 [1;32mCycles:   7 | [1;33mDRAM address:  26, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 167 [1;32mCycles:   4 | [1;33mDRAM address:  41, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 168 [1;32mCycles:   6 | [1;33mDRAM address:  10, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 169 [1;32mCycles:   3 | [1;33mDRAM address:   4, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 170 [1;32mCycles:   3 | [1;33mDRAM address:  64, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 171 [1;32mCycles:   3 | [1;33mDRAM address: 164, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 172 [1;32mCycles:   3 | [1;33mDRAM address: 102, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 173 [1;32mCycles:   7 | [1;33mDRAM address: 242, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 174 [1;32mCycles:   7 | [1;33mDRAM address:  96, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 175 [1;32mCycles:   3 | [1;33mDRAM address:  74, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 176 [1;32mCycles:   4 | [1;33mDRAM address: 102, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 177 [1;32mCycles:   7 | [1;33mDRAM address: 161, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 178 [1;32mCycles:   6 | [1;33mDRAM address: 184, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 179 [1;32mCycles:   6 | [1;33mDRAM address:  35, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 180 [1;32mCycles:   6 | [1;33mDRAM address: 214, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 181 [1;32mCycles:   6 | [1;33mDRAM address: 226, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 182 [1;32mCycles:   6 | [1;33mDRAM address: 104, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 183 [1;32mCycles:   6 | [1;33mDRAM address:  25, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 184 [1;32mCycles:   3 | [1;33mDRAM address:  23, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 185 [1;32mCycles:   6 | [1;33mDRAM address: 167, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 186 [1;32mCycles:   7 | [1;33mDRAM address: 161, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 187 [1;32mCycles:   4 | [1;33mDRAM address: 130, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 188 [1;32mCycles:   6 | [1;33mDRAM address: 180, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 189 [1;32mCycles:   7 | [1;33mDRAM address:  29, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 190 [1;32mCycles:   3 | [1;33mDRAM address: 164, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 191 [1;32mCycles:   7 | [1;33mDRAM address: 246, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 192 [1;32mCycles:   7 | [1;33mDRAM address: 124, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 193 [1;32mCycles:   3 | [1;33mDRAM address: 191, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 194 [1;32mCycles:   7 | [1;33mDRAM address: 143, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 195 [1;32mCycles:   7 | [1;33mDRAM address: 201, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 196 [1;32mCycles:   6 | [1;33mDRAM address:  75, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 197 [1;32mCycles:   6 | [1;33mDRAM address:  30, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 198 [1;32mCycles:   6 | [1;33mDRAM address: 205, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 199 [1;32mCycles:   4 | [1;33mDRAM address: 249, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 200 [1;32mCycles:   7 | [1;33mDRAM address:  29, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 201 [1;32mCycles:   7 | [1;33mDRAM address:  50, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 202 [1;32mCycles:   6 | [1;33mDRAM address: 138, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 203 [1;32mCycles:   7 | [1;33mDRAM address: 244, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 204 [1;32mCycles:   3 | [1;33mDRAM address:  28, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 205 [1;32mCycles:   7 | [1;33mDRAM address: 203, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 206 [1;32mCycles:   6 | [1;33mDRAM address: 224, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 207 [1;32mCycles:   7 | [1;33mDRAM address: 214, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 208 [1;32mCycles:   6 | [1;33mDRAM address: 240, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 209 [1;32mCycles:   7 | [1;33mDRAM address: 238, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 210 [1;32mCycles:   7 | [1;33mDRAM address:  91, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 211 [1;32mCycles:   6 | [1;33mDRAM address: 233, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 212 [1;32mCycles:   6 | [1;33mDRAM address: 151, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 213 [1;32mCycles:   3 | [1;33mDRAM address: 139, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 214 [1;32mCycles:   6 | [1;33mDRAM address: 226, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 215 [1;32mCycles:   7 | [1;33mDRAM address: 230, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 216 [1;32mCycles:   4 | [1;33mDRAM address:  32, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 217 [1;32mCycles:   3 | [1;33mDRAM address:  29, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 218 [1;32mCycles:   7 | [1;33mDRAM address:  61, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 219 [1;32mCycles:   4 | [1;33mDRAM address: 221, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 220 [1;32mCycles:   3 | [1;33mDRAM address: 143, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 221 [1;32mCycles:   7 | [1;33mDRAM address: 114, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 222 [1;32mCycles:   7 | [1;33mDRAM address: 218, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 223 [1;32mCycles:   7 | [1;33mDRAM address:  98, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 224 [1;32mCycles:   7 | [1;33mDRAM address: 101, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 225 [1;32mCycles:   7 | [1;33mDRAM address:  98, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 226 [1;32mCycles:   3 | [1;33mDRAM address:  34, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 227 [1;32mCycles:   7 | [1;33mDRAM address:  40, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 228 [1;32mCycles:   7 | [1;33mDRAM address: 115, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 229 [1;32mCycles:   6 | [1;33mDRAM address: 163, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 230 [1;32mCycles:   3 | [1;33mDRAM address: 220, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 231 [1;32mCycles:   6 | [1;33mDRAM address:  86, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 232 [1;32mCycles:   6 | [1;33mDRAM address: 187, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 233 [1;32mCycles:   6 | [1;33mDRAM address:  11, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 234 [1;32mCycles:   4 | [1;33mDRAM address: 254, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 235 [1;32mCycles:   6 | [1;33mDRAM address:  52, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 236 [1;32mCycles:   6 | [1;33mDRAM address: 252, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 237 [1;32mCycles:   3 | [1;33mDRAM address: 205, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 238 [1;32mCycles:   7 | [1;33mDRAM address: 241, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 239 [1;32mCycles:   7 | [1;33mDRAM address: 196, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 240 [1;32mCycles:   8 | [1;33mDRAM address:  23, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 241 [1;32mCycles:   3 | [1;33mDRAM address: 204, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 242 [1;32mCycles:   3 | [1;33mDRAM address: 107, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 243 [1;32mCycles:   7 | [1;33mDRAM address: 145, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 244 [1;32mCycles:   8 | [1;33mDRAM address: 160, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 245 [1;32mCycles:   6 | [1;33mDRAM address:  48, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 246 [1;32mCycles:   7 | [1;33mDRAM address:   3, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 247 [1;32mCycles:   7 | [1;33mDRAM address: 162, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 248 [1;32mCycles:   6 | [1;33mDRAM address: 147, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 249 [1;32mCycles:   7 | [1;33mDRAM address:  77, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 250 [1;32mCycles:   3 | [1;33mDRAM address: 255, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 251 [1;32mCycles:   7 | [1;33mDRAM address: 173, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 252 [1;32mCycles:   4 | [1;33mDRAM address:  70, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 253 [1;32mCycles:   6 | [1;33mDRAM address: 217, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 254 [1;32mCycles:   6 | [1;33mDRAM address:  42, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 255 [1;32mCycles:   7 | [1;33mDRAM address: 209, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 256 [1;32mCycles:   7 | [1;33mDRAM address:  26, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 257 [1;32mCycles:   6 | [1;33mDRAM address: 118, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 258 [1;32mCycles:   6 | [1;33mDRAM address: 248, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 259 [1;32mCycles:   7 | [1;33mDRAM address:  91, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 260 [1;32mCycles:   3 | [1;33mDRAM address: 119, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 261 [1;32mCycles:   6 | [1;33mDRAM address: 177, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 262 [1;32mCycles:   7 | [1;33mDRAM address: 231, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 263 [1;32mCycles:   3 | [1;33mDRAM address: 219, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 264 [1;32mCycles:   7 | [1;33mDRAM address: 141, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 265 [1;32mCycles:   7 | [1;33mDRAM address: 159, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 266 [1;32mCycles:   3 | [1;33mDRAM address:  24, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 267 [1;32mCycles:   7 | [1;33mDRAM address:  29, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 268 [1;32mCycles:   3 | [1;33mDRAM address: 176, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 269 [1;32mCycles:   3 | [1;33mDRAM address: 152, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 270 [1;32mCycles:   7 | [1;33mDRAM address: 160, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 271 [1;32mCycles:   7 | [1;33mDRAM address:  21, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 272 [1;32mCycles:   6 | [1;33mDRAM address: 159, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 273 [1;32mCycles:   3 | [1;33mDRAM address:  42, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 274 [1;32mCycles:   6 | [1;33mDRAM address:  15, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 275 [1;32mCycles:   6 | [1;33mDRAM address:  13, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 276 [1;32mCycles:   3 | [1;33mDRAM address: 232, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 277 [1;32mCycles:   6 | [1;33mDRAM address:  37, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 278 [1;32mCycles:   6 | [1;33mDRAM address:  78, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 279 [1;32mCycles:   6 | [1;33mDRAM address:   7, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 280 [1;32mCycles:   7 | [1;33mDRAM address: 129, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 281 [1;32mCycles:   3 | [1;33mDRAM address: 114, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 282 [1;32mCycles:   8 | [1;33mDRAM address:   3, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 283 [1;32mCycles:   3 | [1;33mDRAM address: 152, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 284 [1;32mCycles:   4 | [1;33mDRAM address: 160, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 285 [1;32mCycles:   4 | [1;33mDRAM address: 132, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 286 [1;32mCycles:   7 | [1;33mDRAM address:  20, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 287 [1;32mCycles:   6 | [1;33mDRAM address:  33, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 288 [1;32mCycles:   7 | [1;33mDRAM address:  85, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 289 [1;32mCycles:   3 | [1;33mDRAM address: 254, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 290 [1;32mCycles:   7 | [1;33mDRAM address:   2, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 291 [1;32mCycles:   6 | [1;33mDRAM address: 192, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 292 [1;32mCycles:   3 | [1;33mDRAM address: 252, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 293 [1;32mCycles:   3 | [1;33mDRAM address: 253, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 294 [1;32mCycles:   4 | [1;33mDRAM address:  15, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 295 [1;32mCycles:   3 | [1;33mDRAM address: 143, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 296 [1;32mCycles:   3 | [1;33mDRAM address: 239, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 297 [1;32mCycles:   6 | [1;33mDRAM address: 167, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 298 [1;32mCycles:   6 | [1;33mDRAM address: 121, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 299 [1;32mCycles:   3 | [1;33mDRAM address:  95, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 300 [1;32mCycles:   3 | [1;33mDRAM address: 250, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 301 [1;32mCycles:   3 | [1;33mDRAM address:  54, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 302 [1;32mCycles:   3 | [1;33mDRAM address:  81, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 303 [1;32mCycles:   7 | [1;33mDRAM address: 130, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 304 [1;32mCycles:   3 | [1;33mDRAM address: 215, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 305 [1;32mCycles:   6 | [1;33mDRAM address:  22, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 306 [1;32mCycles:   3 | [1;33mDRAM address: 166, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 307 [1;32mCycles:   6 | [1;33mDRAM address: 180, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 308 [1;32mCycles:   3 | [1;33mDRAM address: 160, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 309 [1;32mCycles:   6 | [1;33mDRAM address: 165, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 310 [1;32mCycles:   7 | [1;33mDRAM address: 201, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 311 [1;32mCycles:   3 | [1;33mDRAM address:  78, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 312 [1;32mCycles:   6 | [1;33mDRAM address:  28, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 313 [1;32mCycles:   7 | [1;33mDRAM address:  57, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 314 [1;32mCycles:   3 | [1;33mDRAM address:  70, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 315 [1;32mCycles:   3 | [1;33mDRAM address:  64, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 316 [1;32mCycles:   7 | [1;33mDRAM address: 135, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 317 [1;32mCycles:   6 | [1;33mDRAM address: 227, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 318 [1;32mCycles:   4 | [1;33mDRAM address:  80, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 319 [1;32mCycles:   4 | [1;33mDRAM address: 227, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 320 [1;32mCycles:   6 | [1;33mDRAM address: 215, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 321 [1;32mCycles:   3 | [1;33mDRAM address:  49, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 322 [1;32mCycles:   6 | [1;33mDRAM address:  69, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 323 [1;32mCycles:   6 | [1;33mDRAM address:  15, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 324 [1;32mCycles:   3 | [1;33mDRAM address: 249, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 325 [1;32mCycles:   3 | [1;33mDRAM address:  15, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 326 [1;32mCycles:   6 | [1;33mDRAM address: 234, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 327 [1;32mCycles:   6 | [1;33mDRAM address:  28, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 328 [1;32mCycles:   7 | [1;33mDRAM address: 224, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 329 [1;32mCycles:   6 | [1;33mDRAM address:  74, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 330 [1;32mCycles:   6 | [1;33mDRAM address: 165, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 331 [1;32mCycles:   3 | [1;33mDRAM address:  35, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 332 [1;32mCycles:   3 | [1;33mDRAM address:  59, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 333 [1;32mCycles:   4 | [1;33mDRAM address: 118, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 334 [1;32mCycles:   6 | [1;33mDRAM address: 122, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 335 [1;32mCycles:   3 | [1;33mDRAM address: 165, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 336 [1;32mCycles:   7 | [1;33mDRAM address: 185, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 337 [1;32mCycles:   7 | [1;33mDRAM address: 236, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 338 [1;32mCycles:   7 | [1;33mDRAM address: 173, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 339 [1;32mCycles:   7 | [1;33mDRAM address: 251, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 340 [1;32mCycles:   6 | [1;33mDRAM address: 116, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 341 [1;32mCycles:   3 | [1;33mDRAM address:   5, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 342 [1;32mCycles:   7 | [1;33mDRAM address:  23, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 343 [1;32mCycles:   3 | [1;33mDRAM address:   8, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 344 [1;32mCycles:   3 | [1;33mDRAM address: 195, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 345 [1;32mCycles:   6 | [1;33mDRAM address: 197, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 346 [1;32mCycles:   6 | [1;33mDRAM address:  58, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 347 [1;32mCycles:   3 | [1;33mDRAM address: 202, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 348 [1;32mCycles:   7 | [1;33mDRAM address: 132, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 349 [1;32mCycles:   3 | [1;33mDRAM address:  91, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 350 [1;32mCycles:   3 | [1;33mDRAM address: 178, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 351 [1;32mCycles:   6 | [1;33mDRAM address:  57, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 352 [1;32mCycles:   3 | [1;33mDRAM address: 144, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 353 [1;32mCycles:   3 | [1;33mDRAM address:   3, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 354 [1;32mCycles:   7 | [1;33mDRAM address: 170, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 355 [1;32mCycles:   7 | [1;33mDRAM address: 192, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 356 [1;32mCycles:   3 | [1;33mDRAM address:  50, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 357 [1;32mCycles:   3 | [1;33mDRAM address: 168, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 358 [1;32mCycles:   3 | [1;33mDRAM address: 174, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 359 [1;32mCycles:   3 | [1;33mDRAM address:  28, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 360 [1;32mCycles:   3 | [1;33mDRAM address: 178, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 361 [1;32mCycles:   6 | [1;33mDRAM address: 199, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 362 [1;32mCycles:   7 | [1;33mDRAM address: 178, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 363 [1;32mCycles:   6 | [1;33mDRAM address:  44, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 364 [1;32mCycles:   7 | [1;33mDRAM address: 170, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 365 [1;32mCycles:   4 | [1;33mDRAM address: 111, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 366 [1;32mCycles:   7 | [1;33mDRAM address: 159, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 367 [1;32mCycles:   6 | [1;33mDRAM address:  73, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 368 [1;32mCycles:   6 | [1;33mDRAM address: 166, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 369 [1;32mCycles:   7 | [1;33mDRAM address:  11, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 370 [1;32mCycles:   3 | [1;33mDRAM address: 134, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 371 [1;32mCycles:   7 | [1;33mDRAM address: 220, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 372 [1;32mCycles:   3 | [1;33mDRAM address:  22, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 373 [1;32mCycles:   6 | [1;33mDRAM address:  93, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 374 [1;32mCycles:   6 | [1;33mDRAM address:  72, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 375 [1;32mCycles:   3 | [1;33mDRAM address: 148, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 376 [1;32mCycles:   6 | [1;33mDRAM address:  43, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 377 [1;32mCycles:   8 | [1;33mDRAM address: 131, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 378 [1;32mCycles:   3 | [1;33mDRAM address: 214, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 379 [1;32mCycles:   6 | [1;33mDRAM address: 179, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 380 [1;32mCycles:   6 | [1;33mDRAM address: 100, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 381 [1;32mCycles:   7 | [1;33mDRAM address: 184, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 382 [1;32mCycles:   7 | [1;33mDRAM address:  81, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 383 [1;32mCycles:   3 | [1;33mDRAM address:  84, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 384 [1;32mCycles:   3 | [1;33mDRAM address: 104, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 385 [1;32mCycles:   3 | [1;33mDRAM address:  11, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 386 [1;32mCycles:   6 | [1;33mDRAM address: 168, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 387 [1;32mCycles:   3 | [1;33mDRAM address:  32, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 388 [1;32mCycles:   4 | [1;33mDRAM address:  21, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 389 [1;32mCycles:   3 | [1;33mDRAM address:  45, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 390 [1;32mCycles:   7 | [1;33mDRAM address: 187, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 391 [1;32mCycles:   6 | [1;33mDRAM address:  43, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 392 [1;32mCycles:   4 | [1;33mDRAM address: 183, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 393 [1;32mCycles:   6 | [1;33mDRAM address: 162, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 394 [1;32mCycles:   6 | [1;33mDRAM address:  68, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 395 [1;32mCycles:   7 | [1;33mDRAM address:  22, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 396 [1;32mCycles:   4 | [1;33mDRAM address: 192, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 397 [1;32mCycles:   6 | [1;33mDRAM address: 120, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 398 [1;32mCycles:   6 | [1;33mDRAM address: 125, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 399 [1;32mCycles:   6 | [1;33mDRAM address:  31, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 400 [1;32mCycles:   7 | [1;33mDRAM address: 235, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 401 [1;32mCycles:   6 | [1;33mDRAM address:  47, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 402 [1;32mCycles:   6 | [1;33mDRAM address:  84, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 403 [1;32mCycles:   7 | [1;33mDRAM address: 225, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 404 [1;32mCycles:   7 | [1;33mDRAM address: 194, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 405 [1;32mCycles:   7 | [1;33mDRAM address:   0, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 406 [1;32mCycles:   6 | [1;33mDRAM address: 255, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 407 [1;32mCycles:   3 | [1;33mDRAM address:  29, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 408 [1;32mCycles:   7 | [1;33mDRAM address: 119, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 409 [1;32mCycles:   3 | [1;33mDRAM address:  29, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 410 [1;32mCycles:   6 | [1;33mDRAM address:  30, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 411 [1;32mCycles:   7 | [1;33mDRAM address: 181, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 412 [1;32mCycles:   3 | [1;33mDRAM address: 230, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 413 [1;32mCycles:   3 | [1;33mDRAM address: 136, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 414 [1;32mCycles:   3 | [1;33mDRAM address: 238, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 415 [1;32mCycles:   6 | [1;33mDRAM address: 142, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 416 [1;32mCycles:   4 | [1;33mDRAM address:  29, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 417 [1;32mCycles:   6 | [1;33mDRAM address: 138, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 418 [1;32mCycles:   3 | [1;33mDRAM address:  22, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 419 [1;32mCycles:   6 | [1;33mDRAM address: 119, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 420 [1;32mCycles:   6 | [1;33mDRAM address:  15, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 421 [1;32mCycles:   3 | [1;33mDRAM address: 129, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 422 [1;32mCycles:   7 | [1;33mDRAM address:  12, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 423 [1;32mCycles:   6 | [1;33mDRAM address: 104, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 424 [1;32mCycles:   6 | [1;33mDRAM address: 101, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 425 [1;32mCycles:   7 | [1;33mDRAM address:   8, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 426 [1;32mCycles:   7 | [1;33mDRAM address:   6, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 427 [1;32mCycles:   3 | [1;33mDRAM address:  44, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 428 [1;32mCycles:   3 | [1;33mDRAM address:   1, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 429 [1;32mCycles:   6 | [1;33mDRAM address: 113, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 430 [1;32mCycles:   6 | [1;33mDRAM address: 200, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 431 [1;32mCycles:   6 | [1;33mDRAM address:  71, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 432 [1;32mCycles:   7 | [1;33mDRAM address: 216, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 433 [1;32mCycles:   3 | [1;33mDRAM address: 100, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 434 [1;32mCycles:   7 | [1;33mDRAM address: 213, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 435 [1;32mCycles:   7 | [1;33mDRAM address: 105, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 436 [1;32mCycles:   7 | [1;33mDRAM address:  80, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 437 [1;32mCycles:   7 | [1;33mDRAM address:  14, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 438 [1;32mCycles:   3 | [1;33mDRAM address:  86, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 439 [1;32mCycles:   3 | [1;33mDRAM address:  45, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 440 [1;32mCycles:   7 | [1;33mDRAM address: 156, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 441 [1;32mCycles:   7 | [1;33mDRAM address: 151, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 442 [1;32mCycles:   3 | [1;33mDRAM address:  63, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 443 [1;32mCycles:   6 | [1;33mDRAM address: 130, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 444 [1;32mCycles:   6 | [1;33mDRAM address: 178, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 445 [1;32mCycles:   3 | [1;33mDRAM address:   7, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 446 [1;32mCycles:   7 | [1;33mDRAM address: 209, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 447 [1;32mCycles:   7 | [1;33mDRAM address:  30, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 448 [1;32mCycles:   6 | [1;33mDRAM address: 128, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 449 [1;32mCycles:   7 | [1;33mDRAM address: 215, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 450 [1;32mCycles:   6 | [1;33mDRAM address:  16, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 451 [1;32mCycles:   3 | [1;33mDRAM address: 194, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 452 [1;32mCycles:   7 | [1;33mDRAM address: 129, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 453 [1;32mCycles:   7 | [1;33mDRAM address: 191, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 454 [1;32mCycles:   7 | [1;33mDRAM address: 120, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 455 [1;32mCycles:   6 | [1;33mDRAM address: 138, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 456 [1;32mCycles:   7 | [1;33mDRAM address: 185, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 457 [1;32mCycles:   6 | [1;33mDRAM address:  80, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 458 [1;32mCycles:   4 | [1;33mDRAM address:  40, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 459 [1;32mCycles:   3 | [1;33mDRAM address: 212, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 460 [1;32mCycles:   7 | [1;33mDRAM address: 106, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 461 [1;32mCycles:   7 | [1;33mDRAM address:  12, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 462 [1;32mCycles:   7 | [1;33mDRAM address: 139, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 463 [1;32mCycles:   7 | [1;33mDRAM address:   4, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 464 [1;32mCycles:   7 | [1;33mDRAM address:  22, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 465 [1;32mCycles:   6 | [1;33mDRAM address: 132, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 466 [1;32mCycles:   3 | [1;33mDRAM address:  51, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 467 [1;32mCycles:   7 | [1;33mDRAM address: 163, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 468 [1;32mCycles:   7 | [1;33mDRAM address:  74, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 469 [1;32mCycles:   6 | [1;33mDRAM address: 151, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 470 [1;32mCycles:   6 | [1;33mDRAM address: 186, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 471 [1;32mCycles:   3 | [1;33mDRAM address:  61, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 472 [1;32mCycles:   3 | [1;33mDRAM address: 227, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 473 [1;32mCycles:   3 | [1;33mDRAM address: 144, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 474 [1;32mCycles:   6 | [1;33mDRAM address: 246, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 475 [1;32mCycles:   3 | [1;33mDRAM address: 124, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 476 [1;32mCycles:   6 | [1;33mDRAM address:  43, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 477 [1;32mCycles:   7 | [1;33mDRAM address:  89, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 478 [1;32mCycles:   7 | [1;33mDRAM address: 195, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 479 [1;32mCycles:   7 | [1;33mDRAM address:  37, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 480 [1;32mCycles:   7 | [1;33mDRAM address: 100, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 481 [1;32mCycles:   3 | [1;33mDRAM address: 197, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 482 [1;32mCycles:   7 | [1;33mDRAM address: 236, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 483 [1;32mCycles:   7 | [1;33mDRAM address: 139, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 484 [1;32mCycles:   6 | [1;33mDRAM address: 160, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 485 [1;32mCycles:   3 | [1;33mDRAM address: 232, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 486 [1;32mCycles:   7 | [1;33mDRAM address: 145, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 487 [1;32mCycles:   7 | [1;33mDRAM address: 102, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 488 [1;32mCycles:   6 | [1;33mDRAM address: 249, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 489 [1;32mCycles:   6 | [1;33mDRAM address: 209, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 490 [1;32mCycles:   6 | [1;33mDRAM address: 225, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 491 [1;32mCycles:   6 | [1;33mDRAM address:  65, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 492 [1;32mCycles:   3 | [1;33mDRAM address: 229, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 493 [1;32mCycles:   7 | [1;33mDRAM address:  29, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 494 [1;32mCycles:   6 | [1;33mDRAM address: 216, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 495 [1;32mCycles:   4 | [1;33mDRAM address:  27, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 496 [1;32mCycles:   3 | [1;33mDRAM address: 191, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 497 [1;32mCycles:   6 | [1;33mDRAM address: 102, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 498 [1;32mCycles:   3 | [1;33mDRAM address: 224, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 499 [1;32mCycles:   6 | [1;33mDRAM address: 159, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 500 [1;32mCycles:   4 | [1;33mDRAM address:  71, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 501 [1;32mCycles:   3 | [1;33mDRAM address:  64, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 502 [1;32mCycles:   3 | [1;33mDRAM address:  65, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 503 [1;32mCycles:   6 | [1;33mDRAM address: 110, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 504 [1;32mCycles:   6 | [1;33mDRAM address:  93, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 505 [1;32mCycles:   4 | [1;33mDRAM address: 160, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 506 [1;32mCycles:   3 | [1;33mDRAM address: 155, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 507 [1;32mCycles:   6 | [1;33mDRAM address: 140, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 508 [1;32mCycles:   6 | [1;33mDRAM address: 106, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 509 [1;32mCycles:   3 | [1;33mDRAM address: 255, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 510 [1;32mCycles:   7 | [1;33mDRAM address:  44, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 511 [1;32mCycles:   7 | [1;33mDRAM address:  32, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 512 [1;32mCycles:   7 | [1;33mDRAM address:  71, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 513 [1;32mCycles:   7 | [1;33mDRAM address:  50, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 514 [1;32mCycles:   7 | [1;33mDRAM address: 217, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 515 [1;32mCycles:   3 | [1;33mDRAM address: 228, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 516 [1;32mCycles:   7 | [1;33mDRAM address:  54, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 517 [1;32mCycles:   3 | [1;33mDRAM address: 238, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 518 [1;32mCycles:   3 | [1;33mDRAM address: 162, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 519 [1;32mCycles:   7 | [1;33mDRAM address:  87, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 520 [1;32mCycles:   6 | [1;33mDRAM address:  79, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 521 [1;32mCycles:   6 | [1;33mDRAM address: 249, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 522 [1;32mCycles:   7 | [1;33mDRAM address:  71, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 523 [1;32mCycles:   7 | [1;33mDRAM address: 170, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 524 [1;32mCycles:   3 | [1;33mDRAM address: 167, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 525 [1;32mCycles:   7 | [1;33mDRAM address: 111, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 526 [1;32mCycles:   6 | [1;33mDRAM address: 161, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 527 [1;32mCycles:   8 | [1;33mDRAM address: 194, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 528 [1;32mCycles:   3 | [1;33mDRAM address:  11, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 529 [1;32mCycles:   7 | [1;33mDRAM address: 206, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 530 [1;32mCycles:   6 | [1;33mDRAM address:  56, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 531 [1;32mCycles:   6 | [1;33mDRAM address: 205, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 532 [1;32mCycles:   6 | [1;33mDRAM address:  72, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 533 [1;32mCycles:   7 | [1;33mDRAM address: 105, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 534 [1;32mCycles:   3 | [1;33mDRAM address: 229, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 535 [1;32mCycles:   6 | [1;33mDRAM address:  40, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 536 [1;32mCycles:   6 | [1;33mDRAM address:  21, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 537 [1;32mCycles:   3 | [1;33mDRAM address: 140, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 538 [1;32mCycles:   6 | [1;33mDRAM address:  52, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 539 [1;32mCycles:   3 | [1;33mDRAM address: 247, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 540 [1;32mCycles:   3 | [1;33mDRAM address:  15, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 541 [1;32mCycles:   7 | [1;33mDRAM address: 157, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 542 [1;32mCycles:   7 | [1;33mDRAM address: 226, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 543 [1;32mCycles:   6 | [1;33mDRAM address:  41, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 544 [1;32mCycles:   7 | [1;33mDRAM address: 203, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 545 [1;32mCycles:   6 | [1;33mDRAM address:  22, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 546 [1;32mCycles:   3 | [1;33mDRAM address: 181, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 547 [1;32mCycles:   6 | [1;33mDRAM address: 139, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 548 [1;32mCycles:   6 | [1;33mDRAM address: 194, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 549 [1;32mCycles:   7 | [1;33mDRAM address:  42, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 550 [1;32mCycles:   6 | [1;33mDRAM address:  13, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 551 [1;32mCycles:   3 | [1;33mDRAM address:  58, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 552 [1;32mCycles:   8 | [1;33mDRAM address: 149, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 553 [1;32mCycles:   6 | [1;33mDRAM address: 139, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 554 [1;32mCycles:   3 | [1;33mDRAM address: 110, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 555 [1;32mCycles:   7 | [1;33mDRAM address: 218, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 556 [1;32mCycles:   7 | [1;33mDRAM address:  42, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 557 [1;32mCycles:   6 | [1;33mDRAM address: 215, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 558 [1;32mCycles:   6 | [1;33mDRAM address: 201, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 559 [1;32mCycles:   4 | [1;33mDRAM address:   4, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 560 [1;32mCycles:   3 | [1;33mDRAM address: 240, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 561 [1;32mCycles:   7 | [1;33mDRAM address: 125, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 562 [1;32mCycles:   7 | [1;33mDRAM address: 131, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 563 [1;32mCycles:   4 | [1;33mDRAM address: 149, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 564 [1;32mCycles:   4 | [1;33mDRAM address:  76, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 565 [1;32mCycles:   7 | [1;33mDRAM address: 113, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 566 [1;32mCycles:   3 | [1;33mDRAM address: 129, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 567 [1;32mCycles:   6 | [1;33mDRAM address: 157, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 568 [1;32mCycles:   3 | [1;33mDRAM address:  48, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 569 [1;32mCycles:   7 | [1;33mDRAM address: 244, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 570 [1;32mCycles:   7 | [1;33mDRAM address:  62, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 571 [1;32mCycles:   6 | [1;33mDRAM address: 106, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 572 [1;32mCycles:   7 | [1;33mDRAM address: 250, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 573 [1;32mCycles:   3 | [1;33mDRAM address: 148, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 574 [1;32mCycles:   3 | [1;33mDRAM address: 106, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 575 [1;32mCycles:   7 | [1;33mDRAM address:  53, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 576 [1;32mCycles:   7 | [1;33mDRAM address: 239, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 577 [1;32mCycles:   6 | [1;33mDRAM address:  79, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 578 [1;32mCycles:   3 | [1;33mDRAM address: 126, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 579 [1;32mCycles:   3 | [1;33mDRAM address:  30, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 580 [1;32mCycles:   7 | [1;33mDRAM address: 142, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 581 [1;32mCycles:   4 | [1;33mDRAM address:  14, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 582 [1;32mCycles:   6 | [1;33mDRAM address: 144, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 583 [1;32mCycles:   3 | [1;33mDRAM address: 199, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 584 [1;32mCycles:   6 | [1;33mDRAM address:  60, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 585 [1;32mCycles:   7 | [1;33mDRAM address: 242, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 586 [1;32mCycles:   7 | [1;33mDRAM address: 176, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 587 [1;32mCycles:   7 | [1;33mDRAM address: 144, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 588 [1;32mCycles:   3 | [1;33mDRAM address: 216, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 589 [1;32mCycles:   7 | [1;33mDRAM address: 143, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 590 [1;32mCycles:   6 | [1;33mDRAM address: 216, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 591 [1;32mCycles:   6 | [1;33mDRAM address:  32, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 592 [1;32mCycles:   7 | [1;33mDRAM address: 202, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 593 [1;32mCycles:   6 | [1;33mDRAM address:  76, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 594 [1;32mCycles:   6 | [1;33mDRAM address:  31, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 595 [1;32mCycles:   7 | [1;33mDRAM address: 232, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 596 [1;32mCycles:   6 | [1;33mDRAM address: 197, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 597 [1;32mCycles:   6 | [1;33mDRAM address: 212, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 598 [1;32mCycles:   3 | [1;33mDRAM address: 217, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 599 [1;32mCycles:   6 | [1;33mDRAM address: 193, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 600 [1;32mCycles:   8 | [1;33mDRAM address:  27, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 601 [1;32mCycles:   3 | [1;33mDRAM address: 123, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 602 [1;32mCycles:   7 | [1;33mDRAM address:  54, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 603 [1;32mCycles:   7 | [1;33mDRAM address: 219, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 604 [1;32mCycles:   3 | [1;33mDRAM address:  53, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 605 [1;32mCycles:   3 | [1;33mDRAM address: 120, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 606 [1;32mCycles:   6 | [1;33mDRAM address: 193, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 607 [1;32mCycles:   6 | [1;33mDRAM address:  21, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 608 [1;32mCycles:   7 | [1;33mDRAM address: 121, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 609 [1;32mCycles:   6 | [1;33mDRAM address:  20, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 610 [1;32mCycles:   4 | [1;33mDRAM address:  40, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 611 [1;32mCycles:   6 | [1;33mDRAM address: 196, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 612 [1;32mCycles:   6 | [1;33mDRAM address: 142, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 613 [1;32mCycles:   7 | [1;33mDRAM address: 148, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 614 [1;32mCycles:   7 | [1;33mDRAM address:   3, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 615 [1;32mCycles:   7 | [1;33mDRAM address:  43, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 616 [1;32mCycles:   4 | [1;33mDRAM address: 148, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 617 [1;32mCycles:   6 | [1;33mDRAM address:  60, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 618 [1;32mCycles:   6 | [1;33mDRAM address: 159, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 619 [1;32mCycles:   6 | [1;33mDRAM address: 231, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 620 [1;32mCycles:   7 | [1;33mDRAM address: 197, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 621 [1;32mCycles:   6 | [1;33mDRAM address: 129, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 622 [1;32mCycles:   7 | [1;33mDRAM address:  15, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 623 [1;32mCycles:   6 | [1;33mDRAM address: 203, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 624 [1;32mCycles:   6 | [1;33mDRAM address:  11, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 625 [1;32mCycles:   3 | [1;33mDRAM address: 104, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 626 [1;32mCycles:   6 | [1;33mDRAM address: 130, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 627 [1;32mCycles:   3 | [1;33mDRAM address:  76, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 628 [1;32mCycles:   3 | [1;33mDRAM address:  35, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 629 [1;32mCycles:   3 | [1;33mDRAM address:  51, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 630 [1;32mCycles:   3 | [1;33mDRAM address: 195, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 631 [1;32mCycles:   3 | [1;33mDRAM address: 139, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 632 [1;32mCycles:   3 | [1;33mDRAM address: 157, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 633 [1;32mCycles:   7 | [1;33mDRAM address: 187, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 634 [1;32mCycles:   3 | [1;33mDRAM address: 232, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 635 [1;32mCycles:   7 | [1;33mDRAM address:  13, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 636 [1;32mCycles:   6 | [1;33mDRAM address: 198, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 637 [1;32mCycles:   3 | [1;33mDRAM address: 133, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 638 [1;32mCycles:   7 | [1;33mDRAM address:  97, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 639 [1;32mCycles:   6 | [1;33mDRAM address: 140, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 640 [1;32mCycles:   7 | [1;33mDRAM address: 230, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 641 [1;32mCycles:   6 | [1;33mDRAM address:  50, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 642 [1;32mCycles:   6 | [1;33mDRAM address:   7, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 643 [1;32mCycles:   3 | [1;33mDRAM address: 150, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 644 [1;32mCycles:   7 | [1;33mDRAM address:  83, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 645 [1;32mCycles:   6 | [1;33mDRAM address:  73, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 646 [1;32mCycles:   6 | [1;33mDRAM address:   0, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 647 [1;32mCycles:   3 | [1;33mDRAM address:  97, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 648 [1;32mCycles:   3 | [1;33mDRAM address: 136, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 649 [1;32mCycles:   6 | [1;33mDRAM address:  97, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 650 [1;32mCycles:   7 | [1;33mDRAM address:  91, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 651 [1;32mCycles:   3 | [1;33mDRAM address:  29, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 652 [1;32mCycles:   6 | [1;33mDRAM address:  81, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 653 [1;32mCycles:   3 | [1;33mDRAM address: 242, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 654 [1;32mCycles:   7 | [1;33mDRAM address:  77, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 655 [1;32mCycles:   6 | [1;33mDRAM address:  66, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 656 [1;32mCycles:   6 | [1;33mDRAM address: 170, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 657 [1;32mCycles:   6 | [1;33mDRAM address: 249, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 658 [1;32mCycles:   7 | [1;33mDRAM address: 190, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 659 [1;32mCycles:   6 | [1;33mDRAM address: 244, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 660 [1;32mCycles:   6 | [1;33mDRAM address:  40, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 661 [1;32mCycles:   6 | [1;33mDRAM address:  22, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 662 [1;32mCycles:   4 | [1;33mDRAM address:  93, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 663 [1;32mCycles:   3 | [1;33mDRAM address: 177, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 664 [1;32mCycles:   7 | [1;33mDRAM address: 241, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 665 [1;32mCycles:   6 | [1;33mDRAM address:  35, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 666 [1;32mCycles:   6 | [1;33mDRAM address: 188, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 667 [1;32mCycles:   3 | [1;33mDRAM address: 140, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 668 [1;32mCycles:   7 | [1;33mDRAM address: 137, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 669 [1;32mCycles:   7 | [1;33mDRAM address: 112, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 670 [1;32mCycles:   7 | [1;33mDRAM address: 255, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 671 [1;32mCycles:   6 | [1;33mDRAM address: 194, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 672 [1;32mCycles:   3 | [1;33mDRAM address: 146, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 673 [1;32mCycles:   7 | [1;33mDRAM address:  86, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 674 [1;32mCycles:   4 | [1;33mDRAM address:  10, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 675 [1;32mCycles:   7 | [1;33mDRAM address: 224, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 676 [1;32mCycles:   6 | [1;33mDRAM address: 138, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 677 [1;32mCycles:   6 | [1;33mDRAM address: 125, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 678 [1;32mCycles:   7 | [1;33mDRAM address:  72, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 679 [1;32mCycles:   4 | [1;33mDRAM address: 208, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 680 [1;32mCycles:   6 | [1;33mDRAM address:  73, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 681 [1;32mCycles:   7 | [1;33mDRAM address:   8, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 682 [1;32mCycles:   3 | [1;33mDRAM address:  46, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 683 [1;32mCycles:   6 | [1;33mDRAM address:  92, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 684 [1;32mCycles:   6 | [1;33mDRAM address: 217, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 685 [1;32mCycles:   6 | [1;33mDRAM address: 101, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 686 [1;32mCycles:   6 | [1;33mDRAM address: 254, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 687 [1;32mCycles:   7 | [1;33mDRAM address: 142, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 688 [1;32mCycles:   4 | [1;33mDRAM address: 222, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 689 [1;32mCycles:   4 | [1;33mDRAM address: 167, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 690 [1;32mCycles:   6 | [1;33mDRAM address: 176, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 691 [1;32mCycles:   4 | [1;33mDRAM address: 223, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 692 [1;32mCycles:   6 | [1;33mDRAM address:  33, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 693 [1;32mCycles:   7 | [1;33mDRAM address: 106, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 694 [1;32mCycles:   6 | [1;33mDRAM address: 123, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 695 [1;32mCycles:   7 | [1;33mDRAM address:  31, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 696 [1;32mCycles:   7 | [1;33mDRAM address: 234, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 697 [1;32mCycles:   7 | [1;33mDRAM address: 231, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 698 [1;32mCycles:   7 | [1;33mDRAM address: 195, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 699 [1;32mCycles:   7 | [1;33mDRAM address: 195, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 700 [1;32mCycles:   3 | [1;33mDRAM address:  42, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 701 [1;32mCycles:   6 | [1;33mDRAM address:  30, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 702 [1;32mCycles:   7 | [1;33mDRAM address: 124, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 703 [1;32mCycles:   7 | [1;33mDRAM address: 246, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 704 [1;32mCycles:   7 | [1;33mDRAM address: 175, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 705 [1;32mCycles:   6 | [1;33mDRAM address:  93, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 706 [1;32mCycles:   6 | [1;33mDRAM address: 144, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 707 [1;32mCycles:   6 | [1;33mDRAM address:  12, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 708 [1;32mCycles:   7 | [1;33mDRAM address: 229, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 709 [1;32mCycles:   6 | [1;33mDRAM address:  44, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 710 [1;32mCycles:   6 | [1;33mDRAM address:  62, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 711 [1;32mCycles:   3 | [1;33mDRAM address: 135, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 712 [1;32mCycles:   3 | [1;33mDRAM address: 169, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 713 [1;32mCycles:   6 | [1;33mDRAM address:  76, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 714 [1;32mCycles:   6 | [1;33mDRAM address: 132, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 715 [1;32mCycles:   6 | [1;33mDRAM address:  24, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 716 [1;32mCycles:   7 | [1;33mDRAM address:  33, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 717 [1;32mCycles:   6 | [1;33mDRAM address: 103, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 718 [1;32mCycles:   7 | [1;33mDRAM address: 188, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 719 [1;32mCycles:   3 | [1;33mDRAM address:  78, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 720 [1;32mCycles:   7 | [1;33mDRAM address: 116, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 721 [1;32mCycles:   3 | [1;33mDRAM address: 229, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 722 [1;32mCycles:   7 | [1;33mDRAM address:  71, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 723 [1;32mCycles:   6 | [1;33mDRAM address: 200, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 724 [1;32mCycles:   3 | [1;33mDRAM address: 239, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 725 [1;32mCycles:   7 | [1;33mDRAM address: 187, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 726 [1;32mCycles:   3 | [1;33mDRAM address: 204, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 727 [1;32mCycles:   4 | [1;33mDRAM address: 217, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 728 [1;32mCycles:   3 | [1;33mDRAM address:  49, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 729 [1;32mCycles:   6 | [1;33mDRAM address: 186, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 730 [1;32mCycles:   7 | [1;33mDRAM address: 236, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 731 [1;32mCycles:   6 | [1;33mDRAM address: 225, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 732 [1;32mCycles:   7 | [1;33mDRAM address: 157, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 733 [1;32mCycles:   3 | [1;33mDRAM address:  22, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 734 [1;32mCycles:   7 | [1;33mDRAM address: 103, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 735 [1;32mCycles:   7 | [1;33mDRAM address:  56, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 736 [1;32mCycles:   6 | [1;33mDRAM address:  77, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 737 [1;32mCycles:   3 | [1;33mDRAM address: 126, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 738 [1;32mCycles:   7 | [1;33mDRAM address: 214, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 739 [1;32mCycles:   7 | [1;33mDRAM address:  93, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 740 [1;32mCycles:   6 | [1;33mDRAM address:  62, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 741 [1;32mCycles:   3 | [1;33mDRAM address:  41, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 742 [1;32mCycles:   6 | [1;33mDRAM address: 155, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 743 [1;32mCycles:   6 | [1;33mDRAM address:  21, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 744 [1;32mCycles:   3 | [1;33mDRAM address:  47, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 745 [1;32mCycles:   3 | [1;33mDRAM address: 119, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 746 [1;32mCycles:   3 | [1;33mDRAM address: 193, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 747 [1;32mCycles:   4 | [1;33mDRAM address: 229, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 748 [1;32mCycles:   7 | [1;33mDRAM address:  47, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 749 [1;32mCycles:   7 | [1;33mDRAM address:  55, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 750 [1;32mCycles:   3 | [1;33mDRAM address: 176, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 751 [1;32mCycles:   6 | [1;33mDRAM address: 185, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 752 [1;32mCycles:   7 | [1;33mDRAM address: 221, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 753 [1;32mCycles:   7 | [1;33mDRAM address:  86, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 754 [1;32mCycles:   7 | [1;33mDRAM address:  24, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 755 [1;32mCycles:   7 | [1;33mDRAM address:  38, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 756 [1;32mCycles:   6 | [1;33mDRAM address: 115, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 757 [1;32mCycles:   6 | [1;33mDRAM address:  41, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 758 [1;32mCycles:   3 | [1;33mDRAM address: 220, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 759 [1;32mCycles:   6 | [1;33mDRAM address: 118, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 760 [1;32mCycles:   3 | [1;33mDRAM address:  25, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 761 [1;32mCycles:   3 | [1;33mDRAM address:  88, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 762 [1;32mCycles:   3 | [1;33mDRAM address: 217, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 763 [1;32mCycles:   3 | [1;33mDRAM address:  10, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 764 [1;32mCycles:   7 | [1;33mDRAM address: 219, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 765 [1;32mCycles:   6 | [1;33mDRAM address:  14, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 766 [1;32mCycles:   6 | [1;33mDRAM address:  31, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 767 [1;32mCycles:   7 | [1;33mDRAM address: 105, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 768 [1;32mCycles:   6 | [1;33mDRAM address: 148, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 769 [1;32mCycles:   6 | [1;33mDRAM address: 212, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 770 [1;32mCycles:   3 | [1;33mDRAM address:  66, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 771 [1;32mCycles:   6 | [1;33mDRAM address: 118, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 772 [1;32mCycles:   6 | [1;33mDRAM address: 164, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 773 [1;32mCycles:   6 | [1;33mDRAM address:  57, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 774 [1;32mCycles:   7 | [1;33mDRAM address: 140, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 775 [1;32mCycles:   6 | [1;33mDRAM address: 147, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 776 [1;32mCycles:   3 | [1;33mDRAM address:  67, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 777 [1;32mCycles:   8 | [1;33mDRAM address:  34, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 778 [1;32mCycles:   4 | [1;33mDRAM address:  25, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 779 [1;32mCycles:   3 | [1;33mDRAM address: 112, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 780 [1;32mCycles:   3 | [1;33mDRAM address:  45, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 781 [1;32mCycles:   7 | [1;33mDRAM address: 239, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 782 [1;32mCycles:   6 | [1;33mDRAM address: 140, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 783 [1;32mCycles:   7 | [1;33mDRAM address: 171, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 784 [1;32mCycles:   6 | [1;33mDRAM address:  63, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 785 [1;32mCycles:   3 | [1;33mDRAM address:  56, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 786 [1;32mCycles:   3 | [1;33mDRAM address: 180, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 787 [1;32mCycles:   7 | [1;33mDRAM address: 248, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 788 [1;32mCycles:   3 | [1;33mDRAM address: 242, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 789 [1;32mCycles:   7 | [1;33mDRAM address: 248, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 790 [1;32mCycles:   7 | [1;33mDRAM address: 239, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 791 [1;32mCycles:   3 | [1;33mDRAM address:   4, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 792 [1;32mCycles:   7 | [1;33mDRAM address: 230, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 793 [1;32mCycles:   6 | [1;33mDRAM address: 131, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 794 [1;32mCycles:   6 | [1;33mDRAM address: 238, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 795 [1;32mCycles:   3 | [1;33mDRAM address: 176, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 796 [1;32mCycles:   6 | [1;33mDRAM address: 254, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 797 [1;32mCycles:   7 | [1;33mDRAM address: 234, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 798 [1;32mCycles:   7 | [1;33mDRAM address: 233, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 799 [1;32mCycles:   6 | [1;33mDRAM address: 210, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 800 [1;32mCycles:   6 | [1;33mDRAM address: 233, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 801 [1;32mCycles:   7 | [1;33mDRAM address:  14, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 802 [1;32mCycles:   7 | [1;33mDRAM address:  12, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 803 [1;32mCycles:   3 | [1;33mDRAM address: 119, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 804 [1;32mCycles:   3 | [1;33mDRAM address:  46, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 805 [1;32mCycles:   7 | [1;33mDRAM address: 129, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 806 [1;32mCycles:   7 | [1;33mDRAM address: 214, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 807 [1;32mCycles:   3 | [1;33mDRAM address:  62, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 808 [1;32mCycles:   3 | [1;33mDRAM address:   0, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 809 [1;32mCycles:   3 | [1;33mDRAM address: 121, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 810 [1;32mCycles:   3 | [1;33mDRAM address: 216, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 811 [1;32mCycles:   3 | [1;33mDRAM address:  48, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 812 [1;32mCycles:   6 | [1;33mDRAM address: 129, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 813 [1;32mCycles:   3 | [1;33mDRAM address:  69, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 814 [1;32mCycles:   6 | [1;33mDRAM address: 166, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 815 [1;32mCycles:   3 | [1;33mDRAM address:  84, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 816 [1;32mCycles:   7 | [1;33mDRAM address: 245, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 817 [1;32mCycles:   3 | [1;33mDRAM address: 229, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 818 [1;32mCycles:   6 | [1;33mDRAM address: 162, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 819 [1;32mCycles:   7 | [1;33mDRAM address: 185, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 820 [1;32mCycles:   7 | [1;33mDRAM address:  62, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 821 [1;32mCycles:   7 | [1;33mDRAM address:  78, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 822 [1;32mCycles:   3 | [1;33mDRAM address: 210, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 823 [1;32mCycles:   3 | [1;33mDRAM address: 131, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 824 [1;32mCycles:   6 | [1;33mDRAM address: 179, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 825 [1;32mCycles:   3 | [1;33mDRAM address: 123, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 826 [1;32mCycles:   7 | [1;33mDRAM address: 137, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 827 [1;32mCycles:   7 | [1;33mDRAM address:  85, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 828 [1;32mCycles:   3 | [1;33mDRAM address:  23, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 829 [1;32mCycles:   6 | [1;33mDRAM address: 153, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 830 [1;32mCycles:   3 | [1;33mDRAM address:  88, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 831 [1;32mCycles:   7 | [1;33mDRAM address: 233, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 832 [1;32mCycles:   6 | [1;33mDRAM address: 175, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 833 [1;32mCycles:   6 | [1;33mDRAM address: 132, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 834 [1;32mCycles:   7 | [1;33mDRAM address:  39, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 835 [1;32mCycles:   3 | [1;33mDRAM address: 164, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 836 [1;32mCycles:   7 | [1;33mDRAM address:  13, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 837 [1;32mCycles:   7 | [1;33mDRAM address: 180, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 838 [1;32mCycles:   6 | [1;33mDRAM address:  52, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 839 [1;32mCycles:   7 | [1;33mDRAM address: 145, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 840 [1;32mCycles:   3 | [1;33mDRAM address: 162, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 841 [1;32mCycles:   3 | [1;33mDRAM address: 146, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 842 [1;32mCycles:   3 | [1;33mDRAM address:  26, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 843 [1;32mCycles:   3 | [1;33mDRAM address:  11, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 844 [1;32mCycles:   7 | [1;33mDRAM address: 101, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 845 [1;32mCycles:   6 | [1;33mDRAM address: 230, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 846 [1;32mCycles:   6 | [1;33mDRAM address:  72, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 847 [1;32mCycles:   7 | [1;33mDRAM address:  57, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 848 [1;32mCycles:   6 | [1;33mDRAM address: 225, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 849 [1;32mCycles:   3 | [1;33mDRAM address:  18, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 850 [1;32mCycles:   3 | [1;33mDRAM address: 221, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 851 [1;32mCycles:   7 | [1;33mDRAM address: 255, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 852 [1;32mCycles:   3 | [1;33mDRAM address:  89, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 853 [1;32mCycles:   3 | [1;33mDRAM address:  46, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 854 [1;32mCycles:   3 | [1;33mDRAM address: 215, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 855 [1;32mCycles:   7 | [1;33mDRAM address: 120, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 856 [1;32mCycles:   3 | [1;33mDRAM address: 202, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 857 [1;32mCycles:   7 | [1;33mDRAM address:  67, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 858 [1;32mCycles:   3 | [1;33mDRAM address:  43, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 859 [1;32mCycles:   6 | [1;33mDRAM address: 227, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 860 [1;32mCycles:   3 | [1;33mDRAM address:  89, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 861 [1;32mCycles:   4 | [1;33mDRAM address: 215, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 862 [1;32mCycles:   7 | [1;33mDRAM address:  20, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 863 [1;32mCycles:   3 | [1;33mDRAM address:  35, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 864 [1;32mCycles:   3 | [1;33mDRAM address:  43, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 865 [1;32mCycles:   3 | [1;33mDRAM address: 220, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 866 [1;32mCycles:   6 | [1;33mDRAM address:  46, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 867 [1;32mCycles:   7 | [1;33mDRAM address: 228, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 868 [1;32mCycles:   3 | [1;33mDRAM address:  64, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 869 [1;32mCycles:   6 | [1;33mDRAM address: 103, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 870 [1;32mCycles:   6 | [1;33mDRAM address: 194, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 871 [1;32mCycles:   3 | [1;33mDRAM address: 191, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 872 [1;32mCycles:   7 | [1;33mDRAM address: 176, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 873 [1;32mCycles:   6 | [1;33mDRAM address: 208, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 874 [1;32mCycles:   7 | [1;33mDRAM address:  95, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 875 [1;32mCycles:   7 | [1;33mDRAM address: 146, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 876 [1;32mCycles:   6 | [1;33mDRAM address: 106, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 877 [1;32mCycles:   7 | [1;33mDRAM address: 165, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 878 [1;32mCycles:   3 | [1;33mDRAM address: 215, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 879 [1;32mCycles:   7 | [1;33mDRAM address: 143, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 880 [1;32mCycles:   3 | [1;33mDRAM address:  56, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 881 [1;32mCycles:   6 | [1;33mDRAM address: 132, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 882 [1;32mCycles:   6 | [1;33mDRAM address: 130, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 883 [1;32mCycles:   3 | [1;33mDRAM address:  26, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 884 [1;32mCycles:   6 | [1;33mDRAM address: 102, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 885 [1;32mCycles:   7 | [1;33mDRAM address: 187, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 886 [1;32mCycles:   3 | [1;33mDRAM address: 143, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 887 [1;32mCycles:   3 | [1;33mDRAM address: 104, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 888 [1;32mCycles:   6 | [1;33mDRAM address: 135, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 889 [1;32mCycles:   3 | [1;33mDRAM address:  38, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 890 [1;32mCycles:   6 | [1;33mDRAM address: 197, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 891 [1;32mCycles:   3 | [1;33mDRAM address: 212, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 892 [1;32mCycles:   6 | [1;33mDRAM address:  56, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 893 [1;32mCycles:   6 | [1;33mDRAM address:  53, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 894 [1;32mCycles:   6 | [1;33mDRAM address: 223, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 895 [1;32mCycles:   4 | [1;33mDRAM address:  44, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 896 [1;32mCycles:   7 | [1;33mDRAM address:  50, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 897 [1;32mCycles:   7 | [1;33mDRAM address:  63, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 898 [1;32mCycles:   3 | [1;33mDRAM address: 219, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 899 [1;32mCycles:   7 | [1;33mDRAM address:   5, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 900 [1;32mCycles:   7 | [1;33mDRAM address:  70, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 901 [1;32mCycles:   4 | [1;33mDRAM address: 184, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 902 [1;32mCycles:   3 | [1;33mDRAM address:  21, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 903 [1;32mCycles:   6 | [1;33mDRAM address:  63, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 904 [1;32mCycles:   7 | [1;33mDRAM address: 154, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 905 [1;32mCycles:   7 | [1;33mDRAM address:  33, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 906 [1;32mCycles:   6 | [1;33mDRAM address: 160, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 907 [1;32mCycles:   6 | [1;33mDRAM address: 249, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 908 [1;32mCycles:   3 | [1;33mDRAM address: 170, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 909 [1;32mCycles:   3 | [1;33mDRAM address:   5, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 910 [1;32mCycles:   6 | [1;33mDRAM address:  21, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 911 [1;32mCycles:   6 | [1;33mDRAM address: 181, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 912 [1;32mCycles:   3 | [1;33mDRAM address: 190, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 913 [1;32mCycles:   6 | [1;33mDRAM address:  19, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 914 [1;32mCycles:   7 | [1;33mDRAM address: 121, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 915 [1;32mCycles:   3 | [1;33mDRAM address: 195, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 916 [1;32mCycles:   6 | [1;33mDRAM address: 234, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 917 [1;32mCycles:   6 | [1;33mDRAM address: 149, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 918 [1;32mCycles:   3 | [1;33mDRAM address:  67, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 919 [1;32mCycles:   7 | [1;33mDRAM address:  34, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 920 [1;32mCycles:   6 | [1;33mDRAM address: 131, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 921 [1;32mCycles:   6 | [1;33mDRAM address: 210, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 922 [1;32mCycles:   6 | [1;33mDRAM address: 250, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 923 [1;32mCycles:   6 | [1;33mDRAM address:  96, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 924 [1;32mCycles:   6 | [1;33mDRAM address: 153, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 925 [1;32mCycles:   6 | [1;33mDRAM address:  77, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 926 [1;32mCycles:   3 | [1;33mDRAM address: 131, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 927 [1;32mCycles:   7 | [1;33mDRAM address:  90, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 928 [1;32mCycles:   6 | [1;33mDRAM address: 220, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 929 [1;32mCycles:   3 | [1;33mDRAM address:  82, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 930 [1;32mCycles:   7 | [1;33mDRAM address: 209, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 931 [1;32mCycles:   4 | [1;33mDRAM address:  32, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 932 [1;32mCycles:   6 | [1;33mDRAM address: 174, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 933 [1;32mCycles:   8 | [1;33mDRAM address:  39, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 934 [1;32mCycles:   7 | [1;33mDRAM address: 217, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 935 [1;32mCycles:   7 | [1;33mDRAM address: 108, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 936 [1;32mCycles:   6 | [1;33mDRAM address: 165, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 937 [1;32mCycles:   7 | [1;33mDRAM address:   8, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 938 [1;32mCycles:   3 | [1;33mDRAM address:  36, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 939 [1;32mCycles:   7 | [1;33mDRAM address:   5, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 940 [1;32mCycles:   7 | [1;33mDRAM address: 211, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 941 [1;32mCycles:   7 | [1;33mDRAM address:  96, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 942 [1;32mCycles:   7 | [1;33mDRAM address: 147, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 943 [1;32mCycles:   6 | [1;33mDRAM address: 107, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 944 [1;32mCycles:   6 | [1;33mDRAM address: 157, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 945 [1;32mCycles:   4 | [1;33mDRAM address: 208, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 946 [1;32mCycles:   3 | [1;33mDRAM address: 189, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 947 [1;32mCycles:   7 | [1;33mDRAM address: 114, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 948 [1;32mCycles:   3 | [1;33mDRAM address:  23, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 949 [1;32mCycles:   6 | [1;33mDRAM address:  95, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 950 [1;32mCycles:   7 | [1;33mDRAM address:  27, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 951 [1;32mCycles:   3 | [1;33mDRAM address:   5, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 952 [1;32mCycles:   3 | [1;33mDRAM address: 202, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 953 [1;32mCycles:   3 | [1;33mDRAM address:  18, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 954 [1;32mCycles:   3 | [1;33mDRAM address: 162, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 955 [1;32mCycles:   3 | [1;33mDRAM address: 233, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 956 [1;32mCycles:   6 | [1;33mDRAM address: 208, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 957 [1;32mCycles:   6 | [1;33mDRAM address:  38, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 958 [1;32mCycles:   6 | [1;33mDRAM address: 138, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 959 [1;32mCycles:   7 | [1;33mDRAM address: 143, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 960 [1;32mCycles:   6 | [1;33mDRAM address: 163, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 961 [1;32mCycles:   6 | [1;33mDRAM address:   3, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 962 [1;32mCycles:   7 | [1;33mDRAM address: 223, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 963 [1;32mCycles:   3 | [1;33mDRAM address:  47, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 964 [1;32mCycles:   6 | [1;33mDRAM address: 193, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 965 [1;32mCycles:   3 | [1;33mDRAM address: 228, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 966 [1;32mCycles:   6 | [1;33mDRAM address:  17, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 967 [1;32mCycles:   6 | [1;33mDRAM address: 139, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 968 [1;32mCycles:   6 | [1;33mDRAM address: 114, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 969 [1;32mCycles:   3 | [1;33mDRAM address: 173, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 970 [1;32mCycles:   7 | [1;33mDRAM address:  41, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 971 [1;32mCycles:   7 | [1;33mDRAM address:  34, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 972 [1;32mCycles:   6 | [1;33mDRAM address:  99, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 973 [1;32mCycles:   7 | [1;33mDRAM address:  73, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 974 [1;32mCycles:   3 | [1;33mDRAM address:  82, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 975 [1;32mCycles:   6 | [1;33mDRAM address:  78, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 976 [1;32mCycles:   3 | [1;33mDRAM address: 241, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 977 [1;32mCycles:   4 | [1;33mDRAM address: 164, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 978 [1;32mCycles:   3 | [1;33mDRAM address:  21, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 979 [1;32mCycles:   6 | [1;33mDRAM address:  35, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 980 [1;32mCycles:   7 | [1;33mDRAM address:  97, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 981 [1;32mCycles:   7 | [1;33mDRAM address:  34, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 982 [1;32mCycles:   6 | [1;33mDRAM address:  61, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 983 [1;32mCycles:   7 | [1;33mDRAM address: 134, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 984 [1;32mCycles:   6 | [1;33mDRAM address: 177, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 985 [1;32mCycles:   6 | [1;33mDRAM address: 230, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 986 [1;32mCycles:   3 | [1;33mDRAM address: 186, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 987 [1;32mCycles:   3 | [1;33mDRAM address: 221, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 988 [1;32mCycles:   6 | [1;33mDRAM address:  93, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 989 [1;32mCycles:   7 | [1;33mDRAM address:  88, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 990 [1;32mCycles:   6 | [1;33mDRAM address:  48, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 991 [1;32mCycles:   6 | [1;33mDRAM address: 226, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 992 [1;32mCycles:   7 | [1;33mDRAM address: 174, MODE: Update [1;0m
+[1;34mPASS PATTERN NO. 993 [1;32mCycles:   6 | [1;33mDRAM address:  31, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 994 [1;32mCycles:   3 | [1;33mDRAM address:  66, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 995 [1;32mCycles:   3 | [1;33mDRAM address: 217, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 996 [1;32mCycles:   6 | [1;33mDRAM address:  23, MODE: Check_Valid_Date [1;0m
+[1;34mPASS PATTERN NO. 997 [1;32mCycles:   3 | [1;33mDRAM address: 110, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 998 [1;32mCycles:   4 | [1;33mDRAM address: 187, MODE: Index_Check [1;0m
+[1;34mPASS PATTERN NO. 999 [1;32mCycles:   3 | [1;33mDRAM address:  88, MODE: Index_Check [1;0m
+[37m                                  .$&X.      x$$x              [32m      :BBQvi.
+[37m                                .&&;.X&$  :&&$+X&&x            [32m     BBBBBBBBQi
+[37m                               +&&    &&.:&$    .&&            [32m    :BBBP :7BBBB.
+[37m                              :&&     &&X&&      $&;           [32m    BBBB     BBBB
+[37m                              &&;..   &&&&+.     +&+           [32m   iBBBv     BBBB       vBr
+[37m                             ;&&...   X&&&...    +&.           [32m   BBBBBKrirBBBB.     :BBBBBB:
+[37m                             x&$..    $&&X...    +&            [32m  rBBBBBBBBBBBR.    .BBBM:BBB
+[37m                             X&;...   &&&....    &&            [32m  BBBB   .::.      EBBBi :BBU
+[37m                             $&...    &&&....    &&            [32m MBBBr           vBBBu   BBB.
+[37m                             $&....   &&&...     &$            [32m i7PB          iBBBBB.  iBBB
+[37m                             $&....   &&& ..    .&x                        [32m  vBBBBPBBBBPBBB7       .7QBB5i
+[37m                             $&....   &&& ..    x&+                        [32m :RBBB.  .rBBBBB.      rBBBBBBBB7
+[37m                             X&;...   x&&....   &&;                        [32m    .       BBBB       BBBB  :BBBB
+[37m                             x&X...    &&....   &&:                        [32m           rBBBr       BBBB    BBBU
+[37m                             :&$...    &&+...   &&:                        [32m           vBBB        .BBBB   :7i.
+[37m                              &&;...   &&$...   &&:                        [32m             .7  BBB7   iBBBg
+[37m                               && ...  X&&...   &&;                                         [32mdBBB.   5BBBr
+[37m                               .&&;..  ;&&x.    $&;.$&$x;                                   [32m ZBBBr  EBBBv     YBBBBQi
+[37m                               ;&&&+   .+xx;    ..  :+x&&&&&&&x                             [32m  iBBBBBBBBD     BBBBBBBBB.
+[37m                        +&&&&&&X;..             .          .X&&&&&x                         [32m    :LBBBr      vBBBi  5BBB
+[37m                    $&&&+..                                    .:$&&&&.                     [32m          ...   :BBB:   BBBu
+[37m                 $&&$.                                             .X&&&&.                  [32m         .BBBi   BBBB   iMBu
+[37m              ;&&&:                                               .   .$&&&                x[32m          BBBX   :BBBr
+[37m            x&&x.      .+&&&&&.                .x&$x+:                  .$&&X         $+  &x  ;&X   [32m  .BBBv  :BBBQ
+[37m          .&&;       .&&&:                      .:x$&&&&X                 .&&&        ;&     +&.    [32m   .BBBBBBBBB:
+[37m         $&&       .&&$.                             ..&&&$                 x&& x&&&X+.          X&x[32m     rBBBBB1.
+[37m        &&X       ;&&:                                   $&&x                $&x   .;x&&&&:                       
+[37m      .&&;       ;&x                                      .&&&                &&:       .$&&$    ;&&.             
+[37m      &&;       .&X                                         &&&.              :&$          $&&x                   
+[37m     x&X       .X& .                                         &&&.              .            ;&&&  &&:             
+[37m     &&         $x                                            &&.                            .&&&                 
+[37m    :&&                                                       ;:                              :&&X                
+[37m    x&X                 :&&&&&;                ;$&&X:                                          :&&.               
+[37m    X&x .              :&&&  $&X              &&&  X&$                                          X&&               
+[37m    x&X                x&&&&&&&$             :&&&&$&&&                                          .&&.              
+[37m    .&&    [38;2;255;192;203m      ....[37m  .&&X:;&&+              &&&++;&&                                          .&&               
+[37m     &&    [38;2;255;192;203m  .$&.x+..:[37m  ..+Xx.                 :&&&&+[38;2;255;192;203m  .;......    [37m                             .&&
+[37m     x&x   [38;2;255;192;203m .x&:;&x:&X&&.[37m              .             [38;2;255;192;203m .&X:&&.&&.:&.[37m                             :&&
+[37m     .&&:  [38;2;255;192;203m  x;.+X..+.;:.[37m         ..  &&.            [38;2;255;192;203m &X.;&:+&$ &&.[37m                             x&;
+[37m      :&&. [38;2;255;192;203m    .......   [37m         x&&&&&$++&$        [38;2;255;192;203m .... ......: [37m                             && 
+[37m       ;&&                          X&  .x.              [38;2;255;192;203m .... [37m                               .&&;                
+[37m        .&&x                        .&&$X                                          ..         .x&&&               
+[37m          x&&x..                                                                 :&&&&&+         +&X              
+[37m            ;&&&:                                                                     x&&$XX;::x&&X               
+[37m               &&&&&:.                                                              .X&x    +xx:                  
+[37m                  ;&&&&&&&&$+.                                  :+x&$$X$&&&&&&&&&&&&&$                            
+[37m                       .+X$&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&$X+xXXXxxxx+;.                                   
+[32m                                    Congratulations!
+[32m                                    total latency =        5369 [37m
+$finish called from file "PATTERN.sv", line 158.
+$finish at simulation time            103760000
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 103760000 ps
+CPU Time:      2.540 seconds;       Data structure size:   0.9Mb
+Mon Nov 25 10:40:26 2024
+CPU time: 1.382 seconds to compile + .506 seconds to elab + .821 seconds to link + 2.593 seconds in simulation

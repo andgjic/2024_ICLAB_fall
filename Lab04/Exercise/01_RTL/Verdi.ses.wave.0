@@ -1,0 +1,78 @@
+Magic 271485
+Revision Verdi_P-2019.06
+
+; Window Layout <x> <y> <width> <height> <signalwidth> <valuewidth>
+viewPort 0 27 1536 122 100 65
+
+; File list:
+; openDirFile [-d delimiter] [-s time_offset] [-rf auto_bus_rule_file] path_name file_name
+openDirFile -d / "" "/RAID2/COURSE/iclab/iclab131/Lab04/Exercise/01_RTL/CNN.fsdb"
+
+; file time scale:
+; fileTimeScale ### s|ms|us|ns|ps
+
+; signal spacing:
+signalSpacing 5
+
+; windowTimeUnit is used for zoom, cursor & marker
+; waveform viewport range
+zoom 15243644.531250 17335035.681152
+cursor 1287000.000000
+marker 0.000000
+
+; user define markers
+; userMarker time_pos marker_name color linestyle
+; visible top row signal index
+top 0
+; marker line index
+markerPos 2
+
+; event list
+; addEvent event_name event_expression
+; curEvent event_name
+
+
+
+COMPLEX_EVENT_BEGIN
+
+
+COMPLEX_EVENT_END
+
+
+
+; toolbar current search type
+; curSTATUS search_type
+curSTATUS ByChange
+
+
+aliasmapname TESTBED.u_CNN.c_s
+nalias s_IDLE		4'b000		NULL
+nalias s_IN		4'b001		NULL
+nalias s_FC		4'b100		NULL
+nalias s_CONV		4'b010		NULL
+nalias s_MAXPOOL		4'b011		NULL
+nalias s_OUT		4'b111		NULL
+
+aliasmapname CNN(@1).act_up
+nalias IEEE_one		32'b00111111100000000000000000000000		NULL
+
+aliasmapname CNN.c_s
+nalias s_IDLE		4'b000		NULL
+nalias s_FC		4'b100		NULL
+nalias s_IN		4'b001		NULL
+nalias s_CONV		4'b010		NULL
+nalias s_MAXPOOL		4'b011		NULL
+nalias s_OUT		4'b111		NULL
+
+addGroup "G1"
+aliasname TESTBED.u_CNN.c_s
+activeDirFile "" "/RAID2/COURSE/iclab/iclab131/Lab04/Exercise/01_RTL/CNN.fsdb"
+addSignal -h 15 -UNSIGNED -HEX /TESTBED/u_CNN/c_s[3:0]
+aliasname TESTBED.u_CNN.c_s
+addSignal -h 15 -UNSIGNED -HEX -holdScope n_s[3:0]
+addGroup "G2"
+addGroup "G3"
+
+; getSignalForm Scope Hierarchy Status
+; active file of getSignalForm
+

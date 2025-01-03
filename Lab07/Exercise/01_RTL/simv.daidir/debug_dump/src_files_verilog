@@ -1,0 +1,9 @@
+/RAID2/COURSE/iclab/iclab131/Lab07/Exercise/01_RTL/CONV_TOP.v
+/RAID2/COURSE/iclab/iclab131/Lab07/Exercise/01_RTL/DESIGN_module.v
+/RAID2/COURSE/iclab/iclab131/Lab07/Exercise/01_RTL/PATTERN.vp
+/RAID2/COURSE/iclab/iclab131/Lab07/Exercise/01_RTL/TESTBED.v
+/RAID2/COURSE/iclab/iclab131/Lab07/Exercise/01_RTL/synchronizer/FIFO_syn.v
+/RAID2/COURSE/iclab/iclab131/Lab07/Exercise/01_RTL/synchronizer/Handshake_syn.v
+/RAID2/COURSE/iclab/iclab131/Lab07/Exercise/01_RTL/synchronizer/NDFF_BUS_syn.v
+/RAID2/COURSE/iclab/iclab131/Lab07/Exercise/01_RTL/synchronizer/NDFF_syn.v
+/RAID2/COURSE/iclab/iclab131/Lab07/Exercise/04_MEM/DUAL_64X8X1BM1.v

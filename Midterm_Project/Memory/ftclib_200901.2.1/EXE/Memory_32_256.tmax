@@ -1,0 +1,121 @@
+///////////////////////////////////////////////////////////////////////////////////
+// 
+//              Synchronous High Speed Single Port SRAM Compiler 
+// 
+//                    UMC 0.18um GenericII Logic Process
+//    __________________________________________________________________________
+// 
+// 
+//        (C) Copyright 2002-2009 Faraday Technology Corp. All Rights Reserved.
+// 
+//      This source code is an unpublished work belongs to Faraday Technology
+//      Corp.  It is considered a trade secret and is not to be divulged or
+//      used by parties who have not received written authorization from
+//      Faraday Technology Corp.
+// 
+//      Faraday's home page can be found at:
+//      http://www.faraday-tech.com/
+//     
+// ________________________________________________________________________________
+// 
+//       Module Name       :  Memory_32_256  
+//       Word              :  256            
+//       Bit               :  32             
+//       Byte              :  1              
+//       Mux               :  1              
+//       Power Ring Type   :  port           
+//       Power Ring Width  :  2 (um)         
+//       Output Loading    :  0.05 (pf)      
+//       Input Data Slew   :  0.02 (ns)      
+//       Input Clock Slew  :  0.02 (ns)      
+// 
+// ________________________________________________________________________________
+// 
+//       Library          : FSA0M_A
+//       Memaker          : 200901.2.1
+//       Date             : 2024/10/27 11:56:44
+// 
+// ________________________________________________________________________________
+// 
+//
+//       Library          : FSA0M_A
+//       Memaker          : 200901.2.1
+//       Date             : 2024/10/27 11:56:46
+//
+///////////////////////////////////////////////////////////////////////////////////
+
+module Memory_32_256 ( 
+                     A7,A6,A5,A4,A3,A2,A1,A0, 
+                     DO0, DO1, DO2, DO3, DO4, DO5, DO6, DO7, DO8, DO9, DO10, DO11, DO12, DO13, DO14, DO15, DO16, DO17, DO18, DO19, DO20, DO21, DO22, DO23, DO24, DO25, DO26, DO27, DO28, DO29, DO30, DO31,
+                     DI0, DI1, DI2, DI3, DI4, DI5, DI6, DI7, DI8, DI9, DI10, DI11, DI12, DI13, DI14, DI15, DI16, DI17, DI18, DI19, DI20, DI21, DI22, DI23, DI24, DI25, DI26, DI27, DI28, DI29, DI30, DI31,
+                     WEB,CK,CS,OE);
+                           
+   parameter  AddressSize     = 8;
+   parameter  Bits            = 32;
+   parameter  Words           = 256;
+   parameter  Bytes           = 1;
+   parameter  AddressRepSize  = 7;
+   parameter  DVSize          = 0; 
+ 
+   input  CK, CS, OE;
+   input  WEB;
+   input  A7,A6,A5,A4,A3,A2,A1,A0;
+   input  DI0,DI1,DI2,DI3,DI4,DI5,DI6,DI7,DI8,DI9,DI10,DI11,DI12,DI13,DI14,DI15,DI16,DI17,DI18,DI19,DI20,DI21,DI22,DI23,DI24,DI25,DI26,DI27,DI28,DI29,DI30,DI31; 
+   output DO0,DO1,DO2,DO3,DO4,DO5,DO6,DO7,DO8,DO9,DO10,DO11,DO12,DO13,DO14,DO15,DO16,DO17,DO18,DO19,DO20,DO21,DO22,DO23,DO24,DO25,DO26,DO27,DO28,DO29,DO30,DO31;
+
+   reg [Bits-1:0] mem [0:Words-1] ; 
+   reg [Bits-1:0] DO  ;     
+  
+   wire [AddressSize-1:0] A = { A7,A6,A5,A4,A3,A2,A1,A0 }; 
+   wire [Bits-1:0] DI = { DI31,DI30,DI29,DI28,DI27,DI26,DI25,DI24,DI23,DI22,DI21,DI20,DI19,DI18,DI17,DI16,DI15,DI14,DI13,DI12,DI11,DI10,DI9,DI8,DI7,DI6,DI5,DI4,DI3,DI2,DI1,DI0 }; 
+   wire DO31 = DO[31] ;     
+   wire DO30 = DO[30] ;     
+   wire DO29 = DO[29] ;     
+   wire DO28 = DO[28] ;     
+   wire DO27 = DO[27] ;     
+   wire DO26 = DO[26] ;     
+   wire DO25 = DO[25] ;     
+   wire DO24 = DO[24] ;     
+   wire DO23 = DO[23] ;     
+   wire DO22 = DO[22] ;     
+   wire DO21 = DO[21] ;     
+   wire DO20 = DO[20] ;     
+   wire DO19 = DO[19] ;     
+   wire DO18 = DO[18] ;     
+   wire DO17 = DO[17] ;     
+   wire DO16 = DO[16] ;     
+   wire DO15 = DO[15] ;     
+   wire DO14 = DO[14] ;     
+   wire DO13 = DO[13] ;     
+   wire DO12 = DO[12] ;     
+   wire DO11 = DO[11] ;     
+   wire DO10 = DO[10] ;     
+   wire DO9 = DO[9] ;     
+   wire DO8 = DO[8] ;     
+   wire DO7 = DO[7] ;     
+   wire DO6 = DO[6] ;     
+   wire DO5 = DO[5] ;     
+   wire DO4 = DO[4] ;     
+   wire DO3 = DO[3] ;     
+   wire DO2 = DO[2] ;     
+   wire DO1 = DO[1] ;     
+   wire DO0 = DO[0] ;     
+
+   reg [Bits-1:0] data_reg ;     
+
+   wire write_en;
+
+
+   and u1  (write_en, !WEB, CS); 
+
+   always @ (posedge CK) 
+         if (write_en) mem[A] = DI;    
+
+   always @ (posedge CK) 
+         if (CS) data_reg = mem[A];    
+
+   always @ (OE or data_reg)  
+      if (OE) DO = data_reg;
+       else    DO = 32'hZ; 
+                             
+endmodule

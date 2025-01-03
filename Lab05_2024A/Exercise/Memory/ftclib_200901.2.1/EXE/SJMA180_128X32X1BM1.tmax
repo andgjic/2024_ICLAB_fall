@@ -1,0 +1,176 @@
+///////////////////////////////////////////////////////////////////////////////////
+// 
+//              Synchronous Dual Port SRAM Compiler 
+// 
+//                    UMC 0.18um Generic Logic Process 
+//    __________________________________________________________________________
+// 
+// 
+//        (C) Copyright 2002-2009 Faraday Technology Corp. All Rights Reserved.
+// 
+//      This source code is an unpublished work belongs to Faraday Technology
+//      Corp.  It is considered a trade secret and is not to be divulged or
+//      used by parties who have not received written authorization from
+//      Faraday Technology Corp.
+// 
+//      Faraday's home page can be found at:
+//      http://www.faraday-tech.com/
+//     
+// ________________________________________________________________________________
+// 
+//       Module Name       :  SJMA180_128X32X1BM1  
+//       Word              :  128                  
+//       Bit               :  32                   
+//       Byte              :  1                    
+//       Mux               :  1                    
+//       Power Ring Type   :  port                 
+//       Power Ring Width  :  2 (um)               
+//       Output Loading    :  0.05 (pf)            
+//       Input Data Slew   :  0.02 (ns)            
+//       Input Clock Slew  :  0.02 (ns)            
+// 
+// ________________________________________________________________________________
+// 
+//       Library          : FSA0M_A
+//       Memaker          : 200901.2.1
+//       Date             : 2024/01/08 18:24:22
+// 
+// ________________________________________________________________________________
+// 
+//
+//       Library          : FSA0M_A
+//       Memaker          : 200901.2.1
+//       Date             : 2024/01/08 18:24:23
+//
+///////////////////////////////////////////////////////////////////////////////////
+
+`define read_read normal
+`define read_write xword
+`define write_write forbidden
+module  SJMA180_128X32X1BM1 ( 
+                             A6,A5,A4,A3,A2,A1,A0,
+                             B6,B5,B4,B3,B2,B1,B0, 
+                             DOA31,DOA30,DOA29,DOA28,DOA27,DOA26,DOA25,DOA24,DOA23,DOA22,DOA21,DOA20,DOA19,DOA18,DOA17,DOA16,DOA15,DOA14,DOA13,DOA12,DOA11,DOA10,DOA9,DOA8,DOA7,DOA6,DOA5,DOA4,DOA3,DOA2,DOA1,DOA0,     
+                             DOB31,DOB30,DOB29,DOB28,DOB27,DOB26,DOB25,DOB24,DOB23,DOB22,DOB21,DOB20,DOB19,DOB18,DOB17,DOB16,DOB15,DOB14,DOB13,DOB12,DOB11,DOB10,DOB9,DOB8,DOB7,DOB6,DOB5,DOB4,DOB3,DOB2,DOB1,DOB0,     
+                             DIA31,DIA30,DIA29,DIA28,DIA27,DIA26,DIA25,DIA24,DIA23,DIA22,DIA21,DIA20,DIA19,DIA18,DIA17,DIA16,DIA15,DIA14,DIA13,DIA12,DIA11,DIA10,DIA9,DIA8,DIA7,DIA6,DIA5,DIA4,DIA3,DIA2,DIA1,DIA0,   
+                             DIB31,DIB30,DIB29,DIB28,DIB27,DIB26,DIB25,DIB24,DIB23,DIB22,DIB21,DIB20,DIB19,DIB18,DIB17,DIB16,DIB15,DIB14,DIB13,DIB12,DIB11,DIB10,DIB9,DIB8,DIB7,DIB6,DIB5,DIB4,DIB3,DIB2,DIB1,DIB0,   
+                             WEAN,WEBN,CKA,CKB,CSA,CSB,OEA,OEB);
+                           
+   parameter  AddressSize     = 7;
+   parameter  Bits            = 32;
+   parameter  Words           = 128;
+   parameter  Bytes           = 1;
+   parameter  DVSize          = 0; 
+ 
+   input CKA, CKB;
+   input CSA, CSB, OEA,OEB;
+   input WEAN;
+   input WEBN;
+   input A6,A5,A4,A3,A2,A1,A0;
+   input B6,B5,B4,B3,B2,B1,B0;
+   input DIA31,DIA30,DIA29,DIA28,DIA27,DIA26,DIA25,DIA24,DIA23,DIA22,DIA21,DIA20,DIA19,DIA18,DIA17,DIA16,DIA15,DIA14,DIA13,DIA12,DIA11,DIA10,DIA9,DIA8,DIA7,DIA6,DIA5,DIA4,DIA3,DIA2,DIA1,DIA0;   
+   input DIB31,DIB30,DIB29,DIB28,DIB27,DIB26,DIB25,DIB24,DIB23,DIB22,DIB21,DIB20,DIB19,DIB18,DIB17,DIB16,DIB15,DIB14,DIB13,DIB12,DIB11,DIB10,DIB9,DIB8,DIB7,DIB6,DIB5,DIB4,DIB3,DIB2,DIB1,DIB0;   
+   output DOA31,DOA30,DOA29,DOA28,DOA27,DOA26,DOA25,DOA24,DOA23,DOA22,DOA21,DOA20,DOA19,DOA18,DOA17,DOA16,DOA15,DOA14,DOA13,DOA12,DOA11,DOA10,DOA9,DOA8,DOA7,DOA6,DOA5,DOA4,DOA3,DOA2,DOA1,DOA0;     
+   output DOB31,DOB30,DOB29,DOB28,DOB27,DOB26,DOB25,DOB24,DOB23,DOB22,DOB21,DOB20,DOB19,DOB18,DOB17,DOB16,DOB15,DOB14,DOB13,DOB12,DOB11,DOB10,DOB9,DOB8,DOB7,DOB6,DOB5,DOB4,DOB3,DOB2,DOB1,DOB0;     
+
+
+   reg [Bits-1:0] mem [0:Words-1] ; 
+   reg [Bits-1:0] DOA ;     
+   reg [Bits-1:0] DOB ;     
+   reg [Bits-1:0] data_regA ;     
+   reg [Bits-1:0] data_regB ;     
+   wire [AddressSize-1:0] A = { A6,A5,A4,A3,A2,A1,A0 }; 
+   wire [AddressSize-1:0] B = { B6,B5,B4,B3,B2,B1,B0 }; 
+   wire [Bits-1:0] DIA = { DIA31,DIA30,DIA29,DIA28,DIA27,DIA26,DIA25,DIA24,DIA23,DIA22,DIA21,DIA20,DIA19,DIA18,DIA17,DIA16,DIA15,DIA14,DIA13,DIA12,DIA11,DIA10,DIA9,DIA8,DIA7,DIA6,DIA5,DIA4,DIA3,DIA2,DIA1,DIA0 }; 
+   wire [Bits-1:0] DIB = { DIB31,DIB30,DIB29,DIB28,DIB27,DIB26,DIB25,DIB24,DIB23,DIB22,DIB21,DIB20,DIB19,DIB18,DIB17,DIB16,DIB15,DIB14,DIB13,DIB12,DIB11,DIB10,DIB9,DIB8,DIB7,DIB6,DIB5,DIB4,DIB3,DIB2,DIB1,DIB0 }; 
+   wire DOA31 = DOA[31] ;     
+   wire DOA30 = DOA[30] ;     
+   wire DOA29 = DOA[29] ;     
+   wire DOA28 = DOA[28] ;     
+   wire DOA27 = DOA[27] ;     
+   wire DOA26 = DOA[26] ;     
+   wire DOA25 = DOA[25] ;     
+   wire DOA24 = DOA[24] ;     
+   wire DOA23 = DOA[23] ;     
+   wire DOA22 = DOA[22] ;     
+   wire DOA21 = DOA[21] ;     
+   wire DOA20 = DOA[20] ;     
+   wire DOA19 = DOA[19] ;     
+   wire DOA18 = DOA[18] ;     
+   wire DOA17 = DOA[17] ;     
+   wire DOA16 = DOA[16] ;     
+   wire DOA15 = DOA[15] ;     
+   wire DOA14 = DOA[14] ;     
+   wire DOA13 = DOA[13] ;     
+   wire DOA12 = DOA[12] ;     
+   wire DOA11 = DOA[11] ;     
+   wire DOA10 = DOA[10] ;     
+   wire DOA9 = DOA[9] ;     
+   wire DOA8 = DOA[8] ;     
+   wire DOA7 = DOA[7] ;     
+   wire DOA6 = DOA[6] ;     
+   wire DOA5 = DOA[5] ;     
+   wire DOA4 = DOA[4] ;     
+   wire DOA3 = DOA[3] ;     
+   wire DOA2 = DOA[2] ;     
+   wire DOA1 = DOA[1] ;     
+   wire DOA0 = DOA[0] ;     
+   wire DOB31 = DOB[31] ;     
+   wire DOB30 = DOB[30] ;     
+   wire DOB29 = DOB[29] ;     
+   wire DOB28 = DOB[28] ;     
+   wire DOB27 = DOB[27] ;     
+   wire DOB26 = DOB[26] ;     
+   wire DOB25 = DOB[25] ;     
+   wire DOB24 = DOB[24] ;     
+   wire DOB23 = DOB[23] ;     
+   wire DOB22 = DOB[22] ;     
+   wire DOB21 = DOB[21] ;     
+   wire DOB20 = DOB[20] ;     
+   wire DOB19 = DOB[19] ;     
+   wire DOB18 = DOB[18] ;     
+   wire DOB17 = DOB[17] ;     
+   wire DOB16 = DOB[16] ;     
+   wire DOB15 = DOB[15] ;     
+   wire DOB14 = DOB[14] ;     
+   wire DOB13 = DOB[13] ;     
+   wire DOB12 = DOB[12] ;     
+   wire DOB11 = DOB[11] ;     
+   wire DOB10 = DOB[10] ;     
+   wire DOB9 = DOB[9] ;     
+   wire DOB8 = DOB[8] ;     
+   wire DOB7 = DOB[7] ;     
+   wire DOB6 = DOB[6] ;     
+   wire DOB5 = DOB[5] ;     
+   wire DOB4 = DOB[4] ;     
+   wire DOB3 = DOB[3] ;     
+   wire DOB2 = DOB[2] ;     
+   wire DOB1 = DOB[1] ;     
+   wire DOB0 = DOB[0] ;     
+
+
+   // write 
+   and u1a (write_enA, !WEAN, CSA); 
+   and u1b (write_enB, !WEBN, CSB); 
+
+   always @ (posedge CKA) 
+         if (write_enA) mem[A] = DIA;    
+   always @ (posedge CKB) 
+         if (write_enB) mem[B] = DIB;    
+
+   always @ (posedge CKA) 
+         if (CSA) data_regA = mem[A];    
+   always @ (posedge CKB) 
+         if (CSB) data_regB = mem[B];    
+
+   always @ (OEA or data_regA)  
+      if (OEA) DOA = data_regA;
+       else    DOA = 32'hZ; 
+   always @ (OEB or data_regB)  
+      if (OEB) DOB = data_regB;
+       else    DOB = 32'hZ; 
+
+endmodule
+`undef read_read
+`undef read_write
+`undef write_write

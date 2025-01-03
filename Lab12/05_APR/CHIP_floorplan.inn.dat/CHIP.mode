@@ -1,0 +1,10 @@
+catch { setDesignMode -process 180 }
+catch { setAnalysisMode -analysisType bcwc }
+catch { setExtractRCMode  -engine preRoute -total_c_th 5 -relative_c_th 0.03 -coupling_c_th 3 }
+catch { setIlmMode -keepHighFanoutPorts true -keepLoopBack false -keepInstInSdc false -keepFlatten true }
+catch { setDelayCalMode -engine aae }
+catch { setImportMode -discardFloatingVNets false }
+catch { setImportMode -keepEmptyModule true }
+catch { setFPlanMode -defaultTechSite core_5040 }
+catch { setFPlanMode -maxIoHeight false }
+catch { setFPlanMode -powerRailLayer {} }

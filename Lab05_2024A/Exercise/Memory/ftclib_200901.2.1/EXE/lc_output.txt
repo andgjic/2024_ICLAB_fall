@@ -1,0 +1,41 @@
+ 
+                             Library Compiler (TM)
+                                 DesignWare (R)
+
+               Version T-2022.03 for linux64 - Feb 22, 2022 -SLE
+
+                    Copyright (c) 1988 - 2022 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Initializing...
+lc_shell> read_lib MEM_gray_max_WC.lib
+Reading '/RAID2/COURSE/iclab/iclab131/Lab05_2024A/Exercise/Memory/ftclib_200901.2.1/EXE/MEM_gray_max_WC.lib' ...
+Warning: Line 45, The default_operating_conditions is not defined. operating_conditions 'WCCOM' is set
+        as the default_operating_conditions. (LBDB-663)
+Warning: Line 45, The 'internal_power_calculation' attribute in char_config group is required for NLPM library. 
+        No default can be applied to this attribute. (LBDB-366)
+Information: Line 164, Cell 'MEM_gray_max', The cell 'MEM_gray_max' contiains memory/memory_read/memory_write groups which are deprecated, use the is_memory_cell attribute instead. (LIBG-280)
+Technology library 'MEM_gray_max_WC' read successfully
+1
+lc_shell> write_lib MEM_gray_max_WC -output MEM_gray_max_WC.db
+Wrote the 'MEM_gray_max_WC' library to '/RAID2/COURSE/iclab/iclab131/Lab05_2024A/Exercise/Memory/ftclib_200901.2.1/EXE/MEM_gray_max_WC.db' successfully
+1
+lc_shell> exit
+Maximum memory usage for this session: 103.30 MB
+CPU usage for this session:      1 seconds (  0.00 hours)
+Elapsed time for this session:    728 seconds (  0.20 hours)
+Thank you for using Library Compiler.
+

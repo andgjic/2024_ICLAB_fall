@@ -1,0 +1,108 @@
+#######################################################
+#                                                     
+#  Innovus Command Logging File                     
+#  Created on Fri Dec  6 15:42:06 2024                
+#                                                     
+#######################################################
+
+#@(#)CDS: Innovus v20.15-s105_1 (64bit) 07/27/2021 14:15 (Linux 2.6.32-431.11.2.el6.x86_64)
+#@(#)CDS: NanoRoute 20.15-s105_1 NR210726-1341/20_15-UB (database version 18.20.554) {superthreading v2.14}
+#@(#)CDS: AAE 20.15-s020 (64bit) 07/27/2021 (Linux 2.6.32-431.11.2.el6.x86_64)
+#@(#)CDS: CTE 20.15-s024_1 () Jul 23 2021 04:46:45 ( )
+#@(#)CDS: SYNTECH 20.15-s012_1 () Jul 12 2021 23:29:38 ( )
+#@(#)CDS: CPE v20.15-s071
+#@(#)CDS: IQuantus/TQuantus 20.1.1-s460 (64bit) Fri Mar 5 18:46:16 PST 2021 (Linux 2.6.32-431.11.2.el6.x86_64)
+
+set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+suppressMessage ENCEXT-2799
+getVersion
+win
+set init_design_uniquify 1
+setDesignMode -process 180
+suppressMessage TECHLIB 1318
+suppressMessage ENCEXT-2799
+encMessage warning 0
+encMessage debug 0
+encMessage info 0
+is_common_ui_mode
+restoreDesign /RAID2/COURSE/iclab/iclab131/Lab12/Exercise/05_APR/CHIP.inn.dat CHIP
+setDrawView fplan
+encMessage warning 1
+encMessage debug 0
+encMessage info 1
+zoomBox -314.01100 466.71200 3059.37000 3486.60800
+setDrawView place
+zoomBox -724.48500 90.12300 3244.19900 3642.94200
+zoomBox -724.48500 1511.25100 3244.19900 5064.07000
+zoomBox -724.48500 2577.09700 3244.19900 6129.91600
+zoomBox -1665.09700 1644.37200 3827.89100 6561.76900
+zoomBox -2966.98200 353.40400 4635.76900 7159.48900
+zoomBox -4768.89900 -1433.40200 5753.94000 7986.78500
+zoomBox -3833.68700 -1094.43900 5110.72600 6912.72000
+zoomBox -3038.75700 -806.32000 4563.99400 5999.76500
+zoomBox -1788.72900 -353.25300 3704.25800 4564.14300
+zoomBox -885.58400 -25.91200 3083.10000 3526.90700
+zoomBox 238.38400 381.46500 2310.06300 2236.06000
+zoomBox -9.44300 131.74700 2427.82700 2313.62400
+zoomBox -644.01600 -507.67000 2729.37000 2512.23100
+zoomIn
+zoomIn
+zoomIn
+zoomBox 994.37700 968.87200 1084.64700 1049.68300
+zoomBox 999.91200 977.66500 1076.64200 1046.35500
+zoomBox 1008.61600 991.49200 1064.05400 1041.12100
+zoomBox 1012.01500 996.89200 1059.13800 1039.07700
+zoomBox 1012.01500 992.67300 1059.13800 1034.85800
+zoomBox 1012.01500 980.01600 1059.13800 1022.20100
+zoomBox 1012.01500 971.57800 1059.13800 1013.76300
+zoomOut
+zoomOut
+zoomOut
+zoomIn
+zoomIn
+zoomIn
+zoomIn
+zoomIn
+zoomIn
+zoomOut
+zoomOut
+zoomOut
+zoomOut
+zoomOut
+zoomBox 859.78900 876.23900 1166.15400 1150.50100
+zoomBox 885.96400 929.25000 1107.31300 1127.40500
+zoomBox 843.14100 842.52600 1203.57300 1165.19000
+zoomBox 823.55600 802.86500 1247.59500 1182.47000
+zoomBox 800.51600 756.20400 1299.38600 1202.79900
+zoomBox 773.41000 701.31000 1360.31600 1226.71600
+zoomBox 704.00500 560.75000 1516.33200 1287.95600
+zoomBox 704.00500 778.91300 1516.33200 1506.11900
+zoomBox 607.94200 584.36600 1732.27100 1590.88000
+zoomBox 479.45200 311.18500 2035.61700 1704.28500
+zoomBox 479.45200 729.11500 2035.61700 2122.21500
+zoomBox 188.51700 110.56400 2722.47300 2378.99600
+zoomBox -285.22100 -896.64300 3840.90400 2797.12000
+zoomBox -101.06700 -505.11500 3406.14000 2634.58400
+zoomBox 55.46400 -172.31600 3036.59000 2496.42800
+zoomBox 188.51500 110.56300 2722.47300 2378.99600
+zoomBox 188.51500 564.24900 2722.47300 2832.68200
+zoomBox 188.51500 1244.77800 2722.47300 3513.21100
+zoomBox 188.51500 1698.46400 2722.47300 3966.89700
+zoomBox 405.92500 2102.35500 2236.71100 3741.29900
+zoomBox 490.83300 2260.09100 2047.00100 3653.19400
+zoomBox 490.83200 2260.09100 2047.00100 3653.19400
+zoomBox 551.83000 2310.52000 1874.57400 3494.65800
+zoomBox 685.21100 2420.79000 1497.54100 3147.99900
+zoomBox 744.11800 2469.49100 1331.02600 2994.89900
+zoomBox 803.29900 2518.41800 1163.73400 2841.08400
+zoomBox 839.64400 2548.46400 1060.99700 2746.62200
+fit
+fit
+getIoFlowFlag
+redirect -quiet {set honorDomain [getAnalysisMode -honorClockDomains]} > /dev/null
+timeDesign -postRoute -pathReports -drvReports -slackReports -numPaths 50 -prefix CHIP_postRoute -outDir timingReports
+selectVia 1504.8400 181.3200 1508.8400 190.3200 3 VCC
+redirect -quiet {set honorDomain [getAnalysisMode -honorClockDomains]} > /dev/null
+timeDesign -postRoute -hold -pathReports -slackReports -numPaths 50 -prefix CHIP_postRoute -outDir timingReports
+deselectAll
+selectVia 1500.5600 190.6000 1504.5600 199.6000 3 GND

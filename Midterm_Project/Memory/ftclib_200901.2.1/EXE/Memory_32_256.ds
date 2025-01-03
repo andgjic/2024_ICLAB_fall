@@ -1,0 +1,195 @@
+/******************************************************************************
+
+             Synchronous High Speed Single Port SRAM Compiler 
+
+                   UMC 0.18um GenericII Logic Process
+   __________________________________________________________________________
+
+
+       (C) Copyright 2002-2009 Faraday Technology Corp. All Rights Reserved.
+
+     This source code is an unpublished work belongs to Faraday Technology
+     Corp.  It is considered a trade secret and is not to be divulged or
+     used by parties who have not received written authorization from
+     Faraday Technology Corp.
+
+     Faraday's home page can be found at:
+     http://www.faraday-tech.com/
+    
+________________________________________________________________________________
+
+      Module Name       :  Memory_32_256  
+      Word              :  256            
+      Bit               :  32             
+      Byte              :  1              
+      Mux               :  1              
+      Power Ring Type   :  port           
+      Power Ring Width  :  2 (um)         
+      Output Loading    :  0.05 (pf)      
+      Input Data Slew   :  0.02 (ns)      
+      Input Clock Slew  :  0.02 (ns)      
+
+________________________________________________________________________________
+
+      Library          : FSA0M_A
+      Memaker          : 200901.2.1
+      Date             : 2024/10/27 11:56:44
+
+________________________________________________________________________________
+
+******************************************************************************/
+
+
+
+   Description:
+
+     The FSA0M_A_SU is a synchronous high speed, single port SRAM.     It was
+     created according to UMC's 0.18um 1P5M Mixed-Mode and RFCMOS process
+     design rules and can be incorporated with Faraday's 0.18um standard cell
+     masterchips.  This product allows different combinations of words, bits,
+     and aspect ratios to be used in generating the most desirable
+     configurations.
+      
+     By requesting the desired size and timing constraints, the FSA0M_A_SU
+     compiler will provide suitable synchronous RAM layout instances in seconds.
+     It can automatically generate data sheets, Verilog / VHDL behavioral
+     simulation models, SCS or Viewlogic symbols, place & route models, and test
+     patterns for use in ASIC designs.  The duty cycle length can be neglected
+     as long as the setup / hold time and minimum high / low pulse widths are
+     satisfied.  This allows the flexibility of a CK falling edge during each
+     operation.  Both word write and byte write operations or simulation models
+     are supported.
+
+
+
+   Features:
+
+       - Synchronous read and write operations
+       - Fully customized layout density per customer configuration
+       - High speed, available for 1.62V ~ 1.98V 
+       - Automatic power down to eliminate DC current
+       - Clocked address inputs and CS to RAM with CK rising edge
+       - Clocked WEB input pin to RAM with CK rising edge
+       - Clocked DI input pins to RAM with CK rising edge
+       - Byte write or word write operations available
+       - Verilog / VHDL timing / simulation model generator
+       - SPICE netlist generator
+       - GDSII layout database
+       - Memory compiler preview UI (memaker)
+       - BIST circuitry supported
+       - Multi-block options for the best aspect ratio
+      
+
+   Input Pins:
+ 
+       Pin Name  Capacitance  Descriptions                                 
+       A[7:0]    0.024 pF     Address signals of width 8                   
+       CK        0.060 pF     Clock signal for addresses, WEB, CS, and DI  
+       CS        0.120 pF     Chip select, active high                     
+       OE        0.030 pF     Output enable signal, active high            
+       DI[31:0]  0.009 pF     Input data of width 32                       
+       WEB       0.008 pF     Write enable signals of 1 bytes, active low  
+
+   Output Pins: 
+
+       Pin Name  Capacitance  Descriptions                         
+       DO[31:0]  0.028 pF     Output data of width 32 (tri-state)  
+
+
+   Approximated Area Information: 
+
+       RAM area = 542.120 um (Width) x 215.520 um (Height) = 0.117 mm^2
+       Power ring width = 2 um
+
+
+   Process metal options:
+
+       
+       ------------------------------------------------------------
+       |Four (4) metal layers |  M4 (thick) + M1 ~ M3 (thin)      |
+       |-----------------------------------------------------------
+       |Five (5) metal layers |  M5 (thick) + M1 ~ M4 (thin)      |
+       |-----------------------------------------------------------
+       |Six  (6) metal layers |  M6 (thick) + M1 ~ M5 (thin)      |
+       ------------------------------------------------------------
+
+
+
+   Recommended operating conditions:
+
+       Symbol  BC    TC    WC    Units  
+       VCC     1.98  1.80  1.62  V      
+       TJ      -40   25    125   C      
+
+       Notes:
+         1. VCC: Power supply for memory block
+         2. TJ : Junction operating temperature
+
+
+   Operating Conditions:
+
+       Corner  Process  Voltage(v)  Temperature(C)  
+       BC      PFNF     1.98        -40             
+       TC      PTNT     1.80        25              
+       WC      PSNS     1.62        125             
+
+
+   Clock Slew Rate & Loading Look Up Table (5x5):
+       Index                    1      2      3      4      5
+       Clock Slew (ns)*     0.020  0.500  1.000  1.500  2.000
+       Output Loading(pF)   0.010  0.050  0.150  0.500  1.300
+
+   Clock & Data Slew Rate Look Up Table (5x5):
+       Index                    1      2      3      4      5
+       Data  Slew (ns)*     0.020  0.500  1.000  1.500  2.000
+       Clock Slew (ns)*     0.020  0.500  1.000  1.500  2.000
+
+       * For BC: 10.0% ~ 90.0%
+       * For TC: 10.0% ~ 90.0%
+       * For WC: 10.0% ~ 90.0%
+
+   Power Consumption:
+
+       Power Type       BC     TC     WC     Unit         
+       Standby Current  1.000  1.000  8.411  uA (CS = 0)  
+       DC Current       1.000  1.000  8.411  uA (CS = 1)  
+       Max. AC Current  0.126  0.112  0.094  mA/MHz       
+
+       Total current   = AC current * Freq + DC current   
+       Notes:
+        1. All cycles are active
+        2. All address bits switching
+        3. All data bits switching
+        4. Worst of read / write operation
+ 
+ 
+   Timing Information:
+
+       - CK input slope = 0.02 ns.
+       - Data input slope = 0.02 ns.
+       - All timing parameters are measured from 50% of input.
+       - Output reference voltage "H" = 50% of VDD, "L" = 50% of VDD.
+       - Output loading = 0.05 pF.
+       - Delay timing parameters in nano second.
+
+   symbol  BC    TC    WC    Descriptions                                 
+   taa     1.35  1.93  3.13  Data access time from CK rising              
+   toh     0.80  1.16  1.92  Output data hold time after CK rising        
+   trc     1.73  2.46  3.95  Read cycle time                              
+   tcss    0.55  0.81  1.37  CS setup time before CK rising               
+   tcshr   0.09  0.14  0.23  CS hold time after CK rising in read cycle   
+   tcshw   0.09  0.14  0.23  CS hold time after CK rising in write cycle  
+   twh     0.10  0.10  0.10  WEB hold time after CK rising                
+   tah     0.10  0.11  0.16  Address hold time after CK rising            
+   tas     0.44  0.65  1.10  Address setup time before CK rising          
+   twc     1.73  2.46  3.95  Write cycle time                             
+   tws     0.26  0.39  0.67  WEB setup time before CK rising              
+   tdh     0.10  0.10  0.10  Input data hold time after CK rising         
+   tds     0.35  0.56  0.98  Input data setup time before CK rising       
+   twdv    1.01  1.44  2.34  Output data valid after CK rising            
+   twdx    0.80  1.16  1.92  Output data invalid after CK rising          
+   thpw    0.25  0.36  0.59  Clock high pulse width                       
+   tlpw    0.25  0.36  0.59  Clock low pulse width                        
+   toe     0.28  0.41  0.68  Output data valid after OE rising            
+   toz     0.38  0.53  0.82  Output data go to Hi-Z ater OE falling       
+

@@ -1,0 +1,39 @@
+{
+    "net_name": "VCC",
+    "smg": {
+        "config": {
+            "name": "VCC",
+            "output_path": "power_log\/PD_25C_avg_1\/\/VCC",
+            "nominal_voltage": "1.79999995"
+        },
+        "result": {
+            "DefInstData": {
+                "path": "power_log\/PD_25C_avg_1\/\/VCC\/VCC.defInstData",
+                "type": "proto::voltus.def_instdata_mgr.proto.DefInstDataManager"
+            },
+            "layerInfo": {
+                "path": "power_log\/PD_25C_avg_1\/\/VCC\/layerInfo",
+                "type": "proto.voltus.layer_manager.LayerManager"
+            },
+            "pgdb": {
+                "path": "power_log\/PD_25C_avg_1\/\/VCC"
+            },
+            "cellview": {
+                "path": "power_log\/PD_25C_avg_1\/\/VCC\/VCC.cellviews",
+                "type": "txt"
+            },
+            "pgv_table": {
+                "path": "power_log\/PD_25C_avg_1\/\/VCC\/VCC.pgv_table.rpt",
+                "type": "txt"
+            },
+            "grid_report": {
+                "path": "power_log\/PD_25C_avg_1\/\/VCC\/VCC.grid.report",
+                "type": "txt"
+            },
+            "missing_pgv": {
+                "path": "power_log\/PD_25C_avg_1\/\/VCC\/VCC.missingPGVData.protobuf",
+                "type": "protobuf.VOLTUS.SMGDATA.MissingPGV"
+            }
+        }
+    }
+}

@@ -1,0 +1,48 @@
+#######################################################
+#                                                     
+#  Innovus Command Logging File                     
+#  Created on Thu Dec  5 11:59:34 2024                
+#                                                     
+#######################################################
+
+#@(#)CDS: Innovus v20.15-s105_1 (64bit) 07/27/2021 14:15 (Linux 2.6.32-431.11.2.el6.x86_64)
+#@(#)CDS: NanoRoute 20.15-s105_1 NR210726-1341/20_15-UB (database version 18.20.554) {superthreading v2.14}
+#@(#)CDS: AAE 20.15-s020 (64bit) 07/27/2021 (Linux 2.6.32-431.11.2.el6.x86_64)
+#@(#)CDS: CTE 20.15-s024_1 () Jul 23 2021 04:46:45 ( )
+#@(#)CDS: SYNTECH 20.15-s012_1 () Jul 12 2021 23:29:38 ( )
+#@(#)CDS: CPE v20.15-s071
+#@(#)CDS: IQuantus/TQuantus 20.1.1-s460 (64bit) Fri Mar 5 18:46:16 PST 2021 (Linux 2.6.32-431.11.2.el6.x86_64)
+
+set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+suppressMessage ENCEXT-2799
+getVersion
+win
+encMessage warning 0
+encMessage debug 0
+encMessage info 0
+is_common_ui_mode
+restoreDesign /RAID2/COURSE/iclab/iclab131/Lab12/Exercise/05_APR/CHIP.inn.dat CHIP
+setDrawView fplan
+encMessage warning 1
+encMessage debug 0
+encMessage info 1
+setDrawView place
+redirect -quiet {set honorDomain [getAnalysisMode -honorClockDomains]} > /dev/null
+timeDesign -postRoute -pathReports -drvReports -slackReports -numPaths 50 -prefix CHIP_postRoute -outDir timingReports
+getIoFlowFlag
+fit
+fit
+zoomBox -669.89600 283.64000 3573.66900 2850.55200
+zoomBox -44.04600 953.75400 3021.93100 2808.34800
+zoomBox 638.99900 1875.76800 1999.39100 2698.66200
+zoomBox 714.62900 1982.07800 1870.96200 2681.53800
+zoomBox 836.77900 2149.12200 1672.23000 2654.48200
+zoomBox 959.04300 2313.15200 1472.11400 2623.50600
+zoomBox 985.88500 2349.14300 1421.99500 2612.94400
+zoomBox 1033.08500 2405.91600 1348.17600 2596.51300
+zoomBox 1053.32800 2427.77100 1321.15600 2589.77900
+zoomBox 1069.58700 2446.10200 1297.24100 2583.80900
+uiSetTool ruler
+zoomBox 1082.33300 2456.75800 1275.83900 2573.80900
+zoomBox 1127.73700 2494.34600 1200.71900 2538.49200
+zoomBox 1135.49000 2500.63000 1188.22000 2532.52600

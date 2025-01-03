@@ -1,0 +1,218 @@
+Magic 271485
+Revision Verdi_P-2019.06
+
+; Window Layout <x> <y> <width> <height> <signalwidth> <valuewidth>
+viewPort 3268 61 1787 977 347 264
+
+; File list:
+; openDirFile [-d delimiter] [-s time_offset] [-rf auto_bus_rule_file] path_name file_name
+openDirFile -d / "" "/RAID2/COURSE/iclab/iclab131/Midterm_Project/Exercise/01_RTL/ISP.fsdb"
+
+; file time scale:
+; fileTimeScale ### s|ms|us|ns|ps
+
+; signal spacing:
+signalSpacing 5
+
+; windowTimeUnit is used for zoom, cursor & marker
+; waveform viewport range
+zoom 16325250.887500 16865485.000000
+cursor 7812350.000000
+marker 0.000000
+
+; user define markers
+; userMarker time_pos marker_name color linestyle
+; visible top row signal index
+top 1
+; marker line index
+markerPos 98
+
+; event list
+; addEvent event_name event_expression
+; curEvent event_name
+
+
+
+COMPLEX_EVENT_BEGIN
+
+
+COMPLEX_EVENT_END
+
+
+
+; toolbar current search type
+; curSTATUS search_type
+curSTATUS ByChange
+
+
+addGroup "Input"
+activeDirFile "" "/RAID2/COURSE/iclab/iclab131/Midterm_Project/Exercise/01_RTL/ISP.fsdb"
+addSignal -h 15 /TESTBED/u_ISP/clk
+addSignal -h 15 -holdScope rst_n
+addSignal -h 15 -holdScope in_valid
+addSignal -h 15 -UNSIGNED -UDEC -holdScope in_pic_no[3:0]
+addSignal -h 15 -holdScope in_mode
+addSignal -h 15 -holdScope in_ratio_mode[1:0]
+addGroup "G2"
+addSignal -h 15 /TESTBED/u_ISP/c_s[2:0]
+addSignal -h 15 -holdScope n_s[2:0]
+addSignal -h 15 -holdScope camera_mode
+addSignal -h 15 -UNSIGNED -UDEC -holdScope pic_no[3:0]
+addSignal -h 15 -holdScope ratio[1:0]
+addGroup "AXI AR channel" -e FALSE
+addSignal -h 15 -UNSIGNED -UDEC /TESTBED/u_ISP/arlen_s_inf[7:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope araddr_s_inf[31:0]
+addSignal -h 15 -holdScope arvalid_s_inf
+addSignal -c ID_ORANGE6 -ls solid -lw 1 -h 15 -holdScope arready_s_inf
+addGroup "AXI R channel" -e FALSE
+addSignal -h 15 /TESTBED/u_ISP/pic_channel[1:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope cnt_dram_r[5:0]
+addSignal -h 15 -holdScope rready_s_inf
+addSignal -c ID_ORANGE6 -ls solid -lw 1 -h 15 -holdScope rvalid_s_inf
+addSignal -c ID_ORANGE6 -ls solid -lw 1 -h 15 -holdScope rdata_s_inf[127:0]
+addSignal -c ID_ORANGE6 -ls solid -lw 1 -h 15 -holdScope rlast_s_inf
+addGroup "AXI AW channel" -e FALSE
+addSignal -h 15 -UNSIGNED -UDEC /TESTBED/u_ISP/awlen_s_inf[7:0]
+addSignal -h 15 -holdScope awaddr_s_inf[31:0]
+addSignal -h 15 -holdScope awvalid_s_inf
+addSignal -c ID_ORANGE6 -ls solid -lw 1 -h 15 -holdScope awready_s_inf
+addGroup "AXI W channel" -e FALSE
+addSubGroup "AXI control"
+addSignal -h 15 -UNSIGNED -UDEC /TESTBED/u_ISP/cnt_dram_w[7:0]
+endSubGroup "AXI control"
+addSignal -h 15 /TESTBED/u_ISP/wvalid_s_inf
+addSignal -h 15 -holdScope wvalid_delay2
+addSignal -c ID_ORANGE6 -ls solid -lw 1 -h 15 -holdScope wready_s_inf
+addSignal -h 15 -holdScope wdata_s_inf[127:0]
+addSignal -h 15 -holdScope wlast_s_inf
+addGroup "Auto focus" -e FALSE
+addSignal -h 15 /TESTBED/u_ISP/pic_channel[1:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope cnt_dram_r[5:0]
+addSignal -h 15 -holdScope fifo_valid1
+addSignal -h 15 -holdScope fifo_valid2
+addSignal -h 15 -holdScope dram_data[31:0]
+addSignal -h 15 -holdScope focus_map[11:0]
+addSubGroup "Column difference" -e FALSE
+addSubGroup "Column diff-abs"
+addSignal -h 15 -UNSIGNED -UDEC /TESTBED/u_ISP/col_diff1_abs[7:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope col_diff2_abs[7:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope col_diff3_abs[7:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope col_diff4_abs[7:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope col_diff5_abs[7:0]
+endSubGroup "Column diff-abs"
+addSubGroup "Column diff-signed" -e FALSE
+addSignal -h 15 -2COMP -UDEC /TESTBED/u_ISP/col_diff1[7:0]
+addSignal -h 15 -2COMP -UDEC -holdScope col_diff2[7:0]
+addSignal -h 15 -2COMP -UDEC -holdScope col_diff3[7:0]
+addSignal -h 15 -2COMP -UDEC -holdScope col_diff4[7:0]
+addSignal -h 15 -2COMP -UDEC -holdScope col_diff5[7:0]
+endSubGroup "Column diff-signed"
+addSignal -h 15 -UNSIGNED -UDEC /TESTBED/u_ISP/col_sum1[9:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope col_sum2[10:0]
+addSubGroup "Sum result"
+addSignal -h 15 /TESTBED/u_ISP/col_22_valid
+addSignal -h 15 -UNSIGNED -UDEC -holdScope sumc_2_2[8:0]
+addSignal -h 15 -holdScope col_44_valid
+addSignal -h 15 -UNSIGNED -UDEC -holdScope sumc_4_4[11:0]
+addSignal -h 15 -holdScope col_66_valid
+addSignal -h 15 -UNSIGNED -UDEC -holdScope sumc_6_6[13:0]
+endSubGroup "Sum result"
+endSubGroup "Column difference"
+addSubGroup "Row difference" -e FALSE
+addSubGroup "Row diff-abs" -e FALSE
+addSignal -h 15 -UNSIGNED -UDEC /TESTBED/u_ISP/row_diff1_abs[7:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope row_diff2_abs[7:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope row_diff3_abs[7:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope row_diff4_abs[7:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope row_diff5_abs[7:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope row_diff6_abs[7:0]
+endSubGroup "Row diff-abs"
+addSubGroup "Row diff-signed" -e FALSE
+addSignal -h 15 -2COMP -UDEC /TESTBED/u_ISP/row_diff1[7:0]
+addSignal -h 15 -2COMP -UDEC -holdScope row_diff2[7:0]
+addSignal -h 15 -2COMP -UDEC -holdScope row_diff3[7:0]
+addSignal -h 15 -2COMP -UDEC -holdScope row_diff4[7:0]
+addSignal -h 15 -2COMP -UDEC -holdScope row_diff5[7:0]
+addSignal -h 15 -2COMP -UDEC -holdScope row_diff6[7:0]
+endSubGroup "Row diff-signed"
+addSignal -h 15 -UNSIGNED -UDEC /TESTBED/u_ISP/row_sum1[8:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope row_sum2[9:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope row_sum3[10:0]
+addSubGroup "Sum result"
+addSignal -h 15 /TESTBED/u_ISP/row_22_valid
+addSignal -h 15 -UNSIGNED -UDEC -holdScope sumr_2_2[8:0]
+addSignal -h 15 -holdScope row_44_valid
+addSignal -h 15 -UNSIGNED -UDEC -holdScope sumr_4_4[11:0]
+addSignal -h 15 -holdScope row_66_valid
+addSignal -h 15 -UNSIGNED -UDEC -holdScope sumr_6_6[13:0]
+endSubGroup "Sum result"
+endSubGroup "Row difference"
+addSubGroup "Contrast"
+addSignal -h 15 -UNSIGNED -UDEC /TESTBED/u_ISP/contrast_2_2[9:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope contrast_4_4[12:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope contrast_6_6[14:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope max_contrast[14:0]
+endSubGroup "Contrast"
+addGroup "Auto exposure"
+addSubGroup "Focus"
+addSignal -h 15 -UNSIGNED -BIN /TESTBED/u_ISP/skip_focus_valid[15:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope cnt_dram_w2[5:0]
+addSignal -h 15 -holdScope pic_channel_w[1:0]
+addSignal -h 15 -holdScope expose_data[31:0]
+addSignal -h 15 -holdScope gray_reg_focus[31:0]
+addSignal -h 15 -holdScope focus_6_6[11:0]
+addSignal -h 15 -holdScope _col_22_valid
+addSignal -h 15 -holdScope _col_44_valid
+addSignal -h 15 -holdScope _col_66_valid
+addSignal -h 15 -holdScope _row_22_valid
+addSignal -h 15 -holdScope _row_44_valid
+addSignal -h 15 -holdScope _row_66_valid
+addSignal -h 15 -holdScope max_contrast_idx_store[15:0]
+endSubGroup "Focus"
+addSignal -h 15 /TESTBED/u_ISP/expose_fifo[383:0]
+addSignal -h 15 -holdScope exposure[127:0]
+addSignal -h 15 -UNSIGNED -HEX -holdScope gray_reg[127:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope gray_add[12:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope gray_sum[17:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope gray_avg[7:0]
+addGroup "Output"
+addSignal -h 15 -UNSIGNED -BIN /TESTBED/u_ISP/pic_expose_valid[14:0]
+addSignal -h 15 -holdScope out_valid
+addSignal -h 15 -UNSIGNED -UDEC -holdScope out_data[7:0]
+addGroup "SRAM_Read" -e FALSE
+addSignal -h 15 /TESTBED/u_ISP/wvalid_delay1
+addGroup "SRAM_Write" -e FALSE
+addSignal -h 15 /TESTBED/u_ISP/dram_data[31:0]
+addSignal -h 15 -holdScope exposure[31:0]
+addSignal -h 15 -holdScope gray_reg[31:0]
+addSignal -h 15 -holdScope pic_channel[1:0]
+addGroup "G12"
+
+; getSignalForm Scope Hierarchy Status
+; active file of getSignalForm
+activeDirFile "" "/RAID2/COURSE/iclab/iclab131/Midterm_Project/Exercise/01_RTL/ISP.fsdb"
+
+GETSIGNALFORM_SCOPE_HIERARCHY_BEGIN
+getSignalForm close
+
+"/DPSRAM_32_256"
+"/Memory_16_64"
+"/Memory_16_512"
+"/TESTBED"
+"/TESTBED/u_ISP"
+
+SCOPE_LIST_BEGIN
+"/DPSRAM_32_256"
+"/Memory_16_64"
+"/Memory_16_512"
+"/TESTBED"
+"/TESTBED/u_ISP"
+"/TESTBED/u_ISP/M1"
+"/TESTBED/u_ISP/M2"
+"/TESTBED/u_ISP/M3"
+"/TESTBED/u_ISP/M1/U0"
+SCOPE_LIST_END
+
+GETSIGNALFORM_SCOPE_HIERARCHY_END
+
+

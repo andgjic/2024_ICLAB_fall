@@ -1,0 +1,4 @@
+Command Line: /usr/cad/synopsys/verdi/2019.06/platform/LINUXAMD64/bin/Novas -nWave
+uname(Linux ee23 3.10.0-1160.88.1.el7.x86_64 #1 SMP Tue Mar 7 15:41:52 UTC 2023 x86_64)
+Disabled AskUser2 Message (Response 0): Overwrite /RAID2/COURSE/iclab/iclab131/Lab07/Exercise/01_RTL/signal.rc?
+au time 1537.206561 9.319713 17.070161 delta 424120320 424120320 total 859172864 859172864

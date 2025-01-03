@@ -1,0 +1,141 @@
+Magic 271485
+Revision Verdi_P-2019.06
+
+; Window Layout <x> <y> <width> <height> <signalwidth> <valuewidth>
+viewPort 44 108 1416 681 215 296
+
+; File list:
+; openDirFile [-d delimiter] [-s time_offset] [-rf auto_bus_rule_file] path_name file_name
+openDirFile -d / "" "/RAID2/COURSE/iclab/iclab131/Lab07/Exercise/01_RTL/CONV_TOP.fsdb"
+
+; file time scale:
+; fileTimeScale ### s|ms|us|ns|ps
+
+; signal spacing:
+signalSpacing 5
+
+; windowTimeUnit is used for zoom, cursor & marker
+; waveform viewport range
+zoom 0.000000 2021767.500000
+cursor 1836900.000000
+marker 0.000000
+
+; user define markers
+; userMarker time_pos marker_name color linestyle
+; visible top row signal index
+top 3
+; marker line index
+markerPos 18
+
+; event list
+; addEvent event_name event_expression
+; curEvent event_name
+
+
+
+COMPLEX_EVENT_BEGIN
+
+
+COMPLEX_EVENT_END
+
+
+
+; toolbar current search type
+; curSTATUS search_type
+curSTATUS ByChange
+
+
+addGroup "Input"
+activeDirFile "" "/RAID2/COURSE/iclab/iclab131/Lab07/Exercise/01_RTL/CONV_TOP.fsdb"
+addSignal -h 15 /TESTBED/clk1
+addSignal -h 15 -holdScope clk2
+addSignal -h 15 /TESTBED/I_CONV/u_input_output/rst_n
+addSignal -h 15 -holdScope in_valid
+addSignal -h 15 -UNSIGNED -UDEC -holdScope in_row[17:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope in_kernel[11:0]
+addGroup "CLK1 module"
+addSignal -h 15 /TESTBED/I_CONV/u_input_output/n_s[2:0]
+addSignal -h 15 -holdScope c_s[2:0]
+addSignal -h 15 -holdScope in_cnt[2:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope in_data[5:0]
+addSignal -h 15 -holdScope out_idle
+addSignal -h 15 -holdScope cnt_handshake[2:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope handshake_din[29:0]
+addSignal -h 15 -holdScope in_valid_hold
+addSignal -h 15 -holdScope handshake_sready
+addSignal -h 15 -holdScope out_valid
+addSignal -h 15 -holdScope flag_fifo_to_clk1
+addSignal -h 15 -UNSIGNED -UDEC -holdScope out_data[7:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope cnt_outnum[7:0]
+addSignal -h 15 -holdScope fifo_empty
+addSignal -h 15 -holdScope fifo_empty_delay1
+addSignal -h 15 -holdScope fifo_empty_delay2
+addGroup "Handshake sync" -e FALSE
+addSignal -h 15 /TESTBED/I_CONV/u_Handshake_syn/sready
+addSignal -h 15 -holdScope sidle
+addSignal -h 15 -holdScope sreq
+addSignal -h 15 -holdScope dreq
+addSignal -h 15 -holdScope dack
+addSignal -h 15 -holdScope sack
+addSignal -h 15 -UNSIGNED -UDEC -holdScope dout[29:0]
+addSignal -h 15 -holdScope dvalid
+addGroup "CLK2 module"
+addSignal -h 15 /TESTBED/I_CONV/u_Conv/clk
+addSignal -h 15 -holdScope in_valid
+addSignal -h 15 -holdScope n_s[2:0]
+addSignal -h 15 -holdScope c_s[2:0]
+addSignal -h 15 -holdScope in_cnt[2:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope in_data[29:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope image_row[5:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope kernel[5:0]
+addGroup "Convolution"
+addSignal -h 15 /TESTBED/I_CONV/u_Conv/cnt_kernel[2:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope cnt_col[3:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope cnt_row[2:0]
+addSignal -h 15 -holdScope out_valid
+addSignal -h 15 -UNSIGNED -UDEC -holdScope out_data[7:0]
+addGroup "FIFO sync"
+addSubGroup "Write"
+addSignal -h 15 /TESTBED/I_CONV/u_FIFO_syn/wfull
+addSignal -h 15 -holdScope winc
+addSignal -h 15 -UNSIGNED -UDEC -holdScope w_addr[5:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope wdata[7:0]
+endSubGroup "Write"
+addSubGroup "Read"
+addSignal -h 15 /TESTBED/I_CONV/u_FIFO_syn/rempty
+addSignal -h 15 -holdScope rinc
+endSubGroup "Read"
+addSignal -h 15 /TESTBED/I_CONV/u_FIFO_syn/r_addr[5:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope rdata[7:0]
+addGroup "G7"
+
+; getSignalForm Scope Hierarchy Status
+; active file of getSignalForm
+activeDirFile "" "/RAID2/COURSE/iclab/iclab131/Lab07/Exercise/01_RTL/CONV_TOP.fsdb"
+
+GETSIGNALFORM_SCOPE_HIERARCHY_BEGIN
+getSignalForm close
+
+"/Binary_to_Gray"
+"/TESTBED"
+"/TESTBED/I_CONV"
+"/TESTBED/I_CONV/u_Conv"
+"/TESTBED/I_CONV/u_FIFO_syn"
+"/TESTBED/I_CONV/u_Handshake_syn"
+"/TESTBED/I_CONV/u_input_output"
+
+SCOPE_LIST_BEGIN
+"/Binary_to_Gray"
+"/DUAL_64X8X1BM1"
+"/TESTBED"
+"/NDFF_BUS_syn"
+"/TESTBED/I_CONV/u_input_output"
+"/TESTBED/I_CONV"
+"/TESTBED/I_CONV/u_Handshake_syn"
+"/TESTBED/I_CONV/u_Conv"
+"/TESTBED/I_CONV/u_FIFO_syn"
+SCOPE_LIST_END
+
+GETSIGNALFORM_SCOPE_HIERARCHY_END
+
+

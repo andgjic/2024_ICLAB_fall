@@ -1,0 +1,112 @@
+Voltage source current:
+      Range  Source       Source        Location    Layer
+      Index  Current      Name          (um)
+      -----  --------     -------------------------------
+         2    3.0318e-05A   GNDvsrc24   2606.61, 837.82  ME1_C
+         4    2.0611e-05A   GNDvsrc60   138.75, 837.82  ME1_C
+         2    3.0304e-05A   GNDvsrc18   2606.61, 857.77  ME1_C
+         4    2.0874e-05A   GNDvsrc66   138.75, 857.77  ME1_C
+         1    3.8550e-05A   GNDvsrc12   2606.61, 877.72  ME1_C
+         3    2.6854e-05A   GNDvsrc72   138.75, 877.72  ME1_C
+         1    3.3750e-05A   GNDvsrc35   837.82, 2606.61  ME2_C
+         2    3.0869e-05A   GNDvsrc41   857.77, 2606.61  ME2_C
+         1    3.6058e-05A   GNDvsrc47   877.72, 2606.61  ME2_C
+         7    9.1558e-06A   GNDvsrc95   837.82, 138.75  ME2_C
+         7    8.6981e-06A   GNDvsrc89   857.77, 138.75  ME2_C
+         6    1.0479e-05A   GNDvsrc83   877.72, 138.75  ME2_C
+         8   -0.0000e+00A   GNDvsrc84   877.72, 137.62  ME1_C
+         8   -0.0000e+00A   GNDvsrc90   857.77, 137.62  ME1_C
+         8   -0.0000e+00A   GNDvsrc96   837.82, 137.62  ME1_C
+         8   -0.0000e+00A   GNDvsrc78   857.77, 1.50  ME1_C
+         8   -0.0000e+00A   GNDvsrc77   857.77, 1.50  ME2_C
+         8   -0.0000e+00A   GNDvsrc82   877.72, 137.62  ME3_C
+         8   -0.0000e+00A   GNDvsrc88   857.77, 137.62  ME3_C
+         8   -0.0000e+00A   GNDvsrc94   837.82, 137.62  ME3_C
+         8   -0.0000e+00A   GNDvsrc76   857.77, 1.50  ME3_C
+         8   -0.0000e+00A   GNDvsrc81   877.72, 137.62  ME4_C
+         8   -0.0000e+00A   GNDvsrc87   857.77, 137.62  ME4_C
+         8   -0.0000e+00A   GNDvsrc93   837.82, 137.62  ME4_C
+         8   -0.0000e+00A   GNDvsrc75   857.77, 1.50  ME4_C
+         8   -0.0000e+00A   GNDvsrc80   877.72, 137.62  ME5_C
+         8   -0.0000e+00A   GNDvsrc86   857.77, 137.62  ME5_C
+         8   -0.0000e+00A   GNDvsrc92   837.82, 137.62  ME5_C
+         8   -0.0000e+00A   GNDvsrc74   857.77, 1.50  ME5_C
+         8   -0.0000e+00A   GNDvsrc79   877.72, 137.62  ME6_C
+         8   -0.0000e+00A   GNDvsrc85   857.77, 137.62  ME6_C
+         8   -0.0000e+00A   GNDvsrc91   837.82, 137.62  ME6_C
+         8   -0.0000e+00A   GNDvsrc73   857.77, 1.50  ME6_C
+         8   -0.0000e+00A   GNDvsrc54   1.50, 857.77  ME1_C
+         8   -0.0000e+00A   GNDvsrc59   137.62, 837.82  ME2_C
+         8   -0.0000e+00A   GNDvsrc65   137.62, 857.77  ME2_C
+         8   -0.0000e+00A   GNDvsrc71   137.62, 877.72  ME2_C
+         8   -0.0000e+00A   GNDvsrc53   1.50, 857.77  ME2_C
+         8   -0.0000e+00A   GNDvsrc58   137.62, 837.82  ME3_C
+         8   -0.0000e+00A   GNDvsrc64   137.62, 857.77  ME3_C
+         8   -0.0000e+00A   GNDvsrc70   137.62, 877.72  ME3_C
+         8   -0.0000e+00A   GNDvsrc52   1.50, 857.77  ME3_C
+         8   -0.0000e+00A   GNDvsrc57   137.62, 837.82  ME4_C
+         8   -0.0000e+00A   GNDvsrc63   137.62, 857.77  ME4_C
+         8   -0.0000e+00A   GNDvsrc69   137.62, 877.72  ME4_C
+         8   -0.0000e+00A   GNDvsrc51   1.50, 857.77  ME4_C
+         8   -0.0000e+00A   GNDvsrc56   137.62, 837.82  ME5_C
+         8   -0.0000e+00A   GNDvsrc62   137.62, 857.77  ME5_C
+         8   -0.0000e+00A   GNDvsrc68   137.62, 877.72  ME5_C
+         8   -0.0000e+00A   GNDvsrc50   1.50, 857.77  ME5_C
+         8   -0.0000e+00A   GNDvsrc55   137.62, 837.82  ME6_C
+         8   -0.0000e+00A   GNDvsrc61   137.62, 857.77  ME6_C
+         8   -0.0000e+00A   GNDvsrc67   137.62, 877.72  ME6_C
+         8   -0.0000e+00A   GNDvsrc49   1.50, 857.77  ME6_C
+         8   -0.0000e+00A   GNDvsrc36   837.82, 2607.74  ME1_C
+         8   -0.0000e+00A   GNDvsrc42   857.77, 2607.74  ME1_C
+         8   -0.0000e+00A   GNDvsrc48   877.72, 2607.74  ME1_C
+         8   -0.0000e+00A   GNDvsrc30   857.77, 2743.86  ME1_C
+         8   -0.0000e+00A   GNDvsrc29   857.77, 2743.86  ME2_C
+         8   -0.0000e+00A   GNDvsrc34   837.82, 2607.74  ME3_C
+         8   -0.0000e+00A   GNDvsrc40   857.77, 2607.74  ME3_C
+         8   -0.0000e+00A   GNDvsrc46   877.72, 2607.74  ME3_C
+         8   -0.0000e+00A   GNDvsrc28   857.77, 2743.86  ME3_C
+         8   -0.0000e+00A   GNDvsrc33   837.82, 2607.74  ME4_C
+         8   -0.0000e+00A   GNDvsrc39   857.77, 2607.74  ME4_C
+         8   -0.0000e+00A   GNDvsrc45   877.72, 2607.74  ME4_C
+         8   -0.0000e+00A   GNDvsrc27   857.77, 2743.86  ME4_C
+         8   -0.0000e+00A   GNDvsrc32   837.82, 2607.74  ME5_C
+         8   -0.0000e+00A   GNDvsrc38   857.77, 2607.74  ME5_C
+         8   -0.0000e+00A   GNDvsrc44   877.72, 2607.74  ME5_C
+         8   -0.0000e+00A   GNDvsrc26   857.77, 2743.86  ME5_C
+         8   -0.0000e+00A   GNDvsrc31   837.82, 2607.74  ME6_C
+         8   -0.0000e+00A   GNDvsrc37   857.77, 2607.74  ME6_C
+         8   -0.0000e+00A   GNDvsrc43   877.72, 2607.74  ME6_C
+         8   -0.0000e+00A   GNDvsrc25   857.77, 2743.86  ME6_C
+         8   -0.0000e+00A   GNDvsrc6   2743.86, 857.77  ME1_C
+         8   -0.0000e+00A   GNDvsrc11   2607.74, 877.72  ME2_C
+         8   -0.0000e+00A   GNDvsrc17   2607.74, 857.77  ME2_C
+         8   -0.0000e+00A   GNDvsrc23   2607.74, 837.82  ME2_C
+         8   -0.0000e+00A   GNDvsrc5   2743.86, 857.77  ME2_C
+         8   -0.0000e+00A   GNDvsrc10   2607.74, 877.72  ME3_C
+         8   -0.0000e+00A   GNDvsrc16   2607.74, 857.77  ME3_C
+         8   -0.0000e+00A   GNDvsrc22   2607.74, 837.82  ME3_C
+         8   -0.0000e+00A   GNDvsrc4   2743.86, 857.77  ME3_C
+         8   -0.0000e+00A   GNDvsrc9   2607.74, 877.72  ME4_C
+         8   -0.0000e+00A   GNDvsrc15   2607.74, 857.77  ME4_C
+         8   -0.0000e+00A   GNDvsrc21   2607.74, 837.82  ME4_C
+         8   -0.0000e+00A   GNDvsrc3   2743.86, 857.77  ME4_C
+         8   -0.0000e+00A   GNDvsrc8   2607.74, 877.72  ME5_C
+         8   -0.0000e+00A   GNDvsrc14   2607.74, 857.77  ME5_C
+         8   -0.0000e+00A   GNDvsrc20   2607.74, 837.82  ME5_C
+         8   -0.0000e+00A   GNDvsrc2   2743.86, 857.77  ME5_C
+         8   -0.0000e+00A   GNDvsrc7   2607.74, 877.72  ME6_C
+         8   -0.0000e+00A   GNDvsrc13   2607.74, 857.77  ME6_C
+         8   -0.0000e+00A   GNDvsrc19   2607.74, 837.82  ME6_C
+         8   -0.0000e+00A   GNDvsrc1   2743.86, 857.77  ME6_C
+*
+* Data filtering results for voltage source current:
+  Minimum, Average, Maximum Voltage Source Current: 0.000A, 3.089uA, 38.550uA
+  Total Current: 0.297mA
+    Range 1(  33.732uA  -    38.554uA ):         3 (  3.12%)
+    Range 2(  28.913uA  -    33.732uA ):         3 (  3.12%)
+    Range 3(  24.094uA  -    28.913uA ):         1 (  1.04%)
+    Range 4(  19.275uA  -    24.094uA ):         2 (  2.08%)
+    Range 5(  14.456uA  -    19.275uA ):         0 (  0.00%)
+    Range 6(   9.638uA  -    14.456uA ):         1 (  1.04%)
+    Range 7(   4.819uA  -     9.638uA ):         2 (  2.08%)
+    Range 8(    0.000A  -     4.819uA ):        84 ( 87.50%)

@@ -1,0 +1,31 @@
+ 
+****************************************
+Report : area
+Design : TMIP
+Version: T-2022.03
+Date   : Thu Nov 28 12:58:23 2024
+****************************************
+
+Library(s) Used:
+
+    fsa0m_a_generic_core_ss1p62v125c (File: /RAID2/COURSE/iclab/iclabTA01/UMC018_CBDK/CIC/SynopsysDC/db/fsa0m_a_generic_core_ss1p62v125c.db)
+    MEM_gray_max_WC (File: /RAID2/COURSE/iclab/iclab131/Lab11/04_MEM/MEM_gray_max_WC.db)
+
+Number of ports:                           27
+Number of nets:                         23638
+Number of cells:                        21091
+Number of combinational cells:          18425
+Number of sequential cells:              2663
+Number of macros/black boxes:               3
+Number of buf/inv:                       1399
+Number of references:                     128
+
+Combinational area:             325791.650118
+Buf/Inv area:                    14361.580708
+Noncombinational area:          149021.710499
+Macro/Black Box area:           131238.750000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                606052.110617
+Total area:                 undefined
+1

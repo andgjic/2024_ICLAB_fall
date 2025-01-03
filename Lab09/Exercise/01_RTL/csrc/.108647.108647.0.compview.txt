@@ -1,0 +1,6 @@
+{"vcs1":{"timestamp_begin":1731698457.619254362, "rt":0.52, "ut":0.12, "st":0.06}}
+{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1731698456.971473474}
+{"VCS_COMP_START_TIME": 1731698456.971473474}
+{"VCS_COMP_END_TIME": 1731698458.229610748}
+{"VCS_USER_OPTIONS": "-timescale=1ns/1fs -j8 -sverilog +v2k -full64 -Mupdate -R -debug_access+all -y /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ +libext+.sv -f filelist.f -o simv -l vcs.log -P /usr/cad/synopsys/verdi/2019.06//share/PLI/VCS/linux64/novas.tab /usr/cad/synopsys/verdi/2019.06//share/PLI/VCS/linux64/pli.a +define+RTL +define+NONE +notimingchecks"}
+{"vcs1": {"peak_mem": 315068}}

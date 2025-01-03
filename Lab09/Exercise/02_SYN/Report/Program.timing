@@ -1,0 +1,178 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 3
+Design : Program
+Version: T-2022.03
+Date   : Sun Nov 24 15:19:17 2024
+****************************************
+
+Operating Conditions: WCCOM   Library: fsa0m_a_generic_core_ss1p62v125c
+Wire Load Model Mode: top
+
+  Startpoint: index_ABCD_reg[3][0]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: ascend_2/O0_reg[0]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  Program            enG10K                fsa0m_a_generic_core_ss1p62v125c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  index_ABCD_reg[3][0]/CK (QDFFN)          0.00       0.00 r
+  index_ABCD_reg[3][0]/Q (QDFFN)           0.43       0.43 f
+  U2869/O (INV3)                           0.13       0.55 r
+  U2686/O (NR2T)                           0.09       0.65 f
+  U2684/O (OAI12H)                         0.25       0.89 r
+  U2911/O (INV1S)                          0.22       1.11 f
+  U2179/O (OAI12HS)                        0.31       1.42 r
+  U2912/O (XOR2H)                          0.28       1.70 r
+  U1635/OB (MXL2HF)                        0.19       1.89 f
+  U1724/O (ND2)                            0.15       2.04 r
+  U1381/O (ND2S)                           0.10       2.14 f
+  U1805/O (NR2)                            0.22       2.37 r
+  U2655/O (OAI12H)                         0.12       2.49 f
+  U2053/O (ND3P)                           0.11       2.60 r
+  U1502/O (ND3P)                           0.11       2.70 f
+  U3216/O (OAI12H)                         0.11       2.81 r
+  U1501/O (ND2T)                           0.09       2.90 f
+  U3222/O (ND2F)                           0.17       3.07 r
+  U3489/O (XOR2H)                          0.21       3.28 r
+  U1685/O (XNR2HP)                         0.20       3.48 r
+  U3956/O (NR2F)                           0.20       3.68 f
+  U2837/O (AOI22S)                         0.29       3.97 r
+  U4480/O (OAI112HS)                       0.19       4.16 f
+  ascend_2/O0_reg[0]/D (DFFS)              0.00       4.16 f
+  data arrival time                                   4.16
+
+  clock clk (rise edge)                    4.40       4.40
+  clock network delay (ideal)              0.00       4.40
+  clock uncertainty                       -0.10       4.30
+  ascend_2/O0_reg[0]/CK (DFFS)             0.00       4.30 r
+  library setup time                      -0.14       4.16
+  data required time                                  4.16
+  -----------------------------------------------------------
+  data required time                                  4.16
+  data arrival time                                  -4.16
+  -----------------------------------------------------------
+  slack (MET)                                         0.00
+
+
+  Startpoint: index_ABCD_reg[0][6]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: ascend_2/O1_reg[0]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  Program            enG10K                fsa0m_a_generic_core_ss1p62v125c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  index_ABCD_reg[0][6]/CK (QDFFN)          0.00       0.00 r
+  index_ABCD_reg[0][6]/Q (QDFFN)           0.41       0.41 f
+  U2538/O (INV2)                           0.18       0.59 r
+  U2662/O (ND2T)                           0.13       0.72 f
+  U2757/O (INV2)                           0.17       0.89 r
+  U2756/O (NR2T)                           0.15       1.04 f
+  U2753/O (AOI12HP)                        0.21       1.25 r
+  U1602/O (OAI12HT)                        0.13       1.39 f
+  U1604/O (AOI12HP)                        0.14       1.52 r
+  U1603/O (XNR2HS)                         0.23       1.75 r
+  U3085/OB (MXL2HP)                        0.21       1.96 f
+  U2548/O (INV2)                           0.16       2.11 r
+  U2050/O (NR2)                            0.12       2.23 f
+  U3112/O (AOI12H)                         0.21       2.44 r
+  U2660/O (OAI12H)                         0.14       2.58 f
+  U1696/O (AOI12HP)                        0.17       2.75 r
+  U3114/O (ND2F)                           0.20       2.95 f
+  U1922/O (INV2)                           0.13       3.08 r
+  U1745/O (NR2T)                           0.10       3.18 f
+  U3203/O (NR2F)                           0.24       3.42 r
+  U3205/O (NR2F)                           0.17       3.60 f
+  U1346/O (INV4)                           0.08       3.68 r
+  U3252/O (ND3HT)                          0.10       3.78 f
+  U3253/O (BUF12CK)                        0.18       3.96 f
+  U2267/O (OAI112HS)                       0.23       4.19 r
+  ascend_2/O1_reg[0]/D (DFFS)              0.00       4.19 r
+  data arrival time                                   4.19
+
+  clock clk (rise edge)                    4.40       4.40
+  clock network delay (ideal)              0.00       4.40
+  clock uncertainty                       -0.10       4.30
+  ascend_2/O1_reg[0]/CK (DFFS)             0.00       4.30 r
+  library setup time                      -0.11       4.19
+  data required time                                  4.19
+  -----------------------------------------------------------
+  data required time                                  4.19
+  data arrival time                                  -4.19
+  -----------------------------------------------------------
+  slack (MET)                                         0.00
+
+
+  Startpoint: index_ABCD_reg[0][1]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: inf.complete_reg
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  Program            enG10K                fsa0m_a_generic_core_ss1p62v125c
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  index_ABCD_reg[0][1]/CK (QDFFP)          0.00       0.00 r
+  index_ABCD_reg[0][1]/Q (QDFFP)           0.48       0.48 f
+  U1631/O (OR2T)                           0.21       0.69 f
+  U2123/O (NR2P)                           0.14       0.83 r
+  U3786/O (ND2P)                           0.08       0.91 f
+  U2124/O (OR2)                            0.24       1.15 f
+  U2125/O (NR2P)                           0.16       1.31 r
+  U3803/O (NR2)                            0.11       1.42 f
+  U3804/O (XNR2HS)                         0.18       1.60 f
+  U3805/O (XOR2HS)                         0.20       1.80 f
+  U1715/O (NR2)                            0.34       2.14 r
+  U3829/O (OAI12HS)                        0.14       2.28 f
+  U3830/O (AOI12HS)                        0.25       2.54 r
+  U1448/O (OAI12HS)                        0.20       2.73 f
+  U3838/O (AOI12H)                         0.29       3.02 r
+  U1632/O (OAI12H)                         0.10       3.12 f
+  U2191/O (XNR2HS)                         0.21       3.33 f
+  U2687/O (NR2T)                           0.16       3.50 r
+  U1627/O (AOI13HP)                        0.13       3.63 f
+  U3942/O (NR2)                            0.24       3.87 r
+  U3943/O (ND3)                            0.14       4.01 f
+  U1461/O (INV1S)                          0.12       4.14 r
+  inf.complete_reg/D (QDFFRBS)             0.00       4.14 r
+  data arrival time                                   4.14
+
+  clock clk (rise edge)                    4.40       4.40
+  clock network delay (ideal)              0.00       4.40
+  clock uncertainty                       -0.10       4.30
+  inf.complete_reg/CK (QDFFRBS)            0.00       4.30 r
+  library setup time                      -0.16       4.14
+  data required time                                  4.14
+  -----------------------------------------------------------
+  data required time                                  4.14
+  data arrival time                                  -4.14
+  -----------------------------------------------------------
+  slack (MET)                                         0.00
+
+
+1

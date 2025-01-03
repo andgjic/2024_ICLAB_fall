@@ -1,0 +1,51 @@
+#set memory(FSA0M_A,Pldatf)       17
+#set memory(FSA0M_A,Fgcfa)        146.6156
+# TclPro::Compiler::Include
+
+if {[catch {package require tbcload 1.4} err] == 1} {
+    error "The TclPro ByteCode Loader is not available or does not support the correct version"
+}
+tbcload::bceval {
+TclPro ByteCode 2 0 1.4 8.4
+5 0 40 11 0 0 20 0 3 5 5 -1 -1
+40
+w0E<!=q:u!&B&s!?v;u!(TyTvA(;u!*f=6#C.;u!,#tl#Bn>#!
+5
+9yCR#)!
+5
+AyCR#(!
+11
+x
+6
+&''fDb:%
+x
+17
+,W8L0;W!4/|(j:@dwI?6d!
+x
+2
+QA#
+x
+17
+,W8L0;W!4/|(j:@!r2-<d!
+x
+2
+cA#
+x
+17
+,W8L0;W!4/|(j:@w8/*=d!
+x
+2
+fA#
+x
+23
+,W8L0;W!4/<fjiCU*&P9)N0bERjZ,
+i
+149
+x
+23
+,W8L0;W!4/<fjiCM7Lt6Wl0+<p+g+
+i
+0
+0
+0
+}

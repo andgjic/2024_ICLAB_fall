@@ -1,0 +1,226 @@
+///////////////////////////////////////////////////////////////////////////////////
+// 
+//              Synchronous High Speed Single Port SRAM Compiler 
+// 
+//                    UMC 0.18um GenericII Logic Process
+//    __________________________________________________________________________
+// 
+// 
+//        (C) Copyright 2002-2009 Faraday Technology Corp. All Rights Reserved.
+// 
+//      This source code is an unpublished work belongs to Faraday Technology
+//      Corp.  It is considered a trade secret and is not to be divulged or
+//      used by parties who have not received written authorization from
+//      Faraday Technology Corp.
+// 
+//      Faraday's home page can be found at:
+//      http://www.faraday-tech.com/
+//     
+// ________________________________________________________________________________
+// 
+//       Module Name       :  Memory_128_64  
+//       Word              :  64             
+//       Bit               :  128            
+//       Byte              :  1              
+//       Mux               :  1              
+//       Power Ring Type   :  port           
+//       Power Ring Width  :  2 (um)         
+//       Output Loading    :  0.05 (pf)      
+//       Input Data Slew   :  0.02 (ns)      
+//       Input Clock Slew  :  0.02 (ns)      
+// 
+// ________________________________________________________________________________
+// 
+//       Library          : FSA0M_A
+//       Memaker          : 200901.2.1
+//       Date             : 2024/10/25 09:56:43
+// 
+// ________________________________________________________________________________
+// 
+//       Library          : FSA0M_A
+//       Memaker          : 200901.2.1
+//       Date             : 2024/10/25 09:56:45
+//
+///////////////////////////////////////////////////////////////////////////////////
+
+model Memory_128_64 (
+    A5, A4, A3, A2, A1, A0,
+    DI127, DI126, DI125, DI124, DI123, DI122, DI121, DI120, DI119, DI118, DI117, DI116, DI115, DI114, DI113, DI112, DI111, DI110, DI109, DI108, DI107, DI106, DI105, DI104, DI103, DI102, DI101, DI100, DI99, DI98, DI97, DI96, DI95, DI94, DI93, DI92, DI91, DI90, DI89, DI88, DI87, DI86, DI85, DI84, DI83, DI82, DI81, DI80, DI79, DI78, DI77, DI76, DI75, DI74, DI73, DI72, DI71, DI70, DI69, DI68, DI67, DI66, DI65, DI64, DI63, DI62, DI61, DI60, DI59, DI58, DI57, DI56, DI55, DI54, DI53, DI52, DI51, DI50, DI49, DI48, DI47, DI46, DI45, DI44, DI43, DI42, DI41, DI40, DI39, DI38, DI37, DI36, DI35, DI34, DI33, DI32, DI31, DI30, DI29, DI28, DI27, DI26, DI25, DI24, DI23, DI22, DI21, DI20, DI19, DI18, DI17, DI16, DI15, DI14, DI13, DI12, DI11, DI10, DI9, DI8, DI7, DI6, DI5, DI4, DI3, DI2, DI1, DI0,
+    DO127, DO126, DO125, DO124, DO123, DO122, DO121, DO120, DO119, DO118, DO117, DO116, DO115, DO114, DO113, DO112, DO111, DO110, DO109, DO108, DO107, DO106, DO105, DO104, DO103, DO102, DO101, DO100, DO99, DO98, DO97, DO96, DO95, DO94, DO93, DO92, DO91, DO90, DO89, DO88, DO87, DO86, DO85, DO84, DO83, DO82, DO81, DO80, DO79, DO78, DO77, DO76, DO75, DO74, DO73, DO72, DO71, DO70, DO69, DO68, DO67, DO66, DO65, DO64, DO63, DO62, DO61, DO60, DO59, DO58, DO57, DO56, DO55, DO54, DO53, DO52, DO51, DO50, DO49, DO48, DO47, DO46, DO45, DO44, DO43, DO42, DO41, DO40, DO39, DO38, DO37, DO36, DO35, DO34, DO33, DO32, DO31, DO30, DO29, DO28, DO27, DO26, DO25, DO24, DO23, DO22, DO21, DO20, DO19, DO18, DO17, DO16, DO15, DO14, DO13, DO12, DO11, DO10, DO9, DO8, DO7, DO6, DO5, DO4, DO3, DO2, DO1, DO0,
+    WEB,
+    CK, CS, OE) (
+
+    bist_definition (
+        data_out      DO(DO127, DO126, DO125, DO124, DO123, DO122, DO121, DO120, DO119, DO118, DO117, DO116, DO115, DO114, DO113, DO112, DO111, DO110, DO109, DO108, DO107, DO106, DO105, DO104, DO103, DO102, DO101, DO100, DO99, DO98, DO97, DO96, DO95, DO94, DO93, DO92, DO91, DO90, DO89, DO88, DO87, DO86, DO85, DO84, DO83, DO82, DO81, DO80, DO79, DO78, DO77, DO76, DO75, DO74, DO73, DO72, DO71, DO70, DO69, DO68, DO67, DO66, DO65, DO64, DO63, DO62, DO61, DO60, DO59, DO58, DO57, DO56, DO55, DO54, DO53, DO52, DO51, DO50, DO49, DO48, DO47, DO46, DO45, DO44, DO43, DO42, DO41, DO40, DO39, DO38, DO37, DO36, DO35, DO34, DO33, DO32, DO31, DO30, DO29, DO28, DO27, DO26, DO25, DO24, DO23, DO22, DO21, DO20, DO19, DO18, DO17, DO16, DO15, DO14, DO13, DO12, DO11, DO10, DO9, DO8, DO7, DO6, DO5, DO4, DO3, DO2, DO1, DO0);
+        data_in       DI(DI127, DI126, DI125, DI124, DI123, DI122, DI121, DI120, DI119, DI118, DI117, DI116, DI115, DI114, DI113, DI112, DI111, DI110, DI109, DI108, DI107, DI106, DI105, DI104, DI103, DI102, DI101, DI100, DI99, DI98, DI97, DI96, DI95, DI94, DI93, DI92, DI91, DI90, DI89, DI88, DI87, DI86, DI85, DI84, DI83, DI82, DI81, DI80, DI79, DI78, DI77, DI76, DI75, DI74, DI73, DI72, DI71, DI70, DI69, DI68, DI67, DI66, DI65, DI64, DI63, DI62, DI61, DI60, DI59, DI58, DI57, DI56, DI55, DI54, DI53, DI52, DI51, DI50, DI49, DI48, DI47, DI46, DI45, DI44, DI43, DI42, DI41, DI40, DI39, DI38, DI37, DI36, DI35, DI34, DI33, DI32, DI31, DI30, DI29, DI28, DI27, DI26, DI25, DI24, DI23, DI22, DI21, DI20, DI19, DI18, DI17, DI16, DI15, DI14, DI13, DI12, DI11, DI10, DI9, DI8, DI7, DI6, DI5, DI4, DI3, DI2, DI1, DI0);
+        address       A (A5, A4, A3, A2, A1, A0);
+        output_enable OE low;
+        write_enable  WEB low;
+        chip_enable   CS high;
+
+        clock         CK high;
+        tech          = FSA0M_A;
+        vendor        = "Faraday Technology Inc.";
+        version       = "200901.2.1";
+        min_address   = 0;
+        max_address   = 63;
+        data_size     = 128;
+        top_column    = 8;
+        top_word      = 1;
+
+        descrambling_definition (
+            address (
+                DSC_A0 = A0;
+                DSC_A1 = A1;
+                DSC_A2 = A2;
+                DSC_A3 = A3;
+                DSC_A4 = A4;
+                DSC_A5 = A5;
+            )
+            data_in (
+                DSC_DI0 = DI0;
+                DSC_DI1 = DI1;
+                DSC_DI2 = DI2;
+                DSC_DI3 = DI3;
+                DSC_DI4 = DI4;
+                DSC_DI5 = DI5;
+                DSC_DI6 = DI6;
+                DSC_DI7 = DI7;
+                DSC_DI8 = DI8;
+                DSC_DI9 = DI9;
+                DSC_DI10 = DI10;
+                DSC_DI11 = DI11;
+                DSC_DI12 = DI12;
+                DSC_DI13 = DI13;
+                DSC_DI14 = DI14;
+                DSC_DI15 = DI15;
+                DSC_DI16 = DI16;
+                DSC_DI17 = DI17;
+                DSC_DI18 = DI18;
+                DSC_DI19 = DI19;
+                DSC_DI20 = DI20;
+                DSC_DI21 = DI21;
+                DSC_DI22 = DI22;
+                DSC_DI23 = DI23;
+                DSC_DI24 = DI24;
+                DSC_DI25 = DI25;
+                DSC_DI26 = DI26;
+                DSC_DI27 = DI27;
+                DSC_DI28 = DI28;
+                DSC_DI29 = DI29;
+                DSC_DI30 = DI30;
+                DSC_DI31 = DI31;
+                DSC_DI32 = DI32;
+                DSC_DI33 = DI33;
+                DSC_DI34 = DI34;
+                DSC_DI35 = DI35;
+                DSC_DI36 = DI36;
+                DSC_DI37 = DI37;
+                DSC_DI38 = DI38;
+                DSC_DI39 = DI39;
+                DSC_DI40 = DI40;
+                DSC_DI41 = DI41;
+                DSC_DI42 = DI42;
+                DSC_DI43 = DI43;
+                DSC_DI44 = DI44;
+                DSC_DI45 = DI45;
+                DSC_DI46 = DI46;
+                DSC_DI47 = DI47;
+                DSC_DI48 = DI48;
+                DSC_DI49 = DI49;
+                DSC_DI50 = DI50;
+                DSC_DI51 = DI51;
+                DSC_DI52 = DI52;
+                DSC_DI53 = DI53;
+                DSC_DI54 = DI54;
+                DSC_DI55 = DI55;
+                DSC_DI56 = DI56;
+                DSC_DI57 = DI57;
+                DSC_DI58 = DI58;
+                DSC_DI59 = DI59;
+                DSC_DI60 = DI60;
+                DSC_DI61 = DI61;
+                DSC_DI62 = DI62;
+                DSC_DI63 = DI63;
+                DSC_DI64 = DI64;
+                DSC_DI65 = DI65;
+                DSC_DI66 = DI66;
+                DSC_DI67 = DI67;
+                DSC_DI68 = DI68;
+                DSC_DI69 = DI69;
+                DSC_DI70 = DI70;
+                DSC_DI71 = DI71;
+                DSC_DI72 = DI72;
+                DSC_DI73 = DI73;
+                DSC_DI74 = DI74;
+                DSC_DI75 = DI75;
+                DSC_DI76 = DI76;
+                DSC_DI77 = DI77;
+                DSC_DI78 = DI78;
+                DSC_DI79 = DI79;
+                DSC_DI80 = DI80;
+                DSC_DI81 = DI81;
+                DSC_DI82 = DI82;
+                DSC_DI83 = DI83;
+                DSC_DI84 = DI84;
+                DSC_DI85 = DI85;
+                DSC_DI86 = DI86;
+                DSC_DI87 = DI87;
+                DSC_DI88 = DI88;
+                DSC_DI89 = DI89;
+                DSC_DI90 = DI90;
+                DSC_DI91 = DI91;
+                DSC_DI92 = DI92;
+                DSC_DI93 = DI93;
+                DSC_DI94 = DI94;
+                DSC_DI95 = DI95;
+                DSC_DI96 = DI96;
+                DSC_DI97 = DI97;
+                DSC_DI98 = DI98;
+                DSC_DI99 = DI99;
+                DSC_DI100 = DI100;
+                DSC_DI101 = DI101;
+                DSC_DI102 = DI102;
+                DSC_DI103 = DI103;
+                DSC_DI104 = DI104;
+                DSC_DI105 = DI105;
+                DSC_DI106 = DI106;
+                DSC_DI107 = DI107;
+                DSC_DI108 = DI108;
+                DSC_DI109 = DI109;
+                DSC_DI110 = DI110;
+                DSC_DI111 = DI111;
+                DSC_DI112 = DI112;
+                DSC_DI113 = DI113;
+                DSC_DI114 = DI114;
+                DSC_DI115 = DI115;
+                DSC_DI116 = DI116;
+                DSC_DI117 = DI117;
+                DSC_DI118 = DI118;
+                DSC_DI119 = DI119;
+                DSC_DI120 = DI120;
+                DSC_DI121 = DI121;
+                DSC_DI122 = DI122;
+                DSC_DI123 = DI123;
+                DSC_DI124 = DI124;
+                DSC_DI125 = DI125;
+                DSC_DI126 = DI126;
+                DSC_DI127 = DI127;
+            )
+        )
+        read_write_port(
+            read_cycle(
+                assert CS;
+                change A;
+                expect DO move;
+            )
+            write_cycle(
+                assert CS;
+                change A;
+                change DI;
+                assert WEB;
+                wait;
+            )
+        )
+    )
+)

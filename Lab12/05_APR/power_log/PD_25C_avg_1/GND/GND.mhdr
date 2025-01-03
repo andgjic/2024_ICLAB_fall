@@ -1,0 +1,65 @@
+* The organization, structure, and layout of this file are copyrights and
+* confidential and proprietary trade secrets of Cadence Design Systems, Inc.,
+* subject to the terms and conditions of the license agreement in effect
+* between you and Cadence Design Systems, Inc. This file and its information
+* may not be disclosed, sold, or otherwise transferred to any third party
+* without the express written consent of Cadence Design Systems, Inc. Export
+* of any or all of this file in violation of any statute or regulation is
+* strictly prohibited.
+* 
+
+FORMAT: 11.0
+PROJECT: CHIP
+NET: GND 
+CREATOR: smg
+
+CREATED: 2024-Dec-05 01:46:45 (2024-Dec-04 17:46:45 GMT)
+
+LAYOUT_XMIN: 0
+LAYOUT_YMIN: 0
+LAYOUT_XMAX: 2745360
+LAYOUT_YMAX: 2745360
+
+NODES: 34452
+NODE_FILE: GND.mnode
+RESISTORS: 42570
+INDUCTORS: 0
+
+LAYERS: 20
+LAYER: ME6_C M 0 GND.ml00
+LAYER: VIATP V 0 GND.ml01
+LAYER: VIA5 V 0 GND.ml02
+LAYER: MMCTP_C M 0 GND.ml03
+LAYER: ME5_C M 0 GND.ml04
+LAYER: VIA4 V 0 GND.ml05
+LAYER: ME4_C M 0 GND.ml06
+LAYER: VIA3 V 0 GND.ml07
+LAYER: ME3_C M 1138 GND.ml08
+LAYER: VIA2 V 1182 GND.ml09
+LAYER: ME2_C M 8556 GND.ml10
+LAYER: VIA1 V 7377 GND.ml11
+LAYER: ME1_C M 24317 GND.ml12
+LAYER: PLYCONT V 0 GND.ml13
+LAYER: DIFFCONT V 0 GND.ml14
+LAYER: PLY_C P 0 GND.ml15
+LAYER: PSD_C D 0 GND.ml16
+LAYER: NSD_C D 0 GND.ml17
+LAYER: CSUBSTRATE M 0 GND.ml18
+LAYER: REDUCED V 0 GND.ml19
+
+CUT_LAYER: none
+GRID_CAP: false
+DIFF_CAP: false
+NUM_PINS: 29422
+PINS: GND.bmpin
+NUM_INSTANCE_TAPS: 29554
+INSTANCES: GND.bminst
+NUM_INSTANCES: 29414
+I_LOADS:
+NODE_MAP:
+RESISTOR_MAP:
+OUTPUT_WLT: drawn
+LAYOUT_SCALE_FACTOR: 1
+TEMPERATURE: 25
+BINARY_INST: true
+MICRON_UNITS: 1000

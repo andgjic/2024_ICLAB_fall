@@ -1,0 +1,70 @@
+irun(64): 15.20-s084: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+TOOL:	irun(64)	15.20-s084: Started on Nov 24, 2024 at 22:52:19 CST
+irun
+	-f filelist.f
+		TESTBED.sv
+	-define COV
+	-loadpli1 debpli:novas_pli_boot
+	-notimingchecks
+	-debug
+	-define CORRECT
+	-coverage U
+	-covoverwrite
+Recompiling... reason: file './TESTBED.sv' is newer than expected.
+	expected: Sun Nov 24 22:27:37 2024
+	actual:   Sun Nov 24 22:52:12 2024
+file: TESTBED.sv
+ncvlog: *W,WARIPR: warning within protected source code.
+ncvlog: *W,WARIPR: warning within protected source code.
+ncvlog: *W,WARIPR: warning within protected source code.
+ncvlog: *W,WARIPR: warning within protected source code.
+ncvlog: *W,WARIPR: warning within protected source code.
+ncvlog: *W,WARIPR: warning within protected source code.
+ncvlog: *W,WARIPR: warning within protected source code.
+ncvlog: *W,WARIPR: warning within protected source code.
+ncvlog: *W,WARIPR: warning within protected source code.
+ncvlog: *W,WARIPR: warning within protected source code.
+ncvlog: *W,WARIPR: warning within protected source code.
+ncvlog: *W,WARIPR: warning within protected source code.
+ncvlog: *W,WARIPR: warning within protected source code.
+ncvlog: *W,WARIPR: warning within protected source code.
+ncvlog: *W,WARIPR: warning within protected source code.
+ncvlog: *W,WARIPR: warning within protected source code.
+ncvlog: *W,WARIPR: warning within protected source code.
+ncvlog: *W,WARIPR: warning within protected source code.
+ncvlog: *W,WARIPR: warning within protected source code.
+ncvlog: *W,WARIPR: warning within protected source code.
+ncvlog: *W,WARIPR: warning within protected source code.
+ncvlog: *W,WARIPR: warning within protected source code.
+ncvlog: *W,WARIPR: warning within protected source code.
+ncvlog: *W,WARIPR: warning within protected source code.
+ncvlog: *W,WARIPR: warning within protected source code.
+ncvlog: *W,WARIPR: warning within protected source code.
+ncvlog: *W,WARIPR: warning within protected source code.
+ncvlog: *W,WARIPR: warning within protected source code.
+ncvlog: *W,WARIPR: warning within protected source code.
+ncvlog: *W,WARIPR: warning within protected source code.
+ncvlog: *W,WARIPR: warning within protected source code.
+ncvlog: *W,WARIPR: warning within protected source code.
+ncvlog: *W,WARIPR: warning within protected source code.
+ncvlog: *W,WARIPR: warning within protected source code.
+ncvlog: *W,WARIPR: warning within protected source code.
+ncvlog: *W,WARIPR: warning within protected source code.
+ncvlog: *W,WARIPR: warning within protected source code.
+ncvlog: *W,WARIPR: warning within protected source code.
+ncvlog: *W,WARIPR: warning within protected source code.
+ncvlog: *W,WARIPR: warning within protected source code.
+ncvlog: *W,WARIPR: warning within protected source code.
+ncvlog: *W,WARIPR: warning within protected source code.
+ncvlog: *W,WARIPR: warning within protected source code.
+ncvlog: *W,WARIPR: warning within protected source code.
+ncvlog: *W,WARIPR: warning within protected source code.
+  `include "PATTERN_yang.sv" 
+                           |
+ncvlog: *E,COFILX (TESTBED.sv,30|27): cannot open include file 'PATTERN_yang.sv'.
+	module worklib.Checker:sv
+		errors: 0, warnings: 0
+	module worklib.TESTBED:sv
+		errors: 0, warnings: 0
+irun: *E,VLGERR: An error occurred during parsing.  Review the log file for errors with the code *E and fix those identified problems to proceed.  Exiting with code (status 1).
+TOOL:	irun(64)	15.20-s084: Exiting on Nov 24, 2024 at 22:52:20 CST  (total: 00:00:01)

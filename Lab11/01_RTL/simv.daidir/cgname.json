@@ -1,0 +1,32 @@
+{
+    "std": [
+        "std",
+        "reYIK",
+        "module",
+        1
+    ],
+    "PATTERN": [
+        "PATTERN",
+        "ThTta",
+        "module",
+        2
+    ],
+    "SRAM_image": [
+        "SRAM_image",
+        "MJVqZ",
+        "module",
+        3
+    ],
+    "TESTBED": [
+        "TESTBED",
+        "TAUdR",
+        "module",
+        4
+    ],
+    "...MASTER...": [
+        "SIM",
+        "amcQw",
+        "module",
+        5
+    ]
+}

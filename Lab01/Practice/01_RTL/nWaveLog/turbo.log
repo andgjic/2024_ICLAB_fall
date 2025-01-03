@@ -1,0 +1,3 @@
+Command Line: /usr/cad/synopsys/verdi/2019.06/platform/LINUXAMD64/bin/Novas -nWave -ssf CORE.fsdb
+uname(Linux ee31 3.10.0-1160.102.1.el7.x86_64 #1 SMP Tue Oct 17 15:42:21 UTC 2023 x86_64)
+au time 10837.453049 81.055535 80.652777 delta 296759296 296759296 total 731811840 731811840

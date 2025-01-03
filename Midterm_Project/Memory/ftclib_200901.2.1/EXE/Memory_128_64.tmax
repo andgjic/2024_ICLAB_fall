@@ -1,0 +1,217 @@
+///////////////////////////////////////////////////////////////////////////////////
+// 
+//              Synchronous High Speed Single Port SRAM Compiler 
+// 
+//                    UMC 0.18um GenericII Logic Process
+//    __________________________________________________________________________
+// 
+// 
+//        (C) Copyright 2002-2009 Faraday Technology Corp. All Rights Reserved.
+// 
+//      This source code is an unpublished work belongs to Faraday Technology
+//      Corp.  It is considered a trade secret and is not to be divulged or
+//      used by parties who have not received written authorization from
+//      Faraday Technology Corp.
+// 
+//      Faraday's home page can be found at:
+//      http://www.faraday-tech.com/
+//     
+// ________________________________________________________________________________
+// 
+//       Module Name       :  Memory_128_64  
+//       Word              :  64             
+//       Bit               :  128            
+//       Byte              :  1              
+//       Mux               :  1              
+//       Power Ring Type   :  port           
+//       Power Ring Width  :  2 (um)         
+//       Output Loading    :  0.05 (pf)      
+//       Input Data Slew   :  0.02 (ns)      
+//       Input Clock Slew  :  0.02 (ns)      
+// 
+// ________________________________________________________________________________
+// 
+//       Library          : FSA0M_A
+//       Memaker          : 200901.2.1
+//       Date             : 2024/10/25 09:56:43
+// 
+// ________________________________________________________________________________
+// 
+//
+//       Library          : FSA0M_A
+//       Memaker          : 200901.2.1
+//       Date             : 2024/10/25 09:56:44
+//
+///////////////////////////////////////////////////////////////////////////////////
+
+module Memory_128_64 ( 
+                     A5,A4,A3,A2,A1,A0, 
+                     DO0, DO1, DO2, DO3, DO4, DO5, DO6, DO7, DO8, DO9, DO10, DO11, DO12, DO13, DO14, DO15, DO16, DO17, DO18, DO19, DO20, DO21, DO22, DO23, DO24, DO25, DO26, DO27, DO28, DO29, DO30, DO31, DO32, DO33, DO34, DO35, DO36, DO37, DO38, DO39, DO40, DO41, DO42, DO43, DO44, DO45, DO46, DO47, DO48, DO49, DO50, DO51, DO52, DO53, DO54, DO55, DO56, DO57, DO58, DO59, DO60, DO61, DO62, DO63, DO64, DO65, DO66, DO67, DO68, DO69, DO70, DO71, DO72, DO73, DO74, DO75, DO76, DO77, DO78, DO79, DO80, DO81, DO82, DO83, DO84, DO85, DO86, DO87, DO88, DO89, DO90, DO91, DO92, DO93, DO94, DO95, DO96, DO97, DO98, DO99, DO100, DO101, DO102, DO103, DO104, DO105, DO106, DO107, DO108, DO109, DO110, DO111, DO112, DO113, DO114, DO115, DO116, DO117, DO118, DO119, DO120, DO121, DO122, DO123, DO124, DO125, DO126, DO127,
+                     DI0, DI1, DI2, DI3, DI4, DI5, DI6, DI7, DI8, DI9, DI10, DI11, DI12, DI13, DI14, DI15, DI16, DI17, DI18, DI19, DI20, DI21, DI22, DI23, DI24, DI25, DI26, DI27, DI28, DI29, DI30, DI31, DI32, DI33, DI34, DI35, DI36, DI37, DI38, DI39, DI40, DI41, DI42, DI43, DI44, DI45, DI46, DI47, DI48, DI49, DI50, DI51, DI52, DI53, DI54, DI55, DI56, DI57, DI58, DI59, DI60, DI61, DI62, DI63, DI64, DI65, DI66, DI67, DI68, DI69, DI70, DI71, DI72, DI73, DI74, DI75, DI76, DI77, DI78, DI79, DI80, DI81, DI82, DI83, DI84, DI85, DI86, DI87, DI88, DI89, DI90, DI91, DI92, DI93, DI94, DI95, DI96, DI97, DI98, DI99, DI100, DI101, DI102, DI103, DI104, DI105, DI106, DI107, DI108, DI109, DI110, DI111, DI112, DI113, DI114, DI115, DI116, DI117, DI118, DI119, DI120, DI121, DI122, DI123, DI124, DI125, DI126, DI127,
+                     WEB,CK,CS,OE);
+                           
+   parameter  AddressSize     = 6;
+   parameter  Bits            = 128;
+   parameter  Words           = 64;
+   parameter  Bytes           = 1;
+   parameter  AddressRepSize  = 5;
+   parameter  DVSize          = 0; 
+ 
+   input  CK, CS, OE;
+   input  WEB;
+   input  A5,A4,A3,A2,A1,A0;
+   input  DI0,DI1,DI2,DI3,DI4,DI5,DI6,DI7,DI8,DI9,DI10,DI11,DI12,DI13,DI14,DI15,DI16,DI17,DI18,DI19,DI20,DI21,DI22,DI23,DI24,DI25,DI26,DI27,DI28,DI29,DI30,DI31,DI32,DI33,DI34,DI35,DI36,DI37,DI38,DI39,DI40,DI41,DI42,DI43,DI44,DI45,DI46,DI47,DI48,DI49,DI50,DI51,DI52,DI53,DI54,DI55,DI56,DI57,DI58,DI59,DI60,DI61,DI62,DI63,DI64,DI65,DI66,DI67,DI68,DI69,DI70,DI71,DI72,DI73,DI74,DI75,DI76,DI77,DI78,DI79,DI80,DI81,DI82,DI83,DI84,DI85,DI86,DI87,DI88,DI89,DI90,DI91,DI92,DI93,DI94,DI95,DI96,DI97,DI98,DI99,DI100,DI101,DI102,DI103,DI104,DI105,DI106,DI107,DI108,DI109,DI110,DI111,DI112,DI113,DI114,DI115,DI116,DI117,DI118,DI119,DI120,DI121,DI122,DI123,DI124,DI125,DI126,DI127; 
+   output DO0,DO1,DO2,DO3,DO4,DO5,DO6,DO7,DO8,DO9,DO10,DO11,DO12,DO13,DO14,DO15,DO16,DO17,DO18,DO19,DO20,DO21,DO22,DO23,DO24,DO25,DO26,DO27,DO28,DO29,DO30,DO31,DO32,DO33,DO34,DO35,DO36,DO37,DO38,DO39,DO40,DO41,DO42,DO43,DO44,DO45,DO46,DO47,DO48,DO49,DO50,DO51,DO52,DO53,DO54,DO55,DO56,DO57,DO58,DO59,DO60,DO61,DO62,DO63,DO64,DO65,DO66,DO67,DO68,DO69,DO70,DO71,DO72,DO73,DO74,DO75,DO76,DO77,DO78,DO79,DO80,DO81,DO82,DO83,DO84,DO85,DO86,DO87,DO88,DO89,DO90,DO91,DO92,DO93,DO94,DO95,DO96,DO97,DO98,DO99,DO100,DO101,DO102,DO103,DO104,DO105,DO106,DO107,DO108,DO109,DO110,DO111,DO112,DO113,DO114,DO115,DO116,DO117,DO118,DO119,DO120,DO121,DO122,DO123,DO124,DO125,DO126,DO127;
+
+   reg [Bits-1:0] mem [0:Words-1] ; 
+   reg [Bits-1:0] DO  ;     
+  
+   wire [AddressSize-1:0] A = { A5,A4,A3,A2,A1,A0 }; 
+   wire [Bits-1:0] DI = { DI127,DI126,DI125,DI124,DI123,DI122,DI121,DI120,DI119,DI118,DI117,DI116,DI115,DI114,DI113,DI112,DI111,DI110,DI109,DI108,DI107,DI106,DI105,DI104,DI103,DI102,DI101,DI100,DI99,DI98,DI97,DI96,DI95,DI94,DI93,DI92,DI91,DI90,DI89,DI88,DI87,DI86,DI85,DI84,DI83,DI82,DI81,DI80,DI79,DI78,DI77,DI76,DI75,DI74,DI73,DI72,DI71,DI70,DI69,DI68,DI67,DI66,DI65,DI64,DI63,DI62,DI61,DI60,DI59,DI58,DI57,DI56,DI55,DI54,DI53,DI52,DI51,DI50,DI49,DI48,DI47,DI46,DI45,DI44,DI43,DI42,DI41,DI40,DI39,DI38,DI37,DI36,DI35,DI34,DI33,DI32,DI31,DI30,DI29,DI28,DI27,DI26,DI25,DI24,DI23,DI22,DI21,DI20,DI19,DI18,DI17,DI16,DI15,DI14,DI13,DI12,DI11,DI10,DI9,DI8,DI7,DI6,DI5,DI4,DI3,DI2,DI1,DI0 }; 
+   wire DO127 = DO[127] ;     
+   wire DO126 = DO[126] ;     
+   wire DO125 = DO[125] ;     
+   wire DO124 = DO[124] ;     
+   wire DO123 = DO[123] ;     
+   wire DO122 = DO[122] ;     
+   wire DO121 = DO[121] ;     
+   wire DO120 = DO[120] ;     
+   wire DO119 = DO[119] ;     
+   wire DO118 = DO[118] ;     
+   wire DO117 = DO[117] ;     
+   wire DO116 = DO[116] ;     
+   wire DO115 = DO[115] ;     
+   wire DO114 = DO[114] ;     
+   wire DO113 = DO[113] ;     
+   wire DO112 = DO[112] ;     
+   wire DO111 = DO[111] ;     
+   wire DO110 = DO[110] ;     
+   wire DO109 = DO[109] ;     
+   wire DO108 = DO[108] ;     
+   wire DO107 = DO[107] ;     
+   wire DO106 = DO[106] ;     
+   wire DO105 = DO[105] ;     
+   wire DO104 = DO[104] ;     
+   wire DO103 = DO[103] ;     
+   wire DO102 = DO[102] ;     
+   wire DO101 = DO[101] ;     
+   wire DO100 = DO[100] ;     
+   wire DO99 = DO[99] ;     
+   wire DO98 = DO[98] ;     
+   wire DO97 = DO[97] ;     
+   wire DO96 = DO[96] ;     
+   wire DO95 = DO[95] ;     
+   wire DO94 = DO[94] ;     
+   wire DO93 = DO[93] ;     
+   wire DO92 = DO[92] ;     
+   wire DO91 = DO[91] ;     
+   wire DO90 = DO[90] ;     
+   wire DO89 = DO[89] ;     
+   wire DO88 = DO[88] ;     
+   wire DO87 = DO[87] ;     
+   wire DO86 = DO[86] ;     
+   wire DO85 = DO[85] ;     
+   wire DO84 = DO[84] ;     
+   wire DO83 = DO[83] ;     
+   wire DO82 = DO[82] ;     
+   wire DO81 = DO[81] ;     
+   wire DO80 = DO[80] ;     
+   wire DO79 = DO[79] ;     
+   wire DO78 = DO[78] ;     
+   wire DO77 = DO[77] ;     
+   wire DO76 = DO[76] ;     
+   wire DO75 = DO[75] ;     
+   wire DO74 = DO[74] ;     
+   wire DO73 = DO[73] ;     
+   wire DO72 = DO[72] ;     
+   wire DO71 = DO[71] ;     
+   wire DO70 = DO[70] ;     
+   wire DO69 = DO[69] ;     
+   wire DO68 = DO[68] ;     
+   wire DO67 = DO[67] ;     
+   wire DO66 = DO[66] ;     
+   wire DO65 = DO[65] ;     
+   wire DO64 = DO[64] ;     
+   wire DO63 = DO[63] ;     
+   wire DO62 = DO[62] ;     
+   wire DO61 = DO[61] ;     
+   wire DO60 = DO[60] ;     
+   wire DO59 = DO[59] ;     
+   wire DO58 = DO[58] ;     
+   wire DO57 = DO[57] ;     
+   wire DO56 = DO[56] ;     
+   wire DO55 = DO[55] ;     
+   wire DO54 = DO[54] ;     
+   wire DO53 = DO[53] ;     
+   wire DO52 = DO[52] ;     
+   wire DO51 = DO[51] ;     
+   wire DO50 = DO[50] ;     
+   wire DO49 = DO[49] ;     
+   wire DO48 = DO[48] ;     
+   wire DO47 = DO[47] ;     
+   wire DO46 = DO[46] ;     
+   wire DO45 = DO[45] ;     
+   wire DO44 = DO[44] ;     
+   wire DO43 = DO[43] ;     
+   wire DO42 = DO[42] ;     
+   wire DO41 = DO[41] ;     
+   wire DO40 = DO[40] ;     
+   wire DO39 = DO[39] ;     
+   wire DO38 = DO[38] ;     
+   wire DO37 = DO[37] ;     
+   wire DO36 = DO[36] ;     
+   wire DO35 = DO[35] ;     
+   wire DO34 = DO[34] ;     
+   wire DO33 = DO[33] ;     
+   wire DO32 = DO[32] ;     
+   wire DO31 = DO[31] ;     
+   wire DO30 = DO[30] ;     
+   wire DO29 = DO[29] ;     
+   wire DO28 = DO[28] ;     
+   wire DO27 = DO[27] ;     
+   wire DO26 = DO[26] ;     
+   wire DO25 = DO[25] ;     
+   wire DO24 = DO[24] ;     
+   wire DO23 = DO[23] ;     
+   wire DO22 = DO[22] ;     
+   wire DO21 = DO[21] ;     
+   wire DO20 = DO[20] ;     
+   wire DO19 = DO[19] ;     
+   wire DO18 = DO[18] ;     
+   wire DO17 = DO[17] ;     
+   wire DO16 = DO[16] ;     
+   wire DO15 = DO[15] ;     
+   wire DO14 = DO[14] ;     
+   wire DO13 = DO[13] ;     
+   wire DO12 = DO[12] ;     
+   wire DO11 = DO[11] ;     
+   wire DO10 = DO[10] ;     
+   wire DO9 = DO[9] ;     
+   wire DO8 = DO[8] ;     
+   wire DO7 = DO[7] ;     
+   wire DO6 = DO[6] ;     
+   wire DO5 = DO[5] ;     
+   wire DO4 = DO[4] ;     
+   wire DO3 = DO[3] ;     
+   wire DO2 = DO[2] ;     
+   wire DO1 = DO[1] ;     
+   wire DO0 = DO[0] ;     
+
+   reg [Bits-1:0] data_reg ;     
+
+   wire write_en;
+
+
+   and u1  (write_en, !WEB, CS); 
+
+   always @ (posedge CK) 
+         if (write_en) mem[A] = DI;    
+
+   always @ (posedge CK) 
+         if (CS) data_reg = mem[A];    
+
+   always @ (OE or data_reg)  
+      if (OE) DO = data_reg;
+       else    DO = 128'hZ; 
+                             
+endmodule

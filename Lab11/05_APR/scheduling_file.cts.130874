@@ -1,0 +1,9 @@
+MacroModel pin CORE/i_row_reg_2_/CK  300.00ps 300.00ps 300.00ps 300.00ps 0pf av_func_mode_max
+MacroModel pin CORE/i_row_reg_1_/CK  293.30ps 293.30ps 293.30ps 293.30ps 0pf av_func_mode_max
+MacroModel pin CORE/i_row_reg_3_/CK  203.00ps 203.00ps 203.00ps 203.00ps 0pf av_func_mode_max
+MacroModel pin CORE/i_row_reg_0_/CK  300.00ps 300.00ps 300.00ps 300.00ps 0pf av_func_mode_max
+MacroModel pin CORE/img_size_reg_4_/CK  95.90ps 95.90ps 95.90ps 95.90ps 0pf av_func_mode_max
+MacroModel pin CORE/img_size_reg_5_/CK  90.50ps 90.50ps 90.50ps 90.50ps 0pf av_func_mode_max
+MacroModel pin CORE/img_size_reg_0_/CK  132.20ps 132.20ps 132.20ps 132.20ps 0pf av_func_mode_max
+MacroModel pin CORE/img_size_reg_3_/CK  300.00ps 300.00ps 300.00ps 300.00ps 0pf av_func_mode_max
+MacroModel pin CORE/img_size_reg_1_/CK  161.40ps 161.40ps 161.40ps 161.40ps 0pf av_func_mode_max

@@ -1,0 +1,395 @@
+Command: vcs -timescale=1ns/1fs -j8 -sverilog +v2k -full64 -Mupdate -R -debug_access+all \
+-f filelist.f -o simv -l vcs.log -P /usr/cad/synopsys/verdi/2019.06//share/PLI/VCS/linux64/novas.tab \
+/usr/cad/synopsys/verdi/2019.06//share/PLI/VCS/linux64/pli.a -v /RAID2/COURSE/iclab/iclabTA01/UMC018_CBDK/CIC/Verilog/fsa0m_a_generic_core_30.lib.src \
+-v /RAID2/COURSE/iclab/iclabTA01/UMC018_CBDK/CIC/Verilog/fsa0m_a_t33_generic_io_30.lib.src \
++define+POST +maxdelays +neg_tchk
+*** Using c compiler gcc instead of cc ...
+                         Chronologic VCS (TM)
+         Version T-2022.06_Full64 -- Sun Dec  1 23:58:56 2024
+
+                    Copyright (c) 1991 - 2022 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Parsing design file 'TESTBED.v'
+Parsing included file 'PATTERN.vp'.
+Back to file 'TESTBED.v'.
+Parsing included file 'CHIP.v'.
+Back to file 'TESTBED.v'.
+Parsing design file '../04_MEM/MEM_gray_max.v'
+Parsing library file '/RAID2/COURSE/iclab/iclabTA01/UMC018_CBDK/CIC/Verilog/fsa0m_a_generic_core_30.lib.src'
+Parsing library file '/RAID2/COURSE/iclab/iclabTA01/UMC018_CBDK/CIC/Verilog/fsa0m_a_t33_generic_io_30.lib.src'
+Top Level Modules:
+       TESTBED
+TimeScale is 10 ps / 1 ps
+
+Warning-[TFIPC] Too few instance port connections
+CHIP.v, 79846
+TMIP, "FA1S U25262( .CO (n23748),  .A (row[1]),  .B (n23747),  .CI (n23746));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+CHIP.v, 79850
+TMIP, "FA1S U25263( .CO (n23750),  .A (n23749),  .B (row[2]),  .CI (n23748));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+CHIP.v, 79958
+TMIP, "FA1S U25297( .CO (n23790),  .A (n23870),  .B (n23789),  .CI (n23788));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+Warning-[TFIPC] Too few instance port connections
+CHIP.v, 79962
+TMIP, "FA1S U25298( .CO (n23793),  .A (FE_OFN358_i_col_2),  .B (n23791),  .CI (n23790));"
+  The above instance has fewer port connections than the module definition.
+  Please use '+lint=TFIPC-L' to print out detailed information of unconnected 
+  ports.
+
+
+   ***   $sdf_annotate() version 1.2R
+   ***    SDF file: "CHIP.sdf"
+   ***    Annotation scope: TESTBED.u_CHIP
+   ***    No MTM selection argument specified
+   ***    No SCALE FACTORS argument specified
+   ***    No SCALE TYPE argument specified
+   ***    MTM selection defaulted to "TOOL_CONTROL":
+               (+maxdelays compiled, MAXIMUM delays selected)
+   ***    SCALE FACTORS defaulted to "1.0:1.0:1.0":
+   ***    SCALE TYPE defaulted to: "FROM_MTM"
+   ***    Turnoff delay: "FROM_FILE"
+   ***    Approximation (mipd) policy: "MAXIMUM"
+
+   ***    SDF annotation begin: Sun Dec  1 23:58:58 2024
+
+
+SDF Info: +pulse_r/100, +pulse_e/100 in effect
+
+Warning-[SDFCOM_UHICD] Up-hierarchy Interconnect Delay ignored
+CHIP.sdf, 13066
+module: YA2GSD, "instance: TESTBED.u_CHIP.O_VALID"
+  SDF Warning: INTERCONNECT Delay to up-hierarchy destination accOutput is 
+  ignored, DEVICE Delay on port 'O' applied.
+  Up-hierarchy interconnect delay arises when the load is hierarchically above
+  the source.
+
+
+Warning-[SDFCOM_UHICD] Up-hierarchy Interconnect Delay ignored
+CHIP.sdf, 13067
+module: YA2GSD, "instance: TESTBED.u_CHIP.O_VALUE"
+  SDF Warning: INTERCONNECT Delay to up-hierarchy destination accOutput is 
+  ignored, DEVICE Delay on port 'O' applied.
+  Up-hierarchy interconnect delay arises when the load is hierarchically above
+  the source.
+
+
+Warning-[SDFCOM_RCI] RETAIN clause ignored
+CHIP.sdf, 80282
+module: MEM_gray_max, "instance: TESTBED.u_CHIP.CORE.m0_U0"
+  SDF Warning: RETAIN clause ignored,but IOPATH annotated,
+  please use -sdfretain switch to consider RETAIN.      
+
+
+Warning-[SDFCOM_RCI] RETAIN clause ignored
+CHIP.sdf, 80283
+module: MEM_gray_max, "instance: TESTBED.u_CHIP.CORE.m0_U0"
+  SDF Warning: RETAIN clause ignored,but IOPATH annotated,
+  please use -sdfretain switch to consider RETAIN.      
+
+
+Warning-[SDFCOM_RCI] RETAIN clause ignored
+CHIP.sdf, 80284
+module: MEM_gray_max, "instance: TESTBED.u_CHIP.CORE.m0_U0"
+  SDF Warning: RETAIN clause ignored,but IOPATH annotated,
+  please use -sdfretain switch to consider RETAIN.      
+
+
+Warning-[SDFCOM_RCI] RETAIN clause ignored
+CHIP.sdf, 80285
+module: MEM_gray_max, "instance: TESTBED.u_CHIP.CORE.m0_U0"
+  SDF Warning: RETAIN clause ignored,but IOPATH annotated,
+  please use -sdfretain switch to consider RETAIN.      
+
+
+Warning-[SDFCOM_RCI] RETAIN clause ignored
+CHIP.sdf, 80286
+module: MEM_gray_max, "instance: TESTBED.u_CHIP.CORE.m0_U0"
+  SDF Warning: RETAIN clause ignored,but IOPATH annotated,
+  please use -sdfretain switch to consider RETAIN.      
+
+
+Warning-[SDFCOM_RCI] RETAIN clause ignored
+CHIP.sdf, 80287
+module: MEM_gray_max, "instance: TESTBED.u_CHIP.CORE.m0_U0"
+  SDF Warning: RETAIN clause ignored,but IOPATH annotated,
+  please use -sdfretain switch to consider RETAIN.      
+
+
+Warning-[SDFCOM_RCI] RETAIN clause ignored
+CHIP.sdf, 80288
+module: MEM_gray_max, "instance: TESTBED.u_CHIP.CORE.m0_U0"
+  SDF Warning: RETAIN clause ignored,but IOPATH annotated,
+  please use -sdfretain switch to consider RETAIN.      
+
+All future warnings not reported; use +sdfverbose to report them.
+
+Warning-[SDFCOM_RCI] RETAIN clause ignored
+CHIP.sdf, 80289
+module: MEM_gray_max, "instance: TESTBED.u_CHIP.CORE.m0_U0"
+  SDF Warning: RETAIN clause ignored,but IOPATH annotated,
+  please use -sdfretain switch to consider RETAIN.      
+
+
+          Total errors: 0
+          Total warnings: 29
+   ***    SDF annotation completed: Sun Dec  1 23:58:58 2024
+
+
+Starting vcs inline pass...
+
+Note-[VCS_PARAL] Parallel code-gen enabled
+  VCS is running with parallel code generation(-j)...
+
+161 modules and 3 UDPs read.
+recompiling module PATTERN
+	However, due to incremental compilation, only 1 module needs to be compiled. 
+make[1]: Entering directory `/RAID2/COURSE/iclab/iclab131/Lab11/06_POST/csrc'
+rm -f _cuarc*.so _csrc*.so pre_vcsobj_*.so share_vcsobj_*.so
+ld -shared  -Bsymbolic   -o .//../simv.daidir//_cuarc0.so objs/amcQw_d.o 
+rm -f _cuarc0.so
+if [ -x ../simv ]; then chmod a-x ../simv; fi
+g++  -o ../simv      -rdynamic  -Wl,-rpath='$ORIGIN'/simv.daidir -Wl,-rpath=./simv.daidir \
+-Wl,-rpath=/usr/cad/synopsys/vcs/2022.06/linux64/lib -L/usr/cad/synopsys/vcs/2022.06/linux64/lib \
+-Wl,-rpath-link=./  /usr/lib64/libnuma.so.1     _86044_archive_1.so _86201_archive_1.so \
+_prev_archive_1.so _cuarc0.so objs/udps/qndjy.o objs/udps/keuHx.o objs/udps/Sbaqa.o \
+SIM_l.o      rmapats_mop.o rmapats.o rmar.o rmar_nd.o  rmar_llvm_0_1.o rmar_llvm_0_0.o \
+-lvirsim -lerrorinf -lsnpsmalloc -lvfs /usr/cad/synopsys/verdi/2019.06//share/PLI/VCS/linux64/pli.a \
+-lvcsnew -lsimprofile -luclinative /usr/cad/synopsys/vcs/2022.06/linux64/lib/vcs_tls.o \
+-Wl,-whole-archive  -lvcsucli    -Wl,-no-whole-archive        _vcs_pli_stub_.o   \
+/usr/cad/synopsys/vcs/2022.06/linux64/lib/vcs_save_restore_new.o /usr/cad/synopsys/verdi/2019.06//share/PLI/VCS/LINUX64/pli.a \
+-ldl -lm  -lc -lpthread -ldl 
+../simv up to date
+make[1]: Leaving directory `/RAID2/COURSE/iclab/iclab131/Lab11/06_POST/csrc'
+Command: /RAID2/COURSE/iclab/iclab131/Lab11/06_POST/./simv +v2k -a vcs.log +define+POST +maxdelays +neg_tchk
+Chronologic VCS simulator copyright 1991-2022
+Contains Synopsys proprietary information.
+Compiler version T-2022.06_Full64; Runtime version T-2022.06_Full64;  Dec  1 23:59 2024
+Doing SDF annotation ...... Done
+
+Warning-[STASKW_CO] Cannot open file
+PATTERN.vp, 37
+  The file '../00_TESTBED/Debug/action.txt' could not be opened. No such file 
+  or directory.
+  Please ensure that the file exists with proper permissions.
+
+
+Warning-[STASKW_CO] Cannot open file
+PATTERN.vp, 37
+  The file '../00_TESTBED/Debug/image_r.txt' could not be opened. No such file
+  or directory.
+  Please ensure that the file exists with proper permissions.
+
+
+Warning-[STASKW_CO] Cannot open file
+PATTERN.vp, 37
+  The file '../00_TESTBED/Debug/image_g.txt' could not be opened. No such file
+  or directory.
+  Please ensure that the file exists with proper permissions.
+
+
+Warning-[STASKW_CO] Cannot open file
+PATTERN.vp, 37
+  The file '../00_TESTBED/Debug/image_b.txt' could not be opened. No such file
+  or directory.
+  Please ensure that the file exists with proper permissions.
+
+[0;34m =========== Pattern:  0 =========== [m
+[0;32m $ Pass set: 0, latency:  258 [m
+[0;32m $ Pass set: 1, latency:  342 [m
+[0;32m $ Pass set: 2, latency:  407 [m
+[0;32m $ Pass set: 3, latency:  548 [m
+[0;32m $ Pass set: 4, latency:  548 [m
+[0;32m $ Pass set: 5, latency:  548 [m
+[0;32m $ Pass set: 6, latency:  258 [m
+[0;32m $ Pass set: 7, latency:  694 [m
+[0;33m ###### Pass pattern:  0 ###### [m
+[0;34m =========== Pattern:  1 =========== [m
+[0;32m $ Pass set: 0, latency:   85 [m
+[0;32m $ Pass set: 1, latency:   67 [m
+[0;32m $ Pass set: 2, latency:   83 [m
+[0;32m $ Pass set: 3, latency:  247 [m
+[0;32m $ Pass set: 4, latency:  147 [m
+[0;32m $ Pass set: 5, latency:  111 [m
+[0;32m $ Pass set: 6, latency:   83 [m
+[0;32m $ Pass set: 7, latency:   85 [m
+[0;33m ###### Pass pattern:  1 ###### [m
+[0;34m =========== Pattern:  2 =========== [m
+[0;32m $ Pass set: 0, latency:   66 [m
+[0;32m $ Pass set: 1, latency:  109 [m
+[0;32m $ Pass set: 2, latency:   70 [m
+[0;32m $ Pass set: 3, latency:  229 [m
+[0;32m $ Pass set: 4, latency:   67 [m
+[0;32m $ Pass set: 5, latency:   66 [m
+[0;32m $ Pass set: 6, latency:  165 [m
+[0;32m $ Pass set: 7, latency:  192 [m
+[0;33m ###### Pass pattern:  2 ###### [m
+[0;34m =========== Pattern:  3 =========== [m
+[0;32m $ Pass set: 0, latency:   86 [m
+[0;32m $ Pass set: 1, latency:   83 [m
+[0;32m $ Pass set: 2, latency:  149 [m
+[0;32m $ Pass set: 3, latency:  110 [m
+[0;32m $ Pass set: 4, latency:   66 [m
+[0;32m $ Pass set: 5, latency:   67 [m
+[0;32m $ Pass set: 6, latency:  312 [m
+[0;32m $ Pass set: 7, latency:  147 [m
+[0;33m ###### Pass pattern:  3 ###### [m
+[0;34m =========== Pattern:  4 =========== [m
+[0;32m $ Pass set: 0, latency:   66 [m
+[0;32m $ Pass set: 1, latency:  112 [m
+[0;32m $ Pass set: 2, latency:   66 [m
+[0;32m $ Pass set: 3, latency:  148 [m
+[0;32m $ Pass set: 4, latency:   67 [m
+[0;32m $ Pass set: 5, latency:  311 [m
+[0;32m $ Pass set: 6, latency:  108 [m
+[0;32m $ Pass set: 7, latency:  150 [m
+[0;33m ###### Pass pattern:  4 ###### [m
+[0;34m =========== Pattern:  5 =========== [m
+[0;32m $ Pass set: 0, latency:  615 [m
+[0;32m $ Pass set: 1, latency:  547 [m
+[0;32m $ Pass set: 2, latency:  263 [m
+[0;32m $ Pass set: 3, latency:  262 [m
+[0;32m $ Pass set: 4, latency:  259 [m
+[0;32m $ Pass set: 5, latency:  259 [m
+[0;32m $ Pass set: 6, latency:  547 [m
+[0;32m $ Pass set: 7, latency:  368 [m
+[0;33m ###### Pass pattern:  5 ###### [m
+[0;34m =========== Pattern:  6 =========== [m
+[0;32m $ Pass set: 0, latency:   95 [m
+[0;32m $ Pass set: 1, latency:   18 [m
+[0;32m $ Pass set: 2, latency:   47 [m
+[0;32m $ Pass set: 3, latency:   44 [m
+[0;32m $ Pass set: 4, latency:   69 [m
+[0;32m $ Pass set: 5, latency:   46 [m
+[0;32m $ Pass set: 6, latency:   21 [m
+[0;32m $ Pass set: 7, latency:   20 [m
+[0;33m ###### Pass pattern:  6 ###### [m
+[0;34m =========== Pattern:  7 =========== [m
+[0;32m $ Pass set: 0, latency:   70 [m
+[0;32m $ Pass set: 1, latency:   22 [m
+[0;32m $ Pass set: 2, latency:   45 [m
+[0;32m $ Pass set: 3, latency:   18 [m
+[0;32m $ Pass set: 4, latency:   18 [m
+[0;32m $ Pass set: 5, latency:   45 [m
+[0;32m $ Pass set: 6, latency:   47 [m
+[0;32m $ Pass set: 7, latency:   23 [m
+[0;33m ###### Pass pattern:  7 ###### [m
+[0;34m =========== Pattern:  8 =========== [m
+[0;32m $ Pass set: 0, latency:   69 [m
+[0;32m $ Pass set: 1, latency:   46 [m
+[0;32m $ Pass set: 2, latency:   72 [m
+[0;32m $ Pass set: 3, latency:   18 [m
+[0;32m $ Pass set: 4, latency:   94 [m
+[0;32m $ Pass set: 5, latency:   70 [m
+[0;32m $ Pass set: 6, latency:   21 [m
+[0;32m $ Pass set: 7, latency:   20 [m
+[0;33m ###### Pass pattern:  8 ###### [m
+[0;34m =========== Pattern:  9 =========== [m
+[0;32m $ Pass set: 0, latency:   23 [m
+[0;32m $ Pass set: 1, latency:   21 [m
+[0;32m $ Pass set: 2, latency:   19 [m
+[0;32m $ Pass set: 3, latency:   21 [m
+[0;32m $ Pass set: 4, latency:   21 [m
+[0;32m $ Pass set: 5, latency:   96 [m
+[0;32m $ Pass set: 6, latency:   22 [m
+[0;32m $ Pass set: 7, latency:   18 [m
+[0;33m ###### Pass pattern:  9 ###### [m
+
+
+
+
+                        [0;32m＼O/       [mI LOVE ICLAB!                    
+                        [0;32m  \\
+                        [0;32m ノノ
+        [0;34m------------
+        | ┏┓ ┏┓ ┏┓ |
+        | ┗┛ ┗┛ ┗┛ |
+        | ┏┓ ┏┓ ┏┓ |
+        [0;34m| ┗┛ ┗┛ ┗┛ |   
+        [0;34m| ┏┓ ┏┓ ┏┓ |   
+        [0;34m| ┗┛ ┗┛ ┗┛ |   
+        [0;34m| ┏┓ ┏┓ ┏┓ |            															    							
+        [0;34m| ┗┛ ┗┛ ┗┛ |            															    							
+        [0;34m| ┏┓ ┏┓ ┏┓ |            															    							
+        [0;34m| ┗┛ ┗┛ ┗┛ |            															    							
+        [0;34m| ┏┓ ┏┓ ┏┓ |            															    							
+        [0;34m| ┗┛ ┗┛ ┗┛ |            															    							
+        [0;34m| ┏┓ ┏┓ ┏┓ |            															    							
+        [0;34m| ┗┛ ┗┛ ┗┛ |            															    							
+        [0;34m| ┏┓ ┏┓ ┏┓ |                   [33m [5m TQQQQQQQRV            QQQV            XQKFDDIPR       SOIDDELPV  
+        [0;34m| ┗┛ ┗┛ ┗┛ |                   [33m [5m GAAAAAAAAAAAM        EAAAAW        ZCAAAAAAAAAAT   QAAAAAAAAAAE  
+        [0;34m| ┏┓ ┏┓ ┏┓ |                   [33m [5m GAAG     TAAAB      MAAHAAD       YAAAH       Y   RAAAU       X  	
+        [0;34m| ┗┛ ┗┛ ┗┛ |                   [33m [5m GAAG      ZAAAT    SAAF DAAE      OAAA            CAAG           	
+        [0;34m| ┏┓ ┏┓ ┏┓ |                   [33m [5m GAAG       AAAT    AAAU  BAAS     ZAAABZ          TAAAD          	
+        [0;34m| ┗┛ ┗┛ ┗┛ |                   [33m [5m GAAG      CAAB    GAAP   RAAA       FAAAABU        UBAAAADV      
+        [0;34m| ┏┓ ┏┓ ┏┓ |                   [33m [5m GAAAAAAAAAAAL    VAAD     IAAH        QDAAAAAN        LBAAAAAS    
+        [0;34m| ┗┛ ┗┛ ┗┛ |                   [33m [5m GAAAAAAACPV     YAAAJMMMMMKAAAR           QAAAAQ         UHAAAC   
+        [0;34m| ┏┓ ┏┓ ┏┓ |                   [33m [5m GAAG            EAAAAAAAAAAAAAAW            OAAA            BAAD 
+        [0;34m| ┗┛ ┗┛ ┗┛ |                   [33m [5m GAAG           KAAB         JAAC            SAAA            DAAD  
+        [0;34m| ┏┓ ┏┓ ┏┓ |                   [33m [5m GAAG           AAAW          AAAL OAAL     DAAAM  CABT    PAAAA   
+        [0;34m| ┗┛ ┗┛ ┗┛ |                   [33m [5m GAAG          AAAE           TAAA RDAAAAAAAABI    IAAAAAAAAADT    
+        [0;34m| ┏┓ ┏┓ ┏┓ |            															    							
+        [0;34m| ┗┛ ┗┛ ┗┛ |            															    							
+[m---------------------------------------------------------------------------------------------------------------------------
+********************************************************************************
+                                Congratulations!                                
+                      Your execution cycles: 11942 cycles                         
+                          Your clock period: 8.9 ns                            
+                              Total Latency: 106283.8 ns                            
+********************************************************************************
+$finish called from file "PATTERN.vp", line 37.
+$finish at simulation time        1011453850 ps
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 1011453850 ps
+CPU Time:     16.410 seconds;       Data structure size:   7.3Mb
+Sun Dec  1 23:59:21 2024
+CPU time: 3.903 seconds to compile + 1.196 seconds to elab + .909 seconds to link + 16.450 seconds in simulation
+ 4, latency:   46 [m
+[0;32m $ Pass set: 5, latency:   18 [m
+[0;32m $ Pass set: 6, latency:   48 [m
+[0;32m $ Pass set: 7, latency:   70 [m
+[0;33m ###### Pass pattern: 19 ###### [m
+[0;34m =========== Pattern: 20 =========== [m
+[0;32m $ Pass set: 0, latency:  110 [m
+[0;32m $ Pass set: 1, latency:  232 [m
+[0;32m $ Pass set: 2, latency:   66 [m
+[0;32m $ Pass set: 3, latency:   67 [m
+[0;32m $ Pass set: 4, latency:   87 [m
+[0;32m $ Pass set: 5, latency:   66 [m
+[0;32m $ Pass set: 6, latency:   87 [m
+[0;32m $ Pass set: 7, latency:  148 [m
+[0;33m ###### Pass pattern: 20 ###### [m
+Received SIGHUP (signal 1), exiting.
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 2147620544 ps
+CPU Time:     39.270 seconds;       Data structure size:   7.3Mb
+Mon Dec  2 02:12:37 2024

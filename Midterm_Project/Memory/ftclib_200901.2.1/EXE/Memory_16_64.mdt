@@ -1,0 +1,47 @@
+# ///////////////////////////////////////////////////////////////////////////////////
+# // 
+# //              Synchronous High Speed Single Port SRAM Compiler 
+# // 
+# //                    UMC 0.18um GenericII Logic Process
+# //    __________________________________________________________________________
+# // 
+# // 
+# //        (C) Copyright 2002-2009 Faraday Technology Corp. All Rights Reserved.
+# // 
+# //      This source code is an unpublished work belongs to Faraday Technology
+# //      Corp.  It is considered a trade secret and is not to be divulged or
+# //      used by parties who have not received written authorization from
+# //      Faraday Technology Corp.
+# // 
+# //      Faraday's home page can be found at:
+# //      http://www.faraday-tech.com/
+# //     
+# // ________________________________________________________________________________
+# // 
+# //       Module Name       :  Memory_16_64  
+# //       Word              :  64            
+# //       Bit               :  16            
+# //       Byte              :  1             
+# //       Mux               :  1             
+# //       Power Ring Type   :  port          
+# //       Power Ring Width  :  2 (um)        
+# //       Output Loading    :  0.05 (pf)     
+# //       Input Data Slew   :  0.02 (ns)     
+# //       Input Clock Slew  :  0.02 (ns)     
+# // 
+# // ________________________________________________________________________________
+# // 
+# //       Library          : FSA0M_A
+# //       Memaker          : 200901.2.1
+# //       Date             : 2024/10/27 12:34:48
+# // 
+# // ________________________________________________________________________________
+# // 
+# //       Library          : FSA0M_A
+# //       Memaker          : 200901.2.1
+# //       Date             : 2024/10/27 12:34:50
+# //
+# ///////////////////////////////////////////////////////////////////////////////////
+tfgDefineMem -module "Memory_16_64" -array_name "Memory" -banks * -addr_range 63 0
+tfgDefineMemWrite -module "Memory_16_64" -array_name "Memory" -clk "@(posedge CK)" -cond "CS && ~WEB" -addr "`<->A" -data "`<->DI"
+tfgDefineMemRead -module "Memory_16_64" -array_name "Memory" -clk "@(posedge CK)" -cond "CS && WEB" -addr "`<->A" -noe "OE" -out "`<->DO"

@@ -1,0 +1,200 @@
+
+Warning-[LNX_OS_VERUN] Unsupported Linux version
+  Linux version 'CentOS Stream release 8' is not supported on 'x86_64' 
+  officially, assuming linux compatibility by default. Set VCS_ARCH_OVERRIDE 
+  to linux or suse32 to override.
+  Please refer to release notes for information on supported platforms.
+
+Command: vcs -timescale=1ns/1fs -j4 -sverilog +v2k -full64 -Mupdate -R -debug_access+all \
+-y /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ +libext+.v -f filelist.f -o simv -l \
+vcs.log -P /usr/cad/synopsys/verdi/2019.06//share/PLI/VCS/linux64/novas.tab /usr/cad/synopsys/verdi/2019.06//share/PLI/VCS/linux64/pli.a \
++define+RTL +notimingchecks
+*** Using c compiler gcc instead of cc ...
+                         Chronologic VCS (TM)
+         Version T-2022.06_Full64 -- Fri Feb 23 23:47:05 2024
+
+                    Copyright (c) 1991 - 2022 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Parsing design file 'TESTBED.v'
+Parsing included file 'PATTERN.v'.
+Back to file 'TESTBED.v'.
+Parsing included file 'CORE.v'.
+Back to file 'TESTBED.v'.
+Top Level Modules:
+       FA
+       TESTBED
+TimeScale is 1 ns / 10 ps
+Starting vcs inline pass...
+
+
+Note-[VCS_PARAL] Parallel code-gen enabled
+  VCS is running with parallel code generation(-j)...
+
+2 modules and 0 UDP read.
+	However, due to incremental compilation, no re-compilation is necessary.
+make[1]: Entering directory '/RAID2/COURSE/BackUp/2023_Spring/iclab/iclabta01/Lab01/Practice/01_RTL/csrc' \
+
+rm -f _cuarc*.so _csrc*.so pre_vcsobj_*.so share_vcsobj_*.so
+ld -shared  -Bsymbolic --no-relax  -o .//../simv.daidir//_cuarc0.so objs/amcQw_d.o \
+
+rm -f _cuarc0.so
+if [ -x ../simv ]; then chmod a-x ../simv; fi
+g++  -o ../simv      -rdynamic  -Wl,-rpath='$ORIGIN'/simv.daidir -Wl,-rpath=./simv.daidir \
+-Wl,-rpath=/usr/cad/synopsys/vcs/2022.06/linux64/lib -L/usr/cad/synopsys/vcs/2022.06/linux64/lib \
+-Wl,-rpath-link=./  /usr/lib64/libnuma.so.1     _890365_archive_1.so _prev_archive_1.so \
+_cuarc0.so  SIM_l.o      rmapats_mop.o rmapats.o rmar.o rmar_nd.o  rmar_llvm_0_1.o \
+rmar_llvm_0_0.o           -lvirsim -lerrorinf -lsnpsmalloc -lvfs /usr/cad/synopsys/verdi/2019.06//share/PLI/VCS/linux64/pli.a \
+-lvcsnew -lsimprofile -luclinative /usr/cad/synopsys/vcs/2022.06/linux64/lib/vcs_tls.o \
+-Wl,-whole-archive  -lvcsucli    -Wl,-no-whole-archive        _vcs_pli_stub_.o   \
+/usr/cad/synopsys/vcs/2022.06/linux64/lib/vcs_save_restore_new.o /usr/cad/synopsys/verdi/2019.06//share/PLI/VCS/LINUX64/pli.a \
+-ldl -lm  -lc -lpthread -ldl 
+../simv up to date
+make[1]: Leaving directory '/RAID2/COURSE/BackUp/2023_Spring/iclab/iclabta01/Lab01/Practice/01_RTL/csrc' \
+
+Command: /RAID2/COURSE/BackUp/2023_Spring/iclab/iclabta01/Lab01/Practice/01_RTL/./simv +v2k +libext+.v -a vcs.log +define+RTL +notimingchecks
+Chronologic VCS simulator copyright 1991-2022
+Contains Synopsys proprietary information.
+Compiler version T-2022.06_Full64; Runtime version T-2022.06_Full64;  Feb 23 23:47 2024
+*Verdi* Loading libsscore_vcs201906.so
+FSDB Dumper for VCS, Release Verdi_P-2019.06, Linux x86_64/64bit, 05/26/2019
+(C) 1996 - 2019 by Synopsys, Inc.
+***********************************************************************
+*  ERROR -                                                            *
+*  The simulator version is newer than the FSDB dumper version which  *
+*  may cause abnormal behavior, please contact Synopsys support for   *
+*  assistance.                                                        *
+***********************************************************************
+*Verdi* FSDB WARNING: The FSDB file already exists. Overwriting the FSDB file may crash the programs that are using this file.
+*Verdi* : Create FSDB file 'CORE.fsdb'
+*Verdi* : Begin traversing the scopes, layer (0).
+*Verdi* : Enable +mda dumping.
+*Verdi* : End of traversing.
+*Verdi* : Begin traversing the scopes, layer (0).
+*Verdi* : End of traversing.
+PATTERN           1 pass
+PATTERN           2 pass
+PATTERN           3 pass
+PATTERN           4 pass
+PATTERN           5 pass
+PATTERN           6 pass
+PATTERN           7 pass
+PATTERN           8 pass
+PATTERN           9 pass
+PATTERN          10 pass
+PATTERN          11 pass
+PATTERN          12 pass
+PATTERN          13 pass
+PATTERN          14 pass
+PATTERN          15 pass
+PATTERN          16 pass
+PATTERN          17 pass
+PATTERN          18 pass
+PATTERN          19 pass
+PATTERN          20 pass
+PATTERN          21 pass
+PATTERN          22 pass
+PATTERN          23 pass
+PATTERN          24 pass
+PATTERN          25 pass
+PATTERN          26 pass
+PATTERN          27 pass
+PATTERN          28 pass
+PATTERN          29 pass
+PATTERN          30 pass
+PATTERN          31 pass
+PATTERN          32 pass
+PATTERN          33 pass
+PATTERN          34 pass
+PATTERN          35 pass
+PATTERN          36 pass
+PATTERN          37 pass
+PATTERN          38 pass
+PATTERN          39 pass
+PATTERN          40 pass
+PATTERN          41 pass
+PATTERN          42 pass
+PATTERN          43 pass
+PATTERN          44 pass
+PATTERN          45 pass
+PATTERN          46 pass
+PATTERN          47 pass
+PATTERN          48 pass
+PATTERN          49 pass
+PATTERN          50 pass
+PATTERN          51 pass
+PATTERN          52 pass
+PATTERN          53 pass
+PATTERN          54 pass
+PATTERN          55 pass
+PATTERN          56 pass
+PATTERN          57 pass
+PATTERN          58 pass
+PATTERN          59 pass
+PATTERN          60 pass
+PATTERN          61 pass
+PATTERN          62 pass
+PATTERN          63 pass
+PATTERN          64 pass
+PATTERN          65 pass
+PATTERN          66 pass
+PATTERN          67 pass
+PATTERN          68 pass
+PATTERN          69 pass
+PATTERN          70 pass
+PATTERN          71 pass
+PATTERN          72 pass
+PATTERN          73 pass
+PATTERN          74 pass
+PATTERN          75 pass
+PATTERN          76 pass
+PATTERN          77 pass
+PATTERN          78 pass
+PATTERN          79 pass
+PATTERN          80 pass
+PATTERN          81 pass
+PATTERN          82 pass
+PATTERN          83 pass
+PATTERN          84 pass
+PATTERN          85 pass
+PATTERN          86 pass
+PATTERN          87 pass
+PATTERN          88 pass
+PATTERN          89 pass
+PATTERN          90 pass
+PATTERN          91 pass
+PATTERN          92 pass
+PATTERN          93 pass
+PATTERN          94 pass
+PATTERN          95 pass
+PATTERN          96 pass
+PATTERN          97 pass
+PATTERN          98 pass
+PATTERN          99 pass
+PATTERN         100 pass
+[1;35m You have passed this pattern!![m
+[1;31m   ******---------******   [m
+[1;33m   **                 **   [m
+[1;32m   ** congratulation! **   [m
+[1;33m   **                 **   [m
+[1;31m   ******---------******   [m
+$finish called from file "PATTERN.v", line 81.
+$finish at simulation time               301500
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 3015000 ps
+CPU Time:      0.170 seconds;       Data structure size:   0.0Mb
+Fri Feb 23 23:47:12 2024
+CPU time: .283 seconds to compile + .205 seconds to elab + .174 seconds to link + .194 seconds in simulation

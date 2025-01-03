@@ -1,0 +1,73 @@
+///////////////////////////////////////////////////////////////////////////////////
+// 
+//              Synchronous High Speed Single Port SRAM Compiler 
+// 
+//                    UMC 0.18um GenericII Logic Process
+//    __________________________________________________________________________
+// 
+// 
+//        (C) Copyright 2002-2009 Faraday Technology Corp. All Rights Reserved.
+// 
+//      This source code is an unpublished work belongs to Faraday Technology
+//      Corp.  It is considered a trade secret and is not to be divulged or
+//      used by parties who have not received written authorization from
+//      Faraday Technology Corp.
+// 
+//      Faraday's home page can be found at:
+//      http://www.faraday-tech.com/
+//     
+// ________________________________________________________________________________
+// 
+//       Module Name       :  Memory_64_128  
+//       Word              :  128            
+//       Bit               :  64             
+//       Byte              :  1              
+//       Mux               :  1              
+//       Power Ring Type   :  port           
+//       Power Ring Width  :  2 (um)         
+//       Output Loading    :  0.05 (pf)      
+//       Input Data Slew   :  0.02 (ns)      
+//       Input Clock Slew  :  0.02 (ns)      
+// 
+// ________________________________________________________________________________
+// 
+//       Library          : FSA0M_A
+//       Memaker          : 200901.2.1
+//       Date             : 2024/10/27 11:40:57
+// 
+// ________________________________________________________________________________
+// 
+//       Library          : FSA0M_A
+//       Memaker          : 200901.2.1
+//       Date             : 2024/10/27 11:40:58
+//
+///////////////////////////////////////////////////////////////////////////////////
+
+model Memory_64_128 (
+    A0, A1, A2, A3, A4, A5, A6,
+    DI0, DI1, DI2, DI3, DI4, DI5, DI6, DI7, DI8, DI9, DI10, DI11, DI12, DI13, DI14, DI15, DI16, DI17, DI18, DI19, DI20, DI21, DI22, DI23, DI24, DI25, DI26, DI27, DI28, DI29, DI30, DI31, DI32, DI33, DI34, DI35, DI36, DI37, DI38, DI39, DI40, DI41, DI42, DI43, DI44, DI45, DI46, DI47, DI48, DI49, DI50, DI51, DI52, DI53, DI54, DI55, DI56, DI57, DI58, DI59, DI60, DI61, DI62, DI63,
+    DO0, DO1, DO2, DO3, DO4, DO5, DO6, DO7, DO8, DO9, DO10, DO11, DO12, DO13, DO14, DO15, DO16, DO17, DO18, DO19, DO20, DO21, DO22, DO23, DO24, DO25, DO26, DO27, DO28, DO29, DO30, DO31, DO32, DO33, DO34, DO35, DO36, DO37, DO38, DO39, DO40, DO41, DO42, DO43, DO44, DO45, DO46, DO47, DO48, DO49, DO50, DO51, DO52, DO53, DO54, DO55, DO56, DO57, DO58, DO59, DO60, DO61, DO62, DO63,
+    WEB,
+    CK, CS, OE) (
+
+    input (WEB, CK, CS, OE) ()
+    input (A0, A1, A2, A3, A4, A5, A6) ()
+    input (DI0, DI1, DI2, DI3, DI4, DI5, DI6, DI7, DI8, DI9, DI10, DI11, DI12, DI13, DI14, DI15, DI16, DI17, DI18, DI19, DI20, DI21, DI22, DI23, DI24, DI25, DI26, DI27, DI28, DI29, DI30, DI31, DI32, DI33, DI34, DI35, DI36, DI37, DI38, DI39, DI40, DI41, DI42, DI43, DI44, DI45, DI46, DI47, DI48, DI49, DI50, DI51, DI52, DI53, DI54, DI55, DI56, DI57, DI58, DI59, DI60, DI61, DI62, DI63) ()
+    intern(WE)(primitive = _inv (WEB, WE);)
+    intern(WECS)(primitive = _and (WE,CS,WECS);)
+    intern(WEN)(primitive = _and (WE,CS,WEN);)
+    intern(REN)(primitive = _and (WEB,CS,REN);)
+
+    output (DO0, DO1, DO2, DO3, DO4, DO5, DO6, DO7, DO8, DO9, DO10, DO11, DO12, DO13, DO14, DO15, DO16, DO17, DO18, DO19, DO20, DO21, DO22, DO23, DO24, DO25, DO26, DO27, DO28, DO29, DO30, DO31, DO32, DO33, DO34, DO35, DO36, DO37, DO38, DO39, DO40, DO41, DO42, DO43, DO44, DO45, DO46, DO47, DO48, DO49, DO50, DO51, DO52, DO53, DO54, DO55, DO56, DO57, DO58, DO59, DO60, DO61, DO62, DO63) (
+        data_size = 64;
+        address_size = 7;
+        min_address = 0;
+        max_address = 127;
+        edge_trigger = WR;
+        read_write_conflict = XX;
+        primitive = _cram(, ,
+            _write{H,H,H} (CK, WECS, A0, A1, A2, A3, A4, A5, A6, DI0, DI1, DI2, DI3, DI4, DI5, DI6, DI7, DI8, DI9, DI10, DI11, DI12, DI13, DI14, DI15, DI16, DI17, DI18, DI19, DI20, DI21, DI22, DI23, DI24, DI25, DI26, DI27, DI28, DI29, DI30, DI31, DI32, DI33, DI34, DI35, DI36, DI37, DI38, DI39, DI40, DI41, DI42, DI43, DI44, DI45, DI46, DI47, DI48, DI49, DI50, DI51, DI52, DI53, DI54, DI55, DI56, DI57, DI58, DI59, DI60, DI61, DI62, DI63),
+            _read{Z,H,H,H} (OE, CK, REN, A0, A1, A2, A3, A4, A5, A6, DO0, DO1, DO2, DO3, DO4, DO5, DO6, DO7, DO8, DO9, DO10, DO11, DO12, DO13, DO14, DO15, DO16, DO17, DO18, DO19, DO20, DO21, DO22, DO23, DO24, DO25, DO26, DO27, DO28, DO29, DO30, DO31, DO32, DO33, DO34, DO35, DO36, DO37, DO38, DO39, DO40, DO41, DO42, DO43, DO44, DO45, DO46, DO47, DO48, DO49, DO50, DO51, DO52, DO53, DO54, DO55, DO56, DO57, DO58, DO59, DO60, DO61, DO62, DO63)
+        );
+    )
+)

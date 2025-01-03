@@ -1,0 +1,29 @@
+
+Cadence Innovus(TM) Implementation System.
+Copyright 2020 Cadence Design Systems, Inc. All rights reserved worldwide.
+
+Version:	v20.15-s105_1, built Tue Jul 27 14:15:35 PDT 2021
+Options:	
+Date:		Fri Dec 13 11:04:30 2024
+Host:		ee31 (x86_64 w/Linux 3.10.0-1160.102.1.el7.x86_64) (32cores*128cpus*AMD EPYC 7573X 32-Core Processor 512KB)
+OS:		CentOS Linux release 7.9.2009 (Core)
+
+License:
+		invs	Innovus Implementation System	20.1	checkout succeeded
+		8 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+Change the soft stacksize limit to 0.2%RAM (966 mbytes). Set global soft_stack_size_limit to change the value.
+
+**INFO:  MMMC transition support version v31-84 
+
+<CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+<CMD> suppressMessage ENCEXT-2799
+<CMD> getVersion
+[INFO] Loading Pegasus 21.21 fill procedures
+<CMD> win
+**INFO (INTERRUPT): One more Ctrl-C to exit Innovus ...
+Innovus terminated by user interrupt.
+
+*** Memory Usage v#1 (Current mem = 927.305M, initial mem = 284.375M) ***
+*** Message Summary: 0 warning(s), 0 error(s)
+
+--- Ending "Innovus" (totcpu=0:00:15.0, real=0:01:03, mem=927.3M) ---

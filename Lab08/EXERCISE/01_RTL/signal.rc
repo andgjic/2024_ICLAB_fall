@@ -1,0 +1,117 @@
+Magic 271485
+Revision Verdi_P-2019.06
+
+; Window Layout <x> <y> <width> <height> <signalwidth> <valuewidth>
+viewPort 24 85 1504 725 212 354
+
+; File list:
+; openDirFile [-d delimiter] [-s time_offset] [-rf auto_bus_rule_file] path_name file_name
+openDirFile -d / "" "/RAID2/COURSE/iclab/iclab131/Lab08/EXERCISE/01_RTL/SA_CG.fsdb"
+
+; file time scale:
+; fileTimeScale ### s|ms|us|ns|ps
+
+; signal spacing:
+signalSpacing 5
+
+; windowTimeUnit is used for zoom, cursor & marker
+; waveform viewport range
+zoom 1235162.064965 1565787.064965
+cursor 1350000.000000
+marker 0.000000
+
+; user define markers
+; userMarker time_pos marker_name color linestyle
+; visible top row signal index
+top 12
+; marker line index
+markerPos 39
+
+; event list
+; addEvent event_name event_expression
+; curEvent event_name
+
+
+
+COMPLEX_EVENT_BEGIN
+
+
+COMPLEX_EVENT_END
+
+
+
+; toolbar current search type
+; curSTATUS search_type
+curSTATUS ByChange
+
+
+addGroup "Input"
+activeDirFile "" "/RAID2/COURSE/iclab/iclab131/Lab08/EXERCISE/01_RTL/SA_CG.fsdb"
+addSignal -h 15 /TESTBED/I_SA/clk
+addSignal -h 15 -holdScope cg_en
+addSignal -h 15 -holdScope rst_n
+addSignal -h 15 -holdScope in_valid
+addSignal -h 15 -holdScope T[3:0]
+addSignal -h 15 -holdScope in_data[7:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope w_Q[7:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope w_K[7:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope w_V[7:0]
+addGroup "Store"
+addSignal -h 15 /TESTBED/I_SA/T_mode[3:0]
+addSignal -h 15 -holdScope n_s[2:0]
+addSignal -h 15 -holdScope c_s[2:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope in_cnt[5:0]
+addSignal -h 15 -holdScope cnt_read[1:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope cnt_col[2:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope cnt_row[2:0]
+addSignal -h 15 -2COMP -UDEC -holdScope mat_wQV[0:7]
+addSignal -h 15 -2COMP -UDEC -holdScope mat_wK[0:7]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope qkv_gen[18:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope mat_Q[0:7]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope mat_K[0:7]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope mat_V[0:7]
+addGroup "Input data mat"
+addSignal -h 15 -2COMP -UDEC /TESTBED/I_SA/mat_in[0:7]
+addGroup "MatMul_1" -e FALSE
+addSignal -h 15 -UNSIGNED -UDEC /TESTBED/I_SA/matmul_1[40:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope scale[40:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope matmul_relu[40:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope cnt_colA[2:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope cnt_rowA[2:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope mat_S[0:7]
+addSignal -h 15 -2COMP -UDEC -holdScope matmul_2[62:0]
+addGroup "Matmul2"
+addSignal -h 15 /TESTBED/I_SA/g_matmul2_ctrl
+addSignal -h 15 -holdScope g_clk_matmul2
+addSignal -h 15 -holdScope cnt_colS[2:0]
+addSignal -h 15 -holdScope cnt_rowS[2:0]
+addSignal -h 15 -2COMP -UDEC -holdScope matmul_2[62:0]
+addGroup "Clock gating"
+addSignal -h 15 /TESTBED/I_SA/cg_en
+addSignal -h 15 -UNSIGNED -UDEC -holdScope mat_S[0:7]
+addGroup "Output"
+addSignal -h 15 /TESTBED/I_SA/out_valid
+addSignal -h 15 -2COMP -UDEC -holdScope out_data[63:0]
+addSignal -h 15 -UNSIGNED -UDEC -holdScope cnt_out[5:0]
+addGroup "G7"
+
+; getSignalForm Scope Hierarchy Status
+; active file of getSignalForm
+activeDirFile "" "/RAID2/COURSE/iclab/iclab131/Lab08/EXERCISE/01_RTL/SA_CG.fsdb"
+
+GETSIGNALFORM_SCOPE_HIERARCHY_BEGIN
+getSignalForm close
+
+"/TESTBED"
+"/TESTBED/I_SA"
+
+SCOPE_LIST_BEGIN
+"/TESTBED"
+"/TESTBED/I_PATTERN"
+"/TESTBED/I_SA"
+"/TESTBED/I_SA/GATED_matmul"
+SCOPE_LIST_END
+
+GETSIGNALFORM_SCOPE_HIERARCHY_END
+
+

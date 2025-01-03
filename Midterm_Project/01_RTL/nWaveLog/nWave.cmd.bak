@@ -1,0 +1,3568 @@
+wvOpenFile -win $_nWave1 -mul \
+           {/RAID2/COURSE/iclab/iclab131/Midterm_Project/Exercise/01_RTL/ISP.fsdb} {/RAID2/COURSE/iclab/iclab131/Midterm_Project/Exercise/01_RTL/signal.rc} 
+wvResizeWindow -win $_nWave1 59 170 1476 701
+wvZoomOut -win $_nWave1
+wvResizeWindow -win $_nWave1 3272 64 1476 953
+wvScrollUp -win $_nWave1 11
+wvResizeWindow -win $_nWave1 3293 38 1476 990
+wvSelectSignal -win $_nWave1 {( "G2" 3 )} 
+wvSetCursor -win $_nWave1 873510.320397 -snap {("AXI R channel" 4)}
+wvScrollDown -win $_nWave1 9
+wvResizeWindow -win $_nWave1 3295 33 1797 990
+wvZoomOut -win $_nWave1
+wvSetCursor -win $_nWave1 4238145.870618 -snap {("G2" 3)}
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollUp -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollUp -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollUp -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollUp -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollUp -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvZoomIn -win $_nWave1
+wvSelectGroup -win $_nWave1 {Auto focus}
+wvSelectGroup -win $_nWave1 {Auto focus}
+wvSelectGroup -win $_nWave1 {Auto focus}
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 4
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvSelectSignal -win $_nWave1 {( "Auto focus" 6 )} 
+wvSetPosition -win $_nWave1 {("Auto focus" 6)}
+wvCollapseBus -win $_nWave1 {("Auto focus" 6)}
+wvSetPosition -win $_nWave1 {("Auto focus" 6)}
+wvScrollDown -win $_nWave1 5
+wvScrollUp -win $_nWave1 12
+wvScrollUp -win $_nWave1 3
+wvScrollUp -win $_nWave1 3
+wvSetCursor -win $_nWave1 4377792.293583 -snap {("AXI control" 1)}
+wvScrollUp -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 4
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 3
+wvResizeWindow -win $_nWave1 3238 36 1856 990
+wvZoomOut -win $_nWave1
+wvZoom -win $_nWave1 9692254.963936 9986464.793643
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvSelectSignal -win $_nWave1 {( "Auto focus" 6 )} 
+wvExpandBus -win $_nWave1 {("Auto focus" 6)}
+wvSelectSignal -win $_nWave1 {( "Auto focus" 6 )} 
+wvSetPosition -win $_nWave1 {("Auto focus" 6)}
+wvCollapseBus -win $_nWave1 {("Auto focus" 6)}
+wvSetPosition -win $_nWave1 {("Auto focus" 6)}
+wvDisplayGridCount -win $_nWave1 -off
+wvGetSignalClose -win $_nWave1
+wvReloadFile -win $_nWave1
+wvZoomOut -win $_nWave1
+wvScrollUp -win $_nWave1 6
+wvZoomIn -win $_nWave1
+wvScrollUp -win $_nWave1 9
+wvScrollDown -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollDown -win $_nWave1 7
+wvZoomIn -win $_nWave1
+wvSelectGroup -win $_nWave1 {Auto focus}
+wvSelectGroup -win $_nWave1 {Auto focus}
+wvSetPosition -win $_nWave1 {("Auto focus" 0)}
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvScrollUp -win $_nWave1 7
+wvResizeWindow -win $_nWave1 3259 35 1856 990
+wvScrollDown -win $_nWave1 5
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 1
+wvSetCursor -win $_nWave1 4361182.449623 -snap {("Auto exposure" 1)}
+wvSetCursor -win $_nWave1 4375259.192566 -snap {("Auto exposure" 1)}
+wvSetCursor -win $_nWave1 4384643.687862 -snap {("Auto exposure" 1)}
+wvZoomIn -win $_nWave1
+wvSetCursor -win $_nWave1 4363528.573447 -snap {("Auto exposure" 1)}
+wvSetCursor -win $_nWave1 4355551.752446 -snap {("AXI R channel" 5)}
+wvSetCursor -win $_nWave1 4353440.241005 -snap {("AXI R channel" 5)}
+wvSetCursor -win $_nWave1 4354847.915299 -snap {("AXI R channel" 4)}
+wvSetCursor -win $_nWave1 4371505.394448 -snap {("Auto exposure" 1)}
+wvSetCursor -win $_nWave1 4363997.798212 -snap {("Auto exposure" 1)}
+wvSetCursor -win $_nWave1 4371974.619213 -snap {("Auto exposure" 1)}
+wvSetCursor -win $_nWave1 4363293.961065 -snap {("Auto exposure" 1)}
+wvSetCursor -win $_nWave1 4383470.625950 -snap {("Auto exposure" 1)}
+wvScrollDown -win $_nWave1 0
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvGetSignalOpen -win $_nWave1
+wvGetSignalSetScope -win $_nWave1 "/TESTBED/u_ISP"
+wvSetPosition -win $_nWave1 {("Auto focus" 1)}
+wvSetPosition -win $_nWave1 {("Auto focus" 1)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"Input" \
+{/TESTBED/u_ISP/clk} \
+{/TESTBED/u_ISP/rst_n} \
+{/TESTBED/u_ISP/in_valid} \
+{/TESTBED/u_ISP/in_pic_no\[3:0\]} \
+{/TESTBED/u_ISP/in_mode} \
+{/TESTBED/u_ISP/in_ratio_mode\[1:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+{/TESTBED/u_ISP/c_s\[2:0\]} \
+{/TESTBED/u_ISP/n_s\[2:0\]} \
+{/TESTBED/u_ISP/camera_mode} \
+{/TESTBED/u_ISP/pic_no\[3:0\]} \
+{/TESTBED/u_ISP/ratio\[1:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"AXI AR channel" \
+{/TESTBED/u_ISP/arlen_s_inf\[7:0\]} \
+{/TESTBED/u_ISP/araddr_s_inf\[31:0\]} \
+{/TESTBED/u_ISP/arvalid_s_inf} \
+{/TESTBED/u_ISP/arready_s_inf} -color ID_ORANGE6 \
+}
+wvAddSignal -win $_nWave1 -group {"AXI R channel" \
+{/TESTBED/u_ISP/pic_channel\[1:0\]} \
+{/TESTBED/u_ISP/cnt_dram_r\[5:0\]} \
+{/TESTBED/u_ISP/rready_s_inf} \
+{/TESTBED/u_ISP/rvalid_s_inf} -color ID_ORANGE6 \
+{/TESTBED/u_ISP/rdata_s_inf\[127:0\]} -color ID_ORANGE6 \
+{/TESTBED/u_ISP/rlast_s_inf} -color ID_ORANGE6 \
+}
+wvAddSignal -win $_nWave1 -group {"AXI AW channel" \
+{/TESTBED/u_ISP/awlen_s_inf\[7:0\]} \
+{/TESTBED/u_ISP/awaddr_s_inf\[31:0\]} \
+{/TESTBED/u_ISP/awvalid_s_inf} \
+{/TESTBED/u_ISP/awready_s_inf} -color ID_ORANGE6 \
+}
+wvAddSignal -win $_nWave1 -group {"AXI W channel" \
+}
+wvAddSignal -win $_nWave1 -group {"AXI W channel/AXI control" \
+{/TESTBED/u_ISP/cnt_dram_w\[7:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"AXI W channel" {/TESTBED/u_ISP/wvalid_s_inf} \
+{/TESTBED/u_ISP/wvalid_delay2} \
+{/TESTBED/u_ISP/wready_s_inf} -color ID_ORANGE6 \
+{/TESTBED/u_ISP/wdata_s_inf\[127:0\]} \
+{/TESTBED/u_ISP/wlast_s_inf} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus" \
+{/TESTBED/u_ISP/exposure\[127:0\]} \
+{/TESTBED/u_ISP/pic_channel\[1:0\]} \
+{/TESTBED/u_ISP/cnt_dram_r\[5:0\]} \
+{/TESTBED/u_ISP/fifo_valid1} \
+{/TESTBED/u_ISP/fifo_valid2} \
+{/TESTBED/u_ISP/dram_data\[31:0\]} \
+{/TESTBED/u_ISP/focus_map\[11:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Column difference" \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Column difference/Column diff-abs" \
+{/TESTBED/u_ISP/col_diff1_abs\[7:0\]} \
+{/TESTBED/u_ISP/col_diff2_abs\[7:0\]} \
+{/TESTBED/u_ISP/col_diff3_abs\[7:0\]} \
+{/TESTBED/u_ISP/col_diff4_abs\[7:0\]} \
+{/TESTBED/u_ISP/col_diff5_abs\[7:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Column difference/Column diff-signed" \
+{/TESTBED/u_ISP/col_diff1\[7:0\]} \
+{/TESTBED/u_ISP/col_diff2\[7:0\]} \
+{/TESTBED/u_ISP/col_diff3\[7:0\]} \
+{/TESTBED/u_ISP/col_diff4\[7:0\]} \
+{/TESTBED/u_ISP/col_diff5\[7:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "Auto focus/Column difference/Column diff-signed"
+wvAddSignal -win $_nWave1 -group {"Auto focus/Column difference" {/TESTBED/u_ISP/col_sum1\[9:0\]} \
+{/TESTBED/u_ISP/col_sum2\[10:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Column difference/Sum result" \
+{/TESTBED/u_ISP/col_22_valid} \
+{/TESTBED/u_ISP/sumc_2_2\[8:0\]} \
+{/TESTBED/u_ISP/col_44_valid} \
+{/TESTBED/u_ISP/sumc_4_4\[11:0\]} \
+{/TESTBED/u_ISP/col_66_valid} \
+{/TESTBED/u_ISP/sumc_6_6\[13:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Row difference" \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Row difference/Row diff-abs" \
+{/TESTBED/u_ISP/row_diff1_abs\[7:0\]} \
+{/TESTBED/u_ISP/row_diff2_abs\[7:0\]} \
+{/TESTBED/u_ISP/row_diff3_abs\[7:0\]} \
+{/TESTBED/u_ISP/row_diff4_abs\[7:0\]} \
+{/TESTBED/u_ISP/row_diff5_abs\[7:0\]} \
+{/TESTBED/u_ISP/row_diff6_abs\[7:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "Auto focus/Row difference/Row diff-abs"
+wvAddSignal -win $_nWave1 -group {"Auto focus/Row difference/Row diff-signed" \
+{/TESTBED/u_ISP/row_diff1\[7:0\]} \
+{/TESTBED/u_ISP/row_diff2\[7:0\]} \
+{/TESTBED/u_ISP/row_diff3\[7:0\]} \
+{/TESTBED/u_ISP/row_diff4\[7:0\]} \
+{/TESTBED/u_ISP/row_diff5\[7:0\]} \
+{/TESTBED/u_ISP/row_diff6\[7:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "Auto focus/Row difference/Row diff-signed"
+wvAddSignal -win $_nWave1 -group {"Auto focus/Row difference" {/TESTBED/u_ISP/row_sum1\[8:0\]} \
+{/TESTBED/u_ISP/row_sum2\[9:0\]} \
+{/TESTBED/u_ISP/row_sum3\[10:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Row difference/Sum result" \
+{/TESTBED/u_ISP/row_22_valid} \
+{/TESTBED/u_ISP/sumr_2_2\[8:0\]} \
+{/TESTBED/u_ISP/row_44_valid} \
+{/TESTBED/u_ISP/sumr_4_4\[11:0\]} \
+{/TESTBED/u_ISP/row_66_valid} \
+{/TESTBED/u_ISP/sumr_6_6\[13:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Contrast" \
+{/TESTBED/u_ISP/contrast_2_2\[9:0\]} \
+{/TESTBED/u_ISP/contrast_4_4\[12:0\]} \
+{/TESTBED/u_ISP/contrast_6_6\[14:0\]} \
+{/TESTBED/u_ISP/max_contrast\[14:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto exposure" \
+{/TESTBED/u_ISP/expose_fifo\[383:0\]} \
+{/TESTBED/u_ISP/gray_reg\[127:0\]} \
+{/TESTBED/u_ISP/gray_add\[12:0\]} \
+{/TESTBED/u_ISP/gray_sum\[17:0\]} \
+{/TESTBED/u_ISP/gray_avg\[7:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Output" \
+{/TESTBED/u_ISP/pic_expose_valid\[14:0\]} \
+{/TESTBED/u_ISP/out_valid} \
+{/TESTBED/u_ISP/out_data\[7:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"SRAM_Read" \
+{/TESTBED/u_ISP/wvalid_delay1} \
+}
+wvCollapseGroup -win $_nWave1 "SRAM_Read"
+wvAddSignal -win $_nWave1 -group {"SRAM_Write" \
+{/TESTBED/u_ISP/dram_data\[31:0\]} \
+{/TESTBED/u_ISP/exposure\[31:0\]} \
+{/TESTBED/u_ISP/gray_reg\[31:0\]} \
+{/TESTBED/u_ISP/pic_channel\[1:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "SRAM_Write"
+wvAddSignal -win $_nWave1 -group {"G12" \
+}
+wvSelectSignal -win $_nWave1 {( "Auto focus" 1 )} 
+wvSetPosition -win $_nWave1 {("Auto focus" 1)}
+wvSetPosition -win $_nWave1 {("Auto focus" 1)}
+wvSetPosition -win $_nWave1 {("Auto focus" 1)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"Input" \
+{/TESTBED/u_ISP/clk} \
+{/TESTBED/u_ISP/rst_n} \
+{/TESTBED/u_ISP/in_valid} \
+{/TESTBED/u_ISP/in_pic_no\[3:0\]} \
+{/TESTBED/u_ISP/in_mode} \
+{/TESTBED/u_ISP/in_ratio_mode\[1:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+{/TESTBED/u_ISP/c_s\[2:0\]} \
+{/TESTBED/u_ISP/n_s\[2:0\]} \
+{/TESTBED/u_ISP/camera_mode} \
+{/TESTBED/u_ISP/pic_no\[3:0\]} \
+{/TESTBED/u_ISP/ratio\[1:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"AXI AR channel" \
+{/TESTBED/u_ISP/arlen_s_inf\[7:0\]} \
+{/TESTBED/u_ISP/araddr_s_inf\[31:0\]} \
+{/TESTBED/u_ISP/arvalid_s_inf} \
+{/TESTBED/u_ISP/arready_s_inf} -color ID_ORANGE6 \
+}
+wvAddSignal -win $_nWave1 -group {"AXI R channel" \
+{/TESTBED/u_ISP/pic_channel\[1:0\]} \
+{/TESTBED/u_ISP/cnt_dram_r\[5:0\]} \
+{/TESTBED/u_ISP/rready_s_inf} \
+{/TESTBED/u_ISP/rvalid_s_inf} -color ID_ORANGE6 \
+{/TESTBED/u_ISP/rdata_s_inf\[127:0\]} -color ID_ORANGE6 \
+{/TESTBED/u_ISP/rlast_s_inf} -color ID_ORANGE6 \
+}
+wvAddSignal -win $_nWave1 -group {"AXI AW channel" \
+{/TESTBED/u_ISP/awlen_s_inf\[7:0\]} \
+{/TESTBED/u_ISP/awaddr_s_inf\[31:0\]} \
+{/TESTBED/u_ISP/awvalid_s_inf} \
+{/TESTBED/u_ISP/awready_s_inf} -color ID_ORANGE6 \
+}
+wvAddSignal -win $_nWave1 -group {"AXI W channel" \
+}
+wvAddSignal -win $_nWave1 -group {"AXI W channel/AXI control" \
+{/TESTBED/u_ISP/cnt_dram_w\[7:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"AXI W channel" {/TESTBED/u_ISP/wvalid_s_inf} \
+{/TESTBED/u_ISP/wvalid_delay2} \
+{/TESTBED/u_ISP/wready_s_inf} -color ID_ORANGE6 \
+{/TESTBED/u_ISP/wdata_s_inf\[127:0\]} \
+{/TESTBED/u_ISP/wlast_s_inf} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus" \
+{/TESTBED/u_ISP/exposure\[127:0\]} \
+{/TESTBED/u_ISP/pic_channel\[1:0\]} \
+{/TESTBED/u_ISP/cnt_dram_r\[5:0\]} \
+{/TESTBED/u_ISP/fifo_valid1} \
+{/TESTBED/u_ISP/fifo_valid2} \
+{/TESTBED/u_ISP/dram_data\[31:0\]} \
+{/TESTBED/u_ISP/focus_map\[11:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Column difference" \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Column difference/Column diff-abs" \
+{/TESTBED/u_ISP/col_diff1_abs\[7:0\]} \
+{/TESTBED/u_ISP/col_diff2_abs\[7:0\]} \
+{/TESTBED/u_ISP/col_diff3_abs\[7:0\]} \
+{/TESTBED/u_ISP/col_diff4_abs\[7:0\]} \
+{/TESTBED/u_ISP/col_diff5_abs\[7:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Column difference/Column diff-signed" \
+{/TESTBED/u_ISP/col_diff1\[7:0\]} \
+{/TESTBED/u_ISP/col_diff2\[7:0\]} \
+{/TESTBED/u_ISP/col_diff3\[7:0\]} \
+{/TESTBED/u_ISP/col_diff4\[7:0\]} \
+{/TESTBED/u_ISP/col_diff5\[7:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "Auto focus/Column difference/Column diff-signed"
+wvAddSignal -win $_nWave1 -group {"Auto focus/Column difference" {/TESTBED/u_ISP/col_sum1\[9:0\]} \
+{/TESTBED/u_ISP/col_sum2\[10:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Column difference/Sum result" \
+{/TESTBED/u_ISP/col_22_valid} \
+{/TESTBED/u_ISP/sumc_2_2\[8:0\]} \
+{/TESTBED/u_ISP/col_44_valid} \
+{/TESTBED/u_ISP/sumc_4_4\[11:0\]} \
+{/TESTBED/u_ISP/col_66_valid} \
+{/TESTBED/u_ISP/sumc_6_6\[13:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Row difference" \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Row difference/Row diff-abs" \
+{/TESTBED/u_ISP/row_diff1_abs\[7:0\]} \
+{/TESTBED/u_ISP/row_diff2_abs\[7:0\]} \
+{/TESTBED/u_ISP/row_diff3_abs\[7:0\]} \
+{/TESTBED/u_ISP/row_diff4_abs\[7:0\]} \
+{/TESTBED/u_ISP/row_diff5_abs\[7:0\]} \
+{/TESTBED/u_ISP/row_diff6_abs\[7:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "Auto focus/Row difference/Row diff-abs"
+wvAddSignal -win $_nWave1 -group {"Auto focus/Row difference/Row diff-signed" \
+{/TESTBED/u_ISP/row_diff1\[7:0\]} \
+{/TESTBED/u_ISP/row_diff2\[7:0\]} \
+{/TESTBED/u_ISP/row_diff3\[7:0\]} \
+{/TESTBED/u_ISP/row_diff4\[7:0\]} \
+{/TESTBED/u_ISP/row_diff5\[7:0\]} \
+{/TESTBED/u_ISP/row_diff6\[7:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "Auto focus/Row difference/Row diff-signed"
+wvAddSignal -win $_nWave1 -group {"Auto focus/Row difference" {/TESTBED/u_ISP/row_sum1\[8:0\]} \
+{/TESTBED/u_ISP/row_sum2\[9:0\]} \
+{/TESTBED/u_ISP/row_sum3\[10:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Row difference/Sum result" \
+{/TESTBED/u_ISP/row_22_valid} \
+{/TESTBED/u_ISP/sumr_2_2\[8:0\]} \
+{/TESTBED/u_ISP/row_44_valid} \
+{/TESTBED/u_ISP/sumr_4_4\[11:0\]} \
+{/TESTBED/u_ISP/row_66_valid} \
+{/TESTBED/u_ISP/sumr_6_6\[13:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Contrast" \
+{/TESTBED/u_ISP/contrast_2_2\[9:0\]} \
+{/TESTBED/u_ISP/contrast_4_4\[12:0\]} \
+{/TESTBED/u_ISP/contrast_6_6\[14:0\]} \
+{/TESTBED/u_ISP/max_contrast\[14:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto exposure" \
+{/TESTBED/u_ISP/expose_fifo\[383:0\]} \
+{/TESTBED/u_ISP/gray_reg\[127:0\]} \
+{/TESTBED/u_ISP/gray_add\[12:0\]} \
+{/TESTBED/u_ISP/gray_sum\[17:0\]} \
+{/TESTBED/u_ISP/gray_avg\[7:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Output" \
+{/TESTBED/u_ISP/pic_expose_valid\[14:0\]} \
+{/TESTBED/u_ISP/out_valid} \
+{/TESTBED/u_ISP/out_data\[7:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"SRAM_Read" \
+{/TESTBED/u_ISP/wvalid_delay1} \
+}
+wvCollapseGroup -win $_nWave1 "SRAM_Read"
+wvAddSignal -win $_nWave1 -group {"SRAM_Write" \
+{/TESTBED/u_ISP/dram_data\[31:0\]} \
+{/TESTBED/u_ISP/exposure\[31:0\]} \
+{/TESTBED/u_ISP/gray_reg\[31:0\]} \
+{/TESTBED/u_ISP/pic_channel\[1:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "SRAM_Write"
+wvAddSignal -win $_nWave1 -group {"G12" \
+}
+wvSelectSignal -win $_nWave1 {( "Auto focus" 1 )} 
+wvSetPosition -win $_nWave1 {("Auto focus" 1)}
+wvGetSignalClose -win $_nWave1
+wvSelectSignal -win $_nWave1 {( "Auto focus" 1 )} 
+wvSetPosition -win $_nWave1 {("Auto focus/Column difference/Sum result" 0)}
+wvSetPosition -win $_nWave1 {("Auto exposure" 0)}
+wvSetPosition -win $_nWave1 {("Auto exposure" 1)}
+wvSetPosition -win $_nWave1 {("Auto exposure" 2)}
+wvSetPosition -win $_nWave1 {("Auto exposure" 3)}
+wvSetPosition -win $_nWave1 {("Auto exposure" 4)}
+wvSetPosition -win $_nWave1 {("Auto exposure" 3)}
+wvSetPosition -win $_nWave1 {("Auto exposure" 2)}
+wvSetPosition -win $_nWave1 {("Auto exposure" 1)}
+wvMoveSelected -win $_nWave1
+wvSetPosition -win $_nWave1 {("Auto exposure" 2)}
+wvSaveSignal -win $_nWave1 \
+           "/RAID2/COURSE/iclab/iclab131/Midterm_Project/Exercise/01_RTL/signal.rc"
+wvScrollUp -win $_nWave1 7
+wvSelectGroup -win $_nWave1 {Auto focus}
+wvScrollDown -win $_nWave1 0
+wvZoomIn -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomIn -win $_nWave1
+wvSetCursor -win $_nWave1 4390802.991480 -snap {("AXI W channel" 6)}
+wvZoomOut -win $_nWave1
+wvSetCursor -win $_nWave1 4628607.406213 -snap {("AXI W channel" 6)}
+wvSelectSignal -win $_nWave1 {( "Auto exposure" 2 )} 
+wvSetCursor -win $_nWave1 8193897.962141 -snap {("AXI R channel" 5)}
+wvSelectGroup -win $_nWave1 {Auto focus}
+wvSelectSignal -win $_nWave1 {( "Auto focus" 2 )} 
+wvScrollDown -win $_nWave1 7
+wvSelectSignal -win $_nWave1 {( "Auto focus" 5 )} 
+wvSelectGroup -win $_nWave1 {Auto focus}
+wvSelectGroup -win $_nWave1 {Auto exposure}
+wvAddSignal -win $_nWave1 "/TESTBED/u_ISP/dram_data\[31:0\]"
+wvSetPosition -win $_nWave1 {("Auto exposure" 2)}
+wvSetPosition -win $_nWave1 {("Auto exposure" 3)}
+wvSelectSignal -win $_nWave1 {( "Auto exposure" 2 )} 
+wvSelectSignal -win $_nWave1 {( "Auto exposure" 3 )} 
+wvSetPosition -win $_nWave1 {("Auto exposure" 0)}
+wvMoveSelected -win $_nWave1
+wvSetPosition -win $_nWave1 {("Auto exposure" 0)}
+wvSetPosition -win $_nWave1 {("Auto exposure" 1)}
+wvSaveSignal -win $_nWave1 \
+           "/RAID2/COURSE/iclab/iclab131/Midterm_Project/Exercise/01_RTL/signal.rc"
+wvZoomIn -win $_nWave1
+wvZoomOut -win $_nWave1
+wvSelectSignal -win $_nWave1 {( "Auto exposure" 2 )} 
+wvSelectSignal -win $_nWave1 {( "Auto exposure" 1 )} 
+wvZoomIn -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomIn -win $_nWave1
+wvSelectGroup -win $_nWave1 {Auto focus}
+wvSelectGroup -win $_nWave1 {Auto focus}
+wvSelectSignal -win $_nWave1 {( "Auto exposure" 3 )} 
+wvDisplayGridCount -win $_nWave1 -off
+wvGetSignalClose -win $_nWave1
+wvReloadFile -win $_nWave1
+wvResizeWindow -win $_nWave1 0 23 1600 929
+wvResizeWindow -win $_nWave1 53 91 1856 990
+wvResizeWindow -win $_nWave1 481 224 1428 857
+wvResizeWindow -win $_nWave1 3304 53 1787 937
+wvDisplayGridCount -win $_nWave1 -off
+wvGetSignalClose -win $_nWave1
+wvReloadFile -win $_nWave1
+wvGetSignalOpen -win $_nWave1
+wvGetSignalSetScope -win $_nWave1 "/TESTBED/u_ISP"
+wvSetPosition -win $_nWave1 {("Auto exposure" 2)}
+wvSetPosition -win $_nWave1 {("Auto exposure" 2)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"Input" \
+{/TESTBED/u_ISP/clk} \
+{/TESTBED/u_ISP/rst_n} \
+{/TESTBED/u_ISP/in_valid} \
+{/TESTBED/u_ISP/in_pic_no\[3:0\]} \
+{/TESTBED/u_ISP/in_mode} \
+{/TESTBED/u_ISP/in_ratio_mode\[1:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+{/TESTBED/u_ISP/c_s\[2:0\]} \
+{/TESTBED/u_ISP/n_s\[2:0\]} \
+{/TESTBED/u_ISP/camera_mode} \
+{/TESTBED/u_ISP/pic_no\[3:0\]} \
+{/TESTBED/u_ISP/ratio\[1:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"AXI AR channel" \
+{/TESTBED/u_ISP/arlen_s_inf\[7:0\]} \
+{/TESTBED/u_ISP/araddr_s_inf\[31:0\]} \
+{/TESTBED/u_ISP/arvalid_s_inf} \
+{/TESTBED/u_ISP/arready_s_inf} -color ID_ORANGE6 \
+}
+wvAddSignal -win $_nWave1 -group {"AXI R channel" \
+{/TESTBED/u_ISP/pic_channel\[1:0\]} \
+{/TESTBED/u_ISP/cnt_dram_r\[5:0\]} \
+{/TESTBED/u_ISP/rready_s_inf} \
+{/TESTBED/u_ISP/rvalid_s_inf} -color ID_ORANGE6 \
+{/TESTBED/u_ISP/rdata_s_inf\[127:0\]} -color ID_ORANGE6 \
+{/TESTBED/u_ISP/rlast_s_inf} -color ID_ORANGE6 \
+}
+wvAddSignal -win $_nWave1 -group {"AXI AW channel" \
+{/TESTBED/u_ISP/awlen_s_inf\[7:0\]} \
+{/TESTBED/u_ISP/awaddr_s_inf\[31:0\]} \
+{/TESTBED/u_ISP/awvalid_s_inf} \
+{/TESTBED/u_ISP/awready_s_inf} -color ID_ORANGE6 \
+}
+wvAddSignal -win $_nWave1 -group {"AXI W channel" \
+}
+wvAddSignal -win $_nWave1 -group {"AXI W channel/AXI control" \
+{/TESTBED/u_ISP/cnt_dram_w\[7:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"AXI W channel" {/TESTBED/u_ISP/wvalid_s_inf} \
+{/TESTBED/u_ISP/wvalid_delay2} \
+{/TESTBED/u_ISP/wready_s_inf} -color ID_ORANGE6 \
+{/TESTBED/u_ISP/wdata_s_inf\[127:0\]} \
+{/TESTBED/u_ISP/wlast_s_inf} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus" \
+{/TESTBED/u_ISP/pic_channel\[1:0\]} \
+{/TESTBED/u_ISP/cnt_dram_r\[5:0\]} \
+{/TESTBED/u_ISP/fifo_valid1} \
+{/TESTBED/u_ISP/fifo_valid2} \
+{/TESTBED/u_ISP/dram_data\[31:0\]} \
+{/TESTBED/u_ISP/focus_map\[11:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Column difference" \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Column difference/Column diff-abs" \
+{/TESTBED/u_ISP/col_diff1_abs\[7:0\]} \
+{/TESTBED/u_ISP/col_diff2_abs\[7:0\]} \
+{/TESTBED/u_ISP/col_diff3_abs\[7:0\]} \
+{/TESTBED/u_ISP/col_diff4_abs\[7:0\]} \
+{/TESTBED/u_ISP/col_diff5_abs\[7:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Column difference/Column diff-signed" \
+{/TESTBED/u_ISP/col_diff1\[7:0\]} \
+{/TESTBED/u_ISP/col_diff2\[7:0\]} \
+{/TESTBED/u_ISP/col_diff3\[7:0\]} \
+{/TESTBED/u_ISP/col_diff4\[7:0\]} \
+{/TESTBED/u_ISP/col_diff5\[7:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "Auto focus/Column difference/Column diff-signed"
+wvAddSignal -win $_nWave1 -group {"Auto focus/Column difference" {/TESTBED/u_ISP/col_sum1\[9:0\]} \
+{/TESTBED/u_ISP/col_sum2\[10:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Column difference/Sum result" \
+{/TESTBED/u_ISP/col_22_valid} \
+{/TESTBED/u_ISP/sumc_2_2\[8:0\]} \
+{/TESTBED/u_ISP/col_44_valid} \
+{/TESTBED/u_ISP/sumc_4_4\[11:0\]} \
+{/TESTBED/u_ISP/col_66_valid} \
+{/TESTBED/u_ISP/sumc_6_6\[13:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Row difference" \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Row difference/Row diff-abs" \
+{/TESTBED/u_ISP/row_diff1_abs\[7:0\]} \
+{/TESTBED/u_ISP/row_diff2_abs\[7:0\]} \
+{/TESTBED/u_ISP/row_diff3_abs\[7:0\]} \
+{/TESTBED/u_ISP/row_diff4_abs\[7:0\]} \
+{/TESTBED/u_ISP/row_diff5_abs\[7:0\]} \
+{/TESTBED/u_ISP/row_diff6_abs\[7:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "Auto focus/Row difference/Row diff-abs"
+wvAddSignal -win $_nWave1 -group {"Auto focus/Row difference/Row diff-signed" \
+{/TESTBED/u_ISP/row_diff1\[7:0\]} \
+{/TESTBED/u_ISP/row_diff2\[7:0\]} \
+{/TESTBED/u_ISP/row_diff3\[7:0\]} \
+{/TESTBED/u_ISP/row_diff4\[7:0\]} \
+{/TESTBED/u_ISP/row_diff5\[7:0\]} \
+{/TESTBED/u_ISP/row_diff6\[7:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "Auto focus/Row difference/Row diff-signed"
+wvAddSignal -win $_nWave1 -group {"Auto focus/Row difference" {/TESTBED/u_ISP/row_sum1\[8:0\]} \
+{/TESTBED/u_ISP/row_sum2\[9:0\]} \
+{/TESTBED/u_ISP/row_sum3\[10:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Row difference/Sum result" \
+{/TESTBED/u_ISP/row_22_valid} \
+{/TESTBED/u_ISP/sumr_2_2\[8:0\]} \
+{/TESTBED/u_ISP/row_44_valid} \
+{/TESTBED/u_ISP/sumr_4_4\[11:0\]} \
+{/TESTBED/u_ISP/row_66_valid} \
+{/TESTBED/u_ISP/sumr_6_6\[13:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Contrast" \
+{/TESTBED/u_ISP/contrast_2_2\[9:0\]} \
+{/TESTBED/u_ISP/contrast_4_4\[12:0\]} \
+{/TESTBED/u_ISP/contrast_6_6\[14:0\]} \
+{/TESTBED/u_ISP/max_contrast\[14:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "Auto focus"
+wvAddSignal -win $_nWave1 -group {"Auto exposure" \
+{/TESTBED/u_ISP/dram_data\[31:0\]} \
+{/TESTBED/u_ISP/gray_reg_focus\[31:0\]} \
+{/TESTBED/u_ISP/expose_fifo\[383:0\]} \
+{/TESTBED/u_ISP/exposure\[127:0\]} \
+{/TESTBED/u_ISP/gray_reg\[127:0\]} \
+{/TESTBED/u_ISP/gray_add\[12:0\]} \
+{/TESTBED/u_ISP/gray_sum\[17:0\]} \
+{/TESTBED/u_ISP/gray_avg\[7:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Output" \
+{/TESTBED/u_ISP/pic_expose_valid\[14:0\]} \
+{/TESTBED/u_ISP/out_valid} \
+{/TESTBED/u_ISP/out_data\[7:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"SRAM_Read" \
+{/TESTBED/u_ISP/wvalid_delay1} \
+}
+wvCollapseGroup -win $_nWave1 "SRAM_Read"
+wvAddSignal -win $_nWave1 -group {"SRAM_Write" \
+{/TESTBED/u_ISP/dram_data\[31:0\]} \
+{/TESTBED/u_ISP/exposure\[31:0\]} \
+{/TESTBED/u_ISP/gray_reg\[31:0\]} \
+{/TESTBED/u_ISP/pic_channel\[1:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "SRAM_Write"
+wvAddSignal -win $_nWave1 -group {"G12" \
+}
+wvSelectSignal -win $_nWave1 {( "Auto exposure" 2 )} 
+wvSetPosition -win $_nWave1 {("Auto exposure" 2)}
+wvSetPosition -win $_nWave1 {("Auto exposure" 2)}
+wvSetPosition -win $_nWave1 {("Auto exposure" 2)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"Input" \
+{/TESTBED/u_ISP/clk} \
+{/TESTBED/u_ISP/rst_n} \
+{/TESTBED/u_ISP/in_valid} \
+{/TESTBED/u_ISP/in_pic_no\[3:0\]} \
+{/TESTBED/u_ISP/in_mode} \
+{/TESTBED/u_ISP/in_ratio_mode\[1:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+{/TESTBED/u_ISP/c_s\[2:0\]} \
+{/TESTBED/u_ISP/n_s\[2:0\]} \
+{/TESTBED/u_ISP/camera_mode} \
+{/TESTBED/u_ISP/pic_no\[3:0\]} \
+{/TESTBED/u_ISP/ratio\[1:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"AXI AR channel" \
+{/TESTBED/u_ISP/arlen_s_inf\[7:0\]} \
+{/TESTBED/u_ISP/araddr_s_inf\[31:0\]} \
+{/TESTBED/u_ISP/arvalid_s_inf} \
+{/TESTBED/u_ISP/arready_s_inf} -color ID_ORANGE6 \
+}
+wvAddSignal -win $_nWave1 -group {"AXI R channel" \
+{/TESTBED/u_ISP/pic_channel\[1:0\]} \
+{/TESTBED/u_ISP/cnt_dram_r\[5:0\]} \
+{/TESTBED/u_ISP/rready_s_inf} \
+{/TESTBED/u_ISP/rvalid_s_inf} -color ID_ORANGE6 \
+{/TESTBED/u_ISP/rdata_s_inf\[127:0\]} -color ID_ORANGE6 \
+{/TESTBED/u_ISP/rlast_s_inf} -color ID_ORANGE6 \
+}
+wvAddSignal -win $_nWave1 -group {"AXI AW channel" \
+{/TESTBED/u_ISP/awlen_s_inf\[7:0\]} \
+{/TESTBED/u_ISP/awaddr_s_inf\[31:0\]} \
+{/TESTBED/u_ISP/awvalid_s_inf} \
+{/TESTBED/u_ISP/awready_s_inf} -color ID_ORANGE6 \
+}
+wvAddSignal -win $_nWave1 -group {"AXI W channel" \
+}
+wvAddSignal -win $_nWave1 -group {"AXI W channel/AXI control" \
+{/TESTBED/u_ISP/cnt_dram_w\[7:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"AXI W channel" {/TESTBED/u_ISP/wvalid_s_inf} \
+{/TESTBED/u_ISP/wvalid_delay2} \
+{/TESTBED/u_ISP/wready_s_inf} -color ID_ORANGE6 \
+{/TESTBED/u_ISP/wdata_s_inf\[127:0\]} \
+{/TESTBED/u_ISP/wlast_s_inf} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus" \
+{/TESTBED/u_ISP/pic_channel\[1:0\]} \
+{/TESTBED/u_ISP/cnt_dram_r\[5:0\]} \
+{/TESTBED/u_ISP/fifo_valid1} \
+{/TESTBED/u_ISP/fifo_valid2} \
+{/TESTBED/u_ISP/dram_data\[31:0\]} \
+{/TESTBED/u_ISP/focus_map\[11:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Column difference" \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Column difference/Column diff-abs" \
+{/TESTBED/u_ISP/col_diff1_abs\[7:0\]} \
+{/TESTBED/u_ISP/col_diff2_abs\[7:0\]} \
+{/TESTBED/u_ISP/col_diff3_abs\[7:0\]} \
+{/TESTBED/u_ISP/col_diff4_abs\[7:0\]} \
+{/TESTBED/u_ISP/col_diff5_abs\[7:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Column difference/Column diff-signed" \
+{/TESTBED/u_ISP/col_diff1\[7:0\]} \
+{/TESTBED/u_ISP/col_diff2\[7:0\]} \
+{/TESTBED/u_ISP/col_diff3\[7:0\]} \
+{/TESTBED/u_ISP/col_diff4\[7:0\]} \
+{/TESTBED/u_ISP/col_diff5\[7:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "Auto focus/Column difference/Column diff-signed"
+wvAddSignal -win $_nWave1 -group {"Auto focus/Column difference" {/TESTBED/u_ISP/col_sum1\[9:0\]} \
+{/TESTBED/u_ISP/col_sum2\[10:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Column difference/Sum result" \
+{/TESTBED/u_ISP/col_22_valid} \
+{/TESTBED/u_ISP/sumc_2_2\[8:0\]} \
+{/TESTBED/u_ISP/col_44_valid} \
+{/TESTBED/u_ISP/sumc_4_4\[11:0\]} \
+{/TESTBED/u_ISP/col_66_valid} \
+{/TESTBED/u_ISP/sumc_6_6\[13:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Row difference" \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Row difference/Row diff-abs" \
+{/TESTBED/u_ISP/row_diff1_abs\[7:0\]} \
+{/TESTBED/u_ISP/row_diff2_abs\[7:0\]} \
+{/TESTBED/u_ISP/row_diff3_abs\[7:0\]} \
+{/TESTBED/u_ISP/row_diff4_abs\[7:0\]} \
+{/TESTBED/u_ISP/row_diff5_abs\[7:0\]} \
+{/TESTBED/u_ISP/row_diff6_abs\[7:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "Auto focus/Row difference/Row diff-abs"
+wvAddSignal -win $_nWave1 -group {"Auto focus/Row difference/Row diff-signed" \
+{/TESTBED/u_ISP/row_diff1\[7:0\]} \
+{/TESTBED/u_ISP/row_diff2\[7:0\]} \
+{/TESTBED/u_ISP/row_diff3\[7:0\]} \
+{/TESTBED/u_ISP/row_diff4\[7:0\]} \
+{/TESTBED/u_ISP/row_diff5\[7:0\]} \
+{/TESTBED/u_ISP/row_diff6\[7:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "Auto focus/Row difference/Row diff-signed"
+wvAddSignal -win $_nWave1 -group {"Auto focus/Row difference" {/TESTBED/u_ISP/row_sum1\[8:0\]} \
+{/TESTBED/u_ISP/row_sum2\[9:0\]} \
+{/TESTBED/u_ISP/row_sum3\[10:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Row difference/Sum result" \
+{/TESTBED/u_ISP/row_22_valid} \
+{/TESTBED/u_ISP/sumr_2_2\[8:0\]} \
+{/TESTBED/u_ISP/row_44_valid} \
+{/TESTBED/u_ISP/sumr_4_4\[11:0\]} \
+{/TESTBED/u_ISP/row_66_valid} \
+{/TESTBED/u_ISP/sumr_6_6\[13:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Contrast" \
+{/TESTBED/u_ISP/contrast_2_2\[9:0\]} \
+{/TESTBED/u_ISP/contrast_4_4\[12:0\]} \
+{/TESTBED/u_ISP/contrast_6_6\[14:0\]} \
+{/TESTBED/u_ISP/max_contrast\[14:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "Auto focus"
+wvAddSignal -win $_nWave1 -group {"Auto exposure" \
+{/TESTBED/u_ISP/dram_data\[31:0\]} \
+{/TESTBED/u_ISP/gray_reg_focus\[31:0\]} \
+{/TESTBED/u_ISP/expose_fifo\[383:0\]} \
+{/TESTBED/u_ISP/exposure\[127:0\]} \
+{/TESTBED/u_ISP/gray_reg\[127:0\]} \
+{/TESTBED/u_ISP/gray_add\[12:0\]} \
+{/TESTBED/u_ISP/gray_sum\[17:0\]} \
+{/TESTBED/u_ISP/gray_avg\[7:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Output" \
+{/TESTBED/u_ISP/pic_expose_valid\[14:0\]} \
+{/TESTBED/u_ISP/out_valid} \
+{/TESTBED/u_ISP/out_data\[7:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"SRAM_Read" \
+{/TESTBED/u_ISP/wvalid_delay1} \
+}
+wvCollapseGroup -win $_nWave1 "SRAM_Read"
+wvAddSignal -win $_nWave1 -group {"SRAM_Write" \
+{/TESTBED/u_ISP/dram_data\[31:0\]} \
+{/TESTBED/u_ISP/exposure\[31:0\]} \
+{/TESTBED/u_ISP/gray_reg\[31:0\]} \
+{/TESTBED/u_ISP/pic_channel\[1:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "SRAM_Write"
+wvAddSignal -win $_nWave1 -group {"G12" \
+}
+wvSelectSignal -win $_nWave1 {( "Auto exposure" 2 )} 
+wvSetPosition -win $_nWave1 {("Auto exposure" 2)}
+wvGetSignalClose -win $_nWave1
+wvSelectGroup -win $_nWave1 {Auto exposure}
+wvSetPosition -win $_nWave1 {("Auto exposure" 0)}
+wvSetPosition -win $_nWave1 {("Auto exposure" 0)}
+wvAddSubGroup -win $_nWave1 {Auto exposure-1}
+wvRenameGroup -win $_nWave1 {Auto exposure/Auto exposure-1} {Focus}
+wvSelectGroup -win $_nWave1 {Auto exposure/Focus}
+wvSelectSignal -win $_nWave1 {( "Auto exposure" 2 3 )} 
+wvSetPosition -win $_nWave1 {("Auto exposure" 2)}
+wvSetPosition -win $_nWave1 {("Auto exposure/Focus" 0)}
+wvMoveSelected -win $_nWave1
+wvSetPosition -win $_nWave1 {("Auto exposure/Focus" 0)}
+wvSetPosition -win $_nWave1 {("Auto exposure/Focus" 2)}
+wvSelectSignal -win $_nWave1 {( "Auto exposure" 4 )} 
+wvSelectSignal -win $_nWave1 {( "Auto exposure/Focus" 1 )} 
+wvSelectGroup -win $_nWave1 {Auto exposure}
+wvZoomOut -win $_nWave1
+wvZoomIn -win $_nWave1
+wvScrollUp -win $_nWave1 4
+wvSetCursor -win $_nWave1 4626559.342336 -snap {("AXI W channel" 6)}
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvSelectGroup -win $_nWave1 {Auto focus}
+wvSelectGroup -win $_nWave1 {Auto focus}
+wvSetCursor -win $_nWave1 4619046.256608 -snap {("Auto exposure" 5)}
+wvDisplayGridCount -win $_nWave1 -off
+wvGetSignalClose -win $_nWave1
+wvReloadFile -win $_nWave1
+wvDisplayGridCount -win $_nWave1 -off
+wvGetSignalClose -win $_nWave1
+wvReloadFile -win $_nWave1
+wvGetSignalOpen -win $_nWave1
+wvGetSignalSetScope -win $_nWave1 "/TESTBED/u_ISP"
+wvSetPosition -win $_nWave1 {("Auto exposure/Focus" 3)}
+wvSetPosition -win $_nWave1 {("Auto exposure/Focus" 3)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"Input" \
+{/TESTBED/u_ISP/clk} \
+{/TESTBED/u_ISP/rst_n} \
+{/TESTBED/u_ISP/in_valid} \
+{/TESTBED/u_ISP/in_pic_no\[3:0\]} \
+{/TESTBED/u_ISP/in_mode} \
+{/TESTBED/u_ISP/in_ratio_mode\[1:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+{/TESTBED/u_ISP/c_s\[2:0\]} \
+{/TESTBED/u_ISP/n_s\[2:0\]} \
+{/TESTBED/u_ISP/camera_mode} \
+{/TESTBED/u_ISP/pic_no\[3:0\]} \
+{/TESTBED/u_ISP/ratio\[1:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"AXI AR channel" \
+{/TESTBED/u_ISP/arlen_s_inf\[7:0\]} \
+{/TESTBED/u_ISP/araddr_s_inf\[31:0\]} \
+{/TESTBED/u_ISP/arvalid_s_inf} \
+{/TESTBED/u_ISP/arready_s_inf} -color ID_ORANGE6 \
+}
+wvAddSignal -win $_nWave1 -group {"AXI R channel" \
+{/TESTBED/u_ISP/pic_channel\[1:0\]} \
+{/TESTBED/u_ISP/cnt_dram_r\[5:0\]} \
+{/TESTBED/u_ISP/rready_s_inf} \
+{/TESTBED/u_ISP/rvalid_s_inf} -color ID_ORANGE6 \
+{/TESTBED/u_ISP/rdata_s_inf\[127:0\]} -color ID_ORANGE6 \
+{/TESTBED/u_ISP/rlast_s_inf} -color ID_ORANGE6 \
+}
+wvAddSignal -win $_nWave1 -group {"AXI AW channel" \
+{/TESTBED/u_ISP/awlen_s_inf\[7:0\]} \
+{/TESTBED/u_ISP/awaddr_s_inf\[31:0\]} \
+{/TESTBED/u_ISP/awvalid_s_inf} \
+{/TESTBED/u_ISP/awready_s_inf} -color ID_ORANGE6 \
+}
+wvAddSignal -win $_nWave1 -group {"AXI W channel" \
+}
+wvAddSignal -win $_nWave1 -group {"AXI W channel/AXI control" \
+{/TESTBED/u_ISP/cnt_dram_w\[7:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"AXI W channel" {/TESTBED/u_ISP/wvalid_s_inf} \
+{/TESTBED/u_ISP/wvalid_delay2} \
+{/TESTBED/u_ISP/wready_s_inf} -color ID_ORANGE6 \
+{/TESTBED/u_ISP/wdata_s_inf\[127:0\]} \
+{/TESTBED/u_ISP/wlast_s_inf} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus" \
+{/TESTBED/u_ISP/pic_channel\[1:0\]} \
+{/TESTBED/u_ISP/cnt_dram_r\[5:0\]} \
+{/TESTBED/u_ISP/fifo_valid1} \
+{/TESTBED/u_ISP/fifo_valid2} \
+{/TESTBED/u_ISP/dram_data\[31:0\]} \
+{/TESTBED/u_ISP/focus_map\[11:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Column difference" \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Column difference/Column diff-abs" \
+{/TESTBED/u_ISP/col_diff1_abs\[7:0\]} \
+{/TESTBED/u_ISP/col_diff2_abs\[7:0\]} \
+{/TESTBED/u_ISP/col_diff3_abs\[7:0\]} \
+{/TESTBED/u_ISP/col_diff4_abs\[7:0\]} \
+{/TESTBED/u_ISP/col_diff5_abs\[7:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Column difference/Column diff-signed" \
+{/TESTBED/u_ISP/col_diff1\[7:0\]} \
+{/TESTBED/u_ISP/col_diff2\[7:0\]} \
+{/TESTBED/u_ISP/col_diff3\[7:0\]} \
+{/TESTBED/u_ISP/col_diff4\[7:0\]} \
+{/TESTBED/u_ISP/col_diff5\[7:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "Auto focus/Column difference/Column diff-signed"
+wvAddSignal -win $_nWave1 -group {"Auto focus/Column difference" {/TESTBED/u_ISP/col_sum1\[9:0\]} \
+{/TESTBED/u_ISP/col_sum2\[10:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Column difference/Sum result" \
+{/TESTBED/u_ISP/col_22_valid} \
+{/TESTBED/u_ISP/sumc_2_2\[8:0\]} \
+{/TESTBED/u_ISP/col_44_valid} \
+{/TESTBED/u_ISP/sumc_4_4\[11:0\]} \
+{/TESTBED/u_ISP/col_66_valid} \
+{/TESTBED/u_ISP/sumc_6_6\[13:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Row difference" \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Row difference/Row diff-abs" \
+{/TESTBED/u_ISP/row_diff1_abs\[7:0\]} \
+{/TESTBED/u_ISP/row_diff2_abs\[7:0\]} \
+{/TESTBED/u_ISP/row_diff3_abs\[7:0\]} \
+{/TESTBED/u_ISP/row_diff4_abs\[7:0\]} \
+{/TESTBED/u_ISP/row_diff5_abs\[7:0\]} \
+{/TESTBED/u_ISP/row_diff6_abs\[7:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "Auto focus/Row difference/Row diff-abs"
+wvAddSignal -win $_nWave1 -group {"Auto focus/Row difference/Row diff-signed" \
+{/TESTBED/u_ISP/row_diff1\[7:0\]} \
+{/TESTBED/u_ISP/row_diff2\[7:0\]} \
+{/TESTBED/u_ISP/row_diff3\[7:0\]} \
+{/TESTBED/u_ISP/row_diff4\[7:0\]} \
+{/TESTBED/u_ISP/row_diff5\[7:0\]} \
+{/TESTBED/u_ISP/row_diff6\[7:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "Auto focus/Row difference/Row diff-signed"
+wvAddSignal -win $_nWave1 -group {"Auto focus/Row difference" {/TESTBED/u_ISP/row_sum1\[8:0\]} \
+{/TESTBED/u_ISP/row_sum2\[9:0\]} \
+{/TESTBED/u_ISP/row_sum3\[10:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Row difference/Sum result" \
+{/TESTBED/u_ISP/row_22_valid} \
+{/TESTBED/u_ISP/sumr_2_2\[8:0\]} \
+{/TESTBED/u_ISP/row_44_valid} \
+{/TESTBED/u_ISP/sumr_4_4\[11:0\]} \
+{/TESTBED/u_ISP/row_66_valid} \
+{/TESTBED/u_ISP/sumr_6_6\[13:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Contrast" \
+{/TESTBED/u_ISP/contrast_2_2\[9:0\]} \
+{/TESTBED/u_ISP/contrast_4_4\[12:0\]} \
+{/TESTBED/u_ISP/contrast_6_6\[14:0\]} \
+{/TESTBED/u_ISP/max_contrast\[14:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "Auto focus"
+wvAddSignal -win $_nWave1 -group {"Auto exposure" \
+}
+wvAddSignal -win $_nWave1 -group {"Auto exposure/Focus" \
+{/TESTBED/u_ISP/dram_data\[31:0\]} \
+{/TESTBED/u_ISP/gray_reg_focus\[31:0\]} \
+{/TESTBED/u_ISP/expose_data\[31:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto exposure" {/TESTBED/u_ISP/expose_fifo\[383:0\]} \
+{/TESTBED/u_ISP/exposure\[127:0\]} \
+{/TESTBED/u_ISP/gray_reg\[127:0\]} \
+{/TESTBED/u_ISP/gray_add\[12:0\]} \
+{/TESTBED/u_ISP/gray_sum\[17:0\]} \
+{/TESTBED/u_ISP/gray_avg\[7:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Output" \
+{/TESTBED/u_ISP/pic_expose_valid\[14:0\]} \
+{/TESTBED/u_ISP/out_valid} \
+{/TESTBED/u_ISP/out_data\[7:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"SRAM_Read" \
+{/TESTBED/u_ISP/wvalid_delay1} \
+}
+wvCollapseGroup -win $_nWave1 "SRAM_Read"
+wvAddSignal -win $_nWave1 -group {"SRAM_Write" \
+{/TESTBED/u_ISP/dram_data\[31:0\]} \
+{/TESTBED/u_ISP/exposure\[31:0\]} \
+{/TESTBED/u_ISP/gray_reg\[31:0\]} \
+{/TESTBED/u_ISP/pic_channel\[1:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "SRAM_Write"
+wvAddSignal -win $_nWave1 -group {"G12" \
+}
+wvSelectSignal -win $_nWave1 {( "Auto exposure/Focus" 3 )} 
+wvSetPosition -win $_nWave1 {("Auto exposure/Focus" 3)}
+wvSetPosition -win $_nWave1 {("Auto exposure/Focus" 3)}
+wvSetPosition -win $_nWave1 {("Auto exposure/Focus" 3)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"Input" \
+{/TESTBED/u_ISP/clk} \
+{/TESTBED/u_ISP/rst_n} \
+{/TESTBED/u_ISP/in_valid} \
+{/TESTBED/u_ISP/in_pic_no\[3:0\]} \
+{/TESTBED/u_ISP/in_mode} \
+{/TESTBED/u_ISP/in_ratio_mode\[1:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+{/TESTBED/u_ISP/c_s\[2:0\]} \
+{/TESTBED/u_ISP/n_s\[2:0\]} \
+{/TESTBED/u_ISP/camera_mode} \
+{/TESTBED/u_ISP/pic_no\[3:0\]} \
+{/TESTBED/u_ISP/ratio\[1:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"AXI AR channel" \
+{/TESTBED/u_ISP/arlen_s_inf\[7:0\]} \
+{/TESTBED/u_ISP/araddr_s_inf\[31:0\]} \
+{/TESTBED/u_ISP/arvalid_s_inf} \
+{/TESTBED/u_ISP/arready_s_inf} -color ID_ORANGE6 \
+}
+wvAddSignal -win $_nWave1 -group {"AXI R channel" \
+{/TESTBED/u_ISP/pic_channel\[1:0\]} \
+{/TESTBED/u_ISP/cnt_dram_r\[5:0\]} \
+{/TESTBED/u_ISP/rready_s_inf} \
+{/TESTBED/u_ISP/rvalid_s_inf} -color ID_ORANGE6 \
+{/TESTBED/u_ISP/rdata_s_inf\[127:0\]} -color ID_ORANGE6 \
+{/TESTBED/u_ISP/rlast_s_inf} -color ID_ORANGE6 \
+}
+wvAddSignal -win $_nWave1 -group {"AXI AW channel" \
+{/TESTBED/u_ISP/awlen_s_inf\[7:0\]} \
+{/TESTBED/u_ISP/awaddr_s_inf\[31:0\]} \
+{/TESTBED/u_ISP/awvalid_s_inf} \
+{/TESTBED/u_ISP/awready_s_inf} -color ID_ORANGE6 \
+}
+wvAddSignal -win $_nWave1 -group {"AXI W channel" \
+}
+wvAddSignal -win $_nWave1 -group {"AXI W channel/AXI control" \
+{/TESTBED/u_ISP/cnt_dram_w\[7:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"AXI W channel" {/TESTBED/u_ISP/wvalid_s_inf} \
+{/TESTBED/u_ISP/wvalid_delay2} \
+{/TESTBED/u_ISP/wready_s_inf} -color ID_ORANGE6 \
+{/TESTBED/u_ISP/wdata_s_inf\[127:0\]} \
+{/TESTBED/u_ISP/wlast_s_inf} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus" \
+{/TESTBED/u_ISP/pic_channel\[1:0\]} \
+{/TESTBED/u_ISP/cnt_dram_r\[5:0\]} \
+{/TESTBED/u_ISP/fifo_valid1} \
+{/TESTBED/u_ISP/fifo_valid2} \
+{/TESTBED/u_ISP/dram_data\[31:0\]} \
+{/TESTBED/u_ISP/focus_map\[11:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Column difference" \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Column difference/Column diff-abs" \
+{/TESTBED/u_ISP/col_diff1_abs\[7:0\]} \
+{/TESTBED/u_ISP/col_diff2_abs\[7:0\]} \
+{/TESTBED/u_ISP/col_diff3_abs\[7:0\]} \
+{/TESTBED/u_ISP/col_diff4_abs\[7:0\]} \
+{/TESTBED/u_ISP/col_diff5_abs\[7:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Column difference/Column diff-signed" \
+{/TESTBED/u_ISP/col_diff1\[7:0\]} \
+{/TESTBED/u_ISP/col_diff2\[7:0\]} \
+{/TESTBED/u_ISP/col_diff3\[7:0\]} \
+{/TESTBED/u_ISP/col_diff4\[7:0\]} \
+{/TESTBED/u_ISP/col_diff5\[7:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "Auto focus/Column difference/Column diff-signed"
+wvAddSignal -win $_nWave1 -group {"Auto focus/Column difference" {/TESTBED/u_ISP/col_sum1\[9:0\]} \
+{/TESTBED/u_ISP/col_sum2\[10:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Column difference/Sum result" \
+{/TESTBED/u_ISP/col_22_valid} \
+{/TESTBED/u_ISP/sumc_2_2\[8:0\]} \
+{/TESTBED/u_ISP/col_44_valid} \
+{/TESTBED/u_ISP/sumc_4_4\[11:0\]} \
+{/TESTBED/u_ISP/col_66_valid} \
+{/TESTBED/u_ISP/sumc_6_6\[13:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Row difference" \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Row difference/Row diff-abs" \
+{/TESTBED/u_ISP/row_diff1_abs\[7:0\]} \
+{/TESTBED/u_ISP/row_diff2_abs\[7:0\]} \
+{/TESTBED/u_ISP/row_diff3_abs\[7:0\]} \
+{/TESTBED/u_ISP/row_diff4_abs\[7:0\]} \
+{/TESTBED/u_ISP/row_diff5_abs\[7:0\]} \
+{/TESTBED/u_ISP/row_diff6_abs\[7:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "Auto focus/Row difference/Row diff-abs"
+wvAddSignal -win $_nWave1 -group {"Auto focus/Row difference/Row diff-signed" \
+{/TESTBED/u_ISP/row_diff1\[7:0\]} \
+{/TESTBED/u_ISP/row_diff2\[7:0\]} \
+{/TESTBED/u_ISP/row_diff3\[7:0\]} \
+{/TESTBED/u_ISP/row_diff4\[7:0\]} \
+{/TESTBED/u_ISP/row_diff5\[7:0\]} \
+{/TESTBED/u_ISP/row_diff6\[7:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "Auto focus/Row difference/Row diff-signed"
+wvAddSignal -win $_nWave1 -group {"Auto focus/Row difference" {/TESTBED/u_ISP/row_sum1\[8:0\]} \
+{/TESTBED/u_ISP/row_sum2\[9:0\]} \
+{/TESTBED/u_ISP/row_sum3\[10:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Row difference/Sum result" \
+{/TESTBED/u_ISP/row_22_valid} \
+{/TESTBED/u_ISP/sumr_2_2\[8:0\]} \
+{/TESTBED/u_ISP/row_44_valid} \
+{/TESTBED/u_ISP/sumr_4_4\[11:0\]} \
+{/TESTBED/u_ISP/row_66_valid} \
+{/TESTBED/u_ISP/sumr_6_6\[13:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Contrast" \
+{/TESTBED/u_ISP/contrast_2_2\[9:0\]} \
+{/TESTBED/u_ISP/contrast_4_4\[12:0\]} \
+{/TESTBED/u_ISP/contrast_6_6\[14:0\]} \
+{/TESTBED/u_ISP/max_contrast\[14:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "Auto focus"
+wvAddSignal -win $_nWave1 -group {"Auto exposure" \
+}
+wvAddSignal -win $_nWave1 -group {"Auto exposure/Focus" \
+{/TESTBED/u_ISP/dram_data\[31:0\]} \
+{/TESTBED/u_ISP/gray_reg_focus\[31:0\]} \
+{/TESTBED/u_ISP/expose_data\[31:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto exposure" {/TESTBED/u_ISP/expose_fifo\[383:0\]} \
+{/TESTBED/u_ISP/exposure\[127:0\]} \
+{/TESTBED/u_ISP/gray_reg\[127:0\]} \
+{/TESTBED/u_ISP/gray_add\[12:0\]} \
+{/TESTBED/u_ISP/gray_sum\[17:0\]} \
+{/TESTBED/u_ISP/gray_avg\[7:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Output" \
+{/TESTBED/u_ISP/pic_expose_valid\[14:0\]} \
+{/TESTBED/u_ISP/out_valid} \
+{/TESTBED/u_ISP/out_data\[7:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"SRAM_Read" \
+{/TESTBED/u_ISP/wvalid_delay1} \
+}
+wvCollapseGroup -win $_nWave1 "SRAM_Read"
+wvAddSignal -win $_nWave1 -group {"SRAM_Write" \
+{/TESTBED/u_ISP/dram_data\[31:0\]} \
+{/TESTBED/u_ISP/exposure\[31:0\]} \
+{/TESTBED/u_ISP/gray_reg\[31:0\]} \
+{/TESTBED/u_ISP/pic_channel\[1:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "SRAM_Write"
+wvAddSignal -win $_nWave1 -group {"G12" \
+}
+wvSelectSignal -win $_nWave1 {( "Auto exposure/Focus" 3 )} 
+wvSetPosition -win $_nWave1 {("Auto exposure/Focus" 3)}
+wvGetSignalClose -win $_nWave1
+wvSelectSignal -win $_nWave1 {( "Auto exposure/Focus" 3 )} 
+wvSelectSignal -win $_nWave1 {( "Auto exposure/Focus" 3 )} 
+wvSetPosition -win $_nWave1 {("Auto exposure/Focus" 1)}
+wvMoveSelected -win $_nWave1
+wvSetPosition -win $_nWave1 {("Auto exposure/Focus" 1)}
+wvSetPosition -win $_nWave1 {("Auto exposure/Focus" 2)}
+wvSelectSignal -win $_nWave1 {( "Auto exposure" 6 )} 
+wvDisplayGridCount -win $_nWave1 -off
+wvGetSignalClose -win $_nWave1
+wvReloadFile -win $_nWave1
+wvSelectSignal -win $_nWave1 {( "Auto exposure" 6 )} 
+wvSetCursor -win $_nWave1 4627733.261981 -snap {("Auto exposure" 6)}
+wvScrollUp -win $_nWave1 5
+wvDisplayGridCount -win $_nWave1 -off
+wvGetSignalClose -win $_nWave1
+wvReloadFile -win $_nWave1
+wvScrollDown -win $_nWave1 1
+wvSelectSignal -win $_nWave1 {( "Auto exposure/Focus" 1 )} 
+wvCut -win $_nWave1
+wvSetPosition -win $_nWave1 {("Auto exposure/Focus" 2)}
+wvSetPosition -win $_nWave1 {("Auto exposure/Focus" 1)}
+wvSaveSignal -win $_nWave1 \
+           "/RAID2/COURSE/iclab/iclab131/Midterm_Project/Exercise/01_RTL/signal.rc"
+wvSelectGroup -win $_nWave1 {Auto exposure/Focus}
+wvSelectSignal -win $_nWave1 {( "Auto exposure/Focus" 2 )} 
+wvResizeWindow -win $_nWave1 3263 44 1787 977
+wvScrollUp -win $_nWave1 1
+wvSelectGroup -win $_nWave1 {Auto focus}
+wvSetCursor -win $_nWave1 8203142.558233 -snap {("Auto focus" 6)}
+wvSetCursor -win $_nWave1 8195042.512682 -snap {("Auto focus" 6)}
+wvSetCursor -win $_nWave1 8185181.587664 -snap {("Auto focus" 6)}
+wvSetCursor -win $_nWave1 8193985.985001 -snap {("Auto focus" 6)}
+wvSetCursor -win $_nWave1 8203846.910020 -snap {("Auto focus" 6)}
+wvScrollDown -win $_nWave1 2
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 2
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvSelectGroup -win $_nWave1 {Auto focus/Row difference}
+wvSelectGroup -win $_nWave1 {Auto focus/Column difference}
+wvSetCursor -win $_nWave1 8212533.915393 -snap {("Auto focus" 6)}
+wvSetCursor -win $_nWave1 8220751.352908 -snap {("Auto focus" 6)}
+wvSelectSignal -win $_nWave1 {( "Auto exposure" 8 )} 
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomOut -win $_nWave1
+wvSelectSignal -win $_nWave1 {( "Auto focus" 6 )} 
+wvSetCursor -win $_nWave1 9369894.908172 -snap {("Auto focus" 6)}
+wvSetCursor -win $_nWave1 9378816.697474 -snap {("Auto focus" 6)}
+wvSetCursor -win $_nWave1 9372712.315320 -snap {("Auto focus" 6)}
+wvSetCursor -win $_nWave1 8194996.473291 -snap {("Auto exposure" 6)}
+wvSetCursor -win $_nWave1 8194996.473291 -snap {("Auto exposure" 6)}
+wvSetCursor -win $_nWave1 8195700.825078 -snap {("Auto focus" 5)}
+wvSetCursor -win $_nWave1 8204153.046522 -snap {("Auto focus" 5)}
+wvSetCursor -win $_nWave1 8211431.348321 -snap {("Auto exposure" 6)}
+wvSetCursor -win $_nWave1 8195935.609007 -snap {("Auto focus" 6)}
+wvSetCursor -win $_nWave1 8202744.342948 -snap {("Auto focus" 5)}
+wvSetCursor -win $_nWave1 8214248.755469 -snap {("Auto focus" 6)}
+wvSetCursor -win $_nWave1 8220587.921552 -snap {("Auto focus" 6)}
+wvSetCursor -win $_nWave1 8303701.432420 -snap {("Auto focus" 6)}
+wvSetCursor -win $_nWave1 8248761.993033 -snap {("Auto focus" 6)}
+wvSetCursor -win $_nWave1 8227866.223352 -snap {("Auto focus" 6)}
+wvDisplayGridCount -win $_nWave1 -off
+wvGetSignalClose -win $_nWave1
+wvReloadFile -win $_nWave1
+wvDisplayGridCount -win $_nWave1 -off
+wvGetSignalClose -win $_nWave1
+wvReloadFile -win $_nWave1
+wvScrollUp -win $_nWave1 5
+wvScrollUp -win $_nWave1 2
+wvScrollUp -win $_nWave1 8
+wvSelectGroup -win $_nWave1 {Auto focus/Contrast}
+wvScrollDown -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvGetSignalOpen -win $_nWave1
+wvGetSignalSetScope -win $_nWave1 "/TESTBED/u_ISP"
+wvSetPosition -win $_nWave1 {("Auto exposure/Focus" 2)}
+wvSetPosition -win $_nWave1 {("Auto exposure/Focus" 2)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"Input" \
+{/TESTBED/u_ISP/clk} \
+{/TESTBED/u_ISP/rst_n} \
+{/TESTBED/u_ISP/in_valid} \
+{/TESTBED/u_ISP/in_pic_no\[3:0\]} \
+{/TESTBED/u_ISP/in_mode} \
+{/TESTBED/u_ISP/in_ratio_mode\[1:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+{/TESTBED/u_ISP/c_s\[2:0\]} \
+{/TESTBED/u_ISP/n_s\[2:0\]} \
+{/TESTBED/u_ISP/camera_mode} \
+{/TESTBED/u_ISP/pic_no\[3:0\]} \
+{/TESTBED/u_ISP/ratio\[1:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"AXI AR channel" \
+{/TESTBED/u_ISP/arlen_s_inf\[7:0\]} \
+{/TESTBED/u_ISP/araddr_s_inf\[31:0\]} \
+{/TESTBED/u_ISP/arvalid_s_inf} \
+{/TESTBED/u_ISP/arready_s_inf} -color ID_ORANGE6 \
+}
+wvAddSignal -win $_nWave1 -group {"AXI R channel" \
+{/TESTBED/u_ISP/pic_channel\[1:0\]} \
+{/TESTBED/u_ISP/cnt_dram_r\[5:0\]} \
+{/TESTBED/u_ISP/rready_s_inf} \
+{/TESTBED/u_ISP/rvalid_s_inf} -color ID_ORANGE6 \
+{/TESTBED/u_ISP/rdata_s_inf\[127:0\]} -color ID_ORANGE6 \
+{/TESTBED/u_ISP/rlast_s_inf} -color ID_ORANGE6 \
+}
+wvAddSignal -win $_nWave1 -group {"AXI AW channel" \
+{/TESTBED/u_ISP/awlen_s_inf\[7:0\]} \
+{/TESTBED/u_ISP/awaddr_s_inf\[31:0\]} \
+{/TESTBED/u_ISP/awvalid_s_inf} \
+{/TESTBED/u_ISP/awready_s_inf} -color ID_ORANGE6 \
+}
+wvAddSignal -win $_nWave1 -group {"AXI W channel" \
+}
+wvAddSignal -win $_nWave1 -group {"AXI W channel/AXI control" \
+{/TESTBED/u_ISP/cnt_dram_w\[7:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"AXI W channel" {/TESTBED/u_ISP/wvalid_s_inf} \
+{/TESTBED/u_ISP/wvalid_delay2} \
+{/TESTBED/u_ISP/wready_s_inf} -color ID_ORANGE6 \
+{/TESTBED/u_ISP/wdata_s_inf\[127:0\]} \
+{/TESTBED/u_ISP/wlast_s_inf} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus" \
+{/TESTBED/u_ISP/pic_channel\[1:0\]} \
+{/TESTBED/u_ISP/cnt_dram_r\[5:0\]} \
+{/TESTBED/u_ISP/fifo_valid1} \
+{/TESTBED/u_ISP/fifo_valid2} \
+{/TESTBED/u_ISP/dram_data\[31:0\]} \
+{/TESTBED/u_ISP/focus_map\[11:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Column difference" \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Column difference/Column diff-abs" \
+{/TESTBED/u_ISP/col_diff1_abs\[7:0\]} \
+{/TESTBED/u_ISP/col_diff2_abs\[7:0\]} \
+{/TESTBED/u_ISP/col_diff3_abs\[7:0\]} \
+{/TESTBED/u_ISP/col_diff4_abs\[7:0\]} \
+{/TESTBED/u_ISP/col_diff5_abs\[7:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Column difference/Column diff-signed" \
+{/TESTBED/u_ISP/col_diff1\[7:0\]} \
+{/TESTBED/u_ISP/col_diff2\[7:0\]} \
+{/TESTBED/u_ISP/col_diff3\[7:0\]} \
+{/TESTBED/u_ISP/col_diff4\[7:0\]} \
+{/TESTBED/u_ISP/col_diff5\[7:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "Auto focus/Column difference/Column diff-signed"
+wvAddSignal -win $_nWave1 -group {"Auto focus/Column difference" {/TESTBED/u_ISP/col_sum1\[9:0\]} \
+{/TESTBED/u_ISP/col_sum2\[10:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Column difference/Sum result" \
+{/TESTBED/u_ISP/col_22_valid} \
+{/TESTBED/u_ISP/sumc_2_2\[8:0\]} \
+{/TESTBED/u_ISP/col_44_valid} \
+{/TESTBED/u_ISP/sumc_4_4\[11:0\]} \
+{/TESTBED/u_ISP/col_66_valid} \
+{/TESTBED/u_ISP/sumc_6_6\[13:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "Auto focus/Column difference"
+wvAddSignal -win $_nWave1 -group {"Auto focus/Row difference" \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Row difference/Row diff-abs" \
+{/TESTBED/u_ISP/row_diff1_abs\[7:0\]} \
+{/TESTBED/u_ISP/row_diff2_abs\[7:0\]} \
+{/TESTBED/u_ISP/row_diff3_abs\[7:0\]} \
+{/TESTBED/u_ISP/row_diff4_abs\[7:0\]} \
+{/TESTBED/u_ISP/row_diff5_abs\[7:0\]} \
+{/TESTBED/u_ISP/row_diff6_abs\[7:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "Auto focus/Row difference/Row diff-abs"
+wvAddSignal -win $_nWave1 -group {"Auto focus/Row difference/Row diff-signed" \
+{/TESTBED/u_ISP/row_diff1\[7:0\]} \
+{/TESTBED/u_ISP/row_diff2\[7:0\]} \
+{/TESTBED/u_ISP/row_diff3\[7:0\]} \
+{/TESTBED/u_ISP/row_diff4\[7:0\]} \
+{/TESTBED/u_ISP/row_diff5\[7:0\]} \
+{/TESTBED/u_ISP/row_diff6\[7:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "Auto focus/Row difference/Row diff-signed"
+wvAddSignal -win $_nWave1 -group {"Auto focus/Row difference" {/TESTBED/u_ISP/row_sum1\[8:0\]} \
+{/TESTBED/u_ISP/row_sum2\[9:0\]} \
+{/TESTBED/u_ISP/row_sum3\[10:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Row difference/Sum result" \
+{/TESTBED/u_ISP/row_22_valid} \
+{/TESTBED/u_ISP/sumr_2_2\[8:0\]} \
+{/TESTBED/u_ISP/row_44_valid} \
+{/TESTBED/u_ISP/sumr_4_4\[11:0\]} \
+{/TESTBED/u_ISP/row_66_valid} \
+{/TESTBED/u_ISP/sumr_6_6\[13:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "Auto focus/Row difference"
+wvAddSignal -win $_nWave1 -group {"Auto focus/Contrast" \
+{/TESTBED/u_ISP/contrast_2_2\[9:0\]} \
+{/TESTBED/u_ISP/contrast_4_4\[12:0\]} \
+{/TESTBED/u_ISP/contrast_6_6\[14:0\]} \
+{/TESTBED/u_ISP/max_contrast\[14:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "Auto focus/Contrast"
+wvAddSignal -win $_nWave1 -group {"Auto exposure" \
+}
+wvAddSignal -win $_nWave1 -group {"Auto exposure/Focus" \
+{/TESTBED/u_ISP/expose_data\[31:0\]} \
+{/TESTBED/u_ISP/focus_6_6\[11:0\]} \
+{/TESTBED/u_ISP/gray_reg_focus\[31:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto exposure" {/TESTBED/u_ISP/expose_fifo\[383:0\]} \
+{/TESTBED/u_ISP/exposure\[127:0\]} \
+{/TESTBED/u_ISP/gray_reg\[127:0\]} \
+{/TESTBED/u_ISP/gray_add\[12:0\]} \
+{/TESTBED/u_ISP/gray_sum\[17:0\]} \
+{/TESTBED/u_ISP/gray_avg\[7:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Output" \
+{/TESTBED/u_ISP/pic_expose_valid\[14:0\]} \
+{/TESTBED/u_ISP/out_valid} \
+{/TESTBED/u_ISP/out_data\[7:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"SRAM_Read" \
+{/TESTBED/u_ISP/wvalid_delay1} \
+}
+wvCollapseGroup -win $_nWave1 "SRAM_Read"
+wvAddSignal -win $_nWave1 -group {"SRAM_Write" \
+{/TESTBED/u_ISP/dram_data\[31:0\]} \
+{/TESTBED/u_ISP/exposure\[31:0\]} \
+{/TESTBED/u_ISP/gray_reg\[31:0\]} \
+{/TESTBED/u_ISP/pic_channel\[1:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "SRAM_Write"
+wvAddSignal -win $_nWave1 -group {"G12" \
+}
+wvSelectSignal -win $_nWave1 {( "Auto exposure/Focus" 2 )} 
+wvSetPosition -win $_nWave1 {("Auto exposure/Focus" 2)}
+wvSetPosition -win $_nWave1 {("Auto exposure/Focus" 2)}
+wvSetPosition -win $_nWave1 {("Auto exposure/Focus" 2)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"Input" \
+{/TESTBED/u_ISP/clk} \
+{/TESTBED/u_ISP/rst_n} \
+{/TESTBED/u_ISP/in_valid} \
+{/TESTBED/u_ISP/in_pic_no\[3:0\]} \
+{/TESTBED/u_ISP/in_mode} \
+{/TESTBED/u_ISP/in_ratio_mode\[1:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+{/TESTBED/u_ISP/c_s\[2:0\]} \
+{/TESTBED/u_ISP/n_s\[2:0\]} \
+{/TESTBED/u_ISP/camera_mode} \
+{/TESTBED/u_ISP/pic_no\[3:0\]} \
+{/TESTBED/u_ISP/ratio\[1:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"AXI AR channel" \
+{/TESTBED/u_ISP/arlen_s_inf\[7:0\]} \
+{/TESTBED/u_ISP/araddr_s_inf\[31:0\]} \
+{/TESTBED/u_ISP/arvalid_s_inf} \
+{/TESTBED/u_ISP/arready_s_inf} -color ID_ORANGE6 \
+}
+wvAddSignal -win $_nWave1 -group {"AXI R channel" \
+{/TESTBED/u_ISP/pic_channel\[1:0\]} \
+{/TESTBED/u_ISP/cnt_dram_r\[5:0\]} \
+{/TESTBED/u_ISP/rready_s_inf} \
+{/TESTBED/u_ISP/rvalid_s_inf} -color ID_ORANGE6 \
+{/TESTBED/u_ISP/rdata_s_inf\[127:0\]} -color ID_ORANGE6 \
+{/TESTBED/u_ISP/rlast_s_inf} -color ID_ORANGE6 \
+}
+wvAddSignal -win $_nWave1 -group {"AXI AW channel" \
+{/TESTBED/u_ISP/awlen_s_inf\[7:0\]} \
+{/TESTBED/u_ISP/awaddr_s_inf\[31:0\]} \
+{/TESTBED/u_ISP/awvalid_s_inf} \
+{/TESTBED/u_ISP/awready_s_inf} -color ID_ORANGE6 \
+}
+wvAddSignal -win $_nWave1 -group {"AXI W channel" \
+}
+wvAddSignal -win $_nWave1 -group {"AXI W channel/AXI control" \
+{/TESTBED/u_ISP/cnt_dram_w\[7:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"AXI W channel" {/TESTBED/u_ISP/wvalid_s_inf} \
+{/TESTBED/u_ISP/wvalid_delay2} \
+{/TESTBED/u_ISP/wready_s_inf} -color ID_ORANGE6 \
+{/TESTBED/u_ISP/wdata_s_inf\[127:0\]} \
+{/TESTBED/u_ISP/wlast_s_inf} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus" \
+{/TESTBED/u_ISP/pic_channel\[1:0\]} \
+{/TESTBED/u_ISP/cnt_dram_r\[5:0\]} \
+{/TESTBED/u_ISP/fifo_valid1} \
+{/TESTBED/u_ISP/fifo_valid2} \
+{/TESTBED/u_ISP/dram_data\[31:0\]} \
+{/TESTBED/u_ISP/focus_map\[11:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Column difference" \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Column difference/Column diff-abs" \
+{/TESTBED/u_ISP/col_diff1_abs\[7:0\]} \
+{/TESTBED/u_ISP/col_diff2_abs\[7:0\]} \
+{/TESTBED/u_ISP/col_diff3_abs\[7:0\]} \
+{/TESTBED/u_ISP/col_diff4_abs\[7:0\]} \
+{/TESTBED/u_ISP/col_diff5_abs\[7:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Column difference/Column diff-signed" \
+{/TESTBED/u_ISP/col_diff1\[7:0\]} \
+{/TESTBED/u_ISP/col_diff2\[7:0\]} \
+{/TESTBED/u_ISP/col_diff3\[7:0\]} \
+{/TESTBED/u_ISP/col_diff4\[7:0\]} \
+{/TESTBED/u_ISP/col_diff5\[7:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "Auto focus/Column difference/Column diff-signed"
+wvAddSignal -win $_nWave1 -group {"Auto focus/Column difference" {/TESTBED/u_ISP/col_sum1\[9:0\]} \
+{/TESTBED/u_ISP/col_sum2\[10:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Column difference/Sum result" \
+{/TESTBED/u_ISP/col_22_valid} \
+{/TESTBED/u_ISP/sumc_2_2\[8:0\]} \
+{/TESTBED/u_ISP/col_44_valid} \
+{/TESTBED/u_ISP/sumc_4_4\[11:0\]} \
+{/TESTBED/u_ISP/col_66_valid} \
+{/TESTBED/u_ISP/sumc_6_6\[13:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "Auto focus/Column difference"
+wvAddSignal -win $_nWave1 -group {"Auto focus/Row difference" \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Row difference/Row diff-abs" \
+{/TESTBED/u_ISP/row_diff1_abs\[7:0\]} \
+{/TESTBED/u_ISP/row_diff2_abs\[7:0\]} \
+{/TESTBED/u_ISP/row_diff3_abs\[7:0\]} \
+{/TESTBED/u_ISP/row_diff4_abs\[7:0\]} \
+{/TESTBED/u_ISP/row_diff5_abs\[7:0\]} \
+{/TESTBED/u_ISP/row_diff6_abs\[7:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "Auto focus/Row difference/Row diff-abs"
+wvAddSignal -win $_nWave1 -group {"Auto focus/Row difference/Row diff-signed" \
+{/TESTBED/u_ISP/row_diff1\[7:0\]} \
+{/TESTBED/u_ISP/row_diff2\[7:0\]} \
+{/TESTBED/u_ISP/row_diff3\[7:0\]} \
+{/TESTBED/u_ISP/row_diff4\[7:0\]} \
+{/TESTBED/u_ISP/row_diff5\[7:0\]} \
+{/TESTBED/u_ISP/row_diff6\[7:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "Auto focus/Row difference/Row diff-signed"
+wvAddSignal -win $_nWave1 -group {"Auto focus/Row difference" {/TESTBED/u_ISP/row_sum1\[8:0\]} \
+{/TESTBED/u_ISP/row_sum2\[9:0\]} \
+{/TESTBED/u_ISP/row_sum3\[10:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Row difference/Sum result" \
+{/TESTBED/u_ISP/row_22_valid} \
+{/TESTBED/u_ISP/sumr_2_2\[8:0\]} \
+{/TESTBED/u_ISP/row_44_valid} \
+{/TESTBED/u_ISP/sumr_4_4\[11:0\]} \
+{/TESTBED/u_ISP/row_66_valid} \
+{/TESTBED/u_ISP/sumr_6_6\[13:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "Auto focus/Row difference"
+wvAddSignal -win $_nWave1 -group {"Auto focus/Contrast" \
+{/TESTBED/u_ISP/contrast_2_2\[9:0\]} \
+{/TESTBED/u_ISP/contrast_4_4\[12:0\]} \
+{/TESTBED/u_ISP/contrast_6_6\[14:0\]} \
+{/TESTBED/u_ISP/max_contrast\[14:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "Auto focus/Contrast"
+wvAddSignal -win $_nWave1 -group {"Auto exposure" \
+}
+wvAddSignal -win $_nWave1 -group {"Auto exposure/Focus" \
+{/TESTBED/u_ISP/expose_data\[31:0\]} \
+{/TESTBED/u_ISP/focus_6_6\[11:0\]} \
+{/TESTBED/u_ISP/gray_reg_focus\[31:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto exposure" {/TESTBED/u_ISP/expose_fifo\[383:0\]} \
+{/TESTBED/u_ISP/exposure\[127:0\]} \
+{/TESTBED/u_ISP/gray_reg\[127:0\]} \
+{/TESTBED/u_ISP/gray_add\[12:0\]} \
+{/TESTBED/u_ISP/gray_sum\[17:0\]} \
+{/TESTBED/u_ISP/gray_avg\[7:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Output" \
+{/TESTBED/u_ISP/pic_expose_valid\[14:0\]} \
+{/TESTBED/u_ISP/out_valid} \
+{/TESTBED/u_ISP/out_data\[7:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"SRAM_Read" \
+{/TESTBED/u_ISP/wvalid_delay1} \
+}
+wvCollapseGroup -win $_nWave1 "SRAM_Read"
+wvAddSignal -win $_nWave1 -group {"SRAM_Write" \
+{/TESTBED/u_ISP/dram_data\[31:0\]} \
+{/TESTBED/u_ISP/exposure\[31:0\]} \
+{/TESTBED/u_ISP/gray_reg\[31:0\]} \
+{/TESTBED/u_ISP/pic_channel\[1:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "SRAM_Write"
+wvAddSignal -win $_nWave1 -group {"G12" \
+}
+wvSelectSignal -win $_nWave1 {( "Auto exposure/Focus" 2 )} 
+wvSetPosition -win $_nWave1 {("Auto exposure/Focus" 2)}
+wvGetSignalClose -win $_nWave1
+wvSelectSignal -win $_nWave1 {( "Auto exposure/Focus" 2 )} 
+wvSetPosition -win $_nWave1 {("Auto exposure/Focus" 3)}
+wvMoveSelected -win $_nWave1
+wvSetPosition -win $_nWave1 {("Auto exposure/Focus" 3)}
+wvSetCursor -win $_nWave1 4627616.295624 -snap {("Focus" 3)}
+wvSetCursor -win $_nWave1 4664946.940336 -snap {("Focus" 3)}
+wvSetCursor -win $_nWave1 4655555.583175 -snap {("Focus" 3)}
+wvSetCursor -win $_nWave1 4664242.588549 -snap {("Focus" 3)}
+wvSetCursor -win $_nWave1 4727869.033309 -snap {("Focus" 3)}
+wvSelectSignal -win $_nWave1 {( "Auto exposure/Focus" 3 )} 
+wvExpandBus -win $_nWave1 {("Auto exposure/Focus" 3)}
+wvSelectSignal -win $_nWave1 {( "Auto exposure/Focus" 3 )} 
+wvSetPosition -win $_nWave1 {("Auto exposure/Focus" 3)}
+wvCollapseBus -win $_nWave1 {("Auto exposure/Focus" 3)}
+wvSetPosition -win $_nWave1 {("Auto exposure/Focus" 3)}
+wvScrollDown -win $_nWave1 0
+wvSelectSignal -win $_nWave1 {( "Auto exposure/Focus" 2 )} 
+wvSelectSignal -win $_nWave1 {( "Auto exposure/Focus" 3 )} 
+wvScrollUp -win $_nWave1 13
+wvSelectGroup -win $_nWave1 {Auto focus}
+wvSelectGroup -win $_nWave1 {Auto focus/Contrast}
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 1
+wvDisplayGridCount -win $_nWave1 -off
+wvGetSignalClose -win $_nWave1
+wvReloadFile -win $_nWave1
+wvGetSignalOpen -win $_nWave1
+wvGetSignalSetScope -win $_nWave1 "/TESTBED/u_ISP"
+wvSetPosition -win $_nWave1 {("Auto exposure/Focus" 9)}
+wvSetPosition -win $_nWave1 {("Auto exposure/Focus" 9)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"Input" \
+{/TESTBED/u_ISP/clk} \
+{/TESTBED/u_ISP/rst_n} \
+{/TESTBED/u_ISP/in_valid} \
+{/TESTBED/u_ISP/in_pic_no\[3:0\]} \
+{/TESTBED/u_ISP/in_mode} \
+{/TESTBED/u_ISP/in_ratio_mode\[1:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+{/TESTBED/u_ISP/c_s\[2:0\]} \
+{/TESTBED/u_ISP/n_s\[2:0\]} \
+{/TESTBED/u_ISP/camera_mode} \
+{/TESTBED/u_ISP/pic_no\[3:0\]} \
+{/TESTBED/u_ISP/ratio\[1:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"AXI AR channel" \
+{/TESTBED/u_ISP/arlen_s_inf\[7:0\]} \
+{/TESTBED/u_ISP/araddr_s_inf\[31:0\]} \
+{/TESTBED/u_ISP/arvalid_s_inf} \
+{/TESTBED/u_ISP/arready_s_inf} -color ID_ORANGE6 \
+}
+wvAddSignal -win $_nWave1 -group {"AXI R channel" \
+{/TESTBED/u_ISP/pic_channel\[1:0\]} \
+{/TESTBED/u_ISP/cnt_dram_r\[5:0\]} \
+{/TESTBED/u_ISP/rready_s_inf} \
+{/TESTBED/u_ISP/rvalid_s_inf} -color ID_ORANGE6 \
+{/TESTBED/u_ISP/rdata_s_inf\[127:0\]} -color ID_ORANGE6 \
+{/TESTBED/u_ISP/rlast_s_inf} -color ID_ORANGE6 \
+}
+wvAddSignal -win $_nWave1 -group {"AXI AW channel" \
+{/TESTBED/u_ISP/awlen_s_inf\[7:0\]} \
+{/TESTBED/u_ISP/awaddr_s_inf\[31:0\]} \
+{/TESTBED/u_ISP/awvalid_s_inf} \
+{/TESTBED/u_ISP/awready_s_inf} -color ID_ORANGE6 \
+}
+wvAddSignal -win $_nWave1 -group {"AXI W channel" \
+}
+wvAddSignal -win $_nWave1 -group {"AXI W channel/AXI control" \
+{/TESTBED/u_ISP/cnt_dram_w\[7:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"AXI W channel" {/TESTBED/u_ISP/wvalid_s_inf} \
+{/TESTBED/u_ISP/wvalid_delay2} \
+{/TESTBED/u_ISP/wready_s_inf} -color ID_ORANGE6 \
+{/TESTBED/u_ISP/wdata_s_inf\[127:0\]} \
+{/TESTBED/u_ISP/wlast_s_inf} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus" \
+{/TESTBED/u_ISP/pic_channel\[1:0\]} \
+{/TESTBED/u_ISP/cnt_dram_r\[5:0\]} \
+{/TESTBED/u_ISP/fifo_valid1} \
+{/TESTBED/u_ISP/fifo_valid2} \
+{/TESTBED/u_ISP/dram_data\[31:0\]} \
+{/TESTBED/u_ISP/focus_map\[11:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Column difference" \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Column difference/Column diff-abs" \
+{/TESTBED/u_ISP/col_diff1_abs\[7:0\]} \
+{/TESTBED/u_ISP/col_diff2_abs\[7:0\]} \
+{/TESTBED/u_ISP/col_diff3_abs\[7:0\]} \
+{/TESTBED/u_ISP/col_diff4_abs\[7:0\]} \
+{/TESTBED/u_ISP/col_diff5_abs\[7:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Column difference/Column diff-signed" \
+{/TESTBED/u_ISP/col_diff1\[7:0\]} \
+{/TESTBED/u_ISP/col_diff2\[7:0\]} \
+{/TESTBED/u_ISP/col_diff3\[7:0\]} \
+{/TESTBED/u_ISP/col_diff4\[7:0\]} \
+{/TESTBED/u_ISP/col_diff5\[7:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "Auto focus/Column difference/Column diff-signed"
+wvAddSignal -win $_nWave1 -group {"Auto focus/Column difference" {/TESTBED/u_ISP/col_sum1\[9:0\]} \
+{/TESTBED/u_ISP/col_sum2\[10:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Column difference/Sum result" \
+{/TESTBED/u_ISP/col_22_valid} \
+{/TESTBED/u_ISP/sumc_2_2\[8:0\]} \
+{/TESTBED/u_ISP/col_44_valid} \
+{/TESTBED/u_ISP/sumc_4_4\[11:0\]} \
+{/TESTBED/u_ISP/col_66_valid} \
+{/TESTBED/u_ISP/sumc_6_6\[13:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "Auto focus/Column difference"
+wvAddSignal -win $_nWave1 -group {"Auto focus/Row difference" \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Row difference/Row diff-abs" \
+{/TESTBED/u_ISP/row_diff1_abs\[7:0\]} \
+{/TESTBED/u_ISP/row_diff2_abs\[7:0\]} \
+{/TESTBED/u_ISP/row_diff3_abs\[7:0\]} \
+{/TESTBED/u_ISP/row_diff4_abs\[7:0\]} \
+{/TESTBED/u_ISP/row_diff5_abs\[7:0\]} \
+{/TESTBED/u_ISP/row_diff6_abs\[7:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "Auto focus/Row difference/Row diff-abs"
+wvAddSignal -win $_nWave1 -group {"Auto focus/Row difference/Row diff-signed" \
+{/TESTBED/u_ISP/row_diff1\[7:0\]} \
+{/TESTBED/u_ISP/row_diff2\[7:0\]} \
+{/TESTBED/u_ISP/row_diff3\[7:0\]} \
+{/TESTBED/u_ISP/row_diff4\[7:0\]} \
+{/TESTBED/u_ISP/row_diff5\[7:0\]} \
+{/TESTBED/u_ISP/row_diff6\[7:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "Auto focus/Row difference/Row diff-signed"
+wvAddSignal -win $_nWave1 -group {"Auto focus/Row difference" {/TESTBED/u_ISP/row_sum1\[8:0\]} \
+{/TESTBED/u_ISP/row_sum2\[9:0\]} \
+{/TESTBED/u_ISP/row_sum3\[10:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Row difference/Sum result" \
+{/TESTBED/u_ISP/row_22_valid} \
+{/TESTBED/u_ISP/sumr_2_2\[8:0\]} \
+{/TESTBED/u_ISP/row_44_valid} \
+{/TESTBED/u_ISP/sumr_4_4\[11:0\]} \
+{/TESTBED/u_ISP/row_66_valid} \
+{/TESTBED/u_ISP/sumr_6_6\[13:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "Auto focus/Row difference"
+wvAddSignal -win $_nWave1 -group {"Auto focus/Contrast" \
+{/TESTBED/u_ISP/contrast_2_2\[9:0\]} \
+{/TESTBED/u_ISP/contrast_4_4\[12:0\]} \
+{/TESTBED/u_ISP/contrast_6_6\[14:0\]} \
+{/TESTBED/u_ISP/max_contrast\[14:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto exposure" \
+}
+wvAddSignal -win $_nWave1 -group {"Auto exposure/Focus" \
+{/TESTBED/u_ISP/expose_data\[31:0\]} \
+{/TESTBED/u_ISP/gray_reg_focus\[31:0\]} \
+{/TESTBED/u_ISP/focus_6_6\[11:0\]} \
+{/TESTBED/u_ISP/_col_22_valid} \
+{/TESTBED/u_ISP/_col_44_valid} \
+{/TESTBED/u_ISP/_col_66_valid} \
+{/TESTBED/u_ISP/_row_22_valid} \
+{/TESTBED/u_ISP/_row_44_valid} \
+{/TESTBED/u_ISP/_row_66_valid} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto exposure" {/TESTBED/u_ISP/expose_fifo\[383:0\]} \
+{/TESTBED/u_ISP/exposure\[127:0\]} \
+{/TESTBED/u_ISP/gray_reg\[127:0\]} \
+{/TESTBED/u_ISP/gray_add\[12:0\]} \
+{/TESTBED/u_ISP/gray_sum\[17:0\]} \
+{/TESTBED/u_ISP/gray_avg\[7:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Output" \
+{/TESTBED/u_ISP/pic_expose_valid\[14:0\]} \
+{/TESTBED/u_ISP/out_valid} \
+{/TESTBED/u_ISP/out_data\[7:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"SRAM_Read" \
+{/TESTBED/u_ISP/wvalid_delay1} \
+}
+wvCollapseGroup -win $_nWave1 "SRAM_Read"
+wvAddSignal -win $_nWave1 -group {"SRAM_Write" \
+{/TESTBED/u_ISP/dram_data\[31:0\]} \
+{/TESTBED/u_ISP/exposure\[31:0\]} \
+{/TESTBED/u_ISP/gray_reg\[31:0\]} \
+{/TESTBED/u_ISP/pic_channel\[1:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "SRAM_Write"
+wvAddSignal -win $_nWave1 -group {"G12" \
+}
+wvSelectSignal -win $_nWave1 {( "Auto exposure/Focus" 4 5 6 7 8 9 )} 
+wvSetPosition -win $_nWave1 {("Auto exposure/Focus" 9)}
+wvSetPosition -win $_nWave1 {("Auto exposure/Focus" 9)}
+wvSetPosition -win $_nWave1 {("Auto exposure/Focus" 9)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"Input" \
+{/TESTBED/u_ISP/clk} \
+{/TESTBED/u_ISP/rst_n} \
+{/TESTBED/u_ISP/in_valid} \
+{/TESTBED/u_ISP/in_pic_no\[3:0\]} \
+{/TESTBED/u_ISP/in_mode} \
+{/TESTBED/u_ISP/in_ratio_mode\[1:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+{/TESTBED/u_ISP/c_s\[2:0\]} \
+{/TESTBED/u_ISP/n_s\[2:0\]} \
+{/TESTBED/u_ISP/camera_mode} \
+{/TESTBED/u_ISP/pic_no\[3:0\]} \
+{/TESTBED/u_ISP/ratio\[1:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"AXI AR channel" \
+{/TESTBED/u_ISP/arlen_s_inf\[7:0\]} \
+{/TESTBED/u_ISP/araddr_s_inf\[31:0\]} \
+{/TESTBED/u_ISP/arvalid_s_inf} \
+{/TESTBED/u_ISP/arready_s_inf} -color ID_ORANGE6 \
+}
+wvAddSignal -win $_nWave1 -group {"AXI R channel" \
+{/TESTBED/u_ISP/pic_channel\[1:0\]} \
+{/TESTBED/u_ISP/cnt_dram_r\[5:0\]} \
+{/TESTBED/u_ISP/rready_s_inf} \
+{/TESTBED/u_ISP/rvalid_s_inf} -color ID_ORANGE6 \
+{/TESTBED/u_ISP/rdata_s_inf\[127:0\]} -color ID_ORANGE6 \
+{/TESTBED/u_ISP/rlast_s_inf} -color ID_ORANGE6 \
+}
+wvAddSignal -win $_nWave1 -group {"AXI AW channel" \
+{/TESTBED/u_ISP/awlen_s_inf\[7:0\]} \
+{/TESTBED/u_ISP/awaddr_s_inf\[31:0\]} \
+{/TESTBED/u_ISP/awvalid_s_inf} \
+{/TESTBED/u_ISP/awready_s_inf} -color ID_ORANGE6 \
+}
+wvAddSignal -win $_nWave1 -group {"AXI W channel" \
+}
+wvAddSignal -win $_nWave1 -group {"AXI W channel/AXI control" \
+{/TESTBED/u_ISP/cnt_dram_w\[7:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"AXI W channel" {/TESTBED/u_ISP/wvalid_s_inf} \
+{/TESTBED/u_ISP/wvalid_delay2} \
+{/TESTBED/u_ISP/wready_s_inf} -color ID_ORANGE6 \
+{/TESTBED/u_ISP/wdata_s_inf\[127:0\]} \
+{/TESTBED/u_ISP/wlast_s_inf} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus" \
+{/TESTBED/u_ISP/pic_channel\[1:0\]} \
+{/TESTBED/u_ISP/cnt_dram_r\[5:0\]} \
+{/TESTBED/u_ISP/fifo_valid1} \
+{/TESTBED/u_ISP/fifo_valid2} \
+{/TESTBED/u_ISP/dram_data\[31:0\]} \
+{/TESTBED/u_ISP/focus_map\[11:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Column difference" \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Column difference/Column diff-abs" \
+{/TESTBED/u_ISP/col_diff1_abs\[7:0\]} \
+{/TESTBED/u_ISP/col_diff2_abs\[7:0\]} \
+{/TESTBED/u_ISP/col_diff3_abs\[7:0\]} \
+{/TESTBED/u_ISP/col_diff4_abs\[7:0\]} \
+{/TESTBED/u_ISP/col_diff5_abs\[7:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Column difference/Column diff-signed" \
+{/TESTBED/u_ISP/col_diff1\[7:0\]} \
+{/TESTBED/u_ISP/col_diff2\[7:0\]} \
+{/TESTBED/u_ISP/col_diff3\[7:0\]} \
+{/TESTBED/u_ISP/col_diff4\[7:0\]} \
+{/TESTBED/u_ISP/col_diff5\[7:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "Auto focus/Column difference/Column diff-signed"
+wvAddSignal -win $_nWave1 -group {"Auto focus/Column difference" {/TESTBED/u_ISP/col_sum1\[9:0\]} \
+{/TESTBED/u_ISP/col_sum2\[10:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Column difference/Sum result" \
+{/TESTBED/u_ISP/col_22_valid} \
+{/TESTBED/u_ISP/sumc_2_2\[8:0\]} \
+{/TESTBED/u_ISP/col_44_valid} \
+{/TESTBED/u_ISP/sumc_4_4\[11:0\]} \
+{/TESTBED/u_ISP/col_66_valid} \
+{/TESTBED/u_ISP/sumc_6_6\[13:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "Auto focus/Column difference"
+wvAddSignal -win $_nWave1 -group {"Auto focus/Row difference" \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Row difference/Row diff-abs" \
+{/TESTBED/u_ISP/row_diff1_abs\[7:0\]} \
+{/TESTBED/u_ISP/row_diff2_abs\[7:0\]} \
+{/TESTBED/u_ISP/row_diff3_abs\[7:0\]} \
+{/TESTBED/u_ISP/row_diff4_abs\[7:0\]} \
+{/TESTBED/u_ISP/row_diff5_abs\[7:0\]} \
+{/TESTBED/u_ISP/row_diff6_abs\[7:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "Auto focus/Row difference/Row diff-abs"
+wvAddSignal -win $_nWave1 -group {"Auto focus/Row difference/Row diff-signed" \
+{/TESTBED/u_ISP/row_diff1\[7:0\]} \
+{/TESTBED/u_ISP/row_diff2\[7:0\]} \
+{/TESTBED/u_ISP/row_diff3\[7:0\]} \
+{/TESTBED/u_ISP/row_diff4\[7:0\]} \
+{/TESTBED/u_ISP/row_diff5\[7:0\]} \
+{/TESTBED/u_ISP/row_diff6\[7:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "Auto focus/Row difference/Row diff-signed"
+wvAddSignal -win $_nWave1 -group {"Auto focus/Row difference" {/TESTBED/u_ISP/row_sum1\[8:0\]} \
+{/TESTBED/u_ISP/row_sum2\[9:0\]} \
+{/TESTBED/u_ISP/row_sum3\[10:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Row difference/Sum result" \
+{/TESTBED/u_ISP/row_22_valid} \
+{/TESTBED/u_ISP/sumr_2_2\[8:0\]} \
+{/TESTBED/u_ISP/row_44_valid} \
+{/TESTBED/u_ISP/sumr_4_4\[11:0\]} \
+{/TESTBED/u_ISP/row_66_valid} \
+{/TESTBED/u_ISP/sumr_6_6\[13:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "Auto focus/Row difference"
+wvAddSignal -win $_nWave1 -group {"Auto focus/Contrast" \
+{/TESTBED/u_ISP/contrast_2_2\[9:0\]} \
+{/TESTBED/u_ISP/contrast_4_4\[12:0\]} \
+{/TESTBED/u_ISP/contrast_6_6\[14:0\]} \
+{/TESTBED/u_ISP/max_contrast\[14:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto exposure" \
+}
+wvAddSignal -win $_nWave1 -group {"Auto exposure/Focus" \
+{/TESTBED/u_ISP/expose_data\[31:0\]} \
+{/TESTBED/u_ISP/gray_reg_focus\[31:0\]} \
+{/TESTBED/u_ISP/focus_6_6\[11:0\]} \
+{/TESTBED/u_ISP/_col_22_valid} \
+{/TESTBED/u_ISP/_col_44_valid} \
+{/TESTBED/u_ISP/_col_66_valid} \
+{/TESTBED/u_ISP/_row_22_valid} \
+{/TESTBED/u_ISP/_row_44_valid} \
+{/TESTBED/u_ISP/_row_66_valid} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto exposure" {/TESTBED/u_ISP/expose_fifo\[383:0\]} \
+{/TESTBED/u_ISP/exposure\[127:0\]} \
+{/TESTBED/u_ISP/gray_reg\[127:0\]} \
+{/TESTBED/u_ISP/gray_add\[12:0\]} \
+{/TESTBED/u_ISP/gray_sum\[17:0\]} \
+{/TESTBED/u_ISP/gray_avg\[7:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Output" \
+{/TESTBED/u_ISP/pic_expose_valid\[14:0\]} \
+{/TESTBED/u_ISP/out_valid} \
+{/TESTBED/u_ISP/out_data\[7:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"SRAM_Read" \
+{/TESTBED/u_ISP/wvalid_delay1} \
+}
+wvCollapseGroup -win $_nWave1 "SRAM_Read"
+wvAddSignal -win $_nWave1 -group {"SRAM_Write" \
+{/TESTBED/u_ISP/dram_data\[31:0\]} \
+{/TESTBED/u_ISP/exposure\[31:0\]} \
+{/TESTBED/u_ISP/gray_reg\[31:0\]} \
+{/TESTBED/u_ISP/pic_channel\[1:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "SRAM_Write"
+wvAddSignal -win $_nWave1 -group {"G12" \
+}
+wvSelectSignal -win $_nWave1 {( "Auto exposure/Focus" 4 5 6 7 8 9 )} 
+wvSetPosition -win $_nWave1 {("Auto exposure/Focus" 9)}
+wvGetSignalClose -win $_nWave1
+wvSelectGroup -win $_nWave1 {Auto focus}
+wvScrollUp -win $_nWave1 19
+wvScrollDown -win $_nWave1 9
+wvScrollUp -win $_nWave1 4
+wvScrollDown -win $_nWave1 2
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 3
+wvScrollDown -win $_nWave1 1
+wvDisplayGridCount -win $_nWave1 -off
+wvGetSignalClose -win $_nWave1
+wvReloadFile -win $_nWave1
+wvGetSignalOpen -win $_nWave1
+wvGetSignalSetScope -win $_nWave1 "/TESTBED/u_ISP"
+wvSetPosition -win $_nWave1 {("Auto exposure/Focus" 10)}
+wvSetPosition -win $_nWave1 {("Auto exposure/Focus" 10)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"Input" \
+{/TESTBED/u_ISP/clk} \
+{/TESTBED/u_ISP/rst_n} \
+{/TESTBED/u_ISP/in_valid} \
+{/TESTBED/u_ISP/in_pic_no\[3:0\]} \
+{/TESTBED/u_ISP/in_mode} \
+{/TESTBED/u_ISP/in_ratio_mode\[1:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+{/TESTBED/u_ISP/c_s\[2:0\]} \
+{/TESTBED/u_ISP/n_s\[2:0\]} \
+{/TESTBED/u_ISP/camera_mode} \
+{/TESTBED/u_ISP/pic_no\[3:0\]} \
+{/TESTBED/u_ISP/ratio\[1:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"AXI AR channel" \
+{/TESTBED/u_ISP/arlen_s_inf\[7:0\]} \
+{/TESTBED/u_ISP/araddr_s_inf\[31:0\]} \
+{/TESTBED/u_ISP/arvalid_s_inf} \
+{/TESTBED/u_ISP/arready_s_inf} -color ID_ORANGE6 \
+}
+wvAddSignal -win $_nWave1 -group {"AXI R channel" \
+{/TESTBED/u_ISP/pic_channel\[1:0\]} \
+{/TESTBED/u_ISP/cnt_dram_r\[5:0\]} \
+{/TESTBED/u_ISP/rready_s_inf} \
+{/TESTBED/u_ISP/rvalid_s_inf} -color ID_ORANGE6 \
+{/TESTBED/u_ISP/rdata_s_inf\[127:0\]} -color ID_ORANGE6 \
+{/TESTBED/u_ISP/rlast_s_inf} -color ID_ORANGE6 \
+}
+wvAddSignal -win $_nWave1 -group {"AXI AW channel" \
+{/TESTBED/u_ISP/awlen_s_inf\[7:0\]} \
+{/TESTBED/u_ISP/awaddr_s_inf\[31:0\]} \
+{/TESTBED/u_ISP/awvalid_s_inf} \
+{/TESTBED/u_ISP/awready_s_inf} -color ID_ORANGE6 \
+}
+wvAddSignal -win $_nWave1 -group {"AXI W channel" \
+}
+wvAddSignal -win $_nWave1 -group {"AXI W channel/AXI control" \
+{/TESTBED/u_ISP/cnt_dram_w\[7:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"AXI W channel" {/TESTBED/u_ISP/wvalid_s_inf} \
+{/TESTBED/u_ISP/wvalid_delay2} \
+{/TESTBED/u_ISP/wready_s_inf} -color ID_ORANGE6 \
+{/TESTBED/u_ISP/wdata_s_inf\[127:0\]} \
+{/TESTBED/u_ISP/wlast_s_inf} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus" \
+{/TESTBED/u_ISP/pic_channel\[1:0\]} \
+{/TESTBED/u_ISP/cnt_dram_r\[5:0\]} \
+{/TESTBED/u_ISP/fifo_valid1} \
+{/TESTBED/u_ISP/fifo_valid2} \
+{/TESTBED/u_ISP/dram_data\[31:0\]} \
+{/TESTBED/u_ISP/focus_map\[11:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Column difference" \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Column difference/Column diff-abs" \
+{/TESTBED/u_ISP/col_diff1_abs\[7:0\]} \
+{/TESTBED/u_ISP/col_diff2_abs\[7:0\]} \
+{/TESTBED/u_ISP/col_diff3_abs\[7:0\]} \
+{/TESTBED/u_ISP/col_diff4_abs\[7:0\]} \
+{/TESTBED/u_ISP/col_diff5_abs\[7:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Column difference/Column diff-signed" \
+{/TESTBED/u_ISP/col_diff1\[7:0\]} \
+{/TESTBED/u_ISP/col_diff2\[7:0\]} \
+{/TESTBED/u_ISP/col_diff3\[7:0\]} \
+{/TESTBED/u_ISP/col_diff4\[7:0\]} \
+{/TESTBED/u_ISP/col_diff5\[7:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "Auto focus/Column difference/Column diff-signed"
+wvAddSignal -win $_nWave1 -group {"Auto focus/Column difference" {/TESTBED/u_ISP/col_sum1\[9:0\]} \
+{/TESTBED/u_ISP/col_sum2\[10:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Column difference/Sum result" \
+{/TESTBED/u_ISP/col_22_valid} \
+{/TESTBED/u_ISP/sumc_2_2\[8:0\]} \
+{/TESTBED/u_ISP/col_44_valid} \
+{/TESTBED/u_ISP/sumc_4_4\[11:0\]} \
+{/TESTBED/u_ISP/col_66_valid} \
+{/TESTBED/u_ISP/sumc_6_6\[13:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "Auto focus/Column difference"
+wvAddSignal -win $_nWave1 -group {"Auto focus/Row difference" \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Row difference/Row diff-abs" \
+{/TESTBED/u_ISP/row_diff1_abs\[7:0\]} \
+{/TESTBED/u_ISP/row_diff2_abs\[7:0\]} \
+{/TESTBED/u_ISP/row_diff3_abs\[7:0\]} \
+{/TESTBED/u_ISP/row_diff4_abs\[7:0\]} \
+{/TESTBED/u_ISP/row_diff5_abs\[7:0\]} \
+{/TESTBED/u_ISP/row_diff6_abs\[7:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "Auto focus/Row difference/Row diff-abs"
+wvAddSignal -win $_nWave1 -group {"Auto focus/Row difference/Row diff-signed" \
+{/TESTBED/u_ISP/row_diff1\[7:0\]} \
+{/TESTBED/u_ISP/row_diff2\[7:0\]} \
+{/TESTBED/u_ISP/row_diff3\[7:0\]} \
+{/TESTBED/u_ISP/row_diff4\[7:0\]} \
+{/TESTBED/u_ISP/row_diff5\[7:0\]} \
+{/TESTBED/u_ISP/row_diff6\[7:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "Auto focus/Row difference/Row diff-signed"
+wvAddSignal -win $_nWave1 -group {"Auto focus/Row difference" {/TESTBED/u_ISP/row_sum1\[8:0\]} \
+{/TESTBED/u_ISP/row_sum2\[9:0\]} \
+{/TESTBED/u_ISP/row_sum3\[10:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Row difference/Sum result" \
+{/TESTBED/u_ISP/row_22_valid} \
+{/TESTBED/u_ISP/sumr_2_2\[8:0\]} \
+{/TESTBED/u_ISP/row_44_valid} \
+{/TESTBED/u_ISP/sumr_4_4\[11:0\]} \
+{/TESTBED/u_ISP/row_66_valid} \
+{/TESTBED/u_ISP/sumr_6_6\[13:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "Auto focus/Row difference"
+wvAddSignal -win $_nWave1 -group {"Auto focus/Contrast" \
+{/TESTBED/u_ISP/contrast_2_2\[9:0\]} \
+{/TESTBED/u_ISP/contrast_4_4\[12:0\]} \
+{/TESTBED/u_ISP/contrast_6_6\[14:0\]} \
+{/TESTBED/u_ISP/max_contrast\[14:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "Auto focus"
+wvAddSignal -win $_nWave1 -group {"Auto exposure" \
+}
+wvAddSignal -win $_nWave1 -group {"Auto exposure/Focus" \
+{/TESTBED/u_ISP/expose_data\[31:0\]} \
+{/TESTBED/u_ISP/gray_reg_focus\[31:0\]} \
+{/TESTBED/u_ISP/focus_6_6\[11:0\]} \
+{/TESTBED/u_ISP/_col_22_valid} \
+{/TESTBED/u_ISP/_col_44_valid} \
+{/TESTBED/u_ISP/_col_66_valid} \
+{/TESTBED/u_ISP/_row_22_valid} \
+{/TESTBED/u_ISP/_row_44_valid} \
+{/TESTBED/u_ISP/_row_66_valid} \
+{/TESTBED/u_ISP/cnt_dram_w2\[5:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto exposure" {/TESTBED/u_ISP/expose_fifo\[383:0\]} \
+{/TESTBED/u_ISP/exposure\[127:0\]} \
+{/TESTBED/u_ISP/gray_reg\[127:0\]} \
+{/TESTBED/u_ISP/gray_add\[12:0\]} \
+{/TESTBED/u_ISP/gray_sum\[17:0\]} \
+{/TESTBED/u_ISP/gray_avg\[7:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Output" \
+{/TESTBED/u_ISP/pic_expose_valid\[14:0\]} \
+{/TESTBED/u_ISP/out_valid} \
+{/TESTBED/u_ISP/out_data\[7:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"SRAM_Read" \
+{/TESTBED/u_ISP/wvalid_delay1} \
+}
+wvCollapseGroup -win $_nWave1 "SRAM_Read"
+wvAddSignal -win $_nWave1 -group {"SRAM_Write" \
+{/TESTBED/u_ISP/dram_data\[31:0\]} \
+{/TESTBED/u_ISP/exposure\[31:0\]} \
+{/TESTBED/u_ISP/gray_reg\[31:0\]} \
+{/TESTBED/u_ISP/pic_channel\[1:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "SRAM_Write"
+wvAddSignal -win $_nWave1 -group {"G12" \
+}
+wvSelectSignal -win $_nWave1 {( "Auto exposure/Focus" 10 )} 
+wvSetPosition -win $_nWave1 {("Auto exposure/Focus" 10)}
+wvSetPosition -win $_nWave1 {("Auto exposure/Focus" 11)}
+wvSetPosition -win $_nWave1 {("Auto exposure/Focus" 11)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"Input" \
+{/TESTBED/u_ISP/clk} \
+{/TESTBED/u_ISP/rst_n} \
+{/TESTBED/u_ISP/in_valid} \
+{/TESTBED/u_ISP/in_pic_no\[3:0\]} \
+{/TESTBED/u_ISP/in_mode} \
+{/TESTBED/u_ISP/in_ratio_mode\[1:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+{/TESTBED/u_ISP/c_s\[2:0\]} \
+{/TESTBED/u_ISP/n_s\[2:0\]} \
+{/TESTBED/u_ISP/camera_mode} \
+{/TESTBED/u_ISP/pic_no\[3:0\]} \
+{/TESTBED/u_ISP/ratio\[1:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"AXI AR channel" \
+{/TESTBED/u_ISP/arlen_s_inf\[7:0\]} \
+{/TESTBED/u_ISP/araddr_s_inf\[31:0\]} \
+{/TESTBED/u_ISP/arvalid_s_inf} \
+{/TESTBED/u_ISP/arready_s_inf} -color ID_ORANGE6 \
+}
+wvAddSignal -win $_nWave1 -group {"AXI R channel" \
+{/TESTBED/u_ISP/pic_channel\[1:0\]} \
+{/TESTBED/u_ISP/cnt_dram_r\[5:0\]} \
+{/TESTBED/u_ISP/rready_s_inf} \
+{/TESTBED/u_ISP/rvalid_s_inf} -color ID_ORANGE6 \
+{/TESTBED/u_ISP/rdata_s_inf\[127:0\]} -color ID_ORANGE6 \
+{/TESTBED/u_ISP/rlast_s_inf} -color ID_ORANGE6 \
+}
+wvAddSignal -win $_nWave1 -group {"AXI AW channel" \
+{/TESTBED/u_ISP/awlen_s_inf\[7:0\]} \
+{/TESTBED/u_ISP/awaddr_s_inf\[31:0\]} \
+{/TESTBED/u_ISP/awvalid_s_inf} \
+{/TESTBED/u_ISP/awready_s_inf} -color ID_ORANGE6 \
+}
+wvAddSignal -win $_nWave1 -group {"AXI W channel" \
+}
+wvAddSignal -win $_nWave1 -group {"AXI W channel/AXI control" \
+{/TESTBED/u_ISP/cnt_dram_w\[7:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"AXI W channel" {/TESTBED/u_ISP/wvalid_s_inf} \
+{/TESTBED/u_ISP/wvalid_delay2} \
+{/TESTBED/u_ISP/wready_s_inf} -color ID_ORANGE6 \
+{/TESTBED/u_ISP/wdata_s_inf\[127:0\]} \
+{/TESTBED/u_ISP/wlast_s_inf} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus" \
+{/TESTBED/u_ISP/pic_channel\[1:0\]} \
+{/TESTBED/u_ISP/cnt_dram_r\[5:0\]} \
+{/TESTBED/u_ISP/fifo_valid1} \
+{/TESTBED/u_ISP/fifo_valid2} \
+{/TESTBED/u_ISP/dram_data\[31:0\]} \
+{/TESTBED/u_ISP/focus_map\[11:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Column difference" \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Column difference/Column diff-abs" \
+{/TESTBED/u_ISP/col_diff1_abs\[7:0\]} \
+{/TESTBED/u_ISP/col_diff2_abs\[7:0\]} \
+{/TESTBED/u_ISP/col_diff3_abs\[7:0\]} \
+{/TESTBED/u_ISP/col_diff4_abs\[7:0\]} \
+{/TESTBED/u_ISP/col_diff5_abs\[7:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Column difference/Column diff-signed" \
+{/TESTBED/u_ISP/col_diff1\[7:0\]} \
+{/TESTBED/u_ISP/col_diff2\[7:0\]} \
+{/TESTBED/u_ISP/col_diff3\[7:0\]} \
+{/TESTBED/u_ISP/col_diff4\[7:0\]} \
+{/TESTBED/u_ISP/col_diff5\[7:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "Auto focus/Column difference/Column diff-signed"
+wvAddSignal -win $_nWave1 -group {"Auto focus/Column difference" {/TESTBED/u_ISP/col_sum1\[9:0\]} \
+{/TESTBED/u_ISP/col_sum2\[10:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Column difference/Sum result" \
+{/TESTBED/u_ISP/col_22_valid} \
+{/TESTBED/u_ISP/sumc_2_2\[8:0\]} \
+{/TESTBED/u_ISP/col_44_valid} \
+{/TESTBED/u_ISP/sumc_4_4\[11:0\]} \
+{/TESTBED/u_ISP/col_66_valid} \
+{/TESTBED/u_ISP/sumc_6_6\[13:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "Auto focus/Column difference"
+wvAddSignal -win $_nWave1 -group {"Auto focus/Row difference" \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Row difference/Row diff-abs" \
+{/TESTBED/u_ISP/row_diff1_abs\[7:0\]} \
+{/TESTBED/u_ISP/row_diff2_abs\[7:0\]} \
+{/TESTBED/u_ISP/row_diff3_abs\[7:0\]} \
+{/TESTBED/u_ISP/row_diff4_abs\[7:0\]} \
+{/TESTBED/u_ISP/row_diff5_abs\[7:0\]} \
+{/TESTBED/u_ISP/row_diff6_abs\[7:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "Auto focus/Row difference/Row diff-abs"
+wvAddSignal -win $_nWave1 -group {"Auto focus/Row difference/Row diff-signed" \
+{/TESTBED/u_ISP/row_diff1\[7:0\]} \
+{/TESTBED/u_ISP/row_diff2\[7:0\]} \
+{/TESTBED/u_ISP/row_diff3\[7:0\]} \
+{/TESTBED/u_ISP/row_diff4\[7:0\]} \
+{/TESTBED/u_ISP/row_diff5\[7:0\]} \
+{/TESTBED/u_ISP/row_diff6\[7:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "Auto focus/Row difference/Row diff-signed"
+wvAddSignal -win $_nWave1 -group {"Auto focus/Row difference" {/TESTBED/u_ISP/row_sum1\[8:0\]} \
+{/TESTBED/u_ISP/row_sum2\[9:0\]} \
+{/TESTBED/u_ISP/row_sum3\[10:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Row difference/Sum result" \
+{/TESTBED/u_ISP/row_22_valid} \
+{/TESTBED/u_ISP/sumr_2_2\[8:0\]} \
+{/TESTBED/u_ISP/row_44_valid} \
+{/TESTBED/u_ISP/sumr_4_4\[11:0\]} \
+{/TESTBED/u_ISP/row_66_valid} \
+{/TESTBED/u_ISP/sumr_6_6\[13:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "Auto focus/Row difference"
+wvAddSignal -win $_nWave1 -group {"Auto focus/Contrast" \
+{/TESTBED/u_ISP/contrast_2_2\[9:0\]} \
+{/TESTBED/u_ISP/contrast_4_4\[12:0\]} \
+{/TESTBED/u_ISP/contrast_6_6\[14:0\]} \
+{/TESTBED/u_ISP/max_contrast\[14:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "Auto focus"
+wvAddSignal -win $_nWave1 -group {"Auto exposure" \
+}
+wvAddSignal -win $_nWave1 -group {"Auto exposure/Focus" \
+{/TESTBED/u_ISP/expose_data\[31:0\]} \
+{/TESTBED/u_ISP/gray_reg_focus\[31:0\]} \
+{/TESTBED/u_ISP/focus_6_6\[11:0\]} \
+{/TESTBED/u_ISP/_col_22_valid} \
+{/TESTBED/u_ISP/_col_44_valid} \
+{/TESTBED/u_ISP/_col_66_valid} \
+{/TESTBED/u_ISP/_row_22_valid} \
+{/TESTBED/u_ISP/_row_44_valid} \
+{/TESTBED/u_ISP/_row_66_valid} \
+{/TESTBED/u_ISP/cnt_dram_w2\[5:0\]} \
+{/TESTBED/u_ISP/pic_channel_w\[1:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto exposure" {/TESTBED/u_ISP/expose_fifo\[383:0\]} \
+{/TESTBED/u_ISP/exposure\[127:0\]} \
+{/TESTBED/u_ISP/gray_reg\[127:0\]} \
+{/TESTBED/u_ISP/gray_add\[12:0\]} \
+{/TESTBED/u_ISP/gray_sum\[17:0\]} \
+{/TESTBED/u_ISP/gray_avg\[7:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Output" \
+{/TESTBED/u_ISP/pic_expose_valid\[14:0\]} \
+{/TESTBED/u_ISP/out_valid} \
+{/TESTBED/u_ISP/out_data\[7:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"SRAM_Read" \
+{/TESTBED/u_ISP/wvalid_delay1} \
+}
+wvCollapseGroup -win $_nWave1 "SRAM_Read"
+wvAddSignal -win $_nWave1 -group {"SRAM_Write" \
+{/TESTBED/u_ISP/dram_data\[31:0\]} \
+{/TESTBED/u_ISP/exposure\[31:0\]} \
+{/TESTBED/u_ISP/gray_reg\[31:0\]} \
+{/TESTBED/u_ISP/pic_channel\[1:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "SRAM_Write"
+wvAddSignal -win $_nWave1 -group {"G12" \
+}
+wvSelectSignal -win $_nWave1 {( "Auto exposure/Focus" 11 )} 
+wvSetPosition -win $_nWave1 {("Auto exposure/Focus" 11)}
+wvSetPosition -win $_nWave1 {("Auto exposure/Focus" 11)}
+wvSetPosition -win $_nWave1 {("Auto exposure/Focus" 11)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"Input" \
+{/TESTBED/u_ISP/clk} \
+{/TESTBED/u_ISP/rst_n} \
+{/TESTBED/u_ISP/in_valid} \
+{/TESTBED/u_ISP/in_pic_no\[3:0\]} \
+{/TESTBED/u_ISP/in_mode} \
+{/TESTBED/u_ISP/in_ratio_mode\[1:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+{/TESTBED/u_ISP/c_s\[2:0\]} \
+{/TESTBED/u_ISP/n_s\[2:0\]} \
+{/TESTBED/u_ISP/camera_mode} \
+{/TESTBED/u_ISP/pic_no\[3:0\]} \
+{/TESTBED/u_ISP/ratio\[1:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"AXI AR channel" \
+{/TESTBED/u_ISP/arlen_s_inf\[7:0\]} \
+{/TESTBED/u_ISP/araddr_s_inf\[31:0\]} \
+{/TESTBED/u_ISP/arvalid_s_inf} \
+{/TESTBED/u_ISP/arready_s_inf} -color ID_ORANGE6 \
+}
+wvAddSignal -win $_nWave1 -group {"AXI R channel" \
+{/TESTBED/u_ISP/pic_channel\[1:0\]} \
+{/TESTBED/u_ISP/cnt_dram_r\[5:0\]} \
+{/TESTBED/u_ISP/rready_s_inf} \
+{/TESTBED/u_ISP/rvalid_s_inf} -color ID_ORANGE6 \
+{/TESTBED/u_ISP/rdata_s_inf\[127:0\]} -color ID_ORANGE6 \
+{/TESTBED/u_ISP/rlast_s_inf} -color ID_ORANGE6 \
+}
+wvAddSignal -win $_nWave1 -group {"AXI AW channel" \
+{/TESTBED/u_ISP/awlen_s_inf\[7:0\]} \
+{/TESTBED/u_ISP/awaddr_s_inf\[31:0\]} \
+{/TESTBED/u_ISP/awvalid_s_inf} \
+{/TESTBED/u_ISP/awready_s_inf} -color ID_ORANGE6 \
+}
+wvAddSignal -win $_nWave1 -group {"AXI W channel" \
+}
+wvAddSignal -win $_nWave1 -group {"AXI W channel/AXI control" \
+{/TESTBED/u_ISP/cnt_dram_w\[7:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"AXI W channel" {/TESTBED/u_ISP/wvalid_s_inf} \
+{/TESTBED/u_ISP/wvalid_delay2} \
+{/TESTBED/u_ISP/wready_s_inf} -color ID_ORANGE6 \
+{/TESTBED/u_ISP/wdata_s_inf\[127:0\]} \
+{/TESTBED/u_ISP/wlast_s_inf} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus" \
+{/TESTBED/u_ISP/pic_channel\[1:0\]} \
+{/TESTBED/u_ISP/cnt_dram_r\[5:0\]} \
+{/TESTBED/u_ISP/fifo_valid1} \
+{/TESTBED/u_ISP/fifo_valid2} \
+{/TESTBED/u_ISP/dram_data\[31:0\]} \
+{/TESTBED/u_ISP/focus_map\[11:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Column difference" \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Column difference/Column diff-abs" \
+{/TESTBED/u_ISP/col_diff1_abs\[7:0\]} \
+{/TESTBED/u_ISP/col_diff2_abs\[7:0\]} \
+{/TESTBED/u_ISP/col_diff3_abs\[7:0\]} \
+{/TESTBED/u_ISP/col_diff4_abs\[7:0\]} \
+{/TESTBED/u_ISP/col_diff5_abs\[7:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Column difference/Column diff-signed" \
+{/TESTBED/u_ISP/col_diff1\[7:0\]} \
+{/TESTBED/u_ISP/col_diff2\[7:0\]} \
+{/TESTBED/u_ISP/col_diff3\[7:0\]} \
+{/TESTBED/u_ISP/col_diff4\[7:0\]} \
+{/TESTBED/u_ISP/col_diff5\[7:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "Auto focus/Column difference/Column diff-signed"
+wvAddSignal -win $_nWave1 -group {"Auto focus/Column difference" {/TESTBED/u_ISP/col_sum1\[9:0\]} \
+{/TESTBED/u_ISP/col_sum2\[10:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Column difference/Sum result" \
+{/TESTBED/u_ISP/col_22_valid} \
+{/TESTBED/u_ISP/sumc_2_2\[8:0\]} \
+{/TESTBED/u_ISP/col_44_valid} \
+{/TESTBED/u_ISP/sumc_4_4\[11:0\]} \
+{/TESTBED/u_ISP/col_66_valid} \
+{/TESTBED/u_ISP/sumc_6_6\[13:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "Auto focus/Column difference"
+wvAddSignal -win $_nWave1 -group {"Auto focus/Row difference" \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Row difference/Row diff-abs" \
+{/TESTBED/u_ISP/row_diff1_abs\[7:0\]} \
+{/TESTBED/u_ISP/row_diff2_abs\[7:0\]} \
+{/TESTBED/u_ISP/row_diff3_abs\[7:0\]} \
+{/TESTBED/u_ISP/row_diff4_abs\[7:0\]} \
+{/TESTBED/u_ISP/row_diff5_abs\[7:0\]} \
+{/TESTBED/u_ISP/row_diff6_abs\[7:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "Auto focus/Row difference/Row diff-abs"
+wvAddSignal -win $_nWave1 -group {"Auto focus/Row difference/Row diff-signed" \
+{/TESTBED/u_ISP/row_diff1\[7:0\]} \
+{/TESTBED/u_ISP/row_diff2\[7:0\]} \
+{/TESTBED/u_ISP/row_diff3\[7:0\]} \
+{/TESTBED/u_ISP/row_diff4\[7:0\]} \
+{/TESTBED/u_ISP/row_diff5\[7:0\]} \
+{/TESTBED/u_ISP/row_diff6\[7:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "Auto focus/Row difference/Row diff-signed"
+wvAddSignal -win $_nWave1 -group {"Auto focus/Row difference" {/TESTBED/u_ISP/row_sum1\[8:0\]} \
+{/TESTBED/u_ISP/row_sum2\[9:0\]} \
+{/TESTBED/u_ISP/row_sum3\[10:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Row difference/Sum result" \
+{/TESTBED/u_ISP/row_22_valid} \
+{/TESTBED/u_ISP/sumr_2_2\[8:0\]} \
+{/TESTBED/u_ISP/row_44_valid} \
+{/TESTBED/u_ISP/sumr_4_4\[11:0\]} \
+{/TESTBED/u_ISP/row_66_valid} \
+{/TESTBED/u_ISP/sumr_6_6\[13:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "Auto focus/Row difference"
+wvAddSignal -win $_nWave1 -group {"Auto focus/Contrast" \
+{/TESTBED/u_ISP/contrast_2_2\[9:0\]} \
+{/TESTBED/u_ISP/contrast_4_4\[12:0\]} \
+{/TESTBED/u_ISP/contrast_6_6\[14:0\]} \
+{/TESTBED/u_ISP/max_contrast\[14:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "Auto focus"
+wvAddSignal -win $_nWave1 -group {"Auto exposure" \
+}
+wvAddSignal -win $_nWave1 -group {"Auto exposure/Focus" \
+{/TESTBED/u_ISP/expose_data\[31:0\]} \
+{/TESTBED/u_ISP/gray_reg_focus\[31:0\]} \
+{/TESTBED/u_ISP/focus_6_6\[11:0\]} \
+{/TESTBED/u_ISP/_col_22_valid} \
+{/TESTBED/u_ISP/_col_44_valid} \
+{/TESTBED/u_ISP/_col_66_valid} \
+{/TESTBED/u_ISP/_row_22_valid} \
+{/TESTBED/u_ISP/_row_44_valid} \
+{/TESTBED/u_ISP/_row_66_valid} \
+{/TESTBED/u_ISP/cnt_dram_w2\[5:0\]} \
+{/TESTBED/u_ISP/pic_channel_w\[1:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto exposure" {/TESTBED/u_ISP/expose_fifo\[383:0\]} \
+{/TESTBED/u_ISP/exposure\[127:0\]} \
+{/TESTBED/u_ISP/gray_reg\[127:0\]} \
+{/TESTBED/u_ISP/gray_add\[12:0\]} \
+{/TESTBED/u_ISP/gray_sum\[17:0\]} \
+{/TESTBED/u_ISP/gray_avg\[7:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Output" \
+{/TESTBED/u_ISP/pic_expose_valid\[14:0\]} \
+{/TESTBED/u_ISP/out_valid} \
+{/TESTBED/u_ISP/out_data\[7:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"SRAM_Read" \
+{/TESTBED/u_ISP/wvalid_delay1} \
+}
+wvCollapseGroup -win $_nWave1 "SRAM_Read"
+wvAddSignal -win $_nWave1 -group {"SRAM_Write" \
+{/TESTBED/u_ISP/dram_data\[31:0\]} \
+{/TESTBED/u_ISP/exposure\[31:0\]} \
+{/TESTBED/u_ISP/gray_reg\[31:0\]} \
+{/TESTBED/u_ISP/pic_channel\[1:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "SRAM_Write"
+wvAddSignal -win $_nWave1 -group {"G12" \
+}
+wvSelectSignal -win $_nWave1 {( "Auto exposure/Focus" 11 )} 
+wvSetPosition -win $_nWave1 {("Auto exposure/Focus" 11)}
+wvGetSignalClose -win $_nWave1
+wvSelectSignal -win $_nWave1 {( "Auto exposure/Focus" 10 11 )} 
+wvSetPosition -win $_nWave1 {("Auto exposure/Focus" 10)}
+wvSetPosition -win $_nWave1 {("Auto exposure/Focus" 0)}
+wvMoveSelected -win $_nWave1
+wvSetPosition -win $_nWave1 {("Auto exposure/Focus" 0)}
+wvSetPosition -win $_nWave1 {("Auto exposure/Focus" 2)}
+wvSelectSignal -win $_nWave1 {( "Auto exposure/Focus" 1 )} 
+wvSelectSignal -win $_nWave1 {( "Auto exposure/Focus" 1 )} 
+wvSetRadix -win $_nWave1 -format UDec
+wvSaveSignal -win $_nWave1 \
+           "/RAID2/COURSE/iclab/iclab131/Midterm_Project/Exercise/01_RTL/signal.rc"
+wvDisplayGridCount -win $_nWave1 -off
+wvGetSignalClose -win $_nWave1
+wvReloadFile -win $_nWave1
+wvSetCursor -win $_nWave1 4972463.985907 -snap {("Focus" 2)}
+wvDisplayGridCount -win $_nWave1 -off
+wvGetSignalClose -win $_nWave1
+wvReloadFile -win $_nWave1
+wvDisplayGridCount -win $_nWave1 -off
+wvGetSignalClose -win $_nWave1
+wvReloadFile -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomIn -win $_nWave1
+wvSelectGroup -win $_nWave1 {Auto focus}
+wvSelectSignal -win $_nWave1 {( "Auto focus/Contrast" 1 2 3 4 )} 
+wvSelectSignal -win $_nWave1 {( "Auto focus/Contrast" 3 )} 
+wvSelectGroup -win $_nWave1 {Auto focus/Contrast}
+wvSelectGroup -win $_nWave1 {Auto focus/Row difference}
+wvSelectGroup -win $_nWave1 {Auto focus/Row difference}
+wvSelectGroup -win $_nWave1 {Auto focus/Row difference}
+wvSelectGroup -win $_nWave1 {Auto focus/Row difference}
+wvSelectGroup -win $_nWave1 {Auto focus/Column difference}
+wvSelectGroup -win $_nWave1 {Auto focus/Column difference}
+wvSelectGroup -win $_nWave1 {Auto focus/Column difference}
+wvSelectGroup -win $_nWave1 {Auto focus/Column difference}
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 1
+wvSelectGroup -win $_nWave1 {Auto focus/Column difference}
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollUp -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollUp -win $_nWave1 2
+wvScrollUp -win $_nWave1 5
+wvScrollUp -win $_nWave1 2
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 2
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollUp -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollUp -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollUp -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollUp -win $_nWave1 2
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollUp -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollUp -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollUp -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollUp -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 2
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 2
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvSelectGroup -win $_nWave1 {Auto focus/Contrast}
+wvSelectGroup -win $_nWave1 {Auto focus/Contrast}
+wvSelectGroup -win $_nWave1 {Auto focus/Row difference}
+wvSelectSignal -win $_nWave1 {( "Auto focus/Row difference/Sum result" 1 )} 
+wvDisplayGridCount -win $_nWave1 -off
+wvGetSignalClose -win $_nWave1
+wvReloadFile -win $_nWave1
+wvSelectGroup -win $_nWave1 {Auto focus/Row difference}
+wvScrollDown -win $_nWave1 5
+wvSelectGroup -win $_nWave1 {Auto focus/Contrast}
+wvDisplayGridCount -win $_nWave1 -off
+wvGetSignalClose -win $_nWave1
+wvReloadFile -win $_nWave1
+wvGetSignalOpen -win $_nWave1
+wvGetSignalSetScope -win $_nWave1 "/TESTBED/u_ISP"
+wvSetPosition -win $_nWave1 {("Auto exposure/Focus" 3)}
+wvSetPosition -win $_nWave1 {("Auto exposure/Focus" 3)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"Input" \
+{/TESTBED/u_ISP/clk} \
+{/TESTBED/u_ISP/rst_n} \
+{/TESTBED/u_ISP/in_valid} \
+{/TESTBED/u_ISP/in_pic_no\[3:0\]} \
+{/TESTBED/u_ISP/in_mode} \
+{/TESTBED/u_ISP/in_ratio_mode\[1:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+{/TESTBED/u_ISP/c_s\[2:0\]} \
+{/TESTBED/u_ISP/n_s\[2:0\]} \
+{/TESTBED/u_ISP/camera_mode} \
+{/TESTBED/u_ISP/pic_no\[3:0\]} \
+{/TESTBED/u_ISP/ratio\[1:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"AXI AR channel" \
+{/TESTBED/u_ISP/arlen_s_inf\[7:0\]} \
+{/TESTBED/u_ISP/araddr_s_inf\[31:0\]} \
+{/TESTBED/u_ISP/arvalid_s_inf} \
+{/TESTBED/u_ISP/arready_s_inf} -color ID_ORANGE6 \
+}
+wvAddSignal -win $_nWave1 -group {"AXI R channel" \
+{/TESTBED/u_ISP/pic_channel\[1:0\]} \
+{/TESTBED/u_ISP/cnt_dram_r\[5:0\]} \
+{/TESTBED/u_ISP/rready_s_inf} \
+{/TESTBED/u_ISP/rvalid_s_inf} -color ID_ORANGE6 \
+{/TESTBED/u_ISP/rdata_s_inf\[127:0\]} -color ID_ORANGE6 \
+{/TESTBED/u_ISP/rlast_s_inf} -color ID_ORANGE6 \
+}
+wvAddSignal -win $_nWave1 -group {"AXI AW channel" \
+{/TESTBED/u_ISP/awlen_s_inf\[7:0\]} \
+{/TESTBED/u_ISP/awaddr_s_inf\[31:0\]} \
+{/TESTBED/u_ISP/awvalid_s_inf} \
+{/TESTBED/u_ISP/awready_s_inf} -color ID_ORANGE6 \
+}
+wvAddSignal -win $_nWave1 -group {"AXI W channel" \
+}
+wvAddSignal -win $_nWave1 -group {"AXI W channel/AXI control" \
+{/TESTBED/u_ISP/cnt_dram_w\[7:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"AXI W channel" {/TESTBED/u_ISP/wvalid_s_inf} \
+{/TESTBED/u_ISP/wvalid_delay2} \
+{/TESTBED/u_ISP/wready_s_inf} -color ID_ORANGE6 \
+{/TESTBED/u_ISP/wdata_s_inf\[127:0\]} \
+{/TESTBED/u_ISP/wlast_s_inf} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus" \
+{/TESTBED/u_ISP/pic_channel\[1:0\]} \
+{/TESTBED/u_ISP/cnt_dram_r\[5:0\]} \
+{/TESTBED/u_ISP/fifo_valid1} \
+{/TESTBED/u_ISP/fifo_valid2} \
+{/TESTBED/u_ISP/dram_data\[31:0\]} \
+{/TESTBED/u_ISP/focus_map\[11:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Column difference" \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Column difference/Column diff-abs" \
+{/TESTBED/u_ISP/col_diff1_abs\[7:0\]} \
+{/TESTBED/u_ISP/col_diff2_abs\[7:0\]} \
+{/TESTBED/u_ISP/col_diff3_abs\[7:0\]} \
+{/TESTBED/u_ISP/col_diff4_abs\[7:0\]} \
+{/TESTBED/u_ISP/col_diff5_abs\[7:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Column difference/Column diff-signed" \
+{/TESTBED/u_ISP/col_diff1\[7:0\]} \
+{/TESTBED/u_ISP/col_diff2\[7:0\]} \
+{/TESTBED/u_ISP/col_diff3\[7:0\]} \
+{/TESTBED/u_ISP/col_diff4\[7:0\]} \
+{/TESTBED/u_ISP/col_diff5\[7:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "Auto focus/Column difference/Column diff-signed"
+wvAddSignal -win $_nWave1 -group {"Auto focus/Column difference" {/TESTBED/u_ISP/col_sum1\[9:0\]} \
+{/TESTBED/u_ISP/col_sum2\[10:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Column difference/Sum result" \
+{/TESTBED/u_ISP/col_22_valid} \
+{/TESTBED/u_ISP/sumc_2_2\[8:0\]} \
+{/TESTBED/u_ISP/col_44_valid} \
+{/TESTBED/u_ISP/sumc_4_4\[11:0\]} \
+{/TESTBED/u_ISP/col_66_valid} \
+{/TESTBED/u_ISP/sumc_6_6\[13:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "Auto focus/Column difference"
+wvAddSignal -win $_nWave1 -group {"Auto focus/Row difference" \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Row difference/Row diff-abs" \
+{/TESTBED/u_ISP/row_diff1_abs\[7:0\]} \
+{/TESTBED/u_ISP/row_diff2_abs\[7:0\]} \
+{/TESTBED/u_ISP/row_diff3_abs\[7:0\]} \
+{/TESTBED/u_ISP/row_diff4_abs\[7:0\]} \
+{/TESTBED/u_ISP/row_diff5_abs\[7:0\]} \
+{/TESTBED/u_ISP/row_diff6_abs\[7:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "Auto focus/Row difference/Row diff-abs"
+wvAddSignal -win $_nWave1 -group {"Auto focus/Row difference/Row diff-signed" \
+{/TESTBED/u_ISP/row_diff1\[7:0\]} \
+{/TESTBED/u_ISP/row_diff2\[7:0\]} \
+{/TESTBED/u_ISP/row_diff3\[7:0\]} \
+{/TESTBED/u_ISP/row_diff4\[7:0\]} \
+{/TESTBED/u_ISP/row_diff5\[7:0\]} \
+{/TESTBED/u_ISP/row_diff6\[7:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "Auto focus/Row difference/Row diff-signed"
+wvAddSignal -win $_nWave1 -group {"Auto focus/Row difference" {/TESTBED/u_ISP/row_sum1\[8:0\]} \
+{/TESTBED/u_ISP/row_sum2\[9:0\]} \
+{/TESTBED/u_ISP/row_sum3\[10:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Row difference/Sum result" \
+{/TESTBED/u_ISP/row_22_valid} \
+{/TESTBED/u_ISP/sumr_2_2\[8:0\]} \
+{/TESTBED/u_ISP/row_44_valid} \
+{/TESTBED/u_ISP/sumr_4_4\[11:0\]} \
+{/TESTBED/u_ISP/row_66_valid} \
+{/TESTBED/u_ISP/sumr_6_6\[13:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "Auto focus/Row difference"
+wvAddSignal -win $_nWave1 -group {"Auto focus/Contrast" \
+{/TESTBED/u_ISP/contrast_2_2\[9:0\]} \
+{/TESTBED/u_ISP/contrast_4_4\[12:0\]} \
+{/TESTBED/u_ISP/contrast_6_6\[14:0\]} \
+{/TESTBED/u_ISP/max_contrast\[14:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto exposure" \
+}
+wvAddSignal -win $_nWave1 -group {"Auto exposure/Focus" \
+{/TESTBED/u_ISP/cnt_dram_w2\[5:0\]} \
+{/TESTBED/u_ISP/pic_channel_w\[1:0\]} \
+{/TESTBED/u_ISP/skip_focus_valid\[15:0\]} \
+{/TESTBED/u_ISP/expose_data\[31:0\]} \
+{/TESTBED/u_ISP/gray_reg_focus\[31:0\]} \
+{/TESTBED/u_ISP/focus_6_6\[11:0\]} \
+{/TESTBED/u_ISP/_col_22_valid} \
+{/TESTBED/u_ISP/_col_44_valid} \
+{/TESTBED/u_ISP/_col_66_valid} \
+{/TESTBED/u_ISP/_row_22_valid} \
+{/TESTBED/u_ISP/_row_44_valid} \
+{/TESTBED/u_ISP/_row_66_valid} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto exposure" {/TESTBED/u_ISP/expose_fifo\[383:0\]} \
+{/TESTBED/u_ISP/exposure\[127:0\]} \
+{/TESTBED/u_ISP/gray_reg\[127:0\]} \
+{/TESTBED/u_ISP/gray_add\[12:0\]} \
+{/TESTBED/u_ISP/gray_sum\[17:0\]} \
+{/TESTBED/u_ISP/gray_avg\[7:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Output" \
+{/TESTBED/u_ISP/pic_expose_valid\[14:0\]} \
+{/TESTBED/u_ISP/out_valid} \
+{/TESTBED/u_ISP/out_data\[7:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"SRAM_Read" \
+{/TESTBED/u_ISP/wvalid_delay1} \
+}
+wvCollapseGroup -win $_nWave1 "SRAM_Read"
+wvAddSignal -win $_nWave1 -group {"SRAM_Write" \
+{/TESTBED/u_ISP/dram_data\[31:0\]} \
+{/TESTBED/u_ISP/exposure\[31:0\]} \
+{/TESTBED/u_ISP/gray_reg\[31:0\]} \
+{/TESTBED/u_ISP/pic_channel\[1:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "SRAM_Write"
+wvAddSignal -win $_nWave1 -group {"G12" \
+}
+wvSelectSignal -win $_nWave1 {( "Auto exposure/Focus" 3 )} 
+wvSetPosition -win $_nWave1 {("Auto exposure/Focus" 3)}
+wvSetPosition -win $_nWave1 {("Auto exposure/Focus" 3)}
+wvSetPosition -win $_nWave1 {("Auto exposure/Focus" 3)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"Input" \
+{/TESTBED/u_ISP/clk} \
+{/TESTBED/u_ISP/rst_n} \
+{/TESTBED/u_ISP/in_valid} \
+{/TESTBED/u_ISP/in_pic_no\[3:0\]} \
+{/TESTBED/u_ISP/in_mode} \
+{/TESTBED/u_ISP/in_ratio_mode\[1:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+{/TESTBED/u_ISP/c_s\[2:0\]} \
+{/TESTBED/u_ISP/n_s\[2:0\]} \
+{/TESTBED/u_ISP/camera_mode} \
+{/TESTBED/u_ISP/pic_no\[3:0\]} \
+{/TESTBED/u_ISP/ratio\[1:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"AXI AR channel" \
+{/TESTBED/u_ISP/arlen_s_inf\[7:0\]} \
+{/TESTBED/u_ISP/araddr_s_inf\[31:0\]} \
+{/TESTBED/u_ISP/arvalid_s_inf} \
+{/TESTBED/u_ISP/arready_s_inf} -color ID_ORANGE6 \
+}
+wvAddSignal -win $_nWave1 -group {"AXI R channel" \
+{/TESTBED/u_ISP/pic_channel\[1:0\]} \
+{/TESTBED/u_ISP/cnt_dram_r\[5:0\]} \
+{/TESTBED/u_ISP/rready_s_inf} \
+{/TESTBED/u_ISP/rvalid_s_inf} -color ID_ORANGE6 \
+{/TESTBED/u_ISP/rdata_s_inf\[127:0\]} -color ID_ORANGE6 \
+{/TESTBED/u_ISP/rlast_s_inf} -color ID_ORANGE6 \
+}
+wvAddSignal -win $_nWave1 -group {"AXI AW channel" \
+{/TESTBED/u_ISP/awlen_s_inf\[7:0\]} \
+{/TESTBED/u_ISP/awaddr_s_inf\[31:0\]} \
+{/TESTBED/u_ISP/awvalid_s_inf} \
+{/TESTBED/u_ISP/awready_s_inf} -color ID_ORANGE6 \
+}
+wvAddSignal -win $_nWave1 -group {"AXI W channel" \
+}
+wvAddSignal -win $_nWave1 -group {"AXI W channel/AXI control" \
+{/TESTBED/u_ISP/cnt_dram_w\[7:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"AXI W channel" {/TESTBED/u_ISP/wvalid_s_inf} \
+{/TESTBED/u_ISP/wvalid_delay2} \
+{/TESTBED/u_ISP/wready_s_inf} -color ID_ORANGE6 \
+{/TESTBED/u_ISP/wdata_s_inf\[127:0\]} \
+{/TESTBED/u_ISP/wlast_s_inf} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus" \
+{/TESTBED/u_ISP/pic_channel\[1:0\]} \
+{/TESTBED/u_ISP/cnt_dram_r\[5:0\]} \
+{/TESTBED/u_ISP/fifo_valid1} \
+{/TESTBED/u_ISP/fifo_valid2} \
+{/TESTBED/u_ISP/dram_data\[31:0\]} \
+{/TESTBED/u_ISP/focus_map\[11:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Column difference" \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Column difference/Column diff-abs" \
+{/TESTBED/u_ISP/col_diff1_abs\[7:0\]} \
+{/TESTBED/u_ISP/col_diff2_abs\[7:0\]} \
+{/TESTBED/u_ISP/col_diff3_abs\[7:0\]} \
+{/TESTBED/u_ISP/col_diff4_abs\[7:0\]} \
+{/TESTBED/u_ISP/col_diff5_abs\[7:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Column difference/Column diff-signed" \
+{/TESTBED/u_ISP/col_diff1\[7:0\]} \
+{/TESTBED/u_ISP/col_diff2\[7:0\]} \
+{/TESTBED/u_ISP/col_diff3\[7:0\]} \
+{/TESTBED/u_ISP/col_diff4\[7:0\]} \
+{/TESTBED/u_ISP/col_diff5\[7:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "Auto focus/Column difference/Column diff-signed"
+wvAddSignal -win $_nWave1 -group {"Auto focus/Column difference" {/TESTBED/u_ISP/col_sum1\[9:0\]} \
+{/TESTBED/u_ISP/col_sum2\[10:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Column difference/Sum result" \
+{/TESTBED/u_ISP/col_22_valid} \
+{/TESTBED/u_ISP/sumc_2_2\[8:0\]} \
+{/TESTBED/u_ISP/col_44_valid} \
+{/TESTBED/u_ISP/sumc_4_4\[11:0\]} \
+{/TESTBED/u_ISP/col_66_valid} \
+{/TESTBED/u_ISP/sumc_6_6\[13:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "Auto focus/Column difference"
+wvAddSignal -win $_nWave1 -group {"Auto focus/Row difference" \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Row difference/Row diff-abs" \
+{/TESTBED/u_ISP/row_diff1_abs\[7:0\]} \
+{/TESTBED/u_ISP/row_diff2_abs\[7:0\]} \
+{/TESTBED/u_ISP/row_diff3_abs\[7:0\]} \
+{/TESTBED/u_ISP/row_diff4_abs\[7:0\]} \
+{/TESTBED/u_ISP/row_diff5_abs\[7:0\]} \
+{/TESTBED/u_ISP/row_diff6_abs\[7:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "Auto focus/Row difference/Row diff-abs"
+wvAddSignal -win $_nWave1 -group {"Auto focus/Row difference/Row diff-signed" \
+{/TESTBED/u_ISP/row_diff1\[7:0\]} \
+{/TESTBED/u_ISP/row_diff2\[7:0\]} \
+{/TESTBED/u_ISP/row_diff3\[7:0\]} \
+{/TESTBED/u_ISP/row_diff4\[7:0\]} \
+{/TESTBED/u_ISP/row_diff5\[7:0\]} \
+{/TESTBED/u_ISP/row_diff6\[7:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "Auto focus/Row difference/Row diff-signed"
+wvAddSignal -win $_nWave1 -group {"Auto focus/Row difference" {/TESTBED/u_ISP/row_sum1\[8:0\]} \
+{/TESTBED/u_ISP/row_sum2\[9:0\]} \
+{/TESTBED/u_ISP/row_sum3\[10:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Row difference/Sum result" \
+{/TESTBED/u_ISP/row_22_valid} \
+{/TESTBED/u_ISP/sumr_2_2\[8:0\]} \
+{/TESTBED/u_ISP/row_44_valid} \
+{/TESTBED/u_ISP/sumr_4_4\[11:0\]} \
+{/TESTBED/u_ISP/row_66_valid} \
+{/TESTBED/u_ISP/sumr_6_6\[13:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "Auto focus/Row difference"
+wvAddSignal -win $_nWave1 -group {"Auto focus/Contrast" \
+{/TESTBED/u_ISP/contrast_2_2\[9:0\]} \
+{/TESTBED/u_ISP/contrast_4_4\[12:0\]} \
+{/TESTBED/u_ISP/contrast_6_6\[14:0\]} \
+{/TESTBED/u_ISP/max_contrast\[14:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto exposure" \
+}
+wvAddSignal -win $_nWave1 -group {"Auto exposure/Focus" \
+{/TESTBED/u_ISP/cnt_dram_w2\[5:0\]} \
+{/TESTBED/u_ISP/pic_channel_w\[1:0\]} \
+{/TESTBED/u_ISP/skip_focus_valid\[15:0\]} \
+{/TESTBED/u_ISP/expose_data\[31:0\]} \
+{/TESTBED/u_ISP/gray_reg_focus\[31:0\]} \
+{/TESTBED/u_ISP/focus_6_6\[11:0\]} \
+{/TESTBED/u_ISP/_col_22_valid} \
+{/TESTBED/u_ISP/_col_44_valid} \
+{/TESTBED/u_ISP/_col_66_valid} \
+{/TESTBED/u_ISP/_row_22_valid} \
+{/TESTBED/u_ISP/_row_44_valid} \
+{/TESTBED/u_ISP/_row_66_valid} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto exposure" {/TESTBED/u_ISP/expose_fifo\[383:0\]} \
+{/TESTBED/u_ISP/exposure\[127:0\]} \
+{/TESTBED/u_ISP/gray_reg\[127:0\]} \
+{/TESTBED/u_ISP/gray_add\[12:0\]} \
+{/TESTBED/u_ISP/gray_sum\[17:0\]} \
+{/TESTBED/u_ISP/gray_avg\[7:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Output" \
+{/TESTBED/u_ISP/pic_expose_valid\[14:0\]} \
+{/TESTBED/u_ISP/out_valid} \
+{/TESTBED/u_ISP/out_data\[7:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"SRAM_Read" \
+{/TESTBED/u_ISP/wvalid_delay1} \
+}
+wvCollapseGroup -win $_nWave1 "SRAM_Read"
+wvAddSignal -win $_nWave1 -group {"SRAM_Write" \
+{/TESTBED/u_ISP/dram_data\[31:0\]} \
+{/TESTBED/u_ISP/exposure\[31:0\]} \
+{/TESTBED/u_ISP/gray_reg\[31:0\]} \
+{/TESTBED/u_ISP/pic_channel\[1:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "SRAM_Write"
+wvAddSignal -win $_nWave1 -group {"G12" \
+}
+wvSelectSignal -win $_nWave1 {( "Auto exposure/Focus" 3 )} 
+wvSetPosition -win $_nWave1 {("Auto exposure/Focus" 3)}
+wvGetSignalClose -win $_nWave1
+wvSelectSignal -win $_nWave1 {( "Auto exposure/Focus" 3 )} 
+wvSetPosition -win $_nWave1 {("Auto exposure/Focus" 1)}
+wvSetPosition -win $_nWave1 {("Auto exposure/Focus" 0)}
+wvMoveSelected -win $_nWave1
+wvSetPosition -win $_nWave1 {("Auto exposure/Focus" 0)}
+wvSetPosition -win $_nWave1 {("Auto exposure/Focus" 1)}
+wvSelectSignal -win $_nWave1 {( "Auto exposure/Focus" 1 )} 
+wvSetRadix -win $_nWave1 -format Bin
+wvSaveSignal -win $_nWave1 \
+           "/RAID2/COURSE/iclab/iclab131/Midterm_Project/Exercise/01_RTL/signal.rc"
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvSetCursor -win $_nWave1 4283565.505423 -snap {("Focus" 1)}
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 1
+wvScrollUp -win $_nWave1 12
+wvScrollUp -win $_nWave1 18
+wvScrollDown -win $_nWave1 3
+wvScrollDown -win $_nWave1 11
+wvScrollUp -win $_nWave1 1
+wvZoomIn -win $_nWave1
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 1
+wvZoomIn -win $_nWave1
+wvScrollUp -win $_nWave1 15
+wvSelectGroup -win $_nWave1 {Auto focus}
+wvDisplayGridCount -win $_nWave1 -off
+wvGetSignalClose -win $_nWave1
+wvReloadFile -win $_nWave1
+wvGetSignalOpen -win $_nWave1
+wvGetSignalSetScope -win $_nWave1 "/TESTBED/u_ISP"
+wvSetPosition -win $_nWave1 {("Auto exposure/Focus" 2)}
+wvSetPosition -win $_nWave1 {("Auto exposure/Focus" 2)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"Input" \
+{/TESTBED/u_ISP/clk} \
+{/TESTBED/u_ISP/rst_n} \
+{/TESTBED/u_ISP/in_valid} \
+{/TESTBED/u_ISP/in_pic_no\[3:0\]} \
+{/TESTBED/u_ISP/in_mode} \
+{/TESTBED/u_ISP/in_ratio_mode\[1:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+{/TESTBED/u_ISP/c_s\[2:0\]} \
+{/TESTBED/u_ISP/n_s\[2:0\]} \
+{/TESTBED/u_ISP/camera_mode} \
+{/TESTBED/u_ISP/pic_no\[3:0\]} \
+{/TESTBED/u_ISP/ratio\[1:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"AXI AR channel" \
+{/TESTBED/u_ISP/arlen_s_inf\[7:0\]} \
+{/TESTBED/u_ISP/araddr_s_inf\[31:0\]} \
+{/TESTBED/u_ISP/arvalid_s_inf} \
+{/TESTBED/u_ISP/arready_s_inf} -color ID_ORANGE6 \
+}
+wvAddSignal -win $_nWave1 -group {"AXI R channel" \
+{/TESTBED/u_ISP/pic_channel\[1:0\]} \
+{/TESTBED/u_ISP/cnt_dram_r\[5:0\]} \
+{/TESTBED/u_ISP/rready_s_inf} \
+{/TESTBED/u_ISP/rvalid_s_inf} -color ID_ORANGE6 \
+{/TESTBED/u_ISP/rdata_s_inf\[127:0\]} -color ID_ORANGE6 \
+{/TESTBED/u_ISP/rlast_s_inf} -color ID_ORANGE6 \
+}
+wvAddSignal -win $_nWave1 -group {"AXI AW channel" \
+{/TESTBED/u_ISP/awlen_s_inf\[7:0\]} \
+{/TESTBED/u_ISP/awaddr_s_inf\[31:0\]} \
+{/TESTBED/u_ISP/awvalid_s_inf} \
+{/TESTBED/u_ISP/awready_s_inf} -color ID_ORANGE6 \
+}
+wvAddSignal -win $_nWave1 -group {"AXI W channel" \
+}
+wvAddSignal -win $_nWave1 -group {"AXI W channel/AXI control" \
+{/TESTBED/u_ISP/cnt_dram_w\[7:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"AXI W channel" {/TESTBED/u_ISP/wvalid_s_inf} \
+{/TESTBED/u_ISP/wvalid_delay2} \
+{/TESTBED/u_ISP/wready_s_inf} -color ID_ORANGE6 \
+{/TESTBED/u_ISP/wdata_s_inf\[127:0\]} \
+{/TESTBED/u_ISP/wlast_s_inf} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus" \
+{/TESTBED/u_ISP/pic_channel\[1:0\]} \
+{/TESTBED/u_ISP/cnt_dram_r\[5:0\]} \
+{/TESTBED/u_ISP/fifo_valid1} \
+{/TESTBED/u_ISP/fifo_valid2} \
+{/TESTBED/u_ISP/dram_data\[31:0\]} \
+{/TESTBED/u_ISP/focus_map\[11:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Column difference" \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Column difference/Column diff-abs" \
+{/TESTBED/u_ISP/col_diff1_abs\[7:0\]} \
+{/TESTBED/u_ISP/col_diff2_abs\[7:0\]} \
+{/TESTBED/u_ISP/col_diff3_abs\[7:0\]} \
+{/TESTBED/u_ISP/col_diff4_abs\[7:0\]} \
+{/TESTBED/u_ISP/col_diff5_abs\[7:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Column difference/Column diff-signed" \
+{/TESTBED/u_ISP/col_diff1\[7:0\]} \
+{/TESTBED/u_ISP/col_diff2\[7:0\]} \
+{/TESTBED/u_ISP/col_diff3\[7:0\]} \
+{/TESTBED/u_ISP/col_diff4\[7:0\]} \
+{/TESTBED/u_ISP/col_diff5\[7:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "Auto focus/Column difference/Column diff-signed"
+wvAddSignal -win $_nWave1 -group {"Auto focus/Column difference" {/TESTBED/u_ISP/col_sum1\[9:0\]} \
+{/TESTBED/u_ISP/col_sum2\[10:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Column difference/Sum result" \
+{/TESTBED/u_ISP/col_22_valid} \
+{/TESTBED/u_ISP/sumc_2_2\[8:0\]} \
+{/TESTBED/u_ISP/col_44_valid} \
+{/TESTBED/u_ISP/sumc_4_4\[11:0\]} \
+{/TESTBED/u_ISP/col_66_valid} \
+{/TESTBED/u_ISP/sumc_6_6\[13:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "Auto focus/Column difference"
+wvAddSignal -win $_nWave1 -group {"Auto focus/Row difference" \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Row difference/Row diff-abs" \
+{/TESTBED/u_ISP/row_diff1_abs\[7:0\]} \
+{/TESTBED/u_ISP/row_diff2_abs\[7:0\]} \
+{/TESTBED/u_ISP/row_diff3_abs\[7:0\]} \
+{/TESTBED/u_ISP/row_diff4_abs\[7:0\]} \
+{/TESTBED/u_ISP/row_diff5_abs\[7:0\]} \
+{/TESTBED/u_ISP/row_diff6_abs\[7:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "Auto focus/Row difference/Row diff-abs"
+wvAddSignal -win $_nWave1 -group {"Auto focus/Row difference/Row diff-signed" \
+{/TESTBED/u_ISP/row_diff1\[7:0\]} \
+{/TESTBED/u_ISP/row_diff2\[7:0\]} \
+{/TESTBED/u_ISP/row_diff3\[7:0\]} \
+{/TESTBED/u_ISP/row_diff4\[7:0\]} \
+{/TESTBED/u_ISP/row_diff5\[7:0\]} \
+{/TESTBED/u_ISP/row_diff6\[7:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "Auto focus/Row difference/Row diff-signed"
+wvAddSignal -win $_nWave1 -group {"Auto focus/Row difference" {/TESTBED/u_ISP/row_sum1\[8:0\]} \
+{/TESTBED/u_ISP/row_sum2\[9:0\]} \
+{/TESTBED/u_ISP/row_sum3\[10:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Row difference/Sum result" \
+{/TESTBED/u_ISP/row_22_valid} \
+{/TESTBED/u_ISP/sumr_2_2\[8:0\]} \
+{/TESTBED/u_ISP/row_44_valid} \
+{/TESTBED/u_ISP/sumr_4_4\[11:0\]} \
+{/TESTBED/u_ISP/row_66_valid} \
+{/TESTBED/u_ISP/sumr_6_6\[13:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "Auto focus/Row difference"
+wvAddSignal -win $_nWave1 -group {"Auto focus/Contrast" \
+{/TESTBED/u_ISP/contrast_2_2\[9:0\]} \
+{/TESTBED/u_ISP/contrast_4_4\[12:0\]} \
+{/TESTBED/u_ISP/contrast_6_6\[14:0\]} \
+{/TESTBED/u_ISP/max_contrast\[14:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "Auto focus"
+wvAddSignal -win $_nWave1 -group {"Auto exposure" \
+}
+wvAddSignal -win $_nWave1 -group {"Auto exposure/Focus" \
+{/TESTBED/u_ISP/skip_focus_valid\[15:0\]} \
+{/TESTBED/u_ISP/max_contrast_idx_store\[15:0\]} \
+{/TESTBED/u_ISP/cnt_dram_w2\[5:0\]} \
+{/TESTBED/u_ISP/pic_channel_w\[1:0\]} \
+{/TESTBED/u_ISP/expose_data\[31:0\]} \
+{/TESTBED/u_ISP/gray_reg_focus\[31:0\]} \
+{/TESTBED/u_ISP/focus_6_6\[11:0\]} \
+{/TESTBED/u_ISP/_col_22_valid} \
+{/TESTBED/u_ISP/_col_44_valid} \
+{/TESTBED/u_ISP/_col_66_valid} \
+{/TESTBED/u_ISP/_row_22_valid} \
+{/TESTBED/u_ISP/_row_44_valid} \
+{/TESTBED/u_ISP/_row_66_valid} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto exposure" {/TESTBED/u_ISP/expose_fifo\[383:0\]} \
+{/TESTBED/u_ISP/exposure\[127:0\]} \
+{/TESTBED/u_ISP/gray_reg\[127:0\]} \
+{/TESTBED/u_ISP/gray_add\[12:0\]} \
+{/TESTBED/u_ISP/gray_sum\[17:0\]} \
+{/TESTBED/u_ISP/gray_avg\[7:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Output" \
+{/TESTBED/u_ISP/pic_expose_valid\[14:0\]} \
+{/TESTBED/u_ISP/out_valid} \
+{/TESTBED/u_ISP/out_data\[7:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"SRAM_Read" \
+{/TESTBED/u_ISP/wvalid_delay1} \
+}
+wvCollapseGroup -win $_nWave1 "SRAM_Read"
+wvAddSignal -win $_nWave1 -group {"SRAM_Write" \
+{/TESTBED/u_ISP/dram_data\[31:0\]} \
+{/TESTBED/u_ISP/exposure\[31:0\]} \
+{/TESTBED/u_ISP/gray_reg\[31:0\]} \
+{/TESTBED/u_ISP/pic_channel\[1:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "SRAM_Write"
+wvAddSignal -win $_nWave1 -group {"G12" \
+}
+wvSelectSignal -win $_nWave1 {( "Auto exposure/Focus" 2 )} 
+wvSetPosition -win $_nWave1 {("Auto exposure/Focus" 2)}
+wvSetPosition -win $_nWave1 {("Auto exposure/Focus" 2)}
+wvSetPosition -win $_nWave1 {("Auto exposure/Focus" 2)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"Input" \
+{/TESTBED/u_ISP/clk} \
+{/TESTBED/u_ISP/rst_n} \
+{/TESTBED/u_ISP/in_valid} \
+{/TESTBED/u_ISP/in_pic_no\[3:0\]} \
+{/TESTBED/u_ISP/in_mode} \
+{/TESTBED/u_ISP/in_ratio_mode\[1:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+{/TESTBED/u_ISP/c_s\[2:0\]} \
+{/TESTBED/u_ISP/n_s\[2:0\]} \
+{/TESTBED/u_ISP/camera_mode} \
+{/TESTBED/u_ISP/pic_no\[3:0\]} \
+{/TESTBED/u_ISP/ratio\[1:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"AXI AR channel" \
+{/TESTBED/u_ISP/arlen_s_inf\[7:0\]} \
+{/TESTBED/u_ISP/araddr_s_inf\[31:0\]} \
+{/TESTBED/u_ISP/arvalid_s_inf} \
+{/TESTBED/u_ISP/arready_s_inf} -color ID_ORANGE6 \
+}
+wvAddSignal -win $_nWave1 -group {"AXI R channel" \
+{/TESTBED/u_ISP/pic_channel\[1:0\]} \
+{/TESTBED/u_ISP/cnt_dram_r\[5:0\]} \
+{/TESTBED/u_ISP/rready_s_inf} \
+{/TESTBED/u_ISP/rvalid_s_inf} -color ID_ORANGE6 \
+{/TESTBED/u_ISP/rdata_s_inf\[127:0\]} -color ID_ORANGE6 \
+{/TESTBED/u_ISP/rlast_s_inf} -color ID_ORANGE6 \
+}
+wvAddSignal -win $_nWave1 -group {"AXI AW channel" \
+{/TESTBED/u_ISP/awlen_s_inf\[7:0\]} \
+{/TESTBED/u_ISP/awaddr_s_inf\[31:0\]} \
+{/TESTBED/u_ISP/awvalid_s_inf} \
+{/TESTBED/u_ISP/awready_s_inf} -color ID_ORANGE6 \
+}
+wvAddSignal -win $_nWave1 -group {"AXI W channel" \
+}
+wvAddSignal -win $_nWave1 -group {"AXI W channel/AXI control" \
+{/TESTBED/u_ISP/cnt_dram_w\[7:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"AXI W channel" {/TESTBED/u_ISP/wvalid_s_inf} \
+{/TESTBED/u_ISP/wvalid_delay2} \
+{/TESTBED/u_ISP/wready_s_inf} -color ID_ORANGE6 \
+{/TESTBED/u_ISP/wdata_s_inf\[127:0\]} \
+{/TESTBED/u_ISP/wlast_s_inf} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus" \
+{/TESTBED/u_ISP/pic_channel\[1:0\]} \
+{/TESTBED/u_ISP/cnt_dram_r\[5:0\]} \
+{/TESTBED/u_ISP/fifo_valid1} \
+{/TESTBED/u_ISP/fifo_valid2} \
+{/TESTBED/u_ISP/dram_data\[31:0\]} \
+{/TESTBED/u_ISP/focus_map\[11:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Column difference" \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Column difference/Column diff-abs" \
+{/TESTBED/u_ISP/col_diff1_abs\[7:0\]} \
+{/TESTBED/u_ISP/col_diff2_abs\[7:0\]} \
+{/TESTBED/u_ISP/col_diff3_abs\[7:0\]} \
+{/TESTBED/u_ISP/col_diff4_abs\[7:0\]} \
+{/TESTBED/u_ISP/col_diff5_abs\[7:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Column difference/Column diff-signed" \
+{/TESTBED/u_ISP/col_diff1\[7:0\]} \
+{/TESTBED/u_ISP/col_diff2\[7:0\]} \
+{/TESTBED/u_ISP/col_diff3\[7:0\]} \
+{/TESTBED/u_ISP/col_diff4\[7:0\]} \
+{/TESTBED/u_ISP/col_diff5\[7:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "Auto focus/Column difference/Column diff-signed"
+wvAddSignal -win $_nWave1 -group {"Auto focus/Column difference" {/TESTBED/u_ISP/col_sum1\[9:0\]} \
+{/TESTBED/u_ISP/col_sum2\[10:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Column difference/Sum result" \
+{/TESTBED/u_ISP/col_22_valid} \
+{/TESTBED/u_ISP/sumc_2_2\[8:0\]} \
+{/TESTBED/u_ISP/col_44_valid} \
+{/TESTBED/u_ISP/sumc_4_4\[11:0\]} \
+{/TESTBED/u_ISP/col_66_valid} \
+{/TESTBED/u_ISP/sumc_6_6\[13:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "Auto focus/Column difference"
+wvAddSignal -win $_nWave1 -group {"Auto focus/Row difference" \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Row difference/Row diff-abs" \
+{/TESTBED/u_ISP/row_diff1_abs\[7:0\]} \
+{/TESTBED/u_ISP/row_diff2_abs\[7:0\]} \
+{/TESTBED/u_ISP/row_diff3_abs\[7:0\]} \
+{/TESTBED/u_ISP/row_diff4_abs\[7:0\]} \
+{/TESTBED/u_ISP/row_diff5_abs\[7:0\]} \
+{/TESTBED/u_ISP/row_diff6_abs\[7:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "Auto focus/Row difference/Row diff-abs"
+wvAddSignal -win $_nWave1 -group {"Auto focus/Row difference/Row diff-signed" \
+{/TESTBED/u_ISP/row_diff1\[7:0\]} \
+{/TESTBED/u_ISP/row_diff2\[7:0\]} \
+{/TESTBED/u_ISP/row_diff3\[7:0\]} \
+{/TESTBED/u_ISP/row_diff4\[7:0\]} \
+{/TESTBED/u_ISP/row_diff5\[7:0\]} \
+{/TESTBED/u_ISP/row_diff6\[7:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "Auto focus/Row difference/Row diff-signed"
+wvAddSignal -win $_nWave1 -group {"Auto focus/Row difference" {/TESTBED/u_ISP/row_sum1\[8:0\]} \
+{/TESTBED/u_ISP/row_sum2\[9:0\]} \
+{/TESTBED/u_ISP/row_sum3\[10:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto focus/Row difference/Sum result" \
+{/TESTBED/u_ISP/row_22_valid} \
+{/TESTBED/u_ISP/sumr_2_2\[8:0\]} \
+{/TESTBED/u_ISP/row_44_valid} \
+{/TESTBED/u_ISP/sumr_4_4\[11:0\]} \
+{/TESTBED/u_ISP/row_66_valid} \
+{/TESTBED/u_ISP/sumr_6_6\[13:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "Auto focus/Row difference"
+wvAddSignal -win $_nWave1 -group {"Auto focus/Contrast" \
+{/TESTBED/u_ISP/contrast_2_2\[9:0\]} \
+{/TESTBED/u_ISP/contrast_4_4\[12:0\]} \
+{/TESTBED/u_ISP/contrast_6_6\[14:0\]} \
+{/TESTBED/u_ISP/max_contrast\[14:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "Auto focus"
+wvAddSignal -win $_nWave1 -group {"Auto exposure" \
+}
+wvAddSignal -win $_nWave1 -group {"Auto exposure/Focus" \
+{/TESTBED/u_ISP/skip_focus_valid\[15:0\]} \
+{/TESTBED/u_ISP/max_contrast_idx_store\[15:0\]} \
+{/TESTBED/u_ISP/cnt_dram_w2\[5:0\]} \
+{/TESTBED/u_ISP/pic_channel_w\[1:0\]} \
+{/TESTBED/u_ISP/expose_data\[31:0\]} \
+{/TESTBED/u_ISP/gray_reg_focus\[31:0\]} \
+{/TESTBED/u_ISP/focus_6_6\[11:0\]} \
+{/TESTBED/u_ISP/_col_22_valid} \
+{/TESTBED/u_ISP/_col_44_valid} \
+{/TESTBED/u_ISP/_col_66_valid} \
+{/TESTBED/u_ISP/_row_22_valid} \
+{/TESTBED/u_ISP/_row_44_valid} \
+{/TESTBED/u_ISP/_row_66_valid} \
+}
+wvAddSignal -win $_nWave1 -group {"Auto exposure" {/TESTBED/u_ISP/expose_fifo\[383:0\]} \
+{/TESTBED/u_ISP/exposure\[127:0\]} \
+{/TESTBED/u_ISP/gray_reg\[127:0\]} \
+{/TESTBED/u_ISP/gray_add\[12:0\]} \
+{/TESTBED/u_ISP/gray_sum\[17:0\]} \
+{/TESTBED/u_ISP/gray_avg\[7:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"Output" \
+{/TESTBED/u_ISP/pic_expose_valid\[14:0\]} \
+{/TESTBED/u_ISP/out_valid} \
+{/TESTBED/u_ISP/out_data\[7:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"SRAM_Read" \
+{/TESTBED/u_ISP/wvalid_delay1} \
+}
+wvCollapseGroup -win $_nWave1 "SRAM_Read"
+wvAddSignal -win $_nWave1 -group {"SRAM_Write" \
+{/TESTBED/u_ISP/dram_data\[31:0\]} \
+{/TESTBED/u_ISP/exposure\[31:0\]} \
+{/TESTBED/u_ISP/gray_reg\[31:0\]} \
+{/TESTBED/u_ISP/pic_channel\[1:0\]} \
+}
+wvCollapseGroup -win $_nWave1 "SRAM_Write"
+wvAddSignal -win $_nWave1 -group {"G12" \
+}
+wvSelectSignal -win $_nWave1 {( "Auto exposure/Focus" 2 )} 
+wvSetPosition -win $_nWave1 {("Auto exposure/Focus" 2)}
+wvGetSignalClose -win $_nWave1
+wvSelectSignal -win $_nWave1 {( "Auto exposure/Focus" 2 )} 
+wvSetPosition -win $_nWave1 {("Auto exposure/Focus" 6)}
+wvSetPosition -win $_nWave1 {("Auto exposure" 15)}
+wvSetPosition -win $_nWave1 {("Auto exposure/Focus" 12)}
+wvSetPosition -win $_nWave1 {("Auto exposure/Focus" 9)}
+wvSetPosition -win $_nWave1 {("Auto exposure/Focus" 7)}
+wvSetPosition -win $_nWave1 {("Auto exposure/Focus" 9)}
+wvSetPosition -win $_nWave1 {("Auto exposure/Focus" 10)}
+wvSetPosition -win $_nWave1 {("Auto exposure/Focus" 13)}
+wvMoveSelected -win $_nWave1
+wvSetPosition -win $_nWave1 {("Auto exposure/Focus" 13)}
+wvScrollDown -win $_nWave1 0
+wvResizeWindow -win $_nWave1 3244 53 1787 977
+wvResizeWindow -win $_nWave1 3244 53 1787 977
+wvSelectGroup -win $_nWave1 {Auto exposure}
+wvSelectGroup -win $_nWave1 {Auto exposure/Focus}
+wvSetPosition -win $_nWave1 {("Auto exposure/Focus" 0)}
+wvSelectGroup -win $_nWave1 {Auto exposure/Focus}
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvResizeWindow -win $_nWave1 3244 53 1787 977
+wvScrollDown -win $_nWave1 5
+wvResizeWindow -win $_nWave1 3250 41 1787 977
+wvScrollUp -win $_nWave1 6
+wvScrollDown -win $_nWave1 9
+wvSelectSignal -win $_nWave1 {( "Auto exposure/Focus" 13 )} 
+wvSelectGroup -win $_nWave1 {Auto focus}
+wvSelectGroup -win $_nWave1 {Auto focus}
+wvSelectGroup -win $_nWave1 {Auto focus}
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 7
+wvSetCursor -win $_nWave1 6174222.967296 -snap {("Focus" 13)}
+wvSetCursor -win $_nWave1 6138990.307785 -snap {("AXI W channel" 5)}
+wvScrollUp -win $_nWave1 27
+wvScrollDown -win $_nWave1 2
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollUp -win $_nWave1 4
+wvScrollUp -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 16
+wvScrollDown -win $_nWave1 0
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 1
+wvScrollDown -win $_nWave1 0
+wvScrollUp -win $_nWave1 2
+wvScrollDown -win $_nWave1 0
+wvScrollUp -win $_nWave1 4
+wvScrollUp -win $_nWave1 4
+wvScrollUp -win $_nWave1 3
+wvScrollUp -win $_nWave1 3
+wvScrollDown -win $_nWave1 0
+wvScrollUp -win $_nWave1 3
+wvDisplayGridCount -win $_nWave1 -off
+wvGetSignalClose -win $_nWave1
+wvReloadFile -win $_nWave1
+wvScrollDown -win $_nWave1 18
+wvScrollDown -win $_nWave1 7
+wvSetCursor -win $_nWave1 7723428.333030 -snap {("Focus" 13)}
+wvSetCursor -win $_nWave1 7794833.189639 -snap {("Focus" 13)}
+wvSetCursor -win $_nWave1 7817851.860520 -snap {("Focus" 13)}
+wvScrollUp -win $_nWave1 27
+wvSelectGroup -win $_nWave1 {AXI AR channel}
+wvSelectGroup -win $_nWave1 {AXI R channel}
+wvSelectGroup -win $_nWave1 {AXI AW channel}
+wvSelectGroup -win $_nWave1 {AXI W channel}
+wvSelectGroup -win $_nWave1 {AXI W channel}
+wvSelectGroup -win $_nWave1 {AXI W channel}
+wvSelectGroup -win $_nWave1 {Auto focus}
+wvScrollDown -win $_nWave1 1
+wvSelectSignal -win $_nWave1 {( "Auto exposure/Focus" 13 )} 
+wvDisplayGridCount -win $_nWave1 -off
+wvGetSignalClose -win $_nWave1
+wvReloadFile -win $_nWave1
+wvSaveSignal -win $_nWave1 \
+           "/RAID2/COURSE/iclab/iclab131/Midterm_Project/Exercise/01_RTL/signal.rc"
+wvZoomOut -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvScrollDown -win $_nWave1 2
+wvZoomOut -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomOut -win $_nWave1
+wvSetCursor -win $_nWave1 18345253.464836 -snap {("Focus" 13)}
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomOut -win $_nWave1
+wvSetCursor -win $_nWave1 16339716.336936 -snap {("Focus" 13)}
+wvZoomIn -win $_nWave1
+wvSelectGroup -win $_nWave1 {Auto focus}
+wvSelectGroup -win $_nWave1 {Auto focus}
+wvScrollUp -win $_nWave1 3
+wvSelectSignal -win $_nWave1 {( "Input" 5 )} 
+wvExit

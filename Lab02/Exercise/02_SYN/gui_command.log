@@ -1,0 +1,24 @@
+read_file -type verilog {../01_RTL/BB.v ../01_RTL/TESTBED.v ../01_RTL/PATTERN.v}
+# Started at 10:26:36, Completed at 10:26:37 (Elapsed time = 00:00:00.900)
+
+current_goal Design_Read -alltop
+# Started at 10:27:36, Completed at 10:27:37 (Elapsed time = 00:00:00.510)
+
+link_design -force
+# Started at 10:27:40, Completed at 10:27:45 (Elapsed time = 00:00:02.610)
+
+remove_file -type hdl
+# Started at 10:28:47, Completed at 10:28:47 (Elapsed time = 00:00:00.000)
+
+read_file -type verilog {../01_RTL/BB.v ../01_RTL/TESTBED.v}
+# Started at 10:28:47, Completed at 10:28:47 (Elapsed time = 00:00:00.010)
+
+remove_file -type hdl
+# Started at 10:28:50, Completed at 10:28:50 (Elapsed time = 00:00:00.000)
+
+read_file -type verilog ../01_RTL/BB.v
+# Started at 10:28:51, Completed at 10:28:51 (Elapsed time = 00:00:00.009)
+
+link_design -force
+# Started at 10:28:55, Completed at 10:29:01 (Elapsed time = 00:00:03.219)
+

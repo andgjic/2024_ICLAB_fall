@@ -1,0 +1,29 @@
+echo -e "***********************************************************************"
+echo -e "* Please make sure you include the encrypted design in your TESTBED.v *"
+echo -e "***********************************************************************"
+MAIN=(4 4 2 4 4 1 1 6 1)
+
+for ((i=1; i<=9; i++))
+do
+    for((j=1; j<=${MAIN[$i-1]}; j++))
+    do
+        ./01_run SPEC_$i\_$j > check.log
+        if  grep -i -q "Assertion $i is violated" 'check.log'; then
+                echo -e "\033[32m--- SPEC-$i-$j check Pass ---\033[0m"
+        else
+                echo -e "\033[31m--- SPEC-$i-$j check Fail ---\033[0m"
+                exit 0
+        fi
+    done
+    echo -e "\033[42m--- PATTERN check SPEC-$i Pass ---\033[0m"
+done
+
+./01_run  > check.log
+if  grep -i -q "Congratulations" 'check.log'; then
+        echo -e "\033[32m--- CORRECT DESING check Pass ---\033[0m"
+else
+        echo -e "\033[31m--- CORRECT DESING check Fail ---\033[0m"
+        exit 0
+fi
+
+echo -e "\033[42m--- PATTERN PASS !!! ---\033[0m"

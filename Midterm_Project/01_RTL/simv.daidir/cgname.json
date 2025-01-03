@@ -1,0 +1,62 @@
+{
+    "std": [
+        "std",
+        "reYIK",
+        "module",
+        1
+    ],
+    "PATTERN": [
+        "PATTERN",
+        "ThTta",
+        "module",
+        4
+    ],
+    "TESTBED": [
+        "TESTBED",
+        "TAUdR",
+        "module",
+        2
+    ],
+    "Memory_128_64": [
+        "Memory_128_64",
+        "Db2wG",
+        "module",
+        10
+    ],
+    "Memory_64_128": [
+        "Memory_64_128",
+        "mHbWB",
+        "module",
+        7
+    ],
+    "Memory_32_256": [
+        "Memory_32_256",
+        "vmHE7",
+        "module",
+        5
+    ],
+    "Memory_16_512": [
+        "Memory_16_512",
+        "MMsEc",
+        "module",
+        9
+    ],
+    "Memory_16_64": [
+        "Memory_16_64",
+        "pWzCf",
+        "module",
+        11
+    ],
+    "DPSRAM_32_256": [
+        "DPSRAM_32_256",
+        "VYZg3",
+        "module",
+        8
+    ],
+    "...MASTER...": [
+        "SIM",
+        "amcQw",
+        "module",
+        3
+    ]
+}

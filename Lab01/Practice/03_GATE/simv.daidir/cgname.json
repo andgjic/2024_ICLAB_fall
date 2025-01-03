@@ -1,0 +1,116 @@
+{
+    "std": [
+        "std",
+        "reYIK",
+        "module",
+        1
+    ],
+    "PATTERN": [
+        "PATTERN",
+        "ThTta",
+        "module",
+        2
+    ],
+    "CORE": [
+        "CORE",
+        "WaVp2",
+        "module",
+        3
+    ],
+    "TESTBED": [
+        "TESTBED",
+        "TAUdR",
+        "module",
+        4
+    ],
+    "AND2XL": [
+        "AND2XL",
+        "NGf3K",
+        "module",
+        5
+    ],
+    "AOI222XL": [
+        "AOI222XL",
+        "G6ems",
+        "module",
+        6
+    ],
+    "AOI22XL": [
+        "AOI22XL",
+        "Kx8dR",
+        "module",
+        7
+    ],
+    "INVXL": [
+        "INVXL",
+        "FsUsG",
+        "module",
+        8
+    ],
+    "MXI2XL": [
+        "MXI2XL",
+        "Jacfd",
+        "module",
+        9
+    ],
+    "NAND2XL": [
+        "NAND2XL",
+        "C4bJV",
+        "module",
+        10
+    ],
+    "NOR2X1": [
+        "NOR2X1",
+        "esUc7",
+        "module",
+        11
+    ],
+    "NOR2XL": [
+        "NOR2XL",
+        "UiF6Q",
+        "module",
+        12
+    ],
+    "NOR2BXL": [
+        "NOR2BXL",
+        "kQMYW",
+        "module",
+        13
+    ],
+    "OAI211XL": [
+        "OAI211XL",
+        "i85VS",
+        "module",
+        14
+    ],
+    "OAI21XL": [
+        "OAI21XL",
+        "nqk2t",
+        "module",
+        15
+    ],
+    "OAI2BB1XL": [
+        "OAI2BB1XL",
+        "Hevxk",
+        "module",
+        16
+    ],
+    "XOR2XL": [
+        "XOR2XL",
+        "QZEIi",
+        "module",
+        17
+    ],
+    "...MASTER...": [
+        "SIM",
+        "amcQw",
+        "module",
+        18
+    ],
+    "udp_mux2": [
+        "udp_mux2",
+        "U7Vwg",
+        "udp",
+        19
+    ]
+}

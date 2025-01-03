@@ -1,0 +1,324 @@
+#Generated on Nov 11 2009
+#      ==========================================================================
+#      =====        FOUNDRY          :     UMC                              =====
+#      =====        PROCESS          : 0.18 um                              =====
+#      =====        IP VENDOR        : Faraday Technology Corp.             =====
+#      ==========================================================================
+
+# 0. Field Description
+#
+#   The pound sign(#) at the beginning of the line to denote a comment line.
+#   Pound sign in any other position of the line will be treated as normal data.
+#
+#   column  3  ~ 13  : Define FOUNDRY Layer Name
+#   column  14 ~ 16  : Define FOUNDRY Layer Number
+#   column  18 ~ 23  : Define FOUNDRY Layer Data Type
+#   column  24 ~ 34  : Define FTC Layer Name
+#   column  35 ~ 42  : Define FTC Layer Purpose
+#   column  43 ~ 45  : Define FTC Layer Number
+#   column  47 ~ 52  : Define FTC Layer Data Type
+#   column  53 ~ 55  : Define Technology Layer Number
+#   column  57 ~ 61  : Define Technology Layer Purpose Number
+#   column  62 ~ 66  : Define Mask Layer
+#   column  67 ~ \n  : Define Layer Description
+
+# I. MASK(Tooling) Layers
+#    The following table defines the mask layers for mask making.
+
+# FOUNDRY                                      FTC
+# LayerName                          Layer#    LayerName  Purpose Layer#    Tf#      MASK Description
+#                                    Datatype#                    Datatype# Purpose# 
+# ==================================================================================================================================
+  DIFF                               1  :0     active     drawing 1  :0     1  :252  T    (define active region)		 
+  HVPW                               2  :2     hv         pw      2  :2     4  :95   T    (HVPW for HJ 5V NMOS)
+  NWELL                              3  :0     nwell      drawing 3  :0     3  :252  T    (define N-Well implant region)
+  DNW                                4  :0     hv         dnw     4  :0     4  :91   T    (DEEP_N_WELL)
+  TWELL                              6  :0     twell      drawing 6  :0     6  :252  T    (define TWELL layer)
+  PPLUS                              11 :0     pplus      drawing 11 :0     11 :252  T    (define P+ implant region)   
+  NPLUS                              12 :0     nplus      drawing 12 :0     12 :252  T    (define n+ implant region)
+  VTPL                               20 :0     vtpl       drawing 20 :0     26 :252  T    (define 1.8V lowvt PMOS layer)
+  VTPHL                              21 :0     vtphl      drawing 21 :0     27 :252  T    (define 3.3V lowvt PMOS layer)
+  VTNL                               22 :0     vtnl       drawing 22 :0     28 :252  T    (define 1.8V lowvt or 3.3V zerovt NMOS layer)
+  VTNI                               23 :0     vtni       drawing 23 :0     29 :252  T    (define 1.8V zerovt NMOS layer)
+  VTNHL                              24 :0     vtnhl      drawing 24 :0     57 :252  T    (define 3.3V lowvt NMOS layer)
+  PESD                               32 :0     pesd       drawing 32 :0     32 :252  T    (define ESD implant region to create zener diode under drain side of NMOS)
+  SAB                                36 :0     sab        drawing 36 :0     36 :252  T    (define non-salicide block region)
+  TG                                 37 :0     tg         drawing 37 :0     37 :252  T    (define thick gate oxide formation for 3 3V I/O)
+  HVP_VT                             37 :10    hv         pvt     37 :10    4  :101  T    (PFLASH process P_LVT device)
+  HR                                 38 :0     hr         drawing 38 :0     38 :252  T    (define high resistance poly resister)
+  CONT                               39 :0     contact    drawing 39 :0     39 :252  T    (define poly and diffusion contact) 
+  PO1                                41 :0     poly       drawing 41 :0     41 :252  T    (define poly gate)
+  POLY0                              41 :1     polycap    drawing 41 :1     5  :252  T    (define poly0 capacitor and resistor)
+  CG                                 41 :2     poly       cg      41 :2     41 :102  T    (PFLASH process poly cell stack gate)
+  ME1                                46 :0     metal1     drawing 46 :0     46 :252  T    (define 1st metal)
+  VI1                                47 :0     via        drawing 47 :0     47 :252  T    (define 1st and 2nd metal contact)
+  ME2                                48 :0     metal2     drawing 48 :0     48 :252  T    (define 2nd metal)
+  VI2                                49 :0     via2       drawing 49 :0     49 :252  T    (define 2nd and 3rd metal contact) 
+  ME3                                50 :0     metal3     drawing 50 :0     50 :252  T    (define 3rd metal)
+  VI3                                51 :0     via3       drawing 51 :0     51 :252  T    (define 3rd and 4th metal contact)
+  ME4                                52 :0     metal4     drawing 52 :0     52 :252  T    (define 4th metal)
+  VI4                                53 :0     via4       drawing 53 :0     53 :252  T    (define 4th and 5th metal contact)
+  ME5                                54 :0     metal5     drawing 54 :0     54 :252  T    (define 5th metal)
+  VI5                                55 :0     via5       drawing 55 :0     55 :252  T    (define 5th and 6th metal contact)
+  ME6                                56 :0     metal6     drawing 56 :0     56 :252  T    (define 6th metal)
+  MMCTP                              65 :0     mmc        drawing 65 :0     65 :252  T    (define capacitance between top_metal and top_metal-1)
+  L1(PAD)                            66 :0     pass       drawing 66 :0     66 :252  T    (define pad window region)
+  TV_RDL                             66 :4     tmv        drawing 66 :4     69 :252  T    (top metal and al-pad contact)
+  AL_RDL                             67 :0     alpad      drawing 67 :0     67 :252  T    (Al_RDL for flip chip bump pad)
+  PASV_RDL                           68 :0     pass       rdl     68 :0     66 :109  T    (Al pad window for flip chip bump pad)
+
+# II. Non-Mask(non-tooling) Layers
+#    The following table defines the non-tooling layers which maybe necessary for mask making.
+
+# FOUNDRY                                      FTC
+# LayerName                          Layer#    LayerName  Purpose Layer#    Tf#      MASK Description
+#                                    Datatype#                    Datatype# Purpose# 
+# ==================================================================================================================================
+  SUBSTRATE                          0  :0     sub        drawing 0  :0     0  :252  N    (define substrate)
+  DNW_LV_MARK                        4  :2     hv         dnwlv   4  :2     4  :90   N    (define DNW_LV_MARK)
+  PWBLK                              7  :0     pw         blk     7  :0     7  :5    N    (P_Well_Block for PWell)
+  GB_MARK                            7  :3     mmsym      gbmk    7  :3     58 :96   N    (GBMARK for HJ 5V DEVICE)
+  MVG_MARK                           7  :6     tg         v55     7  :6     37 :104  N    (define 5.5V booleam operation)
+  ARB_MARK                           7  :7     mmsym      arb     7  :7     58 :103  N    (PFLASH process zener diode)
+  MB_MARK                            7  :8     mmsym      mbmk    7  :8     58 :97   N    (Define HJ embedded Flash Macro)
+  NWR                                40 :0     nwres      drawing 40 :0     40 :252  N    (define N-Well Resistance)
+  XOPCD                              70 :0     dfopcbk    drawing 70 :0     70 :252  N    (define diffusion for OPC cell layout)
+  DIFDMBK                            70 :1     diffblk    xdummy  70 :1     79 :1    N    (define DiffDummy Block)
+  XOPCP                              71 :0     plopcbk    drawing 71 :0     71 :252  N    (define poly for OPC cell layout)
+  PLYDMBK                            71 :1     polyblk    xdummy  71 :1     78 :1    N    (define PolyDummy Block)
+  XOPCM1                             72 :0     m1blk      drawing 72 :0     72 :252  N    (define metal1 for OPC cell layout)
+  M1DMBK                             72 :1     m1blk      xdummy  72 :1     72 :1    N    (define dummy block for 1st metal)
+  M2DMBK                             73 :1     m2blk      xdummy  73 :1     73 :1    N    (define dummy block for 2nd metal)
+  M3DMBK                             74 :1     m3blk      xdummy  74 :1     74 :1    N    (define dummy block for 3rd metal)
+  M4DMBK                             75 :1     m4blk      xdummy  75 :1     75 :1    N    (define dummy block for 4th metal)
+  M5DMBK                             76 :1     m5blk      xdummy  76 :1     76 :1    N    (define dummy block for 5th metal)
+  M6DMBK                             77 :1     m6blk      xdummy  77 :1     77 :1    N    (define dummy block for 6th metal)
+  M6SLBK                             77 :2     m6blk      xslot   77 :2     77 :2    N    (define slot block for 6th metal)
+  SHRINK_MARK                        91 :6     ip016um    hv      91 :6     99 :105  N    (define 180nm 90% shrink design area)
+  ANG_BLK                            -1 :-1    ip016um    drawing 138:0     99 :252  N    (define 0.162um blowup poly1 blockage area)
+  ---                                -1 :-1    vtn        hh      149:1     107:92   N    (VTNHH for N_HH_18_MM)
+  ---                                -1 :-1    vtn        ll      149:2     107:93   N    (VTNLL for N_LL_18_MM)
+
+# III. FOUNDRY Defined Layers
+#     The layers defined both in FTC and FOUNDRY's layer mapping table are shown below. The assignment 
+#     of layer number of FTC's layers follows the FOUNDRY's. 
+
+# FOUNDRY                                      FTC
+# LayerName                          Layer#    LayerName  Purpose Layer#    Tf#      MASK Description
+#                                    Datatype#                    Datatype# Purpose# 
+# ==================================================================================================================================
+  ESD                                31 :0     nesd       drawing 31 :0     31 :252  S    (define ESD implant region to create lightly doped junction under drain side of NMOS)
+  PO_LVS                             41 :10    poly       xlvs    41 :10    41 :10   S    (define virage SRAM LVS excluding)
+  IPWM                               63 :63    wtmark     mark    63 :63    63 :63   S    (define library/IP tracking layer)
+  L2SLMK                             67 :7     alblk      wslot   67 :7     80 :6    S    (mark AL-RDL metal with slots)
+  M1BK                               72 :10    m1blk      merge   72 :10    72 :84   S    (M1 block for UMC macro merge)
+  M1PORT                             72 :11    m1blk      port    72 :11    72 :85   S    (M1 port make layer)
+  M2BK                               73 :10    m2blk      merge   73 :10    73 :84   S    (M2 block for UMC macro merge)
+  M2PORT                             73 :11    m2blk      port    73 :11    73 :85   S    (M2 port make layer)
+  M3BK                               74 :10    m3blk      merge   74 :10    74 :84   S    (M3 block for UMC macro merge)
+  M3PORT                             74 :11    m3blk      port    74 :11    74 :85   S    (M3 port make layer)
+  M4BK                               75 :10    m4blk      merge   75 :10    75 :84   S    (M4 block for UMC macro merge)
+  M4PORT                             75 :11    m4blk      port    75 :11    75 :85   S    (M4 port make layer)
+  M5BK                               76 :10    m5blk      merge   76 :10    76 :84   S    (M5 block for UMC macro merge)
+  M5PORT                             76 :11    m5blk      port    76 :11    76 :85   S    (M5 port make layer)
+  M6BK                               77 :10    m6blk      merge   77 :10    77 :84   S    (M6 block for UMC macro merge)
+  M6PORT                             77 :11    m6blk      port    77 :11    77 :85   S    (M6 port make layer)
+  RSYMBOL                            81 :0     diffsym    drawing 81 :0     81 :252  S    (define diffusion resister)
+  PSYMBOL                            82 :0     polysym    drawing 82 :0     82 :252  S    (define poly register for DRC/LVS checking)
+  WSYMBOL                            83 :0     wellsym    drawing 83 :0     83 :252  S    (define well resister for DRC/LVS checking)
+  TEXT                               85 :0     chiptxt    drawing 85 :0     85 :252  S    (define chip level text for DRC/LVS checking)
+  AL_TEXT                            85 :20    chiptxt    rdl     85 :20    85 :109  S    (define alpad text for DRC/LVS checking)
+  SEALRMARK                          86 :36    sealsym    drawing 86 :36    86 :252  S    (define die seal ring for DRC/LVS Check)
+  IOMARK                             87 :0     latsym     drawing 87 :0     118:252  S    (define dummy layer for latch up check)
+  FLPMARK                            89 :0     flpmark    drawing 89 :0     89 :252  S    (Flip Chip bump pad area marker (Array PAD))
+  FLPMARKP                           89 :36    flpmark    mark    89 :36    89 :63   S    (flip chip area Marker peripheral pad)
+  BOACMK                             90 :1     boac       boacmk  90 :1     34 :17   S    (define BOAC pad area mark layer)	   
+  FILLERBK                           90 :2     boac       filler  90 :2     34 :18   S    (define BOAC pad filler region)  
+  IOID                               91 :0     ioid       drawing 91 :0     91 :252  S    (define IO's ESD device for UMC) 
+  DP_1                               94 :0     drcmark    sram74  94 :0     108:106  S    (153N 7.4um2 CAD_102_8TSRAM_MARK)
+  DRCMARK                            94 :20    drcmark    mark    94 :20    108:63   S    (UMC DRC mark layer)       
+  BLSPID                             95 :0     blspid     drawing 95 :0     95 :252  S    (define border layer for single port SRAM marker)
+  BLSP_1A                            95 :50    blspid     mark    95 :50    95 :63   S    (define 4.00um 6TSram Mark)
+  XDIODE                             96 :0     xdiosym    symbol  96 :0     96 :64   S    (define ---) 
+  BDSP_ID                            98 :0     drcmark    sram56  98 :0     108:100  S    (UMC DRC mark layer)
+  SEPGND                             99 :0     sepgnd     drawing 99 :0     116:252  S    (define separate ground for the multiple ground)
+  PO_TEXT                            100:0     potext     drawing 100:0     100:252  S    (add for memory compiler, define poly text layer)
+  M1_TEXT                            101:0     m1text     drawing 101:0     101:252  S    (add for memory compiler, define metal1 text layer)
+  M2_TEXT                            102:0     m2text     drawing 102:0     102:252  S    (add for memory compiler, define metal2 text layer)
+  M3_TEXT                            103:0     m3text     drawing 103:0     103:252  S    (add for memory compiler, define metal3 text layer)
+  M4_TEXT                            104:0     m4text     drawing 104:0     104:252  S    (add for memory compiler, define metal4 text layer)
+  M5_TEXT                            105:0     m5text     drawing 105:0     105:252  S    (add for memory compiler, define metal5 text layer)
+  M6_TEXT                            106:0     m6text     drawing 106:0     106:252  S    (add for memory compiler, define metal6 text layer)
+  MRSYMBOL                           111:30    metsym     drawing 111:30    2  :252  S    (define dummy metal resistance region)	   
+  SIZE1                              111:33    size       size1   111:33    10 :81   S    (define mark layer for device mapping:BJT size1)
+  CSYMBOL                            112:30    polycap    symbol  112:30    5  :64   S    (capacitor mark layer)
+  SIZE2                              112:33    size       size2   112:33    10 :82   S    (define mark layer for device mapping:BJT size2)
+  BJTSYMBOL                          113:30    pnpsym     drawing 113:30    93 :252  S    (define BJT device for DRC/LVS checking)
+  SIZE3                              113:33    size       size3   113:33    10 :83   S    (define mark layer for device mapping:BJT size3)
+  MMSYMBOL                           118:30    mmsym      mmrfsym 118:30    58 :30   S    (define Mixed Mode Device Mark layer)
+  RFSYMBOL                           119:30    fodsym     mmrfsym 119:30    119:30   S    (define RF Device Mark layer)
+  FRAMMK                             121:1     phl        frammk  121:1     121:86   S    (Frame marker for alignment)
+  BOUNDMK                            121:2     phl        boundmk 121:2     121:87   S    (Mark layer for UMC IP boundary)
+  PRBNDMK                            121:3     phl        mark    121:3     121:63   S    (mark for cell place and route)
+
+# IV. FTC Defined Layers
+#      Faraday defines the following layers for use with Faraday's command files, ERC, and P&R
+#      model generation.
+
+# IV.i FTC Layers for Command Files
+
+# FOUNDRY                                      FTC
+# LayerName                          Layer#    LayerName  Purpose Layer#    Tf#      MASK Description
+#                                    Datatype#                    Datatype# Purpose# 
+# ==================================================================================================================================
+  ---                                28 :0     fab8g      xopc    28 :0     128:25   S    (F8G OPC block layer)
+  ---                                -1 :-1    drcflag    drawing 45 :0     45 :252  S    (define DRC flag)
+  ---                                46 :62    metal1     virtxt  46 :62    46 :62   S    (define metal1 layer to check virtual text)
+  ---                                48 :62    metal2     virtxt  48 :62    48 :62   S    (define metal2 layer to check virtual text)
+  ---                                50 :62    metal3     virtxt  50 :62    50 :62   S    (define metal3 layer to check virtual text)
+  ---                                52 :62    metal4     virtxt  52 :62    52 :62   S    (define metal4 layer to check virtual text)
+  ---                                54 :62    metal5     virtxt  54 :62    54 :62   S    (define metal5 layer to check virtual text) 
+  ---                                56 :62    metal6     virtxt  56 :62    56 :62   S    (define metal6 layer to check virtual text)
+  ---                                85 :62    chiptxt    virtxt  85 :62    85 :62   S    (define chip text for checking virtual text)
+  ---                                -1 :-1    boac       boacpr  90 :15    34 :19   S    (define BOAC place region)  
+  ---                                -1 :-1    special    wpesd   92 :7     20 :127  S    (PESD drc waive mark layer)
+  ---                                -1 :-1    m2rsym     drawing 92 :15    92 :252  S    (define metal2 dummy layer for ADC flash resistor)
+  ---                                -1 :-1    m1text     virtxt  101:62    101:62   S    (define m1text virtxt)	   
+  ---                                -1 :-1    m2text     virtxt  102:62    102:62   S    (define m2text virtxt)  
+  ---                                -1 :-1    m3text     virtxt  103:62    103:62   S    (define m3text virtxt)  
+  ---                                -1 :-1    m4text     virtxt  104:62    104:62   S    (define m4text virtxt)  
+  ---                                -1 :-1    m5text     virtxt  105:62    105:62   S    (define m5text virtxt)  
+  ---                                -1 :-1    m6text     virtxt  106:62    106:62   S    (define m6text virtxt)  
+  ---                                -1 :-1    pulupdw    drawing 111:0     111:252  S    (identify a region for pull_up/pull_down rule checking)
+  ---                                -1 :-1    lvsxdev    drawing 111:31    87 :252  S    (LVS use to filter out unused device) 
+  ---                                -1 :-1    lvsxdev    trim    111:123   87 :65   S    (define auto IP trimming region)
+  ---                                -1 :-1    bdrychk    drawing 112:0     112:252  S    (check boundray rule between memory block and standard cell)
+  ---                                -1 :-1    undumy     drawing 113:0     113:252  S    (define dummy block or big area of empty for chip level)
+  ---                                -1 :-1    diodsym    drawing 114:30    114:252  S    (define element diode in LVS)
+  ---                                -1 :-1    dmetal     drawing 115:0     115:252  S    (define dynamic metal which mapping to the top-metal)
+  ---                                -1 :-1    mfuse      drawing 117:0     117:252  S    (define dynamic metal which mapping to the top-1 metal)
+  ---                                -1 :-1    fodsym     drawing 119:0     119:252  S    (define dummy layer on diff out of P+ and N+ for DRC checking)
+  ---                                -1 :-1    acl        drawing 120:0     120:252  S    (reserve for UMC ARM core marker, ARM name: softfence)
+  ---                                -1 :-1    phl        drawing 121:0     121:252  S    (reserve for UMC ARM core marker, ARM name: hardfence)
+  ---                                -1 :-1    ipblock    drawing 122:0     122:252  S    (define the region to waive Faraday special DRC rules in hard IP) 
+  ---                                -1 :-1    sublink    drawing 123:0     123:252  S    (dummy pattern for sub contact for memory DRC/LVS Check)
+  ---                                -1 :-1    pwrtxt     drawing 124:0     124:252  S    (define power ring text for IO cells) 
+  ---                                -1 :-1    ecore      drawing 125:0     125:252  S    (identify a region,not to check ESD rule)
+  ---                                -1 :-1    echeck     drawing 125:15    18 :252  S    (identify a region where have to check ESD rule)
+  ---                                -1 :-1    dvia       drawing 126:0     126:252  S    (define dynamic via which mapping to the top-via)
+  ---                                -1 :-1    d1metal    drawing 127:0     127:252  S    (define dynamic metal which mapping to the top-1 metal)
+  ---                                -1 :-1    miniio     iomark  127:31    90 :31   S    (define mini I/O area for esd check)
+  ---                                -1 :-1    code       drawing 129:0     33 :252  S    (define code layer for after-metal implant on diffusion)  
+  ---                                -1 :-1    corntxt    drawing 136:0     98 :252  S    (define text layer for corner cell process monitor circuit pad labeling text) 
+  ---                                -1 :-1    mcapsym    drawing 137:0     19 :252  S    (for .18um mesh cap recognition layer LVS/LPE command file used.)
+  ---                                -1 :-1    mcapsym    metal3  137:20    19 :13   S    (define metal3 mesh cap)
+  ---                                -1 :-1    mcapsym    metal4  137:21    19 :14   S    (define metal4 mesh cap)
+  ---                                -1 :-1    mcapsym    metal5  137:22    19 :15   S    (define metal5 mesh cap) 
+  ---                                -1 :-1    mcapsym    metal6  137:23    19 :16   S    (define metal6 mesh cap) 
+  ---                                -1 :-1    ip016um    mark    138:1     99 :63   S    (define 0.162um area for DRC)
+  ---                                -1 :-1    ip016um    l153    138:2     99 :107  S    (define 0.153um area for DRC)
+  ---                                -1 :-1    ip016um    l144    138:3     99 :108  S    (define 0.144um area for DRC)
+  ---                                -1 :-1    logo       boxm1   139:41    109:41   S    (define metal1 logo region, for command file checking only)       
+  ---                                -1 :-1    logo       boxm2   139:42    109:42   S    (define metal2 logo region, for command file checking only) 
+  ---                                -1 :-1    logo       boxm3   139:43    109:43   S    (define metal3 logo region, for command file checking only) 
+  ---                                -1 :-1    fusesym    drawing 140:0     110:252  S    (define dummy metal for metal fuse)
+  ---                                -1 :-1    special    swram   144:30    20 :94   S    (for SWRAM)
+  ---                                158:0     fab8g      mark    158:0     128:63   S    (F8G SRAM bit cell mark layer)
+  ---                                -1 :-1    esdmet     drawing 163:0     97 :252  S    (define ESD text for resistance extraction)
+  ---                                -1 :-1    esdmet     metal1  163:1     97 :11   S    (define ESD metal1 for resistance extraction)
+  ---                                -1 :-1    esdmet     metal2  163:2     97 :12   S    (define ESD metal2 for resistance extraction)
+  ---                                -1 :-1    esdmet     metal3  163:3     97 :13   S    (define ESD metal3 for resistance extraction)
+  ---                                -1 :-1    esdmet     metal4  163:4     97 :14   S    (define ESD metal4 for resistance extraction)
+  ---                                -1 :-1    esdmet     metal5  163:5     97 :15   S    (define ESD metal5 for resistance extraction)
+  ---                                -1 :-1    esdmet     metal6  163:6     97 :16   S    (define ESD metal6 for resistance extraction)
+
+# IV.ii FTC Layers for ERC
+
+# FOUNDRY                                      FTC
+# LayerName                          Layer#    LayerName  Purpose Layer#    Tf#      MASK Description
+#                                    Datatype#                    Datatype# Purpose# 
+# ==================================================================================================================================
+  ---                                -1 :-1    nopc       dif     130:21    30 :21   S    (define non OPC active for SRAM cell)
+  ---                                -1 :-1    nopc       ply     130:22    30 :22   S    (define non OPC poly for SRAM cell)
+  ---                                -1 :-1    nopc       cnt     130:23    30 :23   S    (define non OPC contact for SRAM cell)
+  ---                                -1 :-1    nopc       mt1     130:24    30 :24   S    (define non OPC metal1 for SRAM cell)
+  ---                                -1 :-1    erctext    drawing 131:0     13 :252  S    (define chip level text for ERC checking)
+  ---                                -1 :-1    erctxm3    drawing 132:0     14 :252  S    (define cell level text for ERC metal3 checking)
+  ---                                -1 :-1    erctxm4    drawing 133:0     15 :252  S    (define cell level text for ERC metal4 checking)
+  ---                                -1 :-1    erctxm5    drawing 134:0     16 :252  S    (define cell level text for ERC metal5 checking)
+  ---                                -1 :-1    erctxm6    drawing 135:0     17 :252  S    (define cell level text for ERC metal6 checking)
+
+# IV.iii FTC Layers for P&R Model Generation
+
+# FOUNDRY                                      FTC
+# LayerName                          Layer#    LayerName  Purpose Layer#    Tf#      MASK Description
+#                                    Datatype#                    Datatype# Purpose# 
+# ==================================================================================================================================
+  ---                                -1 :-1    portarea   metal1  101:15    88 :11   S    (define metal1 pin size)       
+  ---                                -1 :-1    portarea   metal2  102:15    88 :12   S    (define metal2 pin size)  
+  ---                                -1 :-1    portarea   metal3  103:15    88 :13   S    (define metal3 pin size)  
+  ---                                -1 :-1    portarea   metal4  104:15    88 :14   S    (define metal4 pin size)  
+  ---                                -1 :-1    portarea   metal5  105:15    88 :15   S    (define metal5 pin size)  
+  ---                                -1 :-1    portarea   metal6  106:15    88 :16   S    (define metal6 pin size)  
+  ---                                -1 :-1    special    drawing 144:0     20 :252  S    (define cell name)
+  ---                                -1 :-1    special    metal1  144:20    20 :11   S    (define text layer to mark metal1 internal net for reference only)
+  ---                                -1 :-1    special    metal2  144:21    20 :12   S    (define text layer to mark metal2 internal net for reference only)
+  ---                                -1 :-1    special    metal3  144:22    20 :13   S    (define text layer to mark metal3 internal net for reference only)
+  ---                                -1 :-1    special    metal4  144:23    20 :14   S    (define text layer to mark metal4 internal net for reference only)
+  ---                                -1 :-1    special    metal5  144:24    20 :15   S    (define text layer to mark metal5 internal net for reference only)
+  ---                                -1 :-1    special    metal6  144:25    20 :16   S    (define text layer to mark metal6 internal net for reference only)
+  ---                                -1 :-1    phyname    drawing 145:0     21 :252  S    (define grid line)
+  ---                                -1 :-1    overlap    drawing 146:0     22 :252  S    (define obs layer for rectilinear block)
+  ---                                -1 :-1    encode     drawing 147:0     23 :252  S    (define ID to GDSII for version check) 
+  ---                                -1 :-1    pinbox     drawing 148:0     24 :252  S    (define pin area for P&R model extraction)
+  ---                                -1 :-1    pinbox     boxnw   148:36    24 :98   S    (Add for memory compiler)
+  ---                                -1 :-1    pinbox     boxnpls 148:37    24 :99   S    (Add for memory compiler)
+  ---                                -1 :-1    pinbox     boxact  148:38    24 :38   S    (add for memory compiler, define pinbox for active)
+  ---                                -1 :-1    pinbox     boxppls 148:39    24 :39   S    (add for memory compiler, define pinbox for pplus)
+  ---                                -1 :-1    pinbox     boxpo   148:40    24 :40   S    (add for memory compiler, define pinbox for poly)
+  ---                                -1 :-1    pinbox     boxm1   148:41    24 :41   S    (add for memory compiler, define pinbox for m1)
+  ---                                -1 :-1    pinbox     boxm2   148:42    24 :42   S    (add for memory compiler, define pinbox for m2)
+  ---                                -1 :-1    pinbox     boxm3   148:43    24 :43   S    (add for memory compiler, define pinbox for m3)
+  ---                                -1 :-1    pinbox     boxm4   148:44    24 :44   S    (add for memory compiler, define pinbox for m4)
+  ---                                -1 :-1    pinbox     boxm5   148:45    24 :45   S    (add for memory compiler, define pinbox for m5)
+  ---                                -1 :-1    pinbox     boxm6   148:46    24 :46   S    (add for memory compiler, define pinbox for m6)
+  ---                                -1 :-1    pinbox     obsm1   148:49    24 :49   S    (define m1 obs layer)
+  ---                                -1 :-1    pinbox     obsm2   148:50    24 :50   S    (define m2 obs layer)
+  ---                                -1 :-1    pinbox     obsm3   148:51    24 :51   S    (define m3 obs layer)
+  ---                                -1 :-1    pinbox     obsm4   148:52    24 :52   S    (define m4 obs layer)
+  ---                                -1 :-1    pinbox     obsm5   148:53    24 :53   S    (define m5 obs layer)
+  ---                                -1 :-1    pinbox     obsm6   148:54    24 :54   S    (define m6 obs layer)
+  ---                                -1 :-1    outline    drawing 149:0     25 :252  S    (define cell boundary)
+  ---                                -1 :-1    outline    tdie    149:3     25 :110  S    (define cell boundary of tdie)
+  ---                                -1 :-1    prBoundary drawing 235:0     235:252  S    (System-Reserved Layers : define PR boundary)  
+
+# V. Special Layers
+#     For support all process options in single layout, some specific layers need to be mapped to different 
+#     layer number for different PG_OUT option. These specific layers are called special layers. 
+#     Please refer to the section FTC Defined Layers to obtain the layer description.
+
+#   Process Option        6           5           4           3           
+#   -------------------------------------------------------------------------------------------------------
+#   chiptxt    drawing    85 :0       85 :0       85 :0       85 :0       
+#   chiptxt    drawing    106:0       105:0       104:0       103:0       
+#   m6text     drawing    106:0       105:0       104:0       103:0       
+#   undumy     drawing    113:0       113:0       113:0       113:0       
+#   undumy     drawing    72 :1       72 :1       72 :1       72 :1       
+#   undumy     drawing    73 :1       73 :1       73 :1       73 :1       
+#   undumy     drawing    74 :1       74 :1       74 :1       74 :1       
+#   undumy     drawing    75 :1       75 :1       75 :1       -           
+#   undumy     drawing    76 :1       76 :1       -           -           
+#   undumy     drawing    77 :1       -           -           -           
+#   dmetal     drawing    56 :0       54 :0       52 :0       50 :0       
+#   mfuse      drawing    54 :0       52 :0       50 :0       48 :0       
+#   dvia       drawing    55 :0       53 :0       51 :0       49 :0       
+#   d1metal    drawing    54 :0       52 :0       50 :0       48 :0       
+
+# Notes: 
+#
+# 1. The corresponding layer mapping table of the process option are as follows; 
+#    6        :  pg_sout6.tab
+#    5        :  pg_sout5.tab
+#    4        :  pg_sout4.tab
+#    3        :  pg_sout3.tab
+# 2. Symbol "-" means that the mapping table doesn't have the layer.

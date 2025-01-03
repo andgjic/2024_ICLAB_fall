@@ -1,0 +1,82 @@
+#!/bin/csh -f
+
+set tool = "memui"
+
+set arch=`uname -a|awk '{print $5}'`
+set OS=`uname -s`
+set OSM=`uname -m`
+set OSV=`uname -r|awk '{split($0,t,"-");printf("%s",t[1])}'`
+set OSV1=`echo $OSV|awk '{split($0,t,".");printf("%s",t[1])}'`
+set OSV2=`echo $OSV|awk '{split($0,t,".");printf("%s",t[2])}'`
+set OSV3=`echo $OSV|awk '{split($0,t,".");printf("%s",t[3])}'`
+
+
+# Detect FTC and ITC
+if (! $?FTC) then
+    if (! $?ITC) then
+        echo "" ; echo ""
+        echo "** Error \!\!  Can not find the environment Variable FTC nor ITC."
+        echo "   Please set first and try again."
+        exit -1
+    else
+        set MEMAKER = $ITC
+    endif
+else
+    set MEMAKER = $FTC
+endif
+
+if ( ( $MEMAKER == /home/ddinteg/designkit/dev || $MEMAKER == /home/eda/FTC_CADTOOL ) && ! $?MEMAKER_TEST ) then
+    echo "" ; echo ""
+    echo "** Error \!\!  This Memaker is under construction."
+    echo "   Please source ~cadman/env/FTC.env to get the formal release version!"
+    echo ""
+    exit -1
+endif
+
+switch ($OS)
+  case SunOS:
+    setenv OS_EXT sol     
+    switch ($OSV1)
+      case 5:			# SunOS 5.x
+        setenv OS_EXT sol        
+        breaksw
+      default:
+        echo "** Error \!\!  Unknown SunOS Version"
+        breaksw
+    endsw
+    breaksw
+  case Linux:
+    if ( `uname -m` == "x86_64" ) then
+      setenv OS_EXT  lnx64
+    else
+      setenv OS_EXT  lnx
+    endif
+    if (!($OSV1 >= 2 || ( $OSV1 == 2 && ( $OSV2 > 4 || ( $OSV2 == 4 && $OSV3 >= 21))))) then
+        echo "** Error \!\! Only support Linux core version 2.4.21 onwards."
+        exit 1
+    endif        
+    breaksw
+  default:
+    echo "** Error \!\!  Unknown OS"
+    breaksw
+endsw      
+
+set tool_exec=$MEMAKER/EXE/$tool.${OS_EXT}
+
+if ($?LD_LIBRARY_PATH) then
+  setenv LD_LIBRARY_PATH $MEMAKER/EXE/memaker.package/lib/${OS_EXT}:$MEMAKER/lib/${OS_EXT}:${LD_LIBRARY_PATH}
+else
+  setenv LD_LIBRARY_PATH $MEMAKER/EXE/memaker.package/lib/${OS_EXT}:$MEMAKER/lib/${OS_EXT}
+endif
+
+if (! -x $tool_exec) then
+ echo "** Error \!\! The $tool execution code can't be executed."
+ exit(1)
+endif
+
+if ($?DISPLAY == 0) then
+    echo "** Error \!\! Need to set environment variable, DISPLAY, first\!"
+    exit(1)
+endif
+
+$tool_exec -- $*

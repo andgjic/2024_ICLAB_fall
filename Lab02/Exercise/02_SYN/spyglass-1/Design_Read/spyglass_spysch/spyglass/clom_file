@@ -1,0 +1,40 @@
+##This file is genrated to have command line decompiled Info even in Console
+##(To generate SIGN_OFF report having command line decompiled)
+Run Setup Info
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+===============================================================================
+Option          Value             Origin  File                           LineNo
+===============================================================================
+--goal_info     Design_Read@      CmdLine -                              -
+--strict_sgdc_check <ON>              Config  $SPYGLASS_HOME/.spyglass.setup 40
+-batch          <ON>              CmdLine -                              -
+-inferblackbox  <ON>              Config  $SPYGLASS_HOME/.spyglass.setup 30
+-lib            WORK=>./spyglass-1/WORK CmdLine -                              -
+                SYNOPSYS=>$SPYGLASS_HOME/vhdl_libs/Linux4/SYNOPSYS Config  $SPYGLASS_HOME/.spyglass.setup 25
+-mixed          <ON>              CmdLine -                              -
+-nl             <ON>              CmdLine -                              -
+-policy         none              CmdFile $SPYGLASS_HOME/auxi/policy_data/spyglass/design_read/Design_Read-mixed.spq 1
+-projectwdir    ./spyglass-1      CmdLine -                              -
+-report         moresimple        Config  $SPYGLASS_HOME/.spyglass.setup 17
+-sortmethod     du                Config  $SPYGLASS_HOME/.spyglass.setup 27
+-template       Design_Read       CmdLine -                              -
+-templatedir    /RAID2/cad/synopsys/spyglass/2023.03/SPYGLASS_HOME/auxi/policy_data/spyglass/design_read CmdLine -                              -
+-wdir           ./spyglass-1/Design_Read CmdLine -                              -
+<design_files>  ../01_RTL/BB.v    APICall -                              -
+
+
+Rules Parameter
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+===============================================================================
+Parameter       Origin  File                           LineNo
+===============================================================================
+
+
+Policy Info
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+===============================================================================
+NameOfPolicy    VersionNumber   Path (from where policy loaded)
+===============================================================================
+spyglass        SpyGlass_vU-2023.03 $SPYGLASS_HOME/policies/spyglass
+
+

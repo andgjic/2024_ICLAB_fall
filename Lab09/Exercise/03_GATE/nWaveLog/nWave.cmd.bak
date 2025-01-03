@@ -1,0 +1,410 @@
+wvSetPosition -win $_nWave1 {("G1" 0)}
+wvOpenFile -win $_nWave1 \
+           {/RAID2/COURSE/iclab/iclab131/Lab09/Exercise/03_GATE/Program_SYN.fsdb}
+wvGetSignalOpen -win $_nWave1
+wvGetSignalSetScope -win $_nWave1 "/TESTBED"
+wvGetSignalSetScope -win $_nWave1 "/TESTBED/dut_p"
+wvSetPosition -win $_nWave1 {("G1" 1)}
+wvSetPosition -win $_nWave1 {("G1" 1)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/TESTBED/dut_p/inf/warn_msg\[1:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+}
+wvSelectSignal -win $_nWave1 {( "G1" 1 )} 
+wvSetPosition -win $_nWave1 {("G1" 1)}
+wvGetSignalSetScope -win $_nWave1 "/TESTBED"
+wvGetSignalSetScope -win $_nWave1 "/TESTBED/dut_p"
+wvGetSignalSetScope -win $_nWave1 "/TESTBED/dut_p"
+wvGetSignalSetScope -win $_nWave1 "/TESTBED/dut_p/Program"
+wvSetPosition -win $_nWave1 {("G1" 1)}
+wvSetPosition -win $_nWave1 {("G1" 1)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/TESTBED/dut_p/inf/warn_msg\[1:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+}
+wvSelectSignal -win $_nWave1 {( "G1" 1 )} 
+wvSetPosition -win $_nWave1 {("G1" 1)}
+wvGetSignalClose -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvGetSignalOpen -win $_nWave1
+wvGetSignalSetScope -win $_nWave1 "/TESTBED"
+wvGetSignalSetScope -win $_nWave1 "/TESTBED/dut_p"
+wvGetSignalSetScope -win $_nWave1 "/TESTBED/dut_p/inf"
+wvGetSignalSetScope -win $_nWave1 "/TESTBED/dut_p/Program"
+wvGetSignalSetSignalFilter -win $_nWave1 "c_s"
+wvSetPosition -win $_nWave1 {("G1" 2)}
+wvSetPosition -win $_nWave1 {("G1" 2)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/TESTBED/dut_p/inf/warn_msg\[1:0\]} \
+{/TESTBED/dut_p/Program/c_s\[1:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+}
+wvSelectSignal -win $_nWave1 {( "G1" 2 )} 
+wvSetPosition -win $_nWave1 {("G1" 2)}
+wvGetSignalSetSignalFilter -win $_nWave1 "n_s"
+wvSetPosition -win $_nWave1 {("G1" 3)}
+wvSetPosition -win $_nWave1 {("G1" 3)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/TESTBED/dut_p/inf/warn_msg\[1:0\]} \
+{/TESTBED/dut_p/Program/c_s\[1:0\]} \
+{/TESTBED/dut_p/Program/n_s\[1:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+}
+wvSelectSignal -win $_nWave1 {( "G1" 3 )} 
+wvSetPosition -win $_nWave1 {("G1" 3)}
+wvSetPosition -win $_nWave1 {("G1" 3)}
+wvSetPosition -win $_nWave1 {("G1" 3)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/TESTBED/dut_p/inf/warn_msg\[1:0\]} \
+{/TESTBED/dut_p/Program/c_s\[1:0\]} \
+{/TESTBED/dut_p/Program/n_s\[1:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+}
+wvSelectSignal -win $_nWave1 {( "G1" 3 )} 
+wvSetPosition -win $_nWave1 {("G1" 3)}
+wvSetPosition -win $_nWave1 {("G1" 3)}
+wvSetPosition -win $_nWave1 {("G1" 3)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/TESTBED/dut_p/inf/warn_msg\[1:0\]} \
+{/TESTBED/dut_p/Program/c_s\[1:0\]} \
+{/TESTBED/dut_p/Program/n_s\[1:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+}
+wvSelectSignal -win $_nWave1 {( "G1" 3 )} 
+wvSetPosition -win $_nWave1 {("G1" 3)}
+wvGetSignalClose -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomIn -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvResizeWindow -win $_nWave1 200 202 1183 511
+wvSelectSignal -win $_nWave1 {( "G1" 2 3 )} 
+wvResizeWindow -win $_nWave1 200 202 1183 511
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvSelectGroup -win $_nWave1 {G2}
+wvSelectSignal -win $_nWave1 {( "G1" 2 3 )} 
+wvCut -win $_nWave1
+wvSetPosition -win $_nWave1 {("G1" 1)}
+wvGetSignalOpen -win $_nWave1
+wvGetSignalSetScope -win $_nWave1 "/TESTBED"
+wvGetSignalSetScope -win $_nWave1 "/TESTBED/dut_p"
+wvGetSignalSetScope -win $_nWave1 "/TESTBED/dut_p/Program"
+wvGetSignalSetScope -win $_nWave1 "/TESTBED/dut_p/inf"
+wvGetSignalSetScope -win $_nWave1 "/TESTBED/dut_p/Program"
+wvGetSignalSetScope -win $_nWave1 "/usertype"
+wvGetSignalSetScope -win $_nWave1 "/TESTBED"
+wvGetSignalSetScope -win $_nWave1 "/TESTBED/dut_p/Program"
+wvSetPosition -win $_nWave1 {("G1" 1)}
+wvSetPosition -win $_nWave1 {("G1" 1)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/TESTBED/dut_p/inf/warn_msg\[1:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+}
+wvSetPosition -win $_nWave1 {("G1" 1)}
+wvSetPosition -win $_nWave1 {("G1" 1)}
+wvSetPosition -win $_nWave1 {("G1" 1)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/TESTBED/dut_p/inf/warn_msg\[1:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+}
+wvSetPosition -win $_nWave1 {("G1" 1)}
+wvGetSignalSetSignalFilter -win $_nWave1 "c_s"
+wvSetPosition -win $_nWave1 {("G1" 2)}
+wvSetPosition -win $_nWave1 {("G1" 2)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/TESTBED/dut_p/inf/warn_msg\[1:0\]} \
+{/TESTBED/dut_p/Program/c_s\[1:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+}
+wvSelectSignal -win $_nWave1 {( "G1" 2 )} 
+wvSetPosition -win $_nWave1 {("G1" 2)}
+wvSetPosition -win $_nWave1 {("G1" 2)}
+wvSetPosition -win $_nWave1 {("G1" 2)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/TESTBED/dut_p/inf/warn_msg\[1:0\]} \
+{/TESTBED/dut_p/Program/c_s\[1:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+}
+wvSelectSignal -win $_nWave1 {( "G1" 2 )} 
+wvSetPosition -win $_nWave1 {("G1" 2)}
+wvGetSignalClose -win $_nWave1
+wvGetSignalOpen -win $_nWave1
+wvGetSignalSetScope -win $_nWave1 "/TESTBED"
+wvGetSignalSetScope -win $_nWave1 "/TESTBED/dut_p"
+wvGetSignalSetScope -win $_nWave1 "/TESTBED/dut_p/Program"
+wvGetSignalSetScope -win $_nWave1 "/TESTBED/dut_p/inf"
+wvGetSignalSetScope -win $_nWave1 "/TESTBED/inf"
+wvGetSignalSetScope -win $_nWave1 "/TESTBED/dut_p/Program"
+wvSetCursor -win $_nWave1 336421.818182 -snap {("G1" 1)}
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvGetSignalOpen -win $_nWave1
+wvGetSignalSetScope -win $_nWave1 "/TESTBED"
+wvGetSignalSetScope -win $_nWave1 "/TESTBED/dut_p"
+wvGetSignalSetScope -win $_nWave1 "/TESTBED/dut_p/Program"
+wvGetSignalSetScope -win $_nWave1 "/TESTBED/dut_p/inf"
+wvGetSignalSetScope -win $_nWave1 "/TESTBED/inf"
+wvGetSignalSetScope -win $_nWave1 "/TESTBED/dut_p/Program"
+wvGetSignalSetSignalFilter -win $_nWave1 "complete"
+wvSetPosition -win $_nWave1 {("G1" 2)}
+wvSetPosition -win $_nWave1 {("G1" 2)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/TESTBED/dut_p/inf/warn_msg\[1:0\]} \
+{/TESTBED/dut_p/Program/c_s\[1:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+}
+wvSetPosition -win $_nWave1 {("G1" 2)}
+wvGetSignalSetSignalFilter -win $_nWave1 "complete"
+wvSetPosition -win $_nWave1 {("G1" 2)}
+wvSetPosition -win $_nWave1 {("G1" 2)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/TESTBED/dut_p/inf/warn_msg\[1:0\]} \
+{/TESTBED/dut_p/Program/c_s\[1:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+}
+wvSetPosition -win $_nWave1 {("G1" 2)}
+wvGetSignalSetSignalFilter -win $_nWave1 "complete"
+wvSetPosition -win $_nWave1 {("G1" 2)}
+wvSetPosition -win $_nWave1 {("G1" 2)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/TESTBED/dut_p/inf/warn_msg\[1:0\]} \
+{/TESTBED/dut_p/Program/c_s\[1:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+}
+wvSetPosition -win $_nWave1 {("G1" 2)}
+wvGetSignalSetSignalFilter -win $_nWave1 "complete"
+wvSetPosition -win $_nWave1 {("G1" 2)}
+wvSetPosition -win $_nWave1 {("G1" 2)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/TESTBED/dut_p/inf/warn_msg\[1:0\]} \
+{/TESTBED/dut_p/Program/c_s\[1:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+}
+wvSetPosition -win $_nWave1 {("G1" 2)}
+wvGetSignalSetSignalFilter -win $_nWave1 "inf.complete"
+wvSetPosition -win $_nWave1 {("G1" 2)}
+wvSetPosition -win $_nWave1 {("G1" 2)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/TESTBED/dut_p/inf/warn_msg\[1:0\]} \
+{/TESTBED/dut_p/Program/c_s\[1:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+}
+wvSetPosition -win $_nWave1 {("G1" 2)}
+wvGetSignalSetSignalFilter -win $_nWave1 "inf.complete"
+wvSetPosition -win $_nWave1 {("G1" 2)}
+wvSetPosition -win $_nWave1 {("G1" 2)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/TESTBED/dut_p/inf/warn_msg\[1:0\]} \
+{/TESTBED/dut_p/Program/c_s\[1:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+}
+wvSetPosition -win $_nWave1 {("G1" 2)}
+wvGetSignalSetSignalFilter -win $_nWave1 "inf.complete"
+wvSetPosition -win $_nWave1 {("G1" 2)}
+wvSetPosition -win $_nWave1 {("G1" 2)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/TESTBED/dut_p/inf/warn_msg\[1:0\]} \
+{/TESTBED/dut_p/Program/c_s\[1:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+}
+wvSetPosition -win $_nWave1 {("G1" 2)}
+wvGetSignalSetSignalFilter -win $_nWave1 "inf.complete"
+wvSetPosition -win $_nWave1 {("G1" 2)}
+wvSetPosition -win $_nWave1 {("G1" 2)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/TESTBED/dut_p/inf/warn_msg\[1:0\]} \
+{/TESTBED/dut_p/Program/c_s\[1:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+}
+wvSetPosition -win $_nWave1 {("G1" 2)}
+wvGetSignalSetSignalFilter -win $_nWave1 "inf.complete"
+wvSetPosition -win $_nWave1 {("G1" 2)}
+wvSetPosition -win $_nWave1 {("G1" 2)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/TESTBED/dut_p/inf/warn_msg\[1:0\]} \
+{/TESTBED/dut_p/Program/c_s\[1:0\]} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+}
+wvSetPosition -win $_nWave1 {("G1" 2)}
+wvGetSignalSetScope -win $_nWave1 "/TESTBED/inf"
+wvGetSignalSetScope -win $_nWave1 "/TESTBED/inf"
+wvGetSignalSetScope -win $_nWave1 "/TESTBED/dut_p"
+wvSetPosition -win $_nWave1 {("G1" 3)}
+wvSetPosition -win $_nWave1 {("G1" 3)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/TESTBED/dut_p/inf/warn_msg\[1:0\]} \
+{/TESTBED/dut_p/Program/c_s\[1:0\]} \
+{/TESTBED/dut_p/inf/complete} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+}
+wvSelectSignal -win $_nWave1 {( "G1" 3 )} 
+wvSetPosition -win $_nWave1 {("G1" 3)}
+wvSetPosition -win $_nWave1 {("G1" 3)}
+wvSetPosition -win $_nWave1 {("G1" 3)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/TESTBED/dut_p/inf/warn_msg\[1:0\]} \
+{/TESTBED/dut_p/Program/c_s\[1:0\]} \
+{/TESTBED/dut_p/inf/complete} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+}
+wvSelectSignal -win $_nWave1 {( "G1" 3 )} 
+wvSetPosition -win $_nWave1 {("G1" 3)}
+wvGetSignalClose -win $_nWave1
+wvZoomOut -win $_nWave1
+wvZoomOut -win $_nWave1
+wvSelectSignal -win $_nWave1 {( "G1" 1 )} 
+wvSetPosition -win $_nWave1 {("G1" 1)}
+wvSetPosition -win $_nWave1 {("G1" 2)}
+wvMoveSelected -win $_nWave1
+wvSetPosition -win $_nWave1 {("G1" 2)}
+wvSelectSignal -win $_nWave1 {( "G1" 1 )} 
+wvCut -win $_nWave1
+wvSetPosition -win $_nWave1 {("G1" 2)}
+wvSetPosition -win $_nWave1 {("G1" 1)}
+wvGetSignalOpen -win $_nWave1
+wvGetSignalSetScope -win $_nWave1 "/TESTBED"
+wvGetSignalSetScope -win $_nWave1 "/TESTBED/dut_p"
+wvGetSignalSetScope -win $_nWave1 "/TESTBED/dut_p/Program"
+wvGetSignalSetScope -win $_nWave1 "/TESTBED/dut_p/inf"
+wvGetSignalSetScope -win $_nWave1 "/TESTBED/inf"
+wvGetSignalSetScope -win $_nWave1 "/TESTBED/inf/PATTERN"
+wvGetSignalSetScope -win $_nWave1 "/TESTBED/inf/Program_inf"
+wvGetSignalSetScope -win $_nWave1 "/TESTBED/dut_p/inf"
+wvSetPosition -win $_nWave1 {("G1" 3)}
+wvSetPosition -win $_nWave1 {("G1" 3)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/TESTBED/dut_p/inf/warn_msg\[1:0\]} \
+{/TESTBED/dut_p/inf/out_valid} \
+{/TESTBED/dut_p/inf/rst_n} \
+{/TESTBED/dut_p/inf/complete} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+}
+wvSelectSignal -win $_nWave1 {( "G1" 2 3 )} 
+wvSetPosition -win $_nWave1 {("G1" 3)}
+wvSetPosition -win $_nWave1 {("G1" 3)}
+wvSetPosition -win $_nWave1 {("G1" 3)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/TESTBED/dut_p/inf/warn_msg\[1:0\]} \
+{/TESTBED/dut_p/inf/out_valid} \
+{/TESTBED/dut_p/inf/rst_n} \
+{/TESTBED/dut_p/inf/complete} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+}
+wvSelectSignal -win $_nWave1 {( "G1" 2 3 )} 
+wvSetPosition -win $_nWave1 {("G1" 3)}
+wvGetSignalClose -win $_nWave1
+wvSelectSignal -win $_nWave1 {( "G1" 3 )} 
+wvSetPosition -win $_nWave1 {("G1" 2)}
+wvSetPosition -win $_nWave1 {("G1" 0)}
+wvMoveSelected -win $_nWave1
+wvSetPosition -win $_nWave1 {("G1" 0)}
+wvSetPosition -win $_nWave1 {("G1" 1)}
+wvSelectSignal -win $_nWave1 {( "G1" 4 )} 
+wvSaveSignal -win $_nWave1 \
+           "/RAID2/COURSE/iclab/iclab131/Lab09/Exercise/03_GATE/signal.rc"
+wvGetSignalOpen -win $_nWave1
+wvGetSignalSetScope -win $_nWave1 "/TESTBED"
+wvGetSignalSetScope -win $_nWave1 "/TESTBED/dut_p"
+wvGetSignalSetScope -win $_nWave1 "/TESTBED/dut_p/Program"
+wvGetSignalSetScope -win $_nWave1 "/TESTBED/dut_p/inf"
+wvGetSignalSetScope -win $_nWave1 "/TESTBED/inf"
+wvGetSignalSetScope -win $_nWave1 "/TESTBED/inf/PATTERN"
+wvGetSignalSetScope -win $_nWave1 "/TESTBED/inf/Program_inf"
+wvGetSignalSetScope -win $_nWave1 "/TESTBED/dut_p/inf"
+wvGetSignalSetScope -win $_nWave1 "/TESTBED/dut_p"
+wvGetSignalSetSignalFilter -win $_nWave1 "warning"
+wvSetPosition -win $_nWave1 {("G1" 2)}
+wvSetPosition -win $_nWave1 {("G1" 2)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/TESTBED/dut_p/inf/rst_n} \
+{/TESTBED/dut_p/Program/warning\[1:0\]} \
+{/TESTBED/dut_p/inf/warn_msg\[1:0\]} \
+{/TESTBED/dut_p/inf/out_valid} \
+{/TESTBED/dut_p/inf/complete} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+}
+wvSelectSignal -win $_nWave1 {( "G1" 2 )} 
+wvSetPosition -win $_nWave1 {("G1" 2)}
+wvSetPosition -win $_nWave1 {("G1" 2)}
+wvSetPosition -win $_nWave1 {("G1" 2)}
+wvAddSignal -win $_nWave1 -clear
+wvAddSignal -win $_nWave1 -group {"G1" \
+{/TESTBED/dut_p/inf/rst_n} \
+{/TESTBED/dut_p/Program/warning\[1:0\]} \
+{/TESTBED/dut_p/inf/warn_msg\[1:0\]} \
+{/TESTBED/dut_p/inf/out_valid} \
+{/TESTBED/dut_p/inf/complete} \
+}
+wvAddSignal -win $_nWave1 -group {"G2" \
+}
+wvSelectSignal -win $_nWave1 {( "G1" 2 )} 
+wvSetPosition -win $_nWave1 {("G1" 2)}
+wvGetSignalClose -win $_nWave1
+wvSaveSignal -win $_nWave1 \
+           "/RAID2/COURSE/iclab/iclab131/Lab09/Exercise/03_GATE/signal.rc"
+wvExit

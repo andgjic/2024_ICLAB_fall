@@ -1,0 +1,24 @@
+ 
+****************************************
+check_design summary:
+Version:     T-2022.03
+Date:        Sat Oct 26 18:52:20 2024
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Cells                                                               5
+    Cells do not drive (LINT-1)                                     5
+
+Nets                                                                2
+    Unloaded nets (LINT-2)                                          2
+--------------------------------------------------------------------------------
+
+Warning: In design 'Ramen', cell 'B_58' does not drive any nets. (LINT-1)
+Warning: In design 'Ramen', cell 'B_59' does not drive any nets. (LINT-1)
+Warning: In design 'Ramen', cell 'B_60' does not drive any nets. (LINT-1)
+Warning: In design 'Ramen', cell 'B_61' does not drive any nets. (LINT-1)
+Warning: In design 'Ramen', cell 'B_62' does not drive any nets. (LINT-1)
+Warning: In design 'Ramen', net 'net137' driven by pin 'C1315/Z' has no loads. (LINT-2)
+Warning: In design 'Ramen', net 'net136' driven by pin 'C1284/Z' has no loads. (LINT-2)
+1

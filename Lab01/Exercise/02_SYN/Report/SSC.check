@@ -1,0 +1,22 @@
+ 
+****************************************
+check_design summary:
+Version:     T-2022.03
+Date:        Tue Sep 24 01:50:36 2024
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Cells                                                               8
+    Cells do not drive (LINT-1)                                     8
+--------------------------------------------------------------------------------
+
+Warning: In design 'SSC', cell 'C1627' does not drive any nets. (LINT-1)
+Warning: In design 'SSC', cell 'C1628' does not drive any nets. (LINT-1)
+Warning: In design 'SSC', cell 'C1629' does not drive any nets. (LINT-1)
+Warning: In design 'SSC', cell 'C1630' does not drive any nets. (LINT-1)
+Warning: In design 'SSC', cell 'C1631' does not drive any nets. (LINT-1)
+Warning: In design 'SSC', cell 'C1632' does not drive any nets. (LINT-1)
+Warning: In design 'SSC', cell 'C1633' does not drive any nets. (LINT-1)
+Warning: In design 'SSC', cell 'C1634' does not drive any nets. (LINT-1)
+1

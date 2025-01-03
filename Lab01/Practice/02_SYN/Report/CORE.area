@@ -1,0 +1,30 @@
+ 
+****************************************
+Report : area
+Design : CORE
+Version: T-2022.03
+Date   : Fri Feb 23 23:47:27 2024
+****************************************
+
+Library(s) Used:
+
+    slow (File: /RAID2/cad/umc018/Synthesis/slow.db)
+
+Number of ports:                           11
+Number of nets:                            29
+Number of cells:                           22
+Number of combinational cells:             22
+Number of sequential cells:                 0
+Number of macros/black boxes:               0
+Number of buf/inv:                          5
+Number of references:                      13
+
+Combinational area:                369.230406
+Buf/Inv area:                       49.896002
+Noncombinational area:               0.000000
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:                   369.230406
+Total area:                 undefined
+1

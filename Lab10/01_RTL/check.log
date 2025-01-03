@@ -1,0 +1,1148 @@
+irun -f "filelist.f"	 -incdir /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ -loadpli1 debpli:novas_pli_boot -debug -notimingchecks -define ASSERT -define CORRECT
+irun(64): 15.20-s084: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+file: TESTBED.sv
+ncvlog: *W,WARIPR: warning within protected source code.
+ncvlog: *W,WARIPR: warning within protected source code.
+ncvlog: *W,WARIPR: warning within protected source code.
+ncvlog: *W,WARIPR: warning within protected source code.
+ncvlog: *W,WARIPR: warning within protected source code.
+ncvlog: *W,WARIPR: warning within protected source code.
+ncvlog: *W,WARIPR: warning within protected source code.
+ncvlog: *W,WARIPR: warning within protected source code.
+ncvlog: *W,WARIPR: warning within protected source code.
+ncvlog: *W,WARIPR: warning within protected source code.
+ncvlog: *W,WARIPR: warning within protected source code.
+ncvlog: *W,WARIPR: warning within protected source code.
+ncvlog: *W,WARIPR: warning within protected source code.
+ncvlog: *W,WARIPR: warning within protected source code.
+ncvlog: *W,WARIPR: warning within protected source code.
+ncvlog: *W,WARIPR: warning within protected source code.
+ncvlog: *W,WARIPR: warning within protected source code.
+ncvlog: *W,WARIPR: warning within protected source code.
+ncvlog: *W,WARIPR: warning within protected source code.
+ncvlog: *W,WARIPR: warning within protected source code.
+ncvlog: *W,WARIPR: warning within protected source code.
+ncvlog: *W,WARIPR: warning within protected source code.
+ncvlog: *W,WARIPR: warning within protected source code.
+ncvlog: *W,WARIPR: warning within protected source code.
+ncvlog: *W,WARIPR: warning within protected source code.
+ncvlog: *W,WARIPR: warning within protected source code.
+ncvlog: *W,WARIPR: warning within protected source code.
+ncvlog: *W,WARIPR: warning within protected source code.
+ncvlog: *W,WARIPR: warning within protected source code.
+ncvlog: *W,WARIPR: warning within protected source code.
+ncvlog: *W,WARIPR: warning within protected source code.
+ncvlog: *W,WARIPR: warning within protected source code.
+ncvlog: *W,WARIPR: warning within protected source code.
+ncvlog: *W,WARIPR: warning within protected source code.
+ncvlog: *W,WARIPR: warning within protected source code.
+ncvlog: *W,WARIPR: warning within protected source code.
+ncvlog: *W,WARIPR: warning within protected source code.
+ncvlog: *W,WARIPR: warning within protected source code.
+ncvlog: *W,WARIPR: warning within protected source code.
+ncvlog: *W,WARIPR: warning within protected source code.
+ncvlog: *W,WARIPR: warning within protected source code.
+ncvlog: *W,WARIPR: warning within protected source code.
+ncvlog: *W,WARIPR: warning within protected source code.
+ncvlog: *W,WARIPR: warning within protected source code.
+ncvlog: *W,WARIPR: warning within protected source code.
+		errors: 0, warnings: 22
+ncvlog: *W,WARIPR: warning within protected source code.
+		errors: 0, warnings: 1
+	module worklib.Checker:sv
+		errors: 0, warnings: 0
+	module worklib.TESTBED:sv
+		errors: 0, warnings: 0
+ncvlog: *W,SPDUSD: Include directory /usr/cad/synopsys/synthesis/cur/dw/sim_ver/ given but not used.
+	Total errors/warnings found outside modules and primitives:
+		errors: 0, warnings: 1
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		usertype
+		$unit_0x0359e3aa
+		TESTBED
+		Caching library 'worklib' ....... Done
+ncelab: *W,DSEMEL: This SystemVerilog design will be simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+ncelab: *W,DSEMEL: This SystemVerilog design will be simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+ncelab: *W,MEMODR (./TESTBED.sv): warning within protected source code.
+ncelab: *W,MEMODR (./TESTBED.sv): warning within protected source code.
+ncelab: *W,ENUMERR (./TESTBED.sv): warning within protected source code.
+ncelab: *W,ENUMERR (./TESTBED.sv): warning within protected source code.
+ncelab: *W,ENUMERR (./TESTBED.sv): warning within protected source code.
+ncelab: *W,ENUMERR (./TESTBED.sv): warning within protected source code.
+ncelab: *W,ENUMERR (./TESTBED.sv): warning within protected source code.
+ncelab: *W,ENUMERR (./TESTBED.sv): warning within protected source code.
+ncelab: *W,ENUMERR (./TESTBED.sv): warning within protected source code.
+ncelab: *W,ENUMERR (./TESTBED.sv): warning within protected source code.
+ncelab: *W,ENUMERR (./TESTBED.sv): warning within protected source code.
+ncelab: *W,ENUMERR (./TESTBED.sv): warning within protected source code.
+ncelab: *W,ENUMERR (./TESTBED.sv): warning within protected source code.
+ncelab: *W,ENUMERR (./TESTBED.sv): warning within protected source code.
+ncelab: *W,ENUMERR (./TESTBED.sv): warning within protected source code.
+ncelab: *W,ENUMERR (./TESTBED.sv): warning within protected source code.
+ncelab: *W,ENUMERR (./TESTBED.sv): warning within protected source code.
+ncelab: *W,ENUMERR (./TESTBED.sv): warning within protected source code.
+ncelab: *W,ENUMERR (./TESTBED.sv): warning within protected source code.
+ncelab: *W,ENUMERR (./TESTBED.sv): warning within protected source code.
+ncelab: *W,ENUMERR (./TESTBED.sv): warning within protected source code.
+ncelab: *W,ENUMERR (./TESTBED.sv): warning within protected source code.
+ncelab: *W,ENUMERR (./TESTBED.sv): warning within protected source code.
+ncelab: *W,ENUMERR (./TESTBED.sv): warning within protected source code.
+ncelab: *W,ENUMERR (./TESTBED.sv): warning within protected source code.
+ncelab: *W,ENUMERR (./TESTBED.sv): warning within protected source code.
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.Checker:sv <0x6b9c1562>
+			streams: 108, words: 100217
+			streams:  72, words: 155339
+			streams:  57, words: 63131
+		worklib.TESTBED:sv <0x4596e51c>
+			streams:   3, words:  1823
+			streams:  22, words: 11287
+		worklib.pseudo_DRAM:sv <0x676c6b2e>
+			streams:   5, words: 21122
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                     Instances  Unique
+		Modules:                     5       5
+		Interfaces:                  1       1
+		Programs:                    1       1
+		Verilog packages:            1       1
+		Registers:                 314     327
+		Scalar wires:               24       -
+		Vectored wires:             13       -
+		Named events:               20      20
+		Always blocks:              81      81
+		Initial blocks:             42      42
+		Pseudo assignments:         24      24
+		Assertions:                 21      21
+		Covergroup Instances:        0       4
+		Compilation units:           1       1
+		SV Class declarations:       8       8
+		SV Class specializations:    8       8
+		Simulation timescale:      1ps
+	Writing initial simulation snapshot: worklib.TESTBED:sv
+Loading snapshot worklib.TESTBED:sv .................... Done
+SVSEED default: 1
+ncsim: *W,DSEM2009: This SystemVerilog design is simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+*Verdi* Loading libsscore_ius152.so
+ncsim> source /usr/cad/cadence/INCISIV/INCISIVE_15.20.084/tools/inca/files/ncsimrc
+ncsim> run
+FSDB Dumper for IUS, Release Verdi_P-2019.06, Linux x86_64/64bit, 05/26/2019
+(C) 1996 - 2019 by Synopsys, Inc.
+*Verdi* FSDB WARNING: The FSDB file already exists. Overwriting the FSDB file may crash the programs that are using this file.
+*Verdi* : Create FSDB file 'Program.fsdb'
+*Verdi* : Begin traversing the scopes, layer (0).
+*Verdi* : Enable +all dumping.
+*Verdi* : End of traversing.
+*Verdi* : Begin traversing the SVA assertions, layer (0).
+*Verdi* : End of traversing the SVA assertions.
+[32m*   Pass Pattern No.          0   *[0m
+[32m*   Pass Pattern No.          1   *[0m
+[32m*   Pass Pattern No.          2   *[0m
+[32m*   Pass Pattern No.          3   *[0m
+[32m*   Pass Pattern No.          4   *[0m
+[32m*   Pass Pattern No.          5   *[0m
+[32m*   Pass Pattern No.          6   *[0m
+[32m*   Pass Pattern No.          7   *[0m
+[32m*   Pass Pattern No.          8   *[0m
+[32m*   Pass Pattern No.          9   *[0m
+[32m*   Pass Pattern No.         10   *[0m
+[32m*   Pass Pattern No.         11   *[0m
+[32m*   Pass Pattern No.         12   *[0m
+[32m*   Pass Pattern No.         13   *[0m
+[32m*   Pass Pattern No.         14   *[0m
+[32m*   Pass Pattern No.         15   *[0m
+[32m*   Pass Pattern No.         16   *[0m
+[32m*   Pass Pattern No.         17   *[0m
+[32m*   Pass Pattern No.         18   *[0m
+[32m*   Pass Pattern No.         19   *[0m
+[32m*   Pass Pattern No.         20   *[0m
+[32m*   Pass Pattern No.         21   *[0m
+[32m*   Pass Pattern No.         22   *[0m
+[32m*   Pass Pattern No.         23   *[0m
+[32m*   Pass Pattern No.         24   *[0m
+[32m*   Pass Pattern No.         25   *[0m
+[32m*   Pass Pattern No.         26   *[0m
+[32m*   Pass Pattern No.         27   *[0m
+[32m*   Pass Pattern No.         28   *[0m
+[32m*   Pass Pattern No.         29   *[0m
+[32m*   Pass Pattern No.         30   *[0m
+[32m*   Pass Pattern No.         31   *[0m
+[32m*   Pass Pattern No.         32   *[0m
+[32m*   Pass Pattern No.         33   *[0m
+[32m*   Pass Pattern No.         34   *[0m
+[32m*   Pass Pattern No.         35   *[0m
+[32m*   Pass Pattern No.         36   *[0m
+[32m*   Pass Pattern No.         37   *[0m
+[32m*   Pass Pattern No.         38   *[0m
+[32m*   Pass Pattern No.         39   *[0m
+[32m*   Pass Pattern No.         40   *[0m
+[32m*   Pass Pattern No.         41   *[0m
+[32m*   Pass Pattern No.         42   *[0m
+[32m*   Pass Pattern No.         43   *[0m
+[32m*   Pass Pattern No.         44   *[0m
+[32m*   Pass Pattern No.         45   *[0m
+[32m*   Pass Pattern No.         46   *[0m
+[32m*   Pass Pattern No.         47   *[0m
+[32m*   Pass Pattern No.         48   *[0m
+[32m*   Pass Pattern No.         49   *[0m
+[32m*   Pass Pattern No.         50   *[0m
+[32m*   Pass Pattern No.         51   *[0m
+[32m*   Pass Pattern No.         52   *[0m
+[32m*   Pass Pattern No.         53   *[0m
+[32m*   Pass Pattern No.         54   *[0m
+[32m*   Pass Pattern No.         55   *[0m
+[32m*   Pass Pattern No.         56   *[0m
+[32m*   Pass Pattern No.         57   *[0m
+[32m*   Pass Pattern No.         58   *[0m
+[32m*   Pass Pattern No.         59   *[0m
+[32m*   Pass Pattern No.         60   *[0m
+[32m*   Pass Pattern No.         61   *[0m
+[32m*   Pass Pattern No.         62   *[0m
+[32m*   Pass Pattern No.         63   *[0m
+[32m*   Pass Pattern No.         64   *[0m
+[32m*   Pass Pattern No.         65   *[0m
+[32m*   Pass Pattern No.         66   *[0m
+[32m*   Pass Pattern No.         67   *[0m
+[32m*   Pass Pattern No.         68   *[0m
+[32m*   Pass Pattern No.         69   *[0m
+[32m*   Pass Pattern No.         70   *[0m
+[32m*   Pass Pattern No.         71   *[0m
+[32m*   Pass Pattern No.         72   *[0m
+[32m*   Pass Pattern No.         73   *[0m
+[32m*   Pass Pattern No.         74   *[0m
+[32m*   Pass Pattern No.         75   *[0m
+[32m*   Pass Pattern No.         76   *[0m
+[32m*   Pass Pattern No.         77   *[0m
+[32m*   Pass Pattern No.         78   *[0m
+[32m*   Pass Pattern No.         79   *[0m
+[32m*   Pass Pattern No.         80   *[0m
+[32m*   Pass Pattern No.         81   *[0m
+[32m*   Pass Pattern No.         82   *[0m
+[32m*   Pass Pattern No.         83   *[0m
+[32m*   Pass Pattern No.         84   *[0m
+[32m*   Pass Pattern No.         85   *[0m
+[32m*   Pass Pattern No.         86   *[0m
+[32m*   Pass Pattern No.         87   *[0m
+[32m*   Pass Pattern No.         88   *[0m
+[32m*   Pass Pattern No.         89   *[0m
+[32m*   Pass Pattern No.         90   *[0m
+[32m*   Pass Pattern No.         91   *[0m
+[32m*   Pass Pattern No.         92   *[0m
+[32m*   Pass Pattern No.         93   *[0m
+[32m*   Pass Pattern No.         94   *[0m
+[32m*   Pass Pattern No.         95   *[0m
+[32m*   Pass Pattern No.         96   *[0m
+[32m*   Pass Pattern No.         97   *[0m
+[32m*   Pass Pattern No.         98   *[0m
+[32m*   Pass Pattern No.         99   *[0m
+[32m*   Pass Pattern No.        100   *[0m
+[32m*   Pass Pattern No.        101   *[0m
+[32m*   Pass Pattern No.        102   *[0m
+[32m*   Pass Pattern No.        103   *[0m
+[32m*   Pass Pattern No.        104   *[0m
+[32m*   Pass Pattern No.        105   *[0m
+[32m*   Pass Pattern No.        106   *[0m
+[32m*   Pass Pattern No.        107   *[0m
+[32m*   Pass Pattern No.        108   *[0m
+[32m*   Pass Pattern No.        109   *[0m
+[32m*   Pass Pattern No.        110   *[0m
+[32m*   Pass Pattern No.        111   *[0m
+[32m*   Pass Pattern No.        112   *[0m
+[32m*   Pass Pattern No.        113   *[0m
+[32m*   Pass Pattern No.        114   *[0m
+[32m*   Pass Pattern No.        115   *[0m
+[32m*   Pass Pattern No.        116   *[0m
+[32m*   Pass Pattern No.        117   *[0m
+[32m*   Pass Pattern No.        118   *[0m
+[32m*   Pass Pattern No.        119   *[0m
+[32m*   Pass Pattern No.        120   *[0m
+[32m*   Pass Pattern No.        121   *[0m
+[32m*   Pass Pattern No.        122   *[0m
+[32m*   Pass Pattern No.        123   *[0m
+[32m*   Pass Pattern No.        124   *[0m
+[32m*   Pass Pattern No.        125   *[0m
+[32m*   Pass Pattern No.        126   *[0m
+[32m*   Pass Pattern No.        127   *[0m
+[32m*   Pass Pattern No.        128   *[0m
+[32m*   Pass Pattern No.        129   *[0m
+[32m*   Pass Pattern No.        130   *[0m
+[32m*   Pass Pattern No.        131   *[0m
+[32m*   Pass Pattern No.        132   *[0m
+[32m*   Pass Pattern No.        133   *[0m
+[32m*   Pass Pattern No.        134   *[0m
+[32m*   Pass Pattern No.        135   *[0m
+[32m*   Pass Pattern No.        136   *[0m
+[32m*   Pass Pattern No.        137   *[0m
+[32m*   Pass Pattern No.        138   *[0m
+[32m*   Pass Pattern No.        139   *[0m
+[32m*   Pass Pattern No.        140   *[0m
+[32m*   Pass Pattern No.        141   *[0m
+[32m*   Pass Pattern No.        142   *[0m
+[32m*   Pass Pattern No.        143   *[0m
+[32m*   Pass Pattern No.        144   *[0m
+[32m*   Pass Pattern No.        145   *[0m
+[32m*   Pass Pattern No.        146   *[0m
+[32m*   Pass Pattern No.        147   *[0m
+[32m*   Pass Pattern No.        148   *[0m
+[32m*   Pass Pattern No.        149   *[0m
+[32m*   Pass Pattern No.        150   *[0m
+[32m*   Pass Pattern No.        151   *[0m
+[32m*   Pass Pattern No.        152   *[0m
+[32m*   Pass Pattern No.        153   *[0m
+[32m*   Pass Pattern No.        154   *[0m
+[32m*   Pass Pattern No.        155   *[0m
+[32m*   Pass Pattern No.        156   *[0m
+[32m*   Pass Pattern No.        157   *[0m
+[32m*   Pass Pattern No.        158   *[0m
+[32m*   Pass Pattern No.        159   *[0m
+[32m*   Pass Pattern No.        160   *[0m
+[32m*   Pass Pattern No.        161   *[0m
+[32m*   Pass Pattern No.        162   *[0m
+[32m*   Pass Pattern No.        163   *[0m
+[32m*   Pass Pattern No.        164   *[0m
+[32m*   Pass Pattern No.        165   *[0m
+[32m*   Pass Pattern No.        166   *[0m
+[32m*   Pass Pattern No.        167   *[0m
+[32m*   Pass Pattern No.        168   *[0m
+[32m*   Pass Pattern No.        169   *[0m
+[32m*   Pass Pattern No.        170   *[0m
+[32m*   Pass Pattern No.        171   *[0m
+[32m*   Pass Pattern No.        172   *[0m
+[32m*   Pass Pattern No.        173   *[0m
+[32m*   Pass Pattern No.        174   *[0m
+[32m*   Pass Pattern No.        175   *[0m
+[32m*   Pass Pattern No.        176   *[0m
+[32m*   Pass Pattern No.        177   *[0m
+[32m*   Pass Pattern No.        178   *[0m
+[32m*   Pass Pattern No.        179   *[0m
+[32m*   Pass Pattern No.        180   *[0m
+[32m*   Pass Pattern No.        181   *[0m
+[32m*   Pass Pattern No.        182   *[0m
+[32m*   Pass Pattern No.        183   *[0m
+[32m*   Pass Pattern No.        184   *[0m
+[32m*   Pass Pattern No.        185   *[0m
+[32m*   Pass Pattern No.        186   *[0m
+[32m*   Pass Pattern No.        187   *[0m
+[32m*   Pass Pattern No.        188   *[0m
+[32m*   Pass Pattern No.        189   *[0m
+[32m*   Pass Pattern No.        190   *[0m
+[32m*   Pass Pattern No.        191   *[0m
+[32m*   Pass Pattern No.        192   *[0m
+[32m*   Pass Pattern No.        193   *[0m
+[32m*   Pass Pattern No.        194   *[0m
+[32m*   Pass Pattern No.        195   *[0m
+[32m*   Pass Pattern No.        196   *[0m
+[32m*   Pass Pattern No.        197   *[0m
+[32m*   Pass Pattern No.        198   *[0m
+[32m*   Pass Pattern No.        199   *[0m
+[32m*   Pass Pattern No.        200   *[0m
+[32m*   Pass Pattern No.        201   *[0m
+[32m*   Pass Pattern No.        202   *[0m
+[32m*   Pass Pattern No.        203   *[0m
+[32m*   Pass Pattern No.        204   *[0m
+[32m*   Pass Pattern No.        205   *[0m
+[32m*   Pass Pattern No.        206   *[0m
+[32m*   Pass Pattern No.        207   *[0m
+[32m*   Pass Pattern No.        208   *[0m
+[32m*   Pass Pattern No.        209   *[0m
+[32m*   Pass Pattern No.        210   *[0m
+[32m*   Pass Pattern No.        211   *[0m
+[32m*   Pass Pattern No.        212   *[0m
+[32m*   Pass Pattern No.        213   *[0m
+[32m*   Pass Pattern No.        214   *[0m
+[32m*   Pass Pattern No.        215   *[0m
+[32m*   Pass Pattern No.        216   *[0m
+[32m*   Pass Pattern No.        217   *[0m
+[32m*   Pass Pattern No.        218   *[0m
+[32m*   Pass Pattern No.        219   *[0m
+[32m*   Pass Pattern No.        220   *[0m
+[32m*   Pass Pattern No.        221   *[0m
+[32m*   Pass Pattern No.        222   *[0m
+[32m*   Pass Pattern No.        223   *[0m
+[32m*   Pass Pattern No.        224   *[0m
+[32m*   Pass Pattern No.        225   *[0m
+[32m*   Pass Pattern No.        226   *[0m
+[32m*   Pass Pattern No.        227   *[0m
+[32m*   Pass Pattern No.        228   *[0m
+[32m*   Pass Pattern No.        229   *[0m
+[32m*   Pass Pattern No.        230   *[0m
+[32m*   Pass Pattern No.        231   *[0m
+[32m*   Pass Pattern No.        232   *[0m
+[32m*   Pass Pattern No.        233   *[0m
+[32m*   Pass Pattern No.        234   *[0m
+[32m*   Pass Pattern No.        235   *[0m
+[32m*   Pass Pattern No.        236   *[0m
+[32m*   Pass Pattern No.        237   *[0m
+[32m*   Pass Pattern No.        238   *[0m
+[32m*   Pass Pattern No.        239   *[0m
+[32m*   Pass Pattern No.        240   *[0m
+[32m*   Pass Pattern No.        241   *[0m
+[32m*   Pass Pattern No.        242   *[0m
+[32m*   Pass Pattern No.        243   *[0m
+[32m*   Pass Pattern No.        244   *[0m
+[32m*   Pass Pattern No.        245   *[0m
+[32m*   Pass Pattern No.        246   *[0m
+[32m*   Pass Pattern No.        247   *[0m
+[32m*   Pass Pattern No.        248   *[0m
+[32m*   Pass Pattern No.        249   *[0m
+[32m*   Pass Pattern No.        250   *[0m
+[32m*   Pass Pattern No.        251   *[0m
+[32m*   Pass Pattern No.        252   *[0m
+[32m*   Pass Pattern No.        253   *[0m
+[32m*   Pass Pattern No.        254   *[0m
+[32m*   Pass Pattern No.        255   *[0m
+[32m*   Pass Pattern No.        256   *[0m
+[32m*   Pass Pattern No.        257   *[0m
+[32m*   Pass Pattern No.        258   *[0m
+[32m*   Pass Pattern No.        259   *[0m
+[32m*   Pass Pattern No.        260   *[0m
+[32m*   Pass Pattern No.        261   *[0m
+[32m*   Pass Pattern No.        262   *[0m
+[32m*   Pass Pattern No.        263   *[0m
+[32m*   Pass Pattern No.        264   *[0m
+[32m*   Pass Pattern No.        265   *[0m
+[32m*   Pass Pattern No.        266   *[0m
+[32m*   Pass Pattern No.        267   *[0m
+[32m*   Pass Pattern No.        268   *[0m
+[32m*   Pass Pattern No.        269   *[0m
+[32m*   Pass Pattern No.        270   *[0m
+[32m*   Pass Pattern No.        271   *[0m
+[32m*   Pass Pattern No.        272   *[0m
+[32m*   Pass Pattern No.        273   *[0m
+[32m*   Pass Pattern No.        274   *[0m
+[32m*   Pass Pattern No.        275   *[0m
+[32m*   Pass Pattern No.        276   *[0m
+[32m*   Pass Pattern No.        277   *[0m
+[32m*   Pass Pattern No.        278   *[0m
+[32m*   Pass Pattern No.        279   *[0m
+[32m*   Pass Pattern No.        280   *[0m
+[32m*   Pass Pattern No.        281   *[0m
+[32m*   Pass Pattern No.        282   *[0m
+[32m*   Pass Pattern No.        283   *[0m
+[32m*   Pass Pattern No.        284   *[0m
+[32m*   Pass Pattern No.        285   *[0m
+[32m*   Pass Pattern No.        286   *[0m
+[32m*   Pass Pattern No.        287   *[0m
+[32m*   Pass Pattern No.        288   *[0m
+[32m*   Pass Pattern No.        289   *[0m
+[32m*   Pass Pattern No.        290   *[0m
+[32m*   Pass Pattern No.        291   *[0m
+[32m*   Pass Pattern No.        292   *[0m
+[32m*   Pass Pattern No.        293   *[0m
+[32m*   Pass Pattern No.        294   *[0m
+[32m*   Pass Pattern No.        295   *[0m
+[32m*   Pass Pattern No.        296   *[0m
+[32m*   Pass Pattern No.        297   *[0m
+[32m*   Pass Pattern No.        298   *[0m
+[32m*   Pass Pattern No.        299   *[0m
+[32m*   Pass Pattern No.        300   *[0m
+[32m*   Pass Pattern No.        301   *[0m
+[32m*   Pass Pattern No.        302   *[0m
+[32m*   Pass Pattern No.        303   *[0m
+[32m*   Pass Pattern No.        304   *[0m
+[32m*   Pass Pattern No.        305   *[0m
+[32m*   Pass Pattern No.        306   *[0m
+[32m*   Pass Pattern No.        307   *[0m
+[32m*   Pass Pattern No.        308   *[0m
+[32m*   Pass Pattern No.        309   *[0m
+[32m*   Pass Pattern No.        310   *[0m
+[32m*   Pass Pattern No.        311   *[0m
+[32m*   Pass Pattern No.        312   *[0m
+[32m*   Pass Pattern No.        313   *[0m
+[32m*   Pass Pattern No.        314   *[0m
+[32m*   Pass Pattern No.        315   *[0m
+[32m*   Pass Pattern No.        316   *[0m
+[32m*   Pass Pattern No.        317   *[0m
+[32m*   Pass Pattern No.        318   *[0m
+[32m*   Pass Pattern No.        319   *[0m
+[32m*   Pass Pattern No.        320   *[0m
+[32m*   Pass Pattern No.        321   *[0m
+[32m*   Pass Pattern No.        322   *[0m
+[32m*   Pass Pattern No.        323   *[0m
+[32m*   Pass Pattern No.        324   *[0m
+[32m*   Pass Pattern No.        325   *[0m
+[32m*   Pass Pattern No.        326   *[0m
+[32m*   Pass Pattern No.        327   *[0m
+[32m*   Pass Pattern No.        328   *[0m
+[32m*   Pass Pattern No.        329   *[0m
+[32m*   Pass Pattern No.        330   *[0m
+[32m*   Pass Pattern No.        331   *[0m
+[32m*   Pass Pattern No.        332   *[0m
+[32m*   Pass Pattern No.        333   *[0m
+[32m*   Pass Pattern No.        334   *[0m
+[32m*   Pass Pattern No.        335   *[0m
+[32m*   Pass Pattern No.        336   *[0m
+[32m*   Pass Pattern No.        337   *[0m
+[32m*   Pass Pattern No.        338   *[0m
+[32m*   Pass Pattern No.        339   *[0m
+[32m*   Pass Pattern No.        340   *[0m
+[32m*   Pass Pattern No.        341   *[0m
+[32m*   Pass Pattern No.        342   *[0m
+[32m*   Pass Pattern No.        343   *[0m
+[32m*   Pass Pattern No.        344   *[0m
+[32m*   Pass Pattern No.        345   *[0m
+[32m*   Pass Pattern No.        346   *[0m
+[32m*   Pass Pattern No.        347   *[0m
+[32m*   Pass Pattern No.        348   *[0m
+[32m*   Pass Pattern No.        349   *[0m
+[32m*   Pass Pattern No.        350   *[0m
+[32m*   Pass Pattern No.        351   *[0m
+[32m*   Pass Pattern No.        352   *[0m
+[32m*   Pass Pattern No.        353   *[0m
+[32m*   Pass Pattern No.        354   *[0m
+[32m*   Pass Pattern No.        355   *[0m
+[32m*   Pass Pattern No.        356   *[0m
+[32m*   Pass Pattern No.        357   *[0m
+[32m*   Pass Pattern No.        358   *[0m
+[32m*   Pass Pattern No.        359   *[0m
+[32m*   Pass Pattern No.        360   *[0m
+[32m*   Pass Pattern No.        361   *[0m
+[32m*   Pass Pattern No.        362   *[0m
+[32m*   Pass Pattern No.        363   *[0m
+[32m*   Pass Pattern No.        364   *[0m
+[32m*   Pass Pattern No.        365   *[0m
+[32m*   Pass Pattern No.        366   *[0m
+[32m*   Pass Pattern No.        367   *[0m
+[32m*   Pass Pattern No.        368   *[0m
+[32m*   Pass Pattern No.        369   *[0m
+[32m*   Pass Pattern No.        370   *[0m
+[32m*   Pass Pattern No.        371   *[0m
+[32m*   Pass Pattern No.        372   *[0m
+[32m*   Pass Pattern No.        373   *[0m
+[32m*   Pass Pattern No.        374   *[0m
+[32m*   Pass Pattern No.        375   *[0m
+[32m*   Pass Pattern No.        376   *[0m
+[32m*   Pass Pattern No.        377   *[0m
+[32m*   Pass Pattern No.        378   *[0m
+[32m*   Pass Pattern No.        379   *[0m
+[32m*   Pass Pattern No.        380   *[0m
+[32m*   Pass Pattern No.        381   *[0m
+[32m*   Pass Pattern No.        382   *[0m
+[32m*   Pass Pattern No.        383   *[0m
+[32m*   Pass Pattern No.        384   *[0m
+[32m*   Pass Pattern No.        385   *[0m
+[32m*   Pass Pattern No.        386   *[0m
+[32m*   Pass Pattern No.        387   *[0m
+[32m*   Pass Pattern No.        388   *[0m
+[32m*   Pass Pattern No.        389   *[0m
+[32m*   Pass Pattern No.        390   *[0m
+[32m*   Pass Pattern No.        391   *[0m
+[32m*   Pass Pattern No.        392   *[0m
+[32m*   Pass Pattern No.        393   *[0m
+[32m*   Pass Pattern No.        394   *[0m
+[32m*   Pass Pattern No.        395   *[0m
+[32m*   Pass Pattern No.        396   *[0m
+[32m*   Pass Pattern No.        397   *[0m
+[32m*   Pass Pattern No.        398   *[0m
+[32m*   Pass Pattern No.        399   *[0m
+[32m*   Pass Pattern No.        400   *[0m
+[32m*   Pass Pattern No.        401   *[0m
+[32m*   Pass Pattern No.        402   *[0m
+[32m*   Pass Pattern No.        403   *[0m
+[32m*   Pass Pattern No.        404   *[0m
+[32m*   Pass Pattern No.        405   *[0m
+[32m*   Pass Pattern No.        406   *[0m
+[32m*   Pass Pattern No.        407   *[0m
+[32m*   Pass Pattern No.        408   *[0m
+[32m*   Pass Pattern No.        409   *[0m
+[32m*   Pass Pattern No.        410   *[0m
+[32m*   Pass Pattern No.        411   *[0m
+[32m*   Pass Pattern No.        412   *[0m
+[32m*   Pass Pattern No.        413   *[0m
+[32m*   Pass Pattern No.        414   *[0m
+[32m*   Pass Pattern No.        415   *[0m
+[32m*   Pass Pattern No.        416   *[0m
+[32m*   Pass Pattern No.        417   *[0m
+[32m*   Pass Pattern No.        418   *[0m
+[32m*   Pass Pattern No.        419   *[0m
+[32m*   Pass Pattern No.        420   *[0m
+[32m*   Pass Pattern No.        421   *[0m
+[32m*   Pass Pattern No.        422   *[0m
+[32m*   Pass Pattern No.        423   *[0m
+[32m*   Pass Pattern No.        424   *[0m
+[32m*   Pass Pattern No.        425   *[0m
+[32m*   Pass Pattern No.        426   *[0m
+[32m*   Pass Pattern No.        427   *[0m
+[32m*   Pass Pattern No.        428   *[0m
+[32m*   Pass Pattern No.        429   *[0m
+[32m*   Pass Pattern No.        430   *[0m
+[32m*   Pass Pattern No.        431   *[0m
+[32m*   Pass Pattern No.        432   *[0m
+[32m*   Pass Pattern No.        433   *[0m
+[32m*   Pass Pattern No.        434   *[0m
+[32m*   Pass Pattern No.        435   *[0m
+[32m*   Pass Pattern No.        436   *[0m
+[32m*   Pass Pattern No.        437   *[0m
+[32m*   Pass Pattern No.        438   *[0m
+[32m*   Pass Pattern No.        439   *[0m
+[32m*   Pass Pattern No.        440   *[0m
+[32m*   Pass Pattern No.        441   *[0m
+[32m*   Pass Pattern No.        442   *[0m
+[32m*   Pass Pattern No.        443   *[0m
+[32m*   Pass Pattern No.        444   *[0m
+[32m*   Pass Pattern No.        445   *[0m
+[32m*   Pass Pattern No.        446   *[0m
+[32m*   Pass Pattern No.        447   *[0m
+[32m*   Pass Pattern No.        448   *[0m
+[32m*   Pass Pattern No.        449   *[0m
+[32m*   Pass Pattern No.        450   *[0m
+[32m*   Pass Pattern No.        451   *[0m
+[32m*   Pass Pattern No.        452   *[0m
+[32m*   Pass Pattern No.        453   *[0m
+[32m*   Pass Pattern No.        454   *[0m
+[32m*   Pass Pattern No.        455   *[0m
+[32m*   Pass Pattern No.        456   *[0m
+[32m*   Pass Pattern No.        457   *[0m
+[32m*   Pass Pattern No.        458   *[0m
+[32m*   Pass Pattern No.        459   *[0m
+[32m*   Pass Pattern No.        460   *[0m
+[32m*   Pass Pattern No.        461   *[0m
+[32m*   Pass Pattern No.        462   *[0m
+[32m*   Pass Pattern No.        463   *[0m
+[32m*   Pass Pattern No.        464   *[0m
+[32m*   Pass Pattern No.        465   *[0m
+[32m*   Pass Pattern No.        466   *[0m
+[32m*   Pass Pattern No.        467   *[0m
+[32m*   Pass Pattern No.        468   *[0m
+[32m*   Pass Pattern No.        469   *[0m
+[32m*   Pass Pattern No.        470   *[0m
+[32m*   Pass Pattern No.        471   *[0m
+[32m*   Pass Pattern No.        472   *[0m
+[32m*   Pass Pattern No.        473   *[0m
+[32m*   Pass Pattern No.        474   *[0m
+[32m*   Pass Pattern No.        475   *[0m
+[32m*   Pass Pattern No.        476   *[0m
+[32m*   Pass Pattern No.        477   *[0m
+[32m*   Pass Pattern No.        478   *[0m
+[32m*   Pass Pattern No.        479   *[0m
+[32m*   Pass Pattern No.        480   *[0m
+[32m*   Pass Pattern No.        481   *[0m
+[32m*   Pass Pattern No.        482   *[0m
+[32m*   Pass Pattern No.        483   *[0m
+[32m*   Pass Pattern No.        484   *[0m
+[32m*   Pass Pattern No.        485   *[0m
+[32m*   Pass Pattern No.        486   *[0m
+[32m*   Pass Pattern No.        487   *[0m
+[32m*   Pass Pattern No.        488   *[0m
+[32m*   Pass Pattern No.        489   *[0m
+[32m*   Pass Pattern No.        490   *[0m
+[32m*   Pass Pattern No.        491   *[0m
+[32m*   Pass Pattern No.        492   *[0m
+[32m*   Pass Pattern No.        493   *[0m
+[32m*   Pass Pattern No.        494   *[0m
+[32m*   Pass Pattern No.        495   *[0m
+[32m*   Pass Pattern No.        496   *[0m
+[32m*   Pass Pattern No.        497   *[0m
+[32m*   Pass Pattern No.        498   *[0m
+[32m*   Pass Pattern No.        499   *[0m
+[32m*   Pass Pattern No.        500   *[0m
+[32m*   Pass Pattern No.        501   *[0m
+[32m*   Pass Pattern No.        502   *[0m
+[32m*   Pass Pattern No.        503   *[0m
+[32m*   Pass Pattern No.        504   *[0m
+[32m*   Pass Pattern No.        505   *[0m
+[32m*   Pass Pattern No.        506   *[0m
+[32m*   Pass Pattern No.        507   *[0m
+[32m*   Pass Pattern No.        508   *[0m
+[32m*   Pass Pattern No.        509   *[0m
+[32m*   Pass Pattern No.        510   *[0m
+[32m*   Pass Pattern No.        511   *[0m
+[32m*   Pass Pattern No.        512   *[0m
+[32m*   Pass Pattern No.        513   *[0m
+[32m*   Pass Pattern No.        514   *[0m
+[32m*   Pass Pattern No.        515   *[0m
+[32m*   Pass Pattern No.        516   *[0m
+[32m*   Pass Pattern No.        517   *[0m
+[32m*   Pass Pattern No.        518   *[0m
+[32m*   Pass Pattern No.        519   *[0m
+[32m*   Pass Pattern No.        520   *[0m
+[32m*   Pass Pattern No.        521   *[0m
+[32m*   Pass Pattern No.        522   *[0m
+[32m*   Pass Pattern No.        523   *[0m
+[32m*   Pass Pattern No.        524   *[0m
+[32m*   Pass Pattern No.        525   *[0m
+[32m*   Pass Pattern No.        526   *[0m
+[32m*   Pass Pattern No.        527   *[0m
+[32m*   Pass Pattern No.        528   *[0m
+[32m*   Pass Pattern No.        529   *[0m
+[32m*   Pass Pattern No.        530   *[0m
+[32m*   Pass Pattern No.        531   *[0m
+[32m*   Pass Pattern No.        532   *[0m
+[32m*   Pass Pattern No.        533   *[0m
+[32m*   Pass Pattern No.        534   *[0m
+[32m*   Pass Pattern No.        535   *[0m
+[32m*   Pass Pattern No.        536   *[0m
+[32m*   Pass Pattern No.        537   *[0m
+[32m*   Pass Pattern No.        538   *[0m
+[32m*   Pass Pattern No.        539   *[0m
+[32m*   Pass Pattern No.        540   *[0m
+[32m*   Pass Pattern No.        541   *[0m
+[32m*   Pass Pattern No.        542   *[0m
+[32m*   Pass Pattern No.        543   *[0m
+[32m*   Pass Pattern No.        544   *[0m
+[32m*   Pass Pattern No.        545   *[0m
+[32m*   Pass Pattern No.        546   *[0m
+[32m*   Pass Pattern No.        547   *[0m
+[32m*   Pass Pattern No.        548   *[0m
+[32m*   Pass Pattern No.        549   *[0m
+[32m*   Pass Pattern No.        550   *[0m
+[32m*   Pass Pattern No.        551   *[0m
+[32m*   Pass Pattern No.        552   *[0m
+[32m*   Pass Pattern No.        553   *[0m
+[32m*   Pass Pattern No.        554   *[0m
+[32m*   Pass Pattern No.        555   *[0m
+[32m*   Pass Pattern No.        556   *[0m
+[32m*   Pass Pattern No.        557   *[0m
+[32m*   Pass Pattern No.        558   *[0m
+[32m*   Pass Pattern No.        559   *[0m
+[32m*   Pass Pattern No.        560   *[0m
+[32m*   Pass Pattern No.        561   *[0m
+[32m*   Pass Pattern No.        562   *[0m
+[32m*   Pass Pattern No.        563   *[0m
+[32m*   Pass Pattern No.        564   *[0m
+[32m*   Pass Pattern No.        565   *[0m
+[32m*   Pass Pattern No.        566   *[0m
+[32m*   Pass Pattern No.        567   *[0m
+[32m*   Pass Pattern No.        568   *[0m
+[32m*   Pass Pattern No.        569   *[0m
+[32m*   Pass Pattern No.        570   *[0m
+[32m*   Pass Pattern No.        571   *[0m
+[32m*   Pass Pattern No.        572   *[0m
+[32m*   Pass Pattern No.        573   *[0m
+[32m*   Pass Pattern No.        574   *[0m
+[32m*   Pass Pattern No.        575   *[0m
+[32m*   Pass Pattern No.        576   *[0m
+[32m*   Pass Pattern No.        577   *[0m
+[32m*   Pass Pattern No.        578   *[0m
+[32m*   Pass Pattern No.        579   *[0m
+[32m*   Pass Pattern No.        580   *[0m
+[32m*   Pass Pattern No.        581   *[0m
+[32m*   Pass Pattern No.        582   *[0m
+[32m*   Pass Pattern No.        583   *[0m
+[32m*   Pass Pattern No.        584   *[0m
+[32m*   Pass Pattern No.        585   *[0m
+[32m*   Pass Pattern No.        586   *[0m
+[32m*   Pass Pattern No.        587   *[0m
+[32m*   Pass Pattern No.        588   *[0m
+[32m*   Pass Pattern No.        589   *[0m
+[32m*   Pass Pattern No.        590   *[0m
+[32m*   Pass Pattern No.        591   *[0m
+[32m*   Pass Pattern No.        592   *[0m
+[32m*   Pass Pattern No.        593   *[0m
+[32m*   Pass Pattern No.        594   *[0m
+[32m*   Pass Pattern No.        595   *[0m
+[32m*   Pass Pattern No.        596   *[0m
+[32m*   Pass Pattern No.        597   *[0m
+[32m*   Pass Pattern No.        598   *[0m
+[32m*   Pass Pattern No.        599   *[0m
+[32m*   Pass Pattern No.        600   *[0m
+[32m*   Pass Pattern No.        601   *[0m
+[32m*   Pass Pattern No.        602   *[0m
+[32m*   Pass Pattern No.        603   *[0m
+[32m*   Pass Pattern No.        604   *[0m
+[32m*   Pass Pattern No.        605   *[0m
+[32m*   Pass Pattern No.        606   *[0m
+[32m*   Pass Pattern No.        607   *[0m
+[32m*   Pass Pattern No.        608   *[0m
+[32m*   Pass Pattern No.        609   *[0m
+[32m*   Pass Pattern No.        610   *[0m
+[32m*   Pass Pattern No.        611   *[0m
+[32m*   Pass Pattern No.        612   *[0m
+[32m*   Pass Pattern No.        613   *[0m
+[32m*   Pass Pattern No.        614   *[0m
+[32m*   Pass Pattern No.        615   *[0m
+[32m*   Pass Pattern No.        616   *[0m
+[32m*   Pass Pattern No.        617   *[0m
+[32m*   Pass Pattern No.        618   *[0m
+[32m*   Pass Pattern No.        619   *[0m
+[32m*   Pass Pattern No.        620   *[0m
+[32m*   Pass Pattern No.        621   *[0m
+[32m*   Pass Pattern No.        622   *[0m
+[32m*   Pass Pattern No.        623   *[0m
+[32m*   Pass Pattern No.        624   *[0m
+[32m*   Pass Pattern No.        625   *[0m
+[32m*   Pass Pattern No.        626   *[0m
+[32m*   Pass Pattern No.        627   *[0m
+[32m*   Pass Pattern No.        628   *[0m
+[32m*   Pass Pattern No.        629   *[0m
+[32m*   Pass Pattern No.        630   *[0m
+[32m*   Pass Pattern No.        631   *[0m
+[32m*   Pass Pattern No.        632   *[0m
+[32m*   Pass Pattern No.        633   *[0m
+[32m*   Pass Pattern No.        634   *[0m
+[32m*   Pass Pattern No.        635   *[0m
+[32m*   Pass Pattern No.        636   *[0m
+[32m*   Pass Pattern No.        637   *[0m
+[32m*   Pass Pattern No.        638   *[0m
+[32m*   Pass Pattern No.        639   *[0m
+[32m*   Pass Pattern No.        640   *[0m
+[32m*   Pass Pattern No.        641   *[0m
+[32m*   Pass Pattern No.        642   *[0m
+[32m*   Pass Pattern No.        643   *[0m
+[32m*   Pass Pattern No.        644   *[0m
+[32m*   Pass Pattern No.        645   *[0m
+[32m*   Pass Pattern No.        646   *[0m
+[32m*   Pass Pattern No.        647   *[0m
+[32m*   Pass Pattern No.        648   *[0m
+[32m*   Pass Pattern No.        649   *[0m
+[32m*   Pass Pattern No.        650   *[0m
+[32m*   Pass Pattern No.        651   *[0m
+[32m*   Pass Pattern No.        652   *[0m
+[32m*   Pass Pattern No.        653   *[0m
+[32m*   Pass Pattern No.        654   *[0m
+[32m*   Pass Pattern No.        655   *[0m
+[32m*   Pass Pattern No.        656   *[0m
+[32m*   Pass Pattern No.        657   *[0m
+[32m*   Pass Pattern No.        658   *[0m
+[32m*   Pass Pattern No.        659   *[0m
+[32m*   Pass Pattern No.        660   *[0m
+[32m*   Pass Pattern No.        661   *[0m
+[32m*   Pass Pattern No.        662   *[0m
+[32m*   Pass Pattern No.        663   *[0m
+[32m*   Pass Pattern No.        664   *[0m
+[32m*   Pass Pattern No.        665   *[0m
+[32m*   Pass Pattern No.        666   *[0m
+[32m*   Pass Pattern No.        667   *[0m
+[32m*   Pass Pattern No.        668   *[0m
+[32m*   Pass Pattern No.        669   *[0m
+[32m*   Pass Pattern No.        670   *[0m
+[32m*   Pass Pattern No.        671   *[0m
+[32m*   Pass Pattern No.        672   *[0m
+[32m*   Pass Pattern No.        673   *[0m
+[32m*   Pass Pattern No.        674   *[0m
+[32m*   Pass Pattern No.        675   *[0m
+[32m*   Pass Pattern No.        676   *[0m
+[32m*   Pass Pattern No.        677   *[0m
+[32m*   Pass Pattern No.        678   *[0m
+[32m*   Pass Pattern No.        679   *[0m
+[32m*   Pass Pattern No.        680   *[0m
+[32m*   Pass Pattern No.        681   *[0m
+[32m*   Pass Pattern No.        682   *[0m
+[32m*   Pass Pattern No.        683   *[0m
+[32m*   Pass Pattern No.        684   *[0m
+[32m*   Pass Pattern No.        685   *[0m
+[32m*   Pass Pattern No.        686   *[0m
+[32m*   Pass Pattern No.        687   *[0m
+[32m*   Pass Pattern No.        688   *[0m
+[32m*   Pass Pattern No.        689   *[0m
+[32m*   Pass Pattern No.        690   *[0m
+[32m*   Pass Pattern No.        691   *[0m
+[32m*   Pass Pattern No.        692   *[0m
+[32m*   Pass Pattern No.        693   *[0m
+[32m*   Pass Pattern No.        694   *[0m
+[32m*   Pass Pattern No.        695   *[0m
+[32m*   Pass Pattern No.        696   *[0m
+[32m*   Pass Pattern No.        697   *[0m
+[32m*   Pass Pattern No.        698   *[0m
+[32m*   Pass Pattern No.        699   *[0m
+[32m*   Pass Pattern No.        700   *[0m
+[32m*   Pass Pattern No.        701   *[0m
+[32m*   Pass Pattern No.        702   *[0m
+[32m*   Pass Pattern No.        703   *[0m
+[32m*   Pass Pattern No.        704   *[0m
+[32m*   Pass Pattern No.        705   *[0m
+[32m*   Pass Pattern No.        706   *[0m
+[32m*   Pass Pattern No.        707   *[0m
+[32m*   Pass Pattern No.        708   *[0m
+[32m*   Pass Pattern No.        709   *[0m
+[32m*   Pass Pattern No.        710   *[0m
+[32m*   Pass Pattern No.        711   *[0m
+[32m*   Pass Pattern No.        712   *[0m
+[32m*   Pass Pattern No.        713   *[0m
+[32m*   Pass Pattern No.        714   *[0m
+[32m*   Pass Pattern No.        715   *[0m
+[32m*   Pass Pattern No.        716   *[0m
+[32m*   Pass Pattern No.        717   *[0m
+[32m*   Pass Pattern No.        718   *[0m
+[32m*   Pass Pattern No.        719   *[0m
+[32m*   Pass Pattern No.        720   *[0m
+[32m*   Pass Pattern No.        721   *[0m
+[32m*   Pass Pattern No.        722   *[0m
+[32m*   Pass Pattern No.        723   *[0m
+[32m*   Pass Pattern No.        724   *[0m
+[32m*   Pass Pattern No.        725   *[0m
+[32m*   Pass Pattern No.        726   *[0m
+[32m*   Pass Pattern No.        727   *[0m
+[32m*   Pass Pattern No.        728   *[0m
+[32m*   Pass Pattern No.        729   *[0m
+[32m*   Pass Pattern No.        730   *[0m
+[32m*   Pass Pattern No.        731   *[0m
+[32m*   Pass Pattern No.        732   *[0m
+[32m*   Pass Pattern No.        733   *[0m
+[32m*   Pass Pattern No.        734   *[0m
+[32m*   Pass Pattern No.        735   *[0m
+[32m*   Pass Pattern No.        736   *[0m
+[32m*   Pass Pattern No.        737   *[0m
+[32m*   Pass Pattern No.        738   *[0m
+[32m*   Pass Pattern No.        739   *[0m
+[32m*   Pass Pattern No.        740   *[0m
+[32m*   Pass Pattern No.        741   *[0m
+[32m*   Pass Pattern No.        742   *[0m
+[32m*   Pass Pattern No.        743   *[0m
+[32m*   Pass Pattern No.        744   *[0m
+[32m*   Pass Pattern No.        745   *[0m
+[32m*   Pass Pattern No.        746   *[0m
+[32m*   Pass Pattern No.        747   *[0m
+[32m*   Pass Pattern No.        748   *[0m
+[32m*   Pass Pattern No.        749   *[0m
+[32m*   Pass Pattern No.        750   *[0m
+[32m*   Pass Pattern No.        751   *[0m
+[32m*   Pass Pattern No.        752   *[0m
+[32m*   Pass Pattern No.        753   *[0m
+[32m*   Pass Pattern No.        754   *[0m
+[32m*   Pass Pattern No.        755   *[0m
+[32m*   Pass Pattern No.        756   *[0m
+[32m*   Pass Pattern No.        757   *[0m
+[32m*   Pass Pattern No.        758   *[0m
+[32m*   Pass Pattern No.        759   *[0m
+[32m*   Pass Pattern No.        760   *[0m
+[32m*   Pass Pattern No.        761   *[0m
+[32m*   Pass Pattern No.        762   *[0m
+[32m*   Pass Pattern No.        763   *[0m
+[32m*   Pass Pattern No.        764   *[0m
+[32m*   Pass Pattern No.        765   *[0m
+[32m*   Pass Pattern No.        766   *[0m
+[32m*   Pass Pattern No.        767   *[0m
+[32m*   Pass Pattern No.        768   *[0m
+[32m*   Pass Pattern No.        769   *[0m
+[32m*   Pass Pattern No.        770   *[0m
+[32m*   Pass Pattern No.        771   *[0m
+[32m*   Pass Pattern No.        772   *[0m
+[32m*   Pass Pattern No.        773   *[0m
+[32m*   Pass Pattern No.        774   *[0m
+[32m*   Pass Pattern No.        775   *[0m
+[32m*   Pass Pattern No.        776   *[0m
+[32m*   Pass Pattern No.        777   *[0m
+[32m*   Pass Pattern No.        778   *[0m
+[32m*   Pass Pattern No.        779   *[0m
+[32m*   Pass Pattern No.        780   *[0m
+[32m*   Pass Pattern No.        781   *[0m
+[32m*   Pass Pattern No.        782   *[0m
+[32m*   Pass Pattern No.        783   *[0m
+[32m*   Pass Pattern No.        784   *[0m
+[32m*   Pass Pattern No.        785   *[0m
+[32m*   Pass Pattern No.        786   *[0m
+[32m*   Pass Pattern No.        787   *[0m
+[32m*   Pass Pattern No.        788   *[0m
+[32m*   Pass Pattern No.        789   *[0m
+[32m*   Pass Pattern No.        790   *[0m
+[32m*   Pass Pattern No.        791   *[0m
+[32m*   Pass Pattern No.        792   *[0m
+[32m*   Pass Pattern No.        793   *[0m
+[32m*   Pass Pattern No.        794   *[0m
+[32m*   Pass Pattern No.        795   *[0m
+[32m*   Pass Pattern No.        796   *[0m
+[32m*   Pass Pattern No.        797   *[0m
+[32m*   Pass Pattern No.        798   *[0m
+[32m*   Pass Pattern No.        799   *[0m
+[32m*   Pass Pattern No.        800   *[0m
+[32m*   Pass Pattern No.        801   *[0m
+[32m*   Pass Pattern No.        802   *[0m
+[32m*   Pass Pattern No.        803   *[0m
+[32m*   Pass Pattern No.        804   *[0m
+[32m*   Pass Pattern No.        805   *[0m
+[32m*   Pass Pattern No.        806   *[0m
+[32m*   Pass Pattern No.        807   *[0m
+[32m*   Pass Pattern No.        808   *[0m
+[32m*   Pass Pattern No.        809   *[0m
+[32m*   Pass Pattern No.        810   *[0m
+[32m*   Pass Pattern No.        811   *[0m
+[32m*   Pass Pattern No.        812   *[0m
+[32m*   Pass Pattern No.        813   *[0m
+[32m*   Pass Pattern No.        814   *[0m
+[32m*   Pass Pattern No.        815   *[0m
+[32m*   Pass Pattern No.        816   *[0m
+[32m*   Pass Pattern No.        817   *[0m
+[32m*   Pass Pattern No.        818   *[0m
+[32m*   Pass Pattern No.        819   *[0m
+[32m*   Pass Pattern No.        820   *[0m
+[32m*   Pass Pattern No.        821   *[0m
+[32m*   Pass Pattern No.        822   *[0m
+[32m*   Pass Pattern No.        823   *[0m
+[32m*   Pass Pattern No.        824   *[0m
+[32m*   Pass Pattern No.        825   *[0m
+[32m*   Pass Pattern No.        826   *[0m
+[32m*   Pass Pattern No.        827   *[0m
+[32m*   Pass Pattern No.        828   *[0m
+[32m*   Pass Pattern No.        829   *[0m
+[32m*   Pass Pattern No.        830   *[0m
+[32m*   Pass Pattern No.        831   *[0m
+[32m*   Pass Pattern No.        832   *[0m
+[32m*   Pass Pattern No.        833   *[0m
+[32m*   Pass Pattern No.        834   *[0m
+[32m*   Pass Pattern No.        835   *[0m
+[32m*   Pass Pattern No.        836   *[0m
+[32m*   Pass Pattern No.        837   *[0m
+[32m*   Pass Pattern No.        838   *[0m
+[32m*   Pass Pattern No.        839   *[0m
+[32m*   Pass Pattern No.        840   *[0m
+[32m*   Pass Pattern No.        841   *[0m
+[32m*   Pass Pattern No.        842   *[0m
+[32m*   Pass Pattern No.        843   *[0m
+[32m*   Pass Pattern No.        844   *[0m
+[32m*   Pass Pattern No.        845   *[0m
+[32m*   Pass Pattern No.        846   *[0m
+[32m*   Pass Pattern No.        847   *[0m
+[32m*   Pass Pattern No.        848   *[0m
+[32m*   Pass Pattern No.        849   *[0m
+[32m*   Pass Pattern No.        850   *[0m
+[32m*   Pass Pattern No.        851   *[0m
+[32m*   Pass Pattern No.        852   *[0m
+[32m*   Pass Pattern No.        853   *[0m
+[32m*   Pass Pattern No.        854   *[0m
+[32m*   Pass Pattern No.        855   *[0m
+[32m*   Pass Pattern No.        856   *[0m
+[32m*   Pass Pattern No.        857   *[0m
+[32m*   Pass Pattern No.        858   *[0m
+[32m*   Pass Pattern No.        859   *[0m
+[32m*   Pass Pattern No.        860   *[0m
+[32m*   Pass Pattern No.        861   *[0m
+[32m*   Pass Pattern No.        862   *[0m
+[32m*   Pass Pattern No.        863   *[0m
+[32m*   Pass Pattern No.        864   *[0m
+[32m*   Pass Pattern No.        865   *[0m
+[32m*   Pass Pattern No.        866   *[0m
+[32m*   Pass Pattern No.        867   *[0m
+[32m*   Pass Pattern No.        868   *[0m
+[32m*   Pass Pattern No.        869   *[0m
+[32m*   Pass Pattern No.        870   *[0m
+[32m*   Pass Pattern No.        871   *[0m
+[32m*   Pass Pattern No.        872   *[0m
+[32m*   Pass Pattern No.        873   *[0m
+[32m*   Pass Pattern No.        874   *[0m
+[32m*   Pass Pattern No.        875   *[0m
+[32m*   Pass Pattern No.        876   *[0m
+[32m*   Pass Pattern No.        877   *[0m
+[32m*   Pass Pattern No.        878   *[0m
+[32m*   Pass Pattern No.        879   *[0m
+[32m*   Pass Pattern No.        880   *[0m
+[32m*   Pass Pattern No.        881   *[0m
+[32m*   Pass Pattern No.        882   *[0m
+[32m*   Pass Pattern No.        883   *[0m
+[32m*   Pass Pattern No.        884   *[0m
+[32m*   Pass Pattern No.        885   *[0m
+[32m*   Pass Pattern No.        886   *[0m
+[32m*   Pass Pattern No.        887   *[0m
+[32m*   Pass Pattern No.        888   *[0m
+[32m*   Pass Pattern No.        889   *[0m
+[32m*   Pass Pattern No.        890   *[0m
+[32m*   Pass Pattern No.        891   *[0m
+[32m*   Pass Pattern No.        892   *[0m
+[32m*   Pass Pattern No.        893   *[0m
+[32m*   Pass Pattern No.        894   *[0m
+[32m*   Pass Pattern No.        895   *[0m
+[32m*   Pass Pattern No.        896   *[0m
+[32m*   Pass Pattern No.        897   *[0m
+[32m*   Pass Pattern No.        898   *[0m
+[32m*   Pass Pattern No.        899   *[0m
+[32m*   Pass Pattern No.        900   *[0m
+[32m*   Pass Pattern No.        901   *[0m
+[32m*   Pass Pattern No.        902   *[0m
+[32m*   Pass Pattern No.        903   *[0m
+[32m*   Pass Pattern No.        904   *[0m
+[32m*   Pass Pattern No.        905   *[0m
+[32m*   Pass Pattern No.        906   *[0m
+[32m*   Pass Pattern No.        907   *[0m
+[32m*   Pass Pattern No.        908   *[0m
+[32m*   Pass Pattern No.        909   *[0m
+[32m*   Pass Pattern No.        910   *[0m
+[32m*   Pass Pattern No.        911   *[0m
+[32m*   Pass Pattern No.        912   *[0m
+[32m*   Pass Pattern No.        913   *[0m
+[32m*   Pass Pattern No.        914   *[0m
+[32m*   Pass Pattern No.        915   *[0m
+[32m*   Pass Pattern No.        916   *[0m
+[32m*   Pass Pattern No.        917   *[0m
+[32m*   Pass Pattern No.        918   *[0m
+[32m*   Pass Pattern No.        919   *[0m
+[32m*   Pass Pattern No.        920   *[0m
+[32m*   Pass Pattern No.        921   *[0m
+[32m*   Pass Pattern No.        922   *[0m
+[32m*   Pass Pattern No.        923   *[0m
+[32m*   Pass Pattern No.        924   *[0m
+[32m*   Pass Pattern No.        925   *[0m
+[32m*   Pass Pattern No.        926   *[0m
+[32m*   Pass Pattern No.        927   *[0m
+[32m*   Pass Pattern No.        928   *[0m
+[32m*   Pass Pattern No.        929   *[0m
+[32m*   Pass Pattern No.        930   *[0m
+[32m*   Pass Pattern No.        931   *[0m
+[32m*   Pass Pattern No.        932   *[0m
+[32m*   Pass Pattern No.        933   *[0m
+[32m*   Pass Pattern No.        934   *[0m
+[32m*   Pass Pattern No.        935   *[0m
+[32m*   Pass Pattern No.        936   *[0m
+[32m*   Pass Pattern No.        937   *[0m
+[32m*   Pass Pattern No.        938   *[0m
+[32m*   Pass Pattern No.        939   *[0m
+[32m*   Pass Pattern No.        940   *[0m
+[32m*   Pass Pattern No.        941   *[0m
+[32m*   Pass Pattern No.        942   *[0m
+[32m*   Pass Pattern No.        943   *[0m
+[32m*   Pass Pattern No.        944   *[0m
+[32m*   Pass Pattern No.        945   *[0m
+[32m*   Pass Pattern No.        946   *[0m
+[32m*   Pass Pattern No.        947   *[0m
+[32m*   Pass Pattern No.        948   *[0m
+[32m*   Pass Pattern No.        949   *[0m
+[32m*   Pass Pattern No.        950   *[0m
+[32m*   Pass Pattern No.        951   *[0m
+[32m*   Pass Pattern No.        952   *[0m
+[32m*   Pass Pattern No.        953   *[0m
+[32m*   Pass Pattern No.        954   *[0m
+[32m*   Pass Pattern No.        955   *[0m
+[32m*   Pass Pattern No.        956   *[0m
+[32m*   Pass Pattern No.        957   *[0m
+[32m*   Pass Pattern No.        958   *[0m
+[32m*   Pass Pattern No.        959   *[0m
+[32m*   Pass Pattern No.        960   *[0m
+[32m*   Pass Pattern No.        961   *[0m
+[32m*   Pass Pattern No.        962   *[0m
+[32m*   Pass Pattern No.        963   *[0m
+[32m*   Pass Pattern No.        964   *[0m
+[32m*   Pass Pattern No.        965   *[0m
+[32m*   Pass Pattern No.        966   *[0m
+[32m*   Pass Pattern No.        967   *[0m
+[32m*   Pass Pattern No.        968   *[0m
+[32m*   Pass Pattern No.        969   *[0m
+[32m*   Pass Pattern No.        970   *[0m
+[32m*   Pass Pattern No.        971   *[0m
+[32m*   Pass Pattern No.        972   *[0m
+[32m*   Pass Pattern No.        973   *[0m
+[32m*   Pass Pattern No.        974   *[0m
+[32m*   Pass Pattern No.        975   *[0m
+[32m*   Pass Pattern No.        976   *[0m
+[32m*   Pass Pattern No.        977   *[0m
+[32m*   Pass Pattern No.        978   *[0m
+[32m*   Pass Pattern No.        979   *[0m
+[32m*   Pass Pattern No.        980   *[0m
+[32m*   Pass Pattern No.        981   *[0m
+[32m*   Pass Pattern No.        982   *[0m
+[32m*   Pass Pattern No.        983   *[0m
+[32m*   Pass Pattern No.        984   *[0m
+[32m*   Pass Pattern No.        985   *[0m
+[32m*   Pass Pattern No.        986   *[0m
+[32m*   Pass Pattern No.        987   *[0m
+[32m*   Pass Pattern No.        988   *[0m
+[32m*   Pass Pattern No.        989   *[0m
+[32m*   Pass Pattern No.        990   *[0m
+[32m*   Pass Pattern No.        991   *[0m
+[32m*   Pass Pattern No.        992   *[0m
+[32m*   Pass Pattern No.        993   *[0m
+[32m*   Pass Pattern No.        994   *[0m
+[32m*   Pass Pattern No.        995   *[0m
+[32m*   Pass Pattern No.        996   *[0m
+[32m*   Pass Pattern No.        997   *[0m
+[32m*   Pass Pattern No.        998   *[0m
+[32m*   Pass Pattern No.        999   *[0m
+********************************************************************
+                        [0;38;5;219mCongratulations![m      
+                 [0;38;5;219mYou have passed all patterns![m
+                 [0;38;5;219mTOTAL CYCLE IS:       12172[m
+********************************************************************
+Simulation complete via $finish(1) at time 425460 NS + 3
+ncsim> exit

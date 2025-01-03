@@ -1,0 +1,85 @@
+Magic 271485
+Revision Verdi_P-2019.06
+
+; Window Layout <x> <y> <width> <height> <signalwidth> <valuewidth>
+viewPort 281 124 1195 517 154 65
+
+; File list:
+; openDirFile [-d delimiter] [-s time_offset] [-rf auto_bus_rule_file] path_name file_name
+openDirFile -d / "" "/RAID2/COURSE/iclab/iclab131/Lab02/Exercise/01_RTL/BB.fsdb"
+
+; file time scale:
+; fileTimeScale ### s|ms|us|ns|ps
+
+; signal spacing:
+signalSpacing 5
+
+; windowTimeUnit is used for zoom, cursor & marker
+; waveform viewport range
+zoom 0.000000 124735.000000
+cursor 1090000.000000
+marker 0.000000
+
+; user define markers
+; userMarker time_pos marker_name color linestyle
+; visible top row signal index
+top 0
+; marker line index
+markerPos 14
+
+; event list
+; addEvent event_name event_expression
+; curEvent event_name
+
+
+
+COMPLEX_EVENT_BEGIN
+
+
+COMPLEX_EVENT_END
+
+
+
+; toolbar current search type
+; curSTATUS search_type
+curSTATUS ByChange
+
+
+addGroup "G1"
+activeDirFile "" "/RAID2/COURSE/iclab/iclab131/Lab02/Exercise/01_RTL/BB.fsdb"
+addSignal -h 15 /TESTBED/clk
+addSignal -h 15 -holdScope half
+addSignal -h 15 -holdScope in_valid
+addSignal -h 15 -holdScope inning[1:0]
+addSignal -h 15 -holdScope rst_n
+addSignal -h 15 /TESTBED/u_BB/in_valid
+addSignal -h 15 /TESTBED/action[2:0]
+addSignal -h 15 /TESTBED/u_BB/out[1:0]
+addSignal -h 15 -holdScope out_reg[1:0]
+addSignal -h 15 -UNSIGNED -BIN -holdScope base[2:0]
+addSignal -h 15 -UNSIGNED -BIN -holdScope base_reg[2:0]
+addSignal -h 15 -UNSIGNED -BIN -holdScope base_reg[6:0]
+addSignal -h 15 -holdScope hold
+addSignal -h 15 -holdScope half_delay
+addSignal -h 15 -holdScope score[1:0]
+addGroup "G2"
+
+; getSignalForm Scope Hierarchy Status
+; active file of getSignalForm
+activeDirFile "" "/RAID2/COURSE/iclab/iclab131/Lab02/Exercise/01_RTL/BB.fsdb"
+
+GETSIGNALFORM_SCOPE_HIERARCHY_BEGIN
+getSignalForm close
+
+"/TESTBED"
+"/TESTBED/u_BB"
+
+SCOPE_LIST_BEGIN
+"/TESTBED"
+"/TESTBED/u_PATTERN"
+"/TESTBED/u_BB"
+SCOPE_LIST_END
+
+GETSIGNALFORM_SCOPE_HIERARCHY_END
+
+
